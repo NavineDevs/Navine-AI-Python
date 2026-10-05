@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.20443v1",
+  "title": "Topological Data Analysis for High-Dimensional Dynamic Process Monitoring",
+  "text": "Topological Data Analysis for High-Dimensional Dynamic Process Monitoring\n\nReal-time process monitoring requires methods that extract actionable information from high-dimensional time-series data. In this work, we present a new approach for process monitoring that combines tools of topological data analysis (TDA) and machine learning. In the proposed approach, we represent multivariate time-series data as manifolds and use topological descriptors to summarize the structure of such data; we then use a neural ordinary differential equation to learn the dynamic evolution of the topological structure of the system. Using real data from an industrial process, we show that this trajectory-based event detection approach is effective at detecting diverse types of events. We contrast this approach against reconstruction-based approaches such as principal component analysis and autoencoders and against a trajectory-based approach that uses Koopman autoencoders.",
+  "url": "https://arxiv.org/abs/2606.20443v1",
+  "category": "technical"
+}

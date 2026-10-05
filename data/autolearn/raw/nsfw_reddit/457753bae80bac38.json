@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfw:t3_1u4bdsz:rss:img:1",
+  "title": "Candice dancing",
+  "text": "Candice dancing",
+  "url": "https://www.reddit.com/r/nsfw/comments/1u4bdsz/candice_dancing/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://external-preview.redd.it/lw0MYPOLglp5CZJDkqKOtQZRK-gIkYQxHrW5cfFy_bc.jpeg?width=640&crop=smart&auto=webp&s=38434dba5fd80ba8a476d30bcb223e371ad2699e",
+  "caption": "Candice dancing | [mixed, image] | tags: nsfw, unknown | [image] | [image] | [image]",
+  "subreddit": "nsfw",
+  "media_category": "mixed",
+  "tags": [
+    "mixed",
+    "nsfw"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "source_group": "mixed"
+}

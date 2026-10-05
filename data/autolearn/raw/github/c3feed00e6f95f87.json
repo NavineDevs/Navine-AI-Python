@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:hahwul/XSpear:lib/XSpear/version.rb",
+  "title": "hahwul/XSpear/lib/XSpear/version.rb",
+  "text": "module XSpear\n  VERSION = \"1.4.1\"\nend\n",
+  "url": "https://raw.githubusercontent.com/hahwul/XSpear/master/lib/XSpear/version.rb",
+  "language": "ruby",
+  "kind": "code"
+}

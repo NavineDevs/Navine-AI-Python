@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:tools/test_common.rb",
+  "title": "rails/rails/tools/test_common.rb",
+  "text": "# frozen_string_literal: true\n\nrequire_relative \"support/leak_checker\"\n\nActiveSupport::TestCase.alias_method :force_skip, :skip\n\nENV[\"RAILS_TEST_EXECUTABLE\"] = \"bin/test\"\n\nif ENV[\"BUILDKITE\"]\n  ENV.delete(\"CI\") # CI has affect on the applications, and we don't want it applied to the apps.\n  module DisableSkipping # :nodoc:\n    private\n      def skip(message = nil, *)\n        flunk \"Skipping tests is not allowed in this environment (#{message})\\n\" \\\n          \"Tests should only be skipped when the environment is missing a required dependency.\\n\" \\\n          \"This should never happen on CI.\"\n      end\n  end\n  ActiveSupport::TestCase.include(DisableSkipping)\nend\n\nActiveSupport::TestCase.prepend(LeakChecker)\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/tools/test_common.rb",
+  "language": "ruby",
+  "kind": "code"
+}

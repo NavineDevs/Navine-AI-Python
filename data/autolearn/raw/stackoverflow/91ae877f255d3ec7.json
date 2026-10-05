@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:1026069",
+  "title": "How do I make the first letter of a string uppercase in JavaScript?",
+  "text": "How do I make the first letter of a string uppercase in JavaScript?\n\n<p>How do I make the first character of a string uppercase if it's a letter, but not change the case of any of the other letters?</p>\n<p>For example:</p>\n<ul>\n<li><code>&quot;this is a test&quot;</code> → <code>&quot;This is a test&quot;</code></li>\n<li><code>&quot;the Eiffel Tower&quot;</code> → <code>&quot;The Eiffel Tower&quot;</code></li>\n<li><code>&quot;/index.html&quot;</code> → <code>&quot;/index.html&quot;</code></li>\n</ul>",
+  "url": "https://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript",
+  "kind": "qa"
+}

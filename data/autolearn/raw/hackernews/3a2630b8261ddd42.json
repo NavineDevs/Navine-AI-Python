@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48583407",
+  "title": "Excessive nil pointer checks in Go",
+  "text": "Excessive nil pointer checks in Go",
+  "url": "https://konradreiche.com/blog/excessive-nil-pointer-checks-in-go/"
+}

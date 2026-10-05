@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.06550v1",
+  "title": "Quantum combinatorial games",
+  "text": "Quantum combinatorial games\n\nA combinatorial game is a deterministic game with no hidden information played between two opponents such as tic-tac-toe, checkers or chess. In this paper we extend combinatorial games to the quantum setting, by first revisiting and reformulating existing theory of classical combinatorial games. We investigate in which case a quantum opponent has an advantage over a classical one. Surprisingly, our instantiation of Zermelo's classical theorem in the quantum setting shows that the effects of quantum mechanics do not convey an advantage against a classical player that plays a perfect classical strategy. In a more realistic scenario, when the classical player makes mistakes, we show how the quantum opponent can amplify the mistake to increase their chance of winning. Our theory has application beyond the mere playing of board games and can be used as a tool in finite deterministic adversarial models with perfect information.",
+  "url": "https://arxiv.org/abs/2607.06550v1",
+  "category": "technical"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vwyc6u",
+  "title": "Is it worth it to type alias numeric types?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m coming from Python and liked using type hints, so now in Rust I want to take advantage of the type system, also for semantic differences.</p> <p>So I have Offsets that are u16, Addresses which are u32, Bytes which are u8 etc.</p> <p>Looks good in practice, but now I find myself constantly having to `as u8` things, when doing arithmetic with those types.</p> <p>Or when I did `struct Address(pub u32)` I now seemingly have to re-implement all the `Add&lt;T&gt;` and other math traits for this type and can&#39;t even do `as u32` anymore.</p> <p>I&#39;m wondering if there is an easier way to do this, or if it&#39;s not worth the effort in your experience.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Professional-Bus4886\"> /u/Professional-Bus4886 </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1vwyc6u/is_it_worth_it_to_type_alias_numeric_types/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vwyc6u/is_it_worth_it_to_type_alias_numeric_types/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vwyc6u/is_it_worth_it_to_type_alias_numeric_types/"
+}

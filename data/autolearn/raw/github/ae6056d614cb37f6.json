@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:compiler-sfc/index.d.ts",
+  "title": "vuejs/vue/compiler-sfc/index.d.ts",
+  "text": "export * from '@vue/compiler-sfc'\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/compiler-sfc/index.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

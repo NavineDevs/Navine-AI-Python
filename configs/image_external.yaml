@@ -1,0 +1,183 @@
+secondary_path: true
+
+teacher_role: external_diffusion
+
+
+
+model:
+
+  image_size: 256
+
+  in_channels: 3
+
+  base_channels: 64
+
+  channel_mults: [1, 2, 4, 4]
+
+  num_res_blocks: 2
+
+  time_emb_dim: 384
+
+  text_emb_dim: 256
+
+
+
+diffusion:
+
+  timesteps: 200
+
+  beta_start: 0.0001
+
+  beta_end: 0.02
+
+
+
+inference:
+
+  num_steps: 28
+
+  guidance_scale: 7.5
+
+  seed: 42
+
+  output_size: 512
+
+  prefer_trained_model: false
+
+  custom_trained_only: false
+
+  allow_reference_fallback: false
+
+  procedural_only_when_untrained: false
+
+  apply_reference_guide: false
+
+  backend_order:
+
+    - diffusers
+
+    - checkpoint
+
+  diffusers:
+
+    enabled: true
+
+    model_id: runwayml/stable-diffusion-v1-5
+
+    pipeline: stable_diffusion
+
+    width: 512
+
+    height: 512
+
+    num_inference_steps: 28
+
+    guidance_scale: 7.5
+
+    negative_prompt: blurry, low quality, deformed, ugly, bad anatomy, watermark, text
+
+  scheduler: ddim
+
+  postprocess: true
+
+  postprocess_upscale: false
+
+
+
+teacher_models:
+
+  default: sd15
+
+  rotation:
+
+    - sd15
+
+    - sd_turbo
+
+  profiles:
+
+    sd15:
+
+      label: Stable Diffusion 1.5
+
+      model_id: runwayml/stable-diffusion-v1-5
+
+      pipeline: stable_diffusion
+
+      width: 512
+
+      height: 512
+
+      num_inference_steps: 28
+
+      guidance_scale: 7.5
+
+      cpu_ok: true
+
+    sd_turbo:
+
+      label: SD Turbo (fast, fewer steps)
+
+      model_id: stabilityai/sd-turbo
+
+      pipeline: turbo
+
+      width: 512
+
+      height: 512
+
+      num_inference_steps: 4
+
+      guidance_scale: 0.0
+
+      cpu_ok: true
+
+    sd15_lcm:
+
+      label: SD 1.5 LCM (fast latent consistency)
+
+      model_id: latent-consistency/lcm-lora-sdv1-5
+
+      pipeline: stable_diffusion
+
+      width: 512
+
+      height: 512
+
+      num_inference_steps: 8
+
+      guidance_scale: 1.5
+
+      cpu_ok: true
+
+    sdxl:
+
+      label: Stable Diffusion XL (GPU recommended, 1024px)
+
+      model_id: stabilityai/stable-diffusion-xl-base-1.0
+
+      pipeline: sdxl
+
+      width: 1024
+
+      height: 1024
+
+      num_inference_steps: 30
+
+      guidance_scale: 7.5
+
+      requires_gpu: true
+
+      cpu_ok: false
+
+
+
+learn:
+
+  output_dir: data/learn/external/images
+
+  save_captions: true
+
+  teacher_source: huggingface_diffusers
+
+

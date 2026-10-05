@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:nestjs/nest:hooks/mocha-init-hook.ts",
+  "title": "nestjs/nest/hooks/mocha-init-hook.ts",
+  "text": "export const mochaHooks = (): Mocha.RootHookObject => {\n  return {\n    async beforeAll(this: Mocha.Context) {\n      await import('reflect-metadata');\n    },\n  };\n};\n",
+  "url": "https://raw.githubusercontent.com/nestjs/nest/master/hooks/mocha-init-hook.ts",
+  "language": "typescript",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:tach-org/tach:python/tach/console.py",
+  "title": "tach-org/tach/python/tach/console.py",
+  "text": "from __future__ import annotations\n\nfrom rich.console import Console\n\nconsole = Console(highlight=False)\nconsole_err = Console(highlight=False, stderr=True)\n",
+  "url": "https://raw.githubusercontent.com/tach-org/tach/main/python/tach/console.py",
+  "language": "python",
+  "kind": "code"
+}

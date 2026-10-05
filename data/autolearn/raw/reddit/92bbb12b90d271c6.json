@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1u4ddsn",
+  "title": "New cross-platform library for keyboard and mouse events",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"/r/rust\">r/rust</a>,</p> <p>I have just published a small library, xavkeyboardandmousegrabber, to read, block, and simulate keyboard and mouse events. It supports Linux, macOS, and Windows, with some limitations. Here is a link to the project: <a href=\"https://github.com/XavierF-C/xavkeyboardandmousegrabber\">https://github.com/XavierF-C/xavkeyboardandmousegrabber</a></p> <p>One thing worth mentioning is that the library can read and block events for a specific device.</p> <p>The project began in late 2024 to create a new software KVM as an alternative to existing ones like Barrier. I intend to share the KVM project in the coming days.</p> <p>Hope you find this interesting!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Traxore\"> /u/Traxore </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1u4ddsn/new_crossplatform_library_for_keyboard_and_mouse/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1u4ddsn/new_crossplatform_library_for_keyboard_and_mouse/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1u4ddsn/new_crossplatform_library_for_keyboard_and_mouse/"
+}

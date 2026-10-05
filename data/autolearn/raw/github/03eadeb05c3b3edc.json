@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ohmyzsh/ohmyzsh:lib/nvm.zsh",
+  "title": "ohmyzsh/ohmyzsh/lib/nvm.zsh",
+  "text": "# get the nvm-controlled node.js version\nfunction nvm_prompt_info() {\n  which nvm &>/dev/null || return\n  local nvm_prompt=${$(nvm current)#v}\n  echo \"${ZSH_THEME_NVM_PROMPT_PREFIX}${nvm_prompt:gs/%/%%}${ZSH_THEME_NVM_PROMPT_SUFFIX}\"\n}\n",
+  "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/nvm.zsh",
+  "language": "shell",
+  "kind": "code"
+}

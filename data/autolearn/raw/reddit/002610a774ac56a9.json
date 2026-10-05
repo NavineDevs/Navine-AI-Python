@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:cpp:t3_1tzda95",
+  "title": "Your stdlib implementation matters more than the dispatch pattern",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>A few weeks ago I posted about why std::variant + std::visit can be slower than a vtable and got called out for benchmarking on GCC 11. So I went back and reran everything across GCC 9 through 15. std::variant went from 28% slower than virtual on GCC 11 to 40% faster on GCC 12. I spent a while reading through libstdc++&#39;s variant header to understand what changed. GCC 12 swapped the function pointer table in std::visit for a switch when there are 11 or fewer alternatives. The posts dig into how each stdlib handles visit dispatch.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AdMotor4869\"> /u/AdMotor4869 </a> <br/> <span><a href=\"https://shubhankar-gambhir.github.io/posts/your-stdlib-implementation-matters-more-than-the-dispatch-pattern/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cpp/comments/1tzda95/your_stdlib_implementation_matters_more_than_the/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/cpp/comments/1tzda95/your_stdlib_implementation_matters_more_than_the/"
+}

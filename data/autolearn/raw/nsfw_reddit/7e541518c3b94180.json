@@ -1,0 +1,23 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfw:t3_1ucikwk:rss:link:2",
+  "title": "Polina",
+  "text": "Polina",
+  "url": "https://old.reddit.com/r/nsfw/comments/1ucikwk/polina/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://i.redd.it/282sh5zypt8h1.jpeg",
+  "caption": "Polina | [mixed, image] | tags: nsfw, unknown | [real, image] | tags: photography | [image] | [image]",
+  "subreddit": "nsfw",
+  "media_category": "real",
+  "tags": [
+    "mixed",
+    "nsfw",
+    "real",
+    "photography"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

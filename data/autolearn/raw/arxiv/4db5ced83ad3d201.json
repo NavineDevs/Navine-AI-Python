@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.16881v1",
+  "title": "Simplicial Actions for Distributed Protocols",
+  "text": "Simplicial Actions for Distributed Protocols\n\nThis paper captures and extends some of the core results from the tech memo \"A New Semantics for Belief Revision in Simplicial Complexes\". As such, we set out to explore the implementation of action models in the setting of simplicial semantics for modal logic. Such an idea is not entirely new to the literature, showing up in both \"A simplicial complex model for dynamic epistemic logic to study distributed task computability\" and \"Knowledge and Simplicial Complexes\". However, we will explore action models in a more general setting. In particular, we will allow for action models for simplicial models for belief, as in \"A Semantics for Belief in Simplicial Complexes\". This will let us incorporate the notion of belief revision, as developed in \"Simplicial Semantics for Belief Revision\", into these action models. Moreover, we explicitly connect action models in the simplicial setting to distributed protocols as defined in the textbook \"Distributed Computing Through Combinatorial Topology\". We conclude with some speculation on how we might interpret distributed protocols with revision.",
+  "url": "https://arxiv.org/abs/2608.16881v1",
+  "category": "technical"
+}

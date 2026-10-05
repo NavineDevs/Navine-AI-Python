@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sorin-ionescu/prezto:modules/haskell/init.zsh",
+  "title": "sorin-ionescu/prezto/modules/haskell/init.zsh",
+  "text": "#\n# Enables local Haskell package installation.\n#\n# Authors:\n#   Sebastian Wiesner <lunaryorn@googlemail.com>\n#\n\n# Return if requirements are not found.\nif (( ! $+commands[ghc] )); then\n  return 1\nfi\n\n# Load dependencies.\npmodload 'helper'\n\n# Prepend Cabal per user directories to PATH.\nif is-darwin && [[  -d $HOME/Library/Haskell ]]; then\n  path=($HOME/Library/Haskell/bin(/N) $path)\nelse\n  path=($HOME/.cabal/bin(/N) $path)\nfi\n",
+  "url": "https://raw.githubusercontent.com/sorin-ionescu/prezto/master/modules/haskell/init.zsh",
+  "language": "shell",
+  "kind": "code"
+}

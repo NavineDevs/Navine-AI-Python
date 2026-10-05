@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:vid:data\\nsfw\\local\\animated\\gif_1781222501307214.webm",
+  "title": "gif_1781222501307214",
+  "text": "gif_1781222501307214",
+  "url": "data\\nsfw\\videos\\local\\animated\\gif_1781222501307214_1781421122611139200.webm",
+  "category": "nsfw",
+  "kind": "video",
+  "video_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\videos\\local\\animated\\gif_1781222501307214_1781421122611139200.webm",
+  "caption": "gif_1781222501307214 | [animated, video] | tags: local, unknown | [video]",
+  "media_category": "animated",
+  "topic": "animated",
+  "tags": [
+    "animated",
+    "local",
+    "video"
+  ],
+  "subject_type": "unknown",
+  "style_type": "mixed",
+  "training_scope": "nsfw"
+}

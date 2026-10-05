@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:krahets/hello-algo:codes/python/test_all.py",
+  "title": "krahets/hello-algo/codes/python/test_all.py",
+  "text": "import os\nimport glob\nimport subprocess\n\nenv = os.environ.copy()\nenv[\"PYTHONIOENCODING\"] = \"utf-8\"\n\nif __name__ == \"__main__\":\n    # find source code files\n    src_paths = sorted(glob.glob(\"chapter_*/*.py\"))\n    errors = []\n\n    # run python code\n    for src_path in src_paths:\n        process = subprocess.Popen(\n            [\"python\", src_path],\n            stdout=subprocess.PIPE,\n            stderr=subprocess.PIPE,\n            text=True,\n            env=env,\n            encoding='utf-8'\n        )\n        # Wait for the process to complete, and get the output and error messages\n        stdout, stderr = process.communicate()\n        # Check the exit status\n        exit_status = process.returncode\n        if exit_status != 0:\n            errors.append(stderr)\n\n    print(f\"Tested {len(src_paths)} files\")\n    print(f\"Found exception in {len(errors)} files\")\n    if len(errors) > 0:\n        raise RuntimeError(\"\\n\\n\".join(errors))\n",
+  "url": "https://raw.githubusercontent.com/krahets/hello-algo/main/codes/python/test_all.py",
+  "language": "python",
+  "kind": "code"
+}

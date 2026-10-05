@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/commitlint.config.js",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/commitlint.config.js",
+  "text": "module.exports = {\n  ignores: [(commit) => commit.includes('init')],\n  extends: ['@commitlint/config-conventional'],\n  rules: {\n    'body-leading-blank': [2, 'always'],\n    'footer-leading-blank': [1, 'always'],\n    'header-max-length': [2, 'always', 108],\n    'subject-empty': [2, 'never'],\n    'type-empty': [2, 'never'],\n    'type-enum': [\n      2,\n      'always',\n      [\n        'feat',\n        'fix',\n        'perf',\n        'style',\n        'docs',\n        'test',\n        'refactor',\n        'build',\n        'ci',\n        'chore',\n        'revert',\n        'wip',\n        'workflow',\n        'types',\n        'release',\n      ],\n    ],\n  },\n};\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/commitlint.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

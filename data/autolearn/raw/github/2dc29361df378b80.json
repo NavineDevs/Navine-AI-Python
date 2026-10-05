@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:2dust/v2rayN:v2rayN/v2rayN/AssemblyInfo.cs",
+  "title": "2dust/v2rayN/v2rayN/v2rayN/AssemblyInfo.cs",
+  "text": "[assembly: ThemeInfo(\n    ResourceDictionaryLocation.None, //where theme specific resource dictionaries are located\n                                     //(used if a resource is not found in the page,\n                                     // or application resource dictionaries)\n    ResourceDictionaryLocation.SourceAssembly //where the generic resource dictionary is located\n                                              //(used if a resource is not found in the page,\n                                              // app, or any theme specific resource dictionaries)\n)]\n",
+  "url": "https://raw.githubusercontent.com/2dust/v2rayN/master/v2rayN/v2rayN/AssemblyInfo.cs",
+  "language": "csharp",
+  "kind": "code"
+}

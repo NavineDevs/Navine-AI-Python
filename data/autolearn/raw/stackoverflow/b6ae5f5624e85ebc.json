@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:59895",
+  "title": "How do I get the directory where a Bash script is located from within the script itself?",
+  "text": "How do I get the directory where a Bash script is located from within the script itself?\n\n<p>How do I get the path of the directory in which a <a href=\"http://en.wikipedia.org/wiki/Bash_%28Unix_shell%29\" rel=\"noreferrer\">Bash</a> script is located, <em>inside</em> that script?</p>\n<p>I want to use a Bash script as a launcher for another application. I want to change the working directory to the one where the Bash script is located, so I can operate on the files in that directory, like so:</p>\n<pre><code>$ ./application\n</code></pre>",
+  "url": "https://stackoverflow.com/questions/59895/how-do-i-get-the-directory-where-a-bash-script-is-located-from-within-the-script",
+  "kind": "qa"
+}

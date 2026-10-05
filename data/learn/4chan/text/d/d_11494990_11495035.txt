@@ -1,0 +1,1 @@
+>>11495030 you'd check the checkbox to the left of the name field and click "delete" bottom right (selecting "file only" bottom right will only delete the attached media, as you would expect)

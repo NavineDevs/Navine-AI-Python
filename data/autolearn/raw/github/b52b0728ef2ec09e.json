@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:gin-gonic/gin:fs_test.go",
+  "title": "gin-gonic/gin/fs_test.go",
+  "text": "package gin\n\nimport (\n\t\"errors\"\n\t\"net/http\"\n\t\"os\"\n\t\"testing\"\n\n\t\"github.com/stretchr/testify/assert\"\n\t\"github.com/stretchr/testify/require\"\n)\n\ntype mockFileSystem struct {\n\topen func(name string) (http.File, error)\n}\n\nfunc (m *mockFileSystem) Open(name string) (http.File, error) {\n\treturn m.open(name)\n}\n\nfunc TestOnlyFilesFS_Open(t *testing.T) {\n\tvar testFile *os.File\n\tmockFS := &mockFileSystem{\n\t\topen: func(name string) (http.File, error) {\n\t\t\treturn testFile, nil\n\t\t},\n\t}\n\tfs := &OnlyFilesFS{FileSystem: mockFS}\n\n\tfile, err := fs.Open(\"foo\")\n\n\trequire.NoError(t, err)\n\tassert.Equal(t, testFile, file.(neutralizedReaddirFile).File)\n}\n\nfunc TestOnlyFilesFS_Open_err(t *testing.T) {\n\ttestError := errors.New(\"mock\")\n\tmockFS := &mockFileSystem{\n\t\topen: func(_ string) (http.File, error) {\n\t\t\treturn nil, testError\n\t\t},\n\t}\n\tfs := &OnlyFilesFS{FileSystem: mockFS}\n\n\tfile, err := fs.Open(\"foo\")\n\n\trequire.ErrorIs(t, err, testError)\n\tassert.Nil(t, file)\n}\n\nfunc Test_neuteredReaddirFile_Readdir(t *testing.T) {\n\tn := neutralizedReaddirFile{}\n\n\tres, err := n.Readdir(0)\n\n\trequire.NoError(t, err)\n\tassert.Nil(t, res)\n}\n\nfunc TestDir_listDirectory(t *testing.T) {\n\ttestRoot := \"foo\"\n\tfs := Dir(testRoot, true)\n\n\tassert.Equal(t, http.Dir(testRoot), fs)\n}\n\nfunc TestDir(t *testing.T) {\n\ttestRoot := \"foo\"\n\tfs := Dir(testRoot, false)\n\n\tassert.Equal(t, &OnlyFilesFS{FileSystem: http.Dir(testRoot)}, fs)\n}\n",
+  "url": "https://raw.githubusercontent.com/gin-gonic/gin/master/fs_test.go",
+  "language": "go",
+  "kind": "code"
+}

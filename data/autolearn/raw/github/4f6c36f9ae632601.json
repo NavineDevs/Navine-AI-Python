@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:swiftlang/swift:utils/create-filecheck-test.py",
+  "title": "swiftlang/swift/utils/create-filecheck-test.py",
+  "text": "#!/usr/bin/env python3\n\n# The following script takes as input a SIL fragment and changes all\n# SSA variables into FileCheck variables. This significantly reduces\n# the amount of time required for creating complicated FileCheck\n# Tests.\n\nimport argparse\nimport re\nimport sys\nimport textwrap\n\nparser = argparse.ArgumentParser(description=textwrap.dedent(\"\"\"\nTakes an input SIL fragment and changes all SSA variables into FileCheck\nvariables.\n\"\"\"))\n\nparser.add_argument('input', type=argparse.FileType('r'),\n                    help='Input file. \\'-\\' for stdin.')\nparser.add_argument('-o', type=argparse.FileType('w'),\n                    metavar='output',\n                    help='Output file. Defaults to stdout.',\n                    default=sys.stdout)\n\nargs = parser.parse_args()\n\nseen_variables = set([])\nssa_re = re.compile(r'[%](\\d+)')\nfor line in args.input.readlines():\n    line = line[:line.find('//')].rstrip() + \"\\n\"\n    have_match = False\n    for match in ssa_re.finditer(line):\n        have_match = True\n        var = match.groups()[0]\n        if var not in seen_variables:\n            line = line.replace('%' + var, '[[VAR_%s:%%[0-9]+]]' % var)\n            seen_variables.add(var)\n        else:\n            line = line.replace('%' + var, '[[VAR_%s]]' % var)\n    if have_match:\n        line = '// CHECK: ' + line\n    args.o.write(line)\n",
+  "url": "https://raw.githubusercontent.com/swiftlang/swift/main/utils/create-filecheck-test.py",
+  "language": "python",
+  "kind": "code"
+}

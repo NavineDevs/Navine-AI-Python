@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:heroui-inc/heroui:packages/testing/globals.d.ts",
+  "title": "heroui-inc/heroui/packages/testing/globals.d.ts",
+  "text": "/// <reference types=\"vitest/globals\" />\n/// <reference types=\"@testing-library/jest-dom\" />\n",
+  "url": "https://raw.githubusercontent.com/heroui-inc/heroui/v3/packages/testing/globals.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

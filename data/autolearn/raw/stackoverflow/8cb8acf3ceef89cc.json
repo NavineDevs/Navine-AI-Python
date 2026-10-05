@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:79923",
+  "title": "What and where are the stack and heap?",
+  "text": "What and where are the stack and heap?\n\n<ul>\n<li>What are the stack and heap?</li>\n<li>Where are they located physically in a computer's memory?</li>\n<li>To what extent are they controlled by the OS or language run-time?</li>\n<li>What is their scope?</li>\n<li>What determines their sizes?</li>\n<li>What makes one faster?</li>\n</ul>",
+  "url": "https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap",
+  "kind": "qa"
+}

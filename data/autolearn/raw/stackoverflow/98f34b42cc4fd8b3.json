@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:221294",
+  "title": "How do I get a timestamp in JavaScript?",
+  "text": "How do I get a timestamp in JavaScript?\n\n<p>I want a single number that represents the current date and time, like a <a href=\"https://en.wikipedia.org/wiki/Unix_time\" rel=\"noreferrer\">Unix timestamp</a>.</p>",
+  "url": "https://stackoverflow.com/questions/221294/how-do-i-get-a-timestamp-in-javascript",
+  "kind": "qa"
+}

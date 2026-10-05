@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:e2e/archive.spec.ts",
+  "title": "freeCodeCamp/freeCodeCamp/e2e/archive.spec.ts",
+  "text": "import { expect, test } from '@playwright/test';\nimport { SuperBlocks } from '@freecodecamp/shared/config/curriculum';\n\ntest.describe('Archive Page', () => {\n  test.beforeEach(async ({ page }) => {\n    await page.goto('/learn/archive');\n  });\n\n  test('links back to the current curriculum', async ({ page }) => {\n    const newCurriculumLink = page.locator(\n      '.archived-warning a[href=\"/learn\"]'\n    );\n    await newCurriculumLink.click();\n\n    await expect(page).toHaveURL('/learn');\n  });\n\n  test('opens an archived superblock from the archive map', async ({\n    page\n  }) => {\n    const archivedSuperBlockPath = `/learn/${SuperBlocks.RespWebDesignNew}/`;\n    const archivedSuperBlockLink = page.locator(\n      `a[href=\"${archivedSuperBlockPath}\"]`\n    );\n\n    await archivedSuperBlockLink.click();\n\n    await expect(page).toHaveURL(archivedSuperBlockPath);\n  });\n});\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/e2e/archive.spec.ts",
+  "language": "typescript",
+  "kind": "code"
+}

@@ -1,0 +1,22 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:amateur:t3_1ujzwli:rss:img:1",
+  "title": "Too hot for clothes",
+  "text": "Too hot for clothes",
+  "url": "https://www.reddit.com/r/Amateur/comments/1ujzwli/too_hot_for_clothes/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://preview.redd.it/p20nx8ej7hah1.jpeg?width=640&crop=smart&auto=webp&s=3f72e86783ad64c33e169cd5e729c10503a1c62b",
+  "caption": "Too hot for clothes | [human, image] | tags: real, amateur | [image, human] | [image, human] | [image, human]",
+  "subreddit": "amateur",
+  "media_category": "human",
+  "tags": [
+    "human",
+    "real",
+    "amateur"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "human"
+}

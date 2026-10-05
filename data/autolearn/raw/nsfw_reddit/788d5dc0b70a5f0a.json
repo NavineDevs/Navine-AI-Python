@@ -1,0 +1,19 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfwhardcore:t3_1uo2ulk:text",
+  "title": "I don't just like it, I love it",
+  "text": "I don't just like it, I love it",
+  "url": "https://www.reddit.com/r/nsfwhardcore/comments/1uo2ulk/i_dont_just_like_it_i_love_it/",
+  "category": "nsfw",
+  "subreddit": "nsfwhardcore",
+  "media_category": "real",
+  "tags": [
+    "real",
+    "photography",
+    "nsfwhardcore"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

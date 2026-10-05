@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:InsertKoinIO/koin:examples/coffee-maker/check_modules.sh",
+  "title": "InsertKoinIO/koin/examples/coffee-maker/check_modules.sh",
+  "text": "#/bin/bash\n\n../../gradlew checkModules",
+  "url": "https://raw.githubusercontent.com/InsertKoinIO/koin/main/examples/coffee-maker/check_modules.sh",
+  "language": "shell",
+  "kind": "code"
+}

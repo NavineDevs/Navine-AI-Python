@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:lit:24337195:24337206:image",
+  "title": "/lit/ 24337206",
+  "text": "/lit/ 24337206",
+  "url": "https://boards.4chan.org/lit/thread/24337195#p24337206",
+  "category": "creative",
+  "kind": "image",
+  "caption": "/lit/ 24337206 | [general, image] | tags: 4chan, unknown",
+  "board": "lit",
+  "thread_id": 24337195,
+  "post_id": 24337206,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "lit",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/lit/1745612328205330.jpg",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\lit\\lit_1745612328205330.jpg"
+}

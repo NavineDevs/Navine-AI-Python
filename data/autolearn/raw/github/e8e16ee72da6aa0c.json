@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sorin-ionescu/prezto:modules/docker/init.zsh",
+  "title": "sorin-ionescu/prezto/modules/docker/init.zsh",
+  "text": "#\n# Defines Docker aliases.\n#\n# Author:\n#   François Vantomme <akarzim@gmail.com>\n#\n\n# Return if requirements are not found.\nif (( ! $+commands[docker] )); then\n  return 1\nfi\n\n#\n# Functions\n#\n\n# Set Docker Machine environment\nfunction dkme {\n  if (( ! $+commands[docker-machine] )); then\n    return 1\n  fi\n\n  eval $(docker-machine env $1)\n}\n\n# Set Docker Machine default machine\nfunction dkmd {\n  if (( ! $+commands[docker-machine] )); then\n    return 1\n  fi\n\n  pushd ~/.docker/machine/machines\n\n  if [[ ! -d $1 ]]; then\n    echo \"Docker machine '$1' does not exists. Abort.\"\n    popd\n    return 1\n  fi\n\n  if [[ -L default ]]; then\n    eval $(rm -f default)\n  elif [[ -d default ]]; then\n    echo \"A default machine already exists. Abort.\"\n    popd\n    return 1\n  elif [[ -e default ]]; then\n    echo \"A file named 'default' already exists. Abort.\"\n    popd\n    return 1\n  fi\n\n  eval $(ln -s $1 default)\n  popd\n}\n\n# Source module files.\nsource \"${0:h}/alias.zsh\"\n",
+  "url": "https://raw.githubusercontent.com/sorin-ionescu/prezto/master/modules/docker/init.zsh",
+  "language": "shell",
+  "kind": "code"
+}

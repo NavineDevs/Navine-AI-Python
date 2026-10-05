@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u442so",
+  "title": "Google has released API for pkg.go.dev to support AI coding",
+  "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1u442so/google_has_released_api_for_pkggodev_to_support/\"> <img src=\"https://external-preview.redd.it/gS_96zXGeKIlcKhnAU35he-9RjBQM-s-TcAJybiSZoQ.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=edf495e8503ec73f12ec5459ca08a563ac468839\" alt=\"Google has released API for pkg.go.dev to support AI coding\" title=\"Google has released API for pkg.go.dev to support AI coding\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>The API is in beta stage. Now it allows to:</p> <ul> <li>List packages and modules</li> <li>Search modules</li> <li>List vulnerabilities</li> <li>Inspect package symbols (functions, structs and variables exported by the package)</li> </ul> <p>Google adapts Go for AI-coding era and to compete with other platforms and languages</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BankApprehensive7612\"> /u/BankApprehensive7612 </a> <br/> <span><a href=\"https://opensource.googleblog.com/2026/06/a-new-pkggodev-api-for-go.html?ref=reddit.com\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u442so/google_has_released_api_for_pkggodev_to_support/\">[comments]</a></span> </td></tr></table>",
+  "url": "https://www.reddit.com/r/golang/comments/1u442so/google_has_released_api_for_pkggodev_to_support/"
+}

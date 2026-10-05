@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:5767325",
+  "title": "How can I remove a specific item from an array in JavaScript?",
+  "text": "How can I remove a specific item from an array in JavaScript?\n\n<p>How do I remove a specific value from an array? Something like:</p>\n<pre class=\"lang-js prettyprint-override\"><code>array.remove(value);\n</code></pre>\n<p>Constraints: I have to use <strong>core</strong> JavaScript. Frameworks are not allowed.</p>",
+  "url": "https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array-in-javascript",
+  "kind": "qa"
+}

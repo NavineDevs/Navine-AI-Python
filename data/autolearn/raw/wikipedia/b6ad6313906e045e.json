@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:48507824",
+  "title": "Transactive energy",
+  "text": "Transactive energy refers to the economic and control techniques used to manage the flow or exchange of energy within an existing electric power system in regards to economic and market based standard values of energy. It is a concept that is used in an effort to improve the efficiency and reliability of the power system, pointing towards a more intelligent and interactive future for the energy industry.\nTransactive energy promotes a network environment for distributed energy nodes as opposed to the traditional hierarchical grid structure. The network structure allows for communication such that all levels of energy generation and consumption are able to interact with one another, a concept that is also known as interoperability. In transactive energy, interoperability refers to the ability of involved systems to connect and exchange energy information while maintaining workflow and utility constraints. The network is exponentially more complex than traditional control of generating sources because the demand side of the grid offers millions points of control in contrast with an average 10 to 20 power plant points of control on the supply side.",
+  "url": "https://en.wikipedia.org/wiki/Transactive_energy",
+  "category": "general"
+}

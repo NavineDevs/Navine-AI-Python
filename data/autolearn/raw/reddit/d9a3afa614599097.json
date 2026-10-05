@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:devops:t3_1vhsvca",
+  "title": "How to effectively use RDS with serverless backend for db migrations?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m using AWS SAM to provision API Gateway, Lambdas, and RDS. I want to know how I can do database migrations easily without having to keep up an EC2 instance just for the purpose of connecting to the RDS db and running db migrations?</p> <p>I wanted to use something like alembic so that most of the migration stuff is automated but ig I can&#39;t really use that. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheDarkPapa\"> /u/TheDarkPapa </a> <br/> <span><a href=\"https://www.reddit.com/r/devops/comments/1vhsvca/how_to_effectively_use_rds_with_serverless/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/devops/comments/1vhsvca/how_to_effectively_use_rds_with_serverless/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/devops/comments/1vhsvca/how_to_effectively_use_rds_with_serverless/"
+}

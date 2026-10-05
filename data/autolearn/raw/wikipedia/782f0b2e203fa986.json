@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:76805178",
+  "title": "Filter and refine",
+  "text": "Filter and Refine Principle (FRP) is a general computational strategy in computer science.\nFRP is used broadly across various disciplines, particularly in information retrieval, database management, and pattern recognition, which efficiently processes large sets of objects through a two-stage approach: filtering and refinement.\nThe filtering stage quickly eliminates less promising or irrelevant objects from a large set using efficient, less resource-intensive algorithms. This stage is designed to reduce the volume of data that needs to be processed in the more resource-demanding refinement stage.\nFollowing filtering, the refinement stage applies more complex and computationally expensive techniques to the remaining objects to achieve higher accuracy via finer-grained processing. This stage is essential for obtaining the desired quality and precision in the results.\nFRP is a general method for completing a computationally intensive task as quickly as possible (Filter and Refine Strategy),  which is important in scenarios where managing the inherent trade-offs between speed and accuracy is crucial. Its implementations span various fields and applications, from database indexing/query processing, and information retrieval to machine learning and big data analytics. Its implementation helps in optimizing systems to better manage the inherent trade-offs between speed and accuracy.",
+  "url": "https://en.wikipedia.org/wiki/Filter_and_refine",
+  "category": "general"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:1806683",
+  "title": "Prefetching",
+  "text": "Prefetching is a technique used in computing to improve performance by retrieving data or instructions before they are needed. By predicting what a program will request in the future, the system can load information in advance to reduced wait times.\nPrefetching is used in various areas of computing, including CPU architectures and operating systems. It can be implemented in both hardware and software, and it relies on detecting access patterns that suggest what data is likely to be needed soon.",
+  "url": "https://en.wikipedia.org/wiki/Prefetching",
+  "category": "general"
+}

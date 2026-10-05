@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.23591v1",
+  "title": "Quantifying the Agreement Between Data-Influence and Data-Similarity to Understand LLM Behavior",
+  "text": "Quantifying the Agreement Between Data-Influence and Data-Similarity to Understand LLM Behavior\n\nOne way to understand LLM behavior is to trace its output back to the training data. Two types of measures are commonly used for output tracing: data-similarity and data-influence. The former is cheaper while the latter is believed to be more accurate. Even though many works have compared them for ground-truth tasks, no such comparisons exist for output tracing. Here, we fill this gap and precisely quantify the commonalities and differences between the two measures. We do this by first ranking the training documents according to each measure and then computing the overlap between the two rankings. Our main finding is that the two rankings agree significantly, but there is an asymmetry between them: The top documents of data-similarity are assigned more consistent ranks by data-influence than the other way around. This result is valid across a range of experiments involving OLMo2-1B, Qwen3-1.7B, LlaMa3.2-1B, Gemma3-1B, and GPT2. We exploit the asymmetry to obtain a favorable cost-accuracy trade-off by using the costly data-influence to refine the results of data-similarity.",
+  "url": "https://arxiv.org/abs/2606.23591v1",
+  "category": "technical"
+}

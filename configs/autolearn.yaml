@@ -1,0 +1,252 @@
+enabled: true
+
+sources:
+
+  - github
+
+  - gitlab
+
+  - reddit
+
+  - humans
+
+  - news
+
+  - hackernews
+
+  - stackoverflow
+
+  - wikipedia
+
+  - arxiv
+
+  - feeds
+
+  - docs
+
+  - gutenberg
+
+interval_minutes: 60
+
+min_samples_before_train: 25
+
+max_items_per_run: 500
+
+aggressive_max_items: 800
+
+everywhere_max_items: 1000
+
+reddit_subreddits:
+
+  - learnprogramming
+
+  - Python
+
+  - javascript
+
+  - rust
+
+  - golang
+
+  - cpp
+
+  - java
+
+  - webdev
+
+  - cscareerquestions
+
+  - ExperiencedDevs
+
+  - programming
+
+  - coding
+
+  - learnjavascript
+
+  - MachineLearning
+
+  - datascience
+
+  - devops
+
+  - sysadmin
+
+human_subreddits:
+
+  - AskReddit
+
+  - NoStupidQuestions
+
+  - explainlikeimfive
+
+  - todayilearned
+
+  - LifeProTips
+
+  - worldnews
+
+  - news
+
+  - technology
+
+  - science
+
+  - Futurology
+
+news_feed_urls:
+
+  - https://feeds.bbci.co.uk/news/world/rss.xml
+
+  - https://feeds.bbci.co.uk/news/rss.xml
+
+  - https://www.theguardian.com/world/rss
+
+  - https://www.theguardian.com/technology/rss
+
+  - https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+
+  - https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+
+  - https://feeds.arstechnica.com/arstechnica/index
+
+github_languages:
+
+  - python
+
+  - javascript
+
+  - typescript
+
+  - rust
+
+  - go
+
+  - java
+
+  - cpp
+
+  - csharp
+
+  - ruby
+
+  - php
+
+  - swift
+
+  - kotlin
+
+  - lua
+
+  - shell
+
+github_max_repos: 8
+
+github_max_files: 40
+
+github_include_gists: true
+
+github_include_awesome: true
+
+cycle_all_languages: true
+
+stackoverflow_tags:
+
+  - python
+
+  - javascript
+
+  - java
+
+  - c++
+
+  - rust
+
+  - algorithm
+
+  - data-structures
+
+  - typescript
+
+  - go
+
+auto_train: true
+
+train_types:
+
+  - coding
+
+  - chat
+
+  - general
+
+  - creative
+
+  - math
+
+  - multimodal-text
+
+learn_images: true
+
+learn_videos: true
+
+image_topics:
+
+  - nature
+
+  - technology
+
+  - science
+
+  - programming
+
+  - portrait
+
+  - human
+
+  - people
+
+image_max_per_topic: 4
+
+docs_topics:
+
+  - python
+
+  - javascript
+
+wikipedia_categories:
+
+  - Computer_science
+
+  - Mathematics
+
+  - Physics
+
+  - Current_events
+
+  - World
+
+feed_urls:
+
+  - https://blog.rust-lang.org/feed.xml
+
+  - https://hnrss.org/frontpage
+
+  - https://dev.to/feed
+
+  - https://medium.com/feed/tag/programming
+
+code_hosts:
+
+  - gitlab
+
+  - codeberg
+
+everywhere:
+
+  include_nsfw: true
+
+  train_image_video: false
+
+  deep_train_after: true
+

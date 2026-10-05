@@ -1,0 +1,6 @@
+{
+  "parameters": 1026729873,
+  "name": "voice",
+  "size_tier": "gpt3_1b",
+  "unique_trainable": true
+}

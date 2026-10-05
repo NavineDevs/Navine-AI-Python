@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:farion1231/cc-switch:vite.config.ts",
+  "title": "farion1231/cc-switch/vite.config.ts",
+  "text": "import path from \"node:path\";\nimport { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react\";\nimport { codeInspectorPlugin } from \"code-inspector-plugin\";\n\nexport default defineConfig(({ command }) => ({\n  root: \"src\",\n  plugins: [\n    command === \"serve\" &&\n      codeInspectorPlugin({\n        bundler: \"vite\",\n      }),\n    react(),\n  ].filter(Boolean),\n  base: \"./\",\n  build: {\n    outDir: \"../dist\",\n    emptyOutDir: true,\n  },\n  server: {\n    port: 3000,\n    strictPort: true,\n  },\n  resolve: {\n    alias: {\n      \"@\": path.resolve(__dirname, \"./src\"),\n    },\n  },\n  clearScreen: false,\n  envPrefix: [\"VITE_\", \"TAURI_\"],\n}));\n\n",
+  "url": "https://raw.githubusercontent.com/farion1231/cc-switch/main/vite.config.ts",
+  "language": "typescript",
+  "kind": "code"
+}

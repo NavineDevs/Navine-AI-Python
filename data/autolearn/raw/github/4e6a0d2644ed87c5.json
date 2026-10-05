@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:barbajs/barba:packages/core/__e2e__/container.spec.js",
+  "title": "barbajs/barba/packages/core/__e2e__/container.spec.js",
+  "text": "/* eslint-disable cypress/no-unnecessary-waiting */\ndescribe('Transition', () => {\n  it('adds container at the right place', () => {\n    cy.prepare('/container.html', 'container', 'container');\n    cy.get('[data-test=sibling]').as('sibling');\n    cy.get('[data-test=link]').click();\n    cy.final('/page.html', 'page', 'page');\n    cy.get('@wrapper')\n      .children()\n      .eq(1)\n      .should('have.attr', 'data-test-container', 'next');\n    cy.get('@wrapper')\n      .children()\n      .eq(2)\n      .should('have.attr', 'data-test', 'sibling');\n  });\n\n  it('adds container at the right place [sync]', () => {\n    cy.prepare('/container.html', 'container', 'container');\n    cy.get('[data-test=sibling]').as('sibling');\n    cy.get('[data-test=\"link.sync\"]').click();\n    cy.final('/page.html', 'page', 'page');\n    cy.get('@wrapper')\n      .children()\n      .eq(1)\n      .should('have.attr', 'data-test-container', 'next');\n    cy.get('@wrapper')\n      .children()\n      .eq(2)\n      .should('have.attr', 'data-test', 'sibling');\n  });\n});\n",
+  "url": "https://raw.githubusercontent.com/barbajs/barba/main/packages/core/__e2e__/container.spec.js",
+  "language": "javascript",
+  "kind": "code"
+}

@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:b:950314329:950314507:image",
+  "title": "/b/ 950314507",
+  "text": "/b/ 950314507",
+  "url": "https://boards.4chan.org/b/thread/950314329#p950314507",
+  "category": "nsfw",
+  "kind": "image",
+  "caption": "/b/ 950314507 | [real, image, human] | tags: 4chan",
+  "board": "b",
+  "thread_id": 950314329,
+  "post_id": 950314507,
+  "media_category": "real",
+  "tags": [
+    "4chan",
+    "b",
+    "real",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/b/1781418982355372.jpg",
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "local_path": "data\\nsfw\\local\\real\\b_1781418982355372.jpg"
+}

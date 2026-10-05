@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:yt-dlp/yt-dlp:devscripts/cli_to_api.py",
+  "title": "yt-dlp/yt-dlp/devscripts/cli_to_api.py",
+  "text": "#!/usr/bin/env python3\n\n# Allow direct execution\nimport os\nimport sys\n\nsys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\n\nimport yt_dlp\nimport yt_dlp.options\n\ncreate_parser = yt_dlp.options.create_parser\n\n\ndef parse_patched_options(opts):\n    patched_parser = create_parser()\n    patched_parser.defaults.update({\n        'ignoreerrors': False,\n        'retries': 0,\n        'fragment_retries': 0,\n        'extract_flat': False,\n        'concat_playlist': 'never',\n        'update_self': False,\n    })\n    yt_dlp.options.create_parser = lambda: patched_parser\n    try:\n        return yt_dlp.parse_options(opts)\n    finally:\n        yt_dlp.options.create_parser = create_parser\n\n\ndefault_opts = parse_patched_options([]).ydl_opts\n\n\ndef cli_to_api(opts, cli_defaults=False):\n    opts = (yt_dlp.parse_options if cli_defaults else parse_patched_options)(opts).ydl_opts\n\n    diff = {k: v for k, v in opts.items() if default_opts[k] != v}\n    if 'postprocessors' in diff:\n        diff['postprocessors'] = [pp for pp in diff['postprocessors']\n                                  if pp not in default_opts['postprocessors']]\n    return diff\n\n\nif __name__ == '__main__':\n    from pprint import pprint\n\n    print('\\nThe arguments passed translate to:\\n')\n    pprint(cli_to_api(sys.argv[1:]))\n    print('\\nCombining these with the CLI defaults gives:\\n')\n    pprint(cli_to_api(sys.argv[1:], True))\n",
+  "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/devscripts/cli_to_api.py",
+  "language": "python",
+  "kind": "code"
+}

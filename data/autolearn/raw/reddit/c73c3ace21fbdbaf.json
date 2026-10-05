@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1vjpp19",
+  "title": "The Sentinel Object Pattern in Python",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Officially added in Python 3.15</p> <p><a href=\"https://peps.python.org/pep-0661/\">https://peps.python.org/pep-0661/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Grouchy-Trade-7250\"> /u/Grouchy-Trade-7250 </a> <br/> <span><a href=\"https://python-patterns.guide/python/sentinel-object/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vjpp19/the_sentinel_object_pattern_in_python/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1vjpp19/the_sentinel_object_pattern_in_python/"
+}

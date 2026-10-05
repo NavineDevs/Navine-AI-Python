@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:devops:t3_1u2y6dw",
+  "title": "Wrote up how OTel fleet management works under the hood with OpAMP Supervisor",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Fleet management within the open telemetry framework is difficult and often confusing. No doubt the contributors to these projects have done an amazing job developing protocols and a supervisor implementation, it’s just difficult by nature and learning another protocol/configuration/technology is daunting to a lot of admins whose time is already in short supply. Recent development has exposed me to these technologies and I wanted to capture and share my understandings and experience in a blog. While I cannot capture the full breadth or nuance of these solutions I have hit on some high points that I think are useful and might help simplify some of these topics for folks like myself.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Broad_Technology_531\"> /u/Broad_Technology_531 </a> <br/> <span><a href=\"https://telflo.com/blog/fleet-management-effectively-managing-chaos\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/devops/comments/1u2y6dw/wrote_up_how_otel_fleet_management_works_under/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/devops/comments/1u2y6dw/wrote_up_how_otel_fleet_management_works_under/"
+}

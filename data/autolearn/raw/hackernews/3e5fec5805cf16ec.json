@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48505364",
+  "title": "Show HN: StackScope – I crawled over 40k indie launches to see what they ship",
+  "text": "Hey all, I built StackScope, a crawler&#x2F;catalogue that looks at new product launches and shows what they were built with.<p>It watches launches from Product Hunt, Show HN, and PeerPush, then crawls the public site behind each one. The goal is to show what people actually launched with: hosting, frameworks, analytics, DNS, security headers, legal pages, AI-builder signals, and other public clues.<p>I started building it because most stack-detection sites look at the web as a whole. I was more interested in the current indie launch scene: what people are choosing right now, at the point they first put something in public.<p>A few implementation details: it runs on .NET, uses Playwright for rendered pages, and has a first-party fingerprint catalogue rather than one copied from Wappalyzer&#x2F;etc. robots.txt is honoured, and the bot identifies itself.<p>Frustratingly, I am still waiting for verified bot status from Cloudflare and currently that knocks out about 10% of all sites.<p>There is also a private readiness check: paste a URL, get the same style of report, fix things, and recrawl. No account or email needed.<p>I&#x27;d be interested in feedback on the usefulness of this, the methodology, and any obvious false positives.<p>Jonathan.",
+  "url": "https://stackscope.dev/"
+}

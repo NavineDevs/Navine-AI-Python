@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:cpp:t3_1vgis9w",
+  "title": "C++26 Reflection: Simplifying JSON Serialization",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I have been exploring the new additions in C++26, and I have been discussing the reflection feature that has come with <strong>C++26</strong>. In the last post, I discussed <strong>what is reflection and how to use it</strong> and how to use it with a simple example, particularly with an enum class. Since then, there have been suggestions to provide an example which is more than a toy :). In this post, I have discussed how to use reflection for JSON serialization, which is something we often have to do. This example is somewhat taken from real-world code but has been stripped down significantly. Suggestions are always welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Clean-Upstairs-8481\"> /u/Clean-Upstairs-8481 </a> <br/> <span><a href=\"https://techfortalk.co.uk/2026/08/05/c26-reflection-simplifying-json-serialization/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cpp/comments/1vgis9w/c26_reflection_simplifying_json_serialization/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/cpp/comments/1vgis9w/c26_reflection_simplifying_json_serialization/"
+}

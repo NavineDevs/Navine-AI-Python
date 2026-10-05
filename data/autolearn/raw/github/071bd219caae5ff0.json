@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:topjohnwu/Magisk:native/src/base/build.rs",
+  "title": "topjohnwu/Magisk/native/src/base/build.rs",
+  "text": "use crate::codegen::gen_cxx_binding;\n\n#[path = \"../include/codegen.rs\"]\nmod codegen;\n\nfn main() {\n    gen_cxx_binding(\"base-rs\");\n}\n",
+  "url": "https://raw.githubusercontent.com/topjohnwu/Magisk/master/native/src/base/build.rs",
+  "language": "rust",
+  "kind": "code"
+}

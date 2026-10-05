@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:devops:t3_1vhv5tm",
+  "title": "NPM Supply Chain Compromise | ChainDrop",
+  "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/devops/comments/1vhv5tm/npm_supply_chain_compromise_chaindrop/\"> <img src=\"https://external-preview.redd.it/Ngwz1Wbry-sLkWLV_2N7ZFaf0RPBjmP09gFIj51ouhs.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=93f8e89351f4169944132fe3f56df01e88e8616e\" alt=\"NPM Supply Chain Compromise | ChainDrop\" title=\"NPM Supply Chain Compromise | ChainDrop\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Microsoft published a breakdown on a large-scale npm supply chain compromise (<strong>ChainDrop</strong>) affecting over 400 packages including common dependencies</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ops_Pab\"> /u/Ops_Pab </a> <br/> <span><a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/?utm_source=chatgpt.com\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/devops/comments/1vhv5tm/npm_supply_chain_compromise_chaindrop/\">[comments]</a></span> </td></tr></table>",
+  "url": "https://www.reddit.com/r/devops/comments/1vhv5tm/npm_supply_chain_compromise_chaindrop/"
+}

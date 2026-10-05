@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rwf2/Rocket:testbench/src/lib.rs",
+  "title": "rwf2/Rocket/testbench/src/lib.rs",
+  "text": "// pub mod session;\nmod client;\nmod server;\n\npub use server::*;\npub use client::*;\n\nuse std::io;\nuse thiserror::Error;\nuse procspawn::SpawnError;\nuse rocket::http::uri;\n\npub type Result<T, E = Error> = std::result::Result<T, E>;\n\n#[derive(Error, Debug)]\npub enum Error {\n    #[error(\"join/kill failed: {0}\")]\n    JoinError(#[from] SpawnError),\n    #[error(\"kill failed: {0}\")]\n    TermFailure(#[from] nix::errno::Errno),\n    #[error(\"i/o error: {0}\")]\n    Io(#[from] io::Error),\n    #[error(\"invalid URI: {0}\")]\n    Uri(#[from] uri::Error<'static>),\n    #[error(\"invalid uri: {0}\")]\n    InvalidUri(uri::Uri<'static>),\n    #[error(\"expected certificates are not present\")]\n    MissingCertificate,\n    #[error(\"bad request: {0}\")]\n    Request(#[from] reqwest::Error),\n    #[error(\"IPC failure: {0}\")]\n    Ipc(#[from] ipc_channel::ipc::IpcError),\n    #[error(\"liftoff failed\")]\n    Liftoff(String, String),\n}\n",
+  "url": "https://raw.githubusercontent.com/rwf2/Rocket/master/testbench/src/lib.rs",
+  "language": "rust",
+  "kind": "code"
+}

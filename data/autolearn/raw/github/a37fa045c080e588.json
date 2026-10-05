@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:donnemartin/system-design-primer:generate-epub.sh",
+  "title": "donnemartin/system-design-primer/generate-epub.sh",
+  "text": "#! /usr/bin/env bash\n\ngenerate_from_stdin() {\n  outfile=$1\n  language=$2\n\n  echo \"Generating '$language' ...\"\n\n  pandoc --metadata-file=epub-metadata.yaml --metadata=lang:$2 --from=markdown -o $1 <&0\n\n  echo \"Done! You can find the '$language' book at ./$outfile\"\n}\n\ngenerate_with_solutions () {\n  tmpfile=$(mktemp /tmp/sytem-design-primer-epub-generator.XXX)\n\n  cat ./README.md >> $tmpfile\n\n  for dir in ./solutions/system_design/*; do \n    case $dir in *template*) continue;; esac\n    case $dir in *__init__.py*) continue;; esac\n    : [[ -d \"$dir\" ]] && ( cd \"$dir\" && cat ./README.md >> $tmpfile && echo \"\" >> $tmpfile )\n  done\n\n  cat $tmpfile | generate_from_stdin 'README.epub' 'en'\n\n  rm \"$tmpfile\"\n}\n\ngenerate () {\n  name=$1\n  language=$2\n\n  cat $name.md | generate_from_stdin $name.epub $language\n}\n\n# Check if dependencies exist\ncheck_dependencies () {\n  for dependency in \"${dependencies[@]}\"\n  do\n    if ! [ -x \"$(command -v $dependency)\" ]; then\n      echo \"Error: $dependency is not installed.\" >&2\n      exit 1\n    fi\n  done\n}\n\ndependencies=(\"pandoc\")\n\ncheck_dependencies\ngenerate_with_solutions\ngenerate README-ja ja\ngenerate README-zh-Hans zh-Hans\ngenerate README-zh-TW zh-TW\n",
+  "url": "https://raw.githubusercontent.com/donnemartin/system-design-primer/master/generate-epub.sh",
+  "language": "shell",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:symfony/symfony:src/Symfony/Bridge/PhpUnit/bootstrap.php",
+  "title": "symfony/symfony/src/Symfony/Bridge/PhpUnit/bootstrap.php",
+  "text": "<?php\n\n/*\n * This file is part of the Symfony package.\n *\n * (c) Fabien Potencier <fabien@symfony.com>\n *\n * For the full copyright and license information, please view the LICENSE\n * file that was distributed with this source code.\n */\n\nuse Doctrine\\Deprecations\\Deprecation;\nuse Symfony\\Bridge\\PhpUnit\\DeprecationErrorHandler;\n\n// Skip if we're using PHPUnit >=10\nif (class_exists(PHPUnit\\Metadata\\Metadata::class)) {\n    return;\n}\n\n// Detect if we need to serialize deprecations to a file.\nif (in_array(\\PHP_SAPI, ['cli', 'phpdbg'], true) && $file = getenv('SYMFONY_DEPRECATIONS_SERIALIZE')) {\n    DeprecationErrorHandler::collectDeprecations($file);\n\n    return;\n}\n\n// Detect if we're loaded by an actual run of phpunit\nif (!defined('PHPUNIT_COMPOSER_INSTALL') && !class_exists(PHPUnit\\TextUI\\Command::class, false)) {\n    return;\n}\n\nif (isset($fileIdentifier)) {\n    unset($GLOBALS['__composer_autoload_files'][$fileIdentifier]);\n}\n\nif (class_exists(Deprecation::class)) {\n    Deprecation::withoutDeduplication();\n}\n\nif ('disabled' !== getenv('SYMFONY_DEPRECATIONS_HELPER')) {\n    DeprecationErrorHandler::register(getenv('SYMFONY_DEPRECATIONS_HELPER'));\n}\n",
+  "url": "https://raw.githubusercontent.com/symfony/symfony/8.2/src/Symfony/Bridge/PhpUnit/bootstrap.php",
+  "language": "php",
+  "kind": "code"
+}

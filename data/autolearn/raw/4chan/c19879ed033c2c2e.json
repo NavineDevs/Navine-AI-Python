@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:biz:62360063:62360074:image",
+  "title": "/biz/ 62360074",
+  "text": "/biz/ 62360074",
+  "url": "https://boards.4chan.org/biz/thread/62360063#p62360074",
+  "category": "general",
+  "kind": "image",
+  "caption": "/biz/ 62360074 | [general, image] | tags: 4chan, unknown",
+  "board": "biz",
+  "thread_id": 62360063,
+  "post_id": 62360074,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "biz",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/biz/1781292285707503.jpg",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\biz\\biz_1781292285707503.jpg"
+}

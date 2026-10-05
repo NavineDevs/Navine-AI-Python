@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:devops:t3_1u27wis",
+  "title": "eBPF based evals have just been amazing",
+  "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/devops/comments/1u27wis/ebpf_based_evals_have_just_been_amazing/\"> <img src=\"https://external-preview.redd.it/1X8jZv-Z7WmcLlF4b8N09HHhiw8QeJNWYLMxsatQzV4.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=0e33c64eec247f62b943eb2b3e3d067e7a6b6a52\" alt=\"eBPF based evals have just been amazing\" title=\"eBPF based evals have just been amazing\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I have been building larger and larger test harnesses to cut false positives out of our static analysis, and adding eBPF telemetry has been a game changer. It cut the noise further than anything else we tried. Because the observation window is small it almost works like an oracle. Collected a slice of the work here if you work close to the kernel.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/-Devlin-\"> /u/-Devlin- </a> <br/> <span><a href=\"https://www.emphere.com/blog/testing-a-security-tool\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/devops/comments/1u27wis/ebpf_based_evals_have_just_been_amazing/\">[comments]</a></span> </td></tr></table>",
+  "url": "https://www.reddit.com/r/devops/comments/1u27wis/ebpf_based_evals_have_just_been_amazing/"
+}

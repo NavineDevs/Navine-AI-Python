@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/types/main.d.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/types/main.d.ts",
+  "text": "// 应用参数\nexport type MainAppProps = {\n  container?: HTMLElement;\n  // 隐藏侧边栏（菜单）\n  hideSider?: boolean;\n  // 隐藏顶部\n  hideHeader?: boolean;\n  // 隐藏 多Tab 切换\n  hideMultiTabs?: boolean;\n}\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/types/main.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

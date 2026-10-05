@@ -1,0 +1,2 @@
+{"timestamp": "2026-08-11T14:46:57.177163+00:00", "session_id": "adapt_test", "user": "How should I open a local file with Navine assist?", "assistant": "Say create file notes.txt with content hello, or open app notepad.", "meta": {}, "priority": false}
+{"timestamp": "2026-08-11T14:46:57.221512+00:00", "session_id": "adapt_test", "user": "Actually the answer is use assist create file notes.txt with content hello world", "assistant": "Got it.", "meta": {}, "priority": true}

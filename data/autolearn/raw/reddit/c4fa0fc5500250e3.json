@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:webdev:t3_1u4jtmk",
+  "title": "built a little tool for placeholder images — because sometimes you just need sized box",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>You are mocking up a layout, you need a placeholder, paid alternatives times out, you waste minutes to find a new one.</p> <p>So: <a href=\"https://pixfill.dev/\">https://pixfill.dev</a></p> <p>/800x600 - plain grey SVG<br/> /800x600/3b82f6 - with color<br/> /800x600/3b82f6/fff - color + white text<br/> /800x600/3b82f6/fff.png?text=Hero - PNG with custom text</p> <p>No signup, no limits, generates on the fly, mostly built it for myself but figured someone else might find it useful. Stack: Node.js with Fastify and pure JS 😅</p> <p>Happy to answer questions or take suggestions.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sk93q\"> /u/sk93q </a> <br/> <span><a href=\"https://www.reddit.com/r/webdev/comments/1u4jtmk/built_a_little_tool_for_placeholder_images/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1u4jtmk/built_a_little_tool_for_placeholder_images/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/webdev/comments/1u4jtmk/built_a_little_tool_for_placeholder_images/"
+}

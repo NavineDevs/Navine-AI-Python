@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1viic98",
+  "title": "Triangular matrix, but a map?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey guys, I am building a program for a friend that&#39;s going to involve a complete graph (nodes are destinations, edges are the distances between destinations) and I was wondering if anyone knew a good library for it?</p> <p>At first I thought I could use a triangular matrix, since direction doesn&#39;t matter, but I realized I would have to have a second array mapping destinations to an index. I feel like you could have a triangular map, like a map that takes a pair of inputs where the order doesn&#39;t matter? Have I found another rabbit hole? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KerPop42\"> /u/KerPop42 </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1viic98/triangular_matrix_but_a_map/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1viic98/triangular_matrix_but_a_map/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1viic98/triangular_matrix_but_a_map/"
+}

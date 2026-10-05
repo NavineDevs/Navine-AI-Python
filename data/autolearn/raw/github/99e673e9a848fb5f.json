@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:redis-store/redis-store:test/redis/store/redis_version_test.rb",
+  "title": "redis-store/redis-store/test/redis/store/redis_version_test.rb",
+  "text": "require 'test_helper'\n\ndescribe \"Redis::RedisVersion\" do\n  def setup\n    @store = Redis::Store.new\n  end\n\n  def teardown\n    @store.quit\n  end\n\n  describe '#redis_version' do\n    it 'returns redis version' do\n      _(@store.redis_version.to_s).must_match(/^\\d{1}\\.\\d{1,}\\.\\d{1,}$/)\n    end\n  end\n\n  describe '#supports_redis_version?' do\n    it 'returns true if redis version is greater or equal to required version' do\n      @store.stubs(:redis_version).returns('2.8.19')\n      _(@store.supports_redis_version?('2.6.0')).must_equal(true)\n      _(@store.supports_redis_version?('2.8.19')).must_equal(true)\n      _(@store.supports_redis_version?('2.8.20')).must_equal(false)\n      _(@store.supports_redis_version?('2.9.0')).must_equal(false)\n      _(@store.supports_redis_version?('3.0.0')).must_equal(false)\n    end\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/redis-store/redis-store/master/test/redis/store/redis_version_test.rb",
+  "language": "ruby",
+  "kind": "code"
+}

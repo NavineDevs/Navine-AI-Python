@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.23629v1",
+  "title": "Why Machines Misread Pedagogical Quality: Human-Machine Alignment in LLM-Based Pretest Question Evaluation",
+  "text": "Why Machines Misread Pedagogical Quality: Human-Machine Alignment in LLM-Based Pretest Question Evaluation\n\nDesigning effective pretest questions is challenging at scale: high-quality questions require careful calibration of openness, cognitive depth, and alignment with learning objectives, yet generating and evaluating them manually is time-consuming. We present an AI-assisted workflow for pretest question development that combines automated generation, rubric-based evaluation, and iterative selection. Because the workflow relies on machine evaluation to filter questions at scale, we investigate the alignment between human and machine judgments across a 2x2 design varying rubric operationalization and evaluation mode. Our findings show that human-machine disagreements are systematic rather than random, that rubric revision has a larger effect on alignment than rationale-first evaluation, and that the two interventions are complementary. These findings highlight that scalable AI-assisted pretesting depends not only on generation capability but on how pedagogical quality is operationalized for machine interpretation.",
+  "url": "https://arxiv.org/abs/2606.23629v1",
+  "category": "technical"
+}

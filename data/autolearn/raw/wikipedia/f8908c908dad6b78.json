@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:2738697",
+  "title": "Autoepistemic logic",
+  "text": "Autoepistemic logic is a formal logic for the representation and reasoning of knowledge about knowledge. While propositional logic can only express facts, autoepistemic logic can express knowledge and lack of knowledge about facts.\nThe stable model semantics, which is used to give a semantics to logic programming with negation as failure, can be seen as a simplified form of autoepistemic logic.",
+  "url": "https://en.wikipedia.org/wiki/Autoepistemic_logic",
+  "category": "general"
+}

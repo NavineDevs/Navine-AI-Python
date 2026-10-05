@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:types/v3-define-async-component.d.ts",
+  "title": "vuejs/vue/types/v3-define-async-component.d.ts",
+  "text": "import { AsyncComponent, Component } from './options'\n\nexport type AsyncComponentResolveResult<T = Component> = T | { default: T } // es modules\n\nexport type AsyncComponentLoader<T = any> = () => Promise<\n  AsyncComponentResolveResult<T>\n>\n\nexport interface AsyncComponentOptions {\n  loader: AsyncComponentLoader\n  loadingComponent?: Component\n  errorComponent?: Component\n  delay?: number\n  timeout?: number\n  // suspensible?: boolean\n  onError?: (\n    error: Error,\n    retry: () => void,\n    fail: () => void,\n    attempts: number\n  ) => any\n}\n\nexport function defineAsyncComponent(\n  source: AsyncComponentLoader | AsyncComponentOptions\n): AsyncComponent\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/types/v3-define-async-component.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

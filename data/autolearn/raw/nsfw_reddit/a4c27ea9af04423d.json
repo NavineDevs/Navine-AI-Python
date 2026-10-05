@@ -1,0 +1,23 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:gonewild:t3_1uebofl:rss:img:1",
+  "title": "(F)eelin’ myself 💘",
+  "text": "(F)eelin’ myself 💘",
+  "url": "https://old.reddit.com/r/gonewild/comments/1uebofl/feelin_myself/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://preview.redd.it/j4ferg2e189h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=d540d817dd6ba8bbbbfeae0e7e758d375c514769",
+  "caption": "(F)eelin’ myself 💘 | [human, image] | tags: real, gonewild | [image, human] | tags: photography | [image, human] | [image, human]",
+  "subreddit": "gonewild",
+  "media_category": "real",
+  "tags": [
+    "human",
+    "real",
+    "gonewild",
+    "photography"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

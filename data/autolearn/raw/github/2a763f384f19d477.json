@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:manaflow-ai/cmux:cmux-Bridging-Header.h",
+  "title": "manaflow-ai/cmux/cmux-Bridging-Header.h",
+  "text": "@import GhosttyKit;\n#import \"Sources/TerminationWatchdogAtomic.h\"\n",
+  "url": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/cmux-Bridging-Header.h",
+  "language": "cpp",
+  "kind": "code"
+}

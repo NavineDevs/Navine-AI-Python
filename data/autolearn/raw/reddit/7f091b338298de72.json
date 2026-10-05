@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u3vziw",
+  "title": "Opinion on a cli tool I want to make",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been poking around with CLIs and had an idea for a tool that parses a project&#39;s source code, evaluates architectural flaws, and uses an LLM to suggest refactorings. From what I&#39;ve seen, you can already detect a lot of issues statically like God structs. Would a tool like this actually provide value?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Interesting-Life5118\"> /u/Interesting-Life5118 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1u3vziw/opinion_on_a_cli_tool_i_want_to_make/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u3vziw/opinion_on_a_cli_tool_i_want_to_make/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1u3vziw/opinion_on_a_cli_tool_i_want_to_make/"
+}

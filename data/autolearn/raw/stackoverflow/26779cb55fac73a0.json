@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:237104",
+  "title": "How do I check if an array includes a value in JavaScript?",
+  "text": "How do I check if an array includes a value in JavaScript?\n\n<p>What is the most concise and efficient way to find out if a JavaScript array contains a value?</p>\n<p>This is the only way I know to do it:</p>\n<pre><code>function contains(a, obj) {\n    for (var i = 0; i &lt; a.length; i++) {\n        if (a[i] === obj) {\n            return true;\n        }\n    }\n    return false;\n}\n</code></pre>\n<p>Is there a better and more concise way to accomplish this?</p>\n<p>This is very closely related to Stack Overflow question <em><a href=\"https://stackoverflow.com/questions/143847/best-way-to-find-an-item-in-a-javascript-array\">Best way to find an item in a JavaScript Array?</a></em> which addresses finding objects in an array using <code>indexOf</code>.</p>",
+  "url": "https://stackoverflow.com/questions/237104/how-do-i-check-if-an-array-includes-a-value-in-javascript",
+  "kind": "qa"
+}

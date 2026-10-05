@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:client/tailwind.config.js",
+  "title": "freeCodeCamp/freeCodeCamp/client/tailwind.config.js",
+  "text": "/* Don't delete! The empty config is needed when building the client */\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/client/tailwind.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

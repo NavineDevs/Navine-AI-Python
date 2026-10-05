@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:75463818",
+  "title": "Quasi-isodynamic stellarator",
+  "text": "A quasi-isodynamic (QI) stellarator is a type of stellarator (a magnetic confinement fusion reactor) that satisfies the property of omnigeneity, avoids the potentially hazardous toroidal bootstrap current, and has minimal neoclassical transport in the collisionless regime.\nWendelstein 7-X, the largest stellarator in the world, was designed to be roughly quasi-isodynamic (QI).\nIn contrast to quasi-symmetric fields, exactly QI fields on flux surfaces cannot be expressed analytically. However, it has been shown that nearly-exact QI can be extremely well approximated through mathematical optimization, and that the resulting fields enjoy the aforementioned properties.\nIn a QI field, level curves of the magnetic field strength \n  \n    \n      \n        B\n      \n    \n    {\\displaystyle B}\n  \n on a flux surface close poloidally (the short way around the torus), and not toroidally (the long way around), causing the stellarator to resemble a series of linked magnetic mirrors.",
+  "url": "https://en.wikipedia.org/wiki/Quasi-isodynamic_stellarator",
+  "category": "general"
+}

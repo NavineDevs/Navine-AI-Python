@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:2dust/v2rayN:v2rayN/ServiceLib.UdpTest/GlobalUsings.cs",
+  "title": "2dust/v2rayN/v2rayN/ServiceLib.UdpTest/GlobalUsings.cs",
+  "text": "global using System.Buffers.Binary;\nglobal using System.Diagnostics;\nglobal using System.Net;\nglobal using System.Net.Sockets;\nglobal using System.Text;\n",
+  "url": "https://raw.githubusercontent.com/2dust/v2rayN/master/v2rayN/ServiceLib.UdpTest/GlobalUsings.cs",
+  "language": "csharp",
+  "kind": "code"
+}

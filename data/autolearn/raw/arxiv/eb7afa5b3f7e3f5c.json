@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.18039v1",
+  "title": "The Polyglot's Dilemma: Conformance Testing a Dozen Specs in as Many Languages",
+  "text": "The Polyglot's Dilemma: Conformance Testing a Dozen Specs in as Many Languages\n\nMongoDB maintains client libraries in a dozen programming languages, used by tens of thousands of organizations and millions of developers. Most are implemented natively rather than as wrappers around a shared core. Ensuring consistent behavior across these libraries, comprising millions of lines of code, is hard but essential. Over eleven years, we developed a specification-based testing approach: tests are written once in YAML and executed by language-specific interpreters for each library. We describe the evolution from many ad-hoc formats to a Unified Test Format, which allowed us to delete over 22,000 lines of test code. The rate of nonconformance bugs fell up to 86% in drivers that adopted YAML tests (though results varied). We report lessons learned about declarative test design, test architecture, schema evolution, and the limits of unification.",
+  "url": "https://arxiv.org/abs/2608.18039v1",
+  "category": "technical"
+}

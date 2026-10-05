@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1u0vb76",
+  "title": "Cache Stampede Prevention: Distributed Locking, Pub/Sub, and Request Coalescing",
+  "text": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Local_Ad_6109\"> /u/Local_Ad_6109 </a> <br/> <span><a href=\"https://engineeringatscale.substack.com/p/cache-stampede-distributed-locking\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u0vb76/cache_stampede_prevention_distributed_locking/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1u0vb76/cache_stampede_prevention_distributed_locking/"
+}

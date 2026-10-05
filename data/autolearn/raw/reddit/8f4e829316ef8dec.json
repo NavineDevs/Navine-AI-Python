@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1u26m8a",
+  "title": "Multiple Runtimes, Reducing Your Claude Code Bill, and Your Doctors Database",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey Community,</p> <p>We dive into react-native-runtimes by Margelo and Callstack, which bring multiple JavaScript runtimes to React Native to isolate heavy tasks from the main thread. We also look at Headroom, a context compression layer that slashes token costs by up to 95% when running Claude Code on your codebase.</p> <p>Finally, we share our experience porting an Expo game to Amazon Fire TV with Amazon Devices Builder Tools, focusing on the practical steps of cleaning up monorepo scripts and using concurrently to keep your bundler alive.</p> <p>If the Rewind made you nod, smile, or think &quot;oh… that&#39;s actually cool&quot; — a share or reply genuinely helps ❤️</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thereactnativerewind\"> /u/thereactnativerewind </a> <br/> <span><a href=\"https://thereactnativerewind.com/issues/multiple-runtimes-reducing-your-claude-code-bill-and-your-doctors-database\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1u26m8a/multiple_runtimes_reducing_your_claude_code_bill/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1u26m8a/multiple_runtimes_reducing_your_claude_code_bill/"
+}

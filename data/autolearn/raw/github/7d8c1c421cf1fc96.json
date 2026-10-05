@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:test/test-env.d.ts",
+  "title": "vuejs/vue/test/test-env.d.ts",
+  "text": "interface Chainer {\n  then(next: Function): this\n  thenWaitFor(n: number | Function): this\n  end(endFn: Function): void\n}\n\ndeclare function waitForUpdate(cb: Function): Chainer\n\ndeclare function createTextVNode(arg?: string): any\n\ndeclare function triggerEvent(\n  target: Element,\n  event: string,\n  process?: (e: any) => void\n): void\n\n// vitest extends jest namespace so we can just extend jest.Matchers\ndeclare namespace jest {\n  interface Matchers<R, T> {\n    toHaveBeenWarned(): R\n    toHaveBeenWarnedLast(): R\n    toHaveBeenWarnedTimes(n: number): R\n    toHaveBeenTipped(): R\n    toHaveClass(cls: string): R\n  }\n}\n\ndeclare const jasmine: {\n  createSpy: (id?: string) => {\n    (...args: any[]): any\n    calls: {\n      count(): number\n    }\n  }\n  addMatchers(matchers: any): void\n}\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/test/test-env.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

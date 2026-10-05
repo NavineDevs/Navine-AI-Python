@@ -1,0 +1,27 @@
+checkpoint_namespace: deepfake
+migration: |
+  ~1.03B+ enterprise face encoder-decoder (base_channels 320, mults 1/2/4/4, latent 1024).
+model:
+  image_size: 128
+  in_channels: 3
+  base_channels: 320
+  channel_mults:
+  - 1
+  - 2
+  - 4
+  - 4
+  num_res_blocks: 2
+  latent_dim: 1024
+  arch_version: 3
+  size_tier: gpt3_1b
+training:
+  batch_size: 1
+  learning_rate: 0.00008
+  max_steps: 800
+  save_interval: 100
+  grad_clip: 1.0
+  mixed_precision: true
+  fresh_start: true
+inference:
+  strength: 0.85
+  use_neural: true

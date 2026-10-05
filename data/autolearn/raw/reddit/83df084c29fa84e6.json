@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:cpp:t3_1vh8w31",
+  "title": "Neoclassical C++ (2): Exploring input-output segmented algorithms",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>I&#39;ve written a new blog entry continuing <a href=\"https://boostedcpp.net/2026/05/18/neoclassical-c-segmented-iterators-revisited-1/\">my previous article about segmented iterators</a>. This time trying to analyze how to apply Matt Austern&#39;s segmented iterator pattern to input-output algorithms like<code>copy, copy_if</code>, etc., benchmarking the experimental implementation from Boost.Container vs the standard library.</p> <p>New article link: <a href=\"https://boostedcpp.net/2026/08/06/neoclassical-c-2-exploring-input-output-segmented-algorithms/\">https://boostedcpp.net/2026/08/06/neoclassical-c-2-exploring-input-output-segmented-algorithms/</a></p> <p>Happy to receive feedback!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/igaztanaga\"> /u/igaztanaga </a> <br/> <span><a href=\"https://boostedcpp.net/2026/08/06/neoclassical-c-2-exploring-input-output-segmented-algorithms/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cpp/comments/1vh8w31/neoclassical_c_2_exploring_inputoutput_segmented/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/cpp/comments/1vh8w31/neoclassical_c_2_exploring_inputoutput_segmented/"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:vitest.config.ts",
+  "title": "vuejs/vue/vitest.config.ts",
+  "text": "import { resolve as _resolve } from 'path'\nimport { defineConfig } from 'vitest/config'\n\nconst resolve = (p: string) => _resolve(__dirname, p)\n\nexport default defineConfig({\n  resolve: {\n    alias: {\n      compiler: resolve('src/compiler'),\n      core: resolve('src/core'),\n      server: resolve('packages/server-renderer/src'),\n      sfc: resolve('packages/compiler-sfc/src'),\n      shared: resolve('src/shared'),\n      web: resolve('src/platforms/web'),\n      v3: resolve('src/v3'),\n      vue: resolve('src/platforms/web/entry-runtime-with-compiler'),\n      types: resolve('src/types')\n    }\n  },\n  define: {\n    __DEV__: true,\n    __TEST__: true\n  },\n  test: {\n    globals: true,\n    environment: 'jsdom',\n    setupFiles: resolve('test/vitest.setup.ts')\n  }\n})\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/vitest.config.ts",
+  "language": "typescript",
+  "kind": "code"
+}

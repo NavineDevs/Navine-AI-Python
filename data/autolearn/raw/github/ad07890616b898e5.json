@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:topjohnwu/Magisk:scripts/update_binary.sh",
+  "title": "topjohnwu/Magisk/scripts/update_binary.sh",
+  "text": "#!/sbin/sh\n\nTMPDIR=/dev/tmp\nrm -rf $TMPDIR\nmkdir -p $TMPDIR 2>/dev/null\n\nexport BBBIN=$TMPDIR/busybox\nfor arch in \"x86_64\" \"x86\" \"arm64-v8a\" \"armeabi-v7a\"; do\n  unzip -o \"$3\" \"lib/$arch/libbusybox.so\" -d $TMPDIR >&2\n  libpath=\"$TMPDIR/lib/$arch/libbusybox.so\"\n  chmod 755 $libpath\n  if [ -x $libpath ] && $libpath >/dev/null 2>&1; then\n    mv -f $libpath $BBBIN\n    break\n  fi\ndone\n$BBBIN rm -rf $TMPDIR/lib\n\nexport INSTALLER=$TMPDIR/install\n$BBBIN mkdir -p $INSTALLER\n$BBBIN unzip -o \"$3\" \"assets/*\" \"lib/*\" \"META-INF/com/google/*\" -x \"lib/*/libbusybox.so\" -d $INSTALLER >&2\nexport ASH_STANDALONE=1\nif echo \"$3\" | $BBBIN grep -q \"uninstall\"; then\n  exec $BBBIN sh \"$INSTALLER/assets/uninstaller.sh\" \"$@\"\nelse\n  exec $BBBIN sh \"$INSTALLER/META-INF/com/google/android/updater-script\" \"$@\"\nfi\n",
+  "url": "https://raw.githubusercontent.com/topjohnwu/Magisk/master/scripts/update_binary.sh",
+  "language": "shell",
+  "kind": "code"
+}

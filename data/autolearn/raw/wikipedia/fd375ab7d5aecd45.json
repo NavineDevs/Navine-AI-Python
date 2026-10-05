@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:82546131",
+  "title": "Unicode bidirectional algorithm",
+  "text": "The Unicode Bidirectional Algorithm (UBA), formally defined in Unicode Standard Annex #9 (UAX #9), is a specification developed by the Unicode Consortium that determines how text containing a mixture of left-to-right and right-to-left scripts is displayed. It is a normative part of the Unicode Standard and is required for conformance wherever characters from right-to-left scripts such as Arabic or Hebrew are rendered.",
+  "url": "https://en.wikipedia.org/wiki/Unicode_bidirectional_algorithm",
+  "category": "general"
+}

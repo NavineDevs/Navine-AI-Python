@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:630453",
+  "title": "What is the difference between POST and PUT in HTTP?",
+  "text": "What is the difference between POST and PUT in HTTP?\n\n<p><strong>Background Information Analysis:</strong></p>\n<p>According to <a href=\"https://www.rfc-editor.org/rfc/rfc2616#section-9.5\" rel=\"noreferrer\">RFC 2616, § 9.5</a>, <code>POST</code> is used to <em>create</em> a resource:</p>\n<blockquote>\n<p>The POST method is used to request that the origin server accept the entity enclosed in the request as a new subordinate of the resource identified by the Request-URI in the Request-Line.</p>\n</blockquote>\n<p>According to <a href=\"https://www.rfc-editor.org/rfc/rfc2616#section-9.6\" rel=\"noreferrer\">RFC 2616, § 9.6</a>, <code>PUT</code> is used to <em>create or replace</em> a resource:</p>\n<blockquote>\n<p>The PUT method requests that the enclosed entity be stored under the supplied Request-URI. If the Request-URI refers to an already existing resource, the enclosed entity SHOULD be considered as a modified version of the one residing on the origin server. If the Request-URI does not point to an existing resource, and that URI is capable of being defined as a new resource by the requesting user agent, the origin server can create the resource with that URI.</p>\n</blockquote>\n<p><strong>My Question:</strong></p>\n<p>So, which HTTP method should be used to create a resource? Or should both be supported?</p>",
+  "url": "https://stackoverflow.com/questions/630453/what-is-the-difference-between-post-and-put-in-http",
+  "kind": "qa"
+}

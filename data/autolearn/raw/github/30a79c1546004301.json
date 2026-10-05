@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/electron/paths.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/electron/paths.ts",
+  "text": "import path from 'path'\nimport {isDev} from \"./env\";\n\nexport const _PATHS = getPaths()\n\nfunction getPaths() {\n  const _root = __dirname;\n  const publicRoot = path.join(_root, isDev ? '../../public' : '..');\n  const preloadRoot = path.join(_root, 'preload')\n\n  return {\n    electronRoot: _root,\n    publicRoot,\n    preloadRoot,\n\n    appIcon: path.join(_root, `icons/app.ico`).replace(/[\\\\/]dist[\\\\/]/, '/'),\n  }\n}",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/electron/paths.ts",
+  "language": "typescript",
+  "kind": "code"
+}

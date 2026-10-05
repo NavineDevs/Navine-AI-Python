@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vtxset",
+  "title": "Coming from rust, is there a real alternative to sqlx for postgres and sqlite?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Coming from rust, is there a real alternative to sqlx for postgres and sqlite?</p> <p>What I miss from rust&#39;s sqlx is the simple but powerful query builder, methods like <code>.push()</code> and <code>.push_bind()</code>. Is there a query builder for pgx?</p> <p>What do you people use?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fredhors\"> /u/fredhors </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vtxset/coming_from_rust_is_there_a_real_alternative_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vtxset/coming_from_rust_is_there_a_real_alternative_to/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vtxset/coming_from_rust_is_there_a_real_alternative_to/"
+}

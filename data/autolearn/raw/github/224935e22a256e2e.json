@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:compiler/scripts/copyright.js",
+  "title": "react/react/compiler/scripts/copyright.js",
+  "text": "/**\n * Copyright (c) Meta Platforms, Inc. and affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nconst fs = require('fs');\nconst glob = require('glob');\n\nconst META_COPYRIGHT_COMMENT_BLOCK =\n  `/**\n * Copyright (c) Meta Platforms, Inc. and affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */`.trim() + '\\n\\n';\n\nconst files = glob.sync('**/*.{js,ts,tsx,jsx,rs}', {\n  ignore: [\n    '**/dist/**',\n    '**/node_modules/**',\n    '**/tests/fixtures/**',\n    '**/__tests__/fixtures/**',\n  ],\n});\n\nconst updatedFiles = new Map();\nlet hasErrors = false;\nfiles.forEach(file => {\n  try {\n    const result = processFile(file);\n    if (result != null) {\n      updatedFiles.set(file, result);\n    }\n  } catch (e) {\n    console.error(e);\n    hasErrors = true;\n  }\n});\nif (hasErrors) {\n  console.error('Update failed');\n  process.exit(1);\n} else {\n  for (const [file, source] of updatedFiles) {\n    fs.writeFileSync(file, source, 'utf8');\n  }\n  console.log('Update complete');\n}\n\nfunction processFile(file) {\n  if (fs.lstatSync(file).isDirectory()) {\n    return;\n  }\n  let source = fs.readFileSync(file, 'utf8');\n\n  if (source.indexOf(META_COPYRIGHT_COMMENT_BLOCK) === 0) {\n    return null;\n  }\n  if (/^\\/\\*\\*/.test(source)) {\n    source = source.replace(/\\/\\*\\*[^\\/]+\\/\\s+/, META_COPYRIGHT_COMMENT_BLOCK);\n  } else {\n    source = `${META_COPYRIGHT_COMMENT_BLOCK}${source}`;\n  }\n  return source;\n}\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/compiler/scripts/copyright.js",
+  "language": "javascript",
+  "kind": "code"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfw:t3_1u37vjl:rss:img:1",
+  "title": "Erica Campbell",
+  "text": "Erica Campbell",
+  "url": "https://www.reddit.com/r/nsfw/comments/1u37vjl/erica_campbell/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://preview.redd.it/6l8583gr9p6h1.jpeg?width=640&crop=smart&auto=webp&s=44691dbf6b05de4ffaf957b490faf6b5be9d4951",
+  "caption": "Erica Campbell | [mixed, image] | tags: nsfw, unknown | [image] | [image] | [image]",
+  "subreddit": "nsfw",
+  "media_category": "mixed",
+  "tags": [
+    "mixed",
+    "nsfw"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "source_group": "mixed"
+}

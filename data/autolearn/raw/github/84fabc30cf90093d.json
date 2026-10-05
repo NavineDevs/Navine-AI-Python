@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:BurntSushi/ripgrep:tests/tests.rs",
+  "title": "BurntSushi/ripgrep/tests/tests.rs",
+  "text": "// Macros useful for testing.\n#[macro_use]\nmod macros;\n\n// Corpora.\nmod hay;\n// Utilities for making tests nicer to read and easier to write.\nmod util;\n\n// Tests for ripgrep's handling of binary files.\nmod binary;\n// Tests related to most features in ripgrep. If you're adding something new\n// to ripgrep, tests should probably go in here.\nmod feature;\n// Tests for ripgrep's JSON format.\nmod json;\n// Miscellaneous tests grouped in a haphazard manner. Try not to add more.\nmod misc;\n// Tests for ripgrep's multiline search support.\nmod multiline;\n// Regression tests.\nmod regression;\n",
+  "url": "https://raw.githubusercontent.com/BurntSushi/ripgrep/master/tests/tests.rs",
+  "language": "rust",
+  "kind": "code"
+}

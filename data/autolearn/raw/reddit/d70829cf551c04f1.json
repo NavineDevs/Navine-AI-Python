@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1u3aab9",
+  "title": "Drupal SQL Code-Injection Vulnerability - Why does it still exist?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Even with decades of documentation, SQL Code Injection remains a top threat. Train your developers and TPMs!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/casaaugusta\"> /u/casaaugusta </a> <br/> <span><a href=\"https://www.akamai.com/blog/security-research/cve-2026-9082-mitigating-critical-sql-injection-drupal\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u3aab9/drupal_sql_codeinjection_vulnerability_why_does/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1u3aab9/drupal_sql_codeinjection_vulnerability_why_does/"
+}

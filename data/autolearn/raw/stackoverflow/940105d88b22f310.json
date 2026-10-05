@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:4114095",
+  "title": "How do I revert a Git repository to a previous commit?",
+  "text": "How do I revert a Git repository to a previous commit?\n\n<p>How do I revert from my current state to a snapshot made on a certain commit?</p>\n\n<p>If I do <code>git log</code>, then I get the following output:</p>\n\n<pre><code>$ git log\ncommit a867b4af366350be2e7c21b8de9cc6504678a61b`\nAuthor: Me &lt;me@me.com&gt;\nDate:   Thu Nov 4 18:59:41 2010 -0400\n\nblah blah blah...\n\ncommit 25eee4caef46ae64aa08e8ab3f988bc917ee1ce4\nAuthor: Me &lt;me@me.com&gt;\nDate:   Thu Nov 4 05:13:39 2010 -0400\n\nmore blah blah blah...\n\ncommit 0766c053c0ea2035e90f504928f8df3c9363b8bd\nAuthor: Me &lt;me@me.com&gt;\nDate:   Thu Nov 4 00:55:06 2010 -0400\n\nAnd yet more blah blah...\n\ncommit 0d1d7fc32e5a947fbd92ee598033d85bfc445a50\nAuthor: Me &lt;me@me.com&gt;\nDate:   Wed Nov 3 23:56:08 2010 -0400\n\nYep, more blah blah.\n</code></pre>\n\n<p>How do I revert to the commit from November 3, i.e. commit <code>0d1d7fc</code>?</p>",
+  "url": "https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit",
+  "kind": "qa"
+}

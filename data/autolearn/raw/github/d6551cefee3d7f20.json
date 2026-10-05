@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:trekhleb/javascript-algorithms:jest.config.js",
+  "title": "trekhleb/javascript-algorithms/jest.config.js",
+  "text": "module.exports = {\n  // The bail config option can be used here to have Jest stop running tests after\n  // the first failure.\n  bail: false,\n\n  // Indicates whether each individual test should be reported during the run.\n  verbose: false,\n\n  // Indicates whether the coverage information should be collected while executing the test\n  collectCoverage: false,\n\n  // The directory where Jest should output its coverage files.\n  coverageDirectory: './coverage/',\n\n  // If the test path matches any of the patterns, it will be skipped.\n  testPathIgnorePatterns: ['<rootDir>/node_modules/'],\n\n  // If the file path matches any of the patterns, coverage information will be skipped.\n  coveragePathIgnorePatterns: ['<rootDir>/node_modules/'],\n\n  // The pattern Jest uses to detect test files.\n  testRegex: '(/__tests__/.*|(\\\\.|/)(test|spec))\\\\.jsx?$',\n\n  // This option sets the URL for the jsdom environment.\n  // It is reflected in properties such as location.href.\n  // @see: https://github.com/facebook/jest/issues/6769\n  testEnvironmentOptions: {\n    url: 'http://localhost/',\n  },\n\n  // @see: https://jestjs.io/docs/en/configuration#coveragethreshold-object\n  coverageThreshold: {\n    global: {\n      statements: 100,\n      branches: 95,\n      functions: 100,\n      lines: 100,\n    },\n  },\n};\n",
+  "url": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/jest.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

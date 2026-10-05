@@ -1,0 +1,19 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:bant:2:2:text",
+  "title": "Welcome to /bant/",
+  "text": "Welcome to /bant/ Welcome to /bant/ - International/Random /bant/ is a board for the discussion of any topic, a place where you can relax and have fun with people from all over the world. No porn dump threads - Please use the appropriate adult boards for porn threads.",
+  "url": "https://boards.4chan.org/bant/thread/2#p2",
+  "category": "general",
+  "board": "bant",
+  "thread_id": 2,
+  "post_id": 2,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "bant",
+    "general",
+    "general"
+  ],
+  "local_path": "data\\learn\\4chan\\text\\bant\\bant_2_2.txt"
+}

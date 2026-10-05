@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:e:3084744:3084746:image",
+  "title": "/e/ 3084746",
+  "text": "/e/ 3084746",
+  "url": "https://boards.4chan.org/e/thread/3084744#p3084746",
+  "category": "nsfw",
+  "kind": "image",
+  "caption": "/e/ 3084746 | [hentai, image, character] | tags: 4chan",
+  "board": "e",
+  "thread_id": 3084744,
+  "post_id": 3084746,
+  "media_category": "hentai",
+  "tags": [
+    "4chan",
+    "e",
+    "hentai",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/e/1778170530893388.jpg",
+  "subject_type": "character",
+  "style_type": "anime",
+  "training_scope": "nsfw",
+  "local_path": "data\\nsfw\\local\\hentai\\e_1778170530893388.jpg"
+}

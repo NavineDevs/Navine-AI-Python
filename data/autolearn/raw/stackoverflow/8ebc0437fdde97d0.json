@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:8318911",
+  "title": "Why does HTML think “chucknorris” is a color?",
+  "text": "Why does HTML think “chucknorris” is a color?\n\n<p>Why do certain random strings produce colors when entered as background colors in HTML?</p>\n<p>For example, <code>bgcolor=&quot;chucknorris&quot;</code> produces a <strong>red background</strong>:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"false\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;body bgcolor=\"chucknorris\"&gt; test &lt;/body&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<p>Conversely,  <code>bgcolor=&quot;chucknorr&quot;</code> produces a <strong>yellow background</strong>:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"false\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;body bgcolor=\"chucknorr\"&gt; test &lt;/body&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<p>This holds true across various browsers and platforms. What’s going on here?</p>",
+  "url": "https://stackoverflow.com/questions/8318911/why-does-html-think-chucknorris-is-a-color",
+  "kind": "qa"
+}

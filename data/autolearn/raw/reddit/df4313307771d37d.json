@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1vg0amj",
+  "title": "What linter rules make code worse?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>For me, a prime example is <a href=\"https://docs.astral.sh/ruff/rules/assert/#assert-s101\">S101</a> which bans the use of the <code>assert</code> statement.</p> <p>The justification is that assertions disappear when Python is run with <code>-O</code>, so they should not be used for runtime validation or enforcing interface constraints. That warning is correct, but the rule seems to draw the wrong conclusion from it.</p> <p>Assertions are still very useful for checking <em>internal</em> invariants, i.e. conditions that should already be guaranteed by the program&#39;s logic, where failure indicates a bug. Having such assertions is incredibly helpful for debugging.</p> <p>So, a blanket ban seems more likely to discourage useful checks than to prevent misuse.</p> <p>Are there any linter rules you broadly consider more harmful rather than helpful?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/M4mb0\"> /u/M4mb0 </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1vg0amj/what_linter_rules_make_code_worse/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vg0amj/what_linter_rules_make_code_worse/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1vg0amj/what_linter_rules_make_code_worse/"
+}

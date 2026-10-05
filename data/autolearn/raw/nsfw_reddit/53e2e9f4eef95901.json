@@ -1,0 +1,23 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfw:t3_1urei9j:rss:img:1",
+  "title": "Rio Hamasaki",
+  "text": "Rio Hamasaki",
+  "url": "https://old.reddit.com/r/nsfw/comments/1urei9j/rio_hamasaki/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://external-preview.redd.it/wDIMxvaIsIdBdhWXP-xf9_HLpyYDAsMgIHv8ZxLb2AY.jpeg?width=640&crop=smart&auto=webp&s=3b3dec58bfb5fc52e3fb1ad94b75db26164f4b82",
+  "caption": "Rio Hamasaki | [mixed, image] | tags: nsfw, unknown | [real, image] | tags: photography | [image] | [image]",
+  "subreddit": "nsfw",
+  "media_category": "real",
+  "tags": [
+    "mixed",
+    "nsfw",
+    "real",
+    "photography"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

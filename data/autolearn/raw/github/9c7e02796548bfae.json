@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/types/unplugin-icons.d.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/types/unplugin-icons.d.ts",
+  "text": "/**\n * unplugin-icons 类型声明\n * 为 ~icons 路径提供类型支持\n */\n\ndeclare module '~icons/*' {\n  import { FunctionalComponent, SVGAttributes } from 'vue';\n  const component: FunctionalComponent<SVGAttributes>;\n  export default component;\n}\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/types/unplugin-icons.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

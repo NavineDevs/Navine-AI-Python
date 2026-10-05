@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:aco:9215193:9215202:image",
+  "title": "/aco/ 9215202",
+  "text": "/aco/ 9215202",
+  "url": "https://boards.4chan.org/aco/thread/9215193#p9215202",
+  "category": "nsfw",
+  "kind": "image",
+  "caption": "/aco/ 9215202 | [hentai, image, character] | tags: 4chan",
+  "board": "aco",
+  "thread_id": 9215193,
+  "post_id": 9215202,
+  "media_category": "hentai",
+  "tags": [
+    "4chan",
+    "aco",
+    "hentai",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/aco/1780715300540333.png",
+  "subject_type": "character",
+  "style_type": "anime",
+  "training_scope": "nsfw",
+  "local_path": "data\\nsfw\\local\\hentai\\aco_1780715300540333.png"
+}

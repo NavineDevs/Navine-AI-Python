@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:81180325",
+  "title": "LinkML",
+  "text": "The Linked Data Modeling Language, or LinkML, is a data modeling framework based on YAML that aims to \"bring semantic web standards to the masses, simplifying the production of FAIR, ontology-ready data.\" It can be used to specify data schemas that can be used for validating data via formats like JSON-LD and ShEx.",
+  "url": "https://en.wikipedia.org/wiki/LinkML",
+  "category": "general"
+}

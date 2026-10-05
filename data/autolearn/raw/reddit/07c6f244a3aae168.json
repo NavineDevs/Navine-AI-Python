@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1vgoad5",
+  "title": "LiteLLM alternatives in production",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>what are teams actually running 3 months after the supply chain attack?</p> <p>it&#39;s been a few months since the litellm pypi compromise and curious what teams actually migrated to. saw a lot of threads right after the incident but not much on how things held up in production since then. </p> <p>been evaluating options ourselves. TrueFoundry came up for teams needing the governance and cost...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/aviedawn\"> /u/aviedawn </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1vgoad5/litellm_alternatives_in_production/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vgoad5/litellm_alternatives_in_production/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1vgoad5/litellm_alternatives_in_production/"
+}

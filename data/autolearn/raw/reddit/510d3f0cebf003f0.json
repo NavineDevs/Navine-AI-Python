@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1u3oe0b",
+  "title": "Building a plugin system for Tolgee using iframes, webhooks, and decorators",
+  "text": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hiIAmJan\"> /u/hiIAmJan </a> <br/> <span><a href=\"https://tolgee.io/blog/building-a-plugin-system-for-tolgee-without-a-runtime-storage-or-shared-js-context\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u3oe0b/building_a_plugin_system_for_tolgee_using_iframes/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1u3oe0b/building_a_plugin_system_for_tolgee_using_iframes/"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:49184900",
+  "title": "Show HN: I made alchemical-cosmological PCB badges",
+  "text": "Hey guys,<p>A couple weeks ago, I was in Shenzhen, China for a hackathon and on the first day, we all used the one-day PCB fabrication to make PCB badges to wear during the event. I decided to go a little crazy and make some cool 3D alchemical-cosmological badges.<p>It&#x27;s 3 PCB&#x27;s stacked on-top of each other that&#x27;s connected using testpoints on each board. The innerboard has a 10 cent CH32V003 MCU that powers the WS2812B neopixels on the outer rings using the testpoints and shines through using exposed soldermask.<p>If you have any questions about how the design works, feel free to let me know!",
+  "url": "https://github.com/KaiPereira/Alchemical-Cosmological-Badges"
+}

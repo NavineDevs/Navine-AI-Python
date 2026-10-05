@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:manaflow-ai/cmux:CLI/BrowserValueTextFormatter.swift",
+  "title": "manaflow-ai/cmux/CLI/BrowserValueTextFormatter.swift",
+  "text": "import Foundation\n\n/// Converts browser RPC values into their plain-text CLI representation.\nstruct BrowserValueTextFormatter {\n    func string(from value: Any) -> String {\n        if let dictionary = value as? [String: Any],\n           dictionary[\"__cmux_t\"] as? String == \"undefined\" {\n            return \"undefined\"\n        }\n        if value is NSNull {\n            return \"null\"\n        }\n        if let string = value as? String {\n            return string\n        }\n        if let number = value as? NSNumber {\n            return string(from: number)\n        }\n        if JSONSerialization.isValidJSONObject(value),\n           let data = try? JSONSerialization.data(withJSONObject: value, options: [.prettyPrinted]),\n           let text = String(data: data, encoding: .utf8) {\n            return text\n        }\n        return String(describing: value)\n    }\n\n    private func string(from number: NSNumber) -> String {\n        if CFGetTypeID(number) == CFBooleanGetTypeID() {\n            return number.boolValue ? \"true\" : \"false\"\n        }\n\n        let value = number.doubleValue\n        if value.isNaN {\n            return \"NaN\"\n        }\n        if value == .infinity {\n            return \"Infinity\"\n        }\n        if value == -.infinity {\n            return \"-Infinity\"\n        }\n        return number.stringValue\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/CLI/BrowserValueTextFormatter.swift",
+  "language": "swift",
+  "kind": "code"
+}

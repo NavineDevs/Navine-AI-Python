@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.07688v1",
+  "title": "Small Matrices with Large Inverses: Unimodular $4 \\times 4$ Cases",
+  "text": "Small Matrices with Large Inverses: Unimodular $4 \\times 4$ Cases\n\nHow close to singularity can an $n \\times n$ unimodular matrix be? For ternary cases as $n$ increases, exact expressions are unlikely, but upon fixing $n=4$ and assessing $(2k+1)$-ary cases as $k$ increases, we make significant progress; similarly for $(k+1)$-ary cases of $4\\times 4$ nonnegative unimodular matrices.",
+  "url": "https://arxiv.org/abs/2607.07688v1",
+  "category": "technical"
+}

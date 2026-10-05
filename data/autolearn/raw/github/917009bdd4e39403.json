@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:tools/test.rb",
+  "title": "rails/rails/tools/test.rb",
+  "text": "# frozen_string_literal: true\n\n$: << File.expand_path(\"test\", COMPONENT_ROOT)\n\nrequire \"bundler/setup\"\n\nrequire \"rails/test_unit/runner\"\nrequire \"rails/test_unit/reporter\"\nrequire \"rails/test_unit/line_filtering\"\nrequire \"active_support\"\nrequire \"active_support/test_case\"\n\nActiveSupport::TestCase.extend Rails::LineFiltering\nRails::TestUnitReporter.app_root ||= COMPONENT_ROOT\nRails::TestUnitReporter.executable = \"bin/test\"\n\nRails::TestUnit::Runner.parse_options(ARGV)\nRails::TestUnit::Runner.run(ARGV)\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/tools/test.rb",
+  "language": "ruby",
+  "kind": "code"
+}

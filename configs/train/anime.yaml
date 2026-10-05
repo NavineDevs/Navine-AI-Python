@@ -1,0 +1,9 @@
+extends: image
+data:
+  train_dir: data/nsfw/local/hentai
+  extra_dirs:
+    - data/nsfw/images/infini-atomic
+    - data/nsfw/images/waifu
+training:
+  max_steps: 400
+  finetune_steps: 250

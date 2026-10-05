@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:1789945",
+  "title": "How to check whether a string contains a substring in JavaScript?",
+  "text": "How to check whether a string contains a substring in JavaScript?\n\n<p>Usually I would expect a <code>String.contains()</code> method, but there doesn't seem to be one. </p>\n\n<p>What is a reasonable way to check for this?</p>",
+  "url": "https://stackoverflow.com/questions/1789945/how-to-check-whether-a-string-contains-a-substring-in-javascript",
+  "kind": "qa"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vkhslz",
+  "title": "Dioxus vs Leptos and RustUI",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys I created a web app and was blown away by how good it works out of the box I’m honestly impressed by how small it is and I have found a new appreciation for the devs that built these pkgs I mean a 700KB bundle on a fully working visual data transfer webapp is insane. But in this process I found a crossroad… these 2 (Leptos and Dioxus) seem to fundamentally be solving the same issue the same way while being able to work together all the same. Even rustui in undecided and is asking for inputs on what framework to follow. </p> <p>Why is this like this? Is there a reason I’m not seen?</p> <p>Is Leptos the nextjs of rust and Dioxus the react-native of rust? Isn’t Tauri already there? Or is Tauri the flutter of rust?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BassIs4StringDrum\"> /u/BassIs4StringDrum </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1vkhslz/dioxus_vs_leptos_and_rustui/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vkhslz/dioxus_vs_leptos_and_rustui/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vkhslz/dioxus_vs_leptos_and_rustui/"
+}

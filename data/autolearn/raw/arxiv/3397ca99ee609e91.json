@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.09769v1",
+  "title": "Abstract Compilation as Abstraction of Operator Semantics, applied to Cost Analysis",
+  "text": "Abstract Compilation as Abstraction of Operator Semantics, applied to Cost Analysis\n\nLeast fixpoints are fundamental to program semantics, but they abstract away the recursive structure that generated them. We introduce operator semantics: a semantic intermediate representation between syntax and classical denotational semantics, which treats programs as operators. Abstract compilation is then understood as the act of abstracting such operators. We develop higher-order abstract domains for functions, operators, and programs themselves, in which composition is the key novel primitive, together with a categorical framework for constructing sound, precise, and modular abstract compilers. We instantiate this framework in the context of recurrence-based static cost analysis, developing solver-independent, optimal recurrence extraction techniques for recursive programs over algebraic data types, that support general function unknowns and catamorphic metrics, a broad class of size metrics beyond traditional approaches.",
+  "url": "https://arxiv.org/abs/2608.09769v1",
+  "category": "technical"
+}

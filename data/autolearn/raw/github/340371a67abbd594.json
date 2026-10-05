@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rwf2/Rocket:testbench/src/main.rs",
+  "title": "rwf2/Rocket/testbench/src/main.rs",
+  "text": "mod runner;\nmod servers;\nmod config;\n\npub mod prelude {\n    pub use rocket::*;\n    pub use rocket::fairing::*;\n    pub use rocket::response::stream::*;\n\n    pub use testbench::{Error, Result, *};\n    pub use crate::register;\n    pub use crate::config::*;\n}\n\npub use runner::Test;\n\nfn main() -> std::process::ExitCode {\n    runner::run()\n}\n",
+  "url": "https://raw.githubusercontent.com/rwf2/Rocket/master/testbench/src/main.rs",
+  "language": "rust",
+  "kind": "code"
+}

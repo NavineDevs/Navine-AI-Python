@@ -1,0 +1,14 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:data\\learn\\4chan\\text\\news\\news_1526539_1526690.txt",
+  "title": "news_1526539_1526690",
+  "text": ">>1526656 AI is only secure if you control the hardware and access and agents. Sharing an AI server with anyone else is not secure.",
+  "url": "data\\learn\\4chan\\text\\news\\news_1526539_1526690.txt",
+  "category": "nsfw",
+  "topic": "news",
+  "tags": [
+    "news",
+    "nsfw",
+    "local"
+  ]
+}

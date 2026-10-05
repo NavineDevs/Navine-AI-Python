@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:1642028",
+  "title": "What is the &#39;--&gt;&#39; operator in C/C++?",
+  "text": "What is the &#39;--&gt;&#39; operator in C/C++?\n\n<p>After reading <a href=\"http://groups.google.com/group/comp.lang.c++.moderated/msg/33f173780d58dd20\" rel=\"noreferrer\">Hidden Features and Dark Corners of C++/STL</a> on <code>comp.lang.c++.moderated</code>, I was completely surprised that the following snippet compiled and worked in both Visual Studio 2008 and G++ 4.4. I would assume this is also valid C since it works in GCC as well.</p>\n<p>Here's the code:</p>\n<pre><code>#include &lt;stdio.h&gt;\nint main()\n{\n    int x = 10;\n    while (x --&gt; 0) // x goes to 0\n    {\n        printf(&quot;%d &quot;, x);\n    }\n}\n</code></pre>\n<p>Output:</p>\n<pre><code>9 8 7 6 5 4 3 2 1 0\n</code></pre>\n<p>Where is this defined in the standard, and where has it come from?</p>",
+  "url": "https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c-c",
+  "kind": "qa"
+}

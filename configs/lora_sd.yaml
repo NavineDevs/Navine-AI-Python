@@ -1,0 +1,53 @@
+secondary_path: true
+teacher_role: lora_finetune
+
+base_model:
+  model_id: runwayml/stable-diffusion-v1-5
+  revision: null
+
+lora:
+  rank: 8
+  alpha: 16
+  dropout: 0.0
+  target_modules:
+    - to_q
+    - to_k
+    - to_v
+    - to_out.0
+
+data:
+  train_dirs:
+    - data/learn/image
+    - data/learn/external/images
+    - data/nsfw/local/real
+    - data/nsfw/local/hentai
+    - data/nsfw/local/porn
+  resolution: 512
+  caption_dropout: 0.1
+  default_caption: high quality detailed photo
+  max_images: 400
+
+training:
+  max_steps: 1200
+  batch_size: 1
+  grad_accum_steps: 4
+  learning_rate: 0.0001
+  lr_warmup_steps: 50
+  grad_clip: 1.0
+  save_every: 200
+  mixed_precision: auto
+  gradient_checkpointing: true
+  seed: 42
+
+output:
+  dir: checkpoints/lora_sd
+  weight_name: navine_lora.safetensors
+
+inference:
+  num_inference_steps: 28
+  guidance_scale: 7.5
+  width: 512
+  height: 512
+  negative_prompt: blurry, low quality, deformed, ugly, bad anatomy, extra limbs, watermark, text
+  lora_scale: 0.85
+  scheduler: dpmpp

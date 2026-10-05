@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:framework7io/framework7:gulpfile.js",
+  "title": "framework7io/framework7/gulpfile.js",
+  "text": "require('./scripts/gulpfile.js');\n",
+  "url": "https://raw.githubusercontent.com/framework7io/framework7/master/gulpfile.js",
+  "language": "javascript",
+  "kind": "code"
+}

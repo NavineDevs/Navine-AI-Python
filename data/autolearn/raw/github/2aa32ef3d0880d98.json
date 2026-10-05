@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:redis-store/redis-store:lib/redis/store/interface.rb",
+  "title": "redis-store/redis-store/lib/redis/store/interface.rb",
+  "text": "class Redis\n  class Store < self\n    module Interface\n      def get(key, options = nil)\n        super(key)\n      end\n\n      REDIS_SET_OPTIONS = %i(ex px nx xx keepttl).freeze\n      private_constant :REDIS_SET_OPTIONS\n\n      def set(key, value, options = nil)\n        if options && REDIS_SET_OPTIONS.any? { |k| options.key?(k) }\n          kwargs = REDIS_SET_OPTIONS.each_with_object({}) { |key, h| h[key] = options[key] if options.key?(key) }\n          super(key, value, **kwargs)\n        else\n          super(key, value)\n        end\n      end\n\n      def setnx(key, value, options = nil)\n        super(key, value)\n      end\n\n      def setex(key, expiry, value, options = nil)\n        super(key, expiry, value)\n      end\n    end\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/redis-store/redis-store/master/lib/redis/store/interface.rb",
+  "language": "ruby",
+  "kind": "code"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:2765421",
+  "title": "How do I push a new local branch to a remote Git repository and track it too?",
+  "text": "How do I push a new local branch to a remote Git repository and track it too?\n\n<p>How do I:</p>\n<ol>\n<li><p>Create a local branch from another branch (via <code>git branch</code> or <code>git checkout -b</code>).</p>\n</li>\n<li><p>Push the local branch\nto the remote repository (i.e. publish), but make it\ntrackable so that <code>git pull</code> and <code>git push</code> will work.</p>\n</li>\n</ol>",
+  "url": "https://stackoverflow.com/questions/2765421/how-do-i-push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too",
+  "kind": "qa"
+}

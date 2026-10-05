@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.09865v1",
+  "title": "A Bird's-Eye View on Security Considerations in RFCs",
+  "text": "A Bird's-Eye View on Security Considerations in RFCs\n\nRequest for comments (RFCs) are Internet standards, memorandums, and related technical documents about core Internet protocols made via and released by the Internet Engineering Task Force (IETF). In the early 1990s each RFC was required to have a section for security considerations. The present work examines these sections. According to the empirical results, (1) over 90% of the RFCs sampled have discussed security explicitly in these sections, (2) although mandatory security requirements have only seldom-if ever-been imposed. Furthermore, (3) the RFC-to-RFC reference network specific to the security consideration sections is sparse, although a few RFCs and their security consideration sections are heavily referenced. In addition, (4) the volume of references peaked during a period from circa mid-1990s to mid-2010s. Regarding the topics discussed in the sections, (5) these do not represent general security issues, such as spoofing or eavesdropping; rather, the topics mostly reflect distinct security issues specific to distinct protocols. With the exceptions of network security in general, security specifications, and routing, (6) also the longitudinal evolution of the topics is protocol-specific. As the subject matter has not been previously examined, these empirical results fill a gap in the standardization literature.",
+  "url": "https://arxiv.org/abs/2608.09865v1",
+  "category": "technical"
+}

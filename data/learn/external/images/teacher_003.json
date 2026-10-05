@@ -1,0 +1,13 @@
+{
+  "prompt": "anime girl with blue hair, detailed illustration, vibrant colors",
+  "caption": "anime girl with blue hair, detailed illustration, vibrant colors",
+  "filename": "teacher_003.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-06-24T04:32:32.966649+00:00",
+  "enhanced_prompt": "an anime girl with blue hair, detailed illustration, vibrant colors, anime illustration, stylized character art, vibrant colors, detailed linework",
+  "seed": 56591593,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_003.png"
+}

@@ -1,0 +1,14 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:data\\learn\\4chan\\text\\t\\t_1398969_1398969.txt",
+  "title": "t_1398969_1398969",
+  "text": "Welcome to /t/orrents. Reminder ALL worksafe requests belong in >>>/wsr/ Beginners tl;dr Guide for Torrenting: >Clients There are a lot of clients to choose from, here's a couple: Deluge, qBittorrent, BiglyBT. >Downloading Most posts on /t/ will be accompanied by a magnet link which should look something like this: magnet:?xt=urn:btih:23062d6e5134677 ae10801815b6bbf4ab9092c02 These are used in your torrent client to download the torrent. e.g. In Deluge - File->Add Torrent->URL->(Paste the magnet link)->OK->Add. Other times posters will provide a link to another site where you can download a .torrent file which when opened will begin downloading in your torrent client. >Seeding When you start a torrent, you begin downloading from seeds. Seeds are people who have finished downloading the torrent and are now uploading that content to new downloaders like you. Be courteous and seed. You should always aim to have a seed ratio of 1:1 (You've uploaded as much as you downloaded). If you still have questions please refer to the image in this post or http://www.google.com/.",
+  "url": "data\\learn\\4chan\\text\\t\\t_1398969_1398969.txt",
+  "category": "nsfw",
+  "topic": "t",
+  "tags": [
+    "t",
+    "nsfw",
+    "local"
+  ]
+}

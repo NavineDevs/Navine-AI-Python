@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1tvod3m",
+  "title": "Polars Distributed is available on kubernetes",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.reddit.com/r/Python/?f=flair_name%3A%22Showcase%22\"></a><sup>Disclosure: I am affiliated.</sup></p> <p>I wanted to share that as of today, Polars also is available as a Distributed Engine on kubernetes. Polars&#39; goal has always been to make single node processing as performant and easy as possible, and that is something we want to extend to distributed compute as well.</p> <p>Read more in our announcement:</p> <p><a href=\"https://pola.rs/posts/polars-distributed-available-on-kubernetes/\">https://pola.rs/posts/polars-distributed-available-on-kubernetes/</a></p> <p>Happy to answer any questions you might have.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ritchie46\"> /u/ritchie46 </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1tvod3m/polars_distributed_is_available_on_kubernetes/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1tvod3m/polars_distributed_is_available_on_kubernetes/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1tvod3m/polars_distributed_is_available_on_kubernetes/"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeok/so-novel:bin/fetch-github-releases.sh",
+  "title": "freeok/so-novel/bin/fetch-github-releases.sh",
+  "text": "#!/bin/bash\nset -euo pipefail\n\n# =============== 配置 ===============\nREPO=\"${1:-freeok/so-novel}\"          # 第1个参数：GitHub 仓库，默认 freeok/so-novel\nOUTPUT_FILE=\"${2:-CHANGELOG_ALL.md}\"  # 第2个参数：输出文件，默认 CHANGELOG_ALL.md\nPER_PAGE=100                          # 每页抓取的 release 数量\n# ===================================\n\n# 依赖检查\ncommand -v jq >/dev/null 2>&1 || { echo \"❌ 需要安装 jq\"; exit 1; }\ncommand -v curl >/dev/null 2>&1 || { echo \"❌ 需要安装 curl\"; exit 1; }\n\n# 清空输出文件\n: > \"$OUTPUT_FILE\"\n\nPAGE=1\nwhile true; do\n  echo \"📦 Fetching page $PAGE...\"\n  RESP=$(curl -s \"https://api.github.com/repos/${REPO}/releases?per_page=${PER_PAGE}&page=${PAGE}\")\n\n  COUNT=$(echo \"$RESP\" | jq length)\n  if [[ \"$COUNT\" -eq 0 ]]; then\n    break\n  fi\n\n  # 提取 release 标题、tag 和正文\n  echo \"$RESP\" | jq -r '\n    .[] |\n    \"## \" + .name + \"\\n\\n\" +\n    (.body // \"No details\") + \"\\n\\n---\\n\"\n  ' >> \"$OUTPUT_FILE\"\n\n  PAGE=$((PAGE + 1))\ndone\n\necho \"✅ 所有 changelog 已保存到 $OUTPUT_FILE\"",
+  "url": "https://raw.githubusercontent.com/freeok/so-novel/main/bin/fetch-github-releases.sh",
+  "language": "shell",
+  "kind": "code"
+}

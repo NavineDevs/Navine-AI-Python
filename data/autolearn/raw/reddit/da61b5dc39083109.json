@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:cpp:t3_1u2t9s4",
+  "title": "Still amazed every time I read this paper. What pros and cons do you think it would have against C++20 coroutines?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Just was reading again this. What I like is the core idea that it looks much closer to concepts I understand in C++ (mainly function objects) instead of all the dance for promise_type/suspend/await_transform, etc.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/germandiago\"> /u/germandiago </a> <br/> <span><a href=\"https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/n4453.pdf\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cpp/comments/1u2t9s4/still_amazed_every_time_i_read_this_paper_what/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/cpp/comments/1u2t9s4/still_amazed_every_time_i_read_this_paper_what/"
+}

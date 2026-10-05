@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48492822",
+  "title": "The only scalable delete in Postgres is DROP TABLE",
+  "text": "The only scalable delete in Postgres is DROP TABLE",
+  "url": "https://planetscale.com/blog/the-only-scalable-delete"
+}

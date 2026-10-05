@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:start-docker-compose-cloud.sh",
+  "title": "jeecgboot/JeecgBoot/start-docker-compose-cloud.sh",
+  "text": "#!/bin/bash\n# JEECG Boot 一键启动脚本 (Linux Bash 版)\n\nset -e  # 遇到错误时退出脚本\n\n# 检查必要工具\necho \"[1/5] 检查必要工具...\"\ncommand -v docker >/dev/null 2>&1 || { echo \"[错误] 未安装 Docker，请先安装 Docker\"; exit 1; }\ncommand -v docker-compose >/dev/null 2>&1 || { echo \"[错误] 未安装 docker-compose\"; exit 1; }\ncommand -v mvn >/dev/null 2>&1 || { echo \"[错误] 未安装 Maven\"; exit 1; }\ncommand -v pnpm >/dev/null 2>&1 || { echo \"[错误] 未安装 pnpm\"; exit 1; }\n\n# 设置 hosts 文件\necho \"[2/5] 设置 hosts 文件...\"\nentry1=\"127.0.0.1   jeecg-boot-gateway\"\nentry2=\"127.0.0.1   jeecg-boot-mysql\"\nhostsFile=\"/etc/hosts\"\n\n# 检查第一个条目是否存在\nif ! grep -q \"$entry1\" \"$hostsFile\"; then\n    echo \"$entry1\" | sudo tee -a \"$hostsFile\" > /dev/null\n    echo \"已添加: $entry1\"\nelse\n    echo \"已存在: $entry1\"\nfi\n\n# 检查第二个条目是否存在\nif ! grep -q \"$entry2\" \"$hostsFile\"; then\n    echo \"$entry2\" | sudo tee -a \"$hostsFile\" > /dev/null\n    echo \"已添加: $entry2\"\nelse\n    echo \"已存在: $entry2\"\nfi\n\necho \"[3/5] 编译后端项目...\"\ncd jeecg-boot\nmvn clean install -Pdev,SpringCloud\n\necho \"[4/5] 编译前端项目...\"\ncd ../jeecgboot-vue3\npnpm install\npnpm run build:dockercloud\ncd ..\n\necho \"[5/5] 启动Docker容器...\"\ndocker-compose -f docker-compose-cloud.yml up -d\n\necho\necho \"========================================\"\necho \"  JEECG Boot 启动成功 (请等待1分钟，待所有容器启动成功）\"\necho \"========================================\"\necho \"前端访问:      http://localhost\"\necho \"后端API:      http://localhost:9999\"\necho",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/start-docker-compose-cloud.sh",
+  "language": "shell",
+  "kind": "code"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:79966709",
+  "title": "Haloscope (physics)",
+  "text": "Haloscopes are experimental devices designed to detect axions, hypothetical particles that are candidates for dark matter.  First proposed by Sikivie in 1983, these instruments typically use a resonant microwave cavity placed in a strong magnetic field to convert axions into detectable photons via the Primakoff effect.\nHaloscopes probe for axions in a specific mass range and operate by tuning the cavity to resonate at frequencies corresponding to those masses. They have provided the lowest limits to the axion-photon coupling constant in their mass region. They are a part of the current experimental effort in search for axions.\n\nThe most well-known haloscope experiment to date is ADMX (Axion Dark Matter eXperiment). ADMX uses a resonant cavity haloscope, namely a cylindrical haloscope, with the goal of detecting axions. Other axion experiments, like IAXO (International AXion Observatory), may incorporate haloscope techniques in its broader axion detection strategy. One of these techniques is RADES (Relic Axion Dark matter Exploratory Setup) which was operated in CAST.\nHaloscope techniques, have also been proposed for the detection of high-frequency gravitational waves. In these concepts, a resonant cavity placed in a strong magnetic field can convert gravitational wave energy into electromagnetic signals through axion-like couplings or other beyond-standard-model interactions. Such approaches aim to explore gravitational wave frequencies in the MHz to GHz range, which are not accessible to conventional interferometers like LIGO or Virgo.",
+  "url": "https://en.wikipedia.org/wiki/Haloscope_%28physics%29",
+  "category": "general"
+}

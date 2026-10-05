@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:niieani/bash-oo-framework:example/v1/debug.sh",
+  "title": "niieani/bash-oo-framework/example/v1/debug.sh",
+  "text": "func() {\n  local wtf\n  echo test\n  local\n  declare --p\n}\nfunc\n\n#trap\n# trap '_Dbg_debug_trap_handler 0 \"$BASH_COMMAND\" \"$@\"; func' DEBUG\n# echo mama\n#\n# echo lol\n# echo works\n\n# echo test\n# echo test2\n# echo test3\n# trap\n# trap 'echo TEST' DEBUG\n# echo LALALA\n# trap - DEBUG\n# echo will it work?\n# echo yes?\n",
+  "url": "https://raw.githubusercontent.com/niieani/bash-oo-framework/master/example/v1/debug.sh",
+  "language": "shell",
+  "kind": "code"
+}

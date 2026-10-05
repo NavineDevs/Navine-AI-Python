@@ -1,0 +1,46 @@
+base_config: video_enterprise
+checkpoint_namespace: video_lora
+
+lora:
+  rank: 8
+  alpha: 16
+
+merge:
+  min_valid_ratio: 0.34
+  require_improvement: true
+  min_improvement_delta: 0.0
+
+data:
+  train_dir: data/nsfw/local/hentai
+  extra_dirs:
+    - data/nsfw/local/porn
+    - data/nsfw/local/human
+    - data/nsfw/local/real
+    - data/image/sfw/skies
+    - data/nsfw/videos
+    - data/nsfw/videos/local
+    - data/learn/video
+
+training:
+  batch_size: 1
+  learning_rate: 0.0002
+  max_steps: 1200
+  save_interval: 250
+  grad_clip: 1.0
+  ema_decay: 0.999
+  max_files_per_dir: 500
+  oversample_categories:
+    hentai: 8
+    animated: 6
+    porn: 8
+    human: 7
+    real: 7
+    sky: 6
+    landscape: 5
+    sfw: 4
+    people: 4
+    object: 2
+    general: 2
+    think: 2
+    detective: 2
+    mixed: 3

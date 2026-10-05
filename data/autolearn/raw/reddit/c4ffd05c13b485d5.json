@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1vh1c3f",
+  "title": "[Showoff] GPU-Powered Crayons, NPM Package Quarantine and Dave Branching Off Your Code Without Asking",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey Community,</p> <p>We dive into React Native Canvas Kit, a library built on React Native Skia that adds isolated layers, brushes, interactive shapes, and web support for canvas graphics.</p> <p>We also cover Targate, a CLI tool that quarantines npm packages to inspect tarballs before installation, and GitHub stacked pull requests to keep dependent branch reviews clean.</p> <p>And... 🥁 Shipaton 2026 is here!</p> <p>If the Rewind made you nod, smile, or think &quot;oh… that&#39;s actually cool&quot; — a share or reply genuinely helps ❤️</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thereactnativerewind\"> /u/thereactnativerewind </a> <br/> <span><a href=\"https://thereactnativerewind.com/issues/gpu-powered-crayons-npm-package-quarantine-and-dave-branching-off-your-code-without-asking\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1vh1c3f/showoff_gpupowered_crayons_npm_package_quarantine/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1vh1c3f/showoff_gpupowered_crayons_npm_package_quarantine/"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.16839v1",
+  "title": "Expanding Access, Exposing Risk: A Short Study of Exposed Starlink Hosts",
+  "text": "Expanding Access, Exposing Risk: A Short Study of Exposed Starlink Hosts\n\nIn this very short paper, we present a measurement-driven analysis of the security characteristics of Starlink-connected hosts and uncover several concerning trends. We find that Starlink hosts are more likely to run outdated or vulnerable operating systems and network protocols than non-Starlink hosts. Regions like Latin America, Southeast Asia, and Eastern Europe show disproportionately higher risk. Our findings raise important questions for the Internet measurement and policy communities.",
+  "url": "https://arxiv.org/abs/2608.16839v1",
+  "category": "technical"
+}

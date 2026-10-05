@@ -1,0 +1,12 @@
+enabled: true
+bind_host: 127.0.0.1
+port: 8766
+require_auth: true
+allow_localhost_without_auth: true
+allow_same_origin_without_auth: true
+keys_file: .navine/api_keys.json
+cors_origins:
+  - "*"
+rate_limit:
+  enabled: false
+  requests_per_minute: 60

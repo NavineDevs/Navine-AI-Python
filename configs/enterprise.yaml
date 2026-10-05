@@ -1,0 +1,62 @@
+profile: enterprise
+owner: HitBoyXx23
+local_only: true
+custom_trained_only: true
+
+targets:
+  text:
+    parity: chatgpt_gemini_claude
+    focus:
+      - instruction_following
+      - coding
+      - reasoning
+      - long_context
+  image:
+    parity: chatgpt_grok_gemini
+    focus:
+      - photoreal_anatomy
+      - prompt_adherence
+      - sharpness
+  video:
+    parity: chatgpt_grok_gemini
+    focus:
+      - temporal_coherence
+      - motion_quality
+      - frame_consistency
+
+phases:
+  - id: ingest
+    description: Pull coding, chat, image, and video training data
+    autolearn_max_items: 600
+    autolearn_sources:
+      - github
+      - reddit
+      - wikipedia
+      - arxiv
+      - stackoverflow
+    nsfw_ingest: true
+  - id: text
+    config: text_enterprise
+    min_pass_score: 0.55
+  - id: image
+    config: image_enterprise_v2_mix
+    fresh_start: false
+    min_pass_score: 0.72
+    quality_cycles: 8
+  - id: video
+    config: video_enterprise
+    fresh_start: true
+  - id: eval
+    run_benchmark: true
+    sample_prompts:
+      text: "Write a Python function that merges two sorted lists."
+      image: "photoreal portrait of a woman, studio lighting, sharp focus"
+      video: "slow camera pan across a city street at dusk"
+  - id: promote
+    set_active_tier: enterprise
+
+hardware_note: >
+  Frontier-class parity needs GPU clusters and billions of parameters.
+  Navine enterprise tier scales custom local models (256px diffusion, larger
+  transformer) within CPU/GPU constraints. Quality improves with longer runs
+  and more data; full frontier-model parity is not reachable on this stack alone.

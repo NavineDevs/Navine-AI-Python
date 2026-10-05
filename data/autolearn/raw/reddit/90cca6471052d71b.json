@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:learnprogramming:t3_1vkb2rw",
+  "title": "Is there an API with album data similar to Spotify?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been testing the Spotify API to retrieve album data for a project I&#39;m working on, but the problem is that after making several requests, I exceeded my quota, which has brought the project to a halt.</p> <p>Is there an API that handles data in a similar way? One that lets me retrieve tracklists, album art, duration, release dates, and so on?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Josents\"> /u/Josents </a> <br/> <span><a href=\"https://www.reddit.com/r/learnprogramming/comments/1vkb2rw/is_there_an_api_with_album_data_similar_to_spotify/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/learnprogramming/comments/1vkb2rw/is_there_an_api_with_album_data_similar_to_spotify/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/learnprogramming/comments/1vkb2rw/is_there_an_api_with_album_data_similar_to_spotify/"
+}

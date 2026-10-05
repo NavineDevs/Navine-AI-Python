@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:QuestPDF/QuestPDF:src/dotnet/library/QuestPDF.Benchmarks/BenchmarkConfigs.cs",
+  "title": "QuestPDF/QuestPDF/src/dotnet/library/QuestPDF.Benchmarks/BenchmarkConfigs.cs",
+  "text": "using BenchmarkDotNet.Configs;\nusing BenchmarkDotNet.Diagnosers;\nusing BenchmarkDotNet.Environments;\nusing BenchmarkDotNet.Exporters.Json;\nusing BenchmarkDotNet.Jobs;\n\nnamespace QuestPDF.Benchmarks;\n\ninternal static class BenchmarkConfigs\n{\n    private static readonly Runtime[] TargetRuntimes =\n    [\n        CoreRuntime.Core60,\n        CoreRuntime.Core80,\n        CoreRuntime.Core10_0\n    ];\n\n    public static IConfig Create()\n    {\n        var config = ManualConfig\n            .Create(DefaultConfig.Instance)\n            .AddDiagnoser(MemoryDiagnoser.Default)\n            .AddExporter(JsonExporter.Full);\n\n        foreach (var runtime in TargetRuntimes)\n        {\n            config.AddJob(Job.Default\n                .WithRuntime(runtime)\n                .WithId(runtime.Name));\n        }\n\n        return config;\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/QuestPDF/QuestPDF/main/src/dotnet/library/QuestPDF.Benchmarks/BenchmarkConfigs.cs",
+  "language": "csharp",
+  "kind": "code"
+}

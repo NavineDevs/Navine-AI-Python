@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vumi2p",
+  "title": "biggest noob trying to learn Go",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hi there so from 1 week i am learning go right now I have come to know about go routines and channels. :3</p> <p>Majorly i am learning from chatgpt and claude and reading articles. I came across a keyword defer. but i am unable to correctly get the feel of what is defer and what does defer res.body.close() does?? does it close the connection?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Agreeable-Future1599\"> /u/Agreeable-Future1599 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vumi2p/biggest_noob_trying_to_learn_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vumi2p/biggest_noob_trying_to_learn_go/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vumi2p/biggest_noob_trying_to_learn_go/"
+}

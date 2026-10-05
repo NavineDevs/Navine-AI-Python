@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:InsertKoinIO/koin:projects/install.sh",
+  "title": "InsertKoinIO/koin/projects/install.sh",
+  "text": "#!/bin/sh\n\n./gradlew publishToMavenLocal --no-configuration-cache\n",
+  "url": "https://raw.githubusercontent.com/InsertKoinIO/koin/main/projects/install.sh",
+  "language": "shell",
+  "kind": "code"
+}

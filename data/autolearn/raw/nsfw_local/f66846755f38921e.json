@@ -1,0 +1,8 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:data\\nsfw\\local\\test_sample.txt",
+  "title": "test_sample",
+  "text": "Test unrestricted local sample for autolearn verification.",
+  "url": "data\\nsfw\\local\\test_sample.txt",
+  "category": "nsfw"
+}

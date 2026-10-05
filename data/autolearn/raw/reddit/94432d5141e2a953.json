@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vhq8dk",
+  "title": "Where should logging happen in a Go application?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I recently wrote my own logger package with Info(), Warning(), and Error() methods.</p> <p>I am wondering about logging best practices in Go applications. Do you usually log directly in handlers, or do you log inside functions called by the handler (services, database functions, etc.)?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NoTutor4458\"> /u/NoTutor4458 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vhq8dk/where_should_logging_happen_in_a_go_application/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vhq8dk/where_should_logging_happen_in_a_go_application/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vhq8dk/where_should_logging_happen_in_a_go_application/"
+}

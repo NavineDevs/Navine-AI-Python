@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:redis-store/redis-store:lib/redis/store/redis_version.rb",
+  "title": "redis-store/redis-store/lib/redis/store/redis_version.rb",
+  "text": "class Redis\n  class Store < self\n    module RedisVersion\n      def redis_version\n        info('server')['redis_version']\n      end\n\n      def supports_redis_version?(version)\n        (redis_version.split(\".\").map(&:to_i) <=> version.split(\".\").map(&:to_i)) >= 0\n      end\n    end\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/redis-store/redis-store/master/lib/redis/store/redis_version.rb",
+  "language": "ruby",
+  "kind": "code"
+}

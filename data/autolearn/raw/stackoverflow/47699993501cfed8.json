@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:4089430",
+  "title": "How to determine the URL that a local Git repository was originally cloned from",
+  "text": "How to determine the URL that a local Git repository was originally cloned from\n\n<p>I pulled a project with several forks on GitHub, but forgot which fork it was. How do I determine which fork I pulled?</p>",
+  "url": "https://stackoverflow.com/questions/4089430/how-to-determine-the-url-that-a-local-git-repository-was-originally-cloned-from",
+  "kind": "qa"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:devops:t3_1vh40yh",
+  "title": "Migrating From Gitlab to Azure DevOps",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>We&#39;re an on prem shop and our manager wants to migrate all DevOps teams from Enterprise Gitlab self managed to ADO on prem. </p> <p>We don&#39;t know what to expect with this move, anyone has experience with ADO on prem ? what kind of challenges would we face if our entire Gitlab infra (platform + runners) are hosted on K8s.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Suvulaan\"> /u/Suvulaan </a> <br/> <span><a href=\"https://www.reddit.com/r/devops/comments/1vh40yh/migrating_from_gitlab_to_azure_devops/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/devops/comments/1vh40yh/migrating_from_gitlab_to_azure_devops/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/devops/comments/1vh40yh/migrating_from_gitlab_to_azure_devops/"
+}

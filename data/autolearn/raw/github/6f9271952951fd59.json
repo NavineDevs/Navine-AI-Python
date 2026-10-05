@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:compiler/fixtures/fbt-scope-range-sync-with-jsx.js",
+  "title": "react/react/compiler/fixtures/fbt-scope-range-sync-with-jsx.js",
+  "text": "// Repro for fbt scope range sync: when expandFbtScopeRange modifies\n// scope.range.start, identifier mutable_ranges must be synced so\n// MergeOverlappingReactiveScopesHIR can detect the overlap.\nimport fbt from 'fbt';\n\nfunction Component({size, icon}) {\n  return (\n    <Badge icon={icon}>\n      {fbt(\n        `Available in ${fbt.param('size', size)} only`,\n        'Badge text with dynamic param'\n      )}\n    </Badge>\n  );\n}\n\nexport const FIXTURE_ENTRYPOINT = {\n  fn: Component,\n  params: [{size: 'Large', icon: 'rx'}],\n};\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/compiler/fixtures/fbt-scope-range-sync-with-jsx.js",
+  "language": "javascript",
+  "kind": "code"
+}

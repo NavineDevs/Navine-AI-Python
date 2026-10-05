@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1vertug",
+  "title": "Looking for a feedback - Production-build explanations and regression blame for Next.js",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I built crust for myself first. I wanted to compare Next.js production builds before every push and review PRs with evidence, not guesswork. After using it daily, I decided to share it.</p> <p><strong>crust</strong> stores a snapshot of every analyzed NextJS build, so CI can prove when a route became dynamic, lost its static shell, or shipped more JavaScript.</p> <p>Site: <a href=\"https://crust.moumen.dev/\">https://crust.moumen.dev/</a><br/> Docs: <a href=\"https://docs.crust.moumen.dev/\">https://docs.crust.moumen.dev/</a></p> <p>Check X thread for more details: <a href=\"https://x.com/moumensoliman/status/2084013260102394135\">https://x.com/moumensoliman/status/2084013260102394135</a></p> <p>Github: <a href=\"https://github.com/moumen-soliman/crust\">https://github.com/moumen-soliman/crust</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/moumensoliman\"> /u/moumensoliman </a> <br/> <span><a href=\"https://docs.crust.moumen.dev/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1vertug/looking_for_a_feedback_productionbuild/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1vertug/looking_for_a_feedback_productionbuild/"
+}

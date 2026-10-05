@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:522563",
+  "title": "How can I access the index value in a &#39;for&#39; loop?",
+  "text": "How can I access the index value in a &#39;for&#39; loop?\n\n<p>How do I access the index while iterating over a sequence with a <code>for</code> loop?</p>\n<pre class=\"lang-py prettyprint-override\"><code>xs = [8, 23, 45]\n\nfor x in xs:\n    print(&quot;item #{} = {}&quot;.format(index, x))\n</code></pre>\n<p>Desired output:</p>\n<pre class=\"lang-none prettyprint-override\"><code>item #1 = 8\nitem #2 = 23\nitem #3 = 45\n</code></pre>",
+  "url": "https://stackoverflow.com/questions/522563/how-can-i-access-the-index-value-in-a-for-loop",
+  "kind": "qa"
+}

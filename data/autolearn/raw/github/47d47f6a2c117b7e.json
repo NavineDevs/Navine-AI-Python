@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:yt-dlp/yt-dlp:devscripts/make_supportedsites.py",
+  "title": "yt-dlp/yt-dlp/devscripts/make_supportedsites.py",
+  "text": "#!/usr/bin/env python3\n\n# Allow direct execution\nimport os\nimport sys\n\nsys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\n\n\nfrom devscripts.utils import get_filename_args, write_file\nfrom yt_dlp.extractor import list_extractor_classes\n\nTEMPLATE = '''\\\n# Supported sites\n\nBelow is a list of all extractors that are currently included with yt-dlp.\nIf a site is not listed here, it might still be supported by yt-dlp's embed extraction or generic extractor.\nNot all sites listed here are guaranteed to work; websites are constantly changing and sometimes this breaks yt-dlp's support for them.\nThe only reliable way to check if a site is supported is to try it.\n\n{ie_list}\n'''\n\n\ndef main():\n    out = '\\n'.join(ie.description() for ie in list_extractor_classes() if ie.IE_DESC is not False)\n    write_file(get_filename_args(), TEMPLATE.format(ie_list=out))\n\n\nif __name__ == '__main__':\n    main()\n",
+  "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/devscripts/make_supportedsites.py",
+  "language": "python",
+  "kind": "code"
+}

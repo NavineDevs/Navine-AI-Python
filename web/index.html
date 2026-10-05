@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="navine">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Navine AI - Python">
+  <title>Navine AI - Python</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css?v={{ASSET_VERSION}}">
+</head>
+<body data-theme="navine">
+  <div id="site-gate" class="site-gate" aria-modal="true" role="dialog" aria-labelledby="gate-title">
+    <div class="site-gate-card">
+      <div class="site-gate-logo" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none"><rect width="48" height="48" rx="12" fill="url(#gate-grad)"/><path d="M14 32V16l10 8 10-8v16" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="gate-grad" x1="0" y1="0" x2="48" y2="48"><stop stop-color="#1A237E"/><stop offset="1" stop-color="#1246FF"/></linearGradient></defs></svg>
+      </div>
+      <h1 id="gate-title" class="site-gate-title">{{BRAND_NAME}}</h1>
+      <p class="site-gate-sub" id="gate-tagline">Chat, code, images, video, voice, and more</p>
+      <div class="auth-tabs gate-tabs" role="tablist">
+        <button type="button" class="auth-tab active" data-gate-tab="login" role="tab" aria-selected="true">Log in</button>
+        <button type="button" class="auth-tab" data-gate-tab="signup" role="tab" aria-selected="false">Sign up</button>
+      </div>
+      <form id="gate-login-form" class="gate-form auth-panel" data-gate-panel="login">
+        <label class="field-label" for="gate-login-user">Username</label>
+        <input id="gate-login-user" class="input field-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Username" />
+        <label class="field-label" for="gate-login-pass">Password</label>
+        <input id="gate-login-pass" class="input field-input" type="password" autocomplete="off" placeholder="Password" />
+        <button type="submit" class="btn primary gate-submit">Log in</button>
+        <div id="gate-login-error" class="message error hidden"></div>
+      </form>
+      <form id="gate-signup-form" class="gate-form auth-panel hidden" data-gate-panel="signup">
+        <label class="field-label" for="gate-signup-user">Username</label>
+        <input id="gate-signup-user" class="input field-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Choose a username" />
+        <label class="field-label" for="gate-signup-pass">Password</label>
+        <input id="gate-signup-pass" class="input field-input" type="password" autocomplete="off" placeholder="At least 4 characters" />
+        <button type="submit" class="btn primary gate-submit">Create account</button>
+        <div id="gate-signup-error" class="message error hidden"></div>
+      </form>
+      <div class="gate-divider"><span>or</span></div>
+      <button type="button" class="btn ghost gate-try-btn" id="gate-try-btn">Try without account</button>
+    </div>
+  </div>
+  <div class="app-shell" id="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Navigation">
+      <div class="sidebar-top">
+        <button type="button" class="sidebar-close" id="sidebar-close" aria-label="Close menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+        <div class="brand sidebar-brand">
+          <div class="brand-logo" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="48" height="48" rx="12" fill="url(#logo-grad)"/>
+              <path d="M14 32V16l10 8 10-8v16" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs>
+                <linearGradient id="logo-grad" x1="0" y1="0" x2="48" y2="48">
+                  <stop stop-color="#1A237E"/>
+                  <stop offset="1" stop-color="#1246FF"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <h1 id="brand-title">{{BRAND_NAME}}</h1>
+          </div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav" role="tablist" aria-label="Modes">
+        <a href="/chat" class="sidebar-item tab active" data-tab="text" role="tab" aria-selected="true">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+          <span class="sidebar-label">Chat</span>
+        </a>
+        <div class="chat-history-panel hidden" id="chat-history-panel">
+          <div class="chat-history-head">
+            <span class="chat-history-title">Your chats</span>
+            <button type="button" class="btn btn-sm btn-ghost" id="chat-new-btn">New</button>
+          </div>
+          <div class="chat-history-list" id="chat-history-list"></div>
+        </div>
+        <a href="/voice" class="sidebar-item tab" data-tab="voicechat" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg></span>
+          <span class="sidebar-label">Voice</span>
+        </a>
+        <a href="/image" class="sidebar-item tab" data-tab="image" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></span>
+          <span class="sidebar-label">Image</span>
+        </a>
+        <a href="/generate" class="sidebar-item tab" data-tab="video" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="2" y="2" width="20" height="20" rx="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/></svg></span>
+          <span class="sidebar-label">Generate</span>
+        </a>
+        <a href="/osint" class="sidebar-item tab" data-tab="osint" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><path d="M8 11h6M11 8v6"/></svg></span>
+          <span class="sidebar-label">OSINT</span>
+        </a>
+        <a href="/deepfake" class="sidebar-item tab" data-tab="deepfake" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-4 6-6 8-6s6.5 2 8 6"/></svg></span>
+          <span class="sidebar-label">Deepfake</span>
+        </a>
+        <a href="/clone" class="sidebar-item tab" data-tab="voice" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
+          <span class="sidebar-label">Clone</span>
+        </a>
+        <a href="/music" class="sidebar-item tab" data-tab="music" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
+          <span class="sidebar-label">Music</span>
+        </a>
+        <div class="sidebar-divider"></div>
+        <a href="/info" class="sidebar-item tab" data-tab="info" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span>
+          <span class="sidebar-label">Info</span>
+        </a>
+        <a href="/train" class="sidebar-item tab" data-tab="train" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+          <span class="sidebar-label">Train</span>
+        </a>
+        <a href="/api-gen" class="sidebar-item tab" data-tab="apigen" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+          <span class="sidebar-label">API</span>
+        </a>
+        <a href="/settings" class="sidebar-item tab" data-tab="settings" role="tab" aria-selected="false">
+          <span class="sidebar-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>
+          <span class="sidebar-label">Settings</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="sidebar-profile" id="sidebar-profile">
+          <span id="sidebar-profile-label" class="sidebar-profile-label"></span>
+          <button type="button" class="btn ghost sidebar-profile-btn hidden" id="sidebar-profile-signout">Sign out</button>
+        </div>
+        <a href="/docs" class="sidebar-link">API docs</a>
+        <a href="#" class="sidebar-link sidebar-public" id="sidebar-public-url" hidden target="_blank" rel="noopener"></a>
+        <div class="sidebar-status" id="sidebar-status">
+          <span class="status-dot"></span>
+          <span id="sidebar-status-text">Connecting</span>
+        </div>
+      </div>
+    </aside>
+
+    <div class="sidebar-backdrop" id="sidebar-backdrop" hidden></div>
+
+    <div class="main">
+      <header class="topbar">
+        <button type="button" class="menu-btn" id="menu-btn" aria-label="Open menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+        <span class="topbar-title" id="topbar-title">Chat</span>
+        <div class="status topbar-status" id="system-status">
+          <span class="status-dot"></span>
+          <span id="status-text">Connecting...</span>
+        </div>
+      </header>
+
+      <div class="train-strip" id="train-strip" aria-live="polite">
+        <span class="train-strip-dot" id="train-strip-dot"></span>
+        <span class="train-strip-meta" id="train-strip-meta">Train: checking...</span>
+        <div class="train-strip-bar-wrap" aria-hidden="true">
+          <div class="train-strip-bar" id="train-strip-bar"></div>
+        </div>
+        <span class="train-strip-locks" id="train-strip-locks"></span>
+      </div>
+
+      <main class="panels">
+        <section class="panel active" id="panel-text" role="tabpanel">
+          <div class="chat-shell">
+            <div class="chat-scroll">
+              <div class="chat-inner">
+                <div class="chat-welcome" id="chat-welcome">
+                  <h2 class="welcome-title">How can I help?</h2>
+                  <p class="welcome-sub">UI in your browser on your device. Models run on the Navine host (laptop/desktop) that serves this site — image and video use Navine-trained weights only.</p>
+                  <div class="welcome-chips" id="welcome-chips">
+                    <button type="button" class="welcome-chip" data-prompt="What are my PC specs?">My PC specs</button>
+                    <button type="button" class="welcome-chip" data-prompt="Explain quantum computing in simple terms">Explain something</button>
+                    <button type="button" class="welcome-chip" data-prompt="Write a Python script that sorts files by date">Write code</button>
+                    <button type="button" class="welcome-chip" data-prompt="Who made you?">Who made you?</button>
+                    <button type="button" class="welcome-chip" data-prompt="A mountain lake at sunset">Generate an image</button>
+                  </div>
+                </div>
+                <div class="chat-area" id="chat-messages" aria-live="polite"></div>
+              </div>
+            </div>
+            <form class="composer" id="text-form">
+              <div class="composer-card">
+                <div id="chat-attach-preview" class="chat-attach-preview hidden"></div>
+                <textarea id="text-prompt" class="composer-input" rows="1" placeholder="Message Navine AI - Python..."></textarea>
+                <div class="composer-row">
+                  <div class="composer-tools controls">
+                    <label class="tool-pill chat-attach-pill" title="Attach image">
+                      <input type="file" id="chat-attach-image" accept="image/*,.png,.jpg,.jpeg,.webp,.gif" hidden>
+                      <button type="button" class="btn ghost chat-attach-btn" id="chat-attach-btn" aria-label="Attach image">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg>
+                      </button>
+                    </label>
+                    <button type="button" class="btn ghost hidden" id="chat-attach-clear">Clear</button>
+                    <label class="tool-pill">
+                      <span class="tool-label">Mode</span>
+                      <select id="text-mode">
+                        <option value="auto" selected>Auto</option>
+                        <option value="chat">Chat</option>
+                        <option value="code">Code</option>
+                        <option value="think">Think</option>
+                        <option value="detective">Detective</option>
+                        <option value="osint">OSINT</option>
+                        <option value="analyze">Analyze</option>
+                        <option value="conscience">Conscience</option>
+                      </select>
+                    </label>
+                    <span class="mode-chip hidden" id="active-mode-chip"></span>
+                    <label class="tool-toggle checkbox-inline">
+                      <input type="checkbox" id="text-use-search">
+                      <span>Search</span>
+                    </label>
+                  </div>
+                  <button type="submit" class="btn-send" aria-label="Send message">
+                    <span class="btn-send-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                    </span>
+                    <span class="btn-send-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-voicechat" role="tabpanel">
+          <div class="panel-wrap">
+            <div class="panel-header">
+              <h2 class="panel-heading">Voice chat</h2>
+              <p class="panel-desc">Talk naturally — hold the button or use continuous mode.</p>
+            </div>
+            <div class="chat-area chat-area-panel" id="voicechat-messages" aria-live="polite"></div>
+            <div class="av-toolbar">
+              <button type="button" class="btn primary" id="voicechat-ptt">Hold to talk</button>
+              <button type="button" class="btn btn-ghost" id="voicechat-toggle">Continuous</button>
+              <label class="tool-toggle checkbox-inline">
+                <input type="checkbox" id="voicechat-tts" checked>
+                <span>Speak</span>
+              </label>
+              <label class="tool-pill">
+                <span class="tool-label">Voice</span>
+                <select id="voicechat-voice"></select>
+              </label>
+              <span class="output-path" id="voicechat-status">Idle</span>
+            </div>
+            <form class="composer composer-compact" id="voicechat-text-form">
+              <div class="composer-card">
+                <textarea id="voicechat-prompt" class="composer-input" rows="1" placeholder="Or type a message..."></textarea>
+                <button type="submit" class="btn-send" aria-label="Send"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg></button>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-image" role="tabpanel">
+          <div class="panel-wrap panel-narrow">
+            <div class="panel-header">
+              <h2 class="panel-heading">Image generation</h2>
+              <p class="panel-desc">Describe what you want to see. Uses the 1B+ image model, with scene fallback if needed.</p>
+            </div>
+            <form class="gen-form studio-card" id="image-form">
+              <label class="field">
+                <span>Prompt</span>
+                <textarea id="image-prompt" rows="3" placeholder="A futuristic city at night, neon reflections on wet streets...">blue mountain at dusk</textarea>
+              </label>
+              <div class="controls">
+                <label class="tool-pill">
+                  <span class="tool-label">Steps</span>
+                  <input type="range" id="image-steps" min="8" max="48" value="16">
+                  <output id="image-steps-value">16</output>
+                </label>
+              </div>
+              <button type="submit" class="btn primary btn-wide">Generate image</button>
+            </form>
+            <div class="progress hidden" id="image-progress">
+              <div class="spinner"></div>
+              <span>Generating...</span>
+            </div>
+            <div class="output output-gallery" id="image-output"></div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-video" role="tabpanel">
+          <div class="panel-wrap panel-narrow">
+            <div class="panel-header">
+              <h2 class="panel-heading">Video generation</h2>
+              <p class="panel-desc">Turn a prompt into motion. Uses the video model when compatible, otherwise image keyframes + motion.</p>
+            </div>
+            <form class="gen-form studio-card" id="video-form">
+              <label class="field">
+                <span>Prompt</span>
+                <textarea id="video-prompt" rows="3" placeholder="Ocean waves crashing on rocks, cinematic slow motion...">ocean waves on a beach</textarea>
+              </label>
+              <div class="controls">
+                <label class="tool-pill">
+                  <span class="tool-label">Frames</span>
+                  <input type="number" id="video-frames" min="4" max="24" value="8">
+                </label>
+                <label class="tool-pill">
+                  <span class="tool-label">FPS</span>
+                  <input type="number" id="video-fps" min="4" max="24" value="10">
+                </label>
+              </div>
+              <button type="submit" class="btn primary btn-wide">Generate video</button>
+            </form>
+            <div class="progress hidden" id="video-progress">
+              <div class="spinner"></div>
+              <span>Generating...</span>
+            </div>
+            <div class="output output-gallery" id="video-output"></div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-osint" role="tabpanel">
+          <div class="panel-wrap panel-narrow">
+            <div class="panel-header">
+              <h2 class="panel-heading">OSINT</h2>
+              <p class="panel-desc">Username scan across 45+ sites, plus domain DNS, IP lookup, and web search.</p>
+            </div>
+            <form class="gen-form studio-card" id="osint-form">
+              <label class="field">
+                <span>Target</span>
+                <input id="osint-target" type="text" placeholder="username, email, domain, IP, or password to check">
+              </label>
+              <label class="field">
+                <span>Investigation type</span>
+                <select id="osint-kind" class="input">
+                  <option value="auto">Auto (username finds emails, sites, more)</option>
+                  <option value="username">Username (profiles, emails, websites)</option>
+                  <option value="email">Email (breach + Gravatar)</option>
+                  <option value="password">Password breach check (HIBP)</option>
+                  <option value="domain">Domain</option>
+                  <option value="ip">IP address</option>
+                  <option value="person">Person</option>
+                  <option value="organization">Organization</option>
+                  <option value="phone">Phone</option>
+                </select>
+              </label>
+              <label class="tool-toggle checkbox-inline">
+                <input type="checkbox" id="osint-use-search" checked>
+                <span>Use public web search</span>
+              </label>
+              <button type="submit" class="btn primary">Run OSINT report</button>
+            </form>
+            <div class="progress hidden" id="osint-progress">
+              <div class="spinner"></div>
+              <span>Investigating...</span>
+            </div>
+            <div class="output" id="osint-output"></div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-deepfake" role="tabpanel">
+          <div class="panel-wrap panel-narrow">
+            <div class="panel-header">
+              <h2 class="panel-heading">Deepfake</h2>
+              <p class="panel-desc">Face swap on images and video. Upload a source face and a target image, or use paths.</p>
+            </div>
+            <form class="gen-form studio-card" id="deepfake-face-form">
+              <h3 class="panel-title">Face swap</h3>
+              <label class="field">
+                <span>Source face image</span>
+                <input type="file" id="df-source-file" accept="image/*,.png,.jpg,.jpeg,.webp">
+                <input type="text" id="df-source" placeholder="Or path\to\face.png">
+                <img id="df-source-preview" class="upload-preview hidden" alt="Source preview">
+              </label>
+              <label class="field">
+                <span>Target image</span>
+                <input type="file" id="df-target-file" accept="image/*,.png,.jpg,.jpeg,.webp">
+                <input type="text" id="df-target" placeholder="Or path\to\target.png">
+                <img id="df-target-preview" class="upload-preview hidden" alt="Target preview">
+              </label>
+              <label class="tool-pill">
+                <span class="tool-label">Strength</span>
+                <input type="range" id="df-strength" min="0.1" max="1" step="0.05" value="0.85">
+                <output id="df-strength-value">0.85</output>
+              </label>
+              <button type="submit" class="btn primary">Swap face</button>
+            </form>
+            <form class="gen-form studio-card" id="deepfake-video-form">
+              <h3 class="panel-title">Video</h3>
+              <label class="field">
+                <span>Source face</span>
+                <input type="text" id="dfv-source" placeholder="path\to\face.png">
+              </label>
+              <label class="field">
+                <span>Target video</span>
+                <input type="text" id="dfv-video" placeholder="path\to\clip.mp4">
+              </label>
+              <label class="field">
+                <span>Or prompt</span>
+                <input type="text" id="dfv-prompt" placeholder="person speaking">
+              </label>
+              <button type="submit" class="btn primary">Run video</button>
+            </form>
+            <div class="progress hidden" id="deepfake-progress">
+              <div class="spinner"></div>
+              <span>Working...</span>
+            </div>
+            <div class="output" id="deepfake-output"></div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-music" role="tabpanel">
+          <div class="panel-wrap panel-narrow">
+            <div class="panel-header">
+              <h2 class="panel-heading">Music</h2>
+              <p class="panel-desc">Local offline composer (4–30s WAV). Styles: lofi, ambient, drums, techno, hiphop, chill, piano, synth, beat.</p>
+            </div>
+            <form class="gen-form studio-card" id="music-form">
+              <label class="field">
+                <span>Prompt</span>
+                <textarea id="music-prompt" rows="3" placeholder="lofi beat with soft piano">lofi beat</textarea>
+              </label>
+              <div class="music-style-row" id="music-style-row">
+                <button type="button" class="btn chip music-style-chip" data-style="lofi">lofi</button>
+                <button type="button" class="btn chip music-style-chip" data-style="ambient">ambient</button>
+                <button type="button" class="btn chip music-style-chip" data-style="drums">drums</button>
+                <button type="button" class="btn chip music-style-chip" data-style="techno">techno</button>
+                <button type="button" class="btn chip music-style-chip" data-style="hiphop">hiphop</button>
+                <button type="button" class="btn chip music-style-chip" data-style="chill">chill</button>
+                <button type="button" class="btn chip music-style-chip" data-style="piano">piano</button>
+                <button type="button" class="btn chip music-style-chip" data-style="synth">synth</button>
+              </div>
+              <label class="field">
+                <span>Duration (seconds)</span>
+                <input id="music-duration" type="number" min="4" max="30" step="1" value="12">
+              </label>
+              <label class="field">
+                <span>Seed (optional)</span>
+                <input id="music-seed" type="number" placeholder="random">
+              </label>
+              <button type="submit" class="btn primary">Generate</button>
+            </form>
+            <div class="output music-output" id="music-output"></div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-voice" role="tabpanel">
+          <div class="panel-wrap panel-narrow">
+            <div class="panel-header">
+              <h2 class="panel-heading">Voice clone</h2>
+              <p class="panel-desc">Speak or clone a new voice. TTS uses the gpt3_1b voice enterprise tier (1.00B+).</p>
+            </div>
+            <div id="voice-status" class="output-path">Checking voices...</div>
+            <form class="gen-form studio-card" id="voice-speak-form">
+              <h3 class="panel-title">Speak</h3>
+              <label class="field">
+                <span>Text</span>
+                <textarea id="voice-text" rows="3" placeholder="Text to speak...">Hello, I am Navine AI - Python.</textarea>
+              </label>
+              <label class="field">
+                <span>Voice</span>
+                <select id="voice-speak-name"></select>
+              </label>
+              <button type="submit" class="btn primary">Speak</button>
+            </form>
+            <form class="gen-form studio-card" id="voice-clone-form">
+              <h3 class="panel-title">Clone</h3>
+              <label class="field">
+                <span>Name</span>
+                <input type="text" id="voice-name" placeholder="my_clone">
+              </label>
+              <label class="field">
+                <span>Sample path</span>
+                <input type="text" id="voice-sample" placeholder="path\to\sample.wav">
+              </label>
+              <label class="field">
+                <span>Or file</span>
+                <input type="file" id="voice-sample-file" accept="audio/*,.wav,.mp3,.ogg">
+              </label>
+              <button type="submit" class="btn primary">Clone voice</button>
+            </form>
+            <div id="voice-list" class="output-path"></div>
+            <div class="output" id="voice-output"></div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-info" role="tabpanel">
+          <div class="panel-wrap">
+            <div class="info-board" id="info-board">
+              <div class="info-head">
+                <div>
+                  <h2 class="panel-heading">System &amp; model specs</h2>
+                  <p class="info-sub" id="info-sub">Neural models at 1.00B+, plus music generator, host PC, and live inference profiles.</p>
+                </div>
+                <div class="info-total">
+                  <span class="info-total-label">Neural params</span>
+                  <span class="info-total-value" id="info-total">—</span>
+                  <span class="info-updated" id="info-updated">Updating...</span>
+                </div>
+              </div>
+              <div class="info-caps" id="info-caps" aria-label="Capabilities"></div>
+              <div class="info-host studio-card" id="info-host">
+                <h3 class="panel-title">Host PC</h3>
+                <pre class="info-host-text" id="info-host-text">Loading host specs...</pre>
+              </div>
+              <div class="info-chart-wrap studio-card">
+                <canvas id="info-param-chart" width="960" height="280" aria-label="Parameter chart"></canvas>
+              </div>
+              <div class="info-cards" id="info-cards"></div>
+              <div class="info-inference-wrap">
+                <h3 class="panel-title">Inference &amp; generation profiles</h3>
+                <p class="info-sub">Live settings for chat, image, video, voice, deepfake, and music.</p>
+                <div class="info-inference-grid" id="info-inference"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-train" role="tabpanel">
+          <div class="panel-wrap">
+            <div class="train-login studio-card" id="train-login">
+              <h2 class="panel-heading">Admin training</h2>
+              <p class="output-path">Enter admin username to run training jobs.</p>
+              <form id="train-admin-form" class="train-login-form">
+                <label class="field-label" for="train-admin-user">Admin username</label>
+                <input id="train-admin-user" class="input field-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Enter username" />
+                <button type="submit" class="btn primary">Continue</button>
+                <div id="train-login-error" class="message error hidden"></div>
+              </form>
+            </div>
+
+            <div class="train-board studio-card hidden" id="train-board">
+              <div class="train-admin-bar">
+                <h2 class="panel-heading">Account</h2>
+                <div class="train-admin-meta">
+                  <span id="train-admin-label" class="output-path"></span>
+                  <button type="button" class="btn ghost" id="train-admin-logout">Sign out</button>
+                </div>
+              </div>
+
+              <div class="account-section" id="account-api-keys">
+                <h3 class="panel-title">API keys</h3>
+                <p class="output-path">You must be signed in to create or delete keys. Use the header <code>X-Navine-API-Key</code> on requests.</p>
+                <p class="output-path hidden" id="api-key-login-hint">Sign in or create an account to manage API keys.</p>
+                <div class="api-keys-create" id="api-keys-create">
+                  <label class="field-label" for="api-key-name">Key name</label>
+                  <input id="api-key-name" class="input field-input" type="text" autocomplete="off" placeholder="My app" value="Navine API" />
+                  <label class="field-label" for="api-key-days">Expires (days, optional)</label>
+                  <input id="api-key-days" class="input field-input api-key-days-input" type="number" min="1" max="3650" placeholder="Never" />
+                  <button type="button" class="btn primary" id="api-key-create-btn">Create API key</button>
+                </div>
+                <div id="api-key-created" class="message success hidden"></div>
+                <div id="api-key-list" class="api-key-list"></div>
+              </div>
+
+              <div class="train-progress-panel" id="train-progress-panel">
+                <h3 class="panel-title">Training progress</h3>
+                <div class="train-cycle-banner" id="train-cycle-banner">
+                  <div class="train-cycle-label">Marathon round</div>
+                  <div class="train-cycle-value" id="train-cycle-value">—</div>
+                  <div class="train-cycle-sub" id="train-cycle-sub">Checking training...</div>
+                </div>
+                <div id="train-loop" class="output-path">Loading...</div>
+                <div class="train-progress-head">
+                  <span class="output-path" id="train-progress-label">Progress</span>
+                  <span class="output-path" id="train-progress-pct">0%</span>
+                </div>
+                <div class="train-progress-wrap">
+                  <div class="train-progress-bar" id="train-progress-bar"></div>
+                </div>
+                <div id="train-products" class="train-products"></div>
+                <div id="train-stages" class="train-stages"></div>
+                <h3 class="panel-title">Log</h3>
+                <pre id="train-log" class="train-log"></pre>
+              </div>
+
+              <p class="output-path hidden" id="train-admin-only-note">Training controls are available to admin accounts only.</p>
+
+              <div id="train-admin-section" class="hidden">
+              <h3 class="panel-title">Training</h3>
+              <div class="train-action-grid" id="train-modality-grid">
+                <button type="button" class="btn" data-train-target="text">Text model</button>
+                <button type="button" class="btn" data-train-target="text-code">Code model</button>
+                <button type="button" class="btn" data-train-target="image">Image diffusion</button>
+                <button type="button" class="btn" data-train-target="video">Video</button>
+                <button type="button" class="btn" data-train-target="voice">Voice TTS</button>
+                <button type="button" class="btn" data-train-target="deepfake">Deepfake</button>
+                <button type="button" class="btn" data-train-target="image-lora">Image LoRA</button>
+                <button type="button" class="btn" data-train-target="video-lora">Video LoRA</button>
+                <button type="button" class="btn" data-train-target="nsfw">NSFW</button>
+                <button type="button" class="btn" data-train-target="unrestricted">Unrestricted</button>
+                <button type="button" class="btn" data-train-target="uncensored">Uncensored</button>
+                <button type="button" class="btn" data-train-target="full">Full pipeline</button>
+                <button type="button" class="btn" data-train-target="all">All registry types</button>
+                <button type="button" class="btn primary" id="train-everything-btn">Train everything</button>
+              </div>
+              <div class="train-inline-controls">
+                <label class="field-label" for="train-steps">Steps</label>
+                <input id="train-steps" class="input train-steps-input" type="number" min="1" max="50000" value="800" />
+                <label class="field-label" for="train-language">Language</label>
+                <input id="train-language" class="input train-lang-input" type="text" placeholder="en" value="en" />
+                <label class="field-label" for="train-config">Config override</label>
+                <input id="train-config" class="input train-config-input" type="text" placeholder="optional yaml name" />
+                <span class="output-path" id="train-everything-hint"></span>
+              </div>
+
+              <div class="train-params-panel" id="train-voice-panel">
+                <h3 class="panel-title">Voice parameters</h3>
+                <div class="train-inline-controls train-params-grid">
+                  <label class="field-label" for="train-voice-name">Voice model name</label>
+                  <input id="train-voice-name" class="input" type="text" placeholder="my_voice" />
+                  <label class="field-label" for="train-voice-sample">Sample audio path (.wav)</label>
+                  <input id="train-voice-sample" class="input train-config-input" type="text" placeholder="C:\path\to\sample.wav" />
+                  <label class="field-label" for="train-voice-sample-file">Or upload sample</label>
+                  <input id="train-voice-sample-file" class="input" type="file" accept="audio/*,.wav,.mp3,.ogg" />
+                  <label class="field-label" for="train-voice-set-default">Set as default voice</label>
+                  <select id="train-voice-set-default" class="input train-lang-input">
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                  </select>
+                </div>
+                <button type="button" class="btn primary" id="train-voice-create-btn">Create custom voice model</button>
+              </div>
+
+              <div class="train-params-panel" id="train-deepfake-panel">
+                <h3 class="panel-title">Deepfake parameters</h3>
+                <div class="train-inline-controls train-params-grid">
+                  <label class="field-label" for="train-deepfake-strength">Swap strength (0.05–1.0)</label>
+                  <input id="train-deepfake-strength" class="input train-steps-input" type="number" min="0.05" max="1" step="0.05" value="0.85" />
+                  <label class="field-label" for="train-deepfake-source-file">Source face image</label>
+                  <input id="train-deepfake-source-file" class="input" type="file" accept="image/*,.png,.jpg,.jpeg,.webp" />
+                  <input id="train-deepfake-source" class="input train-config-input" type="text" placeholder="Or path\to\source.png" />
+                  <label class="field-label" for="train-deepfake-target-file">Target image</label>
+                  <input id="train-deepfake-target-file" class="input" type="file" accept="image/*,.png,.jpg,.jpeg,.webp" />
+                  <input id="train-deepfake-target" class="input train-config-input" type="text" placeholder="Or path\to\target.png" />
+                  <span class="output-path">Calibration runs use the Steps value above (max 32).</span>
+                </div>
+              </div>
+
+              <h3 class="panel-title">Corpus training types</h3>
+              <div class="train-action-grid train-corpus-grid" id="train-corpus-grid"></div>
+
+              <h3 class="panel-title">Learn only (no train yet)</h3>
+              <div class="train-action-grid" id="train-learn-grid">
+                <button type="button" class="btn" data-learn-action="url">Fetch URL</button>
+                <button type="button" class="btn" data-learn-action="crawl">Crawl site</button>
+                <button type="button" class="btn" data-learn-action="text">Save pasted text</button>
+                <button type="button" class="btn" data-learn-action="ingest">Ingest learned data</button>
+                <button type="button" class="btn" data-learn-action="index">Rebuild RAG index</button>
+              </div>
+              <div class="train-inline-controls">
+                <label class="field-label" for="train-learn-url">URL for fetch/crawl</label>
+                <input id="train-learn-url" class="input train-learn-url-input" type="url" placeholder="https://example.com" />
+                <label class="field-label" for="train-crawl-pages">Crawl pages</label>
+                <input id="train-crawl-pages" class="input train-steps-input" type="number" min="1" max="50" value="8" />
+              </div>
+
+              <h3 class="panel-title">Custom learn + train</h3>
+              <form id="train-custom-form" class="train-custom-form">
+                <label class="field-label" for="train-custom-source">Source</label>
+                <select id="train-custom-source" class="input">
+                  <option value="text">Paste text</option>
+                  <option value="url">Website URL</option>
+                </select>
+                <label class="field-label" for="train-custom-target">Train model</label>
+                <select id="train-custom-target" class="input">
+                  <option value="text">Text</option>
+                  <option value="text-code">Code</option>
+                  <option value="coding">Coding corpus</option>
+                  <option value="chat">Chat</option>
+                  <option value="creative">Creative</option>
+                  <option value="math">Math</option>
+                  <option value="thinking">Thinking</option>
+                  <option value="detective">Detective</option>
+                  <option value="osint">OSINT</option>
+                  <option value="general">General</option>
+                  <option value="multimodal-text">Multimodal text</option>
+                  <option value="games">Games</option>
+                  <option value="nsfw">NSFW</option>
+                  <option value="unrestricted">Unrestricted</option>
+                  <option value="uncensored">Uncensored</option>
+                  <option value="hitboyx23">HitBoyXx23</option>
+                  <option value="hitboyx23_python">HitBoy Python</option>
+                  <option value="voice">Voice</option>
+                  <option value="deepfake">Deepfake</option>
+                  <option value="image">Image</option>
+                  <option value="video">Video</option>
+                </select>
+                <div id="train-custom-url-wrap" class="hidden">
+                  <label class="field-label" for="train-custom-url">Website URL</label>
+                  <input id="train-custom-url" class="input" type="url" placeholder="https://example.com/docs" />
+                </div>
+                <div id="train-custom-text-wrap">
+                  <label class="field-label" for="train-custom-title">Title</label>
+                  <input id="train-custom-title" class="input" type="text" placeholder="Optional title" />
+                  <label class="field-label" for="train-custom-text">Text to learn</label>
+                  <textarea id="train-custom-text" class="input train-custom-text" rows="6" placeholder="Paste text, docs, or notes to train from"></textarea>
+                </div>
+                <button type="submit" class="btn primary">Learn and train</button>
+              </form>
+              <div id="train-custom-status" class="output-path"></div>
+              <div id="train-jobs" class="train-jobs"></div>
+
+              <h3 class="panel-title">Models</h3>
+              <div id="train-models" class="train-models"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-apigen" role="tabpanel">
+          <div class="panel-wrap">
+            <div class="studio-card api-gen-board">
+              <h2 class="panel-heading">API generation</h2>
+              <p class="output-path">Call Navine REST endpoints from the browser. Same-origin requests work without a key on localhost.</p>
+              <div class="api-gen-row">
+                <label class="field-label" for="api-gen-key">API key (optional)</label>
+                <input id="api-gen-key" class="input field-input" type="password" placeholder="X-Navine-API-Key" autocomplete="off" />
+                <button type="button" class="btn ghost" id="api-gen-save-key">Save key</button>
+                <button type="button" class="btn ghost" id="api-gen-create-key">Create key (login required)</button>
+              </div>
+              <div class="api-gen-row">
+                <label class="field-label" for="api-gen-endpoint">Endpoint</label>
+                <select id="api-gen-endpoint" class="input">
+                  <option value="/text">POST /api/text</option>
+                  <option value="/chat">POST /api/chat</option>
+                  <option value="/code">POST /api/code</option>
+                  <option value="/image">POST /api/image</option>
+                  <option value="/video">POST /api/video</option>
+                </select>
+              </div>
+              <label class="field-label" for="api-gen-body">JSON body</label>
+              <textarea id="api-gen-body" class="input api-gen-body" rows="12"></textarea>
+              <div class="api-gen-actions">
+                <button type="button" class="btn primary" id="api-gen-send">Send request</button>
+                <button type="button" class="btn" id="api-gen-curl">Copy curl</button>
+                <a href="/docs" class="btn ghost">Full API docs</a>
+              </div>
+              <h3 class="panel-title">Response</h3>
+              <pre id="api-gen-response" class="train-log api-gen-response">(no response yet)</pre>
+              <div id="api-gen-media" class="api-gen-media"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-settings" role="tabpanel">
+          <div class="panel-wrap panel-narrow">
+            <div class="panel-header">
+              <h2 class="panel-heading">Settings</h2>
+              <p class="panel-desc">MCP tools, datasets, chat preferences, and training status.</p>
+            </div>
+            <div class="studio-card settings-board settings-status-card">
+              <h3 class="panel-title">Training marathon</h3>
+              <p class="panel-desc">Live limit-training loop toward true 1.00B+ across text, image, video, voice, and deepfake. Open the <strong>Train</strong> tab for full logs.</p>
+              <div class="train-cycle-banner settings-cycle-banner">
+                <div class="train-cycle-label">Round</div>
+                <div class="train-cycle-value" id="settings-train-cycle">—</div>
+                <div class="train-cycle-sub" id="settings-train-sub">Loading...</div>
+              </div>
+            </div>
+            <div class="studio-card settings-board">
+              <h3 class="panel-title">This PC</h3>
+              <p class="panel-desc">Live host hardware specs used by chat when you ask about your computer.</p>
+              <pre class="settings-status" id="host-specs-text">Loading PC specs...</pre>
+              <button type="button" class="btn ghost" id="host-specs-refresh">Refresh specs</button>
+            </div>
+            <div class="studio-card settings-board">
+              <h3 class="panel-title">Chat replies</h3>
+              <label class="settings-toggle" for="setting-allow-emoji">
+                <input type="checkbox" id="setting-allow-emoji" checked />
+                <span class="settings-toggle-text">
+                  <span class="settings-toggle-title">Allow emoji in replies</span>
+                  <span class="settings-toggle-desc">When off, Navine strips emoji from answers.</span>
+                </span>
+              </label>
+              <p class="settings-status" id="settings-status" aria-live="polite"></p>
+            </div>
+            <div class="studio-card settings-board">
+              <h3 class="panel-title">MCP servers</h3>
+              <p class="panel-desc">Add tools like Blender so chat can call them with <code>mcp tools blender</code>.</p>
+              <p class="settings-status" id="mcp-status" aria-live="polite">Checking MCP...</p>
+              <pre class="settings-status mcp-server-list" id="mcp-servers"></pre>
+              <div class="settings-chip-row">
+                <button type="button" class="btn chip" data-mcp-preset="blender">Blender preset</button>
+                <button type="button" class="btn chip" data-mcp-preset="filesystem">Filesystem preset</button>
+              </div>
+              <div class="train-params-grid settings-form-grid">
+                <label class="field-label" for="mcp-server-name">Name</label>
+                <input id="mcp-server-name" class="text-input" type="text" placeholder="blender" autocomplete="off" />
+                <label class="field-label" for="mcp-server-command">Command</label>
+                <input id="mcp-server-command" class="text-input" type="text" placeholder="uvx" autocomplete="off" />
+                <label class="field-label" for="mcp-server-args">Args (one per line)</label>
+                <textarea id="mcp-server-args" class="text-input" rows="3" placeholder="blender-mcp"></textarea>
+                <label class="field-label" for="mcp-server-url">Remote URL (optional)</label>
+                <input id="mcp-server-url" class="text-input" type="text" placeholder="http://127.0.0.1:9876/mcp" autocomplete="off" />
+              </div>
+              <div class="download-actions settings-actions">
+                <button type="button" class="btn primary" id="setting-mcp-save">Save server</button>
+                <button type="button" class="btn" id="setting-mcp-remove">Remove</button>
+                <button type="button" class="btn" id="setting-mcp-refresh">Refresh</button>
+                <button type="button" class="btn" id="setting-mcp-copy">Copy Cursor config</button>
+              </div>
+              <p class="settings-status" id="mcp-action-status" aria-live="polite"></p>
+            </div>
+            <div class="studio-card settings-board" id="moltbook-card">
+              <h3 class="panel-title">Moltbook</h3>
+              <p class="panel-desc">Put this AI on <a href="https://www.moltbook.com" target="_blank" rel="noopener">Moltbook</a>, the social network for AI agents. Admin login required to register or post.</p>
+              <p class="settings-status" id="moltbook-status" aria-live="polite">Checking Moltbook...</p>
+              <pre class="settings-status mcp-server-list hidden" id="moltbook-info"></pre>
+              <div id="moltbook-register" class="hidden">
+                <div class="train-params-grid settings-form-grid">
+                  <label class="field-label" for="moltbook-name">Agent name</label>
+                  <input id="moltbook-name" class="text-input" type="text" placeholder="NavineAI" maxlength="40" autocomplete="off" />
+                  <label class="field-label" for="moltbook-desc">Description</label>
+                  <textarea id="moltbook-desc" class="text-input" rows="2" maxlength="500" placeholder="What this AI does"></textarea>
+                </div>
+                <div class="download-actions settings-actions">
+                  <button type="button" class="btn primary" id="moltbook-register-btn">Register on Moltbook</button>
+                </div>
+              </div>
+              <div id="moltbook-compose" class="hidden">
+                <div class="train-params-grid settings-form-grid">
+                  <label class="field-label" for="moltbook-topic">Topic (for AI draft)</label>
+                  <input id="moltbook-topic" class="text-input" type="text" maxlength="300" placeholder="training a 1B model at home" autocomplete="off" />
+                  <label class="field-label" for="moltbook-title">Title</label>
+                  <input id="moltbook-title" class="text-input" type="text" maxlength="300" autocomplete="off" />
+                  <label class="field-label" for="moltbook-content">Post</label>
+                  <textarea id="moltbook-content" class="text-input" rows="4" maxlength="40000"></textarea>
+                  <label class="field-label" for="moltbook-submolt">Submolt</label>
+                  <input id="moltbook-submolt" class="text-input" type="text" maxlength="40" value="general" autocomplete="off" />
+                </div>
+                <div class="download-actions settings-actions">
+                  <button type="button" class="btn" id="moltbook-draft-btn">AI draft</button>
+                  <button type="button" class="btn primary" id="moltbook-post-btn">Post</button>
+                  <button type="button" class="btn" id="moltbook-heartbeat-btn">Check dashboard</button>
+                  <button type="button" class="btn" id="moltbook-refresh-btn">Refresh</button>
+                </div>
+                <p class="panel-desc"><strong>Conscience mode: always on for Moltbook.</strong> The AI thinks for itself there: reads the feed, upvotes, comments, follows, replies, and writes its own posts. To use conscience mode in chat, pick Conscience in the chat Mode menu.</p>
+                <div class="download-actions settings-actions">
+                  <button type="button" class="btn" id="moltbook-autonomy-run-btn">Think now</button>
+                </div>
+                <pre class="settings-status mcp-server-list hidden" id="moltbook-thoughts"></pre>
+              </div>
+              <p class="settings-status" id="moltbook-action-status" aria-live="polite"></p>
+            </div>
+            <div class="studio-card settings-board">
+              <h3 class="panel-title">Game mod bridge</h3>
+              <p class="panel-desc">Connect Minecraft, Fortnite, or other mods for PVP, speedrun, and agent play. See <code>mods/minecraft/PROTOCOL.md</code>.</p>
+              <p class="settings-status" id="game-bridge-status" aria-live="polite">Loading bridge info...</p>
+              <pre class="settings-status mcp-server-list" id="game-bridge-info"></pre>
+              <div class="settings-chip-row">
+                <button type="button" class="btn chip" data-game-mode="pvp">PVP</button>
+                <button type="button" class="btn chip" data-game-mode="speedrun">Speedrun</button>
+                <button type="button" class="btn chip" data-game-mode="learn">Learn</button>
+                <button type="button" class="btn chip" data-game-mode="agent">Agent</button>
+              </div>
+              <label class="field-label" for="game-bridge-title">Game title</label>
+              <input id="game-bridge-title" class="text-input" type="text" value="minecraft" autocomplete="off" />
+              <div class="download-actions settings-actions">
+                <button type="button" class="btn primary" id="game-bridge-session">Create session</button>
+                <button type="button" class="btn" id="game-bridge-refresh">Refresh</button>
+              </div>
+            </div>
+            <div class="studio-card settings-board">
+              <h3 class="panel-title">Hugging Face datasets</h3>
+              <p class="panel-desc">Searches Hugging Face live. Chat: <code>hf search coding</code></p>
+              <div class="settings-chip-row" id="hf-quick-search">
+                <button type="button" class="btn chip" data-hf-q="code instruction python">Code</button>
+                <button type="button" class="btn chip" data-hf-q="conversation chat">Chat</button>
+                <button type="button" class="btn chip" data-hf-q="blender 3d">Blender</button>
+                <button type="button" class="btn chip" data-hf-q="math reasoning">Math</button>
+              </div>
+              <label class="field-label" for="hf-dataset-search">Custom search</label>
+              <div class="download-actions settings-actions">
+                <input id="hf-dataset-search" class="text-input" type="search" placeholder="Search datasets..." autocomplete="off" />
+                <button type="button" class="btn primary" id="hf-dataset-search-btn">Search</button>
+              </div>
+              <div class="settings-status" id="hf-dataset-results" aria-live="polite"></div>
+            </div>
+            <div class="studio-card settings-board">
+              <h3 class="panel-title">Downloads</h3>
+              <p class="panel-desc">CLI: type <code>navine</code> in a terminal. App is the native Rust desktop window.</p>
+              <div class="download-actions" id="download-actions">
+                <a class="btn primary" id="download-cli-btn" href="/api/downloads/cli">Download CLI</a>
+                <a class="btn" id="download-app-btn" href="/api/downloads/app">Download App (Rust)</a>
+              </div>
+              <p class="settings-status" id="download-status" aria-live="polite"></p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-brand" id="footer-brand">{{BRAND_NAME}}</div>
+        <a href="/docs" class="footer-link">API</a>
+        <span id="info-line" class="footer-status"></span>
+        <span id="autolearn-line" class="footer-status"></span>
+        <span id="marathon-line" class="footer-status"></span>
+        <span id="train-line" class="footer-status"></span>
+      </footer>
+    </div>
+  </div>
+  <div id="code-run-modal" class="code-run-modal hidden" role="dialog" aria-modal="true" aria-labelledby="code-run-title">
+    <div class="code-run-card">
+      <div class="code-run-head">
+        <h2 id="code-run-title" class="code-run-title">Run output</h2>
+        <button type="button" class="code-run-close" id="code-run-close" aria-label="Close">&times;</button>
+      </div>
+      <div id="code-run-status" class="code-run-status"></div>
+      <pre id="code-run-stdout" class="code-run-log"></pre>
+      <pre id="code-run-stderr" class="code-run-log code-run-stderr hidden"></pre>
+    </div>
+  </div>
+  <script src="/assets/app.js?v={{ASSET_VERSION}}"></script>
+</body>
+</html>

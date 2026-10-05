@@ -1,0 +1,57 @@
+enabled: true
+model:
+  vocab_size: 256
+  hidden_dim: 1584
+  num_layers: 16
+  mel_bins: 80
+  max_seq_len: 512
+  size_tier: gpt3_1b
+tts:
+  backend: auto
+  default_voice: navine_trained
+  language: en
+  rate: 165
+  volume: 1.2
+  sample_rate: 22050
+  autoplay: true
+  piper_voice: en_US-ryan-high
+stt:
+  backend: auto
+  model_size: base
+  language: en
+  record_seconds: 6
+  sample_rate: 16000
+  compute_type: int8
+  input_device: auto
+  use_vad: true
+  vad_max_seconds: 8
+  vad_silence_ms: 700
+  vad_threshold: 0.018
+  vad_min_speech_ms: 250
+  vad_start_timeout: 4.0
+  idle_record_seconds: 4
+  idle_use_vad: true
+  chime: true
+  post_speak_cooldown: 0.65
+voices:
+  navine_ai:
+    display_name: Navine AI
+    backend: piper
+    language: en
+    reference: voices/navine_ai/reference.wav
+    piper_voice: en_US-ryan-high
+  navine_trained:
+    backend: piper
+    language: en
+    reference: voices/navine_trained/reference.wav
+    cloned: true
+    piper_voice: en_US-ryan-high
+  demo_voice:
+    backend: piper
+    language: en
+    reference: voices/demo_voice/reference.wav
+    cloned: true
+    piper_voice: en_US-ryan-high
+paths:
+  voices_dir: voices
+  output_dir: outputs/voice

@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:7074",
+  "title": "What is the difference between String and string in C#?",
+  "text": "What is the difference between String and string in C#?\n\n<p>What are the differences between these two, and which one should I use?</p>\n<pre><code>string s = &quot;Hello world!&quot;;\nString s = &quot;Hello world!&quot;;\n</code></pre>",
+  "url": "https://stackoverflow.com/questions/7074/what-is-the-difference-between-string-and-string-in-c",
+  "kind": "qa"
+}

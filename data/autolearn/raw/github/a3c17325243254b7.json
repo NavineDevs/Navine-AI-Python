@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:QuestPDF/QuestPDF:src/dotnet/library/QuestPDF.Benchmarks/Program.cs",
+  "title": "QuestPDF/QuestPDF/src/dotnet/library/QuestPDF.Benchmarks/Program.cs",
+  "text": "using BenchmarkDotNet.Running;\nusing QuestPDF.Benchmarks;\n\n// BenchmarkSwitcher shows an interactive prompt when no filter is given, which would hang in CI.\nvar benchmarkArgs = args.Length == 0 ? [\"--filter\", \"*\"] : args;\n\nBenchmarkSwitcher\n    .FromTypes([typeof(ImageBenchmarks), typeof(TextBenchmarks)])\n    .Run(benchmarkArgs, BenchmarkConfigs.Create());\n",
+  "url": "https://raw.githubusercontent.com/QuestPDF/QuestPDF/main/src/dotnet/library/QuestPDF.Benchmarks/Program.cs",
+  "language": "csharp",
+  "kind": "code"
+}

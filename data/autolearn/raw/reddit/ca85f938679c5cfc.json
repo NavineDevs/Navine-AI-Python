@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u2u96q",
+  "title": "Why choose Go over Rust today?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Recently, I’ve seen more open-source projects moving or rewriting parts of their codebase in Rust, like Oxc, Bun, the React compiler/tooling ecosystem, and other developer tools.</p> <p>Rust gives great performance, memory safety, no GC, and low-level control. Before, one big downside was that Rust was harder to learn and write. But now, with LLMs and AI coding assistants, writing or porting Rust feels easier than before.</p> <p>So my question is:</p> <p><strong>Why would a team still choose Go over Rust today?</strong></p> <p>Where does Go still clearly win? Simplicity, faster onboarding, easier code reviews, backend productivity, goroutines, maintainability, or something else?</p> <p>And do AI tools reduce Go’s advantage in simplicity, or is that still one of Go’s biggest strengths?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IndependentInjury220\"> /u/IndependentInjury220 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1u2u96q/why_choose_go_over_rust_today/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u2u96q/why_choose_go_over_rust_today/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1u2u96q/why_choose_go_over_rust_today/"
+}

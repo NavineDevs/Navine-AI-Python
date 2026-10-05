@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:learnprogramming:t3_1vky8jx",
+  "title": "Is there a way, to get window decorations on Wayland without either that extension GNOME refuses or to depend on a gigantic GUI library?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m a game developer, I don&#39;t want a Qt or GTK caliber dependency, nor want to touch SDL any more (TL;DR: spent like a whole week or two trying to get streaming audio working, it didn&#39;t, then people suggested me to use an audio player DLL and write the live generated sound into a wav file (🤦‍♂️), spent a single week getting WASAPI working directly, then only after all that struggle I got an actual solution involving SDL&#39;s audio streaming capabilities).</p> <p>Apparently there are multiple pull requests trying to get SSDs working, but are blocked because &quot;it isn&#39;t integrated organically&quot;.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ZILtoid1991\"> /u/ZILtoid1991 </a> <br/> <span><a href=\"https://www.reddit.com/r/learnprogramming/comments/1vky8jx/is_there_a_way_to_get_window_decorations_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/learnprogramming/comments/1vky8jx/is_there_a_way_to_get_window_decorations_on/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/learnprogramming/comments/1vky8jx/is_there_a_way_to_get_window_decorations_on/"
+}

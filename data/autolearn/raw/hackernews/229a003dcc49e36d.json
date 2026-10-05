@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48612943",
+  "title": "Linux eliminates the strncpy API after six years of work, 360 patches",
+  "text": "<a href=\"https:&#x2F;&#x2F;git.kernel.org&#x2F;pub&#x2F;scm&#x2F;linux&#x2F;kernel&#x2F;git&#x2F;torvalds&#x2F;linux.git&#x2F;commit&#x2F;?id=1a3746ccbb0a97bed3c06ccde6b880013b1dddc1\" rel=\"nofollow\">https:&#x2F;&#x2F;git.kernel.org&#x2F;pub&#x2F;scm&#x2F;linux&#x2F;kernel&#x2F;git&#x2F;torvalds&#x2F;lin...</a>",
+  "url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/types/module.d.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/types/module.d.ts",
+  "text": "declare module '*.vue' {\n  import { DefineComponent } from 'vue';\n  const Component: DefineComponent<{}, {}, any>;\n  export default Component;\n}\n\ndeclare module 'ant-design-vue/es/locale/*' {\n  import { Locale } from 'ant-design-vue/types/locale-provider';\n  const locale: Locale & ReadonlyRecordable;\n  export default locale as Locale & ReadonlyRecordable;\n}\n\ndeclare module 'virtual:*' {\n  const result: any;\n  export default result;\n}\n\ndeclare module 'virtual:pwa-register/vue' {\n  import type { Ref } from 'vue';\n\n  export interface RegisterSWOptions {\n    immediate?: boolean;\n    onNeedRefresh?: () => void;\n    onOfflineReady?: () => void;\n    onRegistered?: (registration: ServiceWorkerRegistration | undefined) => void;\n    onRegisterError?: (error: any) => void;\n  }\n\n  export function useRegisterSW(options?: RegisterSWOptions): {\n    needRefresh: Ref<boolean>;\n    offlineReady: Ref<boolean>;\n    updateServiceWorker: (reloadPage?: boolean) => Promise<void>;\n  };\n}\n\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/types/module.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

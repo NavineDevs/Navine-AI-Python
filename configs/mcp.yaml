@@ -1,0 +1,19 @@
+enabled: true
+client:
+  enabled: true
+  timeout_seconds: 60
+servers:
+  example_echo:
+    enabled: false
+    command: python
+    args:
+      - -c
+      - print("replace with a real MCP server command")
+serve:
+  enabled: true
+  name: Navine AI
+  version: "0.2.2"
+  transport: stdio
+  http_host: 127.0.0.1
+  http_port: 8767
+  path: /mcp

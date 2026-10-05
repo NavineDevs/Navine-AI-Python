@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:762011",
+  "title": "What is the difference between &quot;let&quot; and &quot;var&quot;?",
+  "text": "What is the difference between &quot;let&quot; and &quot;var&quot;?\n\n<p>ECMAScript 6 introduced <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let\" rel=\"noreferrer\">the <code>let</code> declaration keyword</a>.</p>\n<p>I've heard that it's described as a local variable, but I'm still not quite sure how it behaves differently than the <code>var</code> keyword.</p>\n<p>What are the differences? When should <code>let</code> be used instead of <code>var</code>?</p>",
+  "url": "https://stackoverflow.com/questions/762011/what-is-the-difference-between-let-and-var",
+  "kind": "qa"
+}

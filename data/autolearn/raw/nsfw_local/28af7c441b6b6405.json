@@ -1,0 +1,14 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:data\\learn\\4chan\\text\\qst\\qst_6229596_6229597.txt",
+  "title": "qst_6229596_6229597",
+  "text": "Current board settings: Anyone can post images. Anyone can use painter. Anyone can use dice & spoilers. Only OP can use text formatting. 3000 character limit. 750 bump limit. Decreased post timer to match /tg/ (30 seconds for text, 60 seconds for an image reply). Automatic permasage after 72 hours. Thread specific user IDs. Max threads per IP is 5. Standard 7 day internal archive.",
+  "url": "data\\learn\\4chan\\text\\qst\\qst_6229596_6229597.txt",
+  "category": "nsfw",
+  "topic": "qst",
+  "tags": [
+    "qst",
+    "nsfw",
+    "local"
+  ]
+}

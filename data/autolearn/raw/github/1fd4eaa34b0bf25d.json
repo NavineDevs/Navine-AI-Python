@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:yt-dlp/yt-dlp:devscripts/set-variant.py",
+  "title": "yt-dlp/yt-dlp/devscripts/set-variant.py",
+  "text": "#!/usr/bin/env python3\n\n# Allow direct execution\nimport os\nimport sys\n\nsys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\n\n\nimport argparse\nimport functools\nimport re\n\nfrom devscripts.utils import compose_functions, read_file, write_file\n\nVERSION_FILE = 'yt_dlp/version.py'\n\n\ndef parse_options():\n    parser = argparse.ArgumentParser(description='Set the build variant of the package')\n    parser.add_argument('variant', help='Name of the variant')\n    parser.add_argument('-M', '--update-message', default=None, help='Message to show in -U')\n    return parser.parse_args()\n\n\ndef property_setter(name, value):\n    return functools.partial(re.sub, rf'(?m)^{name}\\s*=\\s*.+$', f'{name} = {value!r}')\n\n\nopts = parse_options()\ntransform = compose_functions(\n    property_setter('VARIANT', opts.variant),\n    property_setter('UPDATE_HINT', opts.update_message),\n)\n\nwrite_file(VERSION_FILE, transform(read_file(VERSION_FILE)))\n",
+  "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/devscripts/set-variant.py",
+  "language": "python",
+  "kind": "code"
+}

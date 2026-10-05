@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:compiler/scripts/hash.sh",
+  "title": "react/react/compiler/scripts/hash.sh",
+  "text": "#!/usr/bin/env bash\n# Copyright (c) Meta Platforms, Inc. and affiliates.\n#\n# This source code is licensed under the MIT license found in the\n# LICENSE file in the root directory of this source tree.\n\nset -eo pipefail\n\n# Hashes JS files in the provided directory to create a cache-breaker\n\nfind $1 -name '*.js' | sort | xargs shasum | shasum | awk '{ print $1 }'\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/compiler/scripts/hash.sh",
+  "language": "shell",
+  "kind": "code"
+}

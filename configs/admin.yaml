@@ -1,0 +1,7 @@
+secret: navine-admin-session-v1
+token_ttl_hours: 24
+users:
+  HitBoy:
+    password_hash: b2cec56f10014a7e565959ab3638a589bbd32c122a813b64fd5c8d3bdf4e2876
+  Zach:
+    password_hash: 024e5d460d0256cb3b1833dbc36d7b3726672314a57dd9effe20e69ce6353d89

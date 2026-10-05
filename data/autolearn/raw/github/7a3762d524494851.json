@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:tach-org/tach:python/tach/__init__.py",
+  "title": "tach-org/tach/python/tach/__init__.py",
+  "text": "from __future__ import annotations\n\n__version__: str = \"0.35.0\"\n\n__all__ = [\"__version__\"]\n",
+  "url": "https://raw.githubusercontent.com/tach-org/tach/main/python/tach/__init__.py",
+  "language": "python",
+  "kind": "code"
+}

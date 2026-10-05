@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:49230891",
+  "title": "Show HN: A Project Oberon System version running on RISC-V instead of RISC-5",
+  "text": "Show HN: A Project Oberon System version running on RISC-V instead of RISC-5",
+  "url": "https://github.com/rochus-keller/OberonSystem/tree/op2-rv32"
+}

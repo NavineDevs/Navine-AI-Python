@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:gd:463652:463652:image",
+  "title": "What's this effect called?",
+  "text": "What's this effect called?",
+  "url": "https://boards.4chan.org/gd/thread/463652#p463652",
+  "category": "coding",
+  "kind": "image",
+  "caption": "What's this effect called? | [general, image] | tags: 4chan, gd, unknown",
+  "board": "gd",
+  "thread_id": 463652,
+  "post_id": 463652,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "gd",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/gd/1770566088717897.png",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\gd\\gd_1770566088717897.png"
+}

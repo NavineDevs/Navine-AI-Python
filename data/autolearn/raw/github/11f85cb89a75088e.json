@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ohmyzsh/ohmyzsh:lib/spectrum.zsh",
+  "title": "ohmyzsh/ohmyzsh/lib/spectrum.zsh",
+  "text": "# A script to make using 256 colors in zsh less painful.\n# P.C. Shyamshankar <sykora@lucentbeing.com>\n# Copied from https://github.com/sykora/etc/blob/master/zsh/functions/spectrum/\n\ntypeset -AHg FX FG BG\n\nFX=(\n  reset     \"%{\u001b[00m%}\"\n  bold      \"%{\u001b[01m%}\" no-bold      \"%{\u001b[22m%}\"\n  dim       \"%{\u001b[02m%}\" no-dim       \"%{\u001b[22m%}\"\n  italic    \"%{\u001b[03m%}\" no-italic    \"%{\u001b[23m%}\"\n  underline \"%{\u001b[04m%}\" no-underline \"%{\u001b[24m%}\"\n  blink     \"%{\u001b[05m%}\" no-blink     \"%{\u001b[25m%}\"\n  reverse   \"%{\u001b[07m%}\" no-reverse   \"%{\u001b[27m%}\"\n)\n\nfor color in {000..255}; do\n  FG[$color]=\"%{\u001b[38;5;${color}m%}\"\n  BG[$color]=\"%{\u001b[48;5;${color}m%}\"\ndone\n\n# Show all 256 colors with color number\nfunction spectrum_ls() {\n  setopt localoptions nopromptsubst\n  local ZSH_SPECTRUM_TEXT=${ZSH_SPECTRUM_TEXT:-Arma virumque cano Troiae qui primus ab oris}\n  for code in {000..255}; do\n    print -P -- \"$code: ${FG[$code]}${ZSH_SPECTRUM_TEXT}%{$reset_color%}\"\n  done\n}\n\n# Show all 256 colors where the background is set to specific color\nfunction spectrum_bls() {\n  setopt localoptions nopromptsubst\n  local ZSH_SPECTRUM_TEXT=${ZSH_SPECTRUM_TEXT:-Arma virumque cano Troiae qui primus ab oris}\n  for code in {000..255}; do\n    print -P -- \"$code: ${BG[$code]}${ZSH_SPECTRUM_TEXT}%{$reset_color%}\"\n  done\n}\n",
+  "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/spectrum.zsh",
+  "language": "shell",
+  "kind": "code"
+}

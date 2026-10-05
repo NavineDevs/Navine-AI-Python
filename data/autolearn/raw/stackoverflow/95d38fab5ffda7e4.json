@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:105034",
+  "title": "How do I create a GUID / UUID?",
+  "text": "How do I create a GUID / UUID?\n\n<p>How do I create GUIDs (globally-unique identifiers) in JavaScript? The GUID / UUID should be at least 32 characters and should stay in the ASCII range to avoid trouble when passing them around.</p>\n<p>I'm not sure what routines are available on all browsers, how &quot;random&quot; and seeded the built-in random number generator is, etc.</p>",
+  "url": "https://stackoverflow.com/questions/105034/how-do-i-create-a-guid-uuid",
+  "kind": "qa"
+}

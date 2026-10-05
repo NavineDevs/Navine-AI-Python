@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:microsoft/FASTER:cc/benchmark-dir/process_ycsb.cc",
+  "title": "microsoft/FASTER/cc/benchmark-dir/process_ycsb.cc",
+  "text": "#include <cstdint>\n#include <cstdio>\n#include <fstream>\n#include <iostream>\n#include <stdlib.h>\n#include <string>\n\n#include <sys/types.h>\n#include <sys/stat.h>\n#include <fcntl.h>\n\nint main(int argc, char* argv[]) {\n  if (argc != 3) {\n    fprintf(stderr, \"Requires two arguments: file copied from, file copied to.\\n\");\n    exit(-1);\n  }\n\n  std::string from_filename{ argv[1] };\n  std::string to_filename{ argv[2] };\n\n  std::ifstream from_file{ from_filename };\n  std::ofstream to_file{ to_filename };\n\n  const std::string prefix{ \"usertable user\" };\n\n  while (!from_file.eof()) {\n    char buffer[256];\n    from_file.clear();\n    from_file.getline(buffer, sizeof(buffer));\n    std::string line{ buffer };\n    std::string::size_type pos = line.find(prefix);\n    if (pos == std::string::npos) {\n      continue;\n    }\n    line = line.substr(pos + prefix.size());\n    uint64_t key = stol(line);\n\n    to_file.write(reinterpret_cast<char*>(&key), sizeof(key));\n  }\n}\n",
+  "url": "https://raw.githubusercontent.com/microsoft/FASTER/main/cc/benchmark-dir/process_ycsb.cc",
+  "language": "cpp",
+  "kind": "code"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:11828270",
+  "title": "How do I exit Vim?",
+  "text": "How do I exit Vim?\n\n<p>I am stuck and cannot escape. It says:</p>\n<pre><code>type :quit&lt;Enter&gt; to quit VIM\n</code></pre>\n<p>But when I type that it simply appears in the object body.</p>",
+  "url": "https://stackoverflow.com/questions/11828270/how-do-i-exit-vim",
+  "kind": "qa"
+}

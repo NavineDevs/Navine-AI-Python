@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vkplen",
+  "title": "g3proxy --> vey-proxy first LTS version 1.14 available",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>The <a href=\"https://github.com/VEY-OSS/vey\">VEY Project</a> is a fork of the original bytedance <a href=\"https://github.com/bytedance/g3\">G3 Project</a> by it&#39;s main authors as a standalone open source project. The first 1.14 LTS branch is available now. It is recommended to migrate to vey-proxy for all existed g3proxy deployments.</p> <p>See <a href=\"https://github.com/VEY-OSS/vey/releases/tag/vey-proxy-v1.14.0\">1.14.0 Release Note</a> for all the new features available.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zh_jq\"> /u/zh_jq </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1vkplen/g3proxy_veyproxy_first_lts_version_114_available/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vkplen/g3proxy_veyproxy_first_lts_version_114_available/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vkplen/g3proxy_veyproxy_first_lts_version_114_available/"
+}

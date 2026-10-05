@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48613872",
+  "title": "Epoll vs. io_uring in Linux",
+  "text": "Epoll vs. io_uring in Linux",
+  "url": "https://sibexi.co/posts/epoll-vs-io_uring/"
+}

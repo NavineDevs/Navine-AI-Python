@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:barbajs/barba:commitlint.config.js",
+  "title": "barbajs/barba/commitlint.config.js",
+  "text": "module.exports = {\n  extends: ['ccgls'],\n};\n",
+  "url": "https://raw.githubusercontent.com/barbajs/barba/main/commitlint.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

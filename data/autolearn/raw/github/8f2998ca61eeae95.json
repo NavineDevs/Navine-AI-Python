@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:niieani/bash-oo-framework:example/array.sh",
+  "title": "niieani/bash-oo-framework/example/array.sh",
+  "text": "#!/usr/bin/env bash\n\nsource \"$( cd \"${BASH_SOURCE[0]%/*}\" && pwd )/../lib/oo-bootstrap.sh\"\n\nimport util/log util/type\nLog::AddOutput util/type CUSTOM\n\nmanipulatingArrays() {\n  array exampleArrayA\n  array exampleArrayB\n\n  $var:exampleArrayA push 'one'\n  $var:exampleArrayA push 'two'\n\n  # above is equivalent to calling:\n  #   var: exampleArrayA push 'two'\n  # or using native bash\n  #   exampleArrayA+=( 'two' )\n\n  $var:exampleArrayA toString\n  $var:exampleArrayA toJSON\n}\n\npassingArrays() {\n\n  passingArraysInput() {\n    [array] passedInArray\n\n    $var:passedInArray : \\\n      { map 'echo \"${index} - $(var: item)\"' } \\\n      { forEach 'var: item toUpper' }\n\n    $var:passedInArray push 'will work only for references'\n  }\n\n  array someArray=( 'one' 'two' )\n\n  echo 'passing by $var:'\n  ## 2 ways of passing a copy of an array (passing by it's definition)\n  passingArraysInput \"$(var: someArray)\"\n  passingArraysInput $var:someArray\n\n  ## no changes yet\n  $var:someArray toJSON\n\n  echo\n  echo 'passing by $ref:'\n\n  ## in bash >=4.3, which supports references, you may pass by reference\n  ## this way any changes done to the variable within the function will affect the variable itself\n  passingArraysInput $ref:someArray\n\n  ## should show changes\n  $var:someArray toJSON\n}\n\n## RUN IT:\nmanipulatingArrays\npassingArrays\n",
+  "url": "https://raw.githubusercontent.com/niieani/bash-oo-framework/master/example/array.sh",
+  "language": "shell",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:swiftlang/swift:utils/find-overlay-dependencies-loop.sh",
+  "title": "swiftlang/swift/utils/find-overlay-dependencies-loop.sh",
+  "text": "#!/bin/bash\n#===--- find-overlay-dependencies-loop.sh - driver for find-overlay-dependency.sh---===#\n#\n## This source file is part of the Swift.org open source project\n##\n## Copyright (c) 2014 - 2017 Apple Inc. and the Swift project authors\n## Licensed under Apache License v2.0 with Runtime Library Exception\n##\n## See https://swift.org/LICENSE.txt for license information\n## See https://swift.org/CONTRIBUTORS.txt for the list of Swift project authors\n#\n#===------------------------------------------------------------------------===#\n\nSCRIPT=\"$(dirname \"$0\")/find-overlay-dependencies.sh\"\n\n# `update` edits the cmake file in-place; `print` just prints to console\nfunction usage() {\n  echo 'usage:' $0 'update|print' >&2\n    exit 1\n}\n\ncase $# in\n1) if [[ $1 != 'update' && $1 != 'print' ]]; then\n    usage\n  fi ;;\n*)\n  usage ;;\nesac\n\n# Don't update XCTest, handle spaces in directories\nfor f in ./stdlib/public/Darwin/*/; do\n  name=$(basename \"${f}\")\n  if [[ \"${name}\" == \"XCTest\" ]]; then\n    continue\n  fi\n  $SCRIPT \"${name}\" \"$1\"\ndone\n",
+  "url": "https://raw.githubusercontent.com/swiftlang/swift/main/utils/find-overlay-dependencies-loop.sh",
+  "language": "shell",
+  "kind": "code"
+}

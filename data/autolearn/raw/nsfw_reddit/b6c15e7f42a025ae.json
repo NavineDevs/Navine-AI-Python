@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:gonewild:t3_1uqx6vm:text",
+  "title": "I love it when you [f]lirt with me 🖤❤️",
+  "text": "I love it when you [f]lirt with me 🖤❤️",
+  "url": "https://old.reddit.com/r/gonewild/comments/1uqx6vm/i_love_it_when_you_flirt_with_me/",
+  "category": "nsfw",
+  "subreddit": "gonewild",
+  "media_category": "real",
+  "tags": [
+    "human",
+    "real",
+    "gonewild",
+    "photography"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:InsertKoinIO/koin:projects/test-macos.sh",
+  "title": "InsertKoinIO/koin/projects/test-macos.sh",
+  "text": "#!/bin/sh\n\n./gradlew cleanTest :core:koin-core:macosArm64Test --parallel --no-build-cache\n",
+  "url": "https://raw.githubusercontent.com/InsertKoinIO/koin/main/projects/test-macos.sh",
+  "language": "shell",
+  "kind": "code"
+}

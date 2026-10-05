@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:barbajs/barba:cypress/plugins/index.js",
+  "title": "barbajs/barba/cypress/plugins/index.js",
+  "text": "// ***********************************************************\n// This example plugins/index.js can be used to load plugins\n//\n// You can change the location of this file or turn off loading\n// the plugins file with the 'pluginsFile' configuration option.\n//\n// You can read more here:\n// https://on.cypress.io/plugins-guide\n// ***********************************************************\n\n// This function is called when a project is opened or re-opened (e.g. due to\n// the project's config changing)\n\n/* eslint-disable consistent-return, no-unused-vars */\nmodule.exports = (on, config) => {\n  // https://github.com/cypress-io/cypress/issues/1872#issuecomment-450807452\n  on('before:browser:launch', (browser = {}, args) => {\n    if (browser.name === 'chrome') {\n      // ^ make sure this is your browser name, you may\n      // be using 'canary' or 'chromium' for example, so change it to match!\n      args.push('--proxy-bypass-list=<-loopback>');\n\n      return args;\n    }\n  });\n};\n/* eslint-enable consistent-return, no-unused-vars */\n",
+  "url": "https://raw.githubusercontent.com/barbajs/barba/main/cypress/plugins/index.js",
+  "language": "javascript",
+  "kind": "code"
+}

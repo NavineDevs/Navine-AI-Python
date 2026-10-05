@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:barbajs/barba:prettier.config.js",
+  "title": "barbajs/barba/prettier.config.js",
+  "text": "module.exports = {\n  printWidth: 80,\n  tabWidth: 2,\n  useTabs: false,\n  semi: true,\n  singleQuote: true,\n  trailingComma: 'es5',\n  bracketSpacing: true,\n  arrowParens: 'avoid',\n  overrides: [\n    {\n      files: '*.md',\n      options: {\n        parser: 'markdown',\n      },\n    },\n  ],\n};\n",
+  "url": "https://raw.githubusercontent.com/barbajs/barba/main/prettier.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

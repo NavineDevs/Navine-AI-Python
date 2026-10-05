@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:179123",
+  "title": "How to modify existing, unpushed commit messages?",
+  "text": "How to modify existing, unpushed commit messages?\n\n<p>I wrote the wrong thing in a commit message.</p>\n\n<p>How can I change the message? The commit has not been pushed yet.</p>",
+  "url": "https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages",
+  "kind": "qa"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.20465v1",
+  "title": "Farmer Connect: Improving Farmers' Access to Produce Markets",
+  "text": "Farmer Connect: Improving Farmers' Access to Produce Markets\n\nSmallholder maize farmers in Uganda continue to face limited market access, weak bargaining power, low price transparency, and heavy reliance on intermediaries. These challenges are compounded by poor produce coordination, delayed payments, and weak visibility into cooperative transactions. This paper presents Farmer Connect, a cooperative-based digital platform designed to support produce management, marketplace coordination, and transparent earnings tracking among farmer groups. The system supports four user roles: administrators, supervisors, farmers, and customers. Its core functions include farmer group management, contribution recording and verification, marketplace listing, order processing, First In First Out based produce allocation, earnings visibility, mobile money payment support, and notification services. The platform was implemented using a mobile-first architecture with cloud-based backend services and an administrative web dashboard. Functional implementation showed that the system was able to support the major workflows required for group-based maize marketing and cooperative coordination, with approximately 85% of identified user requirements implemented. The study shows that cooperative-centered digital platforms can provide a practical framework for improving transparency, coordination, and buyer access for smallholder farmers.",
+  "url": "https://arxiv.org/abs/2606.20465v1",
+  "category": "technical"
+}

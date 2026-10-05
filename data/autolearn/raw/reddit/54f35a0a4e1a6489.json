@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:java:t3_1vfigx1",
+  "title": "GitHub Setup Java Action versions 1 through 4 now deprecated",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>If you are using setup-java v4 and older, you will now see a warning about deprecation. Please do update your setup-java action to v5. It will be the only stable version after v6 is released.</p> <p><a href=\"https://github.com/actions/setup-java#older-versions\">https://github.com/actions/setup-java#older-versions</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/brunocborges\"> /u/brunocborges </a> <br/> <span><a href=\"https://www.reddit.com/r/java/comments/1vfigx1/github_setup_java_action_versions_1_through_4_now/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/java/comments/1vfigx1/github_setup_java_action_versions_1_through_4_now/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/java/comments/1vfigx1/github_setup_java_action_versions_1_through_4_now/"
+}

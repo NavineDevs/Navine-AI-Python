@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:InsertKoinIO/koin:projects/benchmark-gc.sh",
+  "title": "InsertKoinIO/koin/projects/benchmark-gc.sh",
+  "text": "#!/bin/sh\n# Run the JVM benchmark suite with JMH's GC profiler.\n#\n# Reports alloc/op alongside wall-time, which is what validates A1/A2:\n# the buildString() in indexKey() is small enough that wall-time deltas may sit in\n# noise, but the allocations/op delta will be unambiguous.\n#\n# Output columns of interest (look for these on the gc.* rows):\n#   gc.alloc.rate.norm   bytes allocated per @Benchmark op (lower = better)\n#   gc.count             GC events during the run\n#\n# kotlinx-benchmark Gradle plugin doesn't expose `-prof gc` via a config key, so we\n# run JMH against the generated shadow jar directly.\n#\n# Run from projects/ root.\n\nset -e\n\n# 1. Build the JMH shadow jar (without running it).\n./gradlew :core:benchmark:jvmBenchmarkJar\n\n# 2. Locate the shadow jar (path layout is stable for kotlinx-benchmark 0.4.x).\nJAR=$(find core/benchmark/build/benchmarks/jvm/jars -name '*.jar' | head -1)\nif [ -z \"$JAR\" ]; then\n  echo \"No benchmark jar found. Adjust the find path for your kotlinx-benchmark version.\"\n  exit 1\nfi\n\n# 3. Run JMH directly with the GC profiler. Default to JvmBenchmark.* — pass a regex\n#    as the first arg to override (e.g. ./benchmark-gc.sh \".*startup_with_binds.*\").\nPATTERN=\"${1:-.*JvmBenchmark.*}\"\njava -jar \"$JAR\" -prof gc -f 1 -wi 5 -i 5 \"$PATTERN\"\n",
+  "url": "https://raw.githubusercontent.com/InsertKoinIO/koin/main/projects/benchmark-gc.sh",
+  "language": "shell",
+  "kind": "code"
+}

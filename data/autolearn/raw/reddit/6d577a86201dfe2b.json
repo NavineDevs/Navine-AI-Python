@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1u33jpk",
+  "title": "Compile Zod schemas into zero-overhead validators (2-74x faster)",
+  "text": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gajus0\"> /u/gajus0 </a> <br/> <span><a href=\"https://github.com/gajus/zod-compiler\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1u33jpk/compile_zod_schemas_into_zerooverhead_validators/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1u33jpk/compile_zod_schemas_into_zerooverhead_validators/"
+}

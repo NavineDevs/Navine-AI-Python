@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:laravel/framework:bin/test.sh",
+  "title": "laravel/framework/bin/test.sh",
+  "text": "#!/usr/bin/env bash\n\ndown=false\nphp=\"8.3\"\n\nwhile true; do\n  case \"$1\" in\n    --down ) down=true; shift ;;\n    --php ) php=$2; shift 2;;\n    -- ) shift; break ;;\n    * ) break ;;\n  esac\ndone\n\nif $down; then\n    docker-compose down -t 0\n\n    exit 0\nfi\n\necho \"Ensuring docker is running\"\n\nif ! docker info > /dev/null 2>&1; then\n  echo \"Please start docker first.\"\n  exit 1\nfi\n\necho \"Ensuring services are running\"\n\ndocker-compose up -d\n\nif docker run -it --rm \"registry.gitlab.com/grahamcampbell/php:$php-base\" -r \"\\$tries = 0; while (true) { try { \\$tries++; if (\\$tries > 30) { throw new RuntimeException('MySQL never became available'); } sleep(1); new PDO('mysql:host=docker.for.mac.localhost;dbname=forge', 'root', '', [PDO::ATTR_TIMEOUT => 3]); break; } catch (PDOException \\$e) {} }\"; then\n    echo \"Running tests\"\n\n    if docker run -it -w /data -v ${PWD}:/data:delegated \\\n       --user \"www-data\" --entrypoint vendor/bin/phpunit \\\n       --env CI=1 --env DB_HOST=docker.for.mac.localhost --env DB_USERNAME=root \\\n       --env DB_HOST=docker.for.mac.localhost --env DB_PORT=3306 \\\n       --env DYNAMODB_ENDPOINT=docker.for.mac.localhost:8000 --env DYNAMODB_CACHE_TABLE=cache --env AWS_ACCESS_KEY_ID=dummy --env AWS_SECRET_ACCESS_KEY=dummy \\\n       --env REDIS_HOST=docker.for.mac.localhost --env REDIS_PORT=6379 \\\n       --env MEMCACHED_HOST=docker.for.mac.localhost --env MEMCACHED_PORT=11211 \\\n       --rm \"registry.gitlab.com/grahamcampbell/php:$php-base\" \"$@\"; then\n        exit 0\n    else\n        exit 1\n    fi\nelse\n    docker-compose logs\n    exit 1\nfi\n",
+  "url": "https://raw.githubusercontent.com/laravel/framework/13.x/bin/test.sh",
+  "language": "shell",
+  "kind": "code"
+}

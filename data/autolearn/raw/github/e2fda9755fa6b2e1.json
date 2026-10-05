@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:shadowsocks/shadowsocks-windows:shadowsocks-csharp/CommandLineOption.cs",
+  "title": "shadowsocks/shadowsocks-windows/shadowsocks-csharp/CommandLineOption.cs",
+  "text": "﻿using CommandLine;\n\nnamespace Shadowsocks\n{\n    public class CommandLineOption\n    {\n        [Option(\"open-url\",Required = false,HelpText = \"Add an ss:// URL\")]\n        public string OpenUrl { get; set; }\n    }\n}",
+  "url": "https://raw.githubusercontent.com/shadowsocks/shadowsocks-windows/v4/shadowsocks-csharp/CommandLineOption.cs",
+  "language": "csharp",
+  "kind": "code"
+}

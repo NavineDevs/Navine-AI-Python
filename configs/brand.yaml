@@ -1,0 +1,45 @@
+display_name: "Navine AI - Python"
+engine_name: "Navine Engine"
+package: navine
+theme_id: navine
+creator: HitBoyXx23
+company: Navine
+language_mode: python
+default_text_model: text_enterprise
+port: 8766
+backend: python
+public_url: "https://pai.navinecord.dev"
+python_only: true
+ui_tabs:
+  - text
+  - voicechat
+  - image
+  - video
+  - osint
+  - deepfake
+  - voice
+  - music
+  - info
+  - train
+  - apigen
+  - settings
+ui_features:
+  train: true
+  apigen: true
+  train_strip: true
+  footer_ops: true
+  native_accelerators: false
+modes:
+  - chat
+  - code
+  - think
+  - detective
+  - analyze
+  - osint
+model_ids:
+  - text_enterprise
+  - text_code
+  - image_enterprise_v2
+  - video_enterprise
+  - voice
+  - deepfake

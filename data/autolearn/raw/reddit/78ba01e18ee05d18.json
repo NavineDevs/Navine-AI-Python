@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vkmcwy",
+  "title": "I added 50+ Rust quiz questions to Cratery, free to solve",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I built Cratery (<a href=\"https://cratery.rustu.dev/\">https://cratery.rustu.dev</a>), a free Rust quiz site where you read a short code snippet, pick an answer, get a hint if you want one, then see a full explanation. I just added 50+ new questions, so there are now 190+ across 9 topics like ownership, lifetimes, traits, concurrency, error handling, and the borrow checker. No signup needed to play, progress saves in your browser, and there is also a random &quot;Practice 5&quot; mode, community-made quests, and a weekly coding contest if you want more. If you are learning Rust or brushing up before interviews, I would love feedback on what feels too easy or too hard.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/capitanturkiye\"> /u/capitanturkiye </a> <br/> <span><a href=\"https://i.redd.it/eljm76dl4kih1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vkmcwy/i_added_50_rust_quiz_questions_to_cratery_free_to/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vkmcwy/i_added_50_rust_quiz_questions_to_cratery_free_to/"
+}

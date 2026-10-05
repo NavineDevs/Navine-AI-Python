@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vjxvql",
+  "title": "Question about text/template behaviour",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m seeing some unexpected behaviour when running templates using text/template. Specifically, when ranging over iter.Seq2 the cursor follows the first parameter, not the second as for example when ranging over a slice. Is this the expected behaviour.</p> <p><a href=\"https://go.dev/play/p/5JK7kIhXGxs\">https://go.dev/play/p/5JK7kIhXGxs</a> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/siplasma\"> /u/siplasma </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vjxvql/question_about_texttemplate_behaviour/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vjxvql/question_about_texttemplate_behaviour/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vjxvql/question_about_texttemplate_behaviour/"
+}

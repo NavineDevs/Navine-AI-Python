@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:BurntSushi/ripgrep:tests/macros.rs",
+  "title": "BurntSushi/ripgrep/tests/macros.rs",
+  "text": "#[macro_export]\nmacro_rules! rgtest {\n    ($name:ident, $fun:expr) => {\n        #[test]\n        fn $name() {\n            let (dir, cmd) = crate::util::setup(stringify!($name));\n            $fun(dir, cmd);\n\n            if cfg!(feature = \"pcre2\") {\n                let (dir, cmd) = crate::util::setup_pcre2(stringify!($name));\n                $fun(dir, cmd);\n            }\n        }\n    };\n}\n\n#[macro_export]\nmacro_rules! eqnice {\n    ($expected:expr, $got:expr) => {\n        let expected = &*$expected;\n        let got = &*$got;\n        if expected != got {\n            panic!(\"\nprinted outputs differ!\n\nexpected:\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n{}\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\ngot:\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n{}\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\", expected, got);\n        }\n    }\n}\n\n#[macro_export]\nmacro_rules! eqnice_repr {\n    ($expected:expr, $got:expr) => {\n        let expected = &*$expected;\n        let got = &*$got;\n        if expected != got {\n            panic!(\"\nprinted outputs differ!\n\nexpected:\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n{:?}\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\ngot:\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n{:?}\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\", expected, got);\n        }\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/BurntSushi/ripgrep/master/tests/macros.rs",
+  "language": "rust",
+  "kind": "code"
+}

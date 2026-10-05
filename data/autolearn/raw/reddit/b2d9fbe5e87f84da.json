@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u3uuzv",
+  "title": "MaxBytes Middleware in Go: Same Trap, Different Escape",
+  "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1u3uuzv/maxbytes_middleware_in_go_same_trap_different/\"> <img src=\"https://external-preview.redd.it/X5lGoATZReyjBNI2xLB12iXg5MDBcHXlOAlTcYc5Htw.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1fc0a468f497804c89aa4d0fc9dabf70945ca6f0\" alt=\"MaxBytes Middleware in Go: Same Trap, Different Escape\" title=\"MaxBytes Middleware in Go: Same Trap, Different Escape\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hello gophers.</p> <p>This is a follow-up to my timeout middleware <a href=\"https://www.reddit.com/r/golang/comments/1jf1inr/timeout_middleware_in_go_simple_in_theory_complex/\">post</a> from last year. This time it&#39;s about per-route request body size limits: a similar silent failure to solve, a similar API and DX, but a сompletely different solution underneath.</p> <p>Happy to get feedback or answer any questions.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/destel116\"> /u/destel116 </a> <br/> <span><a href=\"https://destel.dev/blog/max-bytes-middleware-in-go\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u3uuzv/maxbytes_middleware_in_go_same_trap_different/\">[comments]</a></span> </td></tr></table>",
+  "url": "https://www.reddit.com/r/golang/comments/1u3uuzv/maxbytes_middleware_in_go_same_trap_different/"
+}

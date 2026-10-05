@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:niieani/bash-oo-framework:your-script.sh",
+  "title": "niieani/bash-oo-framework/your-script.sh",
+  "text": "#!/usr/bin/env bash\n\n## BOOTSTRAP ##\nsource \"$( cd \"${BASH_SOURCE[0]%/*}\" && pwd )/lib/oo-bootstrap.sh\"\n\n## MAIN ##\n# import util/log util/exception util/tryCatch util/namedParameters util/class\n\n## YOUR CODE GOES HERE ##\n",
+  "url": "https://raw.githubusercontent.com/niieani/bash-oo-framework/master/your-script.sh",
+  "language": "shell",
+  "kind": "code"
+}

@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:gd:464433:464433:image",
+  "title": "The loopdy g",
+  "text": "The loopdy g The loopitty g is so dumb ... i love it.",
+  "url": "https://boards.4chan.org/gd/thread/464433#p464433",
+  "category": "coding",
+  "kind": "image",
+  "caption": "The loopdy g | [general, image] | tags: 4chan, gd, unknown",
+  "board": "gd",
+  "thread_id": 464433,
+  "post_id": 464433,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "gd",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/gd/1781447335867247.png",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\gd\\gd_1781447335867247.png"
+}

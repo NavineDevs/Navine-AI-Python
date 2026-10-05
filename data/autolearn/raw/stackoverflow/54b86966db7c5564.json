@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:136097",
+  "title": "What is the difference between @staticmethod and @classmethod in Python?",
+  "text": "What is the difference between @staticmethod and @classmethod in Python?\n\n<p>What is the difference between a method <a href=\"https://peps.python.org/pep-0318/\" rel=\"noreferrer\">decorated</a> with <a href=\"http://docs.python.org/library/functions.html#staticmethod\" rel=\"noreferrer\"><code>@staticmethod</code></a> and one decorated with <a href=\"http://docs.python.org/library/functions.html#classmethod\" rel=\"noreferrer\"><code>@classmethod</code></a>?</p>",
+  "url": "https://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod-in-python",
+  "kind": "qa"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\news\\news_1781450768939452.png",
+  "title": "news_1781450768939452",
+  "text": "news_1781450768939452",
+  "url": "data\\nsfw\\images\\local\\general\\news_1781450768939452_1781456805180207200.png",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\news_1781450768939452_1781456805180207200.png",
+  "caption": "news_1781450768939452 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "news",
+  "tags": [
+    "news",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

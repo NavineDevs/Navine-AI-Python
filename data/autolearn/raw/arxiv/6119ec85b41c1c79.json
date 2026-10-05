@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.06524v1",
+  "title": "Lower Bounds for Approximating the Vietoris-Rips Filtration",
+  "text": "Lower Bounds for Approximating the Vietoris-Rips Filtration\n\nThe Vietoris-Rips filtration $\\mathcal{VR}(-)$ is a standard tool for analyzing the shape of data within topological data analysis. Beginning with seminal work of Sheehy, a substantial amount of research has centered on constructing linear-size sparse approximations to $\\mathcal{VR}(-)$ and related filtrations for metric spaces of bounded doubling dimension. We show that this geometric assumption is necessary in a precise sense. Working in the framework of homotopy interleavings, we show that for any fixed $c \\in [1, \\sqrt{2})$, there exists a family of finite metric spaces for which any finitely presented $c$-approximation to $\\mathcal{VR}(-)$ has exponential size. We also show that for any fixed $c \\geq 1$, there exists a family of finite metric spaces for which any finitely presented $c$-approximation to $\\mathcal{VR}(-)$ has superlinear size, yielding an obstruction to linear-size approximations for any fixed approximation factor. Both results extend to the intrinsic Čech filtration and to any bifiltration containing $\\mathcal{VR}(-)$ as a $1$-parameter slice, including the function-Rips, degree-Rips, and subdivision-Rips bifiltrations.",
+  "url": "https://arxiv.org/abs/2607.06524v1",
+  "category": "technical"
+}

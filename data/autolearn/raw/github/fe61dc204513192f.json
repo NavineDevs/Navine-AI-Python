@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:avelino/awesome-go:pkg/slug/generator.go",
+  "title": "avelino/awesome-go/pkg/slug/generator.go",
+  "text": "package slug\n\nimport (\n\t\"strings\"\n\n\t\"github.com/avelino/slugify\"\n)\n\n// Generate slugs similar to GitHub's slugs on markdown parsing\nfunc Generate(text string) string {\n\t// FIXME: this is should be like regexp.Replace(`[^-a-zA-Z\\d]+`, ``)\n\ts := strings.ReplaceAll(text, \"/\", \"\")\n\treturn slugify.Slugify(strings.TrimSpace(s))\n}\n",
+  "url": "https://raw.githubusercontent.com/avelino/awesome-go/main/pkg/slug/generator.go",
+  "language": "go",
+  "kind": "code"
+}

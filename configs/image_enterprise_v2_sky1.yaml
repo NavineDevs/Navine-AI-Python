@@ -1,0 +1,88 @@
+checkpoint_namespace: image_enterprise_v2
+migration: |
+  Single-image pure-noise overfit proof for sky.
+  fresh_start true; EMA disabled; attention at 64/32/16;
+  cosine schedule with low alpha_bar_T.
+model:
+  image_size: 256
+  in_channels: 3
+  base_channels: 160
+  channel_mults:
+  - 1
+  - 2
+  - 4
+  - 4
+  num_res_blocks: 2
+  time_emb_dim: 640
+  text_emb_dim: 320
+  attn_resolutions:
+  - 64
+  - 32
+  - 16
+  text_max_len: 77
+  text_layers: 4
+  text_heads: 8
+  min_snr_gamma: 5.0
+  arch_version: 3
+diffusion:
+  timesteps: 200
+  beta_start: 0.0001
+  beta_end: 0.02
+  beta_schedule: cosine
+training:
+  batch_size: 1
+  learning_rate: 0.0002
+  max_steps: 2000
+  save_interval: 250
+  grad_clip: 1.0
+  finetune_steps: 2000
+  finetune_lr: 0.0002
+  fresh_start: true
+  photoreal_training: true
+  sample_interval: 250
+  cfg_dropout: 0.1
+  ema_decay: 0.0
+  disable_ema: true
+  refresh_noise_schedule: true
+  mixed_precision: true
+  torch_compile: false
+  max_files_per_dir: 0
+  overfit_sample_prompt: "clear blue sky with soft white clouds, natural daylight"
+  oversample_categories:
+    sky: 64
+data:
+  train_dir: data/image/overfit_sky1
+  extra_dirs: []
+inference:
+  num_steps: 80
+  guidance_scale: 1.5
+  seed: 0
+  output_size: 256
+  prefer_trained_model: true
+  custom_trained_only: true
+  prefer_reference_output: false
+  allow_reference_fallback: false
+  allow_reference_on_noise: false
+  allow_procedural_on_noise: false
+  prefer_procedural_simple_scenes: false
+  seed_from_reference: false
+  init_noise_strength: 0.25
+  seeded_num_steps: 40
+  procedural_only_when_untrained: false
+  apply_reference_guide: false
+  backend_order:
+  - checkpoint
+  diffusers:
+    enabled: false
+    requires_gpu: true
+    pipeline: stable_diffusion
+    model_id: ""
+    local_files_only: true
+    width: 256
+    height: 256
+    num_inference_steps: 30
+    guidance_scale: 1.5
+    negative_prompt: "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, logo"
+  scheduler: ddim
+  postprocess: false
+  postprocess_upscale: false

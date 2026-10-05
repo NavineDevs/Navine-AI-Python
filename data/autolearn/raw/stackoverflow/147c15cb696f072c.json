@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:178325",
+  "title": "How do I check if an element is hidden in jQuery?",
+  "text": "How do I check if an element is hidden in jQuery?\n\n<p>How do I toggle the visibility of an element using  <code>.hide()</code>, <code>.show()</code>, or <code>.toggle()</code>?</p>\n<p>How do I test if an element is <code>visible</code> or <code>hidden</code>?</p>",
+  "url": "https://stackoverflow.com/questions/178325/how-do-i-check-if-an-element-is-hidden-in-jquery",
+  "kind": "qa"
+}

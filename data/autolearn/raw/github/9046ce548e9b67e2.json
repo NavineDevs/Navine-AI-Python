@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:affaan-m/ECC:scripts/build-opencode.js",
+  "title": "affaan-m/ECC/scripts/build-opencode.js",
+  "text": "#!/usr/bin/env node\n\nconst fs = require(\"node:fs\")\nconst path = require(\"node:path\")\nconst { execFileSync } = require(\"node:child_process\")\n\nconst rootDir = path.resolve(__dirname, \"..\")\nconst opencodeDir = path.join(rootDir, \".opencode\")\nconst distDir = path.join(opencodeDir, \"dist\")\n\nfs.rmSync(distDir, { recursive: true, force: true })\n\nlet tscEntrypoint\n\ntry {\n  tscEntrypoint = require.resolve(\"typescript/bin/tsc\", { paths: [rootDir] })\n} catch {\n  throw new Error(\n    \"TypeScript compiler not found. Install root dev dependencies before publishing so .opencode/dist can be built.\"\n  )\n}\n\nexecFileSync(process.execPath, [tscEntrypoint, \"-p\", path.join(opencodeDir, \"tsconfig.json\")], {\n  cwd: rootDir,\n  stdio: \"inherit\",\n})\n",
+  "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/scripts/build-opencode.js",
+  "language": "javascript",
+  "kind": "code"
+}

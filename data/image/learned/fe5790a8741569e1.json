@@ -1,0 +1,19 @@
+{
+  "id": "fe5790a8741569e1",
+  "url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\ext_62680b91fa922a52_1787135522600291300.png",
+  "caption": "ext_62680b91fa922a52 | [general, image] | tags: porn, local, unknown",
+  "filename": "fe5790a8741569e1.png",
+  "timestamp": "2026-08-21T17:46:29.300184+00:00",
+  "content_type": "image/png",
+  "media_category": "general",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "tags": [
+    "porn",
+    "general",
+    "local"
+  ],
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\local\\porn\\ext_62680b91fa922a52.png",
+  "kind": "image"
+}

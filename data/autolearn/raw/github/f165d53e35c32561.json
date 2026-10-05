@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rtk-ai/rtk:scripts/validate-docs.sh",
+  "title": "rtk-ai/rtk/scripts/validate-docs.sh",
+  "text": "#!/usr/bin/env bash\nset -e\n\necho \"🔍 Validating RTK documentation consistency...\"\n\n# 1. Source file count sanity check\nSRC_FILES=$(find src -name \"*.rs\" ! -name \"mod.rs\" ! -name \"main.rs\" | wc -l | tr -d ' ')\necho \"📊 Rust source files in src/: $SRC_FILES\"\n\n# 3. Commandes Python/Go présentes partout\nPYTHON_GO_CMDS=(\"ruff\" \"pytest\" \"pip\" \"go\" \"golangci\")\necho \"🐍 Checking Python/Go commands documentation...\"\n\nfor cmd in \"${PYTHON_GO_CMDS[@]}\"; do\n  if [ ! -f \"README.md\" ]; then\n    echo \"⚠️  README.md not found, skipping\"\n    break\n  fi\n  if ! grep -q \"$cmd\" \"README.md\"; then\n    echo \"❌ README.md ne mentionne pas commande $cmd\"\n    exit 1\n  fi\ndone\necho \"✅ Python/Go commands: documented in README.md\"\n\n# 4. Hooks cohérents avec doc\nHOOK_FILE=\".claude/hooks/rtk-rewrite.sh\"\nif [ -f \"$HOOK_FILE\" ]; then\n  echo \"🪝 Checking hook rewrites...\"\n  for cmd in \"${PYTHON_GO_CMDS[@]}\"; do\n    if ! grep -q \"$cmd\" \"$HOOK_FILE\"; then\n      echo \"⚠️  Hook may not rewrite $cmd (verify manually)\"\n    fi\n  done\n  echo \"✅ Hook file exists and mentions Python/Go commands\"\nelse\n  echo \"⚠️  Hook file not found: $HOOK_FILE\"\nfi\n\necho \"\"\necho \"✅ Documentation validation passed\"\n",
+  "url": "https://raw.githubusercontent.com/rtk-ai/rtk/develop/scripts/validate-docs.sh",
+  "language": "shell",
+  "kind": "code"
+}

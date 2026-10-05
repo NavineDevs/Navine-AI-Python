@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:squizlabs/PHP_CodeSniffer:src/Exceptions/TokenizerException.php",
+  "title": "squizlabs/PHP_CodeSniffer/src/Exceptions/TokenizerException.php",
+  "text": "<?php\n/**\n * An exception thrown by PHP_CodeSniffer when it encounters an unrecoverable tokenizer error.\n *\n * @author    Greg Sherwood <gsherwood@squiz.net>\n * @copyright 2006-2015 Squiz Pty Ltd (ABN 77 084 670 600)\n * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence\n */\n\nnamespace PHP_CodeSniffer\\Exceptions;\n\nclass TokenizerException extends \\Exception\n{\n\n}//end class\n",
+  "url": "https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/src/Exceptions/TokenizerException.php",
+  "language": "php",
+  "kind": "code"
+}

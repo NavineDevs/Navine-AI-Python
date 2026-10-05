@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:tach-org/tach:python/tach/start.py",
+  "title": "tach-org/tach/python/tach/start.py",
+  "text": "from __future__ import annotations\n\nimport sys\n\n\ndef start():\n    try:\n        from tach.cli import main\n\n        main()\n    except KeyboardInterrupt:\n        print(\"Exiting...\")\n        sys.exit(1)\n\n\nif __name__ == \"__main__\":\n    start()\n\n__all__ = [\"start\"]\n",
+  "url": "https://raw.githubusercontent.com/tach-org/tach/main/python/tach/start.py",
+  "language": "python",
+  "kind": "code"
+}

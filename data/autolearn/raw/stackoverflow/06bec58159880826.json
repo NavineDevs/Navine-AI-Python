@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:477816",
+  "title": "Which JSON content type do I use?",
+  "text": "Which JSON content type do I use?\n\n<p>There are many &quot;standards&quot; for the <a href=\"http://en.wikipedia.org/wiki/JSON\" rel=\"nofollow noreferrer\">JSON</a> content type:</p>\n<pre class=\"lang-none prettyprint-override\"><code>application/json\napplication/x-javascript\ntext/javascript\ntext/x-javascript\ntext/x-json\n</code></pre>\n<p>Which one do I use, and where? I assume security and browser support issues are a factor.</p>\n<p>Related: <em><a href=\"https://stackoverflow.com/questions/404470\">What is the MIME type if JSON is being returned by a REST API?</a></em></p>",
+  "url": "https://stackoverflow.com/questions/477816/which-json-content-type-do-i-use",
+  "kind": "qa"
+}

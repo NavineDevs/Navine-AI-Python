@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:webdev:t3_1vj9wvw",
+  "title": "Checking external links to see if they are still active",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>For a site that is open to user contribution, is there a tool to check external links and make sure they are still active? It may be working today but months down the road maybe the link has changed or complete gone. Limited to the following only, I know YouTube has Channel ID which is helpful in the API, if the handle changes it still works. Their API is generous, and Wikipedia&#39;s is good too. I am referring to more of a scanner if that makes sense, maybe a daily scan to check link health. My only concern is it getting flagged for bot and banned.</p> <p>Maybe someone has already thought of a good solution for this? Open to suggestions.</p> <p>Thanks!</p> <ul> <li>Website</li> <li>Wikipedia</li> <li>IMDb</li> <li>Metacritic</li> <li>Facebook</li> <li>Instagram</li> <li>YouTube</li> <li>X</li> <li>TikTok</li> <li>LinkedIn</li> <li>Twitch</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/avidrunner84\"> /u/avidrunner84 </a> <br/> <span><a href=\"https://www.reddit.com/r/webdev/comments/1vj9wvw/checking_external_links_to_see_if_they_are_still/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1vj9wvw/checking_external_links_to_see_if_they_are_still/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/webdev/comments/1vj9wvw/checking_external_links_to_see_if_they_are_still/"
+}

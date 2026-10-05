@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u36xj7",
+  "title": "Do you use DDD in go?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve read a couple books on domain driven design last year, and started using it in my go projects. I think so far my best attempt was a game I made recently. </p> <p><a href=\"https://github.com/artcodefun/heat-expansion-server\">https://github.com/artcodefun/heat-expansion-server</a></p> <p>&#x200B;</p> <p>But it seems like for some reason ddd is more popular in languages like C# or Java. Do you guys use it in your go projects? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/East_Reality_976\"> /u/East_Reality_976 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1u36xj7/do_you_use_ddd_in_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u36xj7/do_you_use_ddd_in_go/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1u36xj7/do_you_use_ddd_in_go/"
+}

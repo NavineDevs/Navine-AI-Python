@@ -1,0 +1,69 @@
+local_only: true
+unrestricted_mode: true
+discord:
+  webhook_url: ""
+inference:
+  custom_only: true
+device:
+  mode: hybrid
+  dtype: auto
+  prefer_cuda: true
+  require_cuda_for_train: false
+  use_all_system_ram: true
+  target_system_ram_gb: 16
+  ram_reserve_gb: 2.0
+  cpu_threads: 0
+  dataloader_workers: 0
+  parallel_dataloader_workers: 2
+  prefetch_factor: 2
+  pin_memory: true
+  cudnn_benchmark: true
+logs_dir: logs
+conversation_learning:
+  enabled: true
+  auto_ingest: true
+  auto_index: true
+  auto_train_chat: true
+  train_steps: 80
+  online_train_steps: 20
+  min_pairs_before_train: 4
+  train_cooldown_seconds: 180
+  train_in_background: true
+  adapt_assist_actions: true
+  skip_garbled_outputs: true
+  boost_corrections: true
+  min_turn_length: 8
+  min_answer_length: 12
+  session_dir: data/conversations
+  learn_dir: data/learn/conversations
+  train_file: data/train/chat/conversation_learned.txt
+search:
+  default_enabled: false
+  fallback_on_failure: false
+  auto_search_factual: false
+  learn_from_search: true
+enterprise:
+  active_tier: enterprise
+  profile: 1b
+  size_tier: gpt3_1b
+  owner: HitBoyXx23
+  custom_trained_only: true
+generation:
+  path: primary
+  allow_external_inference: false
+  external_for_training_only: true
+  external_teacher_enabled: false
+training:
+  custom_only: true
+  train_until_quality: true
+  max_rounds: 100
+  text_pass_score: 0.55
+  image_pass_score: 0.62
+  base_steps: 4000
+  step_growth: 1000
+  max_steps: 24000
+osint:
+  hibp_api_key: ""
+  username_email_guesses: true
+  username_website_guesses: true
+  password_breach_check: true

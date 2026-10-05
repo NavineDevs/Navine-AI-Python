@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "reddit:redgifs:t3_nzxts3",
+  "title": "Quick Q about the quality of posting links to reddit",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Whenever I post a redgifs link to reddit, it always shows the SD version embedded here, and you have to click through for the HD version. Is there anyway to link directly to the HD version?</p> <p>I&#39;m sorry if i&#39;m being silly 😌 I tried to link an example, but I got caught in the spam filter &lt;3</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pupsicle_stick\"> /u/pupsicle_stick </a> <br/> <span><a href=\"https://www.reddit.com/r/redgifs/comments/nzxts3/quick_q_about_the_quality_of_posting_links_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/redgifs/comments/nzxts3/quick_q_about_the_quality_of_posting_links_to/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/redgifs/comments/nzxts3/quick_q_about_the_quality_of_posting_links_to/",
+  "category": "nsfw",
+  "subreddit": "redgifs",
+  "media_category": "real",
+  "tags": [
+    "real",
+    "human",
+    "video",
+    "redgifs",
+    "real_video"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real_video"
+}

@@ -1,0 +1,63 @@
+enabled: true
+owner: HitBoyXx23
+name: Navine AI Assistant
+
+consent:
+  require_confirmation: true
+  auto_approve_read_only: true
+  remember_session_approvals: false
+
+safety:
+  block_dangerous: true
+  dangerous_patterns:
+    - "format "
+    - "del /s"
+    - "rd /s"
+    - "rmdir /s"
+    - "rm -rf"
+    - "mkfs"
+    - ":(){"
+    - "diskpart"
+    - "cipher /w"
+    - "reg delete"
+    - "shutdown"
+    - "taskkill"
+  allow_system_power: false
+  allow_registry: false
+  max_command_seconds: 120
+
+capabilities:
+  run_command: false
+  open_app: false
+  open_url: true
+  file_read: true
+  file_write: false
+  file_delete: false
+  system_info: true
+  screenshot: true
+  desktop_input: false
+  media_control: false
+  clipboard: false
+
+voice:
+  enabled: true
+  wake_words:
+    - hey navine
+    - okay navine
+    - ok navine
+    - navine
+    - hey vine
+    - no vine
+  accept_direct_commands_while_waiting: true
+  sleep_phrases:
+    - standby
+    - go to sleep
+    - that is all
+    - thats all
+    - sleep mode
+  active_timeout_seconds: 60
+  brief_spoken_replies: true
+  acknowledge: "Yes?"
+
+logging:
+  audit_file: logs/assistant/audit.log

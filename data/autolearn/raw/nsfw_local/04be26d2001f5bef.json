@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\lgbt\\lgbt_1782267326129356.gif",
+  "title": "lgbt_1782267326129356",
+  "text": "lgbt_1782267326129356",
+  "url": "data\\nsfw\\images\\local\\general\\lgbt_1782267326129356_1782295313603679300.gif",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\lgbt_1782267326129356_1782295313603679300.gif",
+  "caption": "lgbt_1782267326129356 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "lgbt",
+  "tags": [
+    "lgbt",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

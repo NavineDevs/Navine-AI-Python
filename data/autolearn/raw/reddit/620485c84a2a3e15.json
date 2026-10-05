@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1u2tz5u",
+  "title": "built a basic game in rust + bevy.",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>built a top-down arena shooter in Rust + Bevy from scratch:</p> <p>came in with zero rust experience - just wanted to actually learn Rust under real pressure, not toy exercises.</p> <p>what it ships with:</p> <p>→ plugin architecture (5 modules, each owns its own cleanup)</p> <p>→ wave scaling - enemies get faster + spawn faster over time</p> <p>→ camera shake, particles, fire-and-forget audio</p> <p>→ high score persistence to disk via std::fs</p> <p>link below, lmk your thoughts, and star the repo if possible :)</p> <p><a href=\"http://github.com/AKMessi/arena-rs\">github.com/AKMessi/arena-rs</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/akmessi2810\"> /u/akmessi2810 </a> <br/> <span><a href=\"https://i.redd.it/fhzuuvhuem6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1u2tz5u/built_a_basic_game_in_rust_bevy/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1u2tz5u/built_a_basic_game_in_rust_bevy/"
+}

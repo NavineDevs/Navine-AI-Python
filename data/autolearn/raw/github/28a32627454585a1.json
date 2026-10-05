@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/types/store.d.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/types/store.d.ts",
+  "text": "import { ErrorTypeEnum } from '/@/enums/exceptionEnum';\nimport { MenuModeEnum, MenuTypeEnum } from '/@/enums/menuEnum';\nimport { RoleInfo } from '/@/api/sys/model/userModel';\n\n// Lock screen information\nexport interface LockInfo {\n  // Password required\n  pwd?: string | undefined;\n  // Is it locked?\n  isLock?: boolean;\n}\n\n// Error-log information\nexport interface ErrorLogInfo {\n  // Type of error\n  type: ErrorTypeEnum;\n  // Error file\n  file: string;\n  // Error name\n  name?: string;\n  // Error message\n  message: string;\n  // Error stack\n  stack?: string;\n  // Error detail\n  detail: string;\n  // Error url\n  url: string;\n  // Error time\n  time?: string;\n}\n\nexport interface UserInfo {\n  id: string | number;\n  userId: string | number;\n  username: string;\n  realname: string;\n  avatar: string;\n  desc?: string;\n  homePath?: string;\n  tenantid?: string | number;\n  roles: RoleInfo[];\n  orgCode?: string;\n}\n\nexport interface LoginInfo {\n  multi_depart?: string | number;\n  userInfo?: object;\n  departs?: [];\n  tenantList?: [];\n  isLogin?: boolean;\n}\n\nexport interface BeforeMiniState {\n  menuCollapsed?: boolean;\n  menuSplit?: boolean;\n  menuMode?: MenuModeEnum;\n  menuType?: MenuTypeEnum;\n}\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/types/store.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

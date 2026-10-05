@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:krahets/hello-algo:overrides/javascripts/katex.js",
+  "title": "krahets/hello-algo/overrides/javascripts/katex.js",
+  "text": "document$.subscribe(({ body }) => {\n  renderMathInElement(body, {\n    delimiters: [\n      { left: \"$$\", right: \"$$\", display: true },\n      { left: \"$\", right: \"$\", display: false },\n      { left: \"\\\\(\", right: \"\\\\)\", display: false },\n      { left: \"\\\\[\", right: \"\\\\]\", display: true },\n    ],\n  });\n});\n",
+  "url": "https://raw.githubusercontent.com/krahets/hello-algo/main/overrides/javascripts/katex.js",
+  "language": "javascript",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:heroui-inc/heroui:packages/react/src/version.ts",
+  "title": "heroui-inc/heroui/packages/react/src/version.ts",
+  "text": "// This file is generated during the build process\n// It will be replaced with the actual version from package.json\nexport const HEROUI_VERSION = \"__HEROUI_VERSION__\";\n",
+  "url": "https://raw.githubusercontent.com/heroui-inc/heroui/v3/packages/react/src/version.ts",
+  "language": "typescript",
+  "kind": "code"
+}

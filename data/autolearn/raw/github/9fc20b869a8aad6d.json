@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:nestjs/nest:gulpfile.js",
+  "title": "nestjs/nest/gulpfile.js",
+  "text": "'use strict';\n/**\n * Load the TypeScript compiler, then load the TypeScript gulpfile which simply loads all\n * the tasks. The tasks are really inside tools/gulp/tasks.\n */\n\nconst path = require('path');\n\nconst projectDir = __dirname;\nconst tsconfigPath = path.join(projectDir, 'tools/gulp/tsconfig.json');\n\nrequire('ts-node').register({\n  project: tsconfigPath\n});\n\nrequire('./tools/gulp/gulpfile');",
+  "url": "https://raw.githubusercontent.com/nestjs/nest/master/gulpfile.js",
+  "language": "javascript",
+  "kind": "code"
+}

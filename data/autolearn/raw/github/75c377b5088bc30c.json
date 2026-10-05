@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:types/v3-setup-context.d.ts",
+  "title": "vuejs/vue/types/v3-setup-context.d.ts",
+  "text": "import { VNode } from './vnode'\nimport { Data, UnionToIntersection } from './common'\nimport { Vue } from './vue'\n\nexport type Slot = (...args: any[]) => VNode[]\n\nexport type Slots = Record<string, Slot | undefined>\n\nexport type ObjectEmitsOptions = Record<\n  string,\n  ((...args: any[]) => any) | null\n>\n\nexport type EmitsOptions = ObjectEmitsOptions | string[]\n\nexport type EmitFn<\n  Options = ObjectEmitsOptions,\n  Event extends keyof Options = keyof Options,\n  ReturnType extends void | Vue = void\n> = Options extends Array<infer V>\n  ? (event: V, ...args: any[]) => ReturnType\n  : {} extends Options // if the emit is empty object (usually the default value for emit) should be converted to function\n  ? (event: string, ...args: any[]) => ReturnType\n  : UnionToIntersection<\n      {\n        [key in Event]: Options[key] extends (...args: infer Args) => any\n          ? (event: key, ...args: Args) => ReturnType\n          : (event: key, ...args: any[]) => ReturnType\n      }[Event]\n    >\n\nexport interface SetupContext<E extends EmitsOptions = {}> {\n  attrs: Data\n  /**\n   * Equivalent of `this.$listeners`, which is Vue 2 only.\n   */\n  listeners: Record<string, Function | Function[]>\n  slots: Slots\n  emit: EmitFn<E>\n  expose(exposed?: Record<string, any>): void\n}\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/types/v3-setup-context.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

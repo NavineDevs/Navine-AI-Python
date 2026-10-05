@@ -1,0 +1,126 @@
+model:
+
+  image_size: 128
+
+  in_channels: 3
+
+  base_channels: 96
+
+  channel_mults: [1, 2, 4]
+
+  num_res_blocks: 2
+
+  time_emb_dim: 256
+
+  text_emb_dim: 128
+
+
+
+diffusion:
+
+  timesteps: 200
+
+  beta_start: 0.0001
+
+  beta_end: 0.02
+  beta_schedule: linear
+
+
+
+training:
+
+  batch_size: 4
+
+  learning_rate: 0.00015
+
+  max_steps: 1500
+
+  save_interval: 250
+
+  grad_clip: 1.0
+
+  finetune_steps: 250
+
+  finetune_lr: 0.000025
+
+  fresh_start: false
+
+  photoreal_training: true
+
+  sample_interval: 250
+
+  cfg_dropout: 0.12
+
+  oversample_categories:
+    real: 14
+    human: 12
+    hentai: 6
+    porn: 8
+
+
+
+data:
+
+  train_dir: data/nsfw/local/hentai
+
+  extra_dirs:
+
+    - data/nsfw/local/real
+
+    - data/nsfw/local/human
+
+    - data/nsfw/local/porn
+
+    - data/nsfw/local/mixed
+
+    - data/nsfw/local/animated
+
+    - data/nsfw/images/local/hentai
+
+    - data/nsfw/images/local/real
+
+    - data/nsfw/images/local/general
+
+    - data/nsfw/images/local/porn
+
+    - data/image/ingested
+
+
+
+inference:
+
+  num_steps: 80
+
+  guidance_scale: 2.6
+
+  seed: 42
+
+  output_size: 256
+
+  prefer_trained_model: true
+
+  custom_trained_only: true
+
+  allow_reference_fallback: false
+
+  procedural_only_when_untrained: false
+
+  apply_reference_guide: false
+
+  backend_order:
+    - checkpoint
+
+  diffusers:
+    enabled: false
+    requires_gpu: false
+    pipeline: turbo
+    model_id: ""
+    width: 512
+    height: 512
+    num_inference_steps: 4
+    guidance_scale: 2.6
+    negative_prompt: blurry, low quality, deformed, ugly, bad anatomy, extra limbs, watermark, text
+
+  scheduler: ddim
+  postprocess: true
+  postprocess_upscale: false

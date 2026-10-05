@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:1335851",
+  "title": "What does &quot;use strict&quot; do in JavaScript, and what is the reasoning behind it?",
+  "text": "What does &quot;use strict&quot; do in JavaScript, and what is the reasoning behind it?\n\n<p>Recently, I ran some of my JavaScript code through Crockford's <a href=\"http://www.jslint.com/\" rel=\"noreferrer\">JSLint</a>, and it gave the following error:</p>\n<blockquote>\n<p>Problem at line 1 character 1: Missing &quot;use strict&quot; statement.</p>\n</blockquote>\n<p>Doing some searching, I realized that some people add <code>&quot;use strict&quot;;</code> into their JavaScript code. Once I added the statement, the error stopped appearing. Unfortunately, Google did not reveal much of the history behind this string statement. Certainly it must have something to do with how the JavaScript is interpreted by the browser, but I have no idea what the effect would be.</p>\n<p>So what is <code>&quot;use strict&quot;;</code> all about, what does it imply, and is it still relevant?</p>\n<p>Do any of the current browsers respond to the <code>&quot;use strict&quot;;</code> string or is it for future use?</p>",
+  "url": "https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it",
+  "kind": "qa"
+}

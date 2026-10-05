@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/types/index.d.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/types/index.d.ts",
+  "text": "declare interface Fn<T = any, R = T> {\n  (...arg: T[]): R;\n}\n\ndeclare interface PromiseFn<T = any, R = T> {\n  (...arg: T[]): Promise<R>;\n}\n\ndeclare type RefType<T> = T | null;\n\ndeclare type LabelValueOptions = {\n  label: string;\n  value: any;\n  [key: string]: string | number | boolean;\n}[];\n\ndeclare type EmitType = (event: string, ...args: any[]) => void;\n\ndeclare type TargetContext = '_self' | '_blank';\n\ndeclare interface ComponentElRef<T extends HTMLElement = HTMLDivElement> {\n  $el: T;\n}\n\ndeclare type ComponentRef<T extends HTMLElement = HTMLDivElement> = ComponentElRef<T> | null;\n\ndeclare type ElRef<T extends HTMLElement = HTMLDivElement> = Nullable<T>;\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/types/index.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

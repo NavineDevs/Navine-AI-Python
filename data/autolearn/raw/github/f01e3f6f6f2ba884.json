@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:symfony/symfony:src/Symfony/Bridge/PhpUnit/ExpectDeprecationTrait.php",
+  "title": "symfony/symfony/src/Symfony/Bridge/PhpUnit/ExpectDeprecationTrait.php",
+  "text": "<?php\n\n/*\n * This file is part of the Symfony package.\n *\n * (c) Fabien Potencier <fabien@symfony.com>\n *\n * For the full copyright and license information, please view the LICENSE\n * file that was distributed with this source code.\n */\n\nnamespace Symfony\\Bridge\\PhpUnit;\n\nuse Symfony\\Bridge\\PhpUnit\\Legacy\\ExpectDeprecationTraitBeforeV8_4;\nuse Symfony\\Bridge\\PhpUnit\\Legacy\\ExpectDeprecationTraitForV8_4;\n\nif (version_compare(\\PHPUnit\\Runner\\Version::id(), '8.4.0', '<')) {\n    trait ExpectDeprecationTrait\n    {\n        use ExpectDeprecationTraitBeforeV8_4;\n    }\n} else {\n    /**\n     * @method void expectDeprecation(string $message)\n     */\n    trait ExpectDeprecationTrait\n    {\n        use ExpectDeprecationTraitForV8_4;\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/symfony/symfony/8.2/src/Symfony/Bridge/PhpUnit/ExpectDeprecationTrait.php",
+  "language": "php",
+  "kind": "code"
+}

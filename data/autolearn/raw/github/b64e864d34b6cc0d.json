@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:affaan-m/ECC:install.sh",
+  "title": "affaan-m/ECC/install.sh",
+  "text": "#!/usr/bin/env bash\n# install.sh — Legacy shell entrypoint for the ECC installer.\n#\n# This wrapper resolves the real repo/package root when invoked through a\n# symlinked npm bin, then delegates to the Node-based installer runtime.\n\nset -euo pipefail\n\nSCRIPT_PATH=\"$0\"\nwhile [ -L \"$SCRIPT_PATH\" ]; do\n    link_dir=\"$(cd \"$(dirname \"$SCRIPT_PATH\")\" && pwd)\"\n    SCRIPT_PATH=\"$(readlink \"$SCRIPT_PATH\")\"\n    [[ \"$SCRIPT_PATH\" != /* ]] && SCRIPT_PATH=\"$link_dir/$SCRIPT_PATH\"\ndone\nSCRIPT_DIR=\"$(cd \"$(dirname \"$SCRIPT_PATH\")\" && pwd)\"\n\n# Auto-install Node dependencies when running from a git clone\nif [ ! -d \"$SCRIPT_DIR/node_modules\" ]; then\n    echo \"[ECC] Installing dependencies...\"\n    (cd \"$SCRIPT_DIR\" && npm install --no-audit --no-fund --loglevel=error)\nfi\n\n# On MSYS2/Git Bash, convert the POSIX path to a Windows path so Node.js\n# (a native Windows binary) receives a valid path instead of a doubled one\n# like G:\\g\\projects\\... that results from Git Bash's auto path conversion.\nif command -v cygpath &>/dev/null; then\n    NODE_SCRIPT=\"$(cygpath -w \"$SCRIPT_DIR/scripts/install-apply.js\")\"\nelse\n    NODE_SCRIPT=\"$SCRIPT_DIR/scripts/install-apply.js\"\nfi\n\nexec node \"$NODE_SCRIPT\" \"$@\"\n",
+  "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/install.sh",
+  "language": "shell",
+  "kind": "code"
+}

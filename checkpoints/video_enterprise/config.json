@@ -1,0 +1,6 @@
+{
+  "parameters": 1029453023,
+  "name": "video_enterprise",
+  "size_tier": "gpt3_1b",
+  "unique_trainable": true
+}

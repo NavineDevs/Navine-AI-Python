@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1vexrvf",
+  "title": "What are you using to manage your dev environments in 2026?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I’ve always hated environment management. It always feels like this time-consuming hurdle between me and whatever I actually want to work on. But every so often a new thing comes out that promises to solve the problem once and for all, and it’s usually at least a little better than the last thing. So, what are you using today? venv? conda? pipenv? poetry? dev containers? uv? or something else?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Prime_Director\"> /u/Prime_Director </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1vexrvf/what_are_you_using_to_manage_your_dev/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vexrvf/what_are_you_using_to_manage_your_dev/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1vexrvf/what_are_you_using_to_manage_your_dev/"
+}

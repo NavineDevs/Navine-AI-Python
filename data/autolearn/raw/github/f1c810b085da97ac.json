@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:heroui-inc/heroui:packages/storybook/vite.config.ts",
+  "title": "heroui-inc/heroui/packages/storybook/vite.config.ts",
+  "text": "import {default as tailwindcss} from \"@tailwindcss/vite\";\nimport {default as react} from \"@vitejs/plugin-react\";\nimport {defineConfig} from \"vite\";\n\nexport default defineConfig({\n  plugins: [react(), tailwindcss()],\n  optimizeDeps: {\n    include: [\"@mdx-js/react\"],\n    exclude: [\"sb-vite\"],\n  },\n});\n",
+  "url": "https://raw.githubusercontent.com/heroui-inc/heroui/v3/packages/storybook/vite.config.ts",
+  "language": "typescript",
+  "kind": "code"
+}

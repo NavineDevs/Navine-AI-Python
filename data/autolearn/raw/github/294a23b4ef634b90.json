@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:hahwul/XSpear:forBurp/otwa.sh",
+  "title": "hahwul/XSpear/forBurp/otwa.sh",
+  "text": "echo '\non run argv\n  if length of argv is equal to 0\n    set command to \"\"\n  else\n    set command to item 1 of argv\n  end if\n  if length of argv is greater than 1\n    set profile to item 2 of argv\n    runWithProfile(command, profile)\n  else\n    runSimple(command)\n  end if\nend run\non runSimple(command)\n  tell application \"Terminal\"\n    activate\n    set newTab to do script(command)\n  end tell\n  return newTab\nend runSimple\non runWithProfile(command, profile)\n  set newTab to runSimple(command)\n  tell application \"Terminal\" to set current settings of newTab to (first settings set whose name is profile)\nend runWithProfile\n' | osascript - \"$@\" > /dev/null",
+  "url": "https://raw.githubusercontent.com/hahwul/XSpear/master/forBurp/otwa.sh",
+  "language": "shell",
+  "kind": "code"
+}

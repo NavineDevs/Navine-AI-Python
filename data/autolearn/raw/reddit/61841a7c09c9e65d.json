@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:MachineLearning:t3_1u3omwk",
+  "title": "hubert.cpp, a C++ implementation of distilHuBERT [P]",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve written a C++ implementation of distilHuBERT.</p> <p><a href=\"https://github.com/pfeatherstone/hubert.cpp\">https://github.com/pfeatherstone/hubert.cpp</a></p> <p>It has no runtime dependencies, the weights are compiled into the library, it supports dynamic sizes, has performance on par with onnxruntime (in my tests) and can be easily integrated into any CMake project.</p> <p>Please let me know your thoughts.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Competitive_Act5981\"> /u/Competitive_Act5981 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u3omwk/hubertcpp_a_c_implementation_of_distilhubert_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u3omwk/hubertcpp_a_c_implementation_of_distilhubert_p/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1u3omwk/hubertcpp_a_c_implementation_of_distilhubert_p/"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:manaflow-ai/cmux:CLI/AgentSurfaceResumeBindingClearOutcome.swift",
+  "title": "manaflow-ai/cmux/CLI/AgentSurfaceResumeBindingClearOutcome.swift",
+  "text": "import Foundation\n\nextension CMUXCLI {\n    /// The ownership result returned by a guarded agent resume-binding clear.\n    enum AgentSurfaceResumeBindingClearOutcome: Equatable {\n        case cleared\n        case checkpointDidNotOwnBinding\n        case failed\n    }\n\n    func clearAgentSurfaceResumeBindingOutcome(\n        client: SocketClient,\n        workspaceId: String,\n        surfaceId: String,\n        sessionId: String?,\n        sessionDidEnd: Bool = false\n    ) -> AgentSurfaceResumeBindingClearOutcome {\n        let normalizedSessionId = normalizedHookValue(sessionId)\n        var params: [String: Any] = [\n            \"surface_id\": surfaceId,\n            \"source\": \"agent-hook\"\n        ]\n        if let normalizedSessionId {\n            params[\"checkpoint_id\"] = normalizedSessionId\n        }\n        if sessionDidEnd, normalizedSessionId != nil {\n            params[\"agent_session_ended\"] = true\n        }\n        do {\n            let result = try client.sendV2(method: \"surface.resume.clear\", params: params)\n            guard let cleared = result[\"cleared\"] as? Bool else {\n                return .failed\n            }\n            return cleared ? .cleared : .checkpointDidNotOwnBinding\n        } catch {\n            return .failed\n        }\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/CLI/AgentSurfaceResumeBindingClearOutcome.swift",
+  "language": "swift",
+  "kind": "code"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:learnprogramming:t3_1ubr0e4",
+  "title": "How did you learn to read repo’s?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I’m working with Python, and I’m having a really hard time understanding existing repos.</p> <p>To me, larger projects feel like complex graphs where everything is interconnected and woven together. One file imports another, functions call other functions, classes depend on other classes, and it quickly becomes overwhelming.</p> <p>The fact that I’m still struggling to read the code itself makes it even harder.</p> <p>How do experienced developers break down a repo or project when they’re new to it? Where do you usually start? Do you trace the entry point? Read the tests? Look at the folder structure? Run the project first?</p> <p>Also, if you want to add a feature or make a change to an existing project, how do you approach that without getting lost? How do you figure out what needs to be changed, and how do you test that your change didn’t break anything?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/phy2go\"> /u/phy2go </a> <br/> <span><a href=\"https://www.reddit.com/r/learnprogramming/comments/1ubr0e4/how_did_you_learn_to_read_repos/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/learnprogramming/comments/1ubr0e4/how_did_you_learn_to_read_repos/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/learnprogramming/comments/1ubr0e4/how_did_you_learn_to_read_repos/"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:swiftlang/swift:utils/find-unused-diagnostics.sh",
+  "title": "swiftlang/swift/utils/find-unused-diagnostics.sh",
+  "text": "#!/usr/bin/env bash\n#\n# This script produces a list of all diagnostics that are defined\n# but not used in sources.\n#\nset -euo pipefail\n\n# Gather all diagnostic identifiers.\nALL_DIAGS=$(\n    grep -E --only-matching --no-filename '(ERROR|WARNING|NOTE|REMARK)\\([a-zA-Z0-9_]+,' include/swift/AST/Diagnostics*.def \\\n    | sed -E 's/(ERROR|WARNING|NOTE|REMARK)\\(([a-zA-Z0-9_]+),/\\2/')\n\n# Now look for all potential identifiers in the (C++) source files.\n# Collapse newlines to spaces so the subsequent grep can match patterns like\n# `diag::\\n    identifier` without needing `--null-data`. Older GNU grep\n# (e.g. 2.20 on Amazon Linux 2) has bugs in `--null-data` mode that drop\n# matches when the pattern can match a newline.\nCXX_SOURCES=$(find lib include tools -name \\*.cpp -or -name \\*.h)\nDIAGS_IN_CXX_SOURCES=$(\n    cat $CXX_SOURCES \\\n    | tr '\\n' ' ' \\\n    | grep -E --only-matching --no-filename 'diag::[[:space:]]*[a-zA-Z0-9_]+' \\\n    | sed -e 's/diag:://' -e 's/[[:space:]]//g')\n\n# Get potentially unused diags from C++ sources.\nPOTENTIALLY_UNUSED=$(comm -23 <(sort -u <<< \"$ALL_DIAGS\") <(sort -u <<< \"$DIAGS_IN_CXX_SOURCES\"))\n\n# Finally, check if any of the possibly-unused diags appear in Swift sources, and exclude them.\nSWIFT_SOURCES=$(find SwiftCompilerSources -name \\*.swift)\nif [ -n \"$SWIFT_SOURCES\" ] && [ -n \"$POTENTIALLY_UNUSED\" ]; then\n    DIAGS_IN_SWIFT=$(grep --fixed-strings --only-matching --no-filename --file <(echo \"$POTENTIALLY_UNUSED\") $SWIFT_SOURCES)\n    comm -23 <(echo \"$POTENTIALLY_UNUSED\") <(sort -u <<< \"$DIAGS_IN_SWIFT\")\nelse\n    echo \"$POTENTIALLY_UNUSED\"\nfi\n",
+  "url": "https://raw.githubusercontent.com/swiftlang/swift/main/utils/find-unused-diagnostics.sh",
+  "language": "shell",
+  "kind": "code"
+}

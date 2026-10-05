@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:QuestPDF/QuestPDF:src/dotnet/library/QuestPDF.Benchmarks/BenchmarkEnvironment.cs",
+  "title": "QuestPDF/QuestPDF/src/dotnet/library/QuestPDF.Benchmarks/BenchmarkEnvironment.cs",
+  "text": "using QuestPDF.Infrastructure;\n\nnamespace QuestPDF.Benchmarks;\n\ninternal static class BenchmarkEnvironment\n{\n    public static void ConfigureQuestPdf()\n    {\n        Settings.License = LicenseType.Community;\n        Settings.EnableDebugging = false;\n        Settings.UseEnvironmentFonts = false;\n        Settings.CheckIfAllTextGlyphsAreAvailable = false;\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/QuestPDF/QuestPDF/main/src/dotnet/library/QuestPDF.Benchmarks/BenchmarkEnvironment.cs",
+  "language": "csharp",
+  "kind": "code"
+}

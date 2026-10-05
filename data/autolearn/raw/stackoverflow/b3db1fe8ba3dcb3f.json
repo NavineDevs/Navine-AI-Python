@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:292357",
+  "title": "What is the difference between &#39;git pull&#39; and &#39;git fetch&#39;?",
+  "text": "What is the difference between &#39;git pull&#39; and &#39;git fetch&#39;?\n\n<p>What are the differences between <a href=\"https://git-scm.com/docs/git-pull\" rel=\"noreferrer\"><code>git pull</code></a> and <a href=\"https://git-scm.com/docs/git-fetch\" rel=\"noreferrer\"><code>git fetch</code></a>?</p>",
+  "url": "https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch",
+  "kind": "qa"
+}

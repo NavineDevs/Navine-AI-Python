@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:tach-org/tach:python/tach/__main__.py",
+  "title": "tach-org/tach/python/tach/__main__.py",
+  "text": "from __future__ import annotations\n\nfrom tach.start import start\n\nif __name__ == \"__main__\":\n    start()\n",
+  "url": "https://raw.githubusercontent.com/tach-org/tach/main/python/tach/__main__.py",
+  "language": "python",
+  "kind": "code"
+}

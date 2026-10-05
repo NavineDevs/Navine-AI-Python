@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:b:950315133:950315789:image",
+  "title": "This with turkey bro minus the gay lighting",
+  "text": "This with turkey bro minus the gay lighting",
+  "url": "https://boards.4chan.org/b/thread/950315133#p950315789",
+  "category": "unrestricted",
+  "kind": "image",
+  "caption": "This with turkey bro minus the gay lighting | [general, image] | tags: 4chan, unknown",
+  "board": "b",
+  "thread_id": 950315133,
+  "post_id": 950315789,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "b",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/b/1781422175834879.jpg",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\b\\b_1781422175834879.jpg"
+}

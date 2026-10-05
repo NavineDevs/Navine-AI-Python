@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rtk-ai/rtk:Formula/rtk.rb",
+  "title": "rtk-ai/rtk/Formula/rtk.rb",
+  "text": "# typed: false\n# frozen_string_literal: true\n\n# Homebrew formula for rtk - Rust Token Killer\n# To install: brew tap rtk-ai/tap && brew install rtk\nclass Rtk < Formula\n  desc \"High-performance CLI proxy to minimize LLM token consumption\"\n  homepage \"https://www.rtk-ai.app\"\n  version \"0.1.0\"\n  license \"Apache-2.0\"\n\n  on_macos do\n    on_intel do\n      url \"https://github.com/rtk-ai/rtk/releases/download/v#{version}/rtk-x86_64-apple-darwin.tar.gz\"\n      sha256 \"PLACEHOLDER_SHA256_INTEL\"\n    end\n\n    on_arm do\n      url \"https://github.com/rtk-ai/rtk/releases/download/v#{version}/rtk-aarch64-apple-darwin.tar.gz\"\n      sha256 \"PLACEHOLDER_SHA256_ARM\"\n    end\n  end\n\n  on_linux do\n    on_intel do\n      url \"https://github.com/rtk-ai/rtk/releases/download/v#{version}/rtk-x86_64-unknown-linux-gnu.tar.gz\"\n      sha256 \"PLACEHOLDER_SHA256_LINUX_INTEL\"\n    end\n\n    on_arm do\n      url \"https://github.com/rtk-ai/rtk/releases/download/v#{version}/rtk-aarch64-unknown-linux-gnu.tar.gz\"\n      sha256 \"PLACEHOLDER_SHA256_LINUX_ARM\"\n    end\n  end\n\n  def install\n    bin.install \"rtk\"\n  end\n\n  test do\n    assert_match \"rtk #{version}\", shell_output(\"#{bin}/rtk --version\")\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/rtk-ai/rtk/develop/Formula/rtk.rb",
+  "language": "ruby",
+  "kind": "code"
+}

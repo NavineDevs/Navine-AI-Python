@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:learnjavascript:t3_1vbhwgj",
+  "title": "[AskJS] how do you optimize responsive images, i built open-source tool Opticross 🚀 ( build faster⚡ , lighter🪶 websites)",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Here is how it works </p> <p>Opticross analyzes how images are rendered across different viewport sizes, detects oversized image downloads, and generates implementation-ready <code>sizes</code> and <code>srcset</code> recommendations. The goal is to help improve page performance, reduce unnecessary bandwidth usage, and keep images crisp across devices.</p> <p>I&#39;d love to hear your thoughts:</p> <ul> <li>Would a tool like this fit into your workflow?</li> <li>What features would make it more useful?</li> </ul> <p>It is available as Opticross on chromestore , npm and github</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/S-builds\"> /u/S-builds </a> <br/> <span><a href=\"https://www.reddit.com/r/learnjavascript/comments/1vbhwgj/askjs_how_do_you_optimize_responsive_images_i/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/learnjavascript/comments/1vbhwgj/askjs_how_do_you_optimize_responsive_images_i/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/learnjavascript/comments/1vbhwgj/askjs_how_do_you_optimize_responsive_images_i/"
+}

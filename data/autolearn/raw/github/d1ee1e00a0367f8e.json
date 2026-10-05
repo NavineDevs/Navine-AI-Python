@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:types/v3-manual-apis.d.ts",
+  "title": "vuejs/vue/types/v3-manual-apis.d.ts",
+  "text": "import { SetupContext } from './v3-setup-context'\nimport { CreateElement, Vue } from './vue'\n\nexport function getCurrentInstance(): { proxy: Vue } | null\n\nexport const h: CreateElement\n\nexport function useSlots(): SetupContext['slots']\nexport function useAttrs(): SetupContext['attrs']\nexport function useListeners(): SetupContext['listeners']\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/types/v3-manual-apis.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

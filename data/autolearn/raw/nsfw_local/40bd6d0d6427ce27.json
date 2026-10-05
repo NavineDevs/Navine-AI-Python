@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\diy\\diy_1745621780382086.png",
+  "title": "diy_1745621780382086",
+  "text": "diy_1745621780382086",
+  "url": "data\\nsfw\\images\\local\\general\\diy_1745621780382086_1782281267757554800.png",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\diy_1745621780382086_1782281267757554800.png",
+  "caption": "diy_1745621780382086 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "diy",
+  "tags": [
+    "diy",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

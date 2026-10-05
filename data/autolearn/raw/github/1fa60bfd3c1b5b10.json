@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:symfony/symfony:src/Symfony/Bundle/FullStack.php",
+  "title": "symfony/symfony/src/Symfony/Bundle/FullStack.php",
+  "text": "<?php\n\n/*\n * This file is part of the Symfony package.\n *\n * (c) Fabien Potencier <fabien@symfony.com>\n *\n * For the full copyright and license information, please view the LICENSE\n * file that was distributed with this source code.\n */\n\nnamespace Symfony\\Bundle;\n\n/**\n * A marker to be able to check if symfony/symfony is installed instead of the individual components/bundles.\n *\n * @internal\n */\nfinal class FullStack\n{\n}\n",
+  "url": "https://raw.githubusercontent.com/symfony/symfony/8.2/src/Symfony/Bundle/FullStack.php",
+  "language": "php",
+  "kind": "code"
+}

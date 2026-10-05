@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:scripts/verify-commit-msg.js",
+  "title": "vuejs/vue/scripts/verify-commit-msg.js",
+  "text": "const chalk = require('chalk')\nconst msgPath = process.env.GIT_PARAMS\nconst msg = require('fs').readFileSync(msgPath, 'utf-8').trim()\n\nconst commitRE =\n  /^(revert: )?(wip|release|feat|fix|polish|docs|style|refactor|perf|test|workflow|ci|chore|types|build)(\\(.+\\))?: .{1,50}/\n\nif (!commitRE.test(msg)) {\n  console.log()\n  console.error(\n    `  ${chalk.bgRed.white(' ERROR ')} ${chalk.red(\n      `invalid commit message format.`\n    )}\\n\\n` +\n      chalk.red(\n        `  Proper commit message format is required for automated changelog generation. Examples:\\n\\n`\n      ) +\n      `    ${chalk.green(`feat(compiler): add 'comments' option`)}\\n` +\n      `    ${chalk.green(\n        `fix(v-model): handle events on blur (close #28)`\n      )}\\n\\n` +\n      chalk.red(`  See .github/COMMIT_CONVENTION.md for more details.\\n`)\n  )\n  process.exit(1)\n}\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/scripts/verify-commit-msg.js",
+  "language": "javascript",
+  "kind": "code"
+}

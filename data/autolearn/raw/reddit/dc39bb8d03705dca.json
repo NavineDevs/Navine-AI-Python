@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vjjfac",
+  "title": "Syncgo - golang implementation of PGSync for continuously synchronizing changes from PostgreSQL to Elasticsearch or OpenSearch.",
+  "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1vjjfac/syncgo_golang_implementation_of_pgsync_for/\"> <img src=\"https://external-preview.redd.it/0bCeSWfIuf0sJB-ai0etOaDE1bLigdva_srL6HiOZZE.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e86b2c8adf0cd7af508081e70d474dfc55743b0b\" alt=\"Syncgo - golang implementation of PGSync for continuously synchronizing changes from PostgreSQL to Elasticsearch or OpenSearch.\" title=\"Syncgo - golang implementation of PGSync for continuously synchronizing changes from PostgreSQL to Elasticsearch or OpenSearch.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>This is my project which i am working on during my duty in army<br/> Please check it out, of course u can help with features, issues and etc. If u like it, star it </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chechyotka\"> /u/chechyotka </a> <br/> <span><a href=\"https://github.com/syncgo/syncgo\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vjjfac/syncgo_golang_implementation_of_pgsync_for/\">[comments]</a></span> </td></tr></table>",
+  "url": "https://www.reddit.com/r/golang/comments/1vjjfac/syncgo_golang_implementation_of_pgsync_for/"
+}

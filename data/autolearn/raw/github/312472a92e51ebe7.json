@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:2dust/v2rayN:v2rayN/v2rayN.Desktop/GlobalUsings.cs",
+  "title": "2dust/v2rayN/v2rayN/v2rayN.Desktop/GlobalUsings.cs",
+  "text": "global using System;\nglobal using System.Collections.Generic;\nglobal using System.Globalization;\nglobal using System.IO;\nglobal using System.Linq;\nglobal using System.Runtime.Versioning;\nglobal using System.Text;\nglobal using System.Threading;\nglobal using System.Threading.Tasks;\nglobal using Avalonia;\nglobal using Avalonia.Controls;\nglobal using Avalonia.Controls.ApplicationLifetimes;\nglobal using Avalonia.Input;\nglobal using Avalonia.Interactivity;\nglobal using Avalonia.Markup.Xaml;\nglobal using Avalonia.Media;\nglobal using Avalonia.Media.Imaging;\nglobal using Avalonia.Platform;\nglobal using Avalonia.Styling;\nglobal using Avalonia.Threading;\nglobal using ReactiveUI;\nglobal using ReactiveUI.Avalonia;\nglobal using ReactiveUI.Primitives;\nglobal using ReactiveUI.Primitives.Disposables;\nglobal using ReactiveUI.SourceGenerators;\nglobal using ServiceLib;\nglobal using ServiceLib.Base;\nglobal using ServiceLib.Common;\nglobal using ServiceLib.Enums;\nglobal using ServiceLib.Events;\nglobal using ServiceLib.Handler;\nglobal using ServiceLib.Manager;\nglobal using ServiceLib.Models.CoreConfigs;\nglobal using ServiceLib.Models.Configs;\nglobal using ServiceLib.Models.Dto;\nglobal using ServiceLib.Models.Entities;\nglobal using ServiceLib.Resx;\nglobal using ServiceLib.ViewModels;\n",
+  "url": "https://raw.githubusercontent.com/2dust/v2rayN/master/v2rayN/v2rayN.Desktop/GlobalUsings.cs",
+  "language": "csharp",
+  "kind": "code"
+}

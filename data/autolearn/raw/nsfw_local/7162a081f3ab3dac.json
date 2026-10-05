@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\asp\\asp_1613014478067.jpg",
+  "title": "asp_1613014478067",
+  "text": "asp_1613014478067",
+  "url": "data\\nsfw\\images\\local\\general\\asp_1613014478067_1782228014932493400.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\asp_1613014478067_1782228014932493400.jpg",
+  "caption": "asp_1613014478067 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "asp",
+  "tags": [
+    "asp",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

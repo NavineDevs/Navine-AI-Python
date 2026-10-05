@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.28552v1",
+  "title": "Multi-Session User Experience Assessments of Computationally Optimized Automated Vehicle Functionality Visualizations",
+  "text": "Multi-Session User Experience Assessments of Computationally Optimized Automated Vehicle Functionality Visualizations\n\nUnderstanding automated vehicles (AVs) is crucial to improving their acceptance. Numerous approaches to visualizing relevant traffic information to passengers have been proposed and empirically evaluated. As this is time-consuming, costly, and reduces the possible design parameters, we employed multi-objective Bayesian optimization to optimize the design of visualizations in AVs. In particular, we evaluated multi-session aspects involving iterative optimization. We optimized the design for passenger trust and perceived safety while minimizing cognitive load. Results from an online study (N=74) show that this method effectively identifies visualization design parameter values that improve trust, safety, and predictability while making the design process more efficient and scalable. However, shortcomings of the computational approach when optimizing for subjective measurements are highlighted and discussed.",
+  "url": "https://arxiv.org/abs/2607.28552v1",
+  "category": "technical"
+}

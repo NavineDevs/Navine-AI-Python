@@ -1,0 +1,41 @@
+from navine.reference.config import (
+    ensure_reference_dirs,
+    get_reference_settings,
+    list_reference_entries,
+    load_reference_config,
+    reference_strength_for_category,
+)
+from navine.reference.media import (
+    apply_reference_blend,
+    apply_reference_to_output,
+    copy_reference_file,
+    extract_video_frames,
+    get_reference_usage_stats,
+    list_reference_keywords,
+    list_reference_summary,
+    load_reference_image,
+    match_reference_keyword,
+    pick_reference_media,
+    reference_guided_img2img_lite,
+    resolve_reference_for_prompt,
+)
+
+__all__ = [
+    "load_reference_config",
+    "get_reference_settings",
+    "reference_strength_for_category",
+    "ensure_reference_dirs",
+    "list_reference_entries",
+    "list_reference_keywords",
+    "list_reference_summary",
+    "get_reference_usage_stats",
+    "match_reference_keyword",
+    "pick_reference_media",
+    "load_reference_image",
+    "extract_video_frames",
+    "apply_reference_blend",
+    "reference_guided_img2img_lite",
+    "apply_reference_to_output",
+    "copy_reference_file",
+    "resolve_reference_for_prompt",
+]

@@ -1,0 +1,18 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfw:t3_1ubvc1i:text",
+  "title": "Her face is the best seat in the house",
+  "text": "Her face is the best seat in the house",
+  "url": "https://old.reddit.com/r/nsfw/comments/1ubvc1i/her_face_is_the_best_seat_in_the_house/",
+  "category": "nsfw",
+  "subreddit": "nsfw",
+  "media_category": "mixed",
+  "tags": [
+    "mixed",
+    "nsfw"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "source_group": "mixed"
+}

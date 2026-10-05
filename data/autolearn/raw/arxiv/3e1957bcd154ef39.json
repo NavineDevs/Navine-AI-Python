@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.28583v1",
+  "title": "CrossAtlas: Evaluating Projection Techniques for Spatial Referencing in Cross-Reality Collaboration",
+  "text": "CrossAtlas: Evaluating Projection Techniques for Spatial Referencing in Cross-Reality Collaboration\n\nCross-reality collaboration increasingly connects immersive and desktop users within synchronized workspaces, yet little is known about how bidirectional projection techniques between immersive 3D layouts and desktop 2D views influence communication. Spatial referencing depends on shared spatial understanding, but different mappings preserve and distort geometric relationships in different ways, altering perceived adjacency, orientation, and coverage across collaborators' views. We present CrossAtlas, a synchronized PC-VR collaboration platform that integrates multiple bidirectional projection techniques, including three planar projection variants and equirectangular, a spherical projection variant, across layouts of varying curvature. In a controlled study with 24 dyads, collaborators completed spatial referencing tasks under different projection-layout conditions while we collected performance and subjective measures. Our results show that projection choice strongly shaped collaboration, with the spherical variant often outperforming planar projections and remaining robust across object layouts.",
+  "url": "https://arxiv.org/abs/2607.28583v1",
+  "category": "technical"
+}

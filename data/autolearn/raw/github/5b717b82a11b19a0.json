@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:abpframework/abp:npm/ng-packs/jest.preset.js",
+  "title": "abpframework/abp/npm/ng-packs/jest.preset.js",
+  "text": "/**\n * @deprecated use vitest instead of jest\n * @see https://vitest.dev/guide/migration.html#jest\n */\nconst nxPreset = require('@nx/jest/preset').default;\n\nmodule.exports = {\n  ...nxPreset,\n  /* TODO: Update to latest Jest snapshotFormat\n   * By default Nx has kept the older style of Jest Snapshot formats\n   * to prevent breaking of any existing tests with snapshots.\n   * It's recommend you update to the latest format.\n   * You can do this by removing snapshotFormat property\n   * and running tests with --update-snapshot flag.\n   * Example: \"nx affected --targets=test --update-snapshot\"\n   * More info: https://jestjs.io/docs/upgrading-to-jest29#snapshot-format\n   */\n  snapshotFormat: { escapeString: true, printBasicPrototype: true },\n};\n",
+  "url": "https://raw.githubusercontent.com/abpframework/abp/dev/npm/ng-packs/jest.preset.js",
+  "language": "javascript",
+  "kind": "code"
+}

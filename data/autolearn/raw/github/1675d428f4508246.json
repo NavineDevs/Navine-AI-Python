@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:e2e/cert-username-case-navigation.spec.ts",
+  "title": "freeCodeCamp/freeCodeCamp/e2e/cert-username-case-navigation.spec.ts",
+  "text": "import { execSync } from 'child_process';\nimport { expect, test } from '@playwright/test';\n\ntest.describe('Public profile certifications', () => {\n  test('Should show claimed certifications if the username has all lowercase characters', async ({\n    page\n  }) => {\n    await page.goto('/certifieduser');\n\n    await expect(\n      page.getByRole('link', { name: /View.+Certification/ })\n    ).toHaveCount(26);\n  });\n\n  test('Should show claimed certifications if the username includes uppercase characters', async ({\n    page\n  }) => {\n    await page.goto('/certifieduser');\n\n    await page.getByRole('button', { name: 'Edit my profile' }).click();\n\n    await page.getByLabel('Username').fill('CertifiedBoozer');\n    await page.getByRole('button', { name: 'Save' }).nth(0).click();\n    await expect(page.getByTestId('flash-message')).toContainText(\n      /We have updated your username to/\n    );\n    await page.goto('/certifiedboozer');\n\n    await page.waitForURL('/certifiedboozer');\n    await expect(\n      page.getByRole('link', { name: /View.+Certification/ })\n    ).toHaveCount(26);\n  });\n\n  test.afterAll(() => {\n    execSync('node ../tools/scripts/seed/seed-demo-user --certified-user');\n  });\n});\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/e2e/cert-username-case-navigation.spec.ts",
+  "language": "typescript",
+  "kind": "code"
+}

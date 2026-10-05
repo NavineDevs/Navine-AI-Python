@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:webdev:t3_1vjdhmi",
+  "title": "PDF download fails on Safari but works on other websites",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hi! I’m having a weird issue with Safari on my iPhone and I’m hoping someone here might know what’s happening and help me fix it.<br/> One of my banks has a website that generates PDF receipts for transactions. Whenever I try to download one, a loading spinner appears briefly and then disappears. No PDF opens and nothing shows up in my downloads. PDFs from other websites download normally, and I can also download PDF receipts from my other bank without any issues. I’ve already tried allowing pop-ups and requesting the desktop version of the website, but neither made a difference.<br/> I don’t have a technical background, so I’m not sure what else I should check.<br/> Does anyone have any idea how I could fix it? Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ani17292\"> /u/Ani17292 </a> <br/> <span><a href=\"https://www.reddit.com/r/webdev/comments/1vjdhmi/pdf_download_fails_on_safari_but_works_on_other/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1vjdhmi/pdf_download_fails_on_safari_but_works_on_other/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/webdev/comments/1vjdhmi/pdf_download_fails_on_safari_but_works_on_other/"
+}

@@ -1,0 +1,23 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:gonewild:t3_1u5lwb6:rss:img:1",
+  "title": "i (f)eel my best when i’m in some lingerie",
+  "text": "i (f)eel my best when i’m in some lingerie",
+  "url": "https://www.reddit.com/r/gonewild/comments/1u5lwb6/i_feel_my_best_when_im_in_some_lingerie/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://preview.redd.it/v6fh36g8897h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=0ff2969e1ee50765b54e24b845b7def3cecae69f",
+  "caption": "i (f)eel my best when i’m in some lingerie | [human, image] | tags: real, gonewild | [image, human] | tags: photography | [image, human] | [image, human]",
+  "subreddit": "gonewild",
+  "media_category": "real",
+  "tags": [
+    "human",
+    "real",
+    "gonewild",
+    "photography"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

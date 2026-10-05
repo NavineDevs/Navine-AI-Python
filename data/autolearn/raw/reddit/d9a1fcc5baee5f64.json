@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vvu8a8",
+  "title": "Help me prepare for a Rust interview",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I have a Rust interview coming up and I&#39;d like some advice on how to prepare effectively.</p> <p>I already know the basics, but I want to focus on the topics that are most commonly asked in interviews. Could you share:</p> <p>What Rust concepts are asked most often? (ownership, borrowing, lifetimes, traits, async, etc.)</p> <p>Any coding question patterns I should practice?</p> <p>Good resources, GitHub repos, or LeetCode-style Rust practice?</p> <p>Tips for system design or backend interviews using Rust?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/batman_official_\"> /u/batman_official_ </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1vvu8a8/help_me_prepare_for_a_rust_interview/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vvu8a8/help_me_prepare_for_a_rust_interview/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vvu8a8/help_me_prepare_for_a_rust_interview/"
+}

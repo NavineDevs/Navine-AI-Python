@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\int\\int_1782295030138292.jpg",
+  "title": "int_1782295030138292",
+  "text": "int_1782295030138292",
+  "url": "data\\nsfw\\images\\local\\general\\int_1782295030138292_1782295281800967100.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\int_1782295030138292_1782295281800967100.jpg",
+  "caption": "int_1782295030138292 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "int",
+  "tags": [
+    "int",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

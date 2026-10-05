@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:Y0URD34TH/Project-GLD:Scripts/Link-resolver [utils].lua",
+  "title": "Y0URD34TH/Project-GLD/Scripts/Link-resolver [utils].lua",
+  "text": "--to view examples and lua params go in this github page: https://github.com/Y0URD34TH/Project-GLD/blob/main/LuaParams.md\r\nmenu.add_text(\"Mediafire Resolver:\")\r\nmenu.add_input_text(\"mediafire link\")\r\nmenu.add_text(\"Archive Resolver:\")\r\nmenu.add_input_text(\"archive link\")\r\nmenu.add_button(\"Resolve links\")\r\n\r\nlocal function resolver()\r\nlocal mediafirelink = menu.get_text(\"mediafire link\")\r\nlocal archiveorglink = menu.get_text(\"archive link\")\r\nif mediafirelink ~= \"\" then\r\nlocal resolvedmediafirelink = http.mediafireresolver(mediafirelink)\r\nmenu.set_text(\"mediafire link\", resolvedmediafirelink)\r\nNotifications.push_success(\"link Resolver\", \"Mediafire link has been sucessfully resolved!\")\r\nelse\r\nNotifications.push_warning(\"Mediafire Resolver\", \"You need to provide a link first!\")\r\nend\r\nif archiveorglink ~= \"\" then\r\nlocal resolvedarchivelink = http.ArchivedotOrgResolver(archiveorglink)\r\nmenu.set_text(\"archive link\", resolvedarchivelink)\r\nNotifications.push_success(\"Link Resolver\", \"Archive.org link has been sucessfully resolved!\")\r\nelse\r\nNotifications.push_warning(\"Archive.org Resolver\", \"You need to provide a link first!\")\r\nend\r\nend\r\n\r\nclient.add_callback(\"on_button_Resolve links\", resolver)\r\n",
+  "url": "https://raw.githubusercontent.com/Y0URD34TH/Project-GLD/main/Scripts/Link-resolver%20%5Butils%5D.lua",
+  "language": "lua",
+  "kind": "code"
+}

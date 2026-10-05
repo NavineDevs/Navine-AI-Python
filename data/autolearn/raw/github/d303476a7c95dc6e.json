@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rwf2/Rocket:scripts/mk-docs.sh",
+  "title": "rwf2/Rocket/scripts/mk-docs.sh",
+  "text": "#!/bin/bash\nset -e\n\n#\n# Builds the rustdocs for all of the libraries.\n#\n\n# Brings in: PROJECT_ROOT, EXAMPLES_DIR, LIB_DIR, CODEGEN_DIR, CONTRIB_DIR, DOC_DIR\nSCRIPT_DIR=\"$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\"\nsource \"${SCRIPT_DIR}/config.sh\"\n\nif [ \"${1}\" != \"-d\" ]; then\n  # We need to clean-up beforehand so we don't get all of the dependencies.\n  echo \":::: Cleaning up before documenting...\"\n  cargo clean\n  cargo update\nfi\n\n# Generate the rustdocs for all of the crates.\necho \":::: Generating docs (${DOC_VERSION})...\"\npushd \"${PROJECT_ROOT}\" > /dev/null 2>&1\n  # Set the crate version and fill in missing doc URLs with docs.rs links.\n  RUSTDOCFLAGS=\"-Z unstable-options \\\n      --extern-html-root-url rocket=https://api.rocket.rs/${GIT_BRANCH}/rocket/ \\\n      --crate-version ${DOC_VERSION} \\\n      --enable-index-page \\\n      --generate-link-to-definition\" \\\n      cargo doc -Zrustdoc-map --no-deps --all-features \\\n        -p rocket \\\n        -p rocket_db_pools \\\n        -p rocket_sync_db_pools \\\n        -p rocket_dyn_templates \\\n        -p rocket_ws\npopd > /dev/null 2>&1\n",
+  "url": "https://raw.githubusercontent.com/rwf2/Rocket/master/scripts/mk-docs.sh",
+  "language": "shell",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:AndyObtiva/glimmer:spec/fixtures/context.rb",
+  "title": "AndyObtiva/glimmer/spec/fixtures/context.rb",
+  "text": "# Just a fixture for testing hooks by keeping them in context\n\nclass Context\n  class << self\n    def around_stack\n      @around_stack ||= []\n    end\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/AndyObtiva/glimmer/master/spec/fixtures/context.rb",
+  "language": "ruby",
+  "kind": "code"
+}

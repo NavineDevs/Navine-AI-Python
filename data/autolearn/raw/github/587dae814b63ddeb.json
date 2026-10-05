@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:gin-gonic/gin:context_file_test.go",
+  "title": "gin-gonic/gin/context_file_test.go",
+  "text": "package gin\n\nimport (\n\t\"net/http\"\n\t\"net/http/httptest\"\n\t\"testing\"\n\n\t\"github.com/stretchr/testify/assert\"\n)\n\n// TestContextFileSimple tests the Context.File() method with a simple case\nfunc TestContextFileSimple(t *testing.T) {\n\t// Test serving an existing file\n\ttestFile := \"testdata/test_file.txt\"\n\tw := httptest.NewRecorder()\n\tc, _ := CreateTestContext(w)\n\tc.Request = httptest.NewRequest(http.MethodGet, \"/test\", nil)\n\n\tc.File(testFile)\n\n\tassert.Equal(t, http.StatusOK, w.Code)\n\tassert.Contains(t, w.Body.String(), \"This is a test file\")\n\tassert.Equal(t, \"text/plain; charset=utf-8\", w.Header().Get(\"Content-Type\"))\n}\n\n// TestContextFileNotFound tests serving a non-existent file\nfunc TestContextFileNotFound(t *testing.T) {\n\tw := httptest.NewRecorder()\n\tc, _ := CreateTestContext(w)\n\tc.Request = httptest.NewRequest(http.MethodGet, \"/test\", nil)\n\n\tc.File(\"non_existent_file.txt\")\n\n\tassert.Equal(t, http.StatusNotFound, w.Code)\n}\n",
+  "url": "https://raw.githubusercontent.com/gin-gonic/gin/master/context_file_test.go",
+  "language": "go",
+  "kind": "code"
+}

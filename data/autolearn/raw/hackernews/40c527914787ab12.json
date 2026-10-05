@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48831658",
+  "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
+  "text": "OpenBSD has a use-after-free allowing local privilege escalation to root",
+  "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589"
+}

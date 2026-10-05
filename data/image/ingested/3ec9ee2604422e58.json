@@ -1,0 +1,18 @@
+{
+  "id": "3ec9ee2604422e58",
+  "url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\mixed\\teacher_188_1786761199843571100.png",
+  "caption": "teacher_188 | [mixed, image] | tags: local, unknown",
+  "filename": "3ec9ee2604422e58.png",
+  "timestamp": "2026-08-21T17:46:28.791229+00:00",
+  "content_type": "image/png",
+  "media_category": "mixed",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "tags": [
+    "mixed",
+    "local"
+  ],
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\local\\mixed\\teacher_188.png",
+  "kind": "image"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1u4n10a",
+  "title": "System and game performance monitoring with Python",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>It&#39;s rather easy to gather basic system performance metrics and info. Still, with game performance metrics like FPS, Python has to use existing specialized apps and parse their output or read their shared memory.</p> <p><strong>Tutorial link</strong>: <a href=\"https://rkblog.dev/posts/pc-performance/performance-monitoring-with-python/\">https://rkblog.dev/posts/pc-performance/performance-monitoring-with-python/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/riklaunim\"> /u/riklaunim </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1u4n10a/system_and_game_performance_monitoring_with_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1u4n10a/system_and_game_performance_monitoring_with_python/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1u4n10a/system_and_game_performance_monitoring_with_python/"
+}

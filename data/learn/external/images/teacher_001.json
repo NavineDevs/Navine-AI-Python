@@ -1,0 +1,13 @@
+{
+  "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus",
+  "caption": "photorealistic portrait of a woman, studio lighting, sharp focus",
+  "filename": "teacher_001.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-06-24T04:23:32.873068+00:00",
+  "enhanced_prompt": "a photorealistic portrait of a woman, studio lighting, sharp focus",
+  "seed": 492873135,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_001.png"
+}

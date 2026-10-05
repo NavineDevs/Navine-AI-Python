@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ohmyzsh/ohmyzsh:lib/grep.zsh",
+  "title": "ohmyzsh/ohmyzsh/lib/grep.zsh",
+  "text": "__GREP_CACHE_FILE=\"$ZSH_CACHE_DIR\"/grep-alias\n\n# See if there's a cache file modified in the last day\n__GREP_ALIAS_CACHES=(\"$__GREP_CACHE_FILE\"(Nm-1))\nif [[ -n \"$__GREP_ALIAS_CACHES\" ]]; then\n    source \"$__GREP_CACHE_FILE\"\nelse\n    grep-flags-available() {\n        command grep \"$@\" \"\" &>/dev/null <<< \"\"\n    }\n\n    # Ignore these folders (if the necessary grep flags are available)\n    EXC_FOLDERS=\"{.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv}\"\n\n    # Check for --exclude-dir, otherwise check for --exclude. If --exclude\n    # isn't available, --color won't be either (they were released at the same\n    # time (v2.5): https://git.savannah.gnu.org/cgit/grep.git/tree/NEWS?id=1236f007\n    if grep-flags-available --color=auto --exclude-dir=.cvs; then\n        GREP_OPTIONS=\"--color=auto --exclude-dir=$EXC_FOLDERS\"\n    elif grep-flags-available --color=auto --exclude=.cvs; then\n        GREP_OPTIONS=\"--color=auto --exclude=$EXC_FOLDERS\"\n    fi\n\n    if [[ -n \"$GREP_OPTIONS\" ]]; then\n        # export grep, egrep and fgrep settings\n        alias grep=\"grep $GREP_OPTIONS\"\n        alias egrep=\"grep -E\"\n        alias fgrep=\"grep -F\"\n\n        # write to cache file if cache directory is writable\n        if [[ -w \"$ZSH_CACHE_DIR\" ]]; then\n            alias -L grep egrep fgrep >| \"$__GREP_CACHE_FILE\"\n        fi\n    fi\n\n    # Clean up\n    unset GREP_OPTIONS EXC_FOLDERS\n    unfunction grep-flags-available\nfi\n\nunset __GREP_CACHE_FILE __GREP_ALIAS_CACHES\n",
+  "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/grep.zsh",
+  "language": "shell",
+  "kind": "code"
+}

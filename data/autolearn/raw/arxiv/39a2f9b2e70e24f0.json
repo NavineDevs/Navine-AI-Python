@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.16854v1",
+  "title": "Superlogarithmic Gap Result for LCLs on Trees in Quantum-LOCAL",
+  "text": "Superlogarithmic Gap Result for LCLs on Trees in Quantum-LOCAL\n\nWe show that, on trees, any locally checkable labeling problem (LCL) $Π$ that can be solved by an $n^{o(1)}$-dependent distribution can also be solved by an $O(\\log n)$-round deterministic LOCAL algorithm. The result is obtained through a rake-and-compress-style decomposition of the input tree, and local simulations of the bounded dependent distribution on the components of the decomposition. As a corollary to our result, any LCL problem on trees can either be solved by an $O(\\log n)$ deterministic LOCAL algorithm, or requires $n^{Ω(1)}$ rounds to solve by a quantum-LOCAL algorithm.",
+  "url": "https://arxiv.org/abs/2608.16854v1",
+  "category": "technical"
+}

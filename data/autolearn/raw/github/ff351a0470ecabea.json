@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:microsoft/FASTER:cc/benchmark-dir/file.h",
+  "title": "microsoft/FASTER/cc/benchmark-dir/file.h",
+  "text": "// Copyright (c) Microsoft Corporation. All rights reserved.\n// Licensed under the MIT license.\n\n#pragma once\n\n#include <string>\n\n#ifdef _WIN32\n#define NOMINMAX\n#define _WINSOCKAPI_\n#include <Windows.h>\n#else\n#include <sys/types.h>\n#include <sys/stat.h>\n#include <fcntl.h>\n#include <unistd.h>\n#endif\n\nnamespace FASTER {\nnamespace benchmark {\n\n/// Basic wrapper around synchronous file read.\nclass File {\n public:\n  File(const std::string& filename) {\n#ifdef _WIN32\n    file_handle_ = ::CreateFileA(filename.c_str(), GENERIC_READ, FILE_SHARE_READ, nullptr,\n                                 OPEN_EXISTING, FILE_FLAG_NO_BUFFERING, nullptr);\n#else\n    fd_ = ::open(filename.c_str(), O_RDONLY | O_DIRECT, S_IRUSR);\n#endif\n  }\n\n  ~File() {\n#ifdef _WIN32\n    ::CloseHandle(file_handle_);\n#else\n    ::close(fd_);\n#endif\n  }\n\n  size_t Read(void* buf, size_t count, uint64_t offset) {\n#ifdef _WIN32\n    DWORD bytes_read { 0 };\n    ::ReadFile(file_handle_, buf, static_cast<DWORD>(count), &bytes_read, nullptr);\n    return bytes_read;\n#else\n    return ::pread(fd_, buf, count, offset);\n#endif\n  }\n\n private:\n#ifdef _WIN32\n  HANDLE file_handle_;\n#else\n  int fd_;\n#endif\n};\n\n}\n} // namespace FASTER::benchmark\n",
+  "url": "https://raw.githubusercontent.com/microsoft/FASTER/main/cc/benchmark-dir/file.h",
+  "language": "cpp",
+  "kind": "code"
+}

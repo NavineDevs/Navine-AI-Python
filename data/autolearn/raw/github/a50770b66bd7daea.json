@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:hahwul/XSpear:spec/spec_helper.rb",
+  "title": "hahwul/XSpear/spec/spec_helper.rb",
+  "text": "require \"bundler/setup\"\nrequire \"XSpear\"\n\nRSpec.configure do |config|\n  # Enable flags like --only-failures and --next-failure\n  config.example_status_persistence_file_path = \".rspec_status\"\n\n  # Disable RSpec exposing methods globally on `Module` and `main`\n  config.disable_monkey_patching!\n\n  config.expect_with :rspec do |c|\n    c.syntax = :expect\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/hahwul/XSpear/master/spec/spec_helper.rb",
+  "language": "ruby",
+  "kind": "code"
+}

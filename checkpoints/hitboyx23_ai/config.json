@@ -1,0 +1,42 @@
+{
+  "format": "navine-llm-v1",
+  "runnable": true,
+  "name": "text_enterprise",
+  "modality": "multimodal",
+  "role": "Main assist/chat brain",
+  "config_name": "text_enterprise",
+  "weights": "latest.pt",
+  "weights_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\text_enterprise\\latest.pt",
+  "tokenizer": "tokenizer.json",
+  "architecture": {
+    "vocab_size": 12000,
+    "d_model": 768,
+    "n_heads": 12,
+    "n_layers": 20,
+    "d_ff": 3584,
+    "max_seq_len": 1024,
+    "dropout": 0.08,
+    "use_rope": true,
+    "use_kv_cache": true,
+    "use_swiglu": true,
+    "use_rms_norm": true,
+    "tie_embeddings": true
+  },
+  "parameters": 1113811,
+  "inference": {
+    "max_new_tokens": 256,
+    "temperature": 0.85,
+    "modes": [
+      "chat",
+      "code",
+      "think",
+      "detective",
+      "analyze"
+    ]
+  },
+  "updated_at": "2026-08-24T23:37:14.978412+00:00",
+  "run": [
+    "python models/text_enterprise.py \"your prompt\"",
+    "python -m navine.llm run text_enterprise \"your prompt\""
+  ]
+}

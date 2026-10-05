@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:manaflow-ai/cmux:CLI/AgentHookFailureStage.swift",
+  "title": "manaflow-ai/cmux/CLI/AgentHookFailureStage.swift",
+  "text": "/// Stable observability stages for failures that would otherwise drop hook state silently.\nenum AgentHookFailureStage: String, Sendable {\n    case targetResolution = \"target-resolution\"\n    case notificationDelivery = \"notification-delivery\"\n    case journalAppend = \"journal-append\"\n}\n",
+  "url": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/CLI/AgentHookFailureStage.swift",
+  "language": "swift",
+  "kind": "code"
+}

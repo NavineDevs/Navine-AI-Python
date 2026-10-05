@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:273192",
+  "title": "How do I create a directory, and any missing parent directories?",
+  "text": "How do I create a directory, and any missing parent directories?\n\n<p>How do I create a directory at a given path, and also create any missing parent directories along that path? For example, the Bash command <code>mkdir -p /path/to/nested/directory</code> does this.</p>",
+  "url": "https://stackoverflow.com/questions/273192/how-do-i-create-a-directory-and-any-missing-parent-directories",
+  "kind": "qa"
+}

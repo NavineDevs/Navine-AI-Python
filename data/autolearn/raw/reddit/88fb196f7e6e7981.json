@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:MachineLearning:t3_1u2yqnu",
+  "title": "Is Symbolic Regression still a thing, given LLMs' performance? [D]",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been teaching myself about Symbolic Regression (SR), which looks like a super exciting field. (A great intro resource below [1]).</p> <p>But then I was wondering: given LLMs&#39; increasingly-growing power in generating code, which is in a way very similar to Symbolic Regression (or of course, even directly tackling symbolic regression tasks), are existing SR techniques dead? Happy to hear your thoughts.</p> <p>[1] <a href=\"https://www.youtube.com/watch?v=fe-PC4lw4yw\">ETH Zürich AISE: Symbolic Regression and Model Discovery - YouTube</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/omomom42\"> /u/omomom42 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/"
+}

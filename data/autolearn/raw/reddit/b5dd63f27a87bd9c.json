@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:java:t3_1u1pfn9",
+  "title": "Made Minecraft in the Terminal (only java, no extra libs)",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I created a version of Minecraft that runs entirely in command in the terminal.<br/> The entire project is entirely contained in one file, with over 1500 lines of code.<br/> Made with java, no extra libraries.<br/> Supports textures, randomly generated trees, water, and terrain, and block placing/mining.<br/> This is inspired by the Minecraft.c repo.</p> <p>Github: <a href=\"https://github.com/DaRealNeonCoder/MinecraftInTerminal\">https://github.com/DaRealNeonCoder/MinecraftInTerminal</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Inner_Philosophy936\"> /u/Inner_Philosophy936 </a> <br/> <span><a href=\"https://i.redd.it/eo7r2alb9d6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/java/comments/1u1pfn9/made_minecraft_in_the_terminal_only_java_no_extra/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/java/comments/1u1pfn9/made_minecraft_in_the_terminal_only_java_no_extra/"
+}

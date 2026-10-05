@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:actiontext/rollup.config.js",
+  "title": "rails/rails/actiontext/rollup.config.js",
+  "text": "import resolve from \"@rollup/plugin-node-resolve\"\nimport commonjs from \"@rollup/plugin-commonjs\"\nimport { terser } from \"rollup-plugin-terser\"\n\nconst terserOptions = {\n mangle: false,\n compress: false,\n format: {\n   beautify: true,\n   indent_level: 2\n }\n}\n\nexport default [\n  {\n    input: \"app/javascript/actiontext/index.js\",\n    output: {\n      file: \"app/assets/javascripts/actiontext.js\",\n      format: \"umd\",\n      name: \"ActionText\"\n    },\n    plugins: [\n      resolve(),\n      commonjs(),\n      terser(terserOptions)\n    ]\n  },\n\n  {\n    input: \"app/javascript/actiontext/index.js\",\n    output: {\n      file: \"app/assets/javascripts/actiontext.esm.js\",\n      format: \"es\"\n    },\n    plugins: [\n      resolve(),\n      commonjs(),\n      terser(terserOptions)\n    ]\n  }\n]\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/actiontext/rollup.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

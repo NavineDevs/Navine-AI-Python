@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/mock/_util.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/mock/_util.ts",
+  "text": "// Interface data format used to return a unified format\n\nexport function resultSuccess<T = Recordable>(result: T, { message = 'ok' } = {}) {\n  return {\n    code: 0,\n    result,\n    message,\n    type: 'success',\n  };\n}\n\nexport function resultPageSuccess<T = any>(\n  pageNo: number,\n  pageSize: number,\n  list: T[],\n  { message = 'ok' } = {}\n) {\n  const pageData = pagination(pageNo, pageSize, list);\n\n  return {\n    ...resultSuccess({\n      records: pageData,\n      total: list.length,\n    }),\n    message,\n  };\n}\n\nexport function resultError(message = 'Request failed', { code = -1, result = null } = {}) {\n  return {\n    code,\n    result,\n    message,\n    type: 'error',\n  };\n}\n\nexport function pagination<T = any>(pageNo: number, pageSize: number, array: T[]): T[] {\n  const offset = (pageNo - 1) * Number(pageSize);\n  const ret =\n    offset + Number(pageSize) >= array.length\n      ? array.slice(offset, array.length)\n      : array.slice(offset, offset + Number(pageSize));\n  return ret;\n}\n\nexport interface requestParams {\n  method: string;\n  body: any;\n  headers?: { authorization?: string };\n  query: any;\n}\n\n/**\n * @description 本函数用于从request数据中获取token，请根据项目的实际情况修改\n *\n */\nexport function getRequestToken({ headers }: requestParams): string | undefined {\n  return headers?.authorization;\n}\n\n//TODO 接口父路径（写死不够灵活）\nexport const baseUrl = '/jeecgboot/mock';\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/mock/_util.ts",
+  "language": "typescript",
+  "kind": "code"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.09864v1",
+  "title": "Vehicle Platooning",
+  "text": "Vehicle Platooning\n\nVehicle platooning offers significant benefits, including reduced energy consumption, lower emissions, improved road utilization, enhanced safety, and reduced driver fatigue. As intelligent driving technologies continue to advance, platoon sizes are expected to increase substantially, making the efficient sequencing and resequencing of vehicles increasingly important. We study the vehicle platoon sequencing and resequencing problem on road networks with varying segment lengths under two fundamental objectives: minimizing total energy consumption and minimizing the maximum energy consumption of any vehicle. For the typically encountered combinations of vehicle and road characteristics, we provide a complete computational complexity classification, either developing polynomial-time algorithms or proving computational intractability. For several intractable cases, we design fully polynomial-time approximation schemes and polynomial-time heuristics with provable performance guarantees. A computational study demonstrates that the proposed heuristics achieve average solutions within 1\\% of optimal. We also consider settings in which only limited information about position-dependent energy savings is available and develop a heuristic with bounded worst-case performance. In addition, we present an efficient algorithm for on-road vehicle resequencing when only limited position changes are permitted. Together, these results provide a comprehensive algorithmic framework for energy-efficient vehicle platoon sequencing and resequencing.",
+  "url": "https://arxiv.org/abs/2608.09864v1",
+  "category": "technical"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.21339v1",
+  "title": "The first tight classification of skew-constacyclic codes over finite fields",
+  "text": "The first tight classification of skew-constacyclic codes over finite fields\n\nWe parametrize the isometry and equivalence classes of skew constacyclic codes over a finite field by classifying the corresponding classes of their ambient rings, and present algorithms for the parametrizations. We achieve a tight classification by taking all possible Hamming-weight preserving isomorphisms between their ambient Petit rings into account. We also count the number of equivalence classes of these rings. We present many examples where isometry is a strictly stronger relation than equivalence, that is, codes that are isometric but not equivalent.",
+  "url": "https://arxiv.org/abs/2608.21339v1",
+  "category": "technical"
+}

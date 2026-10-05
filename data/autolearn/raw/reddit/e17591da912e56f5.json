@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:devops:t3_1vhljcn",
+  "title": "Thoughts on ADO?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m being brought in to assist with getting a devops plan in place. The current team is using ADO for issue management and code repos. They have no real existing IaC, CI-CD, monitoring, etc.</p> <p>My first reaction is to tell them to run from ADO. But then I look at GH and their bullshit and I wonder if I&#39;m just not being open minded. I do see a lot of rumblings about MS internal projects moving out of ADO. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SakeviCrash\"> /u/SakeviCrash </a> <br/> <span><a href=\"https://www.reddit.com/r/devops/comments/1vhljcn/thoughts_on_ado/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/devops/comments/1vhljcn/thoughts_on_ado/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/devops/comments/1vhljcn/thoughts_on_ado/"
+}

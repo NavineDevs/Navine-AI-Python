@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.28563v1",
+  "title": "MQSS Client: Interface for Decoupling Quantum Programming Interfaces",
+  "text": "MQSS Client: Interface for Decoupling Quantum Programming Interfaces\n\nQuantum Computing (QC) is an emerging technology that requires customized tools, such as software stacks and programming interfaces. However, currently, the tools are generally tightly coupled and exhibit limited interoperability. This, in particular, affects High Performance Computing (HPC) facilities and data centers, which are required to support multiple programming interfaces. In this paper, we introduce MQSS Client, a unifying, context-aware access layer and programming library that decouples the programming interfaces and the underlying compilation and runtime stack. MQSS Client aims to support all existing programming interfaces by providing abstractions for resources, jobs, and results. It provides two access modes to accommodate the varied needs of remote and HPC users. Thus, interoperability between software stacks and programming interfaces increases.",
+  "url": "https://arxiv.org/abs/2607.28563v1",
+  "category": "technical"
+}

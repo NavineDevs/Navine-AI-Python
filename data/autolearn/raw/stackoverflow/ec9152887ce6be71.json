@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:2003505",
+  "title": "How do I delete a Git branch locally and remotely?",
+  "text": "How do I delete a Git branch locally and remotely?\n\n<p>Failed Attempts to Delete a Remote Branch:</p>\n<pre class=\"lang-bash prettyprint-override\"><code>$ git branch -d remotes/origin/bugfix\nerror: branch 'remotes/origin/bugfix' not found.\n\n$ git branch -d origin/bugfix\nerror: branch 'origin/bugfix' not found.\n\n$ git branch -rd origin/bugfix\nDeleted remote branch origin/bugfix (was 2a14ef7).\n\n$ git push\nEverything up-to-date\n\n$ git pull\nFrom github.com:gituser/gitproject\n\n* [new branch] bugfix -&gt; origin/bugfix\nAlready up-to-date.\n</code></pre>\n<p>How do I properly delete the <code>remotes/origin/bugfix</code> branch both locally and remotely?</p>",
+  "url": "https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely",
+  "kind": "qa"
+}

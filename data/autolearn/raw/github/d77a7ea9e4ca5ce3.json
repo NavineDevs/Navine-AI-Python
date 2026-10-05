@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeok/so-novel:bin/linux-install.sh",
+  "title": "freeok/so-novel/bin/linux-install.sh",
+  "text": "#!/bin/bash\nset -e\n\n# ==========================\n# SoNovel 通用 Linux 安装脚本\n# ==========================\n\n# 获取最新版本号\nLATEST=$(curl -s https://api.github.com/repos/freeok/so-novel/releases/latest | grep '\"tag_name\":' | cut -d '\"' -f4)\necho \"🔖 最新版本：$LATEST\"\n\n# 自动识别架构\nARCH=$(uname -m)\ncase \"$ARCH\" in\n  x86_64)\n    ARCH_TAG=\"x64\"\n    ;;\n  aarch64)\n    ARCH_TAG=\"arm64\"\n    ;;\n  *)\n    echo \"❌ 不支持的架构: $ARCH\"\n    exit 1\n    ;;\nesac\n\nURL=\"https://github.com/freeok/so-novel/releases/download/${LATEST}/sonovel-linux_${ARCH_TAG}.tar.gz\"\nTMP_FILE=\"/tmp/sonovel.tar.gz\"\nINSTALL_DIR=\"$HOME/sonovel\"\n\necho \"📥 正在下载 SoNovel (${ARCH_TAG}) ...\"\ncurl -L \"$URL\" -o \"$TMP_FILE\"\n\n# 清理旧安装\nrm -rf \"$INSTALL_DIR\"\nmkdir -p \"$INSTALL_DIR\"\n\n# 解压时去掉第一层目录（sonovel-linux_x64 / sonovel-linux_arm64）\ntar -xzf \"$TMP_FILE\" -C \"$INSTALL_DIR\" --strip-components=1\n\necho \"✅ 安装完成！\"\necho \"📁 安装目录: $INSTALL_DIR\"\n\n# 启动程序\ncd \"$INSTALL_DIR\" && bash run-linux.sh",
+  "url": "https://raw.githubusercontent.com/freeok/so-novel/main/bin/linux-install.sh",
+  "language": "shell",
+  "kind": "code"
+}

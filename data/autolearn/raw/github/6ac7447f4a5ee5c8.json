@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:scripts/alias.js",
+  "title": "vuejs/vue/scripts/alias.js",
+  "text": "const path = require('path')\n\nconst resolve = p => path.resolve(__dirname, '../', p)\n\nmodule.exports = {\n  vue: resolve('src/platforms/web/entry-runtime-with-compiler'),\n  compiler: resolve('src/compiler'),\n  core: resolve('src/core'),\n  shared: resolve('src/shared'),\n  web: resolve('src/platforms/web'),\n  server: resolve('packages/server-renderer/src'),\n  sfc: resolve('packages/compiler-sfc/src')\n}\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/scripts/alias.js",
+  "language": "javascript",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:heroui-inc/heroui:apps/docs/source.config.ts",
+  "title": "heroui-inc/heroui/apps/docs/source.config.ts",
+  "text": "import {rehypeCodeDefaultOptions} from \"fumadocs-core/mdx-plugins\";\nimport {defineConfig, defineDocs} from \"fumadocs-mdx/config\";\n\nexport const docs = defineDocs({\n  dir: \"content/docs\",\n});\n\nexport default defineConfig({\n  mdxOptions: {\n    providerImportSource: \"@/mdx-components\",\n    rehypeCodeOptions: {\n      ...rehypeCodeDefaultOptions,\n      // Preserve meta strings in the output\n      // meta: true,\n    },\n    rehypePlugins: [],\n    remarkNpmOptions: {\n      persist: {\n        id: \"package-manager\",\n      },\n    },\n    remarkPlugins: [],\n  },\n});\n",
+  "url": "https://raw.githubusercontent.com/heroui-inc/heroui/v3/apps/docs/source.config.ts",
+  "language": "typescript",
+  "kind": "code"
+}

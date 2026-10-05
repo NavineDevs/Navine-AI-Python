@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:6591213",
+  "title": "How can I rename a local Git branch?",
+  "text": "How can I rename a local Git branch?\n\n<p>How can I rename a local branch which has not yet been pushed to a remote repository?</p>\n<p>Related:</p>\n<ul>\n<li><a href=\"https://stackoverflow.com/questions/1526794/rename-master-branch-for-both-local-and-remote-git-repositories?answertab=votes#tab-top\">Rename master branch for both local and remote Git repositories</a></li>\n<li><a href=\"https://stackoverflow.com/questions/30590083/how-to-rename-a-remote-git-branch-name/30590238#30590238\">How do I rename both a Git local and remote branch name?</a></li>\n</ul>",
+  "url": "https://stackoverflow.com/questions/6591213/how-can-i-rename-a-local-git-branch",
+  "kind": "qa"
+}

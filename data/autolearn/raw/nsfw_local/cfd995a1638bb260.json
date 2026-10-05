@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\local\\real\\hr_1781105403311121.jpg",
+  "title": "hr_1781105403311121",
+  "text": "hr_1781105403311121",
+  "url": "data\\nsfw\\images\\local\\real\\hr_1781105403311121_1781422160224067800.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\real\\hr_1781105403311121_1781422160224067800.jpg",
+  "caption": "hr_1781105403311121 | [real, image, human] | tags: local",
+  "media_category": "real",
+  "topic": "real",
+  "tags": [
+    "real",
+    "local"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw"
+}

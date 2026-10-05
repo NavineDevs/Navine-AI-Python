@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navine AI - Python API Documentation</title>
+  <style>
+    :root {
+      --bg: #0a0e14;
+      --panel: #121820;
+      --border: #2a3340;
+      --text: #e8edf4;
+      --muted: #8b95a5;
+      --accent: #3d8bfd;
+      --accent2: #2ea043;
+      --mono: "Consolas", "Cascadia Code", monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      background: linear-gradient(135deg, var(--text), var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .tagline { color: var(--muted); margin-top: 0.35rem; font-size: 0.95rem; }
+    .badge {
+      display: inline-block;
+      background: rgba(46, 160, 67, 0.15);
+      color: #3fb950;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      margin-top: 0.75rem;
+    }
+    nav.toc {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+    }
+    nav.toc a { color: var(--accent); text-decoration: none; display: block; padding: 0.2rem 0; }
+    nav.toc a:hover { text-decoration: underline; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; color: var(--accent); }
+    h3 { font-size: 1rem; margin: 1.25rem 0 0.5rem; }
+    p, li { color: var(--text); margin-bottom: 0.75rem; }
+    ul { padding-left: 1.25rem; margin-bottom: 1rem; }
+    .endpoint {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      margin-bottom: 1.25rem;
+    }
+    .method {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      margin-right: 0.5rem;
+    }
+    .get { background: rgba(61, 139, 253, 0.2); color: var(--accent); }
+    .post { background: rgba(46, 160, 67, 0.2); color: var(--accent2); }
+    .path { font-family: var(--mono); font-size: 0.95rem; }
+    pre {
+      background: #0d1219;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-x: auto;
+      font-family: var(--mono);
+      font-size: 0.8125rem;
+      line-height: 1.45;
+      margin: 0.75rem 0;
+    }
+    code { font-family: var(--mono); font-size: 0.875em; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.875rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+    }
+    th { background: var(--panel); color: var(--muted); }
+    .back { color: var(--accent); text-decoration: none; font-size: 0.875rem; }
+    .back:hover { text-decoration: underline; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.8125rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a href="/" class="back">Back to Navine AI - Python</a>
+      <h1>Navine AI - Python API Reference</h1>
+      <p class="tagline">Local multimodal REST API for text, chat, code, image, and video generation.</p>
+      <span class="badge">100% Local - No External AI APIs</span>
+    </header>
+
+    <nav class="toc">
+      <strong>Contents</strong>
+      <a href="#overview">Overview</a>
+      <a href="#auth">Authentication</a>
+      <a href="#health">GET /api/health</a>
+      <a href="#info">GET /api/info</a>
+      <a href="#text">POST /api/text</a>
+      <a href="#chat">POST /api/chat</a>
+      <a href="#code">POST /api/code</a>
+      <a href="#image">POST /api/image</a>
+      <a href="#video">POST /api/video</a>
+      <a href="#openai">POST /v1/chat/completions</a>
+      <a href="#errors">Error Codes</a>
+    </nav>
+
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Navine AI - Python exposes a REST API on the local web server (default <code>http://127.0.0.1:8765</code>). Start the server with:</p>
+      <pre>python -m navine.server</pre>
+      <p>All inference runs on the Navine host with Navine-trained weights. Image and video generation do not call third-party model APIs. The website UI runs in your browser on your device.</p>
+    </section>
+
+    <section id="auth">
+      <h2>Authentication</h2>
+      <p>API routes under <code>/api/*</code> and <code>/v1/*</code> require authentication unless the request comes from localhost and <code>allow_localhost_without_auth</code> is enabled (default).</p>
+      <p>Provide your API key using either header:</p>
+      <pre>Authorization: Bearer YOUR_API_KEY
+X-Navine-API-Key: YOUR_API_KEY</pre>
+      <p>Create keys with:</p>
+      <pre>python -m navine.cli api-key create --name "my key"</pre>
+    </section>
+
+    <section id="health" class="endpoint">
+      <h2><span class="method get">GET</span><span class="path">/api/health</span></h2>
+      <p>Health check. Does not require authentication.</p>
+      <h3>Response</h3>
+      <pre>{ "status": "ok" }</pre>
+      <h3>Example</h3>
+      <pre>curl http://127.0.0.1:8765/api/health</pre>
+    </section>
+
+    <section id="info" class="endpoint">
+      <h2><span class="method get">GET</span><span class="path">/api/info</span></h2>
+      <p>System and model status information.</p>
+      <h3>Response fields</h3>
+      <table>
+        <tr><th>Field</th><th>Description</th></tr>
+        <tr><td>pytorch</td><td>PyTorch version</td></tr>
+        <tr><td>cuda_available</td><td>Whether CUDA is available</td></tr>
+        <tr><td>gpu</td><td>GPU name if available</td></tr>
+        <tr><td>models</td><td>Training status for text, image, video</td></tr>
+        <tr><td>local_only</td><td>Always true for Navine AI - Python</td></tr>
+      </table>
+      <pre>curl http://127.0.0.1:8765/api/info</pre>
+    </section>
+
+    <section id="text" class="endpoint">
+      <h2><span class="method post">POST</span><span class="path">/api/text</span></h2>
+      <p>Generate text from a prompt using the Navine AI - Python text model.</p>
+      <h3>Request body</h3>
+      <pre>{
+  "prompt": "Explain local AI in one sentence.",
+  "max_tokens": 256,
+  "temperature": 0.7
+}</pre>
+      <h3>Response</h3>
+      <pre>{ "text": "..." }</pre>
+      <pre>curl -X POST http://127.0.0.1:8765/api/text \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -d '{"prompt":"Hello from Navine AI - Python"}'</pre>
+    </section>
+
+    <section id="chat" class="endpoint">
+      <h2><span class="method post">POST</span><span class="path">/api/chat</span></h2>
+      <p>Conversational chat with history support and automatic code intent detection.</p>
+      <h3>Request body</h3>
+      <pre>{
+  "message": "Write a python function to reverse a string",
+  "history": [
+    { "user": "Hi", "assistant": "Hello! I am Navine AI - Python..." }
+  ],
+  "max_tokens": 512,
+  "temperature": 0.7,
+  "use_rag": true
+}</pre>
+      <p>Use a <code>messages</code> array with <code>role</code> and <code>content</code> (common chat API style).</p>
+      <h3>Response</h3>
+      <pre>{
+  "text": "Here is the python code:\n\n```python\ndef reverse_string(s): ...",
+  "message": { "role": "assistant", "content": "..." },
+  "is_code": true
+}</pre>
+      <pre>curl -X POST http://127.0.0.1:8765/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"message":"Write a fibonacci function in Python"}'</pre>
+    </section>
+
+    <section id="code" class="endpoint">
+      <h2><span class="method post">POST</span><span class="path">/api/code</span></h2>
+      <p>Generate code for a specific task and language.</p>
+      <h3>Request body</h3>
+      <pre>{
+  "task": "Write a function to reverse a string",
+  "language": "python"
+}</pre>
+      <p>Supported languages: <code>python</code>, <code>javascript</code>, <code>typescript</code>, <code>rust</code>, <code>go</code>, <code>java</code>, <code>cpp</code></p>
+      <h3>Response</h3>
+      <pre>{
+  "code": "def reverse_string(s: str) -> str:\n    return s[::-1]",
+  "language": "python"
+}</pre>
+      <pre>curl -X POST http://127.0.0.1:8765/api/code \
+  -H "Content-Type: application/json" \
+  -d '{"task":"Write a fibonacci function","language":"python"}'</pre>
+    </section>
+
+    <section id="image" class="endpoint">
+      <h2><span class="method post">POST</span><span class="path">/api/image</span></h2>
+      <p>Generate an image from a text prompt. Uses local diffusion with procedural fallback for simple prompts.</p>
+      <h3>Request body</h3>
+      <pre>{
+  "prompt": "create me a blue moon",
+  "num_steps": 100,
+  "guidance_scale": 3.5,
+  "seed": 42,
+  "enhance": true
+}</pre>
+      <h3>Response</h3>
+      <pre>{
+  "path": "outputs/image/generated.png",
+  "mime": "image/png",
+  "data_base64": "...",
+  "enhanced_prompt": "a blue moon in night sky, digital art, high quality..."
+}</pre>
+      <pre>curl -X POST http://127.0.0.1:8765/api/image \
+  -H "Content-Type: application/json" \
+  -d '{"prompt":"create me a blue moon","num_steps":100}'</pre>
+    </section>
+
+    <section id="video" class="endpoint">
+      <h2><span class="method post">POST</span><span class="path">/api/video</span></h2>
+      <p>Generate a short animated GIF from a text prompt.</p>
+      <h3>Request body</h3>
+      <pre>{
+  "prompt": "waves on a beach",
+  "num_frames": 16,
+  "fps": 12,
+  "seed": 42
+}</pre>
+      <h3>Response</h3>
+      <pre>{
+  "path": "outputs/video/generated.gif",
+  "mime": "image/gif",
+  "data_base64": "..."
+}</pre>
+      <pre>curl -X POST http://127.0.0.1:8765/api/video \
+  -H "Content-Type: application/json" \
+  -d '{"prompt":"waves on a beach","num_frames":16,"fps":12}'</pre>
+    </section>
+
+    <section id="openai" class="endpoint">
+      <h2><span class="method post">POST</span><span class="path">/v1/chat/completions</span></h2>
+      <p>Compatible chat-completions endpoint for tools that expect a standard messages API format.</p>
+      <h3>Request body</h3>
+      <pre>{
+  "model": "navine-text",
+  "messages": [
+    { "role": "user", "content": "Hello" }
+  ],
+  "max_tokens": 256,
+  "temperature": 0.7
+}</pre>
+      <h3>Response</h3>
+      <pre>{
+  "id": "chatcmpl-...",
+  "object": "chat.completion",
+  "created": 1718280000,
+  "model": "navine-text",
+  "choices": [
+    {
+      "index": 0,
+      "message": { "role": "assistant", "content": "..." },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": { "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0 }
+}</pre>
+      <pre>curl -X POST http://127.0.0.1:8765/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -d '{"model":"navine-text","messages":[{"role":"user","content":"Hello"}]}'</pre>
+      <p>Streaming (<code>stream: true</code>) is not supported.</p>
+    </section>
+
+    <section id="errors">
+      <h2>Error Codes</h2>
+      <table>
+        <tr><th>Code</th><th>Meaning</th></tr>
+        <tr><td>400</td><td>Invalid request (missing message, unsupported stream, etc.)</td></tr>
+        <tr><td>401</td><td>Invalid or missing API key</td></tr>
+        <tr><td>429</td><td>Rate limit exceeded (when enabled)</td></tr>
+        <tr><td>500</td><td>Internal server error</td></tr>
+        <tr><td>503</td><td>Model not trained or unavailable</td></tr>
+      </table>
+    </section>
+
+    <footer>
+      Navine AI - Python - 100% Local Multimodal Intelligence
+    </footer>
+  </div>
+</body>
+</html>

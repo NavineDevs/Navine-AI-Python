@@ -1,0 +1,91 @@
+checkpoint_namespace: video_enterprise
+model:
+  frame_size: 160
+  num_frames: 24
+  in_channels: 3
+  hidden_dim: 2672
+  num_layers: 14
+  size_tier: gpt3_1b
+training:
+  batch_size: 1
+  learning_rate: 4.0e-05
+  max_steps: 7000
+  save_interval: 200
+  grad_clip: 1.0
+  perceptual_loss_weight: 0.14
+  finetune_steps: 2400
+  finetune_lr: 3.0e-05
+  fresh_start: true
+  mixed_precision: true
+  ema_decay: 0.999
+  sample_interval: 0
+  max_files_per_dir: 800
+  grad_accum_steps: 4
+  oversample_categories:
+    hentai: 8
+    animated: 6
+    porn: 8
+    human: 7
+    real: 7
+    sky: 14
+    landscape: 12
+    sfw: 8
+    people: 6
+    object: 4
+    general: 3
+    think: 2
+    detective: 2
+    mystery: 2
+    mixed: 3
+data:
+  train_dir: data/nsfw/local/hentai
+  extra_dirs:
+  - data/nsfw/local/porn
+  - data/nsfw/local/human
+  - data/nsfw/local/real
+  - data/image/sfw/skies
+  - data/image/sfw/landscapes
+  - data/image/sfw/people
+  - data/image/sfw/objects
+  - data/nsfw/videos
+  - data/nsfw/videos/local
+  - data/learn/video
+  - data/learn/external/video
+  - data/learn/video/external
+  - data/video/ingested
+  - data/video/learned
+  - data/video/sfw/people
+  - data/video/sfw/objects
+  - data/train/image_human
+  - data/learn/image
+  - data/learn/external/images
+inference:
+  num_frames: 28
+  fps: 18
+  output_format: mp4
+  frame_output_size: 160
+  use_references: false
+  custom_trained_only: true
+  use_learned_model: false
+  prefer_trained_model: false
+  reject_bland_frames: true
+  seed: 0
+  hybrid: true
+  min_frame_variance: 0.0015
+  diffusers_video:
+    enabled: false
+    model_id: ''
+    width: 512
+    height: 512
+fallback:
+  enabled: true
+  max_frames: 24
+  image_steps: 12
+  motion: 0.035
+  keyframe_variation: 0.02
+  reference_motion: kenburns
+  motion_profiles:
+    dance: 1.8
+    walk: 1.2
+    sway: 1.0
+    bounce: 1.4

@@ -1,0 +1,19 @@
+{
+  "id": "c1f73931cc2bae3a",
+  "url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\human_0101_1783555241960538500.png",
+  "caption": "human_0101 | [general, image] | tags: porn, local, unknown",
+  "filename": "c1f73931cc2bae3a.png",
+  "timestamp": "2026-08-21T17:46:29.944305+00:00",
+  "content_type": "image/png",
+  "media_category": "general",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "tags": [
+    "porn",
+    "general",
+    "local"
+  ],
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\local\\porn\\human_0101.png",
+  "kind": "image"
+}

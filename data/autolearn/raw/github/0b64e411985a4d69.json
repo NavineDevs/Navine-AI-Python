@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:squizlabs/PHP_CodeSniffer:tests/TestSuite.php",
+  "title": "squizlabs/PHP_CodeSniffer/tests/TestSuite.php",
+  "text": "<?php\n/**\n * A PHP_CodeSniffer specific test suite for PHPUnit.\n *\n * @author    Greg Sherwood <gsherwood@squiz.net>\n * @copyright 2006-2015 Squiz Pty Ltd (ABN 77 084 670 600)\n * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence\n */\n\nnamespace PHP_CodeSniffer\\Tests;\n\nuse PHPUnit\\Framework\\TestSuite as PHPUnit_TestSuite;\nuse PHPUnit\\Framework\\TestResult;\n\nclass TestSuite extends PHPUnit_TestSuite\n{\n\n\n    /**\n     * Runs the tests and collects their result in a TestResult.\n     *\n     * @param \\PHPUnit\\Framework\\TestResult $result A test result.\n     *\n     * @return \\PHPUnit\\Framework\\TestResult\n     */\n    public function run(TestResult $result=null)\n    {\n        $result = parent::run($result);\n        printPHPCodeSnifferTestOutput();\n        return $result;\n\n    }//end run()\n\n\n}//end class\n",
+  "url": "https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/tests/TestSuite.php",
+  "language": "php",
+  "kind": "code"
+}

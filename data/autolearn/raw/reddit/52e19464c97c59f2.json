@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u3v83g",
+  "title": "Why is Go dominating in CNCF landscape ?!?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I started learning Go a year ago, I have made many projects using it (cli, backend, bots), but I have figured out that I am more intrested in Go&#39;s use case at cloud/cncf (K8s, docker, cilium, etcd)</p> <p>I recently submitted a PR to Kubebuilder and I really enjoyed it, I felt like this what I am meant to write.</p> <p>&#x200B;</p> <p>I am currently learning cilium (eBPF based CNI) and I want to contribute to it.</p> <p>&#x200B;</p> <p>But I dont know what type of engineer are these who build CNCF orgs..system/infra engineers ??</p> <p>&#x200B;</p> <p>Pls help me learn this side of golang, share me all the knowledge and resources you got on this (golang cncf contributor), what all concepts should I learn ? Roadmap or path ? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ChocolateDense4205\"> /u/ChocolateDense4205 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1u3v83g/why_is_go_dominating_in_cncf_landscape/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u3v83g/why_is_go_dominating_in_cncf_landscape/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1u3v83g/why_is_go_dominating_in_cncf_landscape/"
+}

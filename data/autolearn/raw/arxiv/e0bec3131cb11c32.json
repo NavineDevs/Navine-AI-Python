@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.20516v1",
+  "title": "Approximation and interactive design with exact 3D elastic curves",
+  "text": "Approximation and interactive design with exact 3D elastic curves\n\nAn elastic space curve is a critical point of the bending energy subject to appropriate constraints. An analytic representation, equivalent to the spherical pendulum equation, leads to an 11-parameter description of the space of 3D elastic curve segments. We give a numerically stable method for recovering the 11 parameters from a given elastic curve segment. Using this, we give a fast and stable method to approximate an arbitrary space curve segment by a 3D elastica. Applications include interactive design with exact elastic curves and CAD surface rationalization for robotic hot-blade cutting.",
+  "url": "https://arxiv.org/abs/2606.20516v1",
+  "category": "technical"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1vsi83l",
+  "title": "React Native 0.87, Instant Paywall A/B Testing, and Buying Mike Hardy a Beer",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey Community,</p> <p>React Native 0.87 has arrived as a maintenance release, making the Strict TypeScript API the default, doubling Metro source map generation speeds, and adding experimental Swift Package Manager support for iOS along with AGP 9 support on Android.</p> <p>Meanwhile, React Native Firebase v26 makes the New Architecture non-optional with Codegen TurboModules, synchronous APIs, Firestore Pipelines, and direct Gemini AI calls. Finally, we look at RevenueCat Paywalls for designing native paywalls and running remote A/B experiments without new app deploys.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thereactnativerewind\"> /u/thereactnativerewind </a> <br/> <span><a href=\"https://thereactnativerewind.com/issues/react-native-0-87-instant-paywall-a-b-testing-and-buying-mike-hardy-a-beer\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1vsi83l/react_native_087_instant_paywall_ab_testing_and/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1vsi83l/react_native_087_instant_paywall_ab_testing_and/"
+}

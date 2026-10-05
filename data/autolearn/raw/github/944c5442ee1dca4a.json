@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:topjohnwu/Magisk:scripts/module_installer.sh",
+  "title": "topjohnwu/Magisk/scripts/module_installer.sh",
+  "text": "#!/sbin/sh\n\n#################\n# Initialization\n#################\n\numask 022\n\n# echo before loading util_functions\nui_print() { echo \"$1\"; }\n\nrequire_new_magisk() {\n  ui_print \"*******************************\"\n  ui_print \" Please install Magisk v20.4+! \"\n  ui_print \"*******************************\"\n  exit 1\n}\n\n#########################\n# Load util_functions.sh\n#########################\n\nOUTFD=$2\nZIPFILE=$3\n\nmount /data 2>/dev/null\n\n[ -f /data/adb/magisk/util_functions.sh ] || require_new_magisk\n. /data/adb/magisk/util_functions.sh\n[ $MAGISK_VER_CODE -lt 20400 ] && require_new_magisk\n\ninstall_module\nexit 0\n",
+  "url": "https://raw.githubusercontent.com/topjohnwu/Magisk/master/scripts/module_installer.sh",
+  "language": "shell",
+  "kind": "code"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:cpp:t3_1vbjtef",
+  "title": "Interconverting std::function with copyable_function – Arthur O'Dwyer",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>The article shows how converting std::function to std::copyable_function (or vice versa) leads to slower performance and increased memory usage each time the conversion occurs.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Xaneris47\"> /u/Xaneris47 </a> <br/> <span><a href=\"https://quuxplusone.github.io/blog/2026/07/26/function-explosion/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cpp/comments/1vbjtef/interconverting_stdfunction_with_copyable/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/cpp/comments/1vbjtef/interconverting_stdfunction_with_copyable/"
+}

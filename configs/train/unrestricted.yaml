@@ -1,0 +1,33 @@
+model:
+  vocab_size: 4096
+  d_model: 256
+  n_heads: 4
+  n_layers: 4
+  d_ff: 1024
+  max_seq_len: 512
+  dropout: 0.1
+
+training:
+  batch_size: 4
+  learning_rate: 0.00008
+  weight_decay: 0.01
+  max_steps: 800
+  eval_interval: 100
+  save_interval: 200
+  warmup_steps: 40
+  grad_clip: 1.0
+
+data:
+  train_file: data/train/unrestricted/instructions.txt
+  extra_file: data/train/unrestricted/autolearn_unrestricted.txt
+  topic_files:
+    - data/train/unrestricted/security_analysis.txt
+    - data/train/unrestricted/ethical_scenarios.txt
+    - data/train/unrestricted/controversial_dialogue.txt
+  val_split: 0.1
+
+inference:
+  max_new_tokens: 384
+  temperature: 0.95
+  top_k: 50
+  top_p: 0.92

@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.28574v1",
+  "title": "Finite Pinwheel Covering",
+  "text": "Finite Pinwheel Covering\n\nIn perpetual scheduling theory, the Pinwheel Covering problem asks, given $n$ frequencies $f_i$, whether there exists an infinite schedule such that every $f_i$ consecutive entries contain at most one occurrence of $i\\in [n]$. This models $n$ agents taking turns at executing a job, with a recovery period before working again. Pinwheel Covering is, in a sense, the dual of Pinwheel Packing (also known as Pinwheel Scheduling), which similarly asks for at least one occurrence of $i$ in every $f_i$ consecutive entries. The complexity of both problems is a major open question: both are known to be in PSPACE, but PSPACE-hardness remains unknown.\n  Recently, a finite version of Pinwheel Packing requiring only $k$ occurrences of $i\\in [n]$ was introduced by [Kanellopoulos et al., SODA 2026] and proven to be strongly NP-complete. In this work we introduce $k$-Visits Covering, the analogous finite version of Pinwheel Covering, establishing strong NP-completeness even for $k=2$. As a corollary, we obtain that a generalization of Pinwheel Covering with varying frequencies is strongly NP-hard. To the best of our knowledge, this is the first strong NP-hardness result in the covering setting. We complement these results with a linear-time algorithm for $2$-Visits Covering with two distinct frequencies and a randomized polynomial-time algorithm when the number of distinct frequencies is constant. Lastly, we study the density thresholds of $k$-Visits Covering and prove that no non-trivial density bounds exist, contrasting the finite packing version.",
+  "url": "https://arxiv.org/abs/2607.28574v1",
+  "category": "technical"
+}

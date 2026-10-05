@@ -1,0 +1,22 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:amateur:t3_1u11ley:rss:img:1",
+  "title": "I want to show off my new manicure—I love hearts",
+  "text": "I want to show off my new manicure—I love hearts",
+  "url": "https://www.reddit.com/r/Amateur/comments/1u11ley/i_want_to_show_off_my_new_manicurei_love_hearts/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://preview.redd.it/paeh5x2mm86h1.jpeg?width=640&crop=smart&auto=webp&s=b6f88ad2d3d9654eca481719d43c8f9169027bd0",
+  "caption": "I want to show off my new manicure—I love hearts | [human, image] | tags: real, amateur | [image, human] | [image, human] | [image, human]",
+  "subreddit": "amateur",
+  "media_category": "human",
+  "tags": [
+    "human",
+    "real",
+    "amateur"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "human"
+}

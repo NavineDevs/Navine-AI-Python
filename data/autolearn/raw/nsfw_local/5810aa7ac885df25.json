@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\local\\porn\\seed_1.png",
+  "title": "seed_1",
+  "text": "seed_1",
+  "url": "data\\nsfw\\images\\local\\general\\seed_1_1783519913272967100.png",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\seed_1_1783519913272967100.png",
+  "caption": "seed_1 | [general, image] | tags: porn, local, unknown",
+  "media_category": "general",
+  "topic": "porn",
+  "tags": [
+    "porn",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

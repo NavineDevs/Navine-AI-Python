@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:901712",
+  "title": "How do I check whether a checkbox is checked in jQuery?",
+  "text": "How do I check whether a checkbox is checked in jQuery?\n\n<p>I need to check the <code>checked</code> property of a checkbox and perform an action based on the checked property using jQuery.</p>\n<p>For example, if the <code>age</code> checkbox is checked, then I need to show a textbox to enter <code>age</code>, else hide the textbox.</p>\n<p>But the following code returns <code>false</code> by default:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>if ($('#isAgeSelected').attr('checked')) {\n  $(\"#txtAge\").show();\n} else {\n  $(\"#txtAge\").hide();\n}</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\"&gt;&lt;/script&gt;\n&lt;input type=\"checkbox\" id=\"isAgeSelected\"/&gt;\n&lt;div id=\"txtAge\" style=\"display:none\"&gt;\n  Age is selected\n&lt;/div&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<p>How do I successfully query the <code>checked</code> property?</p>",
+  "url": "https://stackoverflow.com/questions/901712/how-do-i-check-whether-a-checkbox-is-checked-in-jquery",
+  "kind": "qa"
+}

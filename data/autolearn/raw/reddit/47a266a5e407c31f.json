@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1vb2ruy",
+  "title": "Scaling NumPy on Free-Threaded Python",
+  "text": "<!-- SC_OFF --><div class=\"md\"><blockquote> <p>NumPy is the foundational array library in the scientific Python ecosystem. Every numerical, machine learning, and data analysis library in Python either depends on NumPy directly or interoperates with it. As the free-threaded build of CPython matures, NumPy is one of the first libraries that users reach for when trying to scale CPU-bound numerical workloads across multiple cores using threads.</p> <p>In this blog post, I will walk through the work I did over the last few months in both NumPy and CPython to eliminate the multi-threaded scaling bottlenecks that were preventing NumPy from scaling on free-threaded Python.</p> </blockquote> <p><a href=\"https://labs.quansight.org/blog/scaling-numpy-on-free-threaded-python\">https://labs.quansight.org/blog/scaling-numpy-on-free-threaded-python</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nathan12343\"> /u/nathan12343 </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1vb2ruy/scaling_numpy_on_freethreaded_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vb2ruy/scaling_numpy_on_freethreaded_python/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1vb2ruy/scaling_numpy_on_freethreaded_python/"
+}

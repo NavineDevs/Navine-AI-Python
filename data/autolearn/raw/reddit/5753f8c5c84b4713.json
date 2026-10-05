@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1vk3w9b",
+  "title": "Third party Python libraries and supply chain security",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>How are people handling security around third party Python libraries without making development a pain?</p> <p>Third party Python packages are obviously useful but every dependency can also become a supply chain risk. Private package repositories, dependency scanning and stricter review policies all help but they can add friction fast.</p> <p>Are teams mostly trusting public registries with additional controls or using curated libraries? Curious what actually works when you have a lot of Python services.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Aggressive-Tart07\"> /u/Aggressive-Tart07 </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1vk3w9b/third_party_python_libraries_and_supply_chain/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vk3w9b/third_party_python_libraries_and_supply_chain/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1vk3w9b/third_party_python_libraries_and_supply_chain/"
+}

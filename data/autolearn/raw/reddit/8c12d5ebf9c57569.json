@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1vija3m",
+  "title": "Solving and benchmarking QUBO problems with Gurobi in Python",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>State-of-the-art classical optimizer Gurobi for Quadratic Unconstrained Binary Optimization (QUBO) problems.</p> <p>The core <code>gurobipy</code> implementation for QUBO is relatively compact:</p> <p>```python model = gp.Model() x = model.addMVar(n, vtype=GRB.BINARY) model.setObjective(x @ Q @ x, GRB.MINIMIZE) model.optimize()</p> <p>solution = x.X.astype(int) objective = model.ObjVal ```</p> <p>Complete workflow in Python. First formulate a graph problem (weighted Max-Cut) as QUBO, solve it with Gurobi, benchmark increasingly large instances, and understand what the solver is doing beyond the <code>optimize()</code> call.</p> <p>Interested in feedback on the modeling, benchmarking methodology, and which additional Gurobi metrics would make the comparison more rigorous.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Future_Ad7567\"> /u/Future_Ad7567 </a> <br/> <span><a href=\"https://youtu.be/TB1ny8o4ImQ\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vija3m/solving_and_benchmarking_qubo_problems_with/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1vija3m/solving_and_benchmarking_qubo_problems_with/"
+}

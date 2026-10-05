@@ -1,0 +1,79 @@
+default_hours: 8
+sleep_between_requests: 1.0
+sleep_between_cycles: 20
+train_every_samples: 30
+train_every_minutes: 20
+deep_train_every_hours: 1.5
+max_items_per_cycle: 250
+sources_all: true
+learn_images_per_cycle: 15
+learn_videos_per_cycle: 5
+learn_coding_languages_rotate: true
+ingest_conversations_every_cycle: true
+github_token_env: GITHUB_TOKEN
+save_state_every_minutes: 5
+log_file: data/autolearn/marathon.log
+image_topics:
+  - nature
+  - technology
+  - science
+  - architecture
+  - programming
+  - art
+  - history
+  - geography
+  - animals
+  - space
+gif_urls:
+  - https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif
+  - https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif
+  - https://upload.wikimedia.org/wikipedia/commons/d/d3/Newtons_cradle_animation_book_2.gif
+wikipedia_categories:
+  - Computer_science
+  - Mathematics
+  - Physics
+  - Biology
+  - History
+  - Geography
+  - Chemistry
+  - Engineering
+reddit_subreddits:
+  - learnprogramming
+  - Python
+  - javascript
+  - rust
+  - golang
+  - cpp
+  - java
+  - webdev
+  - programming
+  - MachineLearning
+  - datascience
+  - devops
+github_languages:
+  - python
+  - javascript
+  - typescript
+  - rust
+  - go
+  - java
+  - cpp
+  - csharp
+  - ruby
+  - php
+  - swift
+  - kotlin
+  - lua
+  - shell
+train_types:
+  - coding
+  - chat
+  - general
+  - creative
+  - math
+  - multimodal-text
+  - games
+  - nsfw
+  - unrestricted
+max_log_bytes: 5242880
+max_used_queries: 10000

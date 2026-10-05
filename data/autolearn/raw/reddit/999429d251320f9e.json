@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vwv2sc",
+  "title": "Intelligent Codebase Visualizer for Rust",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been building devlens.io for the past 8 months now, and now I have extended the language support to a total of 6 including Rust too. There are nodes and edges types specific to rust. The analyze time for graphs is just a few seconds for even a codebase with 20000 nodes.</p> <p>You can generate functional/technical summaries of your codebase for every node too and can see commit diff in graph format. </p> <p>It has an impact analysis (blast radius ) feature which tells you what will change if you touch a node.</p> <p>Apart from rust it also supports js/ts/java/python and go.</p> <p><a href=\"https://github.com/devlensio/devlensOSS\">https://github.com/devlensio/devlensOSS</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Melodic-Funny-9560\"> /u/Melodic-Funny-9560 </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1vwv2sc/intelligent_codebase_visualizer_for_rust/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vwv2sc/intelligent_codebase_visualizer_for_rust/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vwv2sc/intelligent_codebase_visualizer_for_rust/"
+}

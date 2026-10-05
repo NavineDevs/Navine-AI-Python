@@ -1,0 +1,19 @@
+{
+  "parameters": 1026869376,
+  "architecture": {
+    "vocab_size": 12000,
+    "d_model": 1664,
+    "n_heads": 16,
+    "n_layers": 30,
+    "d_ff": 6656,
+    "max_seq_len": 2048,
+    "dropout": 0.08,
+    "use_rope": true,
+    "use_kv_cache": true,
+    "use_swiglu": true,
+    "use_rms_norm": true,
+    "tie_embeddings": true
+  },
+  "size_tier": "gpt3_1b",
+  "updated_at": "2026-09-13T10:42:00+00:00"
+}

@@ -1,0 +1,1 @@
+How to roll dice: "dice+2d6" (without the quotes) in the email field rolls 2d6. "dice+5d42+23" rolls 5d42+23. "noko+dice+2d6" rolls 2d6 without showing the roll in the email field. Please post all quest threads on >>>/qst/ - Quests. Please do not use spoilers to hide porn or any "not safe for work" content.

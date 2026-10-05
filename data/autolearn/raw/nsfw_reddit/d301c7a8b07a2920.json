@@ -1,0 +1,23 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:gonewild:t3_1uqinuk:rss:img:1",
+  "title": "[F]ashion show: my birthday suit",
+  "text": "[F]ashion show: my birthday suit",
+  "url": "https://old.reddit.com/r/gonewild/comments/1uqinuk/fashion_show_my_birthday_suit/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://preview.redd.it/zz9hsfmcrxbh1.jpeg?width=640&crop=smart&auto=webp&s=4bd3e2094f6270809c634ddb3944d05c22caa47c",
+  "caption": "[F]ashion show: my birthday suit | [human, image] | tags: real, gonewild | [image, human] | tags: photography | [image, human] | [image, human]",
+  "subreddit": "gonewild",
+  "media_category": "real",
+  "tags": [
+    "human",
+    "real",
+    "gonewild",
+    "photography"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

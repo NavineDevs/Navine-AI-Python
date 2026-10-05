@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/types/axios.d.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/types/axios.d.ts",
+  "text": "export type ErrorMessageMode = 'none' | 'modal' | 'message' | undefined;\nexport type SuccessMessageMode = 'none' | 'success' | 'error' | undefined;\n\nexport interface RequestOptions {\n  // 将请求参数拼接到url\n  joinParamsToUrl?: boolean;\n  // 格式化请求参数时间\n  formatDate?: boolean;\n  // 是否处理请求结果\n  isTransformResponse?: boolean;\n  // 是否返回本地响应头,需要获取响应头时使用此属性\n  isReturnNativeResponse?: boolean;\n  // 默认将prefix 添加到url\n  joinPrefix?: boolean;\n  // 接口地址，如果保留为空，则使用默认值\n  apiUrl?: string;\n  // 请求拼接路径\n  urlPrefix?: string;\n  // 错误消息提示类型\n  errorMessageMode?: ErrorMessageMode;\n  // 成功消息提示类型\n  successMessageMode?: SuccessMessageMode;\n  // 是否添加时间戳\n  joinTime?: boolean;\n  ignoreCancelToken?: boolean;\n  //是否在标头中发送令牌\n  withToken?: boolean;\n}\n\nexport interface Result<T = any> {\n  code: number;\n  type: 'success' | 'error' | 'warning';\n  message: string;\n  result: T;\n}\n\n//文件上传参数\nexport interface UploadFileParams {\n  // 其他参数\n  data?: Recordable;\n  // 文件参数接口字段名\n  name?: string;\n  // 文件\n  file: File | Blob;\n  // 文件名\n  filename?: string;\n  [key: string]: any;\n}\n//文件返回参数\nexport interface UploadFileCallBack {\n  // 成功回调方法\n  success?: any;\n  // 是否返回响应头,需要获取响应头时使用此属性\n  isReturnResponse?: boolean;\n}\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/types/axios.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

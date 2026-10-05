@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:tools/strict_warnings.rb",
+  "title": "rails/rails/tools/strict_warnings.rb",
+  "text": "# frozen_string_literal: true\n\n$VERBOSE = true\nWarning[:deprecated] = true\n\nmodule RailsStrictWarnings # :nodoc:\n  class WarningError < StandardError; end\n\n  PROJECT_ROOT = File.expand_path(\"../\", __dir__)\n  ALLOWED_WARNINGS = Regexp.union(\n    /circular require considered harmful.*delayed_job/, # Bug in delayed job.\n    /circular require considered harmful.*backburner/, # Bug in delayed job.\n\n    # Expected non-verbose warning emitted by Rails.\n    /Ignoring .*\\.yml because it has expired/,\n    /Failed to validate the schema cache because/,\n  )\n\n  SUPPRESSED_WARNINGS = Regexp.union(\n    # TODO: remove if https://github.com/mikel/mail/pull/1557 or similar fix\n    %r{/lib/mail/parsers/.*statement not reached},\n    %r{/lib/mail/parsers/.*assigned but unused variable - disp_type_s},\n    %r{/lib/mail/parsers/.*assigned but unused variable - testEof},\n\n    # Emitted by zlib\n    /attempt to close unfinished zstream/,\n\n    # Ractors are experimental\n    /Ractor( API)? is experimental/,\n  )\n\n  def warn(message, ...)\n    return if SUPPRESSED_WARNINGS.match?(message)\n\n    super\n\n    testpath = message[/test\\/.*\\.rb/]&.chomp || message\n    return unless message.include?(PROJECT_ROOT) || Pathname.new(testpath).exist?\n    return if ALLOWED_WARNINGS.match?(message)\n    return unless ENV[\"RAILS_STRICT_WARNINGS\"] || ENV[\"BUILDKITE\"]\n\n    raise WarningError.new(message)\n  end\nend\n\nWarning.singleton_class.prepend(RailsStrictWarnings)\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/tools/strict_warnings.rb",
+  "language": "ruby",
+  "kind": "code"
+}

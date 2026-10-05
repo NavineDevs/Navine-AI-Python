@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:mrousavy/react-native-vision-camera:docs/bun-env.d.ts",
+  "title": "mrousavy/react-native-vision-camera/docs/bun-env.d.ts",
+  "text": "/// <reference types=\"bun-types\" />\n",
+  "url": "https://raw.githubusercontent.com/mrousavy/react-native-vision-camera/main/docs/bun-env.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:49238050",
+  "title": "How We Pushed CDC into Postgres",
+  "text": "How We Pushed CDC into Postgres",
+  "url": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/"
+}

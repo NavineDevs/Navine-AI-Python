@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.13631v1",
+  "title": "Beyond Virtual Delay: Improving Packet Delay Bound in Network Calculus",
+  "text": "Beyond Virtual Delay: Improving Packet Delay Bound in Network Calculus\n\nIn network calculus, a fundamental result is the classical delay bound given by the horizontal deviation between the arrival and service curves. While widely used, the classical bound is derived from the notion of virtual delay. In this work, we first show that the maximum packet delay is always upper-bounded by the maximum virtual delay, revealing inherent conservatism when applying the virtual-delay-based bound to packet delay. Motivated by this insight, we revisit packet delay analysis and derive a new packet delay bound that requires no assumptions beyond the arrival and service curves. Specializing the new bound to a system with leaky-bucket arrival curve and rate-latency service curve shows strict improvement over the classical bound, which is further demonstrated through a case study in time-sensitive networking (TSN).",
+  "url": "https://arxiv.org/abs/2606.13631v1",
+  "category": "technical"
+}

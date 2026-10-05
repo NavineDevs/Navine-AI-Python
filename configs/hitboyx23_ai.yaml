@@ -1,0 +1,293 @@
+checkpoint_namespace: hitboyx23_ai
+
+backend: mixed
+size_tier: gpt3_1b
+
+profiles:
+  compact:
+    model:
+      vocab_size: 12000
+      d_model: 384
+      n_heads: 8
+      n_layers: 5
+      d_ff: 1536
+      max_seq_len: 1024
+      dropout: 0.08
+      use_rope: true
+      use_kv_cache: true
+      use_swiglu: true
+      use_rms_norm: true
+      tie_embeddings: true
+    training:
+      batch_size: 4
+      learning_rate: 0.0002
+      weight_decay: 0.08
+      max_steps: 12000
+      eval_interval: 200
+      save_interval: 100
+      warmup_steps: 200
+      grad_clip: 1.0
+      grad_accum_steps: 4
+      mixed_precision: true
+      sft_mask: true
+      train_seq_len: 512
+      tensorboard: false
+  150m:
+    model:
+      vocab_size: 12000
+      d_model: 768
+      n_heads: 12
+      n_layers: 16
+      d_ff: 4096
+      max_seq_len: 1024
+      dropout: 0.08
+      use_rope: true
+      use_kv_cache: true
+      use_swiglu: true
+      use_rms_norm: true
+      tie_embeddings: true
+    training:
+      batch_size: auto
+      learning_rate: 0.00014
+      weight_decay: 0.08
+      max_steps: 28000
+      eval_interval: 200
+      save_interval: 100
+      warmup_steps: 400
+      grad_clip: 1.0
+      grad_accum_steps: 12
+      mixed_precision: true
+      sft_mask: true
+      train_seq_len: 448
+      tensorboard: false
+  gpt2:
+    model:
+      vocab_size: 12000
+      d_model: 768
+      n_heads: 12
+      n_layers: 16
+      d_ff: 4096
+      max_seq_len: 1024
+      dropout: 0.08
+      use_rope: true
+      use_kv_cache: true
+      use_swiglu: true
+      use_rms_norm: true
+      tie_embeddings: true
+    training:
+      batch_size: auto
+      learning_rate: 0.00014
+      weight_decay: 0.08
+      max_steps: 28000
+      eval_interval: 200
+      save_interval: 100
+      warmup_steps: 400
+      grad_clip: 1.0
+      grad_accum_steps: 12
+      mixed_precision: true
+      sft_mask: true
+      train_seq_len: 448
+      tensorboard: false
+  small:
+    model:
+      vocab_size: 12000
+      d_model: 640
+      n_heads: 10
+      n_layers: 10
+      d_ff: 2560
+      max_seq_len: 1024
+      dropout: 0.08
+      use_rope: true
+      use_kv_cache: true
+      use_swiglu: true
+      use_rms_norm: true
+      tie_embeddings: true
+    training:
+      batch_size: 2
+      learning_rate: 0.00016
+      weight_decay: 0.08
+      max_steps: 12000
+      eval_interval: 200
+      save_interval: 100
+      warmup_steps: 250
+      grad_clip: 1.0
+      grad_accum_steps: 8
+      mixed_precision: true
+      sft_mask: true
+      train_seq_len: 512
+      tensorboard: false
+  medium:
+    model:
+      vocab_size: 12000
+      d_model: 1024
+      n_heads: 16
+      n_layers: 24
+      d_ff: 4096
+      max_seq_len: 1024
+      dropout: 0.06
+      use_rope: true
+      use_kv_cache: true
+      use_swiglu: true
+      use_rms_norm: true
+      tie_embeddings: true
+    training:
+      batch_size: 1
+      learning_rate: 0.00011
+      weight_decay: 0.08
+      max_steps: 24000
+      eval_interval: 100
+      save_interval: 50
+      warmup_steps: 400
+      grad_clip: 1.0
+      grad_accum_steps: 16
+      mixed_precision: true
+      sft_mask: true
+      train_seq_len: 512
+      tensorboard: false
+      train_max_seq_len: 512
+  gpt3_1b:
+    model:
+      vocab_size: 12000
+      d_model: 1664
+      n_heads: 16
+      n_layers: 30
+      d_ff: 6656
+      max_seq_len: 2048
+      dropout: 0.08
+      use_rope: true
+      use_kv_cache: true
+      use_swiglu: true
+      use_rms_norm: true
+      tie_embeddings: true
+    training:
+      batch_size: 1
+      learning_rate: 0.00006
+      weight_decay: 0.1
+      max_steps: 48000
+      eval_interval: 500
+      save_interval: 200
+      warmup_steps: 600
+      grad_clip: 1.0
+      grad_accum_steps: 48
+      mixed_precision: true
+      sft_mask: true
+      tensorboard: false
+      train_seq_len: 96
+      gradient_checkpointing: true
+      optimizer: cpu_adamw
+      max_eval_batches: 2
+
+model:
+  vocab_size: 12000
+  d_model: 1664
+  n_heads: 16
+  n_layers: 30
+  d_ff: 6656
+  max_seq_len: 2048
+  dropout: 0.08
+  use_rope: true
+  use_kv_cache: true
+  use_swiglu: true
+  use_rms_norm: true
+  tie_embeddings: true
+
+tokenizer:
+  use_bpe: true
+
+training:
+  batch_size: 1
+  learning_rate: 0.00006
+  weight_decay: 0.1
+  max_steps: 48000
+  eval_interval: 500
+  save_interval: 200
+  warmup_steps: 600
+  grad_clip: 1.0
+  grad_accum_steps: 48
+  mixed_precision: true
+  sft_mask: true
+  tensorboard: false
+  train_seq_len: 96
+  gradient_checkpointing: true
+  optimizer: cpu_adamw
+  max_eval_batches: 2
+
+data:
+  train_file: data/text/instruction_chat.txt
+  code_file: data/text/sample_code.jsonl
+  learned_file: data/text/learned_corpus.txt
+  val_split: 0.08
+  use_data_pipeline: true
+  pipeline_folders:
+    - data/text
+    - data/train/chat
+    - data/train/general
+    - data/train/coding
+    - data/train/thinking
+    - data/train/detective
+    - data/train/unrestricted
+    - data/train/nsfw
+    - data/learn
+    - data/conversations
+
+inference:
+  max_new_tokens: 320
+  min_new_tokens: 4
+  temperature: 0.5
+  top_k: 40
+  top_p: 0.88
+  repetition_penalty: 1.18
+  frequency_penalty: 0.35
+  no_repeat_ngram_size: 4
+  num_candidates: 1
+  modes:
+    chat:
+      max_new_tokens: 200
+      min_new_tokens: 4
+      temperature: 0.52
+      top_k: 40
+      top_p: 0.88
+      repetition_penalty: 1.2
+      frequency_penalty: 0.4
+      no_repeat_ngram_size: 4
+      num_candidates: 2
+    think:
+      max_new_tokens: 360
+      min_new_tokens: 8
+      temperature: 0.33
+      top_k: 30
+      top_p: 0.85
+      repetition_penalty: 1.22
+      frequency_penalty: 0.45
+      no_repeat_ngram_size: 5
+      num_candidates: 3
+    detective:
+      max_new_tokens: 440
+      min_new_tokens: 12
+      temperature: 0.3
+      top_k: 28
+      top_p: 0.84
+      repetition_penalty: 1.24
+      frequency_penalty: 0.5
+      no_repeat_ngram_size: 5
+      num_candidates: 3
+    code:
+      max_new_tokens: 512
+      min_new_tokens: 12
+      temperature: 0.18
+      top_k: 30
+      top_p: 0.9
+      repetition_penalty: 1.08
+      frequency_penalty: 0.15
+      no_repeat_ngram_size: 0
+      num_candidates: 1
+    analyze:
+      max_new_tokens: 400
+      min_new_tokens: 10
+      temperature: 0.3
+      top_k: 35
+      top_p: 0.87
+      repetition_penalty: 1.2
+      frequency_penalty: 0.4
+      no_repeat_ngram_size: 4
+      num_candidates: 2

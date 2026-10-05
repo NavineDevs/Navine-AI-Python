@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:28823817",
+  "title": "Mongrel2",
+  "text": "Mongrel2 is an open-source \"language agnostic\" web server written by Zed Shaw, and is the successor to Shaw's Mongrel server. The server supports HTTP, Flash XMLSockets, WebSockets and long polling connections.",
+  "url": "https://en.wikipedia.org/wiki/Mongrel2",
+  "category": "general"
+}

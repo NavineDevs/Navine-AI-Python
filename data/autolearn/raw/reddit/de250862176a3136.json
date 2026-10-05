@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:webdev:t3_1vkmnbh",
+  "title": "Font hosting on a CDN: WOFF2 and WOFF/TTF requirements",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>WOFF2 is the right call for CDN delivery. The compression advantage over older formats is significant and browser support is wide enough that there&#39;s no argument against leading with it.</p> <p>Where I’ve seen people go wrong is in treating that as permission to drop WOFF and TTF entirely. Those formats still cover a tail of older browsers that&#39;s negligible but not absent, and serving blank text or system font fallbacks to even a handful of users is the kind of thing that comes back to you. </p> <p>I’ve personally kept WOFF and TTF on every project since learning that the hard way. The overhead is minimal and the coverage is worth it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/glyph_geek\"> /u/glyph_geek </a> <br/> <span><a href=\"https://www.reddit.com/r/webdev/comments/1vkmnbh/font_hosting_on_a_cdn_woff2_and_woffttf/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1vkmnbh/font_hosting_on_a_cdn_woff2_and_woffttf/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/webdev/comments/1vkmnbh/font_hosting_on_a_cdn_woff2_and_woffttf/"
+}

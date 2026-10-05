@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:laravel/framework:config/view.php",
+  "title": "laravel/framework/config/view.php",
+  "text": "<?php\n\nreturn [\n\n    /*\n    |--------------------------------------------------------------------------\n    | View Storage Paths\n    |--------------------------------------------------------------------------\n    |\n    | Most templating systems load templates from disk. Here you may specify\n    | an array of paths that should be checked for your views. Of course\n    | the usual Laravel view path has already been registered for you.\n    |\n    */\n\n    'paths' => [\n        resource_path('views'),\n    ],\n\n    /*\n    |--------------------------------------------------------------------------\n    | Compiled View Path\n    |--------------------------------------------------------------------------\n    |\n    | This option determines where all the compiled Blade templates will be\n    | stored for your application. Typically, this is within the storage\n    | directory. However, as usual, you are free to change this value.\n    |\n    */\n\n    'compiled' => env(\n        'VIEW_COMPILED_PATH',\n        realpath(storage_path('framework/views'))\n    ),\n\n];\n",
+  "url": "https://raw.githubusercontent.com/laravel/framework/13.x/config/view.php",
+  "language": "php",
+  "kind": "code"
+}

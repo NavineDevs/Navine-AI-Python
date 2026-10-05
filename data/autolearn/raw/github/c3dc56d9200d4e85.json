@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:microsoft/FASTER:cc/benchmark-dir/benchmark.cc",
+  "title": "microsoft/FASTER/cc/benchmark-dir/benchmark.cc",
+  "text": "// Copyright (c) Microsoft Corporation. All rights reserved.\n// Licensed under the MIT license.\n\n#include <atomic>\n#include <cstdint>\n#include <cstdio>\n#include <cstdlib>\n#include <string>\n\n#include \"benchmark.h\"\n\nusing namespace FASTER::core;\n\nusing store_t = FasterKv<Key, Value, disk_t>;\n\nint main(int argc, char* argv[]) {\n  constexpr size_t kNumArgs = 4;\n  if(argc != kNumArgs + 1) {\n    printf(\"Usage: benchmark.exe <workload> <# threads> <load_filename> <run_filename>\\n\");\n    exit(0);\n  }\n\n  Workload workload = static_cast<Workload>(std::atol(argv[1]));\n  size_t num_threads = ::atol(argv[2]);\n  std::string load_filename{ argv[3] };\n  std::string run_filename{ argv[4] };\n\n  load_files(load_filename, run_filename);\n\n  // FASTER store has a hash table with approx. kInitCount / 2 entries and a log of size 16 GB\n  size_t init_size = next_power_of_two(kInitCount / 2);\n  store_t store{ init_size, 17179869184, \"storage\" };\n\n  run(&store, workload, num_threads);\n\n  return 0;\n}\n",
+  "url": "https://raw.githubusercontent.com/microsoft/FASTER/main/cc/benchmark-dir/benchmark.cc",
+  "language": "cpp",
+  "kind": "code"
+}

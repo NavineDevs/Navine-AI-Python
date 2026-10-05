@@ -1,0 +1,6 @@
+{
+  "parameters": 1010719309,
+  "name": "image_enterprise_v2",
+  "size_tier": "gpt3_1b",
+  "unique_trainable": true
+}

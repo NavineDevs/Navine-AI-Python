@@ -1,0 +1,7 @@
+allow_screen: true
+allow_input: false
+require_explicit_request: true
+max_type_chars: 2000
+click_delay_ms: 50
+audit: true
+output_dir: outputs/desktop

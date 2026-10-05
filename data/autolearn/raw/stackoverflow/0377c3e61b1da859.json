@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:67699",
+  "title": "How do I clone all remote branches?",
+  "text": "How do I clone all remote branches?\n\n<p>My <code>master</code> and <code>development</code> branches are tracked remotely on <a href=\"http://en.wikipedia.org/wiki/GitHub\" rel=\"noreferrer\">GitHub</a>. How do I clone both these branches?</p>",
+  "url": "https://stackoverflow.com/questions/67699/how-do-i-clone-all-remote-branches",
+  "kind": "qa"
+}

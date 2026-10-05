@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:gif:30780382:30780383:video",
+  "title": "/gif/ 30780383",
+  "text": "/gif/ 30780383",
+  "url": "https://boards.4chan.org/gif/thread/30780382#p30780383",
+  "category": "nsfw",
+  "kind": "video",
+  "caption": "/gif/ 30780383 | [animated, video] | tags: 4chan, unknown",
+  "board": "gif",
+  "thread_id": 30780382,
+  "post_id": 30780383,
+  "media_category": "animated",
+  "tags": [
+    "4chan",
+    "gif",
+    "animated",
+    "video"
+  ],
+  "video_url": "https://i.4cdn.org/gif/1781317883045412.webm",
+  "subject_type": "unknown",
+  "style_type": "mixed",
+  "training_scope": "nsfw",
+  "local_path": "data\\nsfw\\local\\animated\\gif_1781317883045412.webm"
+}

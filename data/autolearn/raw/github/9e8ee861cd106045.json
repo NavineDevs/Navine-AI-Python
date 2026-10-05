@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:bobthecow/psysh:src/CodeCleanerAware.php",
+  "title": "bobthecow/psysh/src/CodeCleanerAware.php",
+  "text": "<?php\n\n/*\n * This file is part of Psy Shell.\n *\n * (c) 2012-2026 Justin Hileman\n *\n * For the full copyright and license information, please view the LICENSE\n * file that was distributed with this source code.\n */\n\nnamespace Psy;\n\n/**\n * CodeCleanerAware interface.\n *\n * This interface is used to pass the Shell's CodeCleaner into commands which\n * require access to name resolution via use statements and namespace context.\n */\ninterface CodeCleanerAware\n{\n    /**\n     * Set the CodeCleaner instance.\n     */\n    public function setCodeCleaner(CodeCleaner $cleaner);\n}\n",
+  "url": "https://raw.githubusercontent.com/bobthecow/psysh/main/src/CodeCleanerAware.php",
+  "language": "php",
+  "kind": "code"
+}

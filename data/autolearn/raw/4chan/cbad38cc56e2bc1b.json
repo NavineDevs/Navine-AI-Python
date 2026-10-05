@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:e:3036846:3036846:image",
+  "title": "I got banned on Pixiv",
+  "text": "I got banned on Pixiv Curse you Cygames",
+  "url": "https://boards.4chan.org/e/thread/3036846#p3036846",
+  "category": "nsfw",
+  "kind": "image",
+  "caption": "I got banned on Pixiv | [hentai, image, character] | tags: 4chan",
+  "board": "e",
+  "thread_id": 3036846,
+  "post_id": 3036846,
+  "media_category": "hentai",
+  "tags": [
+    "4chan",
+    "e",
+    "hentai",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/e/1766499615256318.gif",
+  "subject_type": "character",
+  "style_type": "anime",
+  "training_scope": "nsfw",
+  "local_path": "data\\nsfw\\local\\hentai\\e_1766499615256318.gif"
+}

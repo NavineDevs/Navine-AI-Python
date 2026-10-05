@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:215718",
+  "title": "How can I reset or revert a file to a specific revision?",
+  "text": "How can I reset or revert a file to a specific revision?\n\n<p>How can I revert a modified file to its previous revision at a specific commit hash (which I determined via <a href=\"https://git-scm.com/docs/git-log\" rel=\"noreferrer\"><code>git log</code></a> and <a href=\"https://git-scm.com/docs/git-diff\" rel=\"noreferrer\"><code>git diff</code></a>)?</p>",
+  "url": "https://stackoverflow.com/questions/215718/how-can-i-reset-or-revert-a-file-to-a-specific-revision",
+  "kind": "qa"
+}

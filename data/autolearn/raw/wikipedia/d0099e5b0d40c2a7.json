@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:16388109",
+  "title": "Dunford–Pettis property",
+  "text": "In functional analysis, the Dunford–Pettis property, named after Nelson Dunford and B. J. Pettis, is a property of a Banach space stating that all weakly compact operators from this space into another Banach space are completely continuous. Many standard Banach spaces have this property, most notably, the space \n  \n    \n      \n        C\n        (\n        K\n        )\n      \n    \n    {\\displaystyle C(K)}\n  \n of continuous functions on a compact space and the space \n  \n    \n      \n        \n          L\n          \n            1\n          \n        \n        (\n        μ\n        )\n      \n    \n    {\\displaystyle L^{1}(\\mu )}\n  \n of the Lebesgue integrable functions on a measure space. Alexander Grothendieck introduced the concept in the early 1950s (Grothendieck 1953), following the work of Dunford and Pettis, who developed earlier results of Shizuo Kakutani, Kōsaku Yosida, and several others. Important results were obtained more recently by Jean Bourgain. Nevertheless, the Dunford–Pettis property is not completely understood.",
+  "url": "https://en.wikipedia.org/wiki/Dunford%E2%80%93Pettis_property",
+  "category": "general"
+}

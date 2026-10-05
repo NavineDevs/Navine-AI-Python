@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:cpp:t3_1vfadm6",
+  "title": "Has Whole Tomato said anything about C++26 reflection support in Visual Assist?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>With GCC starting to support C++26 reflection, I&#39;m curious whether Whole Tomato has shared any plans for Visual Assist support.</p> <p>Reflection seems like it could enable some interesting navigation, code analysis, and refactoring features once compiler support matures.</p> <p>Has anyone seen a roadmap, forum post, or comment from the team about this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NothingPatient2668\"> /u/NothingPatient2668 </a> <br/> <span><a href=\"https://www.reddit.com/r/cpp/comments/1vfadm6/has_whole_tomato_said_anything_about_c26/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/cpp/comments/1vfadm6/has_whole_tomato_said_anything_about_c26/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/cpp/comments/1vfadm6/has_whole_tomato_said_anything_about_c26/"
+}

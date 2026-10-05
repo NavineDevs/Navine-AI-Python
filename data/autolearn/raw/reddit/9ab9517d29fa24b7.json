@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vwbk1h",
+  "title": "RSoC 2026: EEVDF Scheduler for Redox OS",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>The final goal of the significant scheduling improvements saga to greatly improve system performance was achieved! and Akshit Gaur wrote a incredibly detailed article about it.</p> <p><a href=\"https://www.redox-os.org/news/rsoc-eevdf/\">https://www.redox-os.org/news/rsoc-eevdf/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ribbon_45\"> /u/ribbon_45 </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1vwbk1h/rsoc_2026_eevdf_scheduler_for_redox_os/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vwbk1h/rsoc_2026_eevdf_scheduler_for_redox_os/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vwbk1h/rsoc_2026_eevdf_scheduler_for_redox_os/"
+}

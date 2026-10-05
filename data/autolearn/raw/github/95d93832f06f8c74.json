@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rwf2/Rocket:scripts/publish.sh",
+  "title": "rwf2/Rocket/scripts/publish.sh",
+  "text": "#! /usr/bin/env bash\nset -e\n\n#\n# Publishes the current versions of all Rocket crates to crates.io.\n#\n\n# Brings in _ROOT, _DIR, _DIRS globals.\nSCRIPT_DIR=\"$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\"\nsource \"${SCRIPT_DIR}/config.sh\"\n\nif ! [ -z \"$(git status --porcelain)\" ]; then\n  echo \"There are uncommitted changes! Aborting.\"\n  exit 1\nfi\n\n# Ensure everything passes before trying to publish.\necho \":::: Running complete test suite...\"\ncargo clean\nbash \"${SCRIPT_DIR}/test.sh\" +stable --all\nbash \"${SCRIPT_DIR}/test.sh\" +stable --all --release\n\n# Publish all the things.\nfor dir in \"${ALL_CRATE_ROOTS[@]}\"; do\n  pushd \"${dir}\"\n  echo \":::: Publishing '${dir}'...\"\n  # We already checked things ourselves. Don't spend time reverifying.\n  cargo publish --no-verify --allow-dirty ${@:1}\n  # Give the index some time to update so the deps are there if we need them.\n  sleep 5\n  popd\ndone\n",
+  "url": "https://raw.githubusercontent.com/rwf2/Rocket/master/scripts/publish.sh",
+  "language": "shell",
+  "kind": "code"
+}

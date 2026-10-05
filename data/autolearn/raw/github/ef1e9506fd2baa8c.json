@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:scripts/feature-flags.js",
+  "title": "vuejs/vue/scripts/feature-flags.js",
+  "text": "module.exports = {\n  NEW_SLOT_SYNTAX: true,\n  VBIND_PROP_SHORTHAND: false\n}\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/scripts/feature-flags.js",
+  "language": "javascript",
+  "kind": "code"
+}

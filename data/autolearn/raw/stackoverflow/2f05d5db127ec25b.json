@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:419163",
+  "title": "What does if __name__ == &quot;__main__&quot;: do?",
+  "text": "What does if __name__ == &quot;__main__&quot;: do?\n\n<p>What does this do, and why should one include the <code>if</code> statement?</p>\n<pre class=\"lang-py prettyprint-override\"><code>if __name__ == &quot;__main__&quot;:\n    print(&quot;Hello, World!&quot;)\n</code></pre>\n<hr />\n<p><sub>If you are trying to close a question where someone should be using this idiom and isn't, consider closing as a duplicate of <a href=\"https://stackoverflow.com/questions/6523791\">Why is Python running my module when I import it, and how do I stop it?</a> instead. For questions where someone simply hasn't called any functions, or incorrectly expects a function named <code>main</code> to be used as an entry point automatically, use <a href=\"https://stackoverflow.com/questions/17257631\">Why doesn&#39;t the main() function run when I start a Python script? Where does the script start running?</a>.</sub></p>",
+  "url": "https://stackoverflow.com/questions/419163/what-does-if-name-main-do",
+  "kind": "qa"
+}

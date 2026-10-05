@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1vows3p",
+  "title": "C99 real mode compiler written in TS that outputs raw bootable 16bit binaries",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hi, a few years ago I wrote a C99 compiler that generates a bootable binary which, once loaded onto a floppy disk, can be run in x86 real mode. It supports x87 floating-point operations, has a simple IR, optimizes the generated code, and produces output of fairly decent quality (by toy compiler standards). Maybe someone will find it interesting. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dywan_z_polski\"> /u/dywan_z_polski </a> <br/> <span><a href=\"https://github.com/Mati365/ts-c-compiler\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1vows3p/c99_real_mode_compiler_written_in_ts_that_outputs/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1vows3p/c99_real_mode_compiler_written_in_ts_that_outputs/"
+}

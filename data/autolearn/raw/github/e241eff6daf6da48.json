@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:swiftlang/swift:utils/chex.py",
+  "title": "swiftlang/swift/utils/chex.py",
+  "text": "#!/usr/bin/env python3\n# Check HEX -- a stupid filter that allows hexadecimal literals to be checked\n# for in LLVM IR FileCheck tests. It works by replacing occurrences of\n# strings matching the regex /< (i[0-9]+) \\s+ (0x[0-9A-Fa-f]+) >/x with the\n# decimal literal equivalent that would really appear in printed LLVM IR.\n\nimport re\nimport sys\n\nhex = re.compile(r\"\"\"<(i([0-9]+)\\s+)0x([0-9A-Fa-f_]+)>\"\"\")\n\n\ndef hexReplace(match):\n    # Integer type is match group 1\n    ty = match.group(1)\n    # Integer bit width is match group 2\n    bits = int(match.group(2))\n    # Hex value is match group 3\n    value = int(match.group(3).replace(\"_\", \"\"), base=16)\n    # LLVM prints the decimal value as if it's two's-complement signed in\n    # the given bitwidth, so the printed value will be negative if\n    # greater than 2^(bits - 1)\n    if value >= (1 << (bits - 1)):\n        value -= 1 << bits\n    return ty + str(value)\n\n\nfor line in sys.stdin:\n    print(re.sub(hex, hexReplace, line), end=\"\")\n",
+  "url": "https://raw.githubusercontent.com/swiftlang/swift/main/utils/chex.py",
+  "language": "python",
+  "kind": "code"
+}

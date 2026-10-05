@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sorin-ionescu/prezto:modules/helper/init.zsh",
+  "title": "sorin-ionescu/prezto/modules/helper/init.zsh",
+  "text": "#\n# Defines helper functions.\n#\n# Authors:\n#   Sorin Ionescu <sorin.ionescu@gmail.com>\n#\n\n# Checks if a file can be autoloaded by trying to load it in a subshell.\nfunction is-autoloadable {\n  ( unfunction $1 ; autoload -U +X $1 ) &> /dev/null\n}\n\n# Checks if a name is a command, function, or alias.\nfunction is-callable {\n  (( $+commands[$1] || $+functions[$1] || $+aliases[$1] || $+builtins[$1] ))\n}\n\n# Checks a boolean variable for \"true\".\n# Case insensitive: \"1\", \"y\", \"yes\", \"t\", \"true\", \"o\", and \"on\".\nfunction is-true {\n  [[ -n \"$1\" && \"$1\" == (1|[Yy]([Ee][Ss]|)|[Tt]([Rr][Uu][Ee]|)|[Oo]([Nn]|)) ]]\n}\n\n# Prints the first non-empty string in the arguments array.\nfunction coalesce {\n  for arg in $argv; do\n    print \"$arg\"\n    return 0\n  done\n  return 1\n}\n\n# Checks if running on macOS Darwin.\nfunction is-darwin {\n  [[ \"$OSTYPE\" == darwin* ]]\n}\n\n# Checks if running on Linux.\nfunction is-linux {\n  [[ \"$OSTYPE\" == linux* ]]\n}\n\n# Checks if running on BSD.\nfunction is-bsd {\n  [[ \"$OSTYPE\" == *bsd* ]]\n}\n\n# Checks if running on Cygwin (Windows).\nfunction is-cygwin {\n  [[ \"$OSTYPE\" == cygwin* ]]\n}\n\n# Checks if running on termux (Android).\nfunction is-termux {\n  [[ \"$OSTYPE\" == linux-android ]]\n}\n",
+  "url": "https://raw.githubusercontent.com/sorin-ionescu/prezto/master/modules/helper/init.zsh",
+  "language": "shell",
+  "kind": "code"
+}

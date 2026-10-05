@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:1274057",
+  "title": "How do I make Git forget about a file that was tracked, but is now in .gitignore?",
+  "text": "How do I make Git forget about a file that was tracked, but is now in .gitignore?\n\n<p>I put a file that was previously being tracked by Git onto the <code>.gitignore</code> list. However, the file still shows up in <code>git status</code> after it is edited. How do I force Git to completely forget the file?</p>",
+  "url": "https://stackoverflow.com/questions/1274057/how-do-i-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore",
+  "kind": "qa"
+}

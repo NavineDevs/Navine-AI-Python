@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:actionmailbox/lib/action_mailbox.rb",
+  "title": "rails/rails/actionmailbox/lib/action_mailbox.rb",
+  "text": "# frozen_string_literal: true\n\nrequire \"active_support\"\nrequire \"active_support/rails\"\nrequire \"active_support/core_ext/numeric/time\"\n\nrequire \"action_mailbox/version\"\nrequire \"action_mailbox/deprecator\"\nrequire \"action_mailbox/mail_ext\"\n\n# :markup: markdown\n# :include: ../README.md\nmodule ActionMailbox\n  extend ActiveSupport::Autoload\n\n  autoload :Base\n  autoload :Router\n  autoload :TestCase\n\n  mattr_accessor :ingress\n  mattr_accessor :logger\n  mattr_accessor :incinerate, default: true\n  mattr_accessor :incinerate_after, default: 30.days\n  mattr_accessor :queues, default: {}\n  mattr_accessor :storage_service\nend\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/actionmailbox/lib/action_mailbox.rb",
+  "language": "ruby",
+  "kind": "code"
+}

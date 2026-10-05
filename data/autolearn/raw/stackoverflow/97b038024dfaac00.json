@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:38549",
+  "title": "What is the difference between INNER JOIN and OUTER JOIN?",
+  "text": "What is the difference between INNER JOIN and OUTER JOIN?\n\n<p>What is the difference between <code>INNER JOIN</code> and <code>OUTER JOIN</code>?</p>\n<p>How do <code>LEFT OUTER JOIN</code>, <code>RIGHT OUTER JOIN</code>, and <code>FULL OUTER JOIN</code> fit in?</p>",
+  "url": "https://stackoverflow.com/questions/38549/what-is-the-difference-between-inner-join-and-outer-join",
+  "kind": "qa"
+}

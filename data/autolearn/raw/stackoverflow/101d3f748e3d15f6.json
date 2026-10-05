@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:406230",
+  "title": "Regular expression to match a line that doesn&#39;t contain a word",
+  "text": "Regular expression to match a line that doesn&#39;t contain a word\n\n<p>I know it's possible to match a word and then reverse the matches using other tools (e.g. <code>grep -v</code>). However, is it possible to match lines that do not contain a specific word, e.g. <code>hede</code>, using a regular expression?</p>\n<h5>Input:</h5>\n<pre><code>hoho\nhihi\nhaha\nhede\n</code></pre>\n<h5>Code:</h5>\n<pre class=\"lang-bash prettyprint-override\"><code>grep &quot;&lt;Regex for 'doesn't contain hede'&gt;&quot; input\n</code></pre>\n<h5>Desired output:</h5>\n<pre><code>hoho\nhihi\nhaha\n</code></pre>",
+  "url": "https://stackoverflow.com/questions/406230/regular-expression-to-match-a-line-that-doesnt-contain-a-word",
+  "kind": "qa"
+}

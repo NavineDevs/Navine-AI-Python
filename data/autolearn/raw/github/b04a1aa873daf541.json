@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:abpframework/abp:npm/scripts/remove-lock-files.ts",
+  "title": "abpframework/abp/npm/scripts/remove-lock-files.ts",
+  "text": "import fse from 'fs-extra';\nimport { log } from './utils/log';\n\nremoveLockFiles();\n\nexport async function removeLockFiles() {\n  const folders = [\n    '../../templates/app/angular',\n    '../../templates/app/react-native',\n    '../../templates/module/angular',\n  ];\n\n  try {\n    for (let i = 0; i < folders.length; i++) {\n      await fse.remove(`${folders[i]}/yarn.lock`);\n      await fse.remove(`${folders[i]}/package-lock.json`);\n    }\n  } catch (error) {\n    throwError(error?.message || error);\n  }\n}\n\nfunction throwError(error: string) {\n  log.error(error);\n  process.exit(1);\n}\n",
+  "url": "https://raw.githubusercontent.com/abpframework/abp/dev/npm/scripts/remove-lock-files.ts",
+  "language": "typescript",
+  "kind": "code"
+}

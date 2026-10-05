@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:devops:t3_1u4htle",
+  "title": "What was the most painful \"only one person knew this\" incident you've seen in production?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Curious about real experiences here.</p> <p>Have you ever had a deployment, recovery, migration, incident response, or operational task take much longer because a critical piece of knowledge lived in one person&#39;s head?</p> <p>Not necessarily a major outage — just situations where:</p> <ul> <li>a key engineer was unavailable</li> <li>a consultant had originally built it</li> <li>a workaround existed but wasn&#39;t documented</li> <li>a runbook was incomplete or outdated</li> <li>nobody knew why a particular step existed</li> </ul> <p>What was the missing knowledge?</p> <p>How was it eventually rediscovered?</p> <p>Did the team change anything afterward, or did things mostly return to normal once the issue was resolved?</p> <p>Looking for real stories rather than best-practice advice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AbilityAwkward5372\"> /u/AbilityAwkward5372 </a> <br/> <span><a href=\"https://www.reddit.com/r/devops/comments/1u4htle/what_was_the_most_painful_only_one_person_knew/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/devops/comments/1u4htle/what_was_the_most_painful_only_one_person_knew/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/devops/comments/1u4htle/what_was_the_most_painful_only_one_person_knew/"
+}

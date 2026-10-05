@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:client/vitest-setup.js",
+  "title": "freeCodeCamp/freeCodeCamp/client/vitest-setup.js",
+  "text": "import { vi, afterEach } from 'vitest';\nimport '@testing-library/jest-dom/vitest';\nimport { cleanup } from '@testing-library/react';\n\nvi.mock('react-spinkit');\nvi.mock('gatsby');\nvi.mock('react-i18next');\n\nafterEach(() => {\n  // Vitest doesn't automatically call cleanup. Without it the rendered\n  // components are never removed and so tests are not independent.\n  cleanup();\n});\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/client/vitest-setup.js",
+  "language": "javascript",
+  "kind": "code"
+}

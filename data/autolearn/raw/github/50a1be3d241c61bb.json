@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rtk-ai/rtk:scripts/install-local.sh",
+  "title": "rtk-ai/rtk/scripts/install-local.sh",
+  "text": "#!/usr/bin/env bash\n# Install RTK from a local release build (builds from source, no network download).\n\nset -euo pipefail\n\nINSTALL_DIR=\"${1:-$HOME/.cargo/bin}\"\nINSTALL_PATH=\"${INSTALL_DIR}/rtk\"\nBINARY_PATH=\"./target/release/rtk\"\n\nif ! command -v cargo &>/dev/null; then\n    echo \"error: cargo not found\"\n    echo \"install Rust: https://rustup.rs\"\n    exit 1\nfi\n\necho \"installing to: $INSTALL_DIR\"\nif [ -f \"$BINARY_PATH\" ] && [ -z \"$(find src/ Cargo.toml Cargo.lock -newer \"$BINARY_PATH\" -print -quit 2>/dev/null)\" ]; then\n    echo \"binary is up to date\"\nelse\n    echo \"building rtk (release)...\"\n    cargo build --release\nfi\n\nmkdir -p \"$INSTALL_DIR\"\ninstall -m 755 \"$BINARY_PATH\" \"$INSTALL_PATH\"\n\necho \"installed: $INSTALL_PATH\"\necho \"version: $(\"$INSTALL_PATH\" --version)\"\n\ncase \":$PATH:\" in\n    *\":$INSTALL_DIR:\"*) ;;\n    *) echo\n       echo \"warning: $INSTALL_DIR is not in your PATH\"\n       echo \"add this to your shell profile:\"\n       echo \"  export PATH=\\\"\\$PATH:$INSTALL_DIR\\\"\"\n       ;;\nesac\n",
+  "url": "https://raw.githubusercontent.com/rtk-ai/rtk/develop/scripts/install-local.sh",
+  "language": "shell",
+  "kind": "code"
+}

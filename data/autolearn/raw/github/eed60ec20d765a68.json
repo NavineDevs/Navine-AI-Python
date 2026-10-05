@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:niieani/bash-oo-framework:test/test-imports.sh",
+  "title": "niieani/bash-oo-framework/test/test-imports.sh",
+  "text": "#!/usr/bin/env bash\n\n## BOOTSTRAP ##\nsource \"$( cd \"${BASH_SOURCE[0]%/*}\" && pwd )/lib/oo-bootstrap.sh\"\n\n## MAIN ##\nimport util/log util/exception util/tryCatch util/namedParameters util/class\nimport UI/Cursor\n\n# lalala\nlala() {\n  [string] something=yo\n\n  echo $something\n\n  UI.Cursor cursor\n  $var:cursor capture\n  echo yo\n  sleep 1\n  $var:cursor restore\n  echo yopa\n}\n\n# lala\n\nlala2() {\n  [string] something=yo\n\n  echo $something\n\n  UI.Cursor cursor\n  $var:cursor capture\n  echo yo\n  sleep 1\n  $var:cursor restore\n  echo yopa\n}\n\nlala2\n\n\n## YOUR CODE GOES HERE ##\n",
+  "url": "https://raw.githubusercontent.com/niieani/bash-oo-framework/master/test/test-imports.sh",
+  "language": "shell",
+  "kind": "code"
+}

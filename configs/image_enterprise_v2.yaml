@@ -1,0 +1,131 @@
+checkpoint_namespace: image_enterprise_v2
+migration: |
+  ~1.01B+ enterprise UNet @ 192px (base_channels 432, mults 1/2/4/4).
+  True unique params target ~1.01B (gpt3_1b tier).
+  Train/infer via image_enterprise_v2 or image_enterprise (same geometry).
+model:
+  image_size: 192
+  in_channels: 3
+  base_channels: 432
+  channel_mults:
+  - 1
+  - 2
+  - 4
+  - 4
+  num_res_blocks: 2
+  time_emb_dim: 1728
+  text_emb_dim: 864
+  attn_resolutions:
+  - 48
+  - 24
+  text_max_len: 64
+  text_layers: 4
+  text_heads: 8
+  min_snr_gamma: 5.0
+  arch_version: 6
+  size_tier: gpt3_1b
+diffusion:
+  timesteps: 250
+  beta_start: 0.0001
+  beta_end: 0.02
+  beta_schedule: cosine
+training:
+  batch_size: 1
+  learning_rate: 0.00006
+  max_steps: 18000
+  save_interval: 250
+  grad_clip: 1.0
+  finetune_steps: 18000
+  finetune_lr: 3.0e-05
+  fresh_start: false
+  photoreal_training: true
+  sample_interval: 0
+  cfg_dropout: 0.12
+  ema_decay: 0.999
+  disable_ema: true
+  mixed_precision: true
+  torch_compile: false
+  max_files_per_dir: 800
+  grad_accum_steps: 8
+  gradient_checkpointing: true
+  optimizer: sgd
+  oversample_categories:
+    hentai: 10
+    animated: 8
+    porn: 10
+    human: 8
+    real: 8
+    sky: 16
+    landscape: 12
+    sfw: 8
+    people: 6
+    object: 4
+    general: 3
+    mixed: 3
+    think: 1
+    detective: 1
+    mystery: 1
+data:
+  train_dir: data/nsfw/local/hentai
+  extra_dirs:
+  - data/nsfw/local/porn
+  - data/nsfw/local/human
+  - data/nsfw/local/real
+  - data/nsfw/local/animated
+  - data/nsfw/local/mixed
+  - data/image/sfw/skies
+  - data/image/sfw/landscapes
+  - data/image/sfw/people
+  - data/image/sfw/objects
+  - data/image/overfit_hentai
+  - data/image/overfit_hentai8
+  - data/nsfw/images/local/hentai
+  - data/nsfw/images/local/real
+  - data/nsfw/images/local/porn
+  - data/learn/image
+  - data/learn/external/images
+  - data/train/image_human
+  - data/train/human
+  - data/image/ingested
+  - data/image/learned
+inference:
+  num_steps: 20
+  guidance_scale: 1.6
+  seed: 0
+  output_size: 192
+  prefer_trained_model: true
+  custom_trained_only: true
+  prefer_reference_output: false
+  allow_reference_fallback: true
+  allow_reference_on_noise: true
+  allow_procedural_on_noise: true
+  prefer_procedural_simple_scenes: true
+  seed_from_reference: false
+  init_noise_strength: 0.25
+  seeded_num_steps: 16
+  procedural_only_when_untrained: false
+  apply_reference_guide: false
+  accept_early_checkpoint: false
+  prefer_checkpoints:
+  - latest_good.pt
+  - latest_post_mix.pt
+  - latest_mix3500.pt
+  - latest_pre_mix.pt
+  backend_order:
+  - checkpoint
+  - procedural
+  - reference
+  diffusers:
+    enabled: false
+    requires_gpu: true
+    pipeline: stable_diffusion
+    model_id: ""
+    local_files_only: true
+    width: 256
+    height: 256
+    num_inference_steps: 20
+    guidance_scale: 1.5
+    negative_prompt: "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, logo"
+  scheduler: ddim
+  postprocess: true
+  postprocess_upscale: false

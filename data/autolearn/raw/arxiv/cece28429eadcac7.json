@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.09886v1",
+  "title": "Entanglement-assisted quantum locally recoverable codes: bounds and constructions with availability",
+  "text": "Entanglement-assisted quantum locally recoverable codes: bounds and constructions with availability\n\nIn this work, we define entanglement-assisted quantum locally recoverable codes with availability, in which any set of up to $δ-1$ erased qudits can be recovered from any one of $t$ local recovery sets, each of size at most $r+δ-1$, with the recovery sets intersecting exactly in the erased coordinates, where $r$ is a (small) positive integer. We show that shared entanglement permits $t>1$, meaning that multiple local recovery sets can be available for the same set of up to $δ-1$ erasures. We establish a Singleton-like bound for this family of codes and present random constructions based on classical linear codes with Vandermonde parity-check matrices. We also provide explicit constructions of entanglement-assisted quantum locally recoverable codes with availability from several classical code families and their folded versions, including Tamo-Barg codes, fiber-product codes, and algebraic-geometry codes such as one-point Hermitian and Suzuki codes.",
+  "url": "https://arxiv.org/abs/2608.09886v1",
+  "category": "technical"
+}

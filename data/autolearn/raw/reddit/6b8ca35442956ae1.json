@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u2cjqj",
+  "title": "better place for GOPATH instead of ~/go",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>so, I&#39;m beginning to learn GO (and programming itself, but that isn&#39;t the topic), I know a bit of the reason <strong>why</strong> it&#39;s there in the first place, however I fail to understand why it&#39;s still on <code>$HOME/go</code> and not somewhere else like <code>$HOME/.local/share/go</code> or some fitting place</p> <p>even the <a href=\"https://go.dev/wiki/SettingGOPATH\">wiki</a> tells you to set it to <code>$HOME/go</code> am I missing something? some reason it isn&#39;t set elsewhere?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ayrudev\"> /u/ayrudev </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1u2cjqj/better_place_for_gopath_instead_of_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u2cjqj/better_place_for_gopath_instead_of_go/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1u2cjqj/better_place_for_gopath_instead_of_go/"
+}

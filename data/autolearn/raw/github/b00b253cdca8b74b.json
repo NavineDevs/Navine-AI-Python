@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:swiftlang/swift:utils/minimize-verify-tests.py",
+  "title": "swiftlang/swift/utils/minimize-verify-tests.py",
+  "text": "import sys\nimport argparse\nfrom update_verify_tests.core import minimize_verify_test\n\n\"\"\"\n Minimize an already-passing -verify test case by merging redundant\n prefixed expected-* directives.\n\n For each RUN line the script determines which verify prefixes are active\n (the default empty prefix plus any `-verify-additional-prefix` values).\n It then finds overlapping expected-* directives - those that point to the\n same source location, have the same category, content, count, and fix-its\n but differ in prefix - and merges them when a single prefix exists that is\n active in exactly the union of RUN lines covered by the overlapping set.\n\nExample usage:\n  python3 minimize-verify-tests.py test.swift\n\"\"\"\n\n\ndef main():\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"file\", nargs=\"+\", help=\"Test file(s) to minimize\")\n    args = parser.parse_args()\n    for f in args.file:\n        err = minimize_verify_test(f)\n        if err:\n            print(err, file=sys.stderr)\n            sys.exit(1)\n\n\nif __name__ == \"__main__\":\n    main()\n",
+  "url": "https://raw.githubusercontent.com/swiftlang/swift/main/utils/minimize-verify-tests.py",
+  "language": "python",
+  "kind": "code"
+}

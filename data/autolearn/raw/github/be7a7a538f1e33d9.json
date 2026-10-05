@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:actioncable/test/test_helper.rb",
+  "title": "rails/rails/actioncable/test/test_helper.rb",
+  "text": "# frozen_string_literal: true\n\nrequire_relative \"../../tools/strict_warnings\"\nrequire \"action_cable\"\nrequire \"active_support/testing/autorun\"\nrequire \"active_support/testing/method_call_assertions\"\n\nrequire \"puma\"\nrequire \"rack/mock\"\n\n# Require all the stubs and models\nDir[File.expand_path(\"stubs/*.rb\", __dir__)].each { |file| require file }\n\n# Set test adapter and logger\nActionCable.server.config.cable = { \"adapter\" => \"test\" }\nActionCable.server.config.logger = Logger.new(nil)\n\nclass ActionCable::TestCase < ActiveSupport::TestCase\n  include ActiveSupport::Testing::MethodCallAssertions\n\n  def wait_for_async\n    wait_for_executor Concurrent.global_io_executor\n  end\n\n  def run_in_eventmachine\n    yield\n    wait_for_async\n  end\n\n  def wait_for_executor(executor)\n    # do not wait forever, wait 2s\n    timeout = 2\n    until executor.completed_task_count == executor.scheduled_task_count\n      sleep 0.1\n      timeout -= 0.1\n      raise \"Executor could not complete all tasks in 2 seconds\" unless timeout > 0\n    end\n  end\n\n  def wait_for(message: \"condition not met\", timeout: 5, interval: 0.01)\n    deadline = Process.clock_gettime(Process::CLOCK_MONOTONIC) + timeout\n    loop do\n      return if yield\n      if Process.clock_gettime(Process::CLOCK_MONOTONIC) > deadline\n        raise Timeout::Error, \"#{message} after #{timeout} seconds\"\n      end\n      sleep interval\n    end\n  end\nend\n\nrequire_relative \"../../tools/test_common\"\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/actioncable/test/test_helper.rb",
+  "language": "ruby",
+  "kind": "code"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1u4c9xd",
+  "title": "A UML-ish diagram for javascript iterators and iterables",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Was untangling the various classes/protocols/methods involved, and couldn&#39;t find such a diagram, so I made one. Might be helpful as a complement to <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols\">the MDN pages</a>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ehouais\"> /u/ehouais </a> <br/> <span><a href=\"http://ehouais.net/javascript-iterators\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1u4c9xd/a_umlish_diagram_for_javascript_iterators_and/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1u4c9xd/a_umlish_diagram_for_javascript_iterators_and/"
+}

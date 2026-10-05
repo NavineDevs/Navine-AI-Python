@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rwf2/Rocket:contrib/sync_db_pools/lib/build.rs",
+  "title": "rwf2/Rocket/contrib/sync_db_pools/lib/build.rs",
+  "text": "fn main() {\n    if let Some(true) = version_check::is_feature_flaggable() {\n        println!(\"cargo:rustc-cfg=nightly\");\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/rwf2/Rocket/master/contrib/sync_db_pools/lib/build.rs",
+  "language": "rust",
+  "kind": "code"
+}

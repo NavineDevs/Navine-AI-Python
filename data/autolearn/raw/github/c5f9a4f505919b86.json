@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:QuestPDF/QuestPDF:src/dotnet/library/QuestPDF.ConformanceTests/TestsSetup.cs",
+  "title": "QuestPDF/QuestPDF/src/dotnet/library/QuestPDF.ConformanceTests/TestsSetup.cs",
+  "text": "﻿using System.Runtime.CompilerServices;\nusing QuestPDF.Infrastructure;\n\nnamespace QuestPDF.ConformanceTests\n{\n    public class TestsSetup\n    {\n        [ModuleInitializer]\n        public static void Setup()\n        {\n            QuestPDF.Settings.License = LicenseType.Community;\n            QuestPDF.Settings.UseEnvironmentFonts = false;\n        }\n    }\n}",
+  "url": "https://raw.githubusercontent.com/QuestPDF/QuestPDF/main/src/dotnet/library/QuestPDF.ConformanceTests/TestsSetup.cs",
+  "language": "csharp",
+  "kind": "code"
+}

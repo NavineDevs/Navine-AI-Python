@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jonhoo/fantoccini:examples/wait.rs",
+  "title": "jonhoo/fantoccini/examples/wait.rs",
+  "text": "use fantoccini::elements::Element;\nuse fantoccini::{ClientBuilder, Locator};\nuse std::time::Duration;\n\n#[tokio::main]\nasync fn main() -> Result<(), Box<dyn std::error::Error>> {\n    // Connect to webdriver instance that is listening on port 4444\n    let client = ClientBuilder::native()\n        .connect(\"http://localhost:4444\")\n        .await?;\n\n    // Go to the Rust website.\n    client.goto(\"https://www.rust-lang.org/\").await?;\n\n    // The explicit return types in following code is just to illustrate the type returned.\n    // You can omit them in your code.\n\n    // You can wait on anything that implements `WaitCondition`\n\n    // Wait for a URL\n    let _: () = client\n        .wait()\n        .for_url(&url::Url::parse(\"https://www.rust-lang.org/\")?)\n        .await?;\n\n    // Wait for a locator, and get back the element.\n    let _: Element = client\n        .wait()\n        .for_element(Locator::Css(\n            r#\"a.button-download[href=\"/learn/get-started\"]\"#,\n        ))\n        .await?;\n\n    // By default it will time-out after 30 seconds and check every 250 milliseconds.\n    // However, you can change this.\n\n    let _: Element = client\n        .wait()\n        .at_most(Duration::from_secs(5))\n        .every(Duration::from_millis(100))\n        .for_element(Locator::Css(\n            r#\"a.button-download[href=\"/learn/get-started\"]\"#,\n        ))\n        .await?;\n\n    // Then close the browser window.\n    client.close().await?;\n\n    // done\n    Ok(())\n}\n",
+  "url": "https://raw.githubusercontent.com/jonhoo/fantoccini/main/examples/wait.rs",
+  "language": "rust",
+  "kind": "code"
+}

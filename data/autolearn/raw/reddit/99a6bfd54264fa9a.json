@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vkp8da",
+  "title": "Which libraries actively make your code better for using them?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I find some libraries to be less of a simple convenience and more of an active upgrade to the professionalism of your code. Often by turning a more professional way to handle something into the path of least resistance.</p> <p>For some examples, I think `anyhow` and `thiserror` fall in this category. `thiserror` adds a lot of additional convenience for creating error types. `anyhow` makes it easy to pass errors up the call stack while providing additional context at each layer. It also softens the transition to more robust error handling as a project grows imo.</p> <p>Another candidate might be something like `crossterm` or `clap` for terminal applications.</p> <p>In your opinion, are there any crates that fall into this category for your own projects and why?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PointedPoplars\"> /u/PointedPoplars </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1vkp8da/which_libraries_actively_make_your_code_better/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vkp8da/which_libraries_actively_make_your_code_better/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vkp8da/which_libraries_actively_make_your_code_better/"
+}

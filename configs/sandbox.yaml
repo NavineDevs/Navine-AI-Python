@@ -1,0 +1,42 @@
+enabled: true
+mode: contained
+allow_shell: false
+allow_open_app: false
+allow_open_url: true
+allow_file_write: false
+allow_file_delete: false
+allow_desktop_input: false
+allow_media_control: false
+allow_clipboard_write: false
+workspace_only: true
+workspace_roots:
+  - .
+  - outputs
+  - data
+  - logs
+  - checkpoints
+  - web
+  - configs
+  - navine
+blocked_command_patterns:
+  - "format "
+  - "del /s"
+  - "rd /s"
+  - "rmdir /s"
+  - "rm -rf"
+  - "rm -r"
+  - "mkfs"
+  - ":(){"
+  - "diskpart"
+  - "cipher /w"
+  - "reg delete"
+  - "reg add"
+  - "shutdown"
+  - "restart-computer"
+  - "taskkill"
+  - "remove-item -recurse"
+  - "bcdedit"
+  - "net user"
+  - "invoke-expression"
+  - "iex "
+  - "start-process"

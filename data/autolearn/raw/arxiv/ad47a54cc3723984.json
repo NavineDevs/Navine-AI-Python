@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.20550v1",
+  "title": "Easy Reads: A Python program for making Scientific Papers on arXiv more Reader Friendly and Accessible",
+  "text": "Easy Reads: A Python program for making Scientific Papers on arXiv more Reader Friendly and Accessible\n\nScientific papers are frequently dense and characterized by features such as small fonts and line spacing, double columns of text, and tightly arranged figures. While these features make papers more compact, they can hinder readability, make them less accessible, and can strain the reader. arXiv is a premier open-access repository for scientific papers across different fields and is used extensively by researchers, including those in the physics and astrophysics communities.\n  Easy Reads is an automated, end-to-end, open-source Python program that helps address the stated challenge by making papers from arXiv more reader-friendly and accessible. Easy Reads can automatically fetch a paper from arXiv via its URL and work with the source TeX file to allow custom formatting of the paper features, primarily the font size, and the number of columns used. The main goal of Easy Reads is to facilitate ease of reading of scientific papers.",
+  "url": "https://arxiv.org/abs/2606.20550v1",
+  "category": "technical"
+}

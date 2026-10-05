@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\images\\infini-atomic\\infini_kamisato-ayaka_2463.jpg",
+  "title": "infini_kamisato-ayaka_2463",
+  "text": "infini_kamisato-ayaka_2463",
+  "url": "data\\nsfw\\images\\local\\general\\infini_kamisato-ayaka_2463_1782072719704419900.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\infini_kamisato-ayaka_2463_1782072719704419900.jpg",
+  "caption": "infini_kamisato-ayaka_2463 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": null,
+  "tags": [
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

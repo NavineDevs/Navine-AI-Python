@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/types/utils.d.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/types/utils.d.ts",
+  "text": "import type { ComputedRef, Ref } from 'vue';\n\nexport type DynamicProps<T> = {\n  [P in keyof T]: Ref<T[P]> | T[P] | ComputedRef<T[P]>;\n};\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/types/utils.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

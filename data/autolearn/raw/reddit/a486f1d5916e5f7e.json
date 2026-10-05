@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:MachineLearning:t3_1u1ht5x",
+  "title": "iOS 27 Siri is using WaveRNN and FastSpeech2 [D]",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Found from iOS Simulator&#39;s files. Both of them are in espresso format</p> <p>There&#39;s also another compiled CoreML for concert ranking and based on the content inside of it looks like to be a simple logistic regression. See <a href=\"https://www.reddit.com/r/jailbreak/comments/1u1e1b4/access_to_simulators_root_files/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button\">https://www.reddit.com/r/jailbreak/comments/1u1e1b4/access_to_simulators_root_files/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button</a></p> <p>Edit:</p> <p>Its the Siri&#39;s TTS</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Actual_L0Ki\"> /u/Actual_L0Ki </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1ht5x/ios_27_siri_is_using_wavernn_and_fastspeech2_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u1ht5x/ios_27_siri_is_using_wavernn_and_fastspeech2_d/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1u1ht5x/ios_27_siri_is_using_wavernn_and_fastspeech2_d/"
+}

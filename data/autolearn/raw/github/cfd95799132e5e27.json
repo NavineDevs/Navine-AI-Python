@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:affaan-m/ECC:scripts/control-pane.js",
+  "title": "affaan-m/ECC/scripts/control-pane.js",
+  "text": "#!/usr/bin/env node\n'use strict';\n\nconst { spawn } = require('child_process');\n\nconst {\n  createControlPaneServer,\n  parseArgs,\n  usage,\n} = require('./lib/control-pane/server');\n\nfunction openBrowser(url) {\n  if (process.platform !== 'darwin') return;\n  const child = spawn('open', [url], {\n    stdio: 'ignore',\n    detached: true,\n  });\n  child.on('error', error => {\n    console.error(`[control-pane] failed to open browser: ${error.message}`);\n  });\n  child.unref();\n}\n\nasync function main(argv = process.argv) {\n  const args = parseArgs(argv);\n\n  if (args.help) {\n    console.log(usage());\n    return;\n  }\n\n  const app = createControlPaneServer(args);\n  await app.listen();\n\n  console.log(`ECC Control Pane: ${app.url}`);\n  console.log(`ECC2 database: ${app.config.dbPath}`);\n  console.log(`ECC state database: ${app.config.stateDbPath}`);\n  console.log(args.allowActions ? 'Actions: enabled for local allowlist' : 'Actions: read-only');\n\n  if (args.openBrowser) {\n    openBrowser(app.url);\n  }\n\n  const shutdown = async () => {\n    try {\n      await app.close();\n    } finally {\n      process.exit(0);\n    }\n  };\n\n  process.on('SIGINT', shutdown);\n  process.on('SIGTERM', shutdown);\n}\n\nif (require.main === module) {\n  main().catch(error => {\n    console.error(`[control-pane] ${error.message}`);\n    process.exit(1);\n  });\n}\n\nmodule.exports = {\n  main,\n  openBrowser,\n};\n",
+  "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/scripts/control-pane.js",
+  "language": "javascript",
+  "kind": "code"
+}

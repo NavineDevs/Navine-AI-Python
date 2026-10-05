@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:guides/rails_guides.rb",
+  "title": "rails/rails/guides/rails_guides.rb",
+  "text": "# frozen_string_literal: true\n\n$:.unshift __dir__\n\nrequire \"rails_guides/generator\"\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/guides/rails_guides.rb",
+  "language": "ruby",
+  "kind": "code"
+}

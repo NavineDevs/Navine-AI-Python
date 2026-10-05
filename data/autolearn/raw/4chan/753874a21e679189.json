@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:mu:131080544:131080544:image",
+  "title": "KPOP GENERAL",
+  "text": "KPOP GENERAL",
+  "url": "https://boards.4chan.org/mu/thread/131080544#p131080544",
+  "category": "creative",
+  "kind": "image",
+  "caption": "KPOP GENERAL | [image] | tags: 4chan, mu, unknown",
+  "board": "mu",
+  "thread_id": 131080544,
+  "post_id": 131080544,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "mu",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/mu/1785508079766902.jpg",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\mu\\mu_1785508079766902.jpg"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:yt-dlp/yt-dlp:devscripts/update_changelog.py",
+  "title": "yt-dlp/yt-dlp/devscripts/update_changelog.py",
+  "text": "#!/usr/bin/env python3\n\n# Allow direct execution\nimport os\nimport sys\n\nsys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\n\nfrom pathlib import Path\n\nfrom devscripts.make_changelog import create_changelog, create_parser\nfrom devscripts.utils import read_file, read_version, write_file\n\n# Always run after devscripts/update-version.py, and run before `make doc|pypi-files|tar|all`\n\nif __name__ == '__main__':\n    parser = create_parser()\n    parser.description = 'Update an existing changelog file with an entry for a new release'\n    parser.add_argument(\n        '--changelog-path', type=Path, default=Path(__file__).parent.parent / 'Changelog.md',\n        help='path to the Changelog file')\n    args = parser.parse_args()\n\n    header, sep, changelog = read_file(args.changelog_path).partition('\\n### ')\n    current_version = read_version()\n    if current_version != changelog.splitlines()[0]:\n        new_entry = create_changelog(args)\n        write_file(args.changelog_path, f'{header}{sep}{current_version}\\n{new_entry}\\n{sep}{changelog}')\n",
+  "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/devscripts/update_changelog.py",
+  "language": "python",
+  "kind": "code"
+}
