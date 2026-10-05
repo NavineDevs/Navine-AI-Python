@@ -1,0 +1,22 @@
+{"question": "What is 12 + 8?", "answer": "20", "steps": "Add the ones: 2 + 8 = 10, carry 1. Add tens: 1 + 1 + 0 = 2. Result: 20."}
+{"question": "What is 15 - 7?", "answer": "8", "steps": "Start at 15, subtract 7: 15 - 5 = 10, then 10 - 2 = 8."}
+{"question": "What is 6 times 9?", "answer": "54", "steps": "6 x 9 = 54 because 6 x 10 = 60 minus 6 = 54."}
+{"question": "What is 144 divided by 12?", "answer": "12", "steps": "12 x 12 = 144, so 144 / 12 = 12."}
+{"question": "Solve for x: x + 5 = 17", "answer": "x = 12", "steps": "Subtract 5 from both sides: x = 17 - 5 = 12."}
+{"question": "Solve for x: 3x = 21", "answer": "x = 7", "steps": "Divide both sides by 3: x = 21 / 3 = 7."}
+{"question": "What is 25 percent of 80?", "answer": "20", "steps": "25% = 0.25. Multiply: 0.25 x 80 = 20."}
+{"question": "What is the area of a rectangle with width 5 and height 8?", "answer": "40", "steps": "Area = width x height = 5 x 8 = 40."}
+{"question": "What is the perimeter of a square with side 6?", "answer": "24", "steps": "Perimeter = 4 x side = 4 x 6 = 24."}
+{"question": "Convert 2.5 hours to minutes", "answer": "150 minutes", "steps": "2.5 x 60 = 150 minutes."}
+{"question": "What is the average of 4, 8, and 12?", "answer": "8", "steps": "Sum = 4 + 8 + 12 = 24. Average = 24 / 3 = 8."}
+{"question": "Simplify: 2(x + 3)", "answer": "2x + 6", "steps": "Distribute 2: 2x + 6."}
+{"question": "What is (-4) + 9?", "answer": "5", "steps": "Start at -4, move 9 units right to reach 5."}
+{"question": "What is 7 squared?", "answer": "49", "steps": "7 x 7 = 49."}
+{"question": "What is the square root of 81?", "answer": "9", "steps": "9 x 9 = 81, so sqrt(81) = 9."}
+{"question": "If a train travels 60 miles in 2 hours, what is its speed?", "answer": "30 mph", "steps": "Speed = distance / time = 60 / 2 = 30 mph."}
+{"question": "Solve for x: 2x + 4 = 14", "answer": "x = 5", "steps": "Subtract 4: 2x = 10. Divide by 2: x = 5."}
+{"question": "What is 0.75 as a fraction?", "answer": "3/4", "steps": "0.75 = 75/100 = 3/4 in lowest terms."}
+{"question": "How many degrees in a triangle?", "answer": "180 degrees", "steps": "The interior angles of any triangle sum to 180 degrees."}
+{"question": "What is the next term in 2, 4, 8, 16?", "answer": "32", "steps": "Each term doubles: 16 x 2 = 32."}
+{"question": "What is 5 factorial?", "answer": "120", "steps": "5! = 5 x 4 x 3 x 2 x 1 = 120."}
+{"question": "What is the slope between (1,2) and (3,8)?", "answer": "3", "steps": "Slope = (8 - 2) / (3 - 1) = 6 / 2 = 3."}

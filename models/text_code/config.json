@@ -1,0 +1,43 @@
+{
+  "format": "navine-llm-v1",
+  "runnable": true,
+  "name": "text_code",
+  "modality": "multimodal",
+  "role": "Coding specialist",
+  "config_name": "text_code",
+  "weights": "latest.pt",
+  "weights_path": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\text_code\\latest.pt",
+  "tokenizer": "tokenizer.json",
+  "architecture": {
+    "vocab_size": 12000,
+    "d_model": 768,
+    "n_heads": 12,
+    "n_layers": 16,
+    "d_ff": 3072,
+    "max_seq_len": 1024,
+    "dropout": 0.08,
+    "use_rope": true,
+    "use_kv_cache": true,
+    "use_swiglu": true,
+    "use_rms_norm": true,
+    "tie_embeddings": true
+  },
+  "parameters": null,
+  "inference": {
+    "max_new_tokens": 320,
+    "temperature": 0.2,
+    "mode": "code",
+    "modes": [
+      "chat",
+      "code",
+      "think",
+      "detective",
+      "analyze"
+    ]
+  },
+  "updated_at": "2026-08-24T05:53:23.161424+00:00",
+  "run": [
+    "python models/text_code.py \"your prompt\"",
+    "python -m navine.llm run text_code \"your prompt\""
+  ]
+}

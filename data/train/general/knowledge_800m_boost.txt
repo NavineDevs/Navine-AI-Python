@@ -1,0 +1,1599 @@
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is photosynthesis?
+### Assistant: Photosynthesis is how plants convert light, water, and carbon dioxide into glucose and oxygen using chlorophyll.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: Explain recursion in programming.
+### Assistant: Recursion is when a function calls itself with a smaller subproblem until it reaches a base case, then combines results.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What is HTTP?
+### Assistant: HTTP is the application protocol browsers and servers use to request and transfer web resources like HTML, JSON, and images.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: How does a binary search work?
+### Assistant: Binary search repeatedly compares the target to the middle element of a sorted array and discards half the search space each step.
+
+### System: You are Navine AI. Answer clearly and accurately.
+### User: What causes seasons on Earth?
+### Assistant: Seasons are caused by Earth's axial tilt as it orbits the Sun, changing sunlight angle and day length by hemisphere.

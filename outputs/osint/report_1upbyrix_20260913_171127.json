@@ -1,0 +1,770 @@
+{
+  "target": "1upbyrix",
+  "kind": "username",
+  "query": "\"1upbyrix\" username email contact website profile site:github.com OR site:reddit.com OR site:linkedin.com",
+  "analysis": "OSINT report for `1upbyrix` (username)\n\nUsername scan `1upbyrix`\n\nChecked 47 public sites — **19 found**, 22 not found, 6 inconclusive.\n\nAccounts likely found:\n- **Duolingo**: https://www.duolingo.com/profile/1upbyrix (1017 ms)\n- **GitHub**: https://github.com/1upbyrix (1503 ms)\n- **GitHub Gist**: https://gist.github.com/1upbyrix (1490 ms)\n- **HackTheBox**: https://app.hackthebox.com/profile/1upbyrix (907 ms)\n- **Hacker News**: https://news.ycombinator.com/user?id=1upbyrix (1300 ms)\n- **HackerRank**: https://www.hackerrank.com/1upbyrix (1548 ms)\n- **Instagram**: https://www.instagram.com/1upbyrix/ (975 ms)\n- **Medium**: https://medium.com/@1upbyrix (1506 ms)\n- **Pinterest**: https://www.pinterest.com/1upbyrix/ (1338 ms)\n- **PyPI**: https://pypi.org/user/1upbyrix/ (666 ms)\n- **Reddit**: https://www.reddit.com/user/1upbyrix (1511 ms)\n- **RubyGems**: https://rubygems.org/profiles/1upbyrix (1452 ms)\n- **Spotify**: https://open.spotify.com/user/1upbyrix (858 ms)\n- **Steam**: https://steamcommunity.com/id/1upbyrix (890 ms)\n- **Telegram**: https://t.me/1upbyrix (2340 ms)\n- **TikTok**: https://www.tiktok.com/@1upbyrix (859 ms)\n- **TryHackMe**: https://tryhackme.com/p/1upbyrix (1968 ms)\n- **Twitch**: https://www.twitch.tv/1upbyrix (867 ms)\n- **YouTube**: https://www.youtube.com/@1upbyrix (1064 ms)\n\nManual check recommended (blocked or ambiguous):\n- Behance: https://www.behance.net/1upbyrix\n- Codeberg: https://codeberg.org/1upbyrix\n- Discogs: https://www.discogs.com/user/1upbyrix\n- GitLab: https://gitlab.com/1upbyrix\n- Product Hunt: https://www.producthunt.com/@1upbyrix\n- npm: https://www.npmjs.com/~1upbyrix\n\nNote: Public pages only. False positives/negatives happen when sites block bots or hide profiles.\n\nEmail / identity enrichment\n\nCommon email patterns to verify manually:\n- 1upbyrix@gmail.com\n- 1upbyrix@yahoo.com\n- 1upbyrix@outlook.com\n- 1upbyrix@hotmail.com\n- 1upbyrix@proton.me\n- 1upbyrix@protonmail.com\n\nWebsites / profile URLs:\n- https://www.duolingo.com/profile/1upbyrix\n- https://github.com/1upbyrix\n- https://gist.github.com/1upbyrix\n- https://app.hackthebox.com/profile/1upbyrix\n- https://news.ycombinator.com/user?id=1upbyrix\n- https://www.hackerrank.com/1upbyrix\n- https://www.instagram.com/1upbyrix/\n- https://medium.com/@1upbyrix\n- https://www.pinterest.com/1upbyrix/\n- https://pypi.org/user/1upbyrix/\n- https://www.reddit.com/user/1upbyrix\n- https://rubygems.org/profiles/1upbyrix\n\nTo check if a password appeared in public breaches, ask: check password <value> (HIBP k-anonymity, nothing stored).\n\nPublic web findings:\n1. YouTube - YouTube\n   https://www.youtube.com/youtube\n   YouTube's official YouTube channel You found us. Welcome to the official YouTube channel – a home for the biggest moments, the smallest …\n2. YouTube\n   https://www.youtube.com/feed/yt+\n   AboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy & SafetyHow YouTube worksTest new …\n3. YouTube Music\n   https://music.youtube.com/tasteprofile\n   With the YouTube Music app, enjoy over 100 million songs at your fingertips, plus albums, playlists, remixes, music videos, live …\n4. YouTube TV - Watch & DVR Live Sports, Shows & News\n   https://tv.youtube.com/\n   Stream live TV from ABC, CBS, FOX, NBC, ESPN & popular cable networks in English and Spanish. Record without DVR storage space limits. Try …\n5. Wetter, Wettervorhersage & Wetterbericht | wetter.com\n   https://www.wetter.com/\n   wetter.com Aktuelles Wetter & 16-Tages Wettervorhersage für Ihren Ort Mit Regenradar Wetterwarnungen Satellitenbildern\n\nConfidence: medium from public sources only. Verify each link manually.\nNext steps: open found profiles, verify candidate emails, follow website links, then check public breach corpora for confirmed emails.",
+  "search_results": [
+    {
+      "title": "YouTube - YouTube",
+      "url": "https://www.youtube.com/youtube",
+      "snippet": "YouTube's official YouTube channel You found us. Welcome to the official YouTube channel – a home for the biggest moments, the smallest …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "YouTube",
+      "url": "https://www.youtube.com/feed/yt+",
+      "snippet": "AboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy & SafetyHow YouTube worksTest new …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "YouTube Music",
+      "url": "https://music.youtube.com/tasteprofile",
+      "snippet": "With the YouTube Music app, enjoy over 100 million songs at your fingertips, plus albums, playlists, remixes, music videos, live …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "YouTube TV - Watch & DVR Live Sports, Shows & News",
+      "url": "https://tv.youtube.com/",
+      "snippet": "Stream live TV from ABC, CBS, FOX, NBC, ESPN & popular cable networks in English and Spanish. Record without DVR storage space limits. Try …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Wetter, Wettervorhersage & Wetterbericht | wetter.com",
+      "url": "https://www.wetter.com/",
+      "snippet": "wetter.com Aktuelles Wetter & 16-Tages Wettervorhersage für Ihren Ort Mit Regenradar Wetterwarnungen Satellitenbildern",
+      "source": "duckduckgo"
+    }
+  ],
+  "username_scan": {
+    "username": "1upbyrix",
+    "valid": true,
+    "profiles": [
+      {
+        "site": "Duolingo",
+        "url": "https://www.duolingo.com/profile/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1017
+      },
+      {
+        "site": "GitHub",
+        "url": "https://github.com/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1503
+      },
+      {
+        "site": "GitHub Gist",
+        "url": "https://gist.github.com/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1490
+      },
+      {
+        "site": "HackTheBox",
+        "url": "https://app.hackthebox.com/profile/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 907
+      },
+      {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/user?id=1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1300
+      },
+      {
+        "site": "HackerRank",
+        "url": "https://www.hackerrank.com/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1548
+      },
+      {
+        "site": "Instagram",
+        "url": "https://www.instagram.com/1upbyrix/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 975
+      },
+      {
+        "site": "Medium",
+        "url": "https://medium.com/@1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1506
+      },
+      {
+        "site": "Pinterest",
+        "url": "https://www.pinterest.com/1upbyrix/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1338
+      },
+      {
+        "site": "PyPI",
+        "url": "https://pypi.org/user/1upbyrix/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 666
+      },
+      {
+        "site": "Reddit",
+        "url": "https://www.reddit.com/user/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1511
+      },
+      {
+        "site": "RubyGems",
+        "url": "https://rubygems.org/profiles/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1452
+      },
+      {
+        "site": "Spotify",
+        "url": "https://open.spotify.com/user/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 858
+      },
+      {
+        "site": "Steam",
+        "url": "https://steamcommunity.com/id/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 890
+      },
+      {
+        "site": "Telegram",
+        "url": "https://t.me/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 2340
+      },
+      {
+        "site": "TikTok",
+        "url": "https://www.tiktok.com/@1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 859
+      },
+      {
+        "site": "TryHackMe",
+        "url": "https://tryhackme.com/p/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1968
+      },
+      {
+        "site": "Twitch",
+        "url": "https://www.twitch.tv/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 867
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1064
+      },
+      {
+        "site": "About.me",
+        "url": "https://about.me/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1899
+      },
+      {
+        "site": "Behance",
+        "url": "https://www.behance.net/1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 779
+      },
+      {
+        "site": "Bitbucket",
+        "url": "https://bitbucket.org/1upbyrix/",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1499
+      },
+      {
+        "site": "Chess.com",
+        "url": "https://www.chess.com/member/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 764
+      },
+      {
+        "site": "Codeberg",
+        "url": "https://codeberg.org/1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 1738
+      },
+      {
+        "site": "Dev.to",
+        "url": "https://dev.to/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1501
+      },
+      {
+        "site": "Discogs",
+        "url": "https://www.discogs.com/user/1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 465
+      },
+      {
+        "site": "Docker Hub",
+        "url": "https://hub.docker.com/u/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 804
+      },
+      {
+        "site": "Dribbble",
+        "url": "https://dribbble.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1285
+      },
+      {
+        "site": "Facebook",
+        "url": "https://www.facebook.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 400,
+        "response_ms": 806
+      },
+      {
+        "site": "Flickr",
+        "url": "https://www.flickr.com/people/1upbyrix/",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1793
+      },
+      {
+        "site": "GitLab",
+        "url": "https://gitlab.com/1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 1513
+      },
+      {
+        "site": "Gitea",
+        "url": "https://gitea.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1518
+      },
+      {
+        "site": "Gravatar",
+        "url": "https://en.gravatar.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 2295
+      },
+      {
+        "site": "Keybase",
+        "url": "https://keybase.io/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1711
+      },
+      {
+        "site": "Last.fm",
+        "url": "https://www.last.fm/user/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1101
+      },
+      {
+        "site": "LinkedIn",
+        "url": "https://www.linkedin.com/in/1upbyrix/",
+        "status": "not_found",
+        "http_status": 999,
+        "response_ms": 789
+      },
+      {
+        "site": "Mastodon.social",
+        "url": "https://mastodon.social/@1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 815
+      },
+      {
+        "site": "Packagist",
+        "url": "https://packagist.org/users/1upbyrix/",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1357
+      },
+      {
+        "site": "Pastebin",
+        "url": "https://pastebin.com/u/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1872
+      },
+      {
+        "site": "Product Hunt",
+        "url": "https://www.producthunt.com/@1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 596
+      },
+      {
+        "site": "Replit",
+        "url": "https://replit.com/@1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1501
+      },
+      {
+        "site": "Roblox",
+        "url": "https://www.roblox.com/user.aspx?username=1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1903
+      },
+      {
+        "site": "Snapchat",
+        "url": "https://www.snapchat.com/add/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1270
+      },
+      {
+        "site": "SoundCloud",
+        "url": "https://soundcloud.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1634
+      },
+      {
+        "site": "Vimeo",
+        "url": "https://vimeo.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 998
+      },
+      {
+        "site": "X",
+        "url": "https://x.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1066
+      },
+      {
+        "site": "npm",
+        "url": "https://www.npmjs.com/~1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 484
+      }
+    ],
+    "found": [
+      {
+        "site": "Duolingo",
+        "url": "https://www.duolingo.com/profile/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1017
+      },
+      {
+        "site": "GitHub",
+        "url": "https://github.com/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1503
+      },
+      {
+        "site": "GitHub Gist",
+        "url": "https://gist.github.com/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1490
+      },
+      {
+        "site": "HackTheBox",
+        "url": "https://app.hackthebox.com/profile/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 907
+      },
+      {
+        "site": "Hacker News",
+        "url": "https://news.ycombinator.com/user?id=1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1300
+      },
+      {
+        "site": "HackerRank",
+        "url": "https://www.hackerrank.com/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1548
+      },
+      {
+        "site": "Instagram",
+        "url": "https://www.instagram.com/1upbyrix/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 975
+      },
+      {
+        "site": "Medium",
+        "url": "https://medium.com/@1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1506
+      },
+      {
+        "site": "Pinterest",
+        "url": "https://www.pinterest.com/1upbyrix/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1338
+      },
+      {
+        "site": "PyPI",
+        "url": "https://pypi.org/user/1upbyrix/",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 666
+      },
+      {
+        "site": "Reddit",
+        "url": "https://www.reddit.com/user/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1511
+      },
+      {
+        "site": "RubyGems",
+        "url": "https://rubygems.org/profiles/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1452
+      },
+      {
+        "site": "Spotify",
+        "url": "https://open.spotify.com/user/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 858
+      },
+      {
+        "site": "Steam",
+        "url": "https://steamcommunity.com/id/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 890
+      },
+      {
+        "site": "Telegram",
+        "url": "https://t.me/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 2340
+      },
+      {
+        "site": "TikTok",
+        "url": "https://www.tiktok.com/@1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 859
+      },
+      {
+        "site": "TryHackMe",
+        "url": "https://tryhackme.com/p/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1968
+      },
+      {
+        "site": "Twitch",
+        "url": "https://www.twitch.tv/1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 867
+      },
+      {
+        "site": "YouTube",
+        "url": "https://www.youtube.com/@1upbyrix",
+        "status": "found",
+        "http_status": 200,
+        "response_ms": 1064
+      }
+    ],
+    "not_found": [
+      {
+        "site": "About.me",
+        "url": "https://about.me/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1899
+      },
+      {
+        "site": "Bitbucket",
+        "url": "https://bitbucket.org/1upbyrix/",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1499
+      },
+      {
+        "site": "Chess.com",
+        "url": "https://www.chess.com/member/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 764
+      },
+      {
+        "site": "Dev.to",
+        "url": "https://dev.to/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1501
+      },
+      {
+        "site": "Docker Hub",
+        "url": "https://hub.docker.com/u/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 804
+      },
+      {
+        "site": "Dribbble",
+        "url": "https://dribbble.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1285
+      },
+      {
+        "site": "Facebook",
+        "url": "https://www.facebook.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 400,
+        "response_ms": 806
+      },
+      {
+        "site": "Flickr",
+        "url": "https://www.flickr.com/people/1upbyrix/",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1793
+      },
+      {
+        "site": "Gitea",
+        "url": "https://gitea.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1518
+      },
+      {
+        "site": "Gravatar",
+        "url": "https://en.gravatar.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 2295
+      },
+      {
+        "site": "Keybase",
+        "url": "https://keybase.io/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1711
+      },
+      {
+        "site": "Last.fm",
+        "url": "https://www.last.fm/user/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1101
+      },
+      {
+        "site": "LinkedIn",
+        "url": "https://www.linkedin.com/in/1upbyrix/",
+        "status": "not_found",
+        "http_status": 999,
+        "response_ms": 789
+      },
+      {
+        "site": "Mastodon.social",
+        "url": "https://mastodon.social/@1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 815
+      },
+      {
+        "site": "Packagist",
+        "url": "https://packagist.org/users/1upbyrix/",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1357
+      },
+      {
+        "site": "Pastebin",
+        "url": "https://pastebin.com/u/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1872
+      },
+      {
+        "site": "Replit",
+        "url": "https://replit.com/@1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1501
+      },
+      {
+        "site": "Roblox",
+        "url": "https://www.roblox.com/user.aspx?username=1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1903
+      },
+      {
+        "site": "Snapchat",
+        "url": "https://www.snapchat.com/add/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1270
+      },
+      {
+        "site": "SoundCloud",
+        "url": "https://soundcloud.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1634
+      },
+      {
+        "site": "Vimeo",
+        "url": "https://vimeo.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 998
+      },
+      {
+        "site": "X",
+        "url": "https://x.com/1upbyrix",
+        "status": "not_found",
+        "http_status": 404,
+        "response_ms": 1066
+      }
+    ],
+    "unknown": [
+      {
+        "site": "Behance",
+        "url": "https://www.behance.net/1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 779
+      },
+      {
+        "site": "Codeberg",
+        "url": "https://codeberg.org/1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 1738
+      },
+      {
+        "site": "Discogs",
+        "url": "https://www.discogs.com/user/1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 465
+      },
+      {
+        "site": "GitLab",
+        "url": "https://gitlab.com/1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 1513
+      },
+      {
+        "site": "Product Hunt",
+        "url": "https://www.producthunt.com/@1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 596
+      },
+      {
+        "site": "npm",
+        "url": "https://www.npmjs.com/~1upbyrix",
+        "status": "unknown",
+        "http_status": 403,
+        "response_ms": 484
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "total": 47,
+      "found": 19,
+      "not_found": 22,
+      "unknown": 6,
+      "errors": 0
+    }
+  },
+  "domain_intel": null,
+  "ip_intel": null,
+  "email_intel": {
+    "username": "1upbyrix",
+    "valid": true,
+    "candidate_emails": [
+      "1upbyrix@gmail.com",
+      "1upbyrix@yahoo.com",
+      "1upbyrix@outlook.com",
+      "1upbyrix@hotmail.com",
+      "1upbyrix@proton.me",
+      "1upbyrix@protonmail.com"
+    ],
+    "confirmed_emails": [],
+    "gravatar": [],
+    "emails": [],
+    "websites": [
+      "https://www.duolingo.com/profile/1upbyrix",
+      "https://github.com/1upbyrix",
+      "https://gist.github.com/1upbyrix",
+      "https://app.hackthebox.com/profile/1upbyrix",
+      "https://news.ycombinator.com/user?id=1upbyrix",
+      "https://www.hackerrank.com/1upbyrix",
+      "https://www.instagram.com/1upbyrix/",
+      "https://medium.com/@1upbyrix",
+      "https://www.pinterest.com/1upbyrix/",
+      "https://pypi.org/user/1upbyrix/",
+      "https://www.reddit.com/user/1upbyrix",
+      "https://rubygems.org/profiles/1upbyrix",
+      "https://open.spotify.com/user/1upbyrix",
+      "https://steamcommunity.com/id/1upbyrix",
+      "https://t.me/1upbyrix",
+      "https://www.tiktok.com/@1upbyrix",
+      "https://tryhackme.com/p/1upbyrix",
+      "https://www.twitch.tv/1upbyrix",
+      "https://www.youtube.com/@1upbyrix",
+      "https://gitlab.com/1upbyrix",
+      "https://x.com/1upbyrix",
+      "https://twitter.com/1upbyrix",
+      "https://instagram.com/1upbyrix",
+      "https://www.linkedin.com/in/1upbyrix",
+      "https://1upbyrix.github.io",
+      "https://1upbyrix.wordpress.com",
+      "https://keybase.io/1upbyrix",
+      "https://about.me/1upbyrix",
+      "https://www.youtube.com/youtube",
+      "https://music.youtube.com/tasteprofile",
+      "https://tv.youtube.com/",
+      "https://www.wetter.com/"
+    ],
+    "password_note": "To check if a password appeared in public breaches, ask: check password <value> (HIBP k-anonymity, nothing stored)."
+  },
+  "password_check": null,
+  "finished_at": "2026-09-13T17:11:27.840071+00:00"
+}

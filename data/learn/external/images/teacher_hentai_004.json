@@ -1,0 +1,15 @@
+{
+  "prompt": "anime hentai illustration, ass, maid, anime, hentai, detailed linework, explicit adult",
+  "caption": "anime hentai illustration, ass, maid, anime, hentai, detailed linework, explicit adult",
+  "filename": "teacher_hentai_004.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-06-24T14:41:32.744434+00:00",
+  "enhanced_prompt": "an anime hentai illustration, ass, maid, anime, hentai, detailed linework, explicit adult, anime illustration, hentai style, detailed linework, vibrant colors, explicit adult",
+  "seed": 1318,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "nsfw_enhance": true,
+  "negative_prompt": "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, censored, mosaic, bar censor, pixelated, low resolution, extra limbs, malformed hands, duplicate, cropped",
+  "model_id": "stabilityai/sd-turbo",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_hentai_004.png"
+}

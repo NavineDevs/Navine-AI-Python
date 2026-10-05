@@ -1,0 +1,15 @@
+{
+  "prompt": "explicit adult couple, photorealistic, natural pose, high detail",
+  "caption": "explicit adult couple, photorealistic, natural pose, high detail",
+  "filename": "teacher_porn_003.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-06-24T14:48:51.237932+00:00",
+  "enhanced_prompt": "explicit adult couple, photorealistic, natural pose, high detail, photorealistic adult content, natural lighting, detailed skin texture, high quality, detailed",
+  "seed": 1616,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "nsfw_enhance": true,
+  "negative_prompt": "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, censored, mosaic, bar censor, pixelated, low resolution, extra limbs, malformed hands, duplicate, cropped",
+  "model_id": "stabilityai/sd-turbo",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_porn_003.png"
+}

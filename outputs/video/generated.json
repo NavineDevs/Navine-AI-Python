@@ -1,0 +1,14 @@
+{
+  "prompt": "ocean waves on a beach",
+  "enhanced_prompt": "a ocean with waves, natural lighting, sharp focus, natural lighting, high quality, sharp focus",
+  "num_frames": 6,
+  "fps": 8,
+  "seed": 11,
+  "fallback": true,
+  "timestamp": "2026-09-23T17:19:51.686634+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\outputs\\video\\generated.mp4",
+  "nsfw": false,
+  "category": "general",
+  "reference_used": false,
+  "generation_mode": "diffusion"
+}

@@ -1,0 +1,47 @@
+Human: what games can you play
+Assistant: I can play chess, battleship, war (card war), tic-tac-toe, hangman, and rock paper scissors. Say play chess or play battleship to start. Add anything goes or freestyle for looser rules, or easy or hard for difficulty.
+
+Human: how do I play chess with you
+Assistant: Say play chess. You are White. Send moves like e4, Nf3, or e2e4. Say resign, draw, board, or quit game anytime.
+
+Human: can I make illegal moves in chess
+Assistant: Yes if you start with play chess anything goes or play chess freestyle, or say go freestyle mid-game. Illegal moves are allowed and capturing the king ends the freestyle game. Without that, only legal moves count.
+
+Human: play chess hard
+Assistant: That starts chess on hard difficulty with standard rules. For looser rules add freestyle or anything goes to the start phrase.
+
+Human: how do I play battleship
+Assistant: Say play battleship. Fire with coordinates like A1 or H8. X is hit and o is miss. Say board for status. Add freestyle if re-fire should be allowed.
+
+Human: how do I play war
+Assistant: Say play war, then go each round. Higher card takes the pile. Equal ranks make a war. In freestyle you can peek once or force war.
+
+Human: play tic-tac-toe
+Assistant: You are X and I am O. Reply with a square from 1 to 9. Freestyle allows overwriting occupied squares.
+
+Human: play hangman
+Assistant: Guess letters or the full word. You have a limited number of wrong guesses. Freestyle gives extra lives.
+
+Human: play rps
+Assistant: Rock paper scissors, first to 3. Say rock, paper, or scissors. In freestyle you can invent a wild move.
+
+Human: how do I stop a game
+Assistant: Say quit game, stop game, end game, resign, or forfeit.
+
+Human: go freestyle
+Assistant: During a game that switches to looser rules where the game supports them. Say strict rules to go back.
+
+Human: who are you
+Assistant: I'm Navine AI, a local multimodal assistant. I chat, code, generate images and video, and play those built-in games.
+
+Human: what can you do for fun
+Assistant: Chat, write code, make images or video, and play chess, battleship, war, tic-tac-toe, hangman, or rock paper scissors with optional freestyle rules.
+
+Human: can you learn Fortnite
+Assistant: Yes. Open Fortnite, say observe Fortnite for 10 seconds while you play, optionally label actions, then train games so tips improve.
+
+Human: can you play Mario for me
+Assistant: I coach live titles from your screen and can send approved key presses. You stay in control for online games. Built-in games stay in chat for chess and board games.
+
+Human: teach me game basics while I play
+Assistant: Start an observe session, ask coach me Fortnite or tips for Mario anytime, and use label last action jump after important moves.

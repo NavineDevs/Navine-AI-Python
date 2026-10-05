@@ -1,0 +1,8 @@
+{
+  "train_tokens": 63214,
+  "val_tokens": 3328,
+  "total_tokens": 66542,
+  "vocab_size": 194,
+  "train_bin": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\tiny_gpt\\train.bin",
+  "val_bin": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\tiny_gpt\\val.bin"
+}

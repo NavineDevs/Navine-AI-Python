@@ -1,0 +1,3 @@
+{"task": "Domain recon", "target": "example.org", "kind": "domain", "answer": "Check WHOIS, DNS, MX, TXT, and certificate transparency for subdomains. Report only public registry data.", "sources": [{"title": "WHOIS", "url": "https://example.org"}]}
+{"task": "Username lookup", "target": "navine_demo", "kind": "username", "answer": "Search public profiles and linked pages. Note name collisions and confidence per account.", "sources": []}
+{"task": "Email exposure check", "target": "contact@example.org", "kind": "email", "answer": "Review public breach disclosures and mentions in documents. Never attempt unauthorized mailbox access.", "sources": []}

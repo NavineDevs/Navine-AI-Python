@@ -1,0 +1,37 @@
+{
+  "query": "\"torvalds\" username profiles social media accounts site:github.com OR site:reddit.com",
+  "timestamp": "2026-08-24T12:06:46.210334+00:00",
+  "results": [
+    {
+      "title": "ChatGPT: Chat, Work, Create & Code with AI",
+      "url": "https://chatgpt.com/",
+      "snippet": "Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "ChatGPT",
+      "url": "https://chatgpt.com/features",
+      "snippet": "Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Introducing ChatGPT - OpenAI",
+      "url": "https://openai.com/index/chatgpt/",
+      "snippet": "Nov 30, 2022 · We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Introducing ChatGPT Plus - OpenAI",
+      "url": "https://openai.com/index/chatgpt-plus/",
+      "snippet": "Feb 1, 2023 · We’re launching a pilot subscription plan for ChatGPT, a conversational AI that can chat with you, answer follow-up …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "ChatGPT - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ChatGPT",
+      "snippet": "OpenAI operates the service on a freemium model. Users can interact with ChatGPT through text, audio, and image prompts. ChatGPT …",
+      "source": "duckduckgo",
+      "excerpt": "Generative AI chatbot by OpenAI ChatGPT Developer OpenAI Release November 30, 2022 (3 years ago) ( 2022-11-30 ) [ 1 ] Stable release June 18, 2026 (2 months ago) ( 2026-06-18 ) [ 2 ] Engine GPT-5.6 Operating system Web platform iOS Android macOS Windows iPadOS Platform Cloud computing platforms Available in 59 languages [ 3 ] Type Chatbot Large language model Generative pre-trained transformer License Proprietary service Website chatgpt .com Part of a series on OpenAI Products ChatGPT Search Deep Research GPTs DALL-E Sora Whisper Models GPT-3 GPT-4 GPT-4o GPT-4.5 GPT-4.1 GPT-5 GPT-5.1 GPT-5.2 GPT-5.4 GPT-5.5 GPT-5.6 o1 o3 o4-mini People Sam Altman Greg Brockman Jessica Livingston Peter Thiel Elon Musk Andrej Karpathy Concepts Hallucination Large language model Word embedding Training v t e ChatGPT is a generative AI chatbot developed by OpenAI . Originally released on November 30, 2022, "
+    }
+  ]
+}

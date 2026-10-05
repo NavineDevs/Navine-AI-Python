@@ -1,0 +1,15 @@
+{
+  "prompt": "blue mountain at dusk",
+  "enhanced_prompt": "a blue mountains under a clear sky, outdoor landscape, atmospheric depth, natural lighting, high quality",
+  "num_steps": 16,
+  "guidance_scale": 1.6,
+  "seed": 819407734,
+  "procedural": false,
+  "nsfw": false,
+  "category": "general",
+  "timestamp": "2026-09-24T10:25:03.062599+00:00",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\outputs\\image\\generated.png",
+  "generation_mode": "diffusion",
+  "reference_used": false,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\image_enterprise_v2\\latest.pt"
+}

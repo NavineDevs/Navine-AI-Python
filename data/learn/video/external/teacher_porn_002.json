@@ -1,0 +1,18 @@
+{
+  "prompt": "amateur adult photo, bedroom lighting, sharp focus, realistic body",
+  "caption": "amateur adult photo, bedroom lighting, sharp focus, realistic body",
+  "filename": "teacher_porn_002.mp4",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-06-24T13:49:10.820672+00:00",
+  "enhanced_prompt": "an amateur adult photo, bedroom lighting, sharp focus, realistic body, photorealistic adult content, natural lighting, detailed skin texture",
+  "num_frames": 32,
+  "fps": 24,
+  "seed": 2097355495,
+  "fallback": true,
+  "secondary_path": true,
+  "nsfw_enhance": true,
+  "category": "porn",
+  "generation_mode": "external_diffusion_hybrid",
+  "image_model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\teacher_porn_002.mp4"
+}

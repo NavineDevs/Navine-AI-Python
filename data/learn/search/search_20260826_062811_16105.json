@@ -1,0 +1,39 @@
+{
+  "query": "\"the\" username profiles social media accounts site:github.com OR site:reddit.com",
+  "timestamp": "2026-08-26T06:28:11.235637+00:00",
+  "results": [
+    {
+      "title": "Friendica",
+      "url": "https://en.wikipedia.org/wiki/Friendica",
+      "snippet": "protocols for distributed social networking Distributed social network \"Initial checkin · duthied/Free-Friendika@6348e70\". github . com . Retrieved 2 April 2017",
+      "source": "wikipedia",
+      "excerpt": "Free software for distributed social networks Friendica Original author Mike Macgirvin Developer Friendica community Release July 2010 (mistpark) [ 1 ] [ 2 ] Stable release 2026.01 [ 3 ] / January 27, 2026 ( 2026-01-27 ) Written in PHP Operating system Cross-platform Type Social network service License AGPLv3+ [ 4 ] Website friendi .ca Repository github .com /friendica /friendica Friendica (formerly Friendika, originally Mistpark) is a free and open-source software [ 5 ] distributed social network . It forms one part of the Fediverse , an interconnected and decentralized network of independently operated servers. [ 6 ] [ 7 ] [ 8 ] Features [ edit ] Friendica users can connect with others via their own Friendica server, but may also fully integrate contacts from other platforms including Diaspora , Pump.io , GNU social , email, Discourse [ 9 ] and more recently ActivityPub (including Mast"
+    },
+    {
+      "title": "Steve Huffman",
+      "url": "https://en.wikipedia.org/wiki/Steve_Huffman",
+      "snippet": "known by his Reddit username spez (/spɛz/ ), is an American web developer and entrepreneur. He is the co-founder and CEO of Reddit , which is the seventh most-visited",
+      "source": "wikipedia",
+      "excerpt": "American web developer and entrepreneur (born 1983) Not to be confused with Steve Hoffman . Steve Huffman Huffman in 2017 Born 1983 or 1984 (age 42–43) [ 1 ] Lansing, Michigan , U.S. [ 2 ] Other name spez [ 3 ] Education University of Virginia ( BS ) Occupations Co-founder and CEO of Reddit Children 1 Steve Huffman (born 1983 or 1984), also known by his Reddit username spez ( / s p ɛ z / ⓘ ), is an American web developer and entrepreneur. He is the co-founder and CEO of Reddit , which is the seventh most-visited website in the world as of July 2025. [ 4 ] He also co-founded the airfare search engine website Hipmunk , which was shut down in 2020. [ 5 ] His tenure as Reddit CEO has been met with many controversies regarding his changes to the platform. As of November 2025, Huffman's estimated net worth is approximately $1.2 billion. [ 6 ] Early life and education [ edit ] Steve Huffman gre"
+    },
+    {
+      "title": "Discord",
+      "url": "https://en.wikipedia.org/wiki/Discord",
+      "snippet": "instant messaging and VoIP social platform that allows communication through voice calls, video calls, text messaging, and media . Communication can be private",
+      "source": "wikipedia",
+      "excerpt": "Online communication software For the Greek and Roman goddess, see Eris (mythology) . Not to be confused with Discogs or Discourse (software) . Discord Logo used since 2021 Screenshot Screenshot depicting Discord's home screen in 2026 Developer Discord Inc. [ a ] Release May 13, 2015 ; 11 years ago ( 2015-05-13 ) Stable release(s) [ ± ] Windows 1.0.9253 / August 11, 2026 ; 15 days ago ( 2026-08-11 ) [ 1 ] Android 341.13 / August 11, 2026 ; 15 days ago ( 2026-08-11 ) [ 2 ] [ 3 ] iOS [ b ] 341.0 / August 10, 2026 ; 16 days ago ( 2026-08-10 ) [ 4 ] Written in Client: TypeScript (with React ) [ 5 ] Server: Elixir , [ 6 ] Python , [ 7 ] Rust , [ 8 ] [ 9 ] C++ [ 10 ] Engine Web client: Electron Mobile client: React Native Server: Bespoke, purpose-built Operating system Windows 10 , 11 macOS 11 + Linux Android 7 + iOS 16 + [ c ] visionOS 1 + web browsers Available in 31 languages List of langua"
+    },
+    {
+      "title": "Hydepark - Forum Gdańsk, Gdynia, Sopot.",
+      "url": "https://forum.trojmiasto.pl/Hydepark-c1,30.html",
+      "snippet": "Hydepark - Wypowiedź się w tym temacie na trójmiejskim forum dyskusyjnym. Forum Gdańsk, Gdynia, Sopot.",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Guides Voyage Forum",
+      "url": "https://voyageforum.com/guides/",
+      "snippet": "1 day ago · Les Guides VoyageForum (VF) sont des guides voyages collaboratifs en constante évolution et rédigés par les …",
+      "source": "duckduckgo"
+    }
+  ]
+}

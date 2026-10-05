@@ -1,0 +1,15 @@
+{
+  "prompt": "photorealistic explicit adult woman pussy boobs, natural lighting, detailed anatomy",
+  "enhanced_prompt": "photorealistic explicit adult woman pussy boobs, natural lighting, detailed anatomy",
+  "num_steps": 100,
+  "guidance_scale": 1.7,
+  "seed": 42,
+  "procedural": false,
+  "nsfw": true,
+  "category": "real",
+  "timestamp": "2026-08-21T18:17:49.234100+00:00",
+  "output": "outputs\\image\\mix_porn_explicit.png",
+  "generation_mode": "diffusion",
+  "reference_used": false,
+  "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise\\latest.pt"
+}

@@ -1,0 +1,12 @@
+{"media": "gameplay_hud.png", "type": "image", "caption": "Video game HUD with health bar, mini-map, and action prompts"}
+{"media": "platformer_level.png", "type": "image", "caption": "Side-scrolling platformer stage with floating platforms and coin pickups"}
+{"media": "battle_royale_map.png", "type": "image", "caption": "Top-down battle royale map with storm circle and player markers"}
+{"media": "first_person_aim.png", "type": "image", "caption": "First-person shooter view with crosshair aimed at a distant target"}
+{"media": "coding_ide.png", "type": "image", "caption": "Dark code editor showing Python functions and syntax highlighting"}
+{"media": "chat_ui.png", "type": "image", "caption": "Clean chat interface with user and assistant message bubbles"}
+{"media": "voice_waveform.png", "type": "image", "caption": "Audio waveform visualization for a spoken voice assistant command"}
+{"media": "sunset_drone.mp4", "type": "video", "caption": "Slow drone pan over hills during golden hour sunset"}
+{"media": "city_traffic.mp4", "type": "video", "caption": "Night city traffic lights trailing in long-exposure style motion"}
+{"media": "ocean_aerial.mp4", "type": "video", "caption": "Aerial view of turquoise ocean waves near a rocky coastline"}
+{"media": "kitchen_recipe.png", "type": "image", "caption": "Overhead photo of ingredients prepared on a wooden kitchen counter"}
+{"media": "robot_arm.gif", "type": "video", "caption": "Industrial robot arm assembling a small electronic board in a loop"}

@@ -1,0 +1,15 @@
+C:\Users\hitbo\Downloads\Navine AI - Python\navine\server.py:125: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [17004]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8766 (Press CTRL+C to quit)
+C:\Users\hitbo\Downloads\Navine AI - Python\navine\image\model.py:272: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, num_layers=num_layers)
+image checkpoint latest_good.pt produced noise/bland; trying next
+image checkpoint latest_post_mix.pt produced noise/bland; trying next

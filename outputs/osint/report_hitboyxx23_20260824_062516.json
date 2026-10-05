@@ -1,0 +1,39 @@
+{
+  "target": "hitboyxx23",
+  "kind": "username",
+  "query": "\"hitboyxx23\" username profiles social media accounts",
+  "analysis": "OSINT report for `hitboyxx23` (username)\n\nPublic profile links to check:\n- GitHub: https://github.com/hitboyxx23\n- Reddit: https://www.reddit.com/user/hitboyxx23\n- X: https://x.com/hitboyxx23\n- Instagram: https://www.instagram.com/hitboyxx23/\n- TikTok: https://www.tiktok.com/@hitboyxx23\n- YouTube: https://www.youtube.com/@hitboyxx23\n- Steam: https://steamcommunity.com/id/hitboyxx23\n- Twitch: https://www.twitch.tv/hitboyxx23\n\nPublic web findings:\n1. HitBoy HitBoy (@hitboyxx23) • Instagram photos and videos\n   https://www.instagram.com/hitboyxx23/\n   40 Followers, 18 Following, 8 Posts - HitBoy HitBoy (@hitboyxx23) on Instagram: \"I'm a web dev I make websites and some games\"\n2. Social Media Search by Name - Find Profiles · DeepSearch\n   https://deepsearch.app/social-media-search\n   Social media search by name. DeepSearch finds a person's public profiles across Instagram, X, TikTok, LinkedIn, Facebook and more, …\n3. hitboyxx23 Lnk.Bio · link in bio\n   https://lnk.bio/hitboyxx23\n   hitboyxx23 Lnk.Bio · link in bio - Profile and social media links for hitboyxx23\n4. Social Media Lookup — Free Social Media Finder (2026) | FootprintIQ\n   https://footprintiq.app/social-media-finder\n   The fastest free social media finder in 2026. Find social media accounts by email, username, or phone number. FootprintIQ checks …\n5. Username Search - Social Media Profile Lookup - IDCrawl\n   https://www.idcrawl.com/username-search\n   Username search by IDCrawl. Run a reverse username lookup to uncover social media profiles, hidden profiles and real people behind a …\n\nConfidence: medium from public sources only. Verify each link manually.\nNext steps: open the strongest matches, compare usernames across platforms, and note any public bios or links.",
+  "search_results": [
+    {
+      "title": "HitBoy HitBoy (@hitboyxx23) • Instagram photos and videos",
+      "url": "https://www.instagram.com/hitboyxx23/",
+      "snippet": "40 Followers, 18 Following, 8 Posts - HitBoy HitBoy (@hitboyxx23) on Instagram: \"I'm a web dev I make websites and some games\"",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Social Media Search by Name - Find Profiles · DeepSearch",
+      "url": "https://deepsearch.app/social-media-search",
+      "snippet": "Social media search by name. DeepSearch finds a person's public profiles across Instagram, X, TikTok, LinkedIn, Facebook and more, …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "hitboyxx23 Lnk.Bio · link in bio",
+      "url": "https://lnk.bio/hitboyxx23",
+      "snippet": "hitboyxx23 Lnk.Bio · link in bio - Profile and social media links for hitboyxx23",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Social Media Lookup — Free Social Media Finder (2026) | FootprintIQ",
+      "url": "https://footprintiq.app/social-media-finder",
+      "snippet": "The fastest free social media finder in 2026. Find social media accounts by email, username, or phone number. FootprintIQ checks …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Username Search - Social Media Profile Lookup - IDCrawl",
+      "url": "https://www.idcrawl.com/username-search",
+      "snippet": "Username search by IDCrawl. Run a reverse username lookup to uncover social media profiles, hidden profiles and real people behind a …",
+      "source": "duckduckgo"
+    }
+  ],
+  "finished_at": "2026-08-24T06:25:16.055438+00:00"
+}

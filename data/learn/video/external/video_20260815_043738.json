@@ -1,0 +1,18 @@
+{
+  "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+  "caption": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+  "filename": "video_20260815_043738.mp4",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-08-15T04:38:02.429206+00:00",
+  "enhanced_prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+  "num_frames": 16,
+  "fps": 12,
+  "seed": 1829776917,
+  "fallback": true,
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "category": null,
+  "generation_mode": "external_diffusion_hybrid",
+  "image_model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\external\\video\\video_20260815_043738.mp4"
+}

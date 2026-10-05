@@ -1,0 +1,7 @@
+GPU train operations checklist.
+
+Confirm torch.cuda.is_available via project venv before long jobs.
+Print device banner at train start with name and VRAM.
+Prefer AMP mixed precision for enterprise text and image diffusion.
+Keep batch small and use grad_accum_steps when VRAM is eight gigabytes class.
+Log long jobs under logs/. Save latest.pt often so interrupted runs remain usable.

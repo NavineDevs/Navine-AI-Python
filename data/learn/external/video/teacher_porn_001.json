@@ -1,0 +1,18 @@
+{
+  "prompt": "photorealistic explicit adult woman, natural lighting, detailed skin texture",
+  "caption": "photorealistic explicit adult woman, natural lighting, detailed skin texture",
+  "filename": "teacher_porn_001.mp4",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-06-25T08:27:34.463968+00:00",
+  "enhanced_prompt": "an photorealistic explicit adult woman, natural lighting, detailed skin texture, photorealistic adult content, natural lighting, detailed skin texture",
+  "num_frames": 16,
+  "fps": 12,
+  "seed": 2814,
+  "fallback": true,
+  "secondary_path": true,
+  "nsfw_enhance": true,
+  "category": "porn",
+  "generation_mode": "external_diffusion_hybrid",
+  "image_model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\teacher_porn_001.mp4"
+}

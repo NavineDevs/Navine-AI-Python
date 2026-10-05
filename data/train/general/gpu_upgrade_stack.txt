@@ -1,0 +1,6 @@
+Navine AI GPU hybrid notes
+- device.mode hybrid resolves to CUDA when torch.cuda.is_available
+- print_train_device_banner shows name, VRAM, AMP dtype, pin_memory workers
+- text_enterprise live target: 10x640 SwiGLU RMSNorm RoPE BPE12k
+- image_enterprise and video_enterprise stay custom_trained_only
+- never pull external foundation weights for the brain

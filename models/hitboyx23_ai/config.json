@@ -1,0 +1,42 @@
+{
+  "format": "navine-llm-v1",
+  "runnable": true,
+  "name": "hitboyx23_ai",
+  "modality": "multimodal",
+  "role": "HitBoyXx23 AI (all coding languages)",
+  "config_name": "hitboyx23_ai",
+  "weights": "latest.pt",
+  "weights_path": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\hitboyx23_ai\\latest.pt",
+  "tokenizer": "tokenizer.json",
+  "architecture": {
+    "vocab_size": 12000,
+    "d_model": 384,
+    "n_heads": 8,
+    "n_layers": 5,
+    "d_ff": 1536,
+    "max_seq_len": 1024,
+    "dropout": 0.08,
+    "use_rope": true,
+    "use_kv_cache": true,
+    "use_swiglu": true,
+    "use_rms_norm": true,
+    "tie_embeddings": true
+  },
+  "parameters": 317047808,
+  "inference": {
+    "max_new_tokens": 320,
+    "temperature": 0.5,
+    "modes": [
+      "chat",
+      "code",
+      "think",
+      "detective",
+      "analyze"
+    ]
+  },
+  "updated_at": "2026-08-24T05:53:23.181574+00:00",
+  "run": [
+    "python models/hitboyx23_ai.py \"your prompt\"",
+    "python -m navine.llm run hitboyx23_ai \"your prompt\""
+  ]
+}

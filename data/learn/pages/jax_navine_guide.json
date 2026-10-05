@@ -1,0 +1,11 @@
+{
+  "url": "navine://learn/jax",
+  "title": "Navine JAX learning guide",
+  "text": "JAX provides numpy APIs, grad, jit, and vmap. Navine primary training stays on PyTorch, but JAX is available for demos, racing AI matrix math, and coding practice. Install with pip install jax jaxlib. Commands: navine learn jax status|install|demo|ingest.",
+  "content_type": "navine/jax",
+  "source": "jax_learn",
+  "timestamp": "2026-08-26T14:29:29.479259+00:00",
+  "navine_modality": "code",
+  "helpful_for_navine": "high",
+  "study_notes": "JAX autodiff/JIT complements Navine coding and experimental AI paths."
+}

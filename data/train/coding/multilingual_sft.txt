@@ -1,0 +1,150 @@
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in rust
+### Assistant: Here is the rust code you requested:
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in go
+### Assistant: Here is the go code you requested:
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, world!")
+}
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in kotlin
+### Assistant: Here is the kotlin code you requested:
+```kotlin
+fun main() {
+    println("Hello, world!")
+}
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in swift
+### Assistant: Here is the swift code you requested:
+```swift
+print("Hello, world!")
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in php
+### Assistant: Here is the php code you requested:
+```php
+<?php
+echo "Hello, world!";
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in ruby
+### Assistant: Here is the ruby code you requested:
+```ruby
+puts "Hello, world!"
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in lua
+### Assistant: Here is the lua code you requested:
+```lua
+print("Hello, world!")
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in haskell
+### Assistant: Here is the haskell code you requested:
+```haskell
+main :: IO ()
+main = putStrLn "Hello, world!"
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in scala
+### Assistant: Here is the scala code you requested:
+```scala
+object Hello extends App {
+  println("Hello, world!")
+}
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in dart
+### Assistant: Here is the dart code you requested:
+```dart
+void main() {
+  print('Hello, world!');
+}
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in elixir
+### Assistant: Here is the elixir code you requested:
+```elixir
+IO.puts("Hello, world!")
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in r
+### Assistant: Here is the r code you requested:
+```r
+cat("Hello, world!\n")
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in bash
+### Assistant: Here is the bash code you requested:
+```bash
+#!/usr/bin/env bash
+echo "Hello, world!"
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in sql
+### Assistant: Here is the sql code you requested:
+```sql
+SELECT 'Hello, world!' AS greeting;
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in java
+### Assistant: Here is the java code you requested:
+```java
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in csharp
+### Assistant: Here is the csharp code you requested:
+```csharp
+using System;
+
+class Hello {
+    static void Main() {
+        Console.WriteLine("Hello, world!");
+    }
+}
+```
+
+### System: You are Navine AI coding mode. Return clean, runnable code in one markdown fence.
+### User: write a hello world in cpp
+### Assistant: Here is the cpp code you requested:
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
+}
+```

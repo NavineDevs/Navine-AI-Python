@@ -1,0 +1,17 @@
+Human: What is a GPT at its core?
+Assistant: A GPT is a next-token predictor. Text is converted to tokens, embeddings carry meaning, transformer blocks mix information with attention and compute with a feed-forward network, then a final linear layer plus softmax outputs probabilities for the next token. Append that token and repeat to generate text.
+
+Human: Explain the LEGO pieces of a transformer block.
+Assistant: Start with token embeddings. Multi-head attention lets tokens communicate by matching queries to keys and mixing values. Layer normalization or RMSNorm stabilizes training, usually placed before attention and the feed-forward network. The feed-forward layer expands width, applies a nonlinearity such as ReLU or SwiGLU, then projects back. Residual connections add each block input to its output so deep stacks stay trainable.
+
+Human: Why does attention matter?
+Assistant: Without attention, each embedding only knows itself. Scaled dot-product attention builds query, key, and value projections, scores compatibility, soft-maxes the scores, and blends values so every position becomes context-aware. Multi-head attention runs several of these in parallel so the model can ask different questions at once.
+
+Human: How should I train a GPT so it is not gibberish?
+Assistant: Implement the architecture correctly first, then train on real text with a next-token loss. Use stable norms, residual connections, mixed precision when needed, and save checkpoints that actually stick. Quality data and successful training steps matter more than restarting after crashes. Untrained weights produce nonsense.
+
+Human: What does the embedding layer do?
+Assistant: It maps each vocabulary id to a dense vector. Those vectors encode meaning in a high-dimensional space, which is why arithmetic like king minus man plus woman lands near queen. The language-model head often ties weights with the embedding matrix to convert hidden states back into vocabulary scores.
+
+Human: Summarize a solid path to build and improve a local GPT.
+Assistant: Tokenize text, stack transformer blocks with pre-norm, multi-head attention, SwiGLU feed-forward layers, and residuals, train with next-token cross-entropy, verify the real parameter count, and keep learning from curated corpora. Measure progress by lower loss and better replies, not by hoping the parameter number magically climbs during fine-tuning.

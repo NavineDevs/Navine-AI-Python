@@ -1,0 +1,41 @@
+{
+  "format": "gguf",
+  "models": [
+    {
+      "name": "text_enterprise",
+      "ok": true,
+      "gguf": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\text_enterprise.gguf",
+      "bytes": 245233568
+    },
+    {
+      "name": "text_code",
+      "ok": true,
+      "gguf": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\text_code.gguf",
+      "bytes": 230721472
+    },
+    {
+      "name": "hitboyx23_ai",
+      "ok": true,
+      "gguf": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\hitboyx23_ai.gguf",
+      "bytes": 245216576
+    },
+    {
+      "name": "hitboyx23_ai_python",
+      "ok": true,
+      "gguf": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\hitboyx23_ai_python.gguf",
+      "bytes": 245216576
+    },
+    {
+      "name": "image_enterprise",
+      "ok": true,
+      "gguf": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\image_enterprise.gguf",
+      "bytes": 54821888
+    },
+    {
+      "name": "video_enterprise",
+      "ok": true,
+      "gguf": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\video_enterprise.gguf",
+      "bytes": 86389280
+    }
+  ]
+}

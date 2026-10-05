@@ -1,0 +1,23 @@
+### User: I found a ciphertext block and a clue that says "every second letter matters". How do I start?
+### Assistant: Observations: You have ciphertext and a rule hint about every second letter. Hypothesis 1: Take even-index characters from the ciphertext. Hypothesis 2: Take odd-index characters instead if the first attempt fails. Test: Write both extractions and look for English words or base64 headers. Red herring check: The rule may apply after removing whitespace, not to the raw string. Answer: Strip whitespace, extract every second character starting at index 0 and index 1, then scan each result for readable text or encoding markers.
+
+### User: Help me investigate a puzzle like Cicada 3301. What mindset should I use?
+### Assistant: Observations: These puzzles mix cryptography, steganography, literature references, and dead drops. Hypothesis: Each clue points to a next location or key, not a random riddle. Step 1: Catalog every format you see: hex, base64, book cipher, image metadata, audio spectrogram. Step 2: Separate confirmed facts from guesses. Step 3: Test one transformation at a time and record outputs. Step 4: Look for checksums, primes, or PGP signatures as validation. Answer: Treat it as a chain of evidence; document each decode attempt, validate with checksums or signatures, and follow only clues that produce structured output.
+
+### User: A wall poster shows symbols and the phrase "liber primus". What should I test first?
+### Assistant: Observations: Symbol grid plus Latin book reference. Hypothesis 1: Book cipher using Liber Primus as key material. Hypothesis 2: Symbols map to runes or a custom alphabet. Test: Map recurring symbols to letter frequencies, compare against known rune tables, and check whether rows/columns form a matrix read order. Cross-check: Search for repeated trigrams after substitution. Answer: Start with alphabet mapping and book-cipher reads before exotic steganography; frequency analysis will tell you if substitution is on the right track.
+
+### User: I have latitude-like numbers, a poem, and a PGP block. How do I connect them?
+### Assistant: Observations: Coordinates, literary text, and an encrypted message. Hypothesis: Coordinates point to a physical or web location that confirms the poem interpretation. Step 1: Verify coordinate format and convert to a map pin. Step 2: Extract nouns and numbers from the poem that may be book-cipher keys. Step 3: Try decrypting the PGP block only after you have a plausible key or passphrase candidate. Answer: Use coordinates as ground truth for the poem reading, then use the resulting key candidate against the PGP block.
+
+### User: What is a red herring in an ARG mystery?
+### Assistant: Observations: Some clues are designed to waste time. Hypothesis: A red herring looks meaningful but does not advance the chain. Tests: Does the clue produce structured output after standard transforms? Does it match checksum or signature validation? Does it connect to a prior confirmed clue? Answer: A red herring fails validation or leads nowhere after basic decode attempts; drop it and return to clues that produced structured results.
+
+### User: Decode this idea: hidden text inside an image file.
+### Assistant: Observations: Image may carry metadata or LSB steganography. Step 1: Inspect EXIF and trailing bytes. Step 2: Check least significant bits of each color channel. Step 3: Run strings on the file for embedded ASCII. Step 4: Compare against a reference image if available. Answer: Start with metadata and strings, then LSB extraction on RGB channels; document any header like PK or BEGIN PGP found in extracted bytes.
+
+### User: Three suspects, one alibi conflict, one encrypted note. Where do I begin?
+### Assistant: Observations: Alibi conflict is the only hard contradiction so far. Hypothesis: The encrypted note may name a location or key tied to the suspect with the broken alibi. Step 1: Timeline the alibi conflict precisely. Step 2: Attempt basic ciphers on the note before complex schemes. Step 3: Match note vocabulary to each suspect's known phrases. Answer: Prioritize the alibi contradiction as primary evidence, then decode the note with simple ciphers first while matching language patterns to suspects.
+
+### User: Solve a short substitution puzzle: "GSV XLMW GSRMG".
+### Assistant: Step 1: Assume A1Z26-style shift or Atbash because the string is short. Step 2: Atbash maps A↔Z, B↔Y, etc. Step 3: Apply Atbash to get "THE CODE THING". Answer: THE CODE THING.

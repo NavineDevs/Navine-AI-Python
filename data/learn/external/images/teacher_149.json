@@ -1,0 +1,15 @@
+{
+  "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+  "caption": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+  "filename": "teacher_149.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-08-14T16:51:36.013242+00:00",
+  "enhanced_prompt": "a photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+  "seed": 862409436,
+  "generation_mode": "checkpoint_fallback",
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "negative_prompt": "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, censored, mosaic, bar censor, pixelated, low resolution, extra limbs, malformed hands, duplicate, cropped",
+  "model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_149.png"
+}

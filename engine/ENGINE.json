@@ -1,0 +1,58 @@
+{
+  "name": "Navine Engine",
+  "version": "1",
+  "updated_at": "2026-08-24T05:53:23Z",
+  "probe": {
+    "engine": "Navine Engine",
+    "version": "1",
+    "device": "cuda",
+    "cuda": true,
+    "sdpa": true,
+    "kv_cache": true,
+    "custom_kernels": [
+      "sdpa",
+      "rope",
+      "swiglu",
+      "rmsnorm",
+      "ddpm_sample",
+      "video_lstm_decode"
+    ],
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "vram_gb": 8.0,
+    "bf16": true,
+    "dtype": "bfloat16",
+    "native_kernels": false,
+    "kernel_backend": "python"
+  },
+  "models": {
+    "text_enterprise": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\text_enterprise\\latest.pt",
+    "text_code": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\text_code\\latest.pt",
+    "hitboyx23_ai": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\hitboyx23_ai\\latest.pt",
+    "hitboyx23_ai_python": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\hitboyx23_ai_python\\latest.pt",
+    "image_enterprise": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\image_enterprise\\latest.pt",
+    "video_enterprise": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\video_enterprise\\latest.pt"
+  },
+  "gguf": {
+    "text_enterprise": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\text_enterprise.gguf",
+    "text_code": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\text_code.gguf",
+    "hitboyx23_ai": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\hitboyx23_ai.gguf",
+    "hitboyx23_ai_python": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\hitboyx23_ai_python.gguf",
+    "image_enterprise": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\image_enterprise.gguf",
+    "video_enterprise": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\gguf\\video_enterprise.gguf"
+  },
+  "kernels": [
+    "sdpa",
+    "rope",
+    "swiglu",
+    "rmsnorm",
+    "ddpm_sample",
+    "video_lstm_decode"
+  ],
+  "run": [
+    "python -m navine.engine probe",
+    "python -m navine.engine run text_enterprise \"hello\"",
+    "python -m navine.engine run text_code \"write a python hello world\"",
+    "python -m navine.engine run image_enterprise \"photoreal portrait\"",
+    "python -m navine.engine run video_enterprise \"slow camera pan\""
+  ]
+}

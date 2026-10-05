@@ -1,0 +1,14 @@
+NAVINE GENERAL NN / PIPELINE NOTES
+==================================
+
+Text NN trains with next-token prediction on dialogue and corpora.
+Image NN trains with local diffusion-style objectives on image folders.
+Video NN trains on frame sequences or configured video data.
+Voice training calibrates and registers local TTS voices.
+
+Prefer structured files:
+  - .txt and .md dialogue for chat/games
+  - .jsonl for coding, math, captions
+  - session.json under games/sessions for live learn
+
+Never put API keys inside training data files.

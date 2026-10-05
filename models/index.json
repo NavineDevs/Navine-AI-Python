@@ -1,0 +1,54 @@
+{
+  "format": "navine-llm-v1",
+  "updated_at": "2026-08-24T05:53:23.244961+00:00",
+  "models": [
+    {
+      "name": "text_enterprise",
+      "ok": true,
+      "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\text_enterprise\\latest.pt",
+      "llm_file": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\text_enterprise.py",
+      "config": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\text_enterprise\\config.json",
+      "parameters": 317047808
+    },
+    {
+      "name": "text_code",
+      "ok": true,
+      "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\text_code\\latest.pt",
+      "llm_file": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\text_code.py",
+      "config": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\text_code\\config.json",
+      "parameters": null
+    },
+    {
+      "name": "hitboyx23_ai",
+      "ok": true,
+      "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\hitboyx23_ai\\latest.pt",
+      "llm_file": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\hitboyx23_ai.py",
+      "config": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\hitboyx23_ai\\config.json",
+      "parameters": 317047808
+    },
+    {
+      "name": "hitboyx23_ai_python",
+      "ok": true,
+      "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\hitboyx23_ai_python\\latest.pt",
+      "llm_file": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\hitboyx23_ai_python.py",
+      "config": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\hitboyx23_ai_python\\config.json",
+      "parameters": 317047808
+    },
+    {
+      "name": "image_enterprise",
+      "ok": true,
+      "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\image_enterprise_v2\\latest.pt",
+      "llm_file": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\image_enterprise.py",
+      "config": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\image_enterprise\\config.json",
+      "parameters": 127314883
+    },
+    {
+      "name": "video_enterprise",
+      "ok": true,
+      "checkpoint": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\video_enterprise\\latest.pt",
+      "llm_file": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\video_enterprise.py",
+      "config": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\models\\video_enterprise\\config.json",
+      "parameters": 25808723
+    }
+  ]
+}

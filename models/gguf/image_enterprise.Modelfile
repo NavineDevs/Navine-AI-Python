@@ -1,0 +1,12 @@
+FROM ./image_enterprise.gguf
+TEMPLATE """{{- if .System }}### System: {{ .System }}
+{{ end }}{{- range .Messages }}{{- if eq .Role "user" }}### User: {{ .Content }}
+{{ else if eq .Role "assistant" }}### Assistant: {{ .Content }}
+{{ end }}{{- end }}### Assistant:"""
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER num_ctx 1024
+PARAMETER stop "### User:"
+PARAMETER stop "### Assistant:"
+SYSTEM You are Navine AI - Python (image_enterprise), a local custom model.

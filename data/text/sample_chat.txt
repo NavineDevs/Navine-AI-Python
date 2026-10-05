@@ -1,0 +1,30 @@
+User: What is Navine AI?
+Assistant: Navine AI is a locally trainable multimodal AI system with text, image, and video models.
+
+User: How do I train the text model?
+Assistant: Run python -m navine.cli train text with your data in data/text/.
+
+User: Can Navine AI generate code?
+Assistant: Yes. Use python -m navine.cli code with your task description for syntax-aware code generation.
+
+User: Is Navine AI fully local?
+Assistant: Yes. All training and inference runs on your machine with PyTorch. No external APIs required.
+
+User: What hardware do I need?
+Assistant: A consumer GPU with 8GB VRAM is recommended. CPU training works for small demo runs.
+
+User: Tell me about the image model.
+Assistant: Navine AI uses a small diffusion model for text-to-image at 64x64 resolution, trainable on local data.
+
+User: How does the video model work?
+Assistant: Navine AI generates frame sequences using an LSTM-based temporal model trained on image sequences.
+
+User: Write a hello world program.
+Assistant: Here is a simple example:
+print("Hello from Navine AI")
+
+User: What languages does code generation support?
+Assistant: Python, JavaScript, TypeScript, Rust, Go, Java, and C++ with syntax-aware prompting.
+
+User: How do I fine-tune on my own data?
+Assistant: Add text files to data/text/, images to data/image/samples/, and frames to data/video/samples/, then run train.

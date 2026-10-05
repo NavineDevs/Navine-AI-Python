@@ -1,0 +1,36 @@
+{
+  "format": "navine-llm-v1",
+  "runnable": true,
+  "name": "video_enterprise",
+  "modality": "multimodal",
+  "role": "Custom video model",
+  "config_name": "video_enterprise",
+  "weights": "latest.pt",
+  "weights_path": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\video_enterprise\\latest.pt",
+  "tokenizer": null,
+  "architecture": {
+    "frame_size": 160,
+    "num_frames": 20,
+    "in_channels": 3,
+    "hidden_dim": 576,
+    "num_layers": 12
+  },
+  "parameters": 25808723,
+  "inference": {
+    "num_frames": 32,
+    "fps": 24,
+    "seed": 0,
+    "modes": [
+      "default",
+      "code",
+      "think",
+      "detective",
+      "analyze"
+    ]
+  },
+  "updated_at": "2026-08-24T05:53:23.241177+00:00",
+  "run": [
+    "python models/video_enterprise.py \"your prompt\"",
+    "python -m navine.llm run video_enterprise \"your prompt\""
+  ]
+}
