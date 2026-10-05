@@ -1,0 +1,221 @@
+{
+  "repo": "NavineDevs/Navine-AI-Python",
+  "tag": "weights-v1",
+  "files": [
+    {
+      "path": "checkpoints/deepfake/latest.pt",
+      "size": 4126507179,
+      "parts": [
+        "checkpoints__deepfake__latest.pt.part01",
+        "checkpoints__deepfake__latest.pt.part02",
+        "checkpoints__deepfake__latest.pt.part03"
+      ]
+    },
+    {
+      "path": "checkpoints/hitboyx23_ai/best.pt",
+      "size": 597149186,
+      "parts": [
+        "checkpoints__hitboyx23_ai__best.pt.part01"
+      ]
+    },
+    {
+      "path": "checkpoints/hitboyx23_ai/latest.pt",
+      "size": 3304755293,
+      "parts": [
+        "checkpoints__hitboyx23_ai__latest.pt.part01",
+        "checkpoints__hitboyx23_ai__latest.pt.part02"
+      ]
+    },
+    {
+      "path": "checkpoints/hitboyx23_ai_python/best.pt",
+      "size": 597149186,
+      "parts": [
+        "checkpoints__hitboyx23_ai_python__best.pt.part01"
+      ]
+    },
+    {
+      "path": "checkpoints/hitboyx23_ai_python/latest.pt",
+      "size": 3304755293,
+      "parts": [
+        "checkpoints__hitboyx23_ai_python__latest.pt.part01",
+        "checkpoints__hitboyx23_ai_python__latest.pt.part02"
+      ]
+    },
+    {
+      "path": "checkpoints/image_enterprise_v2/latest.pt",
+      "size": 4043026585,
+      "parts": [
+        "checkpoints__image_enterprise_v2__latest.pt.part01",
+        "checkpoints__image_enterprise_v2__latest.pt.part02",
+        "checkpoints__image_enterprise_v2__latest.pt.part03"
+      ]
+    },
+    {
+      "path": "checkpoints/image_enterprise_v2/latest_800m_init.pt",
+      "size": 3329312497,
+      "parts": [
+        "checkpoints__image_enterprise_v2__latest_800m_init.pt.part01",
+        "checkpoints__image_enterprise_v2__latest_800m_init.pt.part02"
+      ]
+    },
+    {
+      "path": "checkpoints/image_enterprise_v2/latest_good.pt",
+      "size": 555407897,
+      "parts": [
+        "checkpoints__image_enterprise_v2__latest_good.pt.part01"
+      ]
+    },
+    {
+      "path": "checkpoints/image_enterprise_v2/latest_mix3500.pt",
+      "size": 555407897,
+      "parts": [
+        "checkpoints__image_enterprise_v2__latest_mix3500.pt.part01"
+      ]
+    },
+    {
+      "path": "checkpoints/image_enterprise_v2/latest_overfit_diag.pt",
+      "size": 509382839,
+      "parts": [
+        "checkpoints__image_enterprise_v2__latest_overfit_diag.pt.part01"
+      ]
+    },
+    {
+      "path": "checkpoints/image_enterprise_v2/latest_post_mix.pt",
+      "size": 555407897,
+      "parts": [
+        "checkpoints__image_enterprise_v2__latest_post_mix.pt.part01"
+      ]
+    },
+    {
+      "path": "checkpoints/image_enterprise_v2/latest_pre_mix.pt",
+      "size": 555407897,
+      "parts": [
+        "checkpoints__image_enterprise_v2__latest_pre_mix.pt.part01"
+      ]
+    },
+    {
+      "path": "checkpoints/image_enterprise_v2/latest_pre_overfit.pt",
+      "size": 509382839,
+      "parts": [
+        "checkpoints__image_enterprise_v2__latest_pre_overfit.pt.part01"
+      ]
+    },
+    {
+      "path": "checkpoints/image_enterprise_v2/latest_pre_sky1.pt",
+      "size": 509382839,
+      "parts": [
+        "checkpoints__image_enterprise_v2__latest_pre_sky1.pt.part01"
+      ]
+    },
+    {
+      "path": "checkpoints/text_code/best.pt",
+      "size": 4107565563,
+      "parts": [
+        "checkpoints__text_code__best.pt.part01",
+        "checkpoints__text_code__best.pt.part02",
+        "checkpoints__text_code__best.pt.part03"
+      ]
+    },
+    {
+      "path": "checkpoints/text_code/latest.pt",
+      "size": 4107566121,
+      "parts": [
+        "checkpoints__text_code__latest.pt.part01",
+        "checkpoints__text_code__latest.pt.part02",
+        "checkpoints__text_code__latest.pt.part03"
+      ]
+    },
+    {
+      "path": "checkpoints/text_enterprise/best.pt",
+      "size": 4107565563,
+      "parts": [
+        "checkpoints__text_enterprise__best.pt.part01",
+        "checkpoints__text_enterprise__best.pt.part02",
+        "checkpoints__text_enterprise__best.pt.part03"
+      ]
+    },
+    {
+      "path": "checkpoints/text_enterprise/latest.pt",
+      "size": 4107566121,
+      "parts": [
+        "checkpoints__text_enterprise__latest.pt.part01",
+        "checkpoints__text_enterprise__latest.pt.part02",
+        "checkpoints__text_enterprise__latest.pt.part03"
+      ]
+    },
+    {
+      "path": "checkpoints/video_enterprise/latest.pt",
+      "size": 4117832481,
+      "parts": [
+        "checkpoints__video_enterprise__latest.pt.part01",
+        "checkpoints__video_enterprise__latest.pt.part02",
+        "checkpoints__video_enterprise__latest.pt.part03"
+      ]
+    },
+    {
+      "path": "checkpoints/voice/latest.pt",
+      "size": 4106963283,
+      "parts": [
+        "checkpoints__voice__latest.pt.part01",
+        "checkpoints__voice__latest.pt.part02",
+        "checkpoints__voice__latest.pt.part03"
+      ]
+    },
+    {
+      "path": "data/image/learned/14ae29bea873951c.gif",
+      "size": 104734286,
+      "parts": [
+        "data__image__learned__14ae29bea873951c.gif.part01"
+      ]
+    },
+    {
+      "path": "data/train/coding/python.jsonl",
+      "size": 153685249,
+      "parts": [
+        "data__train__coding__python.jsonl.part01"
+      ]
+    },
+    {
+      "path": "latest.pt",
+      "size": 231772841,
+      "parts": [
+        "latest.pt.part01"
+      ]
+    },
+    {
+      "path": "models/gguf/hitboyx23_ai.gguf",
+      "size": 245216576,
+      "parts": [
+        "models__gguf__hitboyx23_ai.gguf.part01"
+      ]
+    },
+    {
+      "path": "models/gguf/hitboyx23_ai_python.gguf",
+      "size": 245216576,
+      "parts": [
+        "models__gguf__hitboyx23_ai_python.gguf.part01"
+      ]
+    },
+    {
+      "path": "models/gguf/text_code.gguf",
+      "size": 230721472,
+      "parts": [
+        "models__gguf__text_code.gguf.part01"
+      ]
+    },
+    {
+      "path": "models/gguf/text_enterprise.gguf",
+      "size": 245233568,
+      "parts": [
+        "models__gguf__text_enterprise.gguf.part01"
+      ]
+    },
+    {
+      "path": "voices/piper/en_US-ryan-high/en_US-ryan-high.onnx",
+      "size": 120786792,
+      "parts": [
+        "voices__piper__en_US-ryan-high__en_US-ryan-high.onnx.part01"
+      ]
+    }
+  ]
+}
