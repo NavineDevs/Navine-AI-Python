@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:krahets/hello-algo:codes/csharp/GlobalUsing.cs",
+  "title": "krahets/hello-algo/codes/csharp/GlobalUsing.cs",
+  "text": "﻿global using NUnit.Framework;\nglobal using hello_algo.utils;\nglobal using System.Text;",
+  "url": "https://raw.githubusercontent.com/krahets/hello-algo/main/codes/csharp/GlobalUsing.cs",
+  "language": "csharp",
+  "kind": "code"
+}

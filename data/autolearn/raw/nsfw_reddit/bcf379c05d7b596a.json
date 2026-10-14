@@ -1,0 +1,19 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfwhardcore:t3_1un4eue:text",
+  "title": "Holy fuck, that was hard",
+  "text": "Holy fuck, that was hard",
+  "url": "https://www.reddit.com/r/nsfwhardcore/comments/1un4eue/holy_fuck_that_was_hard/",
+  "category": "nsfw",
+  "subreddit": "nsfwhardcore",
+  "media_category": "real",
+  "tags": [
+    "real",
+    "photography",
+    "nsfwhardcore"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

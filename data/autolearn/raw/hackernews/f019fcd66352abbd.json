@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48566824",
+  "title": "System call instrumentation on Linux/x86‑64 using memory‑indirect calls, part I",
+  "text": "System call instrumentation on Linux/x86‑64 using memory‑indirect calls, part I",
+  "url": "https://www.humprog.org/~stephen/blog/2026/06/15/#system-call-instrumentation-on-intel-negative-result"
+}

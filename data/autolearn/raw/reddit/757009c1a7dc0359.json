@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:webdev:t3_1vjkw0y",
+  "title": "Anyone here using Netlify for a website long-term?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I’m considering creating a small website/app using <strong>Netlify</strong> and would love to hear from people who have actual experience using it.<br/> A few questions:<br/> What are the <strong>main disadvantages or limitations</strong> of using Netlify?<br/> Is it reliable enough for <strong>long-term use</strong>, or is it better for temporary/small projects?<br/> How does <strong>user authentication</strong> work, and how many authenticated users are allowed on the free plan?<br/> If I have around <strong>25 users</strong>, would the free plan be enough?<br/> Are there any unexpected costs or limitations I should be aware of as the number of users grows?<br/> For someone who wants to maintain the website for several years, would you recommend Netlify?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/StomachLeading6618\"> /u/StomachLeading6618 </a> <br/> <span><a href=\"https://www.reddit.com/r/webdev/comments/1vjkw0y/anyone_here_using_netlify_for_a_website_longterm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1vjkw0y/anyone_here_using_netlify_for_a_website_longterm/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/webdev/comments/1vjkw0y/anyone_here_using_netlify_for_a_website_longterm/"
+}

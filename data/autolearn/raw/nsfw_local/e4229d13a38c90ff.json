@@ -1,0 +1,14 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:data\\learn\\4chan\\text\\news\\news_1520941_1521030.txt",
+  "title": "news_1520941_1521030",
+  "text": "This is some Cartel de los Soles nonsense.",
+  "url": "data\\learn\\4chan\\text\\news\\news_1520941_1521030.txt",
+  "category": "nsfw",
+  "topic": "news",
+  "tags": [
+    "news",
+    "nsfw",
+    "local"
+  ]
+}

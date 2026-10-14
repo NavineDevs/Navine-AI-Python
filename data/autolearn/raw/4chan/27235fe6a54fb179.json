@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:hc:2611378:2611381:image",
+  "title": "/hc/ 2611381",
+  "text": "/hc/ 2611381",
+  "url": "https://boards.4chan.org/hc/thread/2611378#p2611381",
+  "category": "nsfw",
+  "kind": "image",
+  "caption": "/hc/ 2611381 | [real, image, human] | tags: 4chan",
+  "board": "hc",
+  "thread_id": 2611378,
+  "post_id": 2611381,
+  "media_category": "real",
+  "tags": [
+    "4chan",
+    "hc",
+    "real",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/hc/1779199034461466.jpg",
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "local_path": "data\\nsfw\\local\\real\\hc_1779199034461466.jpg"
+}

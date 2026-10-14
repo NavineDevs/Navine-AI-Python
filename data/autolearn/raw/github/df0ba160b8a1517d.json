@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sorin-ionescu/prezto:modules/autosuggestions/init.zsh",
+  "title": "sorin-ionescu/prezto/modules/autosuggestions/init.zsh",
+  "text": "#\n# Integrates zsh-autosuggestions into Prezto.\n#\n# Authors:\n#   Sorin Ionescu <sorin.ionescu@gmail.com>\n#\n\n# Load dependencies.\npmodload 'editor'\n\n# Source module files.\nsource \"${0:h}/external/zsh-autosuggestions.zsh\" || return 1\n\n#\n# Highlighting\n#\n\n# Set highlight color, default 'fg=8'.\nzstyle -s ':prezto:module:autosuggestions:color' found \\\n  'ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE' || ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'\n\n# Disable highlighting.\nif ! zstyle -t ':prezto:module:autosuggestions' color; then\n  ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=''\nfi\n\n#\n# Key Bindings\n#\n\nif [[ -n \"$key_info\" ]]; then\n  # vi\n  bindkey -M viins \"$key_info[Control]F\" vi-forward-word\n  bindkey -M viins \"$key_info[Control]E\" vi-add-eol\nfi\n",
+  "url": "https://raw.githubusercontent.com/sorin-ionescu/prezto/master/modules/autosuggestions/init.zsh",
+  "language": "shell",
+  "kind": "code"
+}

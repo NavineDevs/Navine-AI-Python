@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u2ck7l",
+  "title": "windows duckdb and golang",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I understand I need a c/c++ compiler to use duckdb and go on Windows. Is there an alternative library? I dont have a compiler and I am restricted to get one. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/uragnorson\"> /u/uragnorson </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1u2ck7l/windows_duckdb_and_golang/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u2ck7l/windows_duckdb_and_golang/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1u2ck7l/windows_duckdb_and_golang/"
+}

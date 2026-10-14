@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.28551v1",
+  "title": "Formalization of security",
+  "text": "Formalization of security\n\nProof assistants are often used to validate that designs and implementations meet their expected security properties. A further motivation for using proof assistants is to support certification. This chapter focuses on their applications to system security, language-based security, secure compilation, and cryptography.",
+  "url": "https://arxiv.org/abs/2607.28551v1",
+  "category": "technical"
+}

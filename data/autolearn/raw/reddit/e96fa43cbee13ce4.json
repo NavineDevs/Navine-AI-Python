@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:datascience:t3_1vfshsd",
+  "title": "Stakeholders want high level, then ask detailed questions anyway",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Business stakeholders often complain that data science presentations are too dense and detail oriented, and that we should focus on high level business impact and takeaways. But when we present information at that high level, the questions they ask are detailed and in the weeds.</p> <p>For example, we will strip out the methodology, simplify the metrics, and lead with the business impact, exactly what they asked for. Then the first question is about our sample size, or why we chose a particular model, or how we handled edge cases in the data.</p> <p>I find that experience so confusing and frustrating. It feels like there is a mismatch between what stakeholders say they want and what actually satisfies them in the moment.</p> <p>Has anyone else run into this? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/da_chosen1\"> /u/da_chosen1 </a> <br/> <span><a href=\"https://www.reddit.com/r/datascience/comments/1vfshsd/stakeholders_want_high_level_then_ask_detailed/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/datascience/comments/1vfshsd/stakeholders_want_high_level_then_ask_detailed/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/datascience/comments/1vfshsd/stakeholders_want_high_level_then_ask_detailed/"
+}

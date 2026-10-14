@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:MachineLearning:t3_1vkg921",
+  "title": "3 Collapsing models [R]",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Trying to train 3 models for birads detection using cross entropy and center loss + class weights but all of them seem to collapse between birads 1 as the dataset (VinDr) im using is heavily unbalanced towards it, Would like to ask for input and opinion on what seems to be the case, am I using the wrong loss function?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rihitwo\"> /u/Rihitwo </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkg921/3_collapsing_models_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vkg921/3_collapsing_models_r/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1vkg921/3_collapsing_models_r/"
+}

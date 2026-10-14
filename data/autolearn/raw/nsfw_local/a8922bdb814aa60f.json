@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\images\\infini-atomic\\infini_mori-calliope_6457.jpeg",
+  "title": "infini_mori-calliope_6457",
+  "text": "infini_mori-calliope_6457",
+  "url": "data\\nsfw\\images\\local\\general\\infini_mori-calliope_6457_1782072566193853400.jpeg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\infini_mori-calliope_6457_1782072566193853400.jpeg",
+  "caption": "infini_mori-calliope_6457 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": null,
+  "tags": [
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

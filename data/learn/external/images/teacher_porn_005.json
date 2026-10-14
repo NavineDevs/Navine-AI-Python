@@ -1,0 +1,15 @@
+{
+  "prompt": "photorealistic explicit adult woman, natural lighting, detailed skin texture",
+  "caption": "photorealistic explicit adult woman, natural lighting, detailed skin texture",
+  "filename": "teacher_porn_005.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-06-24T14:49:40.220499+00:00",
+  "enhanced_prompt": "an photorealistic explicit adult woman, natural lighting, detailed skin texture, photorealistic adult content, natural lighting, detailed skin texture",
+  "seed": 1678,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "nsfw_enhance": true,
+  "negative_prompt": "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, censored, mosaic, bar censor, pixelated, low resolution, extra limbs, malformed hands, duplicate, cropped",
+  "model_id": "stabilityai/sd-turbo",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_porn_005.png"
+}

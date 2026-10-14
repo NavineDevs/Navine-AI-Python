@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:1783405",
+  "title": "How can I check out a remote Git branch?",
+  "text": "How can I check out a remote Git branch?\n\n<p>How do I check out the remote <code>test</code> branch? I can see it with <code>git branch -r</code>. I tried:</p>\n<ul>\n<li><code>git checkout test</code>, which does nothing</li>\n<li><code>git checkout origin/test</code> gives <code>* (no branch)</code></li>\n</ul>",
+  "url": "https://stackoverflow.com/questions/1783405/how-can-i-check-out-a-remote-git-branch",
+  "kind": "qa"
+}

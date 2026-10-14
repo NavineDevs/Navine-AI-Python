@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1uqm9qv",
+  "title": "Can anyone help me understand idiomatic Go interfaces?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey there! I was reading on idiomatic Go interfaces and I&#39;m having difficulty understanding idiomatic interfaces and what actually makes something an anti-pattern in Go, not on the concept itself but rather its implementation.<br/> I get the gist of it: accept interfaces, return structs, no extra abstractions, small and local interfaces.<br/> My confusion is that all of this feels like general software design and architecture to me, not something specific to Go. DDD already solves speculation and unnecessary abstraction. Well-defined domains avoid the local interface problem.<br/> So, my question is, what makes idiomatic Go interfaces specifically Go, rather than just good software design principles applied to any language? Am I missing something Go-specific here?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/theonliray\"> /u/theonliray </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1uqm9qv/can_anyone_help_me_understand_idiomatic_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1uqm9qv/can_anyone_help_me_understand_idiomatic_go/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1uqm9qv/can_anyone_help_me_understand_idiomatic_go/"
+}

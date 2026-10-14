@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1vvawfa",
+  "title": "Made a small library called strokes.js.",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Made a small library called strokes.js. Instead of using a &quot;handwriting&quot; webfont (which looks identical everywhere it&#39;s used), it renders each letter as an actual hand-drawn SVG path — real strokes, drawn in with stroke-dashoffset, with small random variation (rotation, baseline drift, glyph variants) so no two renders of the same word look identical.</p> <p>Demo: <a href=\"https://a-elhaag.github.io/glyphed.js/\">https://a-elhaag.github.io/glyphed.js/</a></p> <p>npm: </p> <pre><code>npm install glyphed.js </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/inc_23\"> /u/inc_23 </a> <br/> <span><a href=\"https://a-elhaag.github.io/strokes.js/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1vvawfa/made_a_small_library_called_strokesjs/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1vvawfa/made_a_small_library_called_strokesjs/"
+}

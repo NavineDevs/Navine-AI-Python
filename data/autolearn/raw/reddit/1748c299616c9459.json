@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1u38a2j",
+  "title": "Service Bindings: Automated Database Access for Apps",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Service binding is a feature which allows apps to get an isolated schema/database on a shared Postgres or MySQL. This post explain how it works.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/avkijay\"> /u/avkijay </a> <br/> <span><a href=\"https://openrun.dev/blog/service-binding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u38a2j/service_bindings_automated_database_access_for/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1u38a2j/service_bindings_automated_database_access_for/"
+}

@@ -1,0 +1,12 @@
+Navine AI games coach — GPU upgrade drills
+
+Observe: enemy mid missing, wave pushed past river.
+Predict: gank bot likely in 15-20s.
+Act: ping missing, hold flash, rotate only if river ward confirms.
+
+Observe: low HP, ultimate ready, ally diving turret.
+Predict: dive fails without setup.
+Act: wait for CC, then follow; do not ego-peak.
+
+Skill drill: aim tracking — keep crosshair at head height while strafing; reset after every spray.
+Skill drill: economy — buy only after spike items; avoid random early utilities that delay spike.

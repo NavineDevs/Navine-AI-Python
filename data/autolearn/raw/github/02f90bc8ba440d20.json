@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:Y0URD34TH/Project-GLD:Scripts/Quitongamelaunch [utils].lua",
+  "title": "Y0URD34TH/Project-GLD/Scripts/Quitongamelaunch [utils].lua",
+  "text": "--to view examples and lua params go in this github page: https://github.com/Y0URD34TH/Project-GLD/blob/main/LuaParams.md\r\nmenu.add_check_box(\"Enable quit on game launch\")\r\nmenu.set_bool(\"Enable quit on game launch\", true)\r\nsettings.load()\r\nlocal function gamelaunchc(info)\r\nif menu.get_bool(\"Enable quit on game launch\") then\r\nclient.quit()\r\nend\r\nend\r\n\r\nclient.add_callback(\"on_gamelaunch\", gamelaunchc)\r\n",
+  "url": "https://raw.githubusercontent.com/Y0URD34TH/Project-GLD/main/Scripts/Quitongamelaunch%20%5Butils%5D.lua",
+  "language": "lua",
+  "kind": "code"
+}

@@ -1,0 +1,16 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "reddit:netsec:t3_1u33dor",
+  "title": "Claude Fable 5: mid-tier results on coding tasks",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Despite all the hype around Mythos, Claude Fable 5 returned pretty mid-tier results on coding tasks: 59.8% passing functional solves and just 19.0% passing security solves on a benchmark of 200 real-world tasks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bugvader25\"> /u/bugvader25 </a> <br/> <span><a href=\"https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/netsec/comments/1u33dor/claude_fable_5_midtier_results_on_coding_tasks/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/netsec/comments/1u33dor/claude_fable_5_midtier_results_on_coding_tasks/",
+  "category": "unrestricted",
+  "subreddit": "netsec",
+  "media_category": "animated",
+  "tags": [
+    "netsec"
+  ],
+  "subject_type": "unknown",
+  "style_type": "mixed",
+  "training_scope": "nsfw"
+}

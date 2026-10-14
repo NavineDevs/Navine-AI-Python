@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:114543",
+  "title": "How can I horizontally center an element?",
+  "text": "How can I horizontally center an element?\n\n<p>How can I horizontally center a <code>&lt;div&gt;</code> within another <code>&lt;div&gt;</code> using CSS?</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;div id=&quot;outer&quot;&gt;\n  &lt;div id=&quot;inner&quot;&gt;Foo foo&lt;/div&gt;\n&lt;/div&gt;\n</code></pre>",
+  "url": "https://stackoverflow.com/questions/114543/how-can-i-horizontally-center-an-element",
+  "kind": "qa"
+}

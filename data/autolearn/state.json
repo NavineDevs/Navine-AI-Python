@@ -1,0 +1,25 @@
+{
+  "samples_since_train": 0,
+  "last_train": "2026-08-24T11:00:02.110678+00:00",
+  "last_run": "2026-06-23T15:09:33.419127+00:00",
+  "last_fetch_count": 497,
+  "last_new_samples": 396,
+  "last_by_category": {
+    "qa": 39,
+    "technical": 91,
+    "math": 23,
+    "chat": 66,
+    "news": 88,
+    "general": 69,
+    "creative": 1,
+    "science": 2,
+    "coding": 17
+  },
+  "total_samples": 1460,
+  "next_train_in": 25,
+  "aggressive": true,
+  "everywhere": true,
+  "last_image_count": 0,
+  "last_video_count": 0,
+  "last_nsfw_samples": 138
+}

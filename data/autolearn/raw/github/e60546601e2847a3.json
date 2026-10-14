@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:manaflow-ai/cmux:ghostty.h",
+  "title": "manaflow-ai/cmux/ghostty.h",
+  "text": "#ifndef CMUX_GHOSTTY_BRIDGE_HEADER_H\n#define CMUX_GHOSTTY_BRIDGE_HEADER_H\n\n// Keep the Swift bridge on Ghostty's canonical C API header so Xcode and the\n// bundled GhosttyKit stay ABI-aligned across submodule upgrades.\n#include \"ghostty/include/ghostty.h\"\n\n#endif\n",
+  "url": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/ghostty.h",
+  "language": "cpp",
+  "kind": "code"
+}

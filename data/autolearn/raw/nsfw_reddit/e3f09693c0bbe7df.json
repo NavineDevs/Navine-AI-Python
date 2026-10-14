@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "reddit:redgifs:t3_o9vsbw",
+  "title": "Tagging and Searching on Manage view",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>When I try to update the tags on some of my older gifs, the changes appear to save but do not persist. It doesn&#39;t matter if the update is done from the Manage or Watch view, the behavior is the same. Example: PortlyDisastrousHairstreak</p> <p>Also, the search within the Manage view doesn&#39;t return any results no matter the query. These two problems combined make it very hard to locate a given gif.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hdlezgif\"> /u/hdlezgif </a> <br/> <span><a href=\"https://www.reddit.com/r/redgifs/comments/o9vsbw/tagging_and_searching_on_manage_view/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/redgifs/comments/o9vsbw/tagging_and_searching_on_manage_view/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/redgifs/comments/o9vsbw/tagging_and_searching_on_manage_view/",
+  "category": "nsfw",
+  "subreddit": "redgifs",
+  "media_category": "real",
+  "tags": [
+    "real",
+    "human",
+    "video",
+    "redgifs",
+    "real_video"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real_video"
+}

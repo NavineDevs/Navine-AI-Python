@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48476202",
+  "title": "Show HN: Lightweight Task queue on Erlang/OTP, SQLite-backed, no overengineering",
+  "text": "Setting up Kafka or such enterprise oriented software with their clusters or dedicated servers is heavy and bothering enough that most small \nteams or indie hackers skip it entirely and making compromise to use in-memory queues.<p>I wanted something in between: a persistent queue that is simple to run (one binary, which makes one sqlite db), gets real fault isolation and crash recovery due to Elixir, easy to inspect (open ezra.db in any SQLite browser and see every \ntask), and requires no new client library - it speaks the Redis Streams wire protocol, \nso any Redis client in any language just works out of the box.<p>Very short demo video: [<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=MLYyD3DVWmE\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=MLYyD3DVWmE</a>]",
+  "url": "https://github.com/entGriff/ezra"
+}

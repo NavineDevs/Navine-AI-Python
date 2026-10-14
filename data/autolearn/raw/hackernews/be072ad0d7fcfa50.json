@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:49412909",
+  "title": "Implementation of GPT-2 in pure CMake",
+  "text": "Implementation of GPT-2 in pure CMake",
+  "url": "https://github.com/AlpinDale/gpt2.cmake"
+}

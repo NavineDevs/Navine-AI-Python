@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rwf2/Rocket:core/lib/build.rs",
+  "title": "rwf2/Rocket/core/lib/build.rs",
+  "text": "fn main() {\n    if let Some((version, channel, _)) = version_check::triple() {\n        if channel.supports_features() {\n            println!(\"cargo:rustc-cfg=nightly\");\n        }\n\n        if version.at_least(\"1.67\") && version.at_most(\"1.68.2\") {\n            println!(\"cargo:rustc-cfg=broken_fmt\");\n        }\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/rwf2/Rocket/master/core/lib/build.rs",
+  "language": "rust",
+  "kind": "code"
+}

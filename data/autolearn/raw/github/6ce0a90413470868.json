@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:symfony/symfony:src/Symfony/Bridge/PhpUnit/ExpectUserDeprecationMessageTrait.php",
+  "title": "symfony/symfony/src/Symfony/Bridge/PhpUnit/ExpectUserDeprecationMessageTrait.php",
+  "text": "<?php\n\n/*\n * This file is part of the Symfony package.\n *\n * (c) Fabien Potencier <fabien@symfony.com>\n *\n * For the full copyright and license information, please view the LICENSE\n * file that was distributed with this source code.\n */\n\nnamespace Symfony\\Bridge\\PhpUnit;\n\nuse PHPUnit\\Runner\\Version;\n\nif (version_compare(Version::id(), '11.0.0', '<')) {\n    trait ExpectUserDeprecationMessageTrait\n    {\n        use ExpectDeprecationTrait;\n\n        final protected function expectUserDeprecationMessage(string $expectedUserDeprecationMessage): void\n        {\n            $this->expectDeprecation(str_replace('%', '%%', $expectedUserDeprecationMessage));\n        }\n    }\n} else {\n    trait ExpectUserDeprecationMessageTrait\n    {\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/symfony/symfony/8.2/src/Symfony/Bridge/PhpUnit/ExpectUserDeprecationMessageTrait.php",
+  "language": "php",
+  "kind": "code"
+}

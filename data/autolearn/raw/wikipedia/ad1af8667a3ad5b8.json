@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:80522838",
+  "title": "Shoreline segmentation",
+  "text": "Shoreline segmentation is a specialized task within the broader field of water body segmentation in remote sensing and computer vision. While water body segmentation refers to the process of delineating all water-covered areas (such as lakes, rivers, and seas) within an image, shoreline segmentation specifically targets the precise extraction of the boundary line between land and water—known as the shoreline.",
+  "url": "https://en.wikipedia.org/wiki/Shoreline_segmentation",
+  "category": "general"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:learnprogramming:t3_1u49m56",
+  "title": "Solo Dev: Flutter or React Native for a medium-large app?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey guys,</p> <p>I am building a medium to large mobile app on my own. I have zero budget for a team or AI tools, and I really need this project to make some money. It does not use any native phone features.</p> <p>I cannot decide between two paths:</p> <ul> <li><strong>Flutter:</strong> I have built small apps with it before and like it. But as the app gets bigger, I really struggle to handle the state management and routing cleanly.</li> <li><strong>React Native:</strong> I have never used it, but I know React for web pretty well and understand how that ecosystem works.</li> </ul> <p>Since I am a solo developer who needs to move fast and keep the code clean, what is the smarter move? Should I stick with Flutter and force myself to master its state and routing, or switch to React Native to use my web skills?</p> <p>Thanks for any help!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IHateAlarms\"> /u/IHateAlarms </a> <br/> <span><a href=\"https://www.reddit.com/r/learnprogramming/comments/1u49m56/solo_dev_flutter_or_react_native_for_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/learnprogramming/comments/1u49m56/solo_dev_flutter_or_react_native_for_a/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/learnprogramming/comments/1u49m56/solo_dev_flutter_or_react_native_for_a/"
+}

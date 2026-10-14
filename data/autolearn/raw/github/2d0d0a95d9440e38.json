@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:manaflow-ai/cmux:CLI/CMUXCLI+AgentHookProcessBindingSource.swift",
+  "title": "manaflow-ai/cmux/CLI/CMUXCLI+AgentHookProcessBindingSource.swift",
+  "text": "extension CMUXCLI {\n    enum AgentHookProcessBindingSource {\n        case ambientTTY\n        case liveProcess\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/CLI/CMUXCLI+AgentHookProcessBindingSource.swift",
+  "language": "swift",
+  "kind": "code"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:amateur:t3_1u7lk1v:text",
+  "title": "I love it when the weather is beautiful outside",
+  "text": "I love it when the weather is beautiful outside",
+  "url": "https://www.reddit.com/r/Amateur/comments/1u7lk1v/i_love_it_when_the_weather_is_beautiful_outside/",
+  "category": "nsfw",
+  "subreddit": "amateur",
+  "media_category": "human",
+  "tags": [
+    "human",
+    "real",
+    "amateur"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "human"
+}

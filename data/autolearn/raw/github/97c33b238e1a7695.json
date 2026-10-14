@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:yt-dlp/yt-dlp:devscripts/lazy_load_template.py",
+  "title": "yt-dlp/yt-dlp/devscripts/lazy_load_template.py",
+  "text": "import importlib\nimport random\nimport re\n\nfrom ..utils import (\n    age_restricted,\n    bug_reports_message,\n    classproperty,\n    variadic,\n    write_string,\n)\n\n# These bloat the lazy_extractors, so allow them to passthrough silently\nALLOWED_CLASSMETHODS = {'extract_from_webpage', 'get_testcases', 'get_webpage_testcases'}\n_WARNED = False\n\n\nclass LazyLoadMetaClass(type):\n    def __getattr__(cls, name):\n        global _WARNED\n        if ('_real_class' not in cls.__dict__\n                and name not in ALLOWED_CLASSMETHODS and not _WARNED):\n            _WARNED = True\n            write_string('WARNING: Falling back to normal extractor since lazy extractor '\n                         f'{cls.__name__} does not have attribute {name}{bug_reports_message()}\\n')\n        return getattr(cls.real_class, name)\n\n\nclass LazyLoadExtractor(metaclass=LazyLoadMetaClass):\n    @classproperty\n    def real_class(cls):\n        if '_real_class' not in cls.__dict__:\n            cls._real_class = getattr(importlib.import_module(cls._module), cls.__name__)\n        return cls._real_class\n\n    def __new__(cls, *args, **kwargs):\n        instance = cls.real_class.__new__(cls.real_class)\n        instance.__init__(*args, **kwargs)\n        return instance\n",
+  "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/devscripts/lazy_load_template.py",
+  "language": "python",
+  "kind": "code"
+}

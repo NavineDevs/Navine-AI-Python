@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.07627v1",
+  "title": "Pure Nash Equilibria in Graphical Games of Bounded Width Revisited",
+  "text": "Pure Nash Equilibria in Graphical Games of Bounded Width Revisited\n\nWe revisit the complexity of deciding whether a graphical game admits a pure Nash equilibrium (PNE) parameterized by standard measures of the input graph, such as treewidth. The natural dynamic programming algorithm for this problem has parameter dependence $α^{(Δ+1)\\text{tw}}$ where $α$ is the maximum number of strategies available to each player, each player's utility depends on at most $Δ$ other players, and the input graph has width $\\text{tw}$. Our first contribution is to point out that an algorithm by Thomas and van Leeuwen [Algorithmica 2015] claiming to improve this dependence to $α^{O(\\text{tw})}$ is flawed and, more strongly, such an algorithm would imply that FPT=W[1].\n  We then set out to pinpoint the fine-grained complexity of this problem with respect to standard parameters and show that the natural DP algorithm is not optimal, as the problem can be solved with dependence $α^{\\lfloor \\frac{2Δ}{3} + 1 \\rfloor \\text{tw}}$, $α^{\\lfloor \\fracΔ{2} + 1 \\rfloor \\text{pw}}$, and $α^{\\text{ctw}}$, where $\\text{pw}, \\text{ctw}$ are the pathwidth and cutwidth of the input respectively. Our main algorithmic tool is a tightening of the relationship between the width of a graph $G$, its maximum degree, and the width of $G^2$, which may be of independent interest. Complementing these results, we show that our algorithms for pathwidth and cutwidth are likely to be optimal, as improving them is equivalent to falsifying the pw-SETH.",
+  "url": "https://arxiv.org/abs/2607.07627v1",
+  "category": "technical"
+}

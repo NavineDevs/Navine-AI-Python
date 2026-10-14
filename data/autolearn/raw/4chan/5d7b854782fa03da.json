@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:3:1011039:1011045:image",
+  "title": "/3/ 1011045",
+  "text": "/3/ 1011045",
+  "url": "https://boards.4chan.org/3/thread/1011039#p1011045",
+  "category": "coding",
+  "kind": "image",
+  "caption": "/3/ 1011045 | [general, image] | tags: 4chan, unknown",
+  "board": "3",
+  "thread_id": 1011039,
+  "post_id": 1011045,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "3",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/3/1745614733905388.jpg",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\3\\3_1745614733905388.jpg"
+}

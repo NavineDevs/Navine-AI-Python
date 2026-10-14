@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vkffko",
+  "title": "Go Concurrency Visualization",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been playing around with a little project about bad use cases when using goroutine. I&#39;ve put together some examples with simple visualizations showing how seemingly reasonable design decisions can turn into problems as a system grows:</p> <p><a href=\"https://cap99.online/bad-use-case/index-bad-use-case.html\">https://cap99.online/bad-use-case/index-bad-use-case.html</a></p> <p>If you have any feedback, suggestions, or examples you think would be worth exploring, I’d love to hear them.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gofreaksyddeveloper\"> /u/gofreaksyddeveloper </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vkffko/go_concurrency_visualization/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vkffko/go_concurrency_visualization/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vkffko/go_concurrency_visualization/"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1u388tg",
+  "title": "Why DROP COLUMN breaks rolling deploys, and a CI linter to catch it",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Author here. We kept writing migrations that were fine as a final schema but unsafe during the rollout itself - old pods still reading a column while new pods have already dropped it.</p> <p>Django solved this ages ago with django-migration-linter, which I leaned on for years on Grafana OnCall.</p> <p>Drizzle has nothing like it, so we wrote one for our CI. It diffs new migrations against the base branch and fails on drops, renames, and required columns added in one step. </p> <p>It’s buried in our monorepo right now. There’s an issue linked in the post if you’d want it published to npm.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/joey-archestra\"> /u/joey-archestra </a> <br/> <span><a href=\"https://archestra.ai/blog/drizzle-migration-linter\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u388tg/why_drop_column_breaks_rolling_deploys_and_a_ci/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1u388tg/why_drop_column_breaks_rolling_deploys_and_a_ci/"
+}

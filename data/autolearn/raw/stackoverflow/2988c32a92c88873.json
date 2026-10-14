@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:348170",
+  "title": "How do I undo &#39;git add&#39; before commit?",
+  "text": "How do I undo &#39;git add&#39; before commit?\n\n<p>I mistakenly added files to Git using the command:</p>\n<pre><code>git add myfile.txt\n</code></pre>\n<p>I have not yet run <code>git commit</code>. How do I undo this so that these changes will not be included in the commit?</p>",
+  "url": "https://stackoverflow.com/questions/348170/how-do-i-undo-git-add-before-commit",
+  "kind": "qa"
+}

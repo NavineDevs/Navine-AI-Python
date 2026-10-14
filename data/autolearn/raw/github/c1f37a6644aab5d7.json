@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:avelino/awesome-go:pkg/slug/generator_test.go",
+  "title": "avelino/awesome-go/pkg/slug/generator_test.go",
+  "text": "package slug\n\nimport \"testing\"\n\nfunc TestGenerate(t *testing.T) {\n\ttests := []struct {\n\t\tname     string\n\t\tinput    string\n\t\texpected string\n\t}{\n\t\t{\n\t\t\tname:     \"with spaces\",\n\t\t\tinput:    \"some string with spaces\",\n\t\t\texpected: \"some-string-with-spaces\",\n\t\t},\n\t\t{\n\t\t\tname:     \"with out any non-literal chars\",\n\t\t\tinput:    \"inputstring\",\n\t\t\texpected: \"inputstring\",\n\t\t},\n\t\t{\n\t\t\tname:     \"with whitespace prefix and suffix\",\n\t\t\tinput:    \"   inputstring   \",\n\t\t\texpected: \"inputstring\",\n\t\t},\n\t\t{\n\t\t\tname:     \"a mix of special characters\",\n\t\t\tinput:    \"   an input string (with.special/chars,such_as:§\\\\?$/§&!)   \",\n\t\t\texpected: \"an-input-string-with-specialchars-such-as\",\n\t\t},\n\t}\n\tfor _, tt := range tests {\n\t\tt.Run(tt.name, func(t *testing.T) {\n\t\t\tif got := Generate(tt.input); got != tt.expected {\n\t\t\t\tt.Errorf(\"Generate() = %v, want %v\", got, tt.expected)\n\t\t\t}\n\t\t})\n\t}\n}\n",
+  "url": "https://raw.githubusercontent.com/avelino/awesome-go/main/pkg/slug/generator_test.go",
+  "language": "go",
+  "kind": "code"
+}

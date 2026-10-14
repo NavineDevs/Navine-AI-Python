@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48462759",
+  "title": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI",
+  "text": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI",
+  "url": "https://blog.pyodide.org/posts/314-release/"
+}

@@ -1,0 +1,22 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:amateur:t3_1uc8hyh:rss:img:1",
+  "title": "I know what I am",
+  "text": "I know what I am",
+  "url": "https://www.reddit.com/r/Amateur/comments/1uc8hyh/i_know_what_i_am/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://preview.redd.it/aud0d5b0yq8h1.jpeg?width=640&crop=smart&auto=webp&s=577661da18e17c2552db44cd87665a1646b31cfe",
+  "caption": "I know what I am | [human, image] | tags: real, amateur | [image, human] | [image, human] | [image, human]",
+  "subreddit": "amateur",
+  "media_category": "human",
+  "tags": [
+    "human",
+    "real",
+    "amateur"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "human"
+}

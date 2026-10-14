@@ -1,0 +1,23 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:gonewild:t3_1udiw9h:rss:img:1",
+  "title": "Swipe to take it of(f)",
+  "text": "Swipe to take it of(f)",
+  "url": "https://old.reddit.com/r/gonewild/comments/1udiw9h/swipe_to_take_it_off/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://preview.redd.it/xucjkeozm19h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=36039a97bfc412b7152ac9a3f27331f61d16e799",
+  "caption": "Swipe to take it of(f) | [human, image] | tags: real, gonewild | [image, human] | tags: photography | [image, human] | [image, human]",
+  "subreddit": "gonewild",
+  "media_category": "real",
+  "tags": [
+    "human",
+    "real",
+    "gonewild",
+    "photography"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

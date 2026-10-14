@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:webdev:t3_1u46vhd",
+  "title": "Chrome MV3 content scripts don't inject into already-open tabs on install, here's the fix",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>As a non-tech guy, spent hours debugging why my Chrome extension worked on new tabs but not tabs that were already open when the user installed it.</p> <p>Turns out Chrome only injects content scripts (from the manifest content_scripts declaration) into pages loaded AFTER install. Already-open tabs stay script-less until reloaded.</p> <p>The fix: add a chrome.runtime.onInstalled listener in your service worker that queries all open tabs and programmatically injects your scripts via chrome.scripting.executeScript. Skip chrome:// and Web Store URLs since those block injection.</p> <p>Small thing, but if you&#39;re building an extension where first-time UX matters, this is the difference between &quot;it works&quot; and &quot;it&#39;s broken&quot; for new users.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/its_your_bish\"> /u/its_your_bish </a> <br/> <span><a href=\"https://www.reddit.com/r/webdev/comments/1u46vhd/chrome_mv3_content_scripts_dont_inject_into/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1u46vhd/chrome_mv3_content_scripts_dont_inject_into/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/webdev/comments/1u46vhd/chrome_mv3_content_scripts_dont_inject_into/"
+}

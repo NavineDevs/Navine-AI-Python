@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1vwtd2g",
+  "title": "GUI based Python Tkinter Serial Port Program for communicating with Arduino Microcontroller from PC",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I recently created a Python Serial Communication program with GUI (Graphical User Interface) based on the Tkinter Library with ttkbootstrap theming .</p> <p>The Python Tkinter Serial Port Program can communicate with an Arduino or other Microcontroller boards via serial port to send and receive the data from your PC.</p> <p>You can find the <a href=\"https://www.xanthium.in/sites/default/files/inline-images/python-tkinter-serial-port-monitor.jpg\">link to the GUI here</a>.</p> <p><a href=\"https://www.xanthium.in/simple-gui-based-python-tkinter-ttkbootstrap-serialport-communication-arduino-uart-microcontroller\">Full tutorial along with Source Code here </a></p> <p><a href=\"https://www.youtube.com/watch?v=iKMPLOqGa0U\">Youtube Tutorial for Python Tkinter Serial Port Programming here </a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xanthium_in\"> /u/xanthium_in </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1vwtd2g/gui_based_python_tkinter_serial_port_program_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vwtd2g/gui_based_python_tkinter_serial_port_program_for/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1vwtd2g/gui_based_python_tkinter_serial_port_program_for/"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:tach-org/tach:scripts/ensure_debugging_enabled.py",
+  "title": "tach-org/tach/scripts/ensure_debugging_enabled.py",
+  "text": "\"\"\"\nrequired for attaching the rust debugger to the vscode extension.\n\nsee https://github.com/vadimcn/codelldb/blob/master/MANUAL.md#attach-sequence:~:text=Note%20that%20attaching%20to%20a%20running%20process%20may%20be%20restricted%20on%20some%20systems%2E\n\"\"\"\n\nfrom __future__ import annotations\n\nimport subprocess\nimport sys\n\nif sys.platform == \"linux\":\n    result = subprocess.run(\n        [\"sysctl\", \"kernel.yama.ptrace_scope\", \"-n\"],\n        check=True,\n        capture_output=True,\n        encoding=\"utf8\",\n    )\n    if result.stdout.strip() != \"0\":\n        command = [\"sudo\", \"sysctl\", \"-w\", \"kernel.yama.ptrace_scope=0\"]\n        print(\n            f\"the following command needs to be run to allow debugging rust code on your system: `{' '.join(command)}`\"\n        )\n        _ = subprocess.run(command, check=True)\n",
+  "url": "https://raw.githubusercontent.com/tach-org/tach/main/scripts/ensure_debugging_enabled.py",
+  "language": "python",
+  "kind": "code"
+}

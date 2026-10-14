@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48805475",
+  "title": "Show HN: Agent Draw: An agent draws while you talk, built on TLDraw",
+  "text": "We recently built 2draw, a Drawful-style game where players draw on a shared canvas and race to guess each other&#x27;s drawings, on tldraw, an infinite-canvas SDK for React.<p>We started wondering what it would take to put an agent in that loop, as an opponent or a rival guesser, and dug into how an agent could read and draw on a tldraw canvas. That research turned into:<p>Agent draw, a tool that lets an agent draw to the canvas for you while you present.<p>You can try it right now, or grab the source:<p>- Live demo: <a href=\"https:&#x2F;&#x2F;tldraw-agent-draw-demo.james-664.workers.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;tldraw-agent-draw-demo.james-664.workers.dev</a><p>- Source: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;ritza-co&#x2F;tldraw-agent-draw-demo\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ritza-co&#x2F;tldraw-agent-draw-demo</a><p>Here you can see the agent assisting me in my demo presentation of a third grade chemistry class:<p>- <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=iIH2hJAxxm8\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=iIH2hJAxxm8</a>",
+  "url": "https://techstackups.com/articles/tldraw-agent-draw/"
+}

@@ -1,0 +1,11 @@
+{
+  "instruct_blocks": 8000,
+  "chat_extra_blocks": 4000,
+  "pretrain_docs": 4000,
+  "paths": [
+    "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\train\\gpt3_scale\\instruct_gpt3.txt",
+    "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\train\\chat\\gpt3_instruct_extra.txt",
+    "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\train\\general\\gpt3_pretrain_corpus.txt",
+    "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\text\\learned_corpus.txt"
+  ]
+}

@@ -1,0 +1,103 @@
+checkpoint_namespace: tiny_gpt
+
+size_tier: compact
+
+profiles:
+  compact:
+    model:
+      vocab_size: 8000
+      d_model: 384
+      n_heads: 6
+      n_layers: 6
+      d_ff: 1536
+      max_seq_len: 256
+      dropout: 0.08
+      use_rope: true
+      use_kv_cache: true
+      use_swiglu: true
+      use_rms_norm: true
+      tie_embeddings: true
+    training:
+      batch_size: 8
+      learning_rate: 0.0003
+      weight_decay: 0.08
+      max_steps: 5000
+      eval_interval: 200
+      save_interval: 500
+      warmup_steps: 200
+      grad_clip: 1.0
+      grad_accum_steps: 2
+      mixed_precision: true
+      sft_mask: false
+      tensorboard: false
+      train_seq_len: 256
+  sft:
+    training:
+      learning_rate: 0.00008
+      max_steps: 1500
+      warmup_steps: 50
+      sft_mask: true
+      save_interval: 200
+      eval_interval: 100
+
+model:
+  vocab_size: 8000
+  d_model: 384
+  n_heads: 6
+  n_layers: 6
+  d_ff: 1536
+  max_seq_len: 256
+  dropout: 0.08
+  use_rope: true
+  use_kv_cache: true
+  use_swiglu: true
+  use_rms_norm: true
+  tie_embeddings: true
+
+tokenizer:
+  use_bpe: true
+  fixed_after_train: true
+
+training:
+  batch_size: 8
+  learning_rate: 0.0003
+  weight_decay: 0.08
+  max_steps: 5000
+  eval_interval: 200
+  save_interval: 500
+  warmup_steps: 200
+  grad_clip: 1.0
+  grad_accum_steps: 2
+  mixed_precision: true
+  sft_mask: false
+  tensorboard: false
+  train_seq_len: 256
+  sft_learning_rate: 0.00008
+
+data:
+  train_file: data/tiny_gpt/pretrain.txt
+  code_file: data/tiny_gpt/empty.jsonl
+  val_split: 0.05
+  use_data_pipeline: false
+  use_token_bins: true
+  token_train_bin: data/tiny_gpt/train.bin
+  token_val_bin: data/tiny_gpt/val.bin
+  stories_file: data/tiny_gpt/stories.txt
+  sft_raw_file: data/tiny_gpt/sft_raw.jsonl
+
+inference:
+  max_new_tokens: 160
+  min_new_tokens: 4
+  temperature: 0.8
+  top_k: 40
+  top_p: 0.9
+  repetition_penalty: 1.12
+  frequency_penalty: 0.25
+  no_repeat_ngram_size: 3
+  num_candidates: 1
+
+sample_prompts:
+  - "Once upon a time"
+  - "The cat sat on"
+  - "Hello, how are you"
+  - "Tell me a story about"

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:mrousavy/react-native-vision-camera:docs/playwright.config.ts",
+  "title": "mrousavy/react-native-vision-camera/docs/playwright.config.ts",
+  "text": "import { defineConfig, devices } from '@playwright/test'\n\nexport default defineConfig({\n  testDir: './tests',\n  fullyParallel: true,\n  retries: process.env.CI ? 2 : 0,\n  use: {\n    baseURL: 'http://127.0.0.1:3000',\n    trace: 'on-first-retry',\n  },\n  projects: [\n    {\n      name: 'chromium',\n      use: {\n        ...devices['Desktop Chrome'],\n        viewport: {\n          width: 1440,\n          height: 1200,\n        },\n      },\n    },\n  ],\n  webServer: {\n    command: '../node_modules/.bin/next start --hostname 127.0.0.1 --port 3000',\n    port: 3000,\n    reuseExistingServer: false,\n    timeout: 180_000,\n  },\n})\n",
+  "url": "https://raw.githubusercontent.com/mrousavy/react-native-vision-camera/main/docs/playwright.config.ts",
+  "language": "typescript",
+  "kind": "code"
+}

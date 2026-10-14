@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vjwjgl",
+  "title": "Coding agents orchestrator with pure-Go SQLite, fsnotify, and subprocess orchestration",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey,</p> <p>I&#39;m building an orchestrator for AI coding agents in Go.</p> <p>Some decisions that might be useful to others: pure-Go SQLite via <a href=\"http://modernc.org/sqlite\">modernc.org/sqlite</a> (no CGo, cross-compiles clean), WAL mode with synchronous=NORMAL, fsnotify for config hot-reload, process group management that actually works on both Unix and Windows. The hardest part was subprocess lifecycle - graceful shutdown across platforms is painful. Just shipped v1.18.0 with the post-merge tracker improvements.</p> <p>Happy to discuss any of these pieces.</p> <p>Code is at <a href=\"http://github.com/sortie-ai/sortie\">github.com/sortie-ai/sortie</a>, Apache 2.0.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/i_serghei\"> /u/i_serghei </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vjwjgl/coding_agents_orchestrator_with_purego_sqlite/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vjwjgl/coding_agents_orchestrator_with_purego_sqlite/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vjwjgl/coding_agents_orchestrator_with_purego_sqlite/"
+}

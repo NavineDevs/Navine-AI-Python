@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:framework7io/framework7:scripts/build-clean.js",
+  "title": "framework7io/framework7/scripts/build-clean.js",
+  "text": "/* eslint import/no-extraneous-dependencies: [\"error\", {\"devDependencies\": true}] */\nconst exec = require('exec-sh');\nconst getOutput = require('./get-output.js');\n\nasync function buildClean(project, cb) {\n  if (process.env.NODE_ENV === 'development' && project !== 'core') {\n    cb();\n    return;\n  }\n  const output = `${getOutput()}/${project}`;\n  const toRemove = [\n    \"find **/*.js -type f -not -name 'postinstall.js' -print0 | xargs -0  -I {} rm -v {}\",\n    \"find *.js -type f -not -name 'postinstall.js' -print0 | xargs -0  -I {} rm -v {}\",\n    '**/*.ts',\n    '*.ts',\n    '**/*.svelte',\n    '*.svelte',\n    '**/*.css',\n    '*.css',\n    '**/*.less',\n    '*.less',\n    '**/*.map',\n    '*.map',\n    'cjs',\n    'esm',\n    'components',\n    'less',\n    'modules',\n    'types/*.ts',\n    'types/components',\n    'types/modules',\n    'types/shared',\n  ].map((command) => (command.includes('find') ? command : `rm -rf ${command}`));\n\n  await exec.promise(`cd ${output} && ${toRemove.join(' && ')}`);\n\n  if (cb) cb();\n}\n\nmodule.exports = buildClean;\n",
+  "url": "https://raw.githubusercontent.com/framework7io/framework7/master/scripts/build-clean.js",
+  "language": "javascript",
+  "kind": "code"
+}

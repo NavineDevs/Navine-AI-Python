@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:barbajs/barba:packages/css/jest.config.js",
+  "title": "barbajs/barba/packages/css/jest.config.js",
+  "text": "const jestBase = require('../../jest.config.js');\n\nmodule.exports = {\n  ...jestBase,\n};\n",
+  "url": "https://raw.githubusercontent.com/barbajs/barba/main/packages/css/jest.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

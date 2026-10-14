@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.23627v1",
+  "title": "Diffusion Models Adapt to Low-Dimensional Structure Under Flexible Coefficient Choices",
+  "text": "Diffusion Models Adapt to Low-Dimensional Structure Under Flexible Coefficient Choices\n\nDiffusion models are known to exploit unknown low-dimensional structure to accelerate sampling. However, existing convergence theory under low-dimensional data structure has largely focused on update rules with narrowly prescribed coefficient choices. This raises a fundamental question: is adaptation to low-dimensional structure sensitive to the precise choice of update coefficients? In this paper, we show that such adaptation is a robust property of diffusion models. For a broad class of update coefficients, we prove that $\\widetilde{O}(k/\\varepsilon)$ iterations suffice to generate an $\\varepsilon$-accurate sample in total variation (TV) distance, independently of the ambient dimension. Our framework substantially broadens the class of diffusion samplers known to enjoy low dimensional adaptation and applies to several commonly used methods in practice. These results provide a theoretical justification for the empirical effectiveness of diffusion samplers across different coefficient choices when applied to structured, high-dimensional data.",
+  "url": "https://arxiv.org/abs/2606.23627v1",
+  "category": "technical"
+}

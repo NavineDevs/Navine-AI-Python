@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1uqny65",
+  "title": "Unicode's Transliteration Rules Are Turing-Complete",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been wondering for a while if anything in Unicode could accidentally compute. It turns out that UTS #35 transliteration rules are Turing-complete. I show how to compute Collatz with just 3 rewrite rules running on stock ICU, shipped with every major OS.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dull_Replacement8890\"> /u/Dull_Replacement8890 </a> <br/> <span><a href=\"https://seriot.ch/computation/uts35/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uqny65/unicodes_transliteration_rules_are_turingcomplete/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1uqny65/unicodes_transliteration_rules_are_turingcomplete/"
+}

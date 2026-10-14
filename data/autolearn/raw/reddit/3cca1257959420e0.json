@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1vkua29",
+  "title": "Optimizing an NVFP4 Blockscaled GEMM on RTX PRO 6000 Blackwell GPU (SM120)",
+  "text": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mttd\"> /u/mttd </a> <br/> <span><a href=\"https://research.colfax-intl.com/optimizing-an-nvfp4-blockscaled-gemm-on-rtx-pro-6000-blackwell-gpu-sm120/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vkua29/optimizing_an_nvfp4_blockscaled_gemm_on_rtx_pro/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1vkua29/optimizing_an_nvfp4_blockscaled_gemm_on_rtx_pro/"
+}

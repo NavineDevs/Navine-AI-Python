@@ -1,0 +1,15 @@
+{
+  "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+  "caption": "professional headshot photograph, neutral background, high detail pores and skin",
+  "filename": "teacher_164.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-08-14T18:54:54.008445+00:00",
+  "enhanced_prompt": "a professional headshot photograph, neutral background, high detail pores and skin",
+  "seed": 1246339496,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "negative_prompt": "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, censored, mosaic, bar censor, pixelated, low resolution, extra limbs, malformed hands, duplicate, cropped",
+  "model_id": "stabilityai/sd-turbo",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_164.png"
+}

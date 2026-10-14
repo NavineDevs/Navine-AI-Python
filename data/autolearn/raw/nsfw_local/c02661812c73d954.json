@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\bant\\bant_1781416469168414.jpg",
+  "title": "bant_1781416469168414",
+  "text": "bant_1781416469168414",
+  "url": "data\\nsfw\\images\\local\\general\\bant_1781416469168414_1781422203885993100.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\bant_1781416469168414_1781422203885993100.jpg",
+  "caption": "bant_1781416469168414 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "bant",
+  "tags": [
+    "bant",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

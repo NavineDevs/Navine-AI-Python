@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:82831",
+  "title": "How do I check whether a file exists without exceptions?",
+  "text": "How do I check whether a file exists without exceptions?\n\n<p>How do I check whether a file exists or not, without using the <a href=\"https://docs.python.org/3.6/reference/compound_stmts.html#try\" rel=\"noreferrer\"><code>try</code></a> statement?</p>",
+  "url": "https://stackoverflow.com/questions/82831/how-do-i-check-whether-a-file-exists-without-exceptions",
+  "kind": "qa"
+}

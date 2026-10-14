@@ -1,0 +1,338 @@
+{
+  "code instruction python": [
+    {
+      "id": "pythonist/code_instruction_alpaca_kkm",
+      "author": "pythonist",
+      "downloads": 39,
+      "likes": 0,
+      "private": false,
+      "tags": [
+        "size_categories:n<1K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/pythonist/code_instruction_alpaca_kkm"
+    },
+    {
+      "id": "jean1/45k_python_code_chinese_instruction",
+      "author": "jean1",
+      "downloads": 53,
+      "likes": 6,
+      "private": false,
+      "tags": [
+        "size_categories:10K<n<100K",
+        "format:csv",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/jean1/45k_python_code_chinese_instruction"
+    }
+  ],
+  "conversation chat instruction": [],
+  "alpaca instruct": [
+    {
+      "id": "iamtarun/code_instructions_120k_alpaca",
+      "author": "iamtarun",
+      "downloads": 2512,
+      "likes": 69,
+      "private": false,
+      "tags": [
+        "task_categories:text-generation",
+        "task_categories:question-answering",
+        "size_categories:100K<n<1M",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us",
+        "code"
+      ],
+      "url": "https://huggingface.co/datasets/iamtarun/code_instructions_120k_alpaca"
+    },
+    {
+      "id": "nlpcloud/instructions-dataset-adapted-from-stanford-alpaca-for-gpt-j",
+      "author": "nlpcloud",
+      "downloads": 34,
+      "likes": 11,
+      "private": false,
+      "tags": [
+        "license:gpl-3.0",
+        "size_categories:100K<n<1M",
+        "format:text",
+        "modality:text",
+        "library:datasets",
+        "library:mlcroissant",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/nlpcloud/instructions-dataset-adapted-from-stanford-alpaca-for-gpt-j"
+    },
+    {
+      "id": "Yasbok/Alpaca_arabic_instruct",
+      "author": "Yasbok",
+      "downloads": 70,
+      "likes": 27,
+      "private": false,
+      "tags": [
+        "language:ar",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/Yasbok/Alpaca_arabic_instruct"
+    },
+    {
+      "id": "tbboukhari/Alpaca_french_instruct",
+      "author": "tbboukhari",
+      "downloads": 61,
+      "likes": 6,
+      "private": false,
+      "tags": [
+        "language:fr",
+        "size_categories:10K<n<100K",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/tbboukhari/Alpaca_french_instruct"
+    },
+    {
+      "id": "japneets/Alpaca_instruction_fine_tune_Punjabi",
+      "author": "japneets",
+      "downloads": 25,
+      "likes": 2,
+      "private": false,
+      "tags": [
+        "size_categories:10K<n<100K",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/japneets/Alpaca_instruction_fine_tune_Punjabi"
+    },
+    {
+      "id": "llm-wizard/dolly-15k-instruction-alpaca-format",
+      "author": "llm-wizard",
+      "downloads": 122,
+      "likes": 39,
+      "private": false,
+      "tags": [
+        "language:en",
+        "license:cc-by-3.0",
+        "size_categories:10K<n<100K",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us",
+        "instruction"
+      ],
+      "url": "https://huggingface.co/datasets/llm-wizard/dolly-15k-instruction-alpaca-format"
+    },
+    {
+      "id": "japneets/Alpaca_instruction_fine_tune_Punjabi_small",
+      "author": "japneets",
+      "downloads": 14,
+      "likes": 1,
+      "private": false,
+      "tags": [
+        "size_categories:10K<n<100K",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/japneets/Alpaca_instruction_fine_tune_Punjabi_small"
+    },
+    {
+      "id": "iamketan25/alpaca-instructions-dataset",
+      "author": "iamketan25",
+      "downloads": 71,
+      "likes": 3,
+      "private": false,
+      "tags": [
+        "license:apache-2.0",
+        "size_categories:10K<n<100K",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/iamketan25/alpaca-instructions-dataset"
+    }
+  ],
+  "math reasoning": [
+    {
+      "id": "MARIO-Math-Reasoning/Gaokao2023-Math-En",
+      "author": "MARIO-Math-Reasoning",
+      "downloads": 322,
+      "likes": 7,
+      "private": false,
+      "tags": [
+        "license:mit",
+        "size_categories:n<1K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/MARIO-Math-Reasoning/Gaokao2023-Math-En"
+    },
+    {
+      "id": "khaled123/MathReasoning",
+      "author": "khaled123",
+      "downloads": 248,
+      "likes": 5,
+      "private": false,
+      "tags": [
+        "task_categories:table-question-answering",
+        "size_categories:1K<n<10K",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us",
+        "code"
+      ],
+      "url": "https://huggingface.co/datasets/khaled123/MathReasoning"
+    },
+    {
+      "id": "khaled123/mathreasoning1",
+      "author": "khaled123",
+      "downloads": 33,
+      "likes": 0,
+      "private": false,
+      "tags": [
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/khaled123/mathreasoning1"
+    },
+    {
+      "id": "MARIO-Math-Reasoning/AlphaMath-Trainset",
+      "author": "MARIO-Math-Reasoning",
+      "downloads": 163,
+      "likes": 16,
+      "private": false,
+      "tags": [
+        "size_categories:100K<n<1M",
+        "format:json",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "arxiv:2405.03553",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/MARIO-Math-Reasoning/AlphaMath-Trainset"
+    },
+    {
+      "id": "jiuhai/math_reasoning_seed_0",
+      "author": "jiuhai",
+      "downloads": 66,
+      "likes": 0,
+      "private": false,
+      "tags": [
+        "size_categories:100K<n<1M",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/jiuhai/math_reasoning_seed_0"
+    },
+    {
+      "id": "AlgorithmicResearchGroup/math_reasoning_automated_problem_solving_with_code_track_3",
+      "author": "AlgorithmicResearchGroup",
+      "downloads": 60,
+      "likes": 1,
+      "private": false,
+      "tags": [
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/AlgorithmicResearchGroup/math_reasoning_automated_problem_solving_with_code_track_3"
+    },
+    {
+      "id": "AlgorithmicResearchGroup/math_reasoning_autoformalization_track_1",
+      "author": "AlgorithmicResearchGroup",
+      "downloads": 16,
+      "likes": 0,
+      "private": false,
+      "tags": [
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/AlgorithmicResearchGroup/math_reasoning_autoformalization_track_1"
+    },
+    {
+      "id": "AlgorithmicResearchGroup/math_reasoning_autoinformalization_track_1_2",
+      "author": "AlgorithmicResearchGroup",
+      "downloads": 15,
+      "likes": 0,
+      "private": false,
+      "tags": [
+        "size_categories:1K<n<10K",
+        "format:parquet",
+        "modality:text",
+        "library:datasets",
+        "library:pandas",
+        "library:mlcroissant",
+        "library:polars",
+        "region:us"
+      ],
+      "url": "https://huggingface.co/datasets/AlgorithmicResearchGroup/math_reasoning_autoinformalization_track_1_2"
+    }
+  ]
+}

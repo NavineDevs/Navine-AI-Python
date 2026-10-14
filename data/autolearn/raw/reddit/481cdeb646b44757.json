@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:java:t3_1vh8gyy",
+  "title": "Isolated Projects is incubating in Gradle 9.7.0 (2,500-project monorepo: configuration 10m53s → 2m59s)",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Isolated Projects moved from experimental to incubating in today&#39;s Gradle 9.7.0 release. When it&#39;s on, each project is isolated from the others, which lets Gradle configure them in parallel instead of one at a time.</p> <p>Numbers from a pure-Java backend monorepo of 2,500 projects, at a parallelism of 6:</p> <ul> <li>Warm IntelliJ IDEA sync: 3m25s → 2m13s</li> <li>Configuration with build-script recompilation: 10m53s → 2m59s</li> </ul> <p>Gradle&#39;s own 300-subproject build saw median IDE sync go from 84s to 47s.</p> <p>My blog post: <a href=\"https://blog.gradle.org/introducing-isolated-projects\">https://blog.gradle.org/introducing-isolated-projects</a><br/> Gradle 9.7.0 release notes: <a href=\"https://docs.gradle.org/current/release-notes.html\">https://docs.gradle.org/current/release-notes.html</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Party_Till_I_Die\"> /u/Party_Till_I_Die </a> <br/> <span><a href=\"https://www.reddit.com/r/java/comments/1vh8gyy/isolated_projects_is_incubating_in_gradle_970/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/java/comments/1vh8gyy/isolated_projects_is_incubating_in_gradle_970/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/java/comments/1vh8gyy/isolated_projects_is_incubating_in_gradle_970/"
+}

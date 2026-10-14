@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:squizlabs/PHP_CodeSniffer:scripts/validate-pear-package.php",
+  "title": "squizlabs/PHP_CodeSniffer/scripts/validate-pear-package.php",
+  "text": "#!/usr/bin/env php\n<?php\n/**\n * Validate the PHP_CodeSniffer PEAR package.xml file.\n *\n * PHP version 5\n *\n * @category  PHP\n * @package   PHP_CodeSniffer\n * @author    Juliette Reinders Folmer <phpcs_nospam@adviesenzo.nl>\n * @copyright 2019 Juliette Reinders Folmer. All rights reserved.\n * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence\n */\n\nrequire_once dirname(__DIR__).'/tests/FileList.php';\nrequire_once __DIR__.'/ValidatePEAR/ValidatePEARPackageXML.php';\n\n$validate = new ValidatePEARPackageXML();\n$validate->validate();\n",
+  "url": "https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/scripts/validate-pear-package.php",
+  "language": "php",
+  "kind": "code"
+}

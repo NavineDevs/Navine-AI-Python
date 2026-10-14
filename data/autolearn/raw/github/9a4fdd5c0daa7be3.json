@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ohmyzsh/ohmyzsh:lib/directories.zsh",
+  "title": "ohmyzsh/ohmyzsh/lib/directories.zsh",
+  "text": "# Changing/making/removing directory\nsetopt auto_cd\nsetopt auto_pushd\nsetopt pushd_ignore_dups\nsetopt pushdminus\n\n\nalias -g ...='../..'\nalias -g ....='../../..'\nalias -g .....='../../../..'\nalias -g ......='../../../../..'\n\nalias -- -='cd -'\nalias 1='cd -1'\nalias 2='cd -2'\nalias 3='cd -3'\nalias 4='cd -4'\nalias 5='cd -5'\nalias 6='cd -6'\nalias 7='cd -7'\nalias 8='cd -8'\nalias 9='cd -9'\n\nalias md='mkdir -p'\nalias rd=rmdir\n\nfunction d () {\n  if [[ -n $1 ]]; then\n    dirs \"$@\"\n  else\n    dirs -v | head -n 10\n  fi\n}\ncompdef _dirs d\n\n# List directory contents\nalias lsa='ls -lah'\nalias l='ls -lah'\nalias ll='ls -lh'\nalias la='ls -lAh'\n",
+  "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/directories.zsh",
+  "language": "shell",
+  "kind": "code"
+}

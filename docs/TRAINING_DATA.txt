@@ -1,0 +1,42 @@
+NAVINE AI - NN / DATA QUICK REFERENCE
+=====================================
+
+Train list:
+  python -m navine.cli train list
+  python -m navine.cli train all --steps 200
+  python -m navine.cli train chat --steps 300
+  python -m navine.cli train coding --steps 200
+  python -m navine.cli train games --steps 200
+  python -m navine.cli train multimodal-text --steps 100
+  python -m navine.cli train text
+  python -m navine.cli train image
+  python -m navine.cli train video
+  python -m navine.cli train voice
+
+Checkpoints:
+  checkpoints/text_enterprise/latest.pt   (enterprise text NN)
+  checkpoints/text/latest.pt
+  checkpoints/image/latest.pt
+  checkpoints/video/latest.pt
+  checkpoints/voice/
+
+Data roots:
+  data/train/chat/
+  data/train/coding/
+  data/train/games/
+  data/train/multimodal-text/
+  data/train/general/
+  data/train/creative/
+  data/train/math/
+  data/train/NN_DATA_CATALOG.md
+
+Docs:
+  docs/NN_AND_DATA.md
+  docs/TRAINING_DATA.txt
+  ARCHITECTURE.md
+
+Voice assist:
+  python -m navine.cli assist --voice
+  Wake: hey navine
+  Files: create file notes.txt with hello
+  Games: observe Fortnite for 8 seconds

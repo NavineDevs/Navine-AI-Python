@@ -1,0 +1,18 @@
+{
+  "prompt": "anime hentai illustration, ass, uniform, anime, hentai, detailed linework, explicit adult",
+  "caption": "anime hentai illustration, ass, uniform, anime, hentai, detailed linework, explicit adult",
+  "filename": "teacher_hentai_002.mp4",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-06-24T14:52:30.916259+00:00",
+  "enhanced_prompt": "an anime hentai illustration, ass, uniform, anime, hentai, detailed linework, explicit adult, anime illustration, hentai style, detailed linework, vibrant colors, explicit adult",
+  "num_frames": 16,
+  "fps": 12,
+  "seed": 1456,
+  "fallback": true,
+  "secondary_path": true,
+  "nsfw_enhance": true,
+  "category": "hentai",
+  "generation_mode": "external_diffusion_hybrid",
+  "image_model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\teacher_hentai_002.mp4"
+}

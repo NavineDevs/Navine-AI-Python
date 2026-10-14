@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:InsertKoinIO/koin:examples/test.sh",
+  "title": "InsertKoinIO/koin/examples/test.sh",
+  "text": "#!/bin/sh\n\n./gradlew cleanTest test --no-build-cache\n",
+  "url": "https://raw.githubusercontent.com/InsertKoinIO/koin/main/examples/test.sh",
+  "language": "shell",
+  "kind": "code"
+}

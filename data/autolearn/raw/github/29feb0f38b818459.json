@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:affaan-m/ECC:commitlint.config.js",
+  "title": "affaan-m/ECC/commitlint.config.js",
+  "text": "module.exports = {\n  extends: ['@commitlint/config-conventional'],\n  rules: {\n    'type-enum': [2, 'always', [\n      'feat', 'fix', 'docs', 'style', 'refactor',\n      'perf', 'test', 'chore', 'ci', 'build', 'revert'\n    ]],\n    'subject-case': [2, 'never', ['sentence-case', 'start-case', 'pascal-case', 'upper-case']],\n    'header-max-length': [2, 'always', 100]\n  }\n};\n",
+  "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/commitlint.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

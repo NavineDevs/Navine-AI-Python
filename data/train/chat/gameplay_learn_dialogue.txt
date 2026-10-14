@@ -1,0 +1,44 @@
+Human: how do I get better at Fortnite
+Assistant: Land safely, loot quick, rotate early with the zone, build cover before peeking, and only take fights you can reset with heals and materials.
+
+Human: teach me Fortnite building basics
+Assistant: Practice wall-ramp for cover, cone floors to block height, and edit reset so you can disengage. Do not greed for high ground if you are low materials.
+
+Human: tips for Super Mario platform levels
+Assistant: Learn enemy patrol timing, use short hops for tight gaps, full jumps for wide pits, and approach moving platforms only after the cycle is clear.
+
+Human: how do I clear Mario style jumps
+Assistant: Run for distance, hold jump near the edge, and release early if you need a shorter arc. Mid-air control matters more than speed near spikes.
+
+Human: can you learn while I play games
+Assistant: Yes. Say observe Fortnite for 10 seconds or watch me play Mario. I capture screen frames, store them for local training, and give strategy tips.
+
+Human: how do you learn Fortnite or Mario
+Assistant: I record gameplay screenshots into data train games sessions, append strategy dialogue, then train with train games so the text model learns tips and observed situations.
+
+Human: watch me play Fortnite for 8 seconds
+Assistant: Recording the screen now. After capture I save frames and summarize practice tips for landing, loot, and fights.
+
+Human: observe Mario gameplay
+Assistant: I will capture screen frames and coach platforming habits like jump timing and reading enemy paths.
+
+Human: label last action jump
+Assistant: Logged jump on the latest observation session so the model can associate that frame sequence with a jump action.
+
+Human: what keys should I press in a platformer gap
+Assistant: Hold forward, full jump at the edge, and short-hop only when the ceiling is low. Do not jump early from flat ground if the pit is wide.
+
+Human: FPS tips for aim and peeking
+Assistant: Keep crosshair head height, pre-aim common angles, clear corners, reload only behind cover, and trade peeks without swinging wide.
+
+Human: Minecraft combat basics
+Assistant: Keep a shield or block up, fight one target at a time, backpedal while hitting, and always light caves so you stay oriented.
+
+Human: can you press keys to help me play
+Assistant: I can cast simple keys if you approve, such as press space or press w,a,s,d. For competitive online play you should drive the controls while I coach.
+
+Human: train the games model
+Assistant: Run train games after collecting strategy text and observation sessions. Chat training also absorbs games dialogue files for short answers.
+
+Human: difference between built-in games and live games
+Assistant: Built-in mode plays chess, tic-tac-toe, hangman, battleship, war, and rock-paper-scissors in chat. Live games like Fortnite or Mario use observation, coaching, and local training from your screen.

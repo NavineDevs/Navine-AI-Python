@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vkhasn",
+  "title": "Call for testing: Restricting trait implementability and field mutability",
+  "text": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Kobzol\"> /u/Kobzol </a> <br/> <span><a href=\"https://blog.rust-lang.org/inside-rust/2026/08/10/call-for-testing-impl-and-mut-restrictions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vkhasn/call_for_testing_restricting_trait/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vkhasn/call_for_testing_restricting_trait/"
+}

@@ -1,0 +1,4 @@
+{"type": "image", "media": "desktop_workspace", "caption": "Multi-monitor desk with code editor, GPU monitor, and notes about hybrid training."}
+{"type": "image", "media": "laptop_4060", "caption": "Laptop chassis housing an RTX 4060 class GPU used for local model finetune."}
+{"type": "video", "media": "voice_assistant_session", "caption": "User speaks a wake phrase; assistant creates a file and reads a short status reply."}
+{"type": "image", "media": "checkpoint_folder", "caption": "Filesystem view of text_enterprise latest.pt best.pt and tokenizer.json."}

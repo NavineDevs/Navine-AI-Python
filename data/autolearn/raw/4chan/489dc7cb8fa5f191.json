@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:h:8662223:8662227:image",
+  "title": "/h/ 8662227",
+  "text": "/h/ 8662227",
+  "url": "https://boards.4chan.org/h/thread/8662223#p8662227",
+  "category": "nsfw",
+  "kind": "image",
+  "caption": "/h/ 8662227 | [hentai, image, character] | tags: 4chan",
+  "board": "h",
+  "thread_id": 8662223,
+  "post_id": 8662227,
+  "media_category": "hentai",
+  "tags": [
+    "4chan",
+    "h",
+    "hentai",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/h/1752663795613832.png",
+  "subject_type": "character",
+  "style_type": "anime",
+  "training_scope": "nsfw",
+  "local_path": "data\\nsfw\\local\\hentai\\h_1752663795613832.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b8c12ba20cb0bf58",
+  "url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\mixed\\ext_a7566e2872db4fd7_1787135521593180600.png",
+  "caption": "ext_a7566e2872db4fd7 | [mixed, image] | tags: local, unknown",
+  "filename": "b8c12ba20cb0bf58.png",
+  "timestamp": "2026-08-21T17:46:28.246375+00:00",
+  "content_type": "image/png",
+  "media_category": "mixed",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "tags": [
+    "mixed",
+    "local"
+  ],
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\local\\mixed\\ext_a7566e2872db4fd7.png",
+  "kind": "image"
+}

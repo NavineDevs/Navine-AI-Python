@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:abpframework/abp:npm/publish-utils.js",
+  "title": "abpframework/abp/npm/publish-utils.js",
+  "text": "const { program } = require('commander');\nconst fse = require('fs-extra');\nconst semverParse = require('semver/functions/parse');\n\nprogram.version('0.0.1');\nprogram.option('-n, --nextVersion', 'version in common.props');\nprogram.option('-pr, --prerelease', 'whether version is prerelease');\nprogram.option('-cv, --customVersion <customVersion>', 'set exact version');\n\nprogram.parse(process.argv);\n\nif (program.nextVersion) console.log(getVersion());\n\nif (program.prerelease)\n  console.log(!!semverParse(getVersion()).prerelease?.length);\n\nfunction getVersion() {\n  if (program.customVersion) return program.customVersion;\n  const commonProps = fse.readFileSync('../common.props').toString();\n  const versionTag = '<Version>';\n  const versionEndTag = '</Version>';\n  const first = commonProps.indexOf(versionTag) + versionTag.length;\n  const last = commonProps.indexOf(versionEndTag);\n  return commonProps.substring(first, last);\n}\n",
+  "url": "https://raw.githubusercontent.com/abpframework/abp/dev/npm/publish-utils.js",
+  "language": "javascript",
+  "kind": "code"
+}

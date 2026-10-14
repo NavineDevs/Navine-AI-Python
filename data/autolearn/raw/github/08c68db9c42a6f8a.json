@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:compiler/scripts/build-eslint-docs.js",
+  "title": "react/react/compiler/scripts/build-eslint-docs.js",
+  "text": "const ReactCompiler = require('../packages/babel-plugin-react-compiler/dist');\n\nconst combinedRules = [\n  {\n    name: 'rules-of-hooks',\n    recommended: true,\n    description:\n      'Validates that components and hooks follow the [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks)',\n  },\n  {\n    name: 'exhaustive-deps',\n    recommended: true,\n    description:\n      'Validates that hooks which accept dependency arrays (`useMemo()`, `useCallback()`, `useEffect()`, etc) ' +\n      'list all referenced variables in their dependency array. Referencing a value without including it in the ' +\n      'dependency array can lead to stale UI or callbacks.',\n  },\n  ...ReactCompiler.LintRules,\n];\n\nconst printed = combinedRules\n  .filter(\n    ruleConfig => ruleConfig.rule.recommended && ruleConfig.severity !== 'Off'\n  )\n  .map(ruleConfig => {\n    return `\n## \\`react-hooks/${ruleConfig.rule.name}\\`\n\n${ruleConfig.rule.description}\n    `.trim();\n  })\n  .join('\\n\\n');\n\nconsole.log(printed);\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/compiler/scripts/build-eslint-docs.js",
+  "language": "javascript",
+  "kind": "code"
+}

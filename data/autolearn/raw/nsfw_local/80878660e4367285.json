@@ -1,0 +1,14 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:data\\learn\\4chan\\text\\wsg\\wsg_5858176_5858181.txt",
+  "title": "wsg_5858176_5858181",
+  "text": "Current limits for WebM files on 4chan are: Maximum file size is 6144KB. Maximum duration is 300 seconds. Maximum resolution is 2048x2048 pixels. Click here to see a detailed guide on how to create webm files. You can now upload webm files with sound to /wsr/. Please post all requests there. >>>/wsr/",
+  "url": "data\\learn\\4chan\\text\\wsg\\wsg_5858176_5858181.txt",
+  "category": "nsfw",
+  "topic": "wsg",
+  "tags": [
+    "wsg",
+    "nsfw",
+    "local"
+  ]
+}

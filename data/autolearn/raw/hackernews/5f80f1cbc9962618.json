@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48621645",
+  "title": "Show HN: CleverCrow: give tokens to your favorite projects",
+  "text": "Howdy all. I&#x27;m Zack :wave:. I&#x27;ve been thinking about the problem of misguided AI pull requests and figured I&#x27;d throw a possible solution out there for feedback. Basically, CleverCrow lets supporters give tokens to a GitHub repo (or set of issues in that repo) for the maintainers to use to build&#x2F;fix stuff. The fun implementation challenges have been around implementing the pooling dynamics and keeping the maintainers in charge while the backers are motivated to support their work.",
+  "url": "https://clevercrow.io"
+}

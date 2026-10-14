@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vjvzil",
+  "title": "Multi-stage bounded concurrent pipeline in Go",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Wrote an article about multi-stage bounded concurrent pipeline in Go.<br/> It explores how to structure concurrent stages using worker pools and channels.<br/> The focus is on bounded concurrency, backpressure, cancellation, and graceful shutdown. Also covers an important detail: making channel operations cancellation-aware to avoid goroutine leaks.</p> <p>Check out the full article <a href=\"https://medium.com/@oshankkumar/building-a-bounded-concurrent-pipeline-in-go-cab3e5025e23\">https://medium.com/@oshankkumar/building-a-bounded-concurrent-pipeline-in-go-cab3e5025e23</a></p> <p>I&#39;d love to hear how others approach this pattern. Are there things you&#39;d do differently, or pitfalls I might have missed ?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/GlassButterfly1265\"> /u/GlassButterfly1265 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vjvzil/multistage_bounded_concurrent_pipeline_in_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vjvzil/multistage_bounded_concurrent_pipeline_in_go/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vjvzil/multistage_bounded_concurrent_pipeline_in_go/"
+}

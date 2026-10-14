@@ -1,0 +1,5 @@
+Navine AI - Python server v0.2.2 starting on http://127.0.0.1:8766
+INFO:     127.0.0.1:63624 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63656 - "GET /api/info HTTP/1.1" 200 OK
+INFO:     59.27.141.135:0 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63677 - "GET /api/info HTTP/1.1" 200 OK

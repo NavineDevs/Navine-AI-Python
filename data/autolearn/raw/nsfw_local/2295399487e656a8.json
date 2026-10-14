@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\images\\infini-atomic\\infini_uniform_7932.jpg",
+  "title": "infini_uniform_7932",
+  "text": "infini_uniform_7932",
+  "url": "data\\nsfw\\images\\local\\general\\infini_uniform_7932_1782072693571516500.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\infini_uniform_7932_1782072693571516500.jpg",
+  "caption": "infini_uniform_7932 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": null,
+  "tags": [
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

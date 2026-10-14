@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/mock/_createProductionServer.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/mock/_createProductionServer.ts",
+  "text": "import { createProdMockServer } from 'vite-plugin-mock/es/createProdMockServer';\n\nconst modules = import.meta.glob('./**/*.ts', { eager: true });\n\nconst mockModules: any[] = [];\nObject.keys(modules).forEach((key) => {\n  if (key.includes('/_')) {\n    return;\n  }\n  mockModules.push(...(modules as Recordable)[key].default);\n});\n\n/**\n * Used in a production environment. Need to manually import all modules\n */\nexport function setupProdMockServer() {\n  createProdMockServer(mockModules);\n}\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/mock/_createProductionServer.ts",
+  "language": "typescript",
+  "kind": "code"
+}

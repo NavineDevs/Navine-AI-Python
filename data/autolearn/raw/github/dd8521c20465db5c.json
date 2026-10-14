@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:test/vitest.setup.ts",
+  "title": "vuejs/vue/test/vitest.setup.ts",
+  "text": "process.env.NEW_SLOT_SYNTAX = 'true'\n\nimport './helpers/shim-done'\nimport './helpers/to-have-warned'\nimport './helpers/classlist'\n\nimport { waitForUpdate } from './helpers/wait-for-update'\nimport { triggerEvent } from './helpers/trigger-event'\nimport { createTextVNode } from './helpers/vdom'\n\nglobal.waitForUpdate = waitForUpdate\nglobal.triggerEvent = triggerEvent\nglobal.createTextVNode = createTextVNode\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/test/vitest.setup.ts",
+  "language": "typescript",
+  "kind": "code"
+}

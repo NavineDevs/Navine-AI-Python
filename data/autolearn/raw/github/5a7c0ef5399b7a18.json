@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:e2e/challenge.spec.ts",
+  "title": "freeCodeCamp/freeCodeCamp/e2e/challenge.spec.ts",
+  "text": "import { test, expect } from '@playwright/test';\n\nimport translations from '../client/i18n/locales/english/translations.json';\nimport { clearEditor, focusEditor, getEditors } from './utils/editor';\n\ntest.describe('when reloading the page', () => {\n  test.beforeEach(async ({ page }) => {\n    const pageUsingEditableRegionInTests =\n      '/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-14';\n    await page.goto(pageUsingEditableRegionInTests);\n  });\n  // This is quite brittle. If it breaks, try to come up with a unit test instead.\n\n  test('should keep the editable content for testing', async ({\n    page,\n    isMobile,\n    browserName\n  }) => {\n    await focusEditor({ page, isMobile });\n    await clearEditor({ page, browserName });\n    // For some reason, fill doesn't work properly on firefox if there are new lines\n    // in the text, hence one line:\n    const solution = `h1, h2, p { text-align: center; }`;\n\n    await getEditors(page).fill(solution);\n    const editorTextLocator = page\n      .getByTestId('editor-container-stylescss')\n      .getByText(solution);\n    await expect(editorTextLocator).toBeVisible();\n\n    // save the code\n    await page.keyboard.down('Control');\n    await page.keyboard.press('S');\n\n    await page.reload();\n\n    await expect(editorTextLocator).toBeVisible();\n\n    // check the tests pass\n    await page.keyboard.down('Control');\n    await page.keyboard.press('Enter');\n\n    await expect(\n      page.getByText(translations.learn['congratulations-code-passes'])\n    ).toBeVisible();\n  });\n});\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/e2e/challenge.spec.ts",
+  "language": "typescript",
+  "kind": "code"
+}

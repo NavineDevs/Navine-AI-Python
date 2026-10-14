@@ -1,0 +1,44 @@
+secondary_path: true
+teacher_role: external_diffusion
+
+image_config: image_external
+
+model:
+  frame_size: 512
+  num_frames: 16
+  in_channels: 3
+  hidden_dim: 384
+  num_layers: 6
+
+inference:
+  num_frames: 32
+  fps: 24
+  output_format: mp4
+  frame_output_size: 512
+  use_references: false
+  custom_trained_only: false
+  use_learned_model: false
+  use_external_diffusion: true
+  prefer_trained_model: false
+  reject_bland_frames: false
+  seed: 42
+  hybrid: true
+  min_frame_variance: 0.0005
+
+fallback:
+  enabled: true
+  max_frames: 48
+  image_steps: 28
+  motion: 0.02
+  keyframe_variation: 0.02
+  reference_motion: kenburns
+  motion_profiles:
+    dance: 1.8
+    walk: 1.2
+    sway: 1.0
+    bounce: 1.4
+
+learn:
+  output_dir: data/learn/external/video
+  save_captions: true
+  teacher_source: huggingface_diffusers

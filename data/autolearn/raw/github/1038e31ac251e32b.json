@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sorin-ionescu/prezto:modules/command-not-found/init.zsh",
+  "title": "sorin-ionescu/prezto/modules/command-not-found/init.zsh",
+  "text": "#\n# Displays installation information for not found commands.\n#\n# Authors:\n#   Joseph Jon Booker <joe@neoturbine.net>\n#   Indrajit Raychaudhuri <irc+code@indrajit.com>\n#\n\n# Load command-not-found on Debian-based distributions.\nif [[ -s /etc/zsh_command_not_found ]]; then\n  source /etc/zsh_command_not_found\n# Load command-not-found on Arch Linux-based distributions.\nelif [[ -s /usr/share/doc/pkgfile/command-not-found.zsh ]]; then\n  source /usr/share/doc/pkgfile/command-not-found.zsh\n# Load command-not-found on macOS when Homebrew is present. Check explicitly\n# for MacOS, since homebrew can be installed on Linux as a supplementary PM\nelif [[ \"$OSTYPE\" =~ ^darwin ]] && (( $+commands[brew] )); then\n  homebrew_repo=${HOMEBREW_REPOSITORY:-$commands[brew]:A:h:h}\n  # Look for handler in Homebrew core (as of >=4.6.12), then in Taps (< 4.6.12)\n  for hb_cnf_handler in \"$homebrew_repo\"/{Library/Homebrew/command-not-found/handler.sh,Taps/homebrew/homebrew-command-not-found/handler.sh}; do\n    if [ -f \"$hb_cnf_handler\" ]; then\n      source \"$hb_cnf_handler\"\n      unset hb_cnf_handler homebrew_repo\n      break\n    fi\n  done\n  if [ -n \"$hb_cnf_handler\" ]; then\n    unset hb_cnf_handler homebrew_repo\n    return 1\n  fi\n# Return if requirements are not found.\nelse\n  return 1\nfi\n",
+  "url": "https://raw.githubusercontent.com/sorin-ionescu/prezto/master/modules/command-not-found/init.zsh",
+  "language": "shell",
+  "kind": "code"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1ura8xu",
+  "title": "Rust proliferation in the Linux Kernel",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>If you ever wondered, how it&#39;s started vs how it&#39;s going, with hard numbers (and some charts) here is a single-pager: <a href=\"https://rusted-kernel.com/\">https://rusted-kernel.com/</a> (GitHub pages, open source)</p> <p>Feedback welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tb0hdan\"> /u/tb0hdan </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1ura8xu/rust_proliferation_in_the_linux_kernel/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1ura8xu/rust_proliferation_in_the_linux_kernel/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1ura8xu/rust_proliferation_in_the_linux_kernel/"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1vs6kqc",
+  "title": "Updated Typescript GitHub Action Template",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey y’all!</p> <p>I made a fork of actions/typescript-action to make some valuable updates!</p> <p>It updates the following:</p> <ul> <li>Changes project&#39;s package manager from npm to <strong>pnpm</strong>, for speed.</li> <li>Changes project&#39;s testing framework from jest to <strong>vitest</strong> for jest-like syntax with built-in typescript support.</li> <li>Updates eslint.config.ts to use native <strong>flat config</strong> syntax, with detailed comments.</li> <li>Updated project dependencies.</li> <li>Updates configuration files like tsconfig.ts and action workflows to match updated dependencies.</li> <li>Renamed <code>local-action</code> script to <code>local-gha</code> (gha for github action) to avoid conflict with dependency name.</li> </ul> <p>lmk what you think!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ahmed33033\"> /u/Ahmed33033 </a> <br/> <span><a href=\"https://github.com/ahmed33033/typescript-action\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1vs6kqc/updated_typescript_github_action_template/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1vs6kqc/updated_typescript_github_action_template/"
+}

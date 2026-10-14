@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:gin-gonic/gin:fs.go",
+  "title": "gin-gonic/gin/fs.go",
+  "text": "// Copyright 2017 Manu Martinez-Almeida. All rights reserved.\n// Use of this source code is governed by a MIT style\n// license that can be found in the LICENSE file.\n\npackage gin\n\nimport (\n\t\"net/http\"\n\t\"os\"\n)\n\n// OnlyFilesFS implements an http.FileSystem without `Readdir` functionality.\ntype OnlyFilesFS struct {\n\tFileSystem http.FileSystem\n}\n\n// Open passes `Open` to the upstream implementation without `Readdir` functionality.\nfunc (o OnlyFilesFS) Open(name string) (http.File, error) {\n\tf, err := o.FileSystem.Open(name)\n\tif err != nil {\n\t\treturn nil, err\n\t}\n\n\treturn neutralizedReaddirFile{f}, nil\n}\n\n// neutralizedReaddirFile wraps http.File with a specific implementation of `Readdir`.\ntype neutralizedReaddirFile struct {\n\thttp.File\n}\n\n// Readdir overrides the http.File default implementation and always returns nil.\nfunc (n neutralizedReaddirFile) Readdir(_ int) ([]os.FileInfo, error) {\n\t// this disables directory listing\n\treturn nil, nil\n}\n\n// Dir returns an http.FileSystem that can be used by http.FileServer().\n// It is used internally in router.Static().\n// if listDirectory == true, then it works the same as http.Dir(),\n// otherwise it returns a filesystem that prevents http.FileServer() to list the directory files.\nfunc Dir(root string, listDirectory bool) http.FileSystem {\n\tfs := http.Dir(root)\n\n\tif listDirectory {\n\t\treturn fs\n\t}\n\n\treturn &OnlyFilesFS{FileSystem: fs}\n}\n",
+  "url": "https://raw.githubusercontent.com/gin-gonic/gin/master/fs.go",
+  "language": "go",
+  "kind": "code"
+}

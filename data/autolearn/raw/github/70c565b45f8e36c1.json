@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:public-apis/public-apis:scripts/validate/__init__.py",
+  "title": "public-apis/public-apis/scripts/validate/__init__.py",
+  "text": "# -*- coding: utf-8 -*-\n\nfrom validate import format\nfrom validate import links\n",
+  "url": "https://raw.githubusercontent.com/public-apis/public-apis/master/scripts/validate/__init__.py",
+  "language": "python",
+  "kind": "code"
+}

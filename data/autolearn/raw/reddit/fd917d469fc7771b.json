@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vid5ku",
+  "title": "Relationship between of package names and struct names",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m creating a simple CRUD project that involves campaign publications. If I have a package named `internal/campaign/usecase`, what should the use case be named? `CreateCampaignUsecase`, `CreateCampaign`, `CreateUsecase`, or `Create`?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Cetti_\"> /u/Cetti_ </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vid5ku/relationship_between_of_package_names_and_struct/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vid5ku/relationship_between_of_package_names_and_struct/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vid5ku/relationship_between_of_package_names_and_struct/"
+}

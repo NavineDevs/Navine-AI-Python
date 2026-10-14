@@ -1,0 +1,5 @@
+{"type": "video", "media": "gameplay_clip_fps", "caption": "Close fight with peeks, builds, and camera snaps; high contrast outdoor map lighting."}
+{"type": "video", "media": "platformer_run", "caption": "Side-scroller character runs right, jumps platforms, short hop over a gap."}
+{"type": "video", "media": "product_demo_ui", "caption": "Screen recording of a dark IDE with terminal output scrolling during a local train job."}
+{"type": "image", "media": "chart_loss_curve", "caption": "Training loss curve sloping down over steps with occasional validation spikes."}
+{"type": "image", "media": "model_arch_diagram", "caption": "Block diagram of encoderless decoder stack with RoPE and SwiGLU feed-forward layers."}

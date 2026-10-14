@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfw:t3_1u3zf60:rss:link:2",
+  "title": "Indiana",
+  "text": "Indiana",
+  "url": "https://www.reddit.com/r/nsfw/comments/1u3zf60/indiana/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://i.redd.it/eyy499e5kv6h1.jpeg",
+  "caption": "Indiana | [mixed, image] | tags: nsfw, unknown | [image] | [image] | [image]",
+  "subreddit": "nsfw",
+  "media_category": "mixed",
+  "tags": [
+    "mixed",
+    "nsfw"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "source_group": "mixed"
+}

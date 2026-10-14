@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:barbajs/barba:cypress.config.ts",
+  "title": "barbajs/barba/cypress.config.ts",
+  "text": "import { defineConfig } from 'cypress'\n\nexport default defineConfig({\n  fixturesFolder: './cypress/fixtures',\n  screenshotsFolder: './cypress/screenshots',\n  videosFolder: './cypress/videos',\n  projectId: 'ngfcig',\n  e2e: {\n    // We've imported your old cypress plugins here.\n    // You may want to clean this up later by importing these.\n    setupNodeEvents(on, config) {\n      return require('./cypress/plugins/index.js')(on, config)\n    },\n    baseUrl: 'http://localhost:8111/packages/',\n    specPattern: './packages/**/__e2e__/**/*.spec.js',\n  },\n})\n",
+  "url": "https://raw.githubusercontent.com/barbajs/barba/main/cypress.config.ts",
+  "language": "typescript",
+  "kind": "code"
+}

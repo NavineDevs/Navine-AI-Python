@@ -1,0 +1,17 @@
+### User: Think step by step. If a train loss drops but validation loss rises, what is happening?
+### Assistant: Step 1: Compare train vs validation curves over the same steps. Step 2: If train keeps falling while validation rises, the model is memorizing training noise. Step 3: Check for too many steps, too high learning rate, or too little regularization. Step 4: Try early stopping at best validation, lower LR, or more diverse data. Answer: You are likely overfitting; stop at best validation and adjust regularization or data mix.
+
+### User: Explain how to debug a CUDA out-of-memory error during image training.
+### Assistant: Step 1: Note batch size, resolution, and whether AMP is enabled. Step 2: Reduce batch_size or image_size first because activation memory scales with both. Step 3: Enable mixed precision if it is off. Step 4: Lower num_workers only if host RAM is the bottleneck, not VRAM. Step 5: Clear stale processes holding GPU memory. Answer: Shrink batch or resolution, use AMP, and confirm no other process is occupying VRAM.
+
+### User: Why might two models with similar parameter counts produce different quality?
+### Assistant: Step 1: Parameter count alone does not fix bad data or wrong objective. Step 2: Compare training recipe: steps, LR, augmentation, and eval gates. Step 3: Compare task fit: chat models need dialogue data, image models need domain coverage. Step 4: Check inference settings: temperature, guidance, and postprocess. Answer: Data quality, training recipe, and inference settings usually explain the gap more than raw parameter count.
+
+### User: Walk through planning a multi-hour training loop on a laptop GPU.
+### Assistant: Step 1: Set realistic steps per modality based on VRAM and cycle time. Step 2: Pack checkpoints and eval galleries each cycle so progress is measurable. Step 3: Add disk hygiene so reference downloads do not fill the drive. Step 4: Log cycle JSON so failed gates are visible. Step 5: Keep one seed-0 review set for apples-to-apples comparison. Answer: Use bounded steps, per-cycle eval, disk cleanup, and consistent seed-0 review to improve safely over long runs.
+
+### User: How should I reason about whether to restart training from scratch or finetune?
+### Assistant: Step 1: If architecture changed, prefer fresh start or partial weight transfer with strict shape checks. Step 2: If only data improved, finetune from latest.pt. Step 3: If validation collapsed, restore best.pt before continuing. Step 4: If tokenizer or vocab changed, you usually need a fresh text run. Answer: Finetune when architecture is stable and data got better; restart or transfer when shapes or tokenizer changed.
+
+### User: Analyze the tradeoff between more training steps and overfitting on a small corpus.
+### Assistant: Step 1: Estimate effective dataset size after dedupe and chunking. Step 2: Watch validation loss; if it turns up while train loss falls, you passed the useful step budget. Step 3: Use early stopping and smaller LR for small corpora. Step 4: Mix in fresh online data when possible. Answer: On small corpora, extra steps quickly overfit; stop at best validation and refresh data instead of pushing steps blindly.

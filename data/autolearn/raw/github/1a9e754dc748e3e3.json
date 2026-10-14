@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:Y0URD34TH/Project-GLD:Scripts/file-extractor [utils].lua",
+  "title": "Y0URD34TH/Project-GLD/Scripts/file-extractor [utils].lua",
+  "text": "    local filepath = \"\"\r\n    local extractionpath = \"\"\r\n    local pass = \"\"\r\n    menu.add_text(\"----File Extractor----\")\r\n    menu.add_input_text(\"File Path\")\r\n    menu.set_text(\"File Path\", filepath)\r\n    menu.add_input_text(\"Etraction Path\")\r\n    menu.set_text(\"Etraction Path\", extractionpath)\r\n    menu.add_input_text(\"Pass\")\r\n    menu.set_text(\"Pass\", pass)\r\n    menu.add_check_box(\"Delete After Extraction\")\r\n    menu.add_button(\"Extract\")\r\n    menu.add_text(\"---------------------\")\r\n\r\n    settings.load()\r\n    \r\n    local function extractfile()\r\n        filepath = menu.get_text(\"File Path\")\r\n        extractionpath = menu.get_text(\"Etraction Path\")\r\n        pass = menu.get_text(\"Pass\")\r\n        local deleteafterextraction = menu.get_bool(\"Delete After Extraction\")\r\n        if file.exists(filepath) then\r\n            zip.extract(filepath, extractionpath, deleteafterextraction, pass)\r\n            settings.save()\r\n        end\r\n    end\r\n\r\n    client.add_callback(\"on_button_Extract\", extractfile)\r\n\r\n",
+  "url": "https://raw.githubusercontent.com/Y0URD34TH/Project-GLD/main/Scripts/file-extractor%20%5Butils%5D.lua",
+  "language": "lua",
+  "kind": "code"
+}

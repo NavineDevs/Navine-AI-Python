@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:InsertKoinIO/koin:projects/compare_apis.sh",
+  "title": "InsertKoinIO/koin/projects/compare_apis.sh",
+  "text": "#!/bin/bash\n\nBASE_BRANCH=\"main\"\nCURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)\n\necho \"=== API Changes Summary: $CURRENT_BRANCH vs $BASE_BRANCH ===\"\necho \"\"\n\nfor file in $(git diff --name-only $BASE_BRANCH...HEAD | grep '\\.api$'); do\n    echo \"==========================================\"\n    echo \"FILE: $file\"\n    echo \"==========================================\"\n\n    if git show $BASE_BRANCH:\"$file\" > /tmp/main.api 2>/dev/null; then\n        git show HEAD:\"$file\" > /tmp/current.api 2>/dev/null\n        echo \"[MODIFIED]\"\n        diff -u /tmp/main.api /tmp/current.api | grep -E '^\\+|^\\-|^@@' | head -40\n    else\n        echo \"[NEW FILE in $CURRENT_BRANCH]\"\n        git show HEAD:\"$file\" | head -20\n    fi\n    echo \"\"\ndone\n",
+  "url": "https://raw.githubusercontent.com/InsertKoinIO/koin/main/projects/compare_apis.sh",
+  "language": "shell",
+  "kind": "code"
+}

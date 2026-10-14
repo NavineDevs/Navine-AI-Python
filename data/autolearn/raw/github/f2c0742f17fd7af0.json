@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:barbajs/barba:packages/core/__e2e__/views.spec.js",
+  "title": "barbajs/barba/packages/core/__e2e__/views.spec.js",
+  "text": "/* eslint-disable no-mixed-operators, cypress/no-unnecessary-waiting */\nconst loadHooks = ['beforeEnter', 'afterEnter'];\nconst transitionHooks = [\n  'beforeLeave',\n  'afterLeave',\n  'beforeEnter',\n  'afterEnter',\n];\n\nbeforeEach(() => {\n  cy.prepare('/views.html', 'home', 'home');\n  cy.get('[data-test=\"hooks-list\"]').as('hooks'); // Alias to @hooks\n});\nafterEach(() => {\n  cy.final('/page.html', 'page', 'page');\n});\n\ndescribe('Views hooks', () => {\n  it('have default order', () => {\n    cy.wait(1000); // Wait for once complete\n\n    // Checks…\n    loadHooks.forEach((name, i) => {\n      cy.get('@hooks')\n        .find(`:nth-child(${i + 1})`)\n        .should('contain', name);\n    });\n\n    // Click link\n    cy.get('[data-test=\"link.hooks\"]').click();\n\n    // Checks…\n    transitionHooks.forEach((name, i) => {\n      const j = i + loadHooks.length;\n\n      cy.get('@hooks')\n        .find(`:nth-child(${j + 1})`)\n        .should('contain', name);\n    });\n  });\n  // it('have sync order', () => {\n  //   cy.wait(1000); // Wait for once complete\n  //   // Click link\n  //   cy.get('[data-test=\"link.hooks-sync\"]').click();\n\n  //   // Checks…\n  //   hooksSync.forEach((name, i) => {\n  //     cy.get('@hooks')\n  //       .find(`:nth-child(${i + 1})`)\n  //       .should('contain', name);\n  //   });\n  // });\n});\n",
+  "url": "https://raw.githubusercontent.com/barbajs/barba/main/packages/core/__e2e__/views.spec.js",
+  "language": "javascript",
+  "kind": "code"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:122102",
+  "title": "What is the most efficient way to deep clone an object in JavaScript?",
+  "text": "What is the most efficient way to deep clone an object in JavaScript?\n\n<p>What is the most efficient way to clone a JavaScript object? I've seen <code>obj = eval(uneval(o));</code> being used, but <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/uneval\" rel=\"noreferrer\">that's non-standard and only supported by Firefox</a>.<br/><br/> I've done things like <code>obj = JSON.parse(JSON.stringify(o));</code> but question the efficiency. <br/><br/> I've also seen recursive copying functions with various flaws.\n<br />\nI'm surprised no canonical solution exists.</p>",
+  "url": "https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript",
+  "kind": "qa"
+}

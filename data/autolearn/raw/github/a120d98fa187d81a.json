@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/prettier.config.js",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/prettier.config.js",
+  "text": "module.exports = {\n  printWidth: 150,\n  tabWidth: 2,\n  useTabs: false,\n  semi: true, //语句末尾使用分号\n  vueIndentScriptAndStyle: true,\n  singleQuote: true, // 使用单引号\n  quoteProps: 'as-needed',\n  bracketSpacing: true,\n  trailingComma: 'es5',\n  jsxBracketSameLine: false,\n  jsxSingleQuote: false,\n  arrowParens: 'always',\n  insertPragma: false,\n  requirePragma: false,\n  proseWrap: 'never',\n  htmlWhitespaceSensitivity: 'strict',\n  endOfLine: 'auto', // 自动处理换行符（LF/CRLF）\n  rangeStart: 0,\n};\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/prettier.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.09917v1",
+  "title": "WhichTok? Comparing Three TikTok Data Acquisition Tools",
+  "text": "WhichTok? Comparing Three TikTok Data Acquisition Tools\n\nTikTok's global growth has made it a prime platform for both entertainment and political discourse, prompting increased social science research. However, this rapidly evolving research field faces a fundamental reproducibility crisis. TikTok's opaque algorithmic systems hinder researchers from drawing meaningful empirical inferences, while the lack of standardized data collection methods compounds these challenges. This study addresses these methodological gaps by systematically comparing three data collection tools - the official TikTok Research API, Pyktok, and Apify. We evaluated five endpoints: User, Hashtag, Keyword, Comment, and Related Video. Results show substantial cross-tool differences, especially for hashtag and keyword searches. The Research API uses back-end API calls, whereas Apify and Pyktok rely on front-end web scraping, producing systematic differences in the time periods and popularity levels represented in retrieved content. The three tools yielded comprehensive and consistent results only for the user endpoint. Our results question whether these tools can acquire truly random[-ized] samples, as they introduce methodological confounds that may compromise research validity in ways not yet fully understood. Based on these results, we offer methodological, transparency, and ethical recommendations and guidelines to increase TikTok research quality.",
+  "url": "https://arxiv.org/abs/2608.09917v1",
+  "category": "technical"
+}

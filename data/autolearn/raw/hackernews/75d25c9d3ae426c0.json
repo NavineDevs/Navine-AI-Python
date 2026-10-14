@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48786455",
+  "title": "Show HN: Follow London Trains in 3D",
+  "text": "deck.gl based visualiser of the TFL Api + National Rails to be able to track (with minimal drift) a train along the way in London and to the nearest airports. If you pick one from any platform in <a href=\"https:&#x2F;&#x2F;nexttrain.london\" rel=\"nofollow\">https:&#x2F;&#x2F;nexttrain.london</a> basically you can share your train journey along the rails. Build to test Cloudflare workers and their infra along with deck.gl performance that is incredible in my opinion.",
+  "url": "https://ride.nexttrain.london/"
+}

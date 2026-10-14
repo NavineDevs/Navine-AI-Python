@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:laravel/framework:config/services.php",
+  "title": "laravel/framework/config/services.php",
+  "text": "<?php\n\nreturn [\n\n    /*\n    |--------------------------------------------------------------------------\n    | Third Party Services\n    |--------------------------------------------------------------------------\n    |\n    | This file is for storing the credentials for third party services such\n    | as Mailgun, Postmark, AWS and more. This file provides the de facto\n    | location for this type of information, allowing packages to have\n    | a conventional file to locate the various service credentials.\n    |\n    */\n\n    'postmark' => [\n        'token' => env('POSTMARK_TOKEN'),\n    ],\n\n    'resend' => [\n        'key' => env('RESEND_KEY'),\n    ],\n\n    'ses' => [\n        'key' => env('AWS_ACCESS_KEY_ID'),\n        'secret' => env('AWS_SECRET_ACCESS_KEY'),\n        'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),\n    ],\n\n    'slack' => [\n        'notifications' => [\n            'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),\n            'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),\n        ],\n    ],\n\n];\n",
+  "url": "https://raw.githubusercontent.com/laravel/framework/13.x/config/services.php",
+  "language": "php",
+  "kind": "code"
+}

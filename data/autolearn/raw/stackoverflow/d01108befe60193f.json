@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:2389361",
+  "title": "Undo a Git merge that hasn&#39;t been pushed yet",
+  "text": "Undo a Git merge that hasn&#39;t been pushed yet\n\n<p>I accidentally ran <code>git merge some_other_branch</code> on my local master branch. I haven't pushed the changes to origin master. How do I undo the merge?</p>\n<hr />\n<p>After merging, <code>git status</code> says:</p>\n<pre><code># On branch master\n# Your branch is ahead of 'origin/master' by 5 commits.\n</code></pre>\n<p>How do I undo all these commits?</p>",
+  "url": "https://stackoverflow.com/questions/2389361/undo-a-git-merge-that-hasnt-been-pushed-yet",
+  "kind": "qa"
+}

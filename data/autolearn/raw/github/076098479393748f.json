@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:client/vitest.config.js",
+  "title": "freeCodeCamp/freeCodeCamp/client/vitest.config.js",
+  "text": "/// <reference types=\"vitest/config\" />\nimport { defineConfig } from 'vitest/config';\n\nexport default defineConfig({\n  test: {\n    setupFiles: 'vitest-setup.js',\n    projects: [\n      {\n        extends: true,\n        test: {\n          include: '**/*.test.{jsx,tsx}',\n          name: 'react',\n          environment: 'jsdom'\n        }\n      },\n      {\n        extends: true,\n        test: {\n          include: '**/*.test.{js,ts}',\n          name: 'js',\n          environment: 'node'\n        }\n      }\n    ]\n  }\n});\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/client/vitest.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

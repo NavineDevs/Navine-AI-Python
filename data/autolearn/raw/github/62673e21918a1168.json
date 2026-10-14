@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:tach-org/tach:python/tach/icons.py",
+  "title": "tach-org/tach/python/tach/icons.py",
+  "text": "# type: ignore reportConstantRedefinition\nfrom __future__ import annotations\n\nimport sys\n\n\ndef test_unicode_encoding():\n    try:\n        \"✅\".encode(sys.stdout.encoding)\n        return True\n    except UnicodeEncodeError:\n        return False\n\n\nSUPPORTS_UNICODE = test_unicode_encoding()\n\n\n### Icons which depend on Unicode support\nif SUPPORTS_UNICODE:\n    SUCCESS = \"✅\"\n    WARNING = \"⚠️\"\n    FAIL = \"❌\"\nelse:\n    SUCCESS = \"[OK]\"\n    WARNING = \"[WARN]\"\n    FAIL = \"[FAIL]\"\n",
+  "url": "https://raw.githubusercontent.com/tach-org/tach/main/python/tach/icons.py",
+  "language": "python",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:types/plugin.d.ts",
+  "title": "vuejs/vue/types/plugin.d.ts",
+  "text": "import { Vue as _Vue } from './vue'\n\nexport type PluginFunction<T> = (Vue: typeof _Vue, options?: T) => void\n\nexport interface PluginObject<T> {\n  install: PluginFunction<T>\n  [key: string]: any\n}\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/types/plugin.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ohmyzsh/ohmyzsh:lib/correction.zsh",
+  "title": "ohmyzsh/ohmyzsh/lib/correction.zsh",
+  "text": "if [[ \"$ENABLE_CORRECTION\" == \"true\" ]]; then\n  alias cp='nocorrect cp'\n  alias man='nocorrect man'\n  alias mkdir='nocorrect mkdir'\n  alias mv='nocorrect mv'\n  alias sudo='nocorrect sudo'\n  alias su='nocorrect su'\n\n  setopt correct_all\nfi\n",
+  "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/correction.zsh",
+  "language": "shell",
+  "kind": "code"
+}

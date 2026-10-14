@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1vgrib6",
+  "title": "CryptoJS.lib.WordArray.random() before 4.0.0 uses a weak PRNG (Ill Bloom)",
+  "text": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/coinspect\"> /u/coinspect </a> <br/> <span><a href=\"https://github.com/brix/crypto-js/security/advisories/GHSA-rg76-677x-56q9\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1vgrib6/cryptojslibwordarrayrandom_before_400_uses_a_weak/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1vgrib6/cryptojslibwordarrayrandom_before_400_uses_a_weak/"
+}

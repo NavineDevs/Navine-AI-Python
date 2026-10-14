@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:datascience:t3_1u1jv6a",
+  "title": "How do you measure to performance / accuracy of a recommender system?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Context: the business problem is I wanted to compare professional athletes based on their movement data to recommend similar players. I made a recommender system with K-Means clustering and PCA (multicollinearity amongst the features in the dataset).</p> <p>I’m interested in using a new modeling technique like Gaussian Mixture Model, but I don’t know how to evaluate which model performs better…</p> <p>Open to any suggestions </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/omnicron_31\"> /u/omnicron_31 </a> <br/> <span><a href=\"https://www.reddit.com/r/datascience/comments/1u1jv6a/how_do_you_measure_to_performance_accuracy_of_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/datascience/comments/1u1jv6a/how_do_you_measure_to_performance_accuracy_of_a/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/datascience/comments/1u1jv6a/how_do_you_measure_to_performance_accuracy_of_a/"
+}

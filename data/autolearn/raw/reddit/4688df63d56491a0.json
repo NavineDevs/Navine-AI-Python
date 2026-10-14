@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:sysadmin:t3_1u5hknn",
+  "title": "20205 DCs pulled manually",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Planned a project so well everyone signed off. Everything was prepped to do a nice demotion of the Problematic 2025 DCs....and BOOM Networking issues. One host couldn&#39;t talk to the network consistently but when it did at least its replication updated. Another host with no networking issue lost its kerberos ticket.......and would not talk to the domain correctly.</p> <p>Had to do a manual removal which I had not done in well over a decade. At least I had the right sense of mind to keep FSMO roles on the older DCs lol</p> <p>Thats it, just wanted to get this off my chest....almost makes me want to start managing on prem exchange.......</p> <p>OMFG and yes I just realized the typo in my title</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eagle6705\"> /u/eagle6705 </a> <br/> <span><a href=\"https://www.reddit.com/r/sysadmin/comments/1u5hknn/20205_dcs_pulled_manually/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/sysadmin/comments/1u5hknn/20205_dcs_pulled_manually/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/sysadmin/comments/1u5hknn/20205_dcs_pulled_manually/"
+}

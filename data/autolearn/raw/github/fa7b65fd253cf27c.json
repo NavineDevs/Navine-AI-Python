@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:types/common.d.ts",
+  "title": "vuejs/vue/types/common.d.ts",
+  "text": "export type Data = { [key: string]: unknown }\n\nexport type UnionToIntersection<U> = (\n  U extends any ? (k: U) => void : never\n) extends (k: infer I) => void\n  ? I\n  : never\n\n// Conditional returns can enforce identical types.\n// See here: https://github.com/Microsoft/TypeScript/issues/27024#issuecomment-421529650\n// prettier-ignore\ntype Equal<Left, Right> =\n  (<U>() => U extends Left ? 1 : 0) extends (<U>() => U extends Right ? 1 : 0) ? true : false;\n\nexport type HasDefined<T> = Equal<T, unknown> extends true ? false : true\n\n// If the type T accepts type \"any\", output type Y, otherwise output type N.\n// https://stackoverflow.com/questions/49927523/disallow-call-with-any/49928360#49928360\nexport type IfAny<T, Y, N> = 0 extends 1 & T ? Y : N\n\nexport type LooseRequired<T> = { [P in string & keyof T]: T[P] }\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/types/common.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

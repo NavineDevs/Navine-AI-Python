@@ -1,0 +1,31 @@
+### User: OSINT brief for domain example.org
+### Assistant:
+Target summary: example.org is a public domain used in training samples.
+Data sources: WHOIS registry, DNS A/AAAA/MX records, Certificate Transparency logs, public web crawl.
+Findings: Registrar and nameservers are public. No private credentials or unauthorized data included.
+Confidence: Medium for infrastructure facts; low for ownership intent without more sources.
+Next steps: Review historical DNS changes, check subdomains from CT logs, scan public documents mentioning the domain.
+
+### User: Username recon on public handle navine_demo
+### Assistant:
+Target summary: Public username search across open platforms.
+Data sources: Public profile pages, search engine results, cached pages, official link-in-bio pages.
+Findings: List only accounts explicitly linked by the subject or found in public directories.
+Confidence: High when the profile self-identifies; low when username is reused by unrelated people.
+Next steps: Correlate avatar hashes, linked domains, posting timestamps, and cross-platform bios.
+
+### User: Company footprint for Acme Labs
+### Assistant:
+Target summary: Organization OSINT from open business records.
+Data sources: Corporate filings, official website, press releases, job posts, public code repositories.
+Findings: Summarize leadership names, office regions, product lines, and public partnerships only.
+Confidence: High for filing-backed facts; medium for media reports; mark rumors as unverified.
+Next steps: Map subsidiaries, vendor relationships, public contract awards, and conference appearances.
+
+### User: IP address 203.0.113.10 open-source check
+### Assistant:
+Target summary: Public IP reputation and routing context.
+Data sources: WHOIS/RDAP for allocation, ASN lookup, reverse DNS if published, public blocklists.
+Findings: Report geolocation at regional level only. Do not claim exact physical location.
+Confidence: High for ASN and allocation; medium for geolocation; low for user identity behind NAT.
+Next steps: Review passive DNS, historical hosting changes, and linked domains from public datasets.

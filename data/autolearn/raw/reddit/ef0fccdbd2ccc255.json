@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vtnxkd",
+  "title": "Is Go actually good for scraping, or do you move to Python once the parsing gets heavy?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m not an expert, but I&#39;ve written a few scrapers in Go and the fetching part has been great. Fast, easy concurrency, simple to deploy as one binary. Where I start to struggle is the parsing. Once a site has messy HTML or I need to pull data from a lot of different layouts, I miss how quick this is in Python with BeautifulSoup and the rest of that ecosystem.</p> <p>So I keep going back and forth on whether Go is worth it for this. The speed is nice, but I spend more time on the parsing code than I would in Python. Do you keep everything in Go even when the parsing gets ugly, or do you switch to Python at some point? And if you stay in Go, what do you use that makes the parsing less painful?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UnableSwordfishhh\"> /u/UnableSwordfishhh </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vtnxkd/is_go_actually_good_for_scraping_or_do_you_move/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vtnxkd/is_go_actually_good_for_scraping_or_do_you_move/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vtnxkd/is_go_actually_good_for_scraping_or_do_you_move/"
+}

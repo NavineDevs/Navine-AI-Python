@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.20496v1",
+  "title": "CoarseSolvers for Exascale Solution of Poisson Problems",
+  "text": "CoarseSolvers for Exascale Solution of Poisson Problems\n\nWepresentatwolevelSchwarzmethodasanalternativetoAlgebraicMultigridmethod(AMG) used as the last level (coarse) solver of the p-multigrid pMG preconditioner for pressure Poission equation resulting from Spectral/Finite element descretization of incompressible Navier-Stokes eqaution. Proposed Schwarz method consits of a local problem in the original pMG coarse space and a global coarse problem. Main contribution of the paper is a novel, structured and a non-nested coarse space for the global coarse problem. Structured nature of the proposed global coarse space enable communication-free interpolation between the original p-multgrid coarse space and the global coarse problem. We demonstrate the effectiveness of the proposed method compared to the state of the art AMG solver BoomerAMG by a series of experiments performed using Nek5000/RS, a suite of highly scalable incompressible Navier-Stokes solvers, on Summit/Frontier supercomputers at Oak Ridge Leadership Computing Facility.",
+  "url": "https://arxiv.org/abs/2606.20496v1",
+  "category": "technical"
+}

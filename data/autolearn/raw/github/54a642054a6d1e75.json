@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:babel.config-react-compiler.js",
+  "title": "react/react/babel.config-react-compiler.js",
+  "text": "'use strict';\n\n/**\n * HACK: @poteto React Compiler inlines Zod in its build artifact. Zod spreads values passed to .map\n * which causes issues in @babel/plugin-transform-spread in loose mode, as it will result in\n * {undefined: undefined} which fails to parse.\n *\n * [@babel/plugin-transform-block-scoping', {throwIfClosureRequired: true}] also causes issues with\n * the built version of the compiler. The minimal set of plugins needed for this file is reexported\n * from babel.config-ts.\n *\n * I will remove this hack later when we move eslint-plugin-react-hooks into the compiler directory.\n **/\n\nconst baseConfig = require('./babel.config-ts');\n\nmodule.exports = {\n  plugins: baseConfig.plugins,\n};\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/babel.config-react-compiler.js",
+  "language": "javascript",
+  "kind": "code"
+}

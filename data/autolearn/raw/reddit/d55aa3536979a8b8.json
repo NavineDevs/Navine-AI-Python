@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vtqpo8",
+  "title": "Reverting this is painful as this code is really clean!",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p><code>go type Book struct { PublishedDate time.Time `json:&quot;published_date,format:&#39;2006-01-02&#39;&quot;` CreatedAt time.Time `json:&quot;created_at,format:RFC3339&quot; gorm:&quot;autoCreateTime&quot;` } </code></p> <p>It&#39;s official! a future version of Go will remove the <code>format</code> tag entirely and no <code>GOEXPERIMENT</code> to re-enable support for the <code>format</code> tag.</p> <p><a href=\"https://github.com/golang/go/issues/79071#issuecomment-5351571588\">https://github.com/golang/go/issues/79071#issuecomment-5351571588</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dumindunuwan\"> /u/dumindunuwan </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vtqpo8/reverting_this_is_painful_as_this_code_is_really/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vtqpo8/reverting_this_is_painful_as_this_code_is_really/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vtqpo8/reverting_this_is_painful_as_this_code_is_really/"
+}

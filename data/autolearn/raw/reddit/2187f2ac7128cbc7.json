@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1u3vx3o",
+  "title": "How do I learn 'Idiomatic', production-grade Rust?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m learning Rust after working with Go, Python, and some C. Right now I&#39;m studying with <em>The Rust Programming Language</em> (&quot;The Rust Book&quot;), and I&#39;m finding it excellent so far. It explains the language concepts really well.</p> <p>But how do I move beyond just learning the language and start writing <strong>idiomatic &amp; production grade Rust</strong>?</p> <p>With Go, <em>Learning Go (2nd Edition)</em> by Joe Bodner helped me understand production-grade, idiomatic Go. Is there a similar resource for Rust?</p> <p>I&#39;d also love to hear what helped you make the transition from &quot;I know Rust syntax&quot; to &quot;I can write production grade Rust.&quot;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hashcode777\"> /u/hashcode777 </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1u3vx3o/how_do_i_learn_idiomatic_productiongrade_rust/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1u3vx3o/how_do_i_learn_idiomatic_productiongrade_rust/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1u3vx3o/how_do_i_learn_idiomatic_productiongrade_rust/"
+}

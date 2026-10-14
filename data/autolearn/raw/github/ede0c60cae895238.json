@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:redis-store/redis-store:test/test_helper.rb",
+  "title": "redis-store/redis-store/test/test_helper.rb",
+  "text": "require 'bundler/setup'\nrequire 'minitest/autorun'\nrequire 'mocha/minitest'\nrequire 'redis'\nrequire 'redis-store'\nrequire 'ostruct'\n\n$DEBUG = ENV[\"DEBUG\"] === \"true\"\n\nRedis::DistributedStore.send(:class_variable_set, :@@timeout, 30)\n\n# http://mentalized.net/journal/2010/04/02/suppress_warnings_from_ruby/\nmodule Kernel\n  def suppress_warnings\n    original_verbosity = $VERBOSE\n    $VERBOSE = nil\n    result = yield\n    $VERBOSE = original_verbosity\n    result\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/redis-store/redis-store/master/test/test_helper.rb",
+  "language": "ruby",
+  "kind": "code"
+}

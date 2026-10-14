@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vjo2se",
+  "title": "Best approach for testing a Go project",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I have a Gin Auth Service, that i am developing.</p> <p>At the moment I have already completed the basics, and I am down into testing the project, I started with some shell scripts with curl.</p> <p>Eventually this devolved into a monstrosity of shell scripts, mailhog + dexidp, and the test for checking 2FA or OAuth are true monsters that i am afraid of touching.</p> <p>Is shell scripting a good tool for testing? Or is it a bit limited at a certain scale? </p> <p>I have hear wonders from Go built in pkg, and worked like a charm when I used it, that said I am open to new solutions!</p> <p>What do you use for testing auth flows?</p> <p>PS: This is my first post :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Character-Carry6375\"> /u/Character-Carry6375 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vjo2se/best_approach_for_testing_a_go_project/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vjo2se/best_approach_for_testing_a_go_project/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vjo2se/best_approach_for_testing_a_go_project/"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:208105",
+  "title": "How do I remove a property from a JavaScript object?",
+  "text": "How do I remove a property from a JavaScript object?\n\n<p>Given an object:</p>\n<pre><code>let myObject = {\n  &quot;ircEvent&quot;: &quot;PRIVMSG&quot;,\n  &quot;method&quot;: &quot;newURI&quot;,\n  &quot;regex&quot;: &quot;^http://.*&quot;\n};\n</code></pre>\n<p>How do I remove the property <code>regex</code> to end up with the following <code>myObject</code>?</p>\n<pre><code>let myObject = {\n  &quot;ircEvent&quot;: &quot;PRIVMSG&quot;,\n  &quot;method&quot;: &quot;newURI&quot;\n};\n</code></pre>",
+  "url": "https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object",
+  "kind": "qa"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:tach-org/tach:python/tach/check_external.py",
+  "title": "tach-org/tach/python/tach/check_external.py",
+  "text": "from __future__ import annotations\n\nfrom tach.extension import check_external_dependencies as check_external\n\n__all__ = [\"check_external\"]\n",
+  "url": "https://raw.githubusercontent.com/tach-org/tach/main/python/tach/check_external.py",
+  "language": "python",
+  "kind": "code"
+}

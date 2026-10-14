@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48512286",
+  "title": "A generic dynamic array in C that stores no capacity and needs no struct",
+  "text": "A generic dynamic array in C that stores no capacity and needs no struct",
+  "url": "https://gist.github.com/alurm/2ca14be134d719fe7431217a6b18d91e"
+}

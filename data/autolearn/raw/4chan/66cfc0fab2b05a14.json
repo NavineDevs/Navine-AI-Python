@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:adv:34594487:34595237:image",
+  "title": "/adv/ 34595237",
+  "text": "/adv/ 34595237",
+  "url": "https://boards.4chan.org/adv/thread/34594487#p34595237",
+  "category": "general",
+  "kind": "image",
+  "caption": "/adv/ 34595237 | [general, image] | tags: 4chan, unknown",
+  "board": "adv",
+  "thread_id": 34594487,
+  "post_id": 34595237,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "adv",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/adv/1780630255603797.png",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\adv\\adv_1780630255603797.png"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:babel.config.js",
+  "title": "react/react/babel.config.js",
+  "text": "'use strict';\n\nmodule.exports = {\n  plugins: [\n    '@babel/plugin-syntax-jsx',\n    '@babel/plugin-transform-flow-strip-types',\n    ['@babel/plugin-proposal-class-properties', {loose: true}],\n    'syntax-trailing-function-commas',\n    [\n      '@babel/plugin-proposal-object-rest-spread',\n      {loose: true, useBuiltIns: true},\n    ],\n    ['@babel/plugin-transform-template-literals', {loose: true}],\n    '@babel/plugin-transform-literals',\n    '@babel/plugin-transform-arrow-functions',\n    '@babel/plugin-transform-block-scoped-functions',\n    '@babel/plugin-transform-object-super',\n    '@babel/plugin-transform-shorthand-properties',\n    '@babel/plugin-transform-for-of',\n    ['@babel/plugin-transform-spread', {loose: true, useBuiltIns: true}],\n    '@babel/plugin-transform-parameters',\n    ['@babel/plugin-transform-destructuring', {loose: true, useBuiltIns: true}],\n    ['@babel/plugin-transform-block-scoping', {throwIfClosureRequired: true}],\n  ],\n};\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/babel.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

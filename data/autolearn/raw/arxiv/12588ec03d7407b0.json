@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.13612v1",
+  "title": "Beyond the IT Checklist: Engineering a Reasonable Standard of Care for Cyber Safety",
+  "text": "Beyond the IT Checklist: Engineering a Reasonable Standard of Care for Cyber Safety\n\nCurrent U.S. cyber policy, centered on security, often treats documentation of controls and incident reports as a proxy for safety in the built environment. This paper argues that such an approach is inadequate for cyber-physical systems, where digital failures can produce kinetic harm. We construct and code a corpus of critical infrastructure policy documents (N=292, 2000-2025) to examine how \"reasonable care\" is operationalized across the NIST SP 800-160 Vol.~2 resilience lifecycle. The resulting maps show that obligations are concentrated in the Anticipate phase and emphasize administrative compliance, while Withstand and Recover phases rely heavily on delegated references to IT-focused control catalogs that are poorly aligned with physics-based hazards. We identify three major disconnects: miscalibrated delegated standards, recovery defined as notification rather than engineered navigation, and uneven adaptation requirements across sectors. We then propose a modernized standard of care anchored in hazard-specific traceability, structured assurance cases, and cyber resiliency engineering. Finally, we recommend that federal policy pair these engineering obligations with targeted incentives so that resilient architectures for critical infrastructure become a viable business decision rather than an unfunded expectation.",
+  "url": "https://arxiv.org/abs/2606.13612v1",
+  "category": "technical"
+}

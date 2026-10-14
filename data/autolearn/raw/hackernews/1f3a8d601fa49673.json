@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48612432",
+  "title": "Show HN: MiniPCs.zip – Charting the Pareto frontier of Mini PCs",
+  "text": "The overall idea is to chart out the thousands of Mini PCs by benchmark and reveal the Pareto Front so you can get the most Compute per Dollar. Definitely a labor of love as I have a number of Mini PCs for my &quot;homelab&quot; (TrueNAS, piHole, Plex, basic stuff). It uses Gemini to extract specs from listings (since they&#x27;re not often strongly categorized).<p>Quick blog post here: <a href=\"https:&#x2F;&#x2F;luke.zip&#x2F;posts&#x2F;pareto-pcs&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;luke.zip&#x2F;posts&#x2F;pareto-pcs&#x2F;</a>",
+  "url": "https://minipcs.zip"
+}

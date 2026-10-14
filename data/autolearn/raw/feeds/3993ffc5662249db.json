@@ -1,0 +1,7 @@
+{
+  "source": "feeds",
+  "source_id": "feed:https://hnrss.org/frontpage:14",
+  "title": "Show HN: Neural Particle Automata",
+  "text": "Neural CAs model self-organizing pattern formation on grids. Now the grid is gone. Each cell is an agentic particle that can move freely in space and change its state.While each particle follows a simple shared rule, many together can grow complex morphologies or form intricate patterns. The resulting particle system as a whole can regenerate from damage and exhibits surprising emergent behavior.Try cutting the lizard and watch it heal itself!\n\nComments URL: https://news.ycombinator.com/item?id=48642030\nPoints: 57\n# Comments: 13",
+  "url": "https://selforg-npa.github.io/"
+}

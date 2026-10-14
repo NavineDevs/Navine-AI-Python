@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:gin-gonic/gin:doc.go",
+  "title": "gin-gonic/gin/doc.go",
+  "text": "/*\nPackage gin implements a HTTP web framework called gin.\n\nSee https://gin-gonic.com/ for more information about gin.\n\nExample:\n\n\tpackage main\n\n\timport \"github.com/gin-gonic/gin\"\n\n\tfunc main() {\n\t\tr := gin.Default()\n\t\tr.GET(\"/ping\", func(c *gin.Context) {\n\t\t\tc.JSON(200, gin.H{\n\t\t\t\t\"message\": \"pong\",\n\t\t\t})\n\t\t})\n\t\tr.Run() // listen and serve on 0.0.0.0:8080\n\t}\n*/\npackage gin // import \"github.com/gin-gonic/gin\"\n",
+  "url": "https://raw.githubusercontent.com/gin-gonic/gin/master/doc.go",
+  "language": "go",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:gin-gonic/gin:context_appengine.go",
+  "title": "gin-gonic/gin/context_appengine.go",
+  "text": "// Copyright 2017 Manu Martinez-Almeida. All rights reserved.\n// Use of this source code is governed by a MIT style\n// license that can be found in the LICENSE file.\n\n//go:build appengine\n\npackage gin\n\nfunc init() {\n\tdefaultPlatform = PlatformGoogleAppEngine\n}\n",
+  "url": "https://raw.githubusercontent.com/gin-gonic/gin/master/context_appengine.go",
+  "language": "go",
+  "kind": "code"
+}

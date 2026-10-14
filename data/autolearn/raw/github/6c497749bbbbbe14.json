@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:nestjs/nest:scripts/prepare.sh",
+  "title": "nestjs/nest/scripts/prepare.sh",
+  "text": "# 1. Build fresh packages and move them to sample and integration directories\nnpm run build &>/dev/null\n\n# 2. Start docker containers to perform integration tests\nnpm run test:docker:up\n\n# 3. Wait for RabbitMQ to accept AMQP connections\nnpm run test:docker:wait:rmq\n",
+  "url": "https://raw.githubusercontent.com/nestjs/nest/master/scripts/prepare.sh",
+  "language": "shell",
+  "kind": "code"
+}

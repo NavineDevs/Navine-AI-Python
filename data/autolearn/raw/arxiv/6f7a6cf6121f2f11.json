@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.13639v1",
+  "title": "Tuning Agent-Based Predator-Prey Models Toward Lotka-Volterra Dynamics",
+  "text": "Tuning Agent-Based Predator-Prey Models Toward Lotka-Volterra Dynamics\n\nRecent growth in compute power has made it increasingly feasible to use large-scale agent-based models to simulate complex adaptive systems. A central difficulty is that such models contain many local rules and parameters, where small changes can lead to runaway behaviour, population collapse, or saturation at artificial bounds. We study this problem in a continuous predator-prey system where sheep and wolves are active agents with local sensing, internal energy, and recurrent neural network-based controllers. We ask whether environmental and demographic parameters can be tuned so that the resulting population dynamics resemble classical Lotka-Volterra cycles. We optimise these parameters with a feature-based loss that rewards sustained oscillations, phase lag, bounded populations, and long-term persistence, first for random controllers and then for evolved controllers in a more naturalistic setting. The model is implemented in ABMax, a JAX-based agent-based modelling framework that enables efficient batched simulation on hardware accelerators.",
+  "url": "https://arxiv.org/abs/2606.13639v1",
+  "category": "technical"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1u4dz25",
+  "title": "Help with making a Operating system",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I have been making a bowling alley operating system and for some reason my kernel wont boot </p> <p>--BOOT-- </p> <p>[BITS 16]</p> <p>[ORG 0x7C00]</p> <p>start:</p> <p>mov si, msg</p> <p>.print:</p> <p>lodsb</p> <p>or al, al</p> <p>jz .kernel</p> <p>mov ah, 0x0E</p> <p>int 0x10</p> <p>jmp .print</p> <p>.kernel:</p> <p>jmp 0x0000:0x7E00</p> <p>msg db &quot;BOOT OK - BowlingOS&quot;, 13, 10, 0</p> <p>times 510-($-$$) db 0</p> <p>dw 0xAA55</p> <p>--Kernel--<br/> [BITS 16]</p> <p>[ORG 0x7E00]</p> <p>start:</p> <p>mov si, msg</p> <p>.print:</p> <p>lodsb</p> <p>or al, al</p> <p>jz .hang</p> <p>mov ah, 0x0E</p> <p>int 0x10</p> <p>jmp .print</p> <p>.hang:</p> <p>jmp .hang</p> <p>msg db &quot;KERNEL LOADED SUCCESSFULLY&quot;, 13, 10, 0</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/guyriy\"> /u/guyriy </a> <br/> <span><a href=\"https://drive.google.com/drive/folders/18h77jItixkI6PWsxt_Mjh9U07Bua1_Sm?usp=drive_link\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u4dz25/help_with_making_a_operating_system/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1u4dz25/help_with_making_a_operating_system/"
+}

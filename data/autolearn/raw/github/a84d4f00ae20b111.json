@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:barbajs/barba:jest.config.js",
+  "title": "barbajs/barba/jest.config.js",
+  "text": "module.exports = {\n  collectCoverageFrom: [\n    'packages/**/src/**/*.ts',\n    '!packages/**/src/**/*.d.ts',\n    '!packages/**/src/typings.ts',\n    '!packages/**/src/**/index.ts',\n    '!packages/**/src/polyfills/**.ts',\n    '!packages/core/src/utils/helpers.ts',\n  ],\n  coverageThreshold: {\n    global: {\n      statements: 95,\n      branches: 95,\n      functions: 95,\n      lines: 95,\n    },\n  },\n  preset: 'ts-jest',\n  resetMocks: true,\n  testEnvironment: 'jest-environment-jsdom-global',\n  testMatch: ['**/__tests__/**/*.test.ts'],\n  transformIgnorePatterns: ['<rootDir>.*(node_modules)(?!.*@barba.*).*$'],\n  verbose: true,\n  watchPlugins: ['jest-watch-lerna-packages'],\n};\n",
+  "url": "https://raw.githubusercontent.com/barbajs/barba/main/jest.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

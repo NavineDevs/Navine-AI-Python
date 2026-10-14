@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:java:t3_1vbyida",
+  "title": "Ecógrafo",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hello community, This is my real-time ultrasound signal simulation and processing system developed entirely in Java using Java Swing.</p> <p>The project enables both the mathematical simulation of acoustic echoes from biological tissues and the reception and interpretation of raw (RF) data from actual hardware via UDP sockets.</p> <p>I still need to build an ultrasonic sensor to send data via UDP; I tried using ultrasonic modules, but they aren&#39;t useful—all I see on the screen is a barrier indicating the proximity of a nearby object.</p> <p>Once the sensor&#39;s fabrication is complete, I will conduct tests and submit it to a clinical evaluation by experts to validate its utility in real-world settings—so stay tuned.</p> <p><a href=\"https://preview.redd.it/689yx02gulgh1.png?width=1010&amp;format=png&amp;auto=webp&amp;s=913b0d4039f454ff513d3a6e0b6d21fb4330d776\">https://preview.redd.it/689yx02gulgh1.png?width=1010&amp;format=png&amp;auto=webp&amp;s=913b0d4039f454ff513d3a6e0b6d21fb4330d776</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Visual_Brain8809\"> /u/Visual_Brain8809 </a> <br/> <span><a href=\"https://www.reddit.com/r/java/comments/1vbyida/ecógrafo/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/java/comments/1vbyida/ecógrafo/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/java/comments/1vbyida/ecógrafo/"
+}

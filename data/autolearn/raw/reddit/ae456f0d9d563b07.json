@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:MachineLearning:t3_1u4hy2x",
+  "title": "PaddleOCR (v3/v4/v5/v6) implemented in C++ with ncnn [P]",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hi,</p> <p>About a year ago I shared my PaddleOCR implementation here. Since then I&#39;ve made many improvements, and it now supports PP-OCR v3 through the <strong>latest v6</strong> models.</p> <p>The official Paddle C++ runtime has a lot of dependencies and is very complex to deploy. To keep things simple I use ncnn for inference, it&#39;s much lighter (and faster in my task), makes deployment easy.</p> <p>Hope it&#39;s helpful to some of you, and feedback welcome!</p> <p><a href=\"https://github.com/Avafly/PaddleOCR-ncnn-CPP\">https://github.com/Avafly/PaddleOCR-ncnn-CPP</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Knok0932\"> /u/Knok0932 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vbmzd4",
+  "title": "proposal to add some generic collection types",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://github.com/golang/go/issues/80590\">https://github.com/golang/go/issues/80590</a></p> <p>I&#39;m pleasantly surprised, as I wasn&#39;t expecting these sorts of collections to be added to the standard library.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pekim\"> /u/pekim </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vbmzd4/proposal_to_add_some_generic_collection_types/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vbmzd4/proposal_to_add_some_generic_collection_types/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vbmzd4/proposal_to_add_some_generic_collection_types/"
+}

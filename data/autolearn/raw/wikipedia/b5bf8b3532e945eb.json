@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:15516115",
+  "title": "Geo-replication",
+  "text": "Geo-replication systems are designed to provide improved availability and disaster tolerance by using geographically distributed data centers. This is intended to improve the response time for applications such as web portals. Geo-replication can be achieved using software, hardware or a combination of the two.",
+  "url": "https://en.wikipedia.org/wiki/Geo-replication",
+  "category": "general"
+}

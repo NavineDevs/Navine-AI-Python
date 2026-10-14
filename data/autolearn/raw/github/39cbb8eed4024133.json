@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ollama/ollama:main.go",
+  "title": "ollama/ollama/main.go",
+  "text": "package main\n\nimport (\n\t\"context\"\n\n\t\"github.com/spf13/cobra\"\n\n\t\"github.com/ollama/ollama/cmd\"\n)\n\nfunc main() {\n\tcobra.CheckErr(cmd.NewCLI().ExecuteContext(context.Background()))\n}\n",
+  "url": "https://raw.githubusercontent.com/ollama/ollama/main/main.go",
+  "language": "go",
+  "kind": "code"
+}

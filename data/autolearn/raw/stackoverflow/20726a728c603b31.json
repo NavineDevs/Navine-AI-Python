@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:38987",
+  "title": "How do I merge two dictionaries in a single expression in Python?",
+  "text": "How do I merge two dictionaries in a single expression in Python?\n\n<p>I want to merge two dictionaries into a new dictionary.</p>\n<pre><code>x = {'a': 1, 'b': 2}\ny = {'b': 3, 'c': 4}\nz = merge(x, y)\n\n&gt;&gt;&gt; z\n{'a': 1, 'b': 3, 'c': 4}\n</code></pre>\n<p>Whenever a key <code>k</code> is present in both dictionaries, only the value <code>y[k]</code> should be kept.</p>",
+  "url": "https://stackoverflow.com/questions/38987/how-do-i-merge-two-dictionaries-in-a-single-expression-in-python",
+  "kind": "qa"
+}

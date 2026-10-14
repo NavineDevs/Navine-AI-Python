@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:compiler/scripts/test-e2e.sh",
+  "title": "react/react/compiler/scripts/test-e2e.sh",
+  "text": "#!/bin/bash\n# Copyright (c) Meta Platforms, Inc. and affiliates.\n#\n# This source code is licensed under the MIT license found in the\n# LICENSE file in the root directory of this source tree.\n\n# End-to-end test runner comparing the Rust compiler (Babel/NAPI bridge)\n# against the TS reference plugin.\n#\n# Usage: bash compiler/scripts/test-e2e.sh [fixtures-path] [--variant babel] [--limit N] [--no-color]\n\nset -eo pipefail\n\nREPO_ROOT=\"$(cd \"$(dirname \"$0\")/../..\" && pwd)\"\n\nexec npx tsx \"$REPO_ROOT/compiler/scripts/test-e2e.ts\" \"$@\"\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/compiler/scripts/test-e2e.sh",
+  "language": "shell",
+  "kind": "code"
+}

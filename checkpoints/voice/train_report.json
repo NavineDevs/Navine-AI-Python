@@ -1,0 +1,373 @@
+{
+  "finished": "2026-09-23T10:04:05.225550+00:00",
+  "voice_name": "navine_trained",
+  "samples": [
+    {
+      "text": "Navine AI voice calibration sample one.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_00.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_00.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Hello, this is Navine AI speaking clearly.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_01.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_01.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Testing text to speech for custom voice training.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_02.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_02.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "The time and date request should sound natural.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_03.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_03.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Navine AI voice calibration sample one.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_04.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_04.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Hello, this is Navine AI speaking clearly.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_05.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_05.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Testing text to speech for custom voice training.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_06.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_06.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "The time and date request should sound natural.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_07.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_07.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Navine AI voice calibration sample one.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_08.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_08.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Hello, this is Navine AI speaking clearly.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_09.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_09.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Testing text to speech for custom voice training.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_10.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_10.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "The time and date request should sound natural.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_11.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_11.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Navine AI voice calibration sample one.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_12.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_12.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Hello, this is Navine AI speaking clearly.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_13.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_13.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Testing text to speech for custom voice training.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_14.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_14.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "The time and date request should sound natural.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_15.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_15.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Navine AI voice calibration sample one.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_16.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_16.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Hello, this is Navine AI speaking clearly.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_17.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_17.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Testing text to speech for custom voice training.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_18.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_18.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "The time and date request should sound natural.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_19.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_19.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Navine AI voice calibration sample one.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_20.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_20.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Hello, this is Navine AI speaking clearly.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_21.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_21.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Testing text to speech for custom voice training.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_22.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_22.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "The time and date request should sound natural.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_23.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_23.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Navine AI voice calibration sample one.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_24.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_24.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Hello, this is Navine AI speaking clearly.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_25.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_25.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Testing text to speech for custom voice training.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_26.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_26.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "The time and date request should sound natural.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_27.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_27.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Navine AI voice calibration sample one.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_28.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_28.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Hello, this is Navine AI speaking clearly.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_29.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_29.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "Testing text to speech for custom voice training.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_30.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_30.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    },
+    {
+      "text": "The time and date request should sound natural.",
+      "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_31.wav",
+      "result": {
+        "ok": true,
+        "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\voice\\calib_31.wav",
+        "backend": "piper",
+        "piper_voice": "en_US-ryan-high",
+        "voice": "navine_trained"
+      }
+    }
+  ],
+  "errors": [],
+  "registered_voice": {
+    "ok": true,
+    "name": "navine_trained",
+    "reference": "voices/navine_trained/reference.wav",
+    "backend": "piper",
+    "cloned": true
+  },
+  "voices_available": [
+    "navine_ai",
+    "navine_trained",
+    "demo_voice"
+  ],
+  "voices_dir": "C:\\Users\\hitbo\\Downloads\\Navine AI\\voices",
+  "neural_voice_error": "name 'config' is not defined"
+}

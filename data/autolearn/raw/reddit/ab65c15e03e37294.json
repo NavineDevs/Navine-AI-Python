@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:datascience:t3_1tuibg2",
+  "title": "Clients clustering: Separating RFM and other variables.",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>In my company, the business people have done a manual RFM to separate clients. Now they are asking me to build a model to cluster clients based only on promotion, channel, products... Is this possible to separate the two and then combine them later?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Capable-Pie7188\"> /u/Capable-Pie7188 </a> <br/> <span><a href=\"https://www.reddit.com/r/datascience/comments/1tuibg2/clients_clustering_separating_rfm_and_other/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/datascience/comments/1tuibg2/clients_clustering_separating_rfm_and_other/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/datascience/comments/1tuibg2/clients_clustering_separating_rfm_and_other/"
+}

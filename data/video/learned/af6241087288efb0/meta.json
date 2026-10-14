@@ -1,0 +1,14 @@
+{
+  "id": "af6241087288efb0",
+  "url": "https://www.youtube.com/watch?v=GGWHjAyKJCA",
+  "source_type": "youtube",
+  "frame_count": 64,
+  "timestamp": "2026-08-26T09:11:29.591281+00:00",
+  "caption": "ai model training, I Built a Self-Driving AI From Scratch to Beat Claude, Both cars are controlled by AI. One handcoded, one written with Claude help. Genetic algorithm neural nets in Pygame race head to head.",
+  "source": "youtube",
+  "source_id": "GGWHjAyKJCA",
+  "navine_modality": "code",
+  "helpful_for_navine": "high",
+  "study_notes": "From-scratch neural net + genetic training (sensors, neurons, hidden layers, population, crossover, mutation). Strong coding/AI signal.",
+  "spoken_words": 0
+}

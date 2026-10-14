@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:4456438",
+  "title": "How to pass &quot;Null&quot; (a real surname!) to a SOAP web service in ActionScript 3",
+  "text": "How to pass &quot;Null&quot; (a real surname!) to a SOAP web service in ActionScript 3\n\n<p>We have an employee whose surname is Null. Our employee lookup application is killed when that last name is used as the search term (which happens to be quite often now). The error received is:</p>\n<pre class=\"lang-none prettyprint-override\"><code>&lt;soapenv:Fault&gt;\n   &lt;faultcode&gt;soapenv:Server.userException&lt;/faultcode&gt;\n   &lt;faultstring&gt;coldfusion.xml.rpc.CFCInvocationException: [coldfusion.runtime.MissingArgumentException : The SEARCHSTRING parameter to the getFacultyNames function is required but was not passed in.]&lt;/faultstring&gt;\n</code></pre>\n<p>The parameter type is <code>string</code>.</p>\n<p>I am using:</p>\n<ul>\n<li><a href=\"http://en.wikipedia.org/wiki/Web_Services_Description_Language\" rel=\"noreferrer\">WSDL</a> (<a href=\"http://en.wikipedia.org/wiki/SOAP\" rel=\"noreferrer\">SOAP</a>)</li>\n<li>Flex 3.5</li>\n<li>ActionScript 3</li>\n<li>ColdFusion 8</li>\n</ul>\n<p>Note that the error <strong>does not</strong> occur when calling the webservice as an object from a ColdFusion page.</p>",
+  "url": "https://stackoverflow.com/questions/4456438/how-to-pass-null-a-real-surname-to-a-soap-web-service-in-actionscript-3",
+  "kind": "qa"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:gin-gonic/gin:deprecated_test.go",
+  "title": "gin-gonic/gin/deprecated_test.go",
+  "text": "// Copyright 2014 Manu Martinez-Almeida. All rights reserved.\n// Use of this source code is governed by a MIT style\n// license that can be found in the LICENSE file.\n\npackage gin\n\nimport (\n\t\"bytes\"\n\t\"net/http\"\n\t\"net/http/httptest\"\n\t\"testing\"\n\n\t\"github.com/gin-gonic/gin/binding\"\n\t\"github.com/stretchr/testify/assert\"\n)\n\nfunc TestBindWith(t *testing.T) {\n\tw := httptest.NewRecorder()\n\tc, _ := CreateTestContext(w)\n\n\tc.Request, _ = http.NewRequest(http.MethodPost, \"/?foo=bar&bar=foo\", bytes.NewBufferString(\"foo=unused\"))\n\n\tvar obj struct {\n\t\tFoo string `form:\"foo\"`\n\t\tBar string `form:\"bar\"`\n\t}\n\tcaptureOutput(t, func() {\n\t\tassert.NoError(t, c.BindWith(&obj, binding.Form))\n\t})\n\tassert.Equal(t, \"foo\", obj.Bar)\n\tassert.Equal(t, \"bar\", obj.Foo)\n\tassert.Equal(t, 0, w.Body.Len())\n}\n",
+  "url": "https://raw.githubusercontent.com/gin-gonic/gin/master/deprecated_test.go",
+  "language": "go",
+  "kind": "code"
+}

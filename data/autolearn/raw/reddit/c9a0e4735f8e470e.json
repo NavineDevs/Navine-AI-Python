@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:java:t3_1velglk",
+  "title": "ORMs are Killing Your Performance 🔪",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Thanks to Montana Programmers, my popular talk from BSDC is now online! </p> <p>Using animations and graphics, I teach you how to:</p> <p>- Eliminate GC pauses<br/> - Reduce time to page render<br/> - Fast Dynamic Forms with only one query<br/> - Slash code sizes<br/> - How a dark pattern may secretly grind your queries to a halt</p> <p>This talk may surprise you 😱<br/> It may shock you 🤯<br/> It could make you angry 😡<br/> You may think it doesn’t apply to you (it does) 🫣</p> <p>Whatever your reaction, I hope it will make you think. 🤔</p> <p>Thank you again to Big Sky Dev Conf and Montana Programmers for letting me present! And thank you to the community for being an amazing and engaged audience! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thewiirocks\"> /u/thewiirocks </a> <br/> <span><a href=\"https://youtu.be/2DaRGRe4Ow4?si=6e0xZSmYfTzXmteN\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/java/comments/1velglk/orms_are_killing_your_performance/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/java/comments/1velglk/orms_are_killing_your_performance/"
+}

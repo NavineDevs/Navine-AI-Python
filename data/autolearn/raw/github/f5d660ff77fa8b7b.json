@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:hahwul/XSpear:spec/XSpear_spec.rb",
+  "title": "hahwul/XSpear/spec/XSpear_spec.rb",
+  "text": "RSpec.describe XSpear do\n  it \"has a version number\" do\n    expect(XSpear::VERSION).not_to be nil\n  end\n\n  it \"does something useful\" do\n    expect(false).to eq(true)\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/hahwul/XSpear/master/spec/XSpear_spec.rb",
+  "language": "ruby",
+  "kind": "code"
+}

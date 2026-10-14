@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:abpframework/abp:npm/package-update-script.js",
+  "title": "abpframework/abp/npm/package-update-script.js",
+  "text": "const glob = require('glob');\nvar path = require('path');\nconst childProcess = require('child_process');\nconst { program } = require('commander');\n\nprogram.version('0.0.1');\nprogram.option('-pr, --prerelease', 'whether version is prerelease');\nprogram.option('-rg, --registry <registry>', 'target npm server registry');\nprogram.parse(process.argv);\n\nconst packages = (process.argv[3] || 'abp').split(',').join('|');\n\nconst check = (pkgJsonPath) => {\n  try {\n    return childProcess\n      .execSync(\n        `ncu \"/^@(${packages}).*$/\" --packageFile ${pkgJsonPath} -u${\n          program.prerelease ? ' --target greatest' : ' --target patch'\n        }${program.registry ? ` --registry ${program.registry}` : ''}`\n      )\n      .toString();\n  } catch (error) {\n    console.log('exec error: ' + error.message);\n    process.exit(error.status);\n  }\n};\n\nconst folder = process.argv[2] || '.';\n\nglob(folder + '/**/package.json', {}, (er, files) => {\n  files.forEach((file) => {\n    if (\n      file.includes('node_modules') ||\n      file.includes('ng-packs/dist') ||\n      file.includes('wwwroot') ||\n      file.includes('bin/Debug')\n    ) {\n      return;\n    }\n\n    console.log(check(file));\n  });\n});\n",
+  "url": "https://raw.githubusercontent.com/abpframework/abp/dev/npm/package-update-script.js",
+  "language": "javascript",
+  "kind": "code"
+}

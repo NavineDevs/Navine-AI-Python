@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:scripts/gen-release-note.js",
+  "title": "vuejs/vue/scripts/gen-release-note.js",
+  "text": "const version = process.argv[2] || process.env.VERSION\nconst cc = require('conventional-changelog')\nconst file = `./RELEASE_NOTE${version ? `_${version}` : ``}.md`\nconst fileStream = require('fs').createWriteStream(file)\n\ncc({\n  preset: 'angular',\n  pkg: {\n    transform (pkg) {\n      pkg.version = `v${version}`\n      return pkg\n    }\n  }\n}).pipe(fileStream).on('close', () => {\n  console.log(`Generated release note at ${file}`)\n})\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/scripts/gen-release-note.js",
+  "language": "javascript",
+  "kind": "code"
+}

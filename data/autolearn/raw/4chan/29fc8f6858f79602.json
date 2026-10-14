@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:gd:460162:460162:image",
+  "title": "Welcome to /gd/ - Graphic Design",
+  "text": "Welcome to /gd/ - Graphic Design This is a place to discuss topics about visual or graphic design. Requests for photoshopping or free work go on /wsr/ - Worksafe Requests or /r/ - Adult Requests as appropriate. http://graphicdesign.wikia.com/ >What literature should I read to get into graphic design? The sidebar on the /gd/ wiki has plenty of book reccomendations. >What programs do I need to get started? Vector Adobe Illustrator Corel Draw Inkskape Bitmap Adobe Photoshop Gimp 3d Blender Cinema4d >Which program is the best for X? It's usually subjective if you pick a program in each of the right categories above. Use vector programs if your making a logo/icon/illustraton, use bitmap programs if you're messing with a photo or stock image. Gimp, Inkskape, and Blender are free alternatives and have the same function as the paid programs but the paid programs tend to be used more in a professional environment. >What font is used in this image? Try these sites before posting a tread asking for fonts: http://whatthefont.com/ http://www.identifont.com/identify. html",
+  "url": "https://boards.4chan.org/gd/thread/460162#p460162",
+  "category": "coding",
+  "kind": "image",
+  "caption": "Welcome to /gd/ - Graphic Design | [general, image] | tags: 4chan, unknown",
+  "board": "gd",
+  "thread_id": 460162,
+  "post_id": 460162,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "gd",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/gd/1745612445129525.png",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\gd\\gd_1745612445129525.png"
+}

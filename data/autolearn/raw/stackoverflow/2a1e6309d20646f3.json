@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:22343224",
+  "title": "What&#39;s the difference between tilde(~) and caret(^) in package.json?",
+  "text": "What&#39;s the difference between tilde(~) and caret(^) in package.json?\n\n<p>After I upgraded to the latest stable <code>node</code> and <code>npm</code>, I tried <code>npm install moment --save</code>. It saves the entry in the <code>package.json</code> with the caret <code>^</code> prefix. Previously, it was a tilde <code>~</code> prefix.</p>\n<ol>\n<li>Why are these changes made in <code>npm</code>?</li>\n<li>What is the difference between tilde <code>~</code> and caret <code>^</code>?</li>\n<li>What are the advantages over previous ones?</li>\n</ol>",
+  "url": "https://stackoverflow.com/questions/22343224/whats-the-difference-between-tilde-and-caret-in-package-json",
+  "kind": "qa"
+}

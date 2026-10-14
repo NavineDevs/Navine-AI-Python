@@ -1,0 +1,597 @@
+enabled: true
+unrestricted_mode: true
+auto_learn: true
+auto_learn_interval_minutes: 30
+mixed_mode: true
+reddit_subreddits:
+  - hentai
+  - porn
+  - hentai_videos_hub
+  - nsfw
+  - rule34
+  - ecchi
+  - animemidriff
+  - nsfw_gif
+  - porn_gifs
+  - nsfw_gifs
+  - RealGirls
+  - gonewild
+reddit_hentai_subreddits:
+  - hentai
+  - ecchi
+  - rule34
+  - animemidriff
+  - doujinshi
+  - hentai_irl
+reddit_real_subreddits:
+  - nsfwhardcore
+  - RealGirls
+  - gonewild
+  - porn
+  - nsfw
+reddit_human_subreddits:
+  - RealGirls
+  - gonewild
+  - amateur
+  - nsfw
+reddit_mixed_subreddits:
+  - nsfw
+  - porn
+  - rule34
+  - RealGirls
+reddit_hentai_video_subreddits:
+  - hentai_videos_hub
+  - nsfw_gifs
+  - animatedporn
+  - rule34
+reddit_real_video_subreddits:
+  - porn_gifs
+  - nsfw_gif
+  - redgifs
+  - nsfw_gifs
+reddit_image_subreddits:
+  - hentai
+  - ecchi
+  - rule34
+  - animemidriff
+  - nsfwhardcore
+  - RealGirls
+reddit_video_subreddits:
+  - hentai_videos_hub
+  - nsfw_gifs
+  - porn_gifs
+  - redgifs
+  - nsfw_gif
+  - animatedporn
+reddit_text_subreddits:
+  - hentai
+  - porn
+  - nsfw
+  - sex
+reddit_unrestricted_subreddits:
+  - netsec
+  - AskNetsec
+  - hacking
+  - privacy
+reddit_post_urls:
+  - https://www.reddit.com/r/hentai_videos_hub/comments/1tfl7g8/hentai/
+web_urls: []
+crawl_start_urls: []
+direct_media_urls: []
+feed_urls: []
+media_mix:
+  enabled: true
+  hentai: 0.35
+  real: 0.30
+  human: 0.15
+  animated: 0.10
+  mixed: 0.10
+image_search_queries:
+  - hentai
+  - anime explicit
+  - real amateur
+image_search_sources:
+  - type: waifu_im
+    tags: [ecchi, ero, ass]
+    media_category: hentai
+    limit: 15
+  - type: rule34
+    base_url: https://rule34.xxx
+    tags: hentai
+    media_category: hentai
+    limit: 15
+  - type: danbooru
+    base_url: https://danbooru.donmai.us
+    tags: rating:explicit
+    media_category: hentai
+    limit: 15
+  - type: gelbooru
+    base_url: https://gelbooru.com
+    tags: rating:explicit
+    media_category: hentai
+    limit: 15
+  - type: rule34
+    base_url: https://rule34.xxx
+    tags: real photo
+    media_category: real
+    limit: 10
+  - type: e621
+    base_url: https://e621.net
+    tags: rating:e animated
+    media_category: animated
+    limit: 10
+video_search_sources:
+  - type: rule34
+    base_url: https://rule34.xxx
+    tags: animated video
+    media_category: hentai
+    limit: 10
+  - type: e621
+    base_url: https://e621.net
+    tags: rating:e video
+    media_category: animated
+    limit: 10
+  - type: rule34
+    base_url: https://rule34.xxx
+    tags: video
+    media_category: real
+    limit: 8
+unrestricted_text_topics:
+  security:
+    local_dirs:
+      - data/unrestricted/local/security
+    tags:
+      - security
+      - malware-analysis
+      - defensive
+    category: unrestricted
+  ethics:
+    local_dirs:
+      - data/unrestricted/local/ethics
+    tags:
+      - ethics
+      - unfiltered
+      - dialogue
+    category: unrestricted
+  controversial:
+    local_dirs:
+      - data/unrestricted/local/controversial
+    tags:
+      - controversial
+      - unfiltered
+    category: unrestricted
+unrestricted_reddit_by_topic:
+  security:
+    - netsec
+    - AskNetsec
+  controversial:
+    - unpopularopinion
+fourchan:
+  enabled: true
+  max_threads_per_board: 5
+  max_images_per_run: 30
+  max_boards_per_run: 10
+  rotate_boards: true
+  sleep_between_requests: 1.5
+  allowed_extensions:
+    - jpg
+    - png
+    - gif
+    - webm
+    - mp4
+  board_groups:
+    japanese_culture:
+      - a
+      - c
+      - w
+      - m
+      - cgl
+      - cm
+      - f
+      - jp
+      - n
+      - vp
+      - vm
+      - vmg
+      - vrpg
+      - vst
+      - wsr
+    video_games:
+      - v
+      - vg
+      - vr
+    interests:
+      - co
+      - g
+      - tv
+      - k
+      - o
+      - an
+      - tg
+      - sp
+      - asp
+      - sci
+      - his
+      - int
+      - out
+      - toy
+      - biz
+      - i
+      - po
+      - p
+      - ck
+      - ic
+      - wg
+      - lit
+      - mu
+      - fa
+      - 3
+      - gd
+      - diy
+      - wsg
+      - qst
+    creative:
+      - ic
+      - wg
+      - gd
+      - 3
+      - diy
+      - po
+    miscellaneous:
+      - b
+      - r9k
+      - pol
+      - bant
+      - soc
+      - s4s
+      - adv
+      - lgbt
+      - qa
+      - news
+      - x
+      - trash
+      - vip
+      - fur
+      - y
+    adult:
+      - s
+      - hc
+      - hm
+      - h
+      - e
+      - u
+      - d
+      - gif
+      - aco
+      - r
+      - hr
+      - t
+  boards_all:
+    - 3
+    - a
+    - aco
+    - adv
+    - an
+    - asp
+    - b
+    - bant
+    - biz
+    - c
+    - cgl
+    - ck
+    - cm
+    - co
+    - d
+    - diy
+    - e
+    - f
+    - fa
+    - fur
+    - g
+    - gd
+    - gif
+    - h
+    - hc
+    - his
+    - hr
+    - hm
+    - i
+    - ic
+    - int
+    - jp
+    - k
+    - lgbt
+    - lit
+    - m
+    - mu
+    - n
+    - news
+    - o
+    - out
+    - p
+    - po
+    - pol
+    - qa
+    - qst
+    - r
+    - r9k
+    - s
+    - s4s
+    - sci
+    - soc
+    - sp
+    - t
+    - tg
+    - toy
+    - trash
+    - tv
+    - u
+    - v
+    - vg
+    - vip
+    - vm
+    - vmg
+    - vr
+    - vrpg
+    - vst
+    - w
+    - wg
+    - wsg
+    - wsr
+    - x
+    - y
+  board_categories:
+    h: hentai
+    e: hentai
+    d: hentai
+    aco: hentai
+    u: hentai
+    y: hentai
+    t: hentai
+    gif: animated
+    camg: animated
+    s: real
+    hc: real
+    hr: real
+    hm: human
+    r: mixed
+    g: mixed
+    ic: hentai
+    wg: hentai
+    w: hentai
+    c: hentai
+    a: hentai
+  board_text_categories:
+    g: coding
+    gd: coding
+    3: coding
+    diy: coding
+    pol: unrestricted
+    b: unrestricted
+    r9k: unrestricted
+    news: news
+    sci: science
+    his: history
+    lit: creative
+    mu: creative
+    fa: creative
+    po: creative
+  adult_boards:
+    - s
+    - hc
+    - hm
+    - h
+    - e
+    - u
+    - d
+    - gif
+    - aco
+    - r
+    - hr
+    - t
+    - y
+allowed_learning_domains:
+  - a.4cdn.org
+  - i.4cdn.org
+  - s.4cdn.org
+  - rule34.xxx
+  - danbooru.donmai.us
+  - gelbooru.com
+  - img3.gelbooru.com
+  - imgur.com
+  - i.imgur.com
+  - gfycat.com
+  - giant.gfycat.com
+  - thumbs.gfycat.com
+  - redgifs.com
+  - www.redgifs.com
+  - erome.com
+  - nhentai.net
+  - sankakucomplex.com
+  - e621.net
+  - coomer.st
+  - kemono.cr
+  - hanime.tv
+  - xbooru.com
+  - waifu.im
+  - www.waifu.im
+  - api.waifu.im
+  - cdn.waifu.im
+  - infini-atomic.w3spaces.com
+  - w3spaces.com
+allowed_url_patterns:
+  - 'https?://[^/]*reddit\.com/.*'
+  - 'https?://i\.redd\.it/.*'
+  - 'https?://v\.redd\.it/.*'
+  - 'https?://.*\.(jpg|jpeg|png|gif|webp|mp4|webm)(\?.*)?$'
+max_web_pages_per_run: 10
+max_crawl_pages: 15
+max_feed_items: 20
+max_search_images: 40
+max_search_videos: 25
+max_direct_media: 30
+local_dirs:
+  - data/nsfw/local
+  - data/nsfw/local/hentai
+  - data/nsfw/images/infini-atomic
+  - data/nsfw/local/porn
+  - data/nsfw/local/real
+  - data/nsfw/local/human
+  - data/nsfw/local/mixed
+  - data/nsfw/local/animated
+  - data/nsfw/local/cosplay
+  - data/nsfw/local/fetish
+  - data/learn/4chan/text
+  - data/learn/images/4chan
+  - data/unrestricted/local
+  - data/unrestricted/local/security
+  - data/unrestricted/local/ethics
+  - data/unrestricted/local/controversial
+max_items_per_run: 150
+max_reddit_posts: 30
+include_images: true
+include_videos: true
+include_text: true
+include_unrestricted: true
+train_on_collect: true
+auto_train_image: true
+auto_train_video: true
+auto_train_text: true
+auto_train_unrestricted: true
+auto_ingest_on_generate: true
+reference_keywords:
+  hentai:
+    dir: data/nsfw/local/hentai
+    keywords:
+      - hentai
+      - anime
+      - anime girl
+      - waifu
+      - ecchi
+      - ero
+      - ass
+      - doujin
+      - 2d
+      - cartoon
+      - infini
+      - atomic
+  porn:
+    dir: data/nsfw/local/porn
+    keywords:
+      - porn
+      - xxx
+      - nsfw
+      - nude
+      - naked
+      - explicit
+  real:
+    dir: data/nsfw/local/real
+    keywords:
+      - real
+      - photo
+      - photoreal
+      - photorealistic
+      - realistic
+      - amateur
+      - webcam
+  human:
+    dir: data/nsfw/local/human
+    keywords:
+      - human
+      - person
+      - girl
+      - woman
+      - man
+  animated:
+    dir: data/nsfw/local/animated
+    keywords:
+      - animated
+      - gif
+      - 2d animation
+      - animation
+  mixed:
+    dir: data/nsfw/local/mixed
+    keywords:
+      - mixed
+  cosplay:
+    dir: data/nsfw/local/cosplay
+    keywords:
+      - cosplay
+      - costume
+      - cosplayer
+  fetish:
+    dir: data/nsfw/local/fetish
+    keywords:
+      - fetish
+      - kink
+      - bdsm
+      - latex
+reference_settings:
+  mode: heavy
+  guide_strength: 0.62
+  heavy_strength: 0.82
+  require_nsfw_sidecar: false
+  prefer_infini_refs: true
+  default_strength: 0.68
+  waifu_im_strength: 0.9
+  category_strength:
+    hentai: 0.68
+    porn: 0.82
+    real: 0.80
+    human: 0.75
+    animated: 0.70
+    mixed: 0.60
+    cosplay: 0.72
+    fetish: 0.74
+  img2img_lite:
+    enabled: true
+    noise_strength: 0.12
+    steps_scale: 0.65
+  auto_train_on_reference:
+    enabled: true
+    min_uses_per_category: 12
+  video_motion_frames: 12
+  prompt_similarity: true
+image_train_steps: 300
+video_train_steps: 200
+text_train_steps: 200
+sleep_between_requests: 1.5
+waifu_im:
+  enabled: true
+  tags: [ecchi, ero, ass]
+  max_per_run: 20
+  is_nsfw: true
+  media_category: hentai
+  reference_dir: data/nsfw/local/hentai
+  archive_dir: data/nsfw/images/waifu
+  gallery_urls:
+    - https://www.waifu.im/gallery?includedTags=ecchi&orderBy=Random&isNsfw=All
+    - https://www.waifu.im/gallery?includedTags=ero&orderBy=Random&isNsfw=All
+    - https://www.waifu.im/gallery?includedTags=ass&orderBy=Random&isNsfw=All
+infini_atomic:
+  enabled: true
+  base_url: https://infini-atomic.w3spaces.com/
+  use_all_site_tags: true
+  tag_allowlist: []
+  tags: []
+  max_images_per_run: 49
+  max_per_tag: 7
+  media_category: hentai
+  nsfw_only: true
+  reference_dir: data/nsfw/local/hentai
+  archive_dir: data/nsfw/images/infini-atomic
+image_extensions:
+  - .jpg
+  - .jpeg
+  - .png
+  - .gif
+  - .webp
+video_extensions:
+  - .mp4
+  - .webm
+  - .gif
+  - .mov
+text_extensions:
+  - .txt
+  - .md
+  - .jsonl

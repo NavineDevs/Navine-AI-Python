@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1vffkjs",
+  "title": "[AskJS] Has a larger competitor ever benchmarked your library incorrectly?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Just recently I came across a performance comparison one of our major competitors. It was quite nice to see that such a large competitor is looking at your product, right? But in the end they compared their Scheduler Lib with our Gantt Lib. They spent quite of time making GitHub repo, asking us for a trial (we didn&#39;t have open trials, you had to request it through the email), analyzing the Gantt chart. But all the feedback we got appeared to be wrong test on the wrong component.</p> <p>In the end I&#39;ve published a response article with comparison, although it took me about two weeks to get around to it.</p> <p>I’m curious how others would handle something like this. Would you respond publicly, publish your own comparison, or simply leave it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kumakint\"> /u/kumakint </a> <br/> <span><a href=\"https://www.reddit.com/r/javascript/comments/1vffkjs/askjs_has_a_larger_competitor_ever_benchmarked/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1vffkjs/askjs_has_a_larger_competitor_ever_benchmarked/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1vffkjs/askjs_has_a_larger_competitor_ever_benchmarked/"
+}

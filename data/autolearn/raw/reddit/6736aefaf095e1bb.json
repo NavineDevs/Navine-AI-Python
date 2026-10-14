@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1vhg0dw",
+  "title": "Seg Fault, what do you do?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Most Python errors are straightforward—you get a traceback and usually know where to start.</p> <p>Then there’s the - Segmentation fault (core dumped).</p> <p>For those of you who’ve had to encountered Python segfaults, what’s your usual process?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ForeignVariety7037\"> /u/ForeignVariety7037 </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1vhg0dw/seg_fault_what_do_you_do/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vhg0dw/seg_fault_what_do_you_do/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1vhg0dw/seg_fault_what_do_you_do/"
+}

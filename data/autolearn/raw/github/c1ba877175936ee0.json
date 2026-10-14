@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:laravel/framework:config/images.php",
+  "title": "laravel/framework/config/images.php",
+  "text": "<?php\n\nreturn [\n\n    /*\n    |--------------------------------------------------------------------------\n    | Default Image Driver\n    |--------------------------------------------------------------------------\n    |\n    | This option controls the default image processing driver that will be\n    | used when manipulating or converting images. This driver is always\n    | utilized unless another driver is explicitly specified instead.\n    |\n    | Supported: \"gd\", \"imagick\"\n    |\n    */\n\n    'default' => env('IMAGE_DRIVER', 'gd'),\n\n];\n",
+  "url": "https://raw.githubusercontent.com/laravel/framework/13.x/config/images.php",
+  "language": "php",
+  "kind": "code"
+}

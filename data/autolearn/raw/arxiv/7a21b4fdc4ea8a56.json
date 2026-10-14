@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.28550v1",
+  "title": "Correcting Mode Collapse in Silicon Sampling with Semantic Similarity Rating",
+  "text": "Correcting Mode Collapse in Silicon Sampling with Semantic Similarity Rating\n\nSilicon sampling refers to the use of Large Language Models (LLMs) to generate responses to surveys. It has shown promise, but tends to generate response distributions with unrealistically low variance. We argue that this mode collapse is due to LLMs failure to generate numeric data, and that text responses may be better suited for this task. We analyze whether Semantic Similarity Rating can improve the fidelity of silicon sampling responses when asked about political attitudes. This method solicits text-only responses from LLMs, then maps this to a numeric scale using text embeddings. We find that this method both improves the fidelity of silicon sampling response distributions, and has few parameters to calibrate.",
+  "url": "https://arxiv.org/abs/2607.28550v1",
+  "category": "technical"
+}

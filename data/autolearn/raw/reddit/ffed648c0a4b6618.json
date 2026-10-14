@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vjuj91",
+  "title": "Closures in the Advent of Code: Three Traits, Two Misunderstandings, and One MidWit.",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"/r/Rust\">r/Rust</a>!! The MidWit is back again!</p> <p>Today&#39;s post on my Advent of Code Rust journey is my attempt at actually solving the 2015 Day 3 puzzle.</p> <p>I can&#39;t promise you a good solve, but I can promise you some Marx Brothers level slapstick as I fumble around with the <code>Fn</code> traits, and some honest thoughts on what it&#39;s like learning this from a non-CS background.</p> <p>The feedback I&#39;ve gotten on previous posts has been really generous and helpful, so thanks to all for that.</p> <p>Here&#39;s the link:</p> <p><a href=\"https://midwitsanonymous.com/aoc/2015/day_3/day_3_solve.html\">https://midwitsanonymous.com/aoc/2015/day_3/day_3_solve.html</a></p> <p>and I hope you enjoy,</p> <p>The MidWit</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/midwitsAnonymous\"> /u/midwitsAnonymous </a> <br/> <span><a href=\"https://midwitsanonymous.com/aoc/2015/day_3/day_3_solve.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vjuj91/closures_in_the_advent_of_code_three_traits_two/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vjuj91/closures_in_the_advent_of_code_three_traits_two/"
+}

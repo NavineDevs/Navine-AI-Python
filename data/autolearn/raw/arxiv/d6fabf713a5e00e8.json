@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.09852v1",
+  "title": "Generative AI for Encrypted Traffic Analysis: Synthetic Dataset Generation and Classifier Evaluation",
+  "text": "Generative AI for Encrypted Traffic Analysis: Synthetic Dataset Generation and Classifier Evaluation\n\nNetwork traffic analysis faces significant challenges with encrypted communications, primarily due to limited visibility into packet contents and the inherent imbalance in available datasets, particularly for anomalous traffic patterns. This paper addresses these challenges by exploring Generative AI (GAI) techniques to create realistic and balanced synthetic encrypted traffic datasets. Our approach incorporates feature analysis, clustering-based data generation, and comprehensive classifier evaluation to ensure synthetic data quality. We demonstrate that properly generated synthetic data can effectively supplement real- world datasets, achieving up to 93% performance when training classifiers compared to those trained on real data. The proposed methodology preserves critical statistical properties and feature correlations while enabling the creation of balanced datasets, ad- dressing the persistent challenge of anomaly underrepresentation in cybersecurity data. Along with the results we provide complete programming code designed and implemented in this work.",
+  "url": "https://arxiv.org/abs/2608.09852v1",
+  "category": "technical"
+}

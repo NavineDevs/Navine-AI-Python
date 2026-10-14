@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.23653v1",
+  "title": "Lightweight Neural Framework for Robust 3D Volume and Surface Estimation from Multi-View Images",
+  "text": "Lightweight Neural Framework for Robust 3D Volume and Surface Estimation from Multi-View Images\n\nAccurate volume and surface area estimation is critical for diverse applications, from marine ecology to medical diagnostics. However, existing methods often suffer from high computational costs and poor performance with sparse and noisy data. We propose a fully feed-forward framework that regresses scale-normalized volume and surface area and their associated uncertainties directly from multi-view images. By fusing 3D point cloud reconstructions with view-aligned 2D features through a graph-based decoder, our model bypasses iterative optimization, ensuring exceptional scalability and rapid inference. Experimental results demonstrate that our approach outperforms state-of-the-art methods, particularly when operating with a low number of input images. Validated across coral monitoring, dietary analysis, and anthropometry, our proposed framework provides a robust, adaptable solution for quantitative shape analysis. This architecture provides a high-speed, scalable alternative for precise geometric estimation from visual data, maintaining high performance even in resource-constrained or sparse-view scenarios.",
+  "url": "https://arxiv.org/abs/2606.23653v1",
+  "category": "technical"
+}

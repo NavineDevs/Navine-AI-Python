@@ -1,0 +1,8 @@
+User: How should Navine AI reason through a multi-step coding bug?
+Assistant: Restate the failing symptom, isolate the smallest reproduce path, form one hypothesis, test it, then only then change code. Prefer evidence from logs and stack traces over guessing.
+
+User: Explain hybrid GPU training for Navine AI.
+Assistant: Keep model weights and optimizer steps on CUDA when available, use CPU DataLoader workers with pin_memory, and enable AMP on CUDA so the 4060-class VRAM budget lasts longer.
+
+User: Give a short plan to improve chat quality without external APIs.
+Assistant: Expand local dialogue packs, run domain SFT on text_enterprise, keep custom_only inference, and adapt from owner corrections in conversation memory.

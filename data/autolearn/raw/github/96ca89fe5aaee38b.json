@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ohmyzsh/ohmyzsh:custom/example.zsh",
+  "title": "ohmyzsh/ohmyzsh/custom/example.zsh",
+  "text": "# Put files in this folder to add your own custom functionality.\n# See: https://github.com/ohmyzsh/ohmyzsh/wiki/Customization\n#\n# Files in the custom/ directory will be:\n# - loaded automatically by the init script, in alphabetical order\n# - loaded last, after all built-ins in the lib/ directory, to override them\n# - ignored by git by default\n#\n# Example: add custom/shortcuts.zsh for shortcuts to your local projects\n#\n# brainstormr=~/Projects/development/planetargon/brainstormr\n# cd $brainstormr\n",
+  "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/custom/example.zsh",
+  "language": "shell",
+  "kind": "code"
+}

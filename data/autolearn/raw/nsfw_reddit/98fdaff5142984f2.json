@@ -1,0 +1,19 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:gonewild:t3_1urberp:text",
+  "title": "Hal(f)way through the week",
+  "text": "Hal(f)way through the week",
+  "url": "https://www.reddit.com/r/gonewild/comments/1urberp/halfway_through_the_week/",
+  "category": "nsfw",
+  "subreddit": "gonewild",
+  "media_category": "human",
+  "tags": [
+    "human",
+    "real",
+    "gonewild"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "human"
+}

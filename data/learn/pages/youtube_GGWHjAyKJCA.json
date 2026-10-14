@@ -1,0 +1,14 @@
+{
+  "url": "https://www.youtube.com/watch?v=GGWHjAyKJCA",
+  "title": "I Built a Self-Driving AI From Scratch to Beat Claude",
+  "text": "I Built a Self-Driving AI From Scratch to Beat Claude\n\nBoth cars are controlled by AI. One handcoded, one written with Claude help. Genetic algorithm neural nets in Pygame race head to head.\n\nBoth cars are controlled by AI. One was handcoded by a human; the other was coded entirely by Claude. Both evolved over thousands of generations and raced head to head.\nThe creator built a self-driving car AI from scratch in Python with Pygame. Cars use sensors, a neural network with weights and biases, hidden layers, tanh activations, a breeding pool, crossover, and mutation.\nLearning to code yourself is still worth it even when LLMs can write code. The race shows genetic training of driving policies.",
+  "content_type": "youtube/transcript",
+  "video_id": "GGWHjAyKJCA",
+  "source": "youtube",
+  "timestamp": "2026-08-26T14:14:51.472291+00:00",
+  "spoken_words": 0,
+  "training_caption": "ai model training, I Built a Self-Driving AI From Scratch to Beat Claude, Both cars are controlled by AI. One handcoded, one written with Claude help. Genetic algorithm neural nets in Pygame race head to head.",
+  "navine_modality": "code",
+  "helpful_for_navine": "high",
+  "study_notes": "From-scratch neural net + genetic training (sensors, neurons, hidden layers, population, crossover, mutation). Strong coding/AI signal."
+}

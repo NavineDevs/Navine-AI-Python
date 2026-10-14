@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:abpframework/abp:npm/ng-packs/jest.config.ts",
+  "title": "abpframework/abp/npm/ng-packs/jest.config.ts",
+  "text": "import { getJestProjectsAsync } from '@nx/jest';\n/**\n * @deprecated use vitest instead of jest\n * @see https://vitest.dev/guide/migration.html#jest\n */\nexport default async () => ({\n  projects: await getJestProjectsAsync(),\n});\n",
+  "url": "https://raw.githubusercontent.com/abpframework/abp/dev/npm/ng-packs/jest.config.ts",
+  "language": "typescript",
+  "kind": "code"
+}

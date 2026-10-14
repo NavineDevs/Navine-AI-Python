@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\fa\\fa_1782146545895580.jpg",
+  "title": "fa_1782146545895580",
+  "text": "fa_1782146545895580",
+  "url": "data\\nsfw\\images\\local\\general\\fa_1782146545895580_1782281302395226800.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\fa_1782146545895580_1782281302395226800.jpg",
+  "caption": "fa_1782146545895580 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "fa",
+  "tags": [
+    "fa",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

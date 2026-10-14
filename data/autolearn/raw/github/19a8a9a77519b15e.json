@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:overextended/ox_lib:fxmanifest.lua",
+  "title": "overextended/ox_lib/fxmanifest.lua",
+  "text": "fx_version 'cerulean'\nuse_experimental_fxv2_oal 'yes'\nlua54 'yes'\ngames { 'rdr3', 'gta5' }\nrdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'\n\nname 'ox_lib'\nauthor 'Overextended'\nversion '3.39.0'\nlicense 'LGPL-3.0-or-later'\nrepository 'https://github.com/overextended/ox_lib'\ndescription 'A library of shared functions to utilise in other resources.'\n\ndependencies {\n    '/server:7290',\n    '/onesync',\n}\n\nui_page 'web/build/index.html'\n\nfiles {\n    'init.lua',\n    'resource/settings.lua',\n    'imports/**/client.lua',\n    'imports/**/shared.lua',\n    'web/build/index.html',\n    'web/build/**/*',\n    'locales/*.json',\n}\n\nshared_script 'resource/init.lua'\n\nshared_scripts {\n    'resource/**/shared.lua',\n    -- 'resource/**/shared/*.lua'\n}\n\nclient_scripts {\n    'resource/**/client.lua',\n    'resource/**/client/*.lua'\n}\n\nserver_scripts {\n    'imports/callback/server.lua',\n    'imports/hook/shared.lua',\n    'imports/registerHook/shared.lua',\n    'imports/getFilesInDirectory/server.lua',\n    'resource/**/server.lua',\n    'resource/**/server/*.lua',\n}\n",
+  "url": "https://raw.githubusercontent.com/overextended/ox_lib/main/fxmanifest.lua",
+  "language": "lua",
+  "kind": "code"
+}

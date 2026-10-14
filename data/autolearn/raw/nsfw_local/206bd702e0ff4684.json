@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\images\\infini-atomic\\infini_raiden-shogun_7916.jpg",
+  "title": "infini_raiden-shogun_7916",
+  "text": "infini_raiden-shogun_7916",
+  "url": "data\\nsfw\\images\\local\\general\\infini_raiden-shogun_7916_1782072600277574400.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\infini_raiden-shogun_7916_1782072600277574400.jpg",
+  "caption": "infini_raiden-shogun_7916 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": null,
+  "tags": [
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

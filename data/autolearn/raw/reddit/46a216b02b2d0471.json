@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1virrlk",
+  "title": "DRY vs. SRP",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>After re-reading &quot;Clean Architecture&quot; I ended up with some confusion regarding Bob&#39;s take on repetition and single responsibility. Ge defines the SRP as a function only serving one actor. Dies that mean, that repetitve code is justified according to him, as long as it serves seperate actors/user groups? I am aware that such decisions depend on the specific situation. I was just wondering if others found the same contradiction, or if i misunderstood it. Thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TalesGameStudio\"> /u/TalesGameStudio </a> <br/> <span><a href=\"http://uncle-bob.com\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1virrlk/dry_vs_srp/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1virrlk/dry_vs_srp/"
+}

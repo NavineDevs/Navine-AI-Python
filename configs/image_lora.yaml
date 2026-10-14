@@ -1,0 +1,31 @@
+base_config: image_enterprise_v2
+checkpoint_namespace: image_lora
+
+lora:
+  rank: 8
+  alpha: 16
+
+merge:
+  min_valid_ratio: 0.5
+  require_improvement: true
+  min_improvement_delta: 0.0
+
+data:
+  train_dir: data/nsfw/local/hentai
+  extra_dirs:
+    - data/nsfw/local/porn
+    - data/nsfw/local/human
+    - data/nsfw/local/real
+    - data/image/sfw/skies
+    - data/image/sfw/landscapes
+    - data/image/sfw/people
+    - data/image/sfw/objects
+    - data/nsfw/images/local/hentai
+
+training:
+  batch_size: 4
+  learning_rate: 0.0003
+  max_steps: 1500
+  save_interval: 300
+  grad_clip: 1.0
+  ema_decay: 0.999

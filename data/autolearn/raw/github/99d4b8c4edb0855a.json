@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:manaflow-ai/cmux:CLI/CMUXCLI+ClaudeHookAck.swift",
+  "title": "manaflow-ai/cmux/CLI/CMUXCLI+ClaudeHookAck.swift",
+  "text": "extension CMUXCLI {\n    /// Emits the structured success acknowledgement for Claude Code hooks.\n    ///\n    /// Claude Code consumes a bare JSON object without rendering a visible\n    /// hook-success block. The process exit code remains the success signal.\n    func printClaudeHookAck() {\n        print(\"{}\")\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/CLI/CMUXCLI+ClaudeHookAck.swift",
+  "language": "swift",
+  "kind": "code"
+}

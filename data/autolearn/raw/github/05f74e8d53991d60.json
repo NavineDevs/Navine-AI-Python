@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ohmyzsh/ohmyzsh:lib/misc.zsh",
+  "title": "ohmyzsh/ohmyzsh/lib/misc.zsh",
+  "text": "autoload -Uz is-at-least\n\n# *-magic is known buggy in some versions; disable if so\nif [[ $DISABLE_MAGIC_FUNCTIONS != true ]]; then\n  for d in $fpath; do\n    if [[ -e \"$d/url-quote-magic\" ]]; then\n      if is-at-least 5.1; then\n        autoload -Uz bracketed-paste-magic\n        zle -N bracketed-paste bracketed-paste-magic\n      fi\n      autoload -Uz url-quote-magic\n      zle -N self-insert url-quote-magic\n    break\n    fi\n  done\nfi\n\nsetopt multios              # enable redirect to multiple streams: echo >file1 >file2\nsetopt long_list_jobs       # show long list format job notifications\nsetopt interactivecomments  # recognize comments\n\n# define pager depending on what is available (less or more)\nif (( ${+commands[less]} )); then\n  env_default 'PAGER' 'less'\n  env_default 'LESS' '-R'\nelif (( ${+commands[more]} )); then\n  env_default 'PAGER' 'more'\nfi\n\n## super user alias\nalias _='sudo '\n\n## more intelligent acking for ubuntu users and no alias for users without ack\nif (( $+commands[ack-grep] )); then\n  alias afind='ack-grep -il'\nelif (( $+commands[ack] )); then\n  alias afind='ack -il'\nfi\n",
+  "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/misc.zsh",
+  "language": "shell",
+  "kind": "code"
+}

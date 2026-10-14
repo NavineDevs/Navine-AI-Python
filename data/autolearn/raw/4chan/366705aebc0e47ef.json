@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:b:950315133:950315540:image",
+  "title": "/b/ 950315540",
+  "text": "/b/ 950315540",
+  "url": "https://boards.4chan.org/b/thread/950315133#p950315540",
+  "category": "unrestricted",
+  "kind": "image",
+  "caption": "/b/ 950315540 | [general, image] | tags: 4chan, unknown",
+  "board": "b",
+  "thread_id": 950315133,
+  "post_id": 950315540,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "b",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/b/1781421581230492.jpg",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\b\\b_1781421581230492.jpg"
+}

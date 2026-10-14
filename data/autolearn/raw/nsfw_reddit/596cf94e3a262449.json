@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfw:t3_1u4bdsz:rss:video:2",
+  "title": "Candice dancing",
+  "text": "Candice dancing",
+  "url": "https://www.reddit.com/r/nsfw/comments/1u4bdsz/candice_dancing/",
+  "category": "nsfw",
+  "kind": "video",
+  "video_url": "https://www.redgifs.com/watch/hilariouslongtermrail",
+  "caption": "Candice dancing | [mixed, video] | tags: nsfw, unknown | [video] | [video] | [video]",
+  "subreddit": "nsfw",
+  "media_category": "mixed",
+  "tags": [
+    "mixed",
+    "nsfw"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "source_group": "mixed"
+}

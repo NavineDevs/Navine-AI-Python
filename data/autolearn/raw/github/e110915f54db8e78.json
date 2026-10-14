@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:niieani/bash-oo-framework:example/exitcode.sh",
+  "title": "niieani/bash-oo-framework/example/exitcode.sh",
+  "text": "#!/usr/bin/env bash\n\nsource \"$( cd \"${BASH_SOURCE[0]%/*}\" && pwd )/../lib/oo-bootstrap.sh\"\n\nimport util/exception util/tryCatch util/log util/test\n\nexit 1\n",
+  "url": "https://raw.githubusercontent.com/niieani/bash-oo-framework/master/example/exitcode.sh",
+  "language": "shell",
+  "kind": "code"
+}

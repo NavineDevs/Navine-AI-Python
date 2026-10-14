@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.16858v1",
+  "title": "ECO-ID: Event-Camera based Optical System for Secure Multi-User Ultra-Low Latency Identification",
+  "text": "ECO-ID: Event-Camera based Optical System for Secure Multi-User Ultra-Low Latency Identification\n\nTime-critical interactive systems increasingly require ultra-low-latency device identification for multiple users, yet prevailing approaches such as passwords, QR codes, and RFID/NFC are constrained by human input, frame-based sensing, or near-contact range. This paper presents ECO-ID, an event-camera-based optical system for multi-user, ultra-low-latency identification over visible light communication (VLC). Leveraging microsecond-resolution, asynchronous observations of brightness transitions, ECO-ID employs a spatiotemporal coding design: disjoint LED subsets provide spatial separation among users, while user-specific timing delays encode identities without inter-user synchronization. The optical channel and event-driven sensing reduce full-scene capture relative to frame cameras and limit the RF attack surface, while enabling rapid token verification with freshness and replay protection. We implement a prototype and demonstrate that ECO-ID can practically achieve approximately 99.8\\% localization and 98.7\\% identification with 0.64 ms mean latency, while theoretically supporting identification at the scale of tens of concurrent users. Overall, ECO-ID provides a fast, privacy-conscious, and security-aware alternative for scalable multi-user identification in time-critical interactive environments.",
+  "url": "https://arxiv.org/abs/2608.16858v1",
+  "category": "technical"
+}

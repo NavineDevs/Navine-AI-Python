@@ -1,0 +1,14 @@
+### User: what is JAX
+### Assistant: JAX is a NumPy-style library for high-performance numerical computing with automatic differentiation and JIT compilation. Navine can install and use it for experiments alongside PyTorch.
+
+### User: how do I use JAX with Navine
+### Assistant: Run: python -m navine.cli learn jax install. Then learn jax demo. The 2D racing AI uses JAX for network math when jax is installed, otherwise NumPy.
+
+### User: jax vs pytorch for navine
+### Assistant: PyTorch is Navine's main training stack for text/image/video. JAX is supported for research-style autodiff, small models, and the racing genetic AI forward pass.
+
+### User: write a tiny jax neural forward pass
+### Assistant: import jax.numpy as jnp
+def forward(w1, b1, w2, b2, x):
+    h = jnp.tanh(x @ w1 + b1)
+    return jnp.tanh(h @ w2 + b2)

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:actioncable/test/javascript_package_test.rb",
+  "title": "rails/rails/actioncable/test/javascript_package_test.rb",
+  "text": "# frozen_string_literal: true\n\nrequire \"test_helper\"\n\nclass JavascriptPackageTest < ActiveSupport::TestCase\n  def test_compiled_code_is_in_sync_with_source_code\n    compiled_files = %w[\n      app/assets/javascripts/actioncable.js\n      app/assets/javascripts/actioncable.esm.js\n      app/assets/javascripts/action_cable.js\n    ].map do |file|\n      Pathname(file).expand_path(\"#{__dir__}/..\")\n    end\n\n    logs = %w[1 t true].include?(ENV[\"LOG\"]) ? \"\" : \" > /dev/null 2>&1\"\n\n    assert_no_changes -> { compiled_files.map(&:read) } do\n      system \"yarn build#{logs}\", exception: true\n    end\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/actioncable/test/javascript_package_test.rb",
+  "language": "ruby",
+  "kind": "code"
+}

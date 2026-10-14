@@ -1,0 +1,2 @@
+{"prompt": "write hello world in python", "code": "print('Hello, World!')"}
+{"prompt": "write a fibonacci function", "code": "def fib(n):\n    if n <= 1:\n        return n\n    return fib(n-1) + fib(n-2)"}

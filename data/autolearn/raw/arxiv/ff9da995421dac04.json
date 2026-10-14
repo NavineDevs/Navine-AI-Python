@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.23632v1",
+  "title": "Sharp Inequalities for Products of Principal Minors of Positive Definite Matrices",
+  "text": "Sharp Inequalities for Products of Principal Minors of Positive Definite Matrices\n\nWe study sharp inequalities for ratios of products of principal minors of real positive definite matrices. Our main result gives a closed-form solution to a family of nonconvex optimization problems over the positive definite cone. As a special case, we prove that the infimum of the Ingleton ratio over $4\\times 4$ positive definite matrices is $16/27$, confirming a conjecture of Hall and Johnson. We also show that the cone of absolutely bounded ratios of products of principal minors is not polyhedral for $n\\ge 4$, and that it is not semialgebraic over $\\mathbb{Q}$.",
+  "url": "https://arxiv.org/abs/2606.23632v1",
+  "category": "technical"
+}

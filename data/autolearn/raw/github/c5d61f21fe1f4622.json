@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:types/v3-directive.d.ts",
+  "title": "vuejs/vue/types/v3-directive.d.ts",
+  "text": "import type { VNodeDirective, VNode } from './vnode'\n\nexport type DirectiveModifiers = Record<string, boolean>\n\nexport interface DirectiveBinding<V> extends Readonly<VNodeDirective> {\n  readonly modifiers: DirectiveModifiers\n  readonly value: V\n  readonly oldValue: V | null\n}\n\nexport type DirectiveHook<T = any, Prev = VNode | null, V = any> = (\n  el: T,\n  binding: DirectiveBinding<V>,\n  vnode: VNode,\n  prevVNode: Prev\n) => void\n\nexport interface ObjectDirective<T = any, V = any> {\n  bind?: DirectiveHook<T, any, V>\n  inserted?: DirectiveHook<T, any, V>\n  update?: DirectiveHook<T, any, V>\n  componentUpdated?: DirectiveHook<T, any, V>\n  unbind?: DirectiveHook<T, any, V>\n}\nexport type FunctionDirective<T = any, V = any> = DirectiveHook<T, any, V>\n\nexport type Directive<T = any, V = any> =\n  | ObjectDirective<T, V>\n  | FunctionDirective<T, V>\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/types/v3-directive.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

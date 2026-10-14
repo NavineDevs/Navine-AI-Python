@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:52704",
+  "title": "How do I discard unstaged changes in Git?",
+  "text": "How do I discard unstaged changes in Git?\n\n<p>How do I discard changes in my working copy that are not in the index?</p>",
+  "url": "https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git",
+  "kind": "qa"
+}

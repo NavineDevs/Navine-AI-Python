@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfw_gif:t3_1uckkth:text",
+  "title": "Absolutely delicious",
+  "text": "Absolutely delicious",
+  "url": "https://old.reddit.com/r/NSFW_GIF/comments/1uckkth/absolutely_delicious/",
+  "category": "nsfw",
+  "subreddit": "nsfw_gif",
+  "media_category": "real",
+  "tags": [
+    "real",
+    "human",
+    "video",
+    "nsfw_gif",
+    "real_video"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real_video"
+}

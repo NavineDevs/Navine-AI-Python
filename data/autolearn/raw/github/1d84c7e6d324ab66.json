@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:tach-org/tach:src/cli.rs",
+  "title": "tach-org/tach/src/cli.rs",
+  "text": "use std::path::Path;\n\nuse console::Term;\n\npub fn create_clickable_link(file_path: &Path, line: &usize) -> String {\n    format!(\"{}:{}\", file_path.display(), line)\n}\n\npub fn supports_emoji() -> bool {\n    let term = Term::stdout();\n    term.is_term() && term.features().wants_emoji()\n}\n\npub fn is_interactive() -> bool {\n    let term = Term::stdout();\n    term.is_term() && term.features().is_attended()\n}\n\npub struct EmojiIcons;\n\nimpl EmojiIcons {\n    pub const SUCCESS: &str = \"✅\";\n    pub const WARNING: &str = \"⚠️ \";\n    pub const FAIL: &str = \"❌\";\n}\n\npub struct SimpleIcons;\n\nimpl SimpleIcons {\n    pub const SUCCESS: &str = \"[OK]\";\n    pub const WARNING: &str = \"[WARN]\";\n    pub const FAIL: &str = \"[FAIL]\";\n}\n\npub fn success() -> &'static str {\n    if supports_emoji() {\n        EmojiIcons::SUCCESS\n    } else {\n        SimpleIcons::SUCCESS\n    }\n}\n\npub fn warning() -> &'static str {\n    if supports_emoji() {\n        EmojiIcons::WARNING\n    } else {\n        SimpleIcons::WARNING\n    }\n}\n\npub fn fail() -> &'static str {\n    if supports_emoji() {\n        EmojiIcons::FAIL\n    } else {\n        SimpleIcons::FAIL\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/tach-org/tach/main/src/cli.rs",
+  "language": "rust",
+  "kind": "code"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:webdev:t3_1u4cmzd",
+  "title": "I built a 3KB alternative to replace zxcvbn (389KB) - same detection rate (98.4%), benchmarked against RockYou/HIBP data",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>TL;DR - zxcvbn is the most widely used password strength estimator, but it&#39;s abandoned (last commit 2017) and 389KB gzipped. Built a near drop-in replacement that&#39;s 3KB with the same detection rate. Full breakdown in the article.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ScaryCardinal\"> /u/ScaryCardinal </a> <br/> <span><a href=\"https://medium.com/@fmfayaz24/i-built-a-3kb-alternative-to-replace-zxcvbn-389kb-without-detection-loss-9a6ab6f44e55\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1u4cmzd/i_built_a_3kb_alternative_to_replace_zxcvbn_389kb/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/webdev/comments/1u4cmzd/i_built_a_3kb_alternative_to_replace_zxcvbn_389kb/"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:barbajs/barba:packages/core/__e2e__/default.spec.js",
+  "title": "barbajs/barba/packages/core/__e2e__/default.spec.js",
+  "text": "/* eslint-disable cypress/no-unnecessary-waiting */\ndescribe('Transition', () => {\n  it('works', () => {\n    cy.prepare('/index.html', 'home', 'home');\n    cy.wait(1000); // Wait for once complete\n    // Click link\n    cy.get('[data-test=link]').click();\n    cy.final('/page.html', 'page', 'page');\n  });\n});\n",
+  "url": "https://raw.githubusercontent.com/barbajs/barba/main/packages/core/__e2e__/default.spec.js",
+  "language": "javascript",
+  "kind": "code"
+}

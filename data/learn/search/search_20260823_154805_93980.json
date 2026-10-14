@@ -1,0 +1,27 @@
+{
+  "query": "example.com WHOIS DNS records subdomains site history",
+  "timestamp": "2026-08-23T15:48:05.532319+00:00",
+  "results": [
+    {
+      "title": "Example.com",
+      "url": "https://en.wikipedia.org/wiki/Example.com",
+      "snippet": "(link) \" DNS History - Historical Records - soa - example . com \". DNS History . 8086 Consultancy. Retrieved 2026-07-11. \" DNS History Lookup - NS,SOA records and",
+      "source": "wikipedia",
+      "excerpt": "Reserved Internet domain name This article relies on a single source . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"Example.com\" – news · newspapers · books · scholar · JSTOR ( December 2025 ) ( Learn how and when to remove this message ) example.com Screenshot of example.com Type of site Reserved domain Available in English Owner Internet Assigned Numbers Authority [ 1 ] URL www .example .com IPv6 support Yes Launched 1 January 1999 ; 27 years ago ( 1999-01-01 ) Current status Online The domain names example.com , example.net , example.org , and example.edu are second-level domain names in the Domain Name System of the Internet . They are reserved by the Internet Assigned Numbers Authority (IANA) at the direction of the Internet Engineering Task Force (IETF) as special-use domain names for do"
+    },
+    {
+      "title": "Domain Name System",
+      "url": "https://en.wikipedia.org/wiki/Domain_Name_System",
+      "snippet": "For example , in the following configuration, the DNS zone x. example specifies that all subdomains , including subdomains of subdomains , of x. example use",
+      "source": "wikipedia",
+      "excerpt": "System to identify resources on a network \"DNS\" redirects here. This article may contain too many links. Please help improve it by removing duplicated or irrelevant links. See Wikipedia's Manual of Style for guidance. ( July 2026 ) ( Learn how and when to remove this message ) Domain Name System Communication protocol Abbreviation DNS Purpose To identify resources on networks Developer Paul Mockapetris Introduction November 1983 ; 42 years ago ( 1983-11 ) OSI layer Application layer Port 53 RFCs 1034 , 1035 Internet protocol suite Application layer BGP DHCP ( v6 ) DNS FTP HTTP ( HTTP/3 ) HTTPS IMAP IPP IRC LDAP MGCP MQTT NNTP NTP OSPF POP PTP ONC/RPC RTP RTSP RIP SIP SMTP SNMP SSH Telnet TLS/SSL XMPP more... Transport layer TCP UDP DCCP SCTP RSVP QUIC more... Internet layer IP v4 v6 ICMP ( v6 ) NDP ECN L4S IGMP IPsec more... Link layer ARP Tunnels PPP MAC more... v t e The Domain Name Sy"
+    },
+    {
+      "title": "Domain name",
+      "url": "https://en.wikipedia.org/wiki/Domain_name",
+      "snippet": "Name System ( DNS ). Any name registered in the DNS is a domain name. Domain names are organized in subordinate levels ( subdomains ) of the DNS root domain",
+      "source": "wikipedia",
+      "excerpt": "Identification string in the Internet An annotated example of a domain name In the Internet , a domain name is a string that identifies a realm of administrative autonomy, authority, or control. Domain names are often used to identify services provided through the Internet, such as websites , email services, and more. Domain names are used in various networking contexts and for application-specific naming and addressing purposes. In general, a domain name identifies a network domain or an Internet Protocol (IP) resource, such as a personal computer used to access the Internet, or a server computer. Domain names are formed by the rules and procedures of the Domain Name System (DNS). Any name registered in the DNS is a domain name. Domain names are organized in subordinate levels ( subdomains ) of the DNS root domain, which is nameless. The first-level set of domain names are the top-level"
+    }
+  ]
+}

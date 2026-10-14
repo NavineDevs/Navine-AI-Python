@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:niieani/bash-oo-framework:example/testing.sh",
+  "title": "niieani/bash-oo-framework/example/testing.sh",
+  "text": "#!/usr/bin/env bash\n\nsource \"$( cd \"${BASH_SOURCE[0]%/*}\" && pwd )/../lib/oo-bootstrap.sh\"\n\nimport util/exception util/log util/type util/test\nLog::AddOutput util/type CUSTOM\n\ndescribe 'Operations on primitives'\n  it 'should make a number and change its value using the setter'\n  try\n    integer aNumber=10\n    $var:aNumber = 12\n    [[ $aNumber -eq 12 ]]\n  expectPass\n\n  it \"should make basic operations on two arrays\"\n  try\n    array Letters\n    array Letters2\n\n    $var:Letters push \"Hello Bobby\"\n    $var:Letters push \"Hello Maria\"\n\n    $var:Letters contains \"Hello Bobby\"\n    $var:Letters contains \"Hello Maria\"\n\n    $var:Letters2 push \"Hello Midori,\n                        Best regards!\"\n\n    $var:Letters2 concatPush $var:Letters\n    $var:Letters2 contains \"Hello Bobby\"\n  expectPass\nsummary\n",
+  "url": "https://raw.githubusercontent.com/niieani/bash-oo-framework/master/example/testing.sh",
+  "language": "shell",
+  "kind": "code"
+}

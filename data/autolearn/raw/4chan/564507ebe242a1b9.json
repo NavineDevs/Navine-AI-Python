@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:h:8896703:8896703:image",
+  "title": "/hdg/ Hentai Diffusion General #781.1337",
+  "text": "/hdg/ Hentai Diffusion General #781.1337 Classmate Edition Previous Thread: >>8888460 >LOCAL UI A1111: https://github.com/AUTOMATIC1111/st able-diffusion-webui Forge: https://github.com/lllyasviel/stabl e-diffusion-webui-forge | Alternative version (reForge): https://github.com/Panchovix/stable -diffusion-webui-reForge Comfy: https://github.com/comfyanonymous/C omfyUI >LOCAL MODELS Illustrious: https://civitai.com/models/795765 | https://civitai.com/models/1232765 Noob: https://civitai.com/models/833294 >RESOURCES Wiki: https://github.com/AUTOMATIC1111/st able-diffusion-webui/wiki | https://comfyanonymous.github.io/Co mfyUI_examples | https://openart.ai/workflows/templa tes Training: https://rentry.org/59xed3 | https://github.com/derrian-distro/L oRA_Easy_Training_Scripts | https://github.com/bmaltais/kohya_s s | https://github.com/Nerogar/OneTrain er Tags: https://danbooru.donmai.us/wiki_pag es/tag_groups | https://danbooru.donmai.us/related_ tag ControlNet: https://rentry.org/dummycontrolnet | https://civitai.com/models/136070 IOPaint (LamaCleaner): https://www.iopaint.com/install Upscalers: https://openmodeldb.info Booru: https://aibooru.online 4chanX Catbox/NAI prompt userscript: https://rentry.org/hdgcb Pony-related: https://rentry.org/ponyxl_loras_n_s tuff | https://rentry.org/ponyxl_lora_prev iews | https://lite.framacalc.org/4ttgzvd0 rx-a6jf Illustrious-related: https://rentry.org/illustrious_lora s_n_stuff Useful Nodes/Extensions: https://rentry.org/8csaevw5 OP Template/Logo: https://rentry.org/hdgz/edit | https://files.catbox.moe/xk99gy.png | https://files.catbox.moe/35bdt5.gif >Related >>>/aco/sdg >>>/g/sdg >>>/g/ldg >>>/d/ddg >>>/e/edg >>>/c/kdg >>>/vt/vtai >>>/vg/aids >>>/b/degen >>>/trash/sdg >>>/u/udg",
+  "url": "https://boards.4chan.org/h/thread/8896703#p8896703",
+  "category": "nsfw",
+  "kind": "image",
+  "caption": "/hdg/ Hentai Diffusion General #781.1337 | [image, character] | tags: 4chan",
+  "board": "h",
+  "thread_id": 8896703,
+  "post_id": 8896703,
+  "media_category": "hentai",
+  "tags": [
+    "4chan",
+    "h",
+    "hentai",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/h/1781176985483502.jpg",
+  "subject_type": "character",
+  "style_type": "anime",
+  "training_scope": "nsfw",
+  "local_path": "data\\nsfw\\local\\hentai\\h_1781176985483502.jpg"
+}

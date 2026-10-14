@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1vux0xh",
+  "title": "The Structured Clone Algorithm: What JavaScript Can and Cannot Move Between Boundaries",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p><code>structuredClone()</code> preserves more than JSON, but class instances, proxies, getters, errors, and transferables still have surprising behaviour. This article covers what survives, what changes, and what throws.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OtherwisePush6424\"> /u/OtherwisePush6424 </a> <br/> <span><a href=\"https://blog.gaborkoos.com/posts/2026-08-22-The-Structured-Clone-Algorithm-What-JavaScript-Can-and-Cannot-Move-Between-Boundaries/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1vux0xh/the_structured_clone_algorithm_what_javascript/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1vux0xh/the_structured_clone_algorithm_what_javascript/"
+}

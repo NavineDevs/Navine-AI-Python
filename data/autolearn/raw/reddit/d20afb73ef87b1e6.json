@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1vkwqh0",
+  "title": "On comments",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Comments in code are often deemed &quot;mostly useless&quot; these days. They are, supposedly, mostly obvious, stale, and repeat what the code already says. And so people pay less attention to them both when reading and writing code.</p> <p>That trend sucks. When used right, comments are genuinely useful and sometimes critically important! So, I wrote about some of the kinds of comments I think earn their place, each with examples from real code bases. Hope you find it useful, and that we can recover some of the love that comments deserve!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Jonhoo\"> /u/Jonhoo </a> <br/> <span><a href=\"https://blog.helsing.ai/posts/on-comments/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vkwqh0/on_comments/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1vkwqh0/on_comments/"
+}

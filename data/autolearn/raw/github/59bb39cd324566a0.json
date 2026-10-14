@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:redis-store/redis-store:test/redis/store/version_test.rb",
+  "title": "redis-store/redis-store/test/redis/store/version_test.rb",
+  "text": "require 'test_helper'\n\ndescribe Redis::Store::VERSION do\n  it 'returns current version' do\n    _(Redis::Store::VERSION).wont_equal nil\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/redis-store/redis-store/master/test/redis/store/version_test.rb",
+  "language": "ruby",
+  "kind": "code"
+}

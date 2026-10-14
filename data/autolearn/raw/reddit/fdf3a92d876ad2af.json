@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vikmi5",
+  "title": "Looking for feedback on my first serious Go project",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone!</p> <p>I&#39;m a beginner Go developer, and this is my first serious project: an ecommerce platform I&#39;m building for my portfolio.</p> <p>It&#39;s still under development, but I&#39;d like to get some feedback before going further.</p> <p>I&#39;m especially interested in feedback about:</p> <p>* Architecture</p> <p>* Go code quality</p> <p>* Security</p> <p>* Separation of responsibilities</p> <p>* What you would improve</p> <p>The project currently uses Go, MySQL, Redis, Docker, JWT, CSRF protection, rate limiting, and a hexagonal-inspired architecture.</p> <p>The current version is available on the `develop` branch.</p> <p>GitHub: <a href=\"https://github.com/KennedyJCodes/ecommerce-platform\">https://github.com/KennedyJCodes/ecommerce-platform</a></p> <p>Any constructive criticism is welcome. I&#39;m here to learn!</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KennedyJ77\"> /u/KennedyJ77 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vikmi5/looking_for_feedback_on_my_first_serious_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vikmi5/looking_for_feedback_on_my_first_serious_go/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vikmi5/looking_for_feedback_on_my_first_serious_go/"
+}

@@ -1,0 +1,15 @@
+{
+  "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+  "caption": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+  "filename": "teacher_183.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-08-15T01:22:06.164726+00:00",
+  "enhanced_prompt": "a photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+  "seed": 249627809,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "negative_prompt": "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, censored, mosaic, bar censor, pixelated, low resolution, extra limbs, malformed hands, duplicate, cropped",
+  "model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_183.png"
+}

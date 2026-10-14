@@ -1,0 +1,18 @@
+{
+  "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+  "caption": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+  "filename": "video_20260814_140903.mp4",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-08-14T14:09:18.373407+00:00",
+  "enhanced_prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+  "num_frames": 16,
+  "fps": 12,
+  "seed": 802106801,
+  "fallback": true,
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "category": null,
+  "generation_mode": "external_diffusion_hybrid",
+  "image_model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\external\\video\\video_20260814_140903.mp4"
+}

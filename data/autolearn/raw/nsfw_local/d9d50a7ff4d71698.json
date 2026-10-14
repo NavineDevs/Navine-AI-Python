@@ -1,0 +1,22 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:vid:data\\learn\\images\\4chan\\k\\k_1785509758032085.webm",
+  "title": "k_1785509758032085",
+  "text": "k_1785509758032085",
+  "url": "data\\nsfw\\videos\\local\\general\\k_1785509758032085_1785509956543713500.webm",
+  "category": "nsfw",
+  "kind": "video",
+  "video_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\videos\\local\\general\\k_1785509758032085_1785509956543713500.webm",
+  "caption": "k_1785509758032085 | [general, video] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "k",
+  "tags": [
+    "k",
+    "general",
+    "local",
+    "video"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

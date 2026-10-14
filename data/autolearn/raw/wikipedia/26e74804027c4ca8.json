@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:22073882",
+  "title": "Packet segmentation",
+  "text": "Packet segmentation is the division of data into smaller protocol data units before transmission over a computer network. In the Internet protocol suite, the term is most commonly used for sender-side packetization at the transport layer, such as dividing a TCP byte stream into segments or fragmenting a large SCTP user message into multiple DATA chunks and packets. Segmentation is usually constrained by the maximum transmission unit (MTU) of the path and by protocol-specific limits such as the maximum segment size (MSS).\nPacket segmentation is distinct from IP fragmentation, which subdivides an already formed IP packet at the network layer, and from link-layer fragmentation performed below IP on some media.",
+  "url": "https://en.wikipedia.org/wiki/Packet_segmentation",
+  "category": "general"
+}

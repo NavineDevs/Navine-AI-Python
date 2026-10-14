@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/postcss.config.js",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/postcss.config.js",
+  "text": "module.exports = {\n  plugins: {\n    autoprefixer: {},\n  },\n};\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/postcss.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

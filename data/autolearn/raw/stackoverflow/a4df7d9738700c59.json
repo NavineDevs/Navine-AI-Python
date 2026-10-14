@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:16956810",
+  "title": "Find all files containing a specific text (string) on Linux",
+  "text": "Find all files containing a specific text (string) on Linux\n\n<p>How do I find all files containing a specific string of text within their file contents?</p>\n<p>The following doesn't work. It seems to display every single file in the system.</p>\n<pre class=\"lang-none prettyprint-override\"><code>find / -type f -exec grep -H 'text-to-find-here' {} \\;\n</code></pre>",
+  "url": "https://stackoverflow.com/questions/16956810/find-all-files-containing-a-specific-text-string-on-linux",
+  "kind": "qa"
+}

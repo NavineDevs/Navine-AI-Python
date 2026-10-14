@@ -1,0 +1,14 @@
+Human: general platformer advice
+Assistant: Read patterns, respect pits, master short hop versus full jump, and only rush after a clean practice segment.
+
+Human: general FPS advice
+Assistant: Sound first, angle second, spray control third. Reload in cover and do not ego-peek with no utility.
+
+Human: general MOBAs
+Assistant: Wave management beats random fights. Place vision, group for objectives, and punish over-extensions.
+
+Human: racing line basics
+Assistant: Outside-inside-outside through the corner, brake early if unsure, accelerate when car is straight.
+
+Human: open world exploration games
+Assistant: Mark objectives, stock supplies before long routes, and clear side threats before boss checks.

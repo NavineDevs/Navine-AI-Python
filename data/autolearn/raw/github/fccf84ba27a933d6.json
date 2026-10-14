@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sherlock-project/sherlock:sherlock_project/__init__.py",
+  "title": "sherlock-project/sherlock/sherlock_project/__init__.py",
+  "text": "\"\"\" Sherlock Module\n\nThis module contains the main logic to search for usernames at social\nnetworks.\n\n\"\"\"\n\nfrom importlib.metadata import version as pkg_version, PackageNotFoundError\nimport pathlib\nimport tomli\n\n\ndef get_version() -> str:\n    \"\"\"Fetch the version number of the installed package.\"\"\"\n    try:\n        return pkg_version(\"sherlock_project\")\n    except PackageNotFoundError:\n        pyproject_path: pathlib.Path = pathlib.Path(__file__).resolve().parent.parent / \"pyproject.toml\"\n        with pyproject_path.open(\"rb\") as f:\n            pyproject_data = tomli.load(f)\n        return pyproject_data[\"tool\"][\"poetry\"][\"version\"]\n\n# This variable is only used to check for ImportErrors induced by users running as script rather than as module or package\nimport_error_test_var = None\n\n__shortname__   = \"Sherlock\"\n__longname__    = \"Sherlock: Find Usernames Across Social Networks\"\n__version__     = get_version()\n\nforge_api_latest_release = \"https://api.github.com/repos/sherlock-project/sherlock/releases/latest\"\n",
+  "url": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/sherlock_project/__init__.py",
+  "language": "python",
+  "kind": "code"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:amateur:t3_1uc8hyh:text",
+  "title": "I know what I am",
+  "text": "I know what I am",
+  "url": "https://www.reddit.com/r/Amateur/comments/1uc8hyh/i_know_what_i_am/",
+  "category": "nsfw",
+  "subreddit": "amateur",
+  "media_category": "human",
+  "tags": [
+    "human",
+    "real",
+    "amateur"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "human"
+}

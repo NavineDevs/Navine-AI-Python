@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:2432764",
+  "title": "How do I change the URI (URL) for a remote Git repository?",
+  "text": "How do I change the URI (URL) for a remote Git repository?\n\n<p>I have a repo (origin) on a USB key that I cloned on my hard drive (local). I moved &quot;origin&quot; to a NAS and successfully tested cloning it from here.</p>\n<p>I would like to know if I can change the URI of &quot;origin&quot; in the settings of &quot;local&quot; so it will now pull from the NAS, and not from the USB key.</p>\n<p>For now, I can see two solutions:</p>\n<ul>\n<li><p>push everything to the USB origin, and copy it to the NAS again (implies a lot of work due to new commits to NAS origin);</p>\n</li>\n<li><p>add a new remote to &quot;local&quot; and delete the old one (I fear I'll break my history).</p>\n</li>\n</ul>",
+  "url": "https://stackoverflow.com/questions/2432764/how-do-i-change-the-uri-url-for-a-remote-git-repository",
+  "kind": "qa"
+}

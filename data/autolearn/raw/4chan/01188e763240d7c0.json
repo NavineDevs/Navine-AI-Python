@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:hr:5235396:5235397:image",
+  "title": ">>5235396",
+  "text": ">>5235396",
+  "url": "https://boards.4chan.org/hr/thread/5235396#p5235397",
+  "category": "nsfw",
+  "kind": "image",
+  "caption": ">>5235396 | [real, image, human] | tags: 4chan, hr",
+  "board": "hr",
+  "thread_id": 5235396,
+  "post_id": 5235397,
+  "media_category": "real",
+  "tags": [
+    "4chan",
+    "hr",
+    "real",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/hr/1781105403311121.jpg",
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "local_path": "data\\nsfw\\local\\real\\hr_1781105403311121.jpg"
+}

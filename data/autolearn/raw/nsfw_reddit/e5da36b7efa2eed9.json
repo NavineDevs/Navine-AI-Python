@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:gonewild:t3_1u5lawi:text",
+  "title": "oh hello (f)",
+  "text": "oh hello (f)",
+  "url": "https://www.reddit.com/r/gonewild/comments/1u5lawi/oh_hello_f/",
+  "category": "nsfw",
+  "subreddit": "gonewild",
+  "media_category": "real",
+  "tags": [
+    "human",
+    "real",
+    "gonewild",
+    "photography"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

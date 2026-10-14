@@ -1,0 +1,52 @@
+checkpoint_namespace: image
+
+model:
+  image_size: 64
+  in_channels: 3
+  base_channels: 96
+  channel_mults: [1, 2, 4]
+  num_res_blocks: 2
+  time_emb_dim: 256
+  text_emb_dim: 128
+
+diffusion:
+  timesteps: 400
+  beta_start: 0.0001
+  beta_end: 0.02
+
+training:
+  batch_size: 8
+  learning_rate: 0.0002
+  max_steps: 4000
+  save_interval: 400
+  grad_clip: 1.0
+  finetune_steps: 1000
+  finetune_lr: 0.00005
+  fresh_start: false
+  photoreal_training: false
+  sample_interval: 400
+  ema_decay: 0.9995
+  cfg_dropout: 0.1
+
+data:
+  train_dir: data/nsfw/local/hentai
+  extra_dirs:
+    - data/nsfw/images/local/hentai
+
+inference:
+  num_steps: 100
+  guidance_scale: 2.0
+  seed: 42
+  output_size: 512
+  prefer_trained_model: true
+  custom_trained_only: true
+  allow_reference_fallback: false
+  procedural_only_when_untrained: false
+  apply_reference_guide: false
+  backend_order:
+    - checkpoint
+  diffusers:
+    enabled: false
+  scheduler: ddim
+  postprocess: true
+  postprocess_upscale: true

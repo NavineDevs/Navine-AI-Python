@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:AndyObtiva/glimmer:spec/fixtures/project_task.rb",
+  "title": "AndyObtiva/glimmer/spec/fixtures/project_task.rb",
+  "text": "class ProjectTask < Struct.new(:name, :project, :priority)\n  def project_name\n    project.name\n  end\n  \n  def project_name=(value)\n    project.name = value\n  end\n  \n  def hash\n    priority.hash + project.hash * 16 + name.hash * 256\n  end\n  \n  def ==(other)\n    other.respond_to?(:name) && name == other.name && project == other.project && priority == other.priority\n  end\n  alias eql? ==\nend\n",
+  "url": "https://raw.githubusercontent.com/AndyObtiva/glimmer/master/spec/fixtures/project_task.rb",
+  "language": "ruby",
+  "kind": "code"
+}

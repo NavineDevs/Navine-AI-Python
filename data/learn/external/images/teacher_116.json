@@ -1,0 +1,15 @@
+{
+  "prompt": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+  "caption": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+  "filename": "teacher_116.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-07-08T23:52:49.808305+00:00",
+  "enhanced_prompt": "an anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette, anime illustration, stylized character art, vibrant colors, detailed linework",
+  "seed": 394221815,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "negative_prompt": "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, censored, mosaic, bar censor, pixelated, low resolution, extra limbs, malformed hands, duplicate, cropped",
+  "model_id": "stabilityai/sd-turbo",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_116.png"
+}

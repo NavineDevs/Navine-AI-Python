@@ -1,0 +1,1 @@
+Useful math resources: Encyclopedia of Mathematics https://encyclopediaofmath.org/wiki /Main_Page Uchicago mathematics bibliography https://github.com/ystael/chicago-u g-math-bib Wolfram mathworld https://mathworld.wolfram.com/ ProofWiki https://proofwiki.org/wiki/Main_Pag e

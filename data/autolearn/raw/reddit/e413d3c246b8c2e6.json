@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u3ns1z",
+  "title": "is using plugin a good way to do this?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I have a hexagonal app and want to decouple certain adapter implementations from the main repo so that I can add adapters as needed without having to touch the main code base. Anything from storage, notifications, orchestration etc. </p> <p>I&#39;m looking at the standard plugin and hashicorp/go-plugin and wondering if it&#39;s a good way to do this. I&#39;m not sure about go-plugin for e.g. storage adapters, although deployments will always be localhost so maybe a network hop doesn&#39;t matter? </p> <p>There&#39;s no strict requirement on when this happens - in my head this happens at build time and running in Docker with config loading whatever adapters.</p> <p>Is there a best practice way to do this? is hashicorp/go-plugin a good approach? I&#39;m hoping anyone has experience with this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DirectOwl4640\"> /u/DirectOwl4640 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1u3ns1z/is_using_plugin_a_good_way_to_do_this/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u3ns1z/is_using_plugin_a_good_way_to_do_this/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1u3ns1z/is_using_plugin_a_good_way_to_do_this/"
+}

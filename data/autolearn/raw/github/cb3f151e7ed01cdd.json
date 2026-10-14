@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:manaflow-ai/cmux:CLI/CMUXCLI+AgentHookProcessBindingProbe.swift",
+  "title": "manaflow-ai/cmux/CLI/CMUXCLI+AgentHookProcessBindingProbe.swift",
+  "text": "extension CMUXCLI {\n    enum AgentHookProcessBindingProbe {\n        case notAttempted\n        case unsupported\n        case failed\n        case resolved(CallerTerminalBinding)\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/CLI/CMUXCLI+AgentHookProcessBindingProbe.swift",
+  "language": "swift",
+  "kind": "code"
+}

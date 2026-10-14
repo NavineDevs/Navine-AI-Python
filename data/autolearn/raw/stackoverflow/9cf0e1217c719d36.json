@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:952914",
+  "title": "How do I make a flat list out of a list of lists?",
+  "text": "How do I make a flat list out of a list of lists?\n\n<p>I have a list of lists like</p>\n<pre><code>[\n    [1, 2, 3],\n    [4, 5, 6],\n    [7],\n    [8, 9]\n]\n</code></pre>\n<p>How can I flatten it to get <code>[1, 2, 3, 4, 5, 6, 7, 8, 9]</code>?</p>\n<hr />\n<p><em>Editor's notes:</em></p>\n<p><sub>If your list of lists comes from a nested list comprehension, the problem can be solved more simply/directly by fixing the comprehension; please see <a href=\"https://stackoverflow.com/questions/1077015\">How can I get a flat result from a list comprehension instead of a nested list?</a>.</sub></p>\n<p><sub>The most popular solutions here generally only flatten one &quot;level&quot; of the nested list. See <a href=\"https://stackoverflow.com/questions/2158395\">Flatten an irregular (arbitrarily nested) list of lists</a> for solutions that completely flatten a deeply nested structure (recursively, in general).</sub></p>",
+  "url": "https://stackoverflow.com/questions/952914/how-do-i-make-a-flat-list-out-of-a-list-of-lists",
+  "kind": "qa"
+}

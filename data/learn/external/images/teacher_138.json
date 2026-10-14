@@ -1,0 +1,15 @@
+{
+  "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+  "caption": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+  "filename": "teacher_138.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-08-14T14:09:38.693126+00:00",
+  "enhanced_prompt": "an anime hentai style explicit illustration, detailed character art, soft cel shading, anime illustration, hentai style, detailed linework, vibrant colors, explicit adult",
+  "seed": 1088331554,
+  "generation_mode": "checkpoint_fallback",
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "negative_prompt": "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, censored, mosaic, bar censor, pixelated, low resolution, extra limbs, malformed hands, duplicate, cropped",
+  "model_id": "stabilityai/sd-turbo",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_138.png"
+}

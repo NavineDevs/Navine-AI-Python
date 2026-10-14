@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1u3u45g",
+  "title": "[AskJS] If you were building a charting library on top of Lightweight Charts, what extension points would you expect?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been open-sourcing a charting toolkit built on top of TradingView Lightweight Charts that includes drawing tools, indicators, replay functionality, pane synchronization, and broker integrations.</p> <p>One area I&#39;m still refining is the plugin/extension architecture.</p> <p>For developers who have worked with charting libraries:</p> <ul> <li>What extension points do you expect?</li> <li>How would you structure custom indicators?</li> <li>Would you prefer a plugin registry, hooks, middleware, or something else?</li> <li>What API mistakes have you seen charting libraries make?</li> </ul> <p>I&#39;d love to hear opinions before locking down the architecture.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rohanbeingsocial\"> /u/rohanbeingsocial </a> <br/> <span><a href=\"https://www.reddit.com/r/javascript/comments/1u3u45g/askjs_if_you_were_building_a_charting_library_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1u3u45g/askjs_if_you_were_building_a_charting_library_on/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1u3u45g/askjs_if_you_were_building_a_charting_library_on/"
+}

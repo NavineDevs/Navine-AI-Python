@@ -1,0 +1,736 @@
+[Science] New Humble Bundle of Python ebooks benefiting the Python Software Foundation
+
+<!-- SC_OFF --><div class="md"><p>Pay at least $36 for 15 ebooks from No Starch Press benefiting <a href="https://www.python.org/psf-landing/">the PSF</a>: <a href="https://www.humblebundle.com/books/python-good-stuff-no-starch-books">https://www.humblebundle.com/books/python-good-stuff-no-starch-books</a></p> <p>Hello, I&#39;m Al Sweigart, author of a few books in the bundle. Here&#39;s some info about them:</p> <ul> <li><p><em>Automate the Boring Stuff with Python</em> - I wrote this to be a programming book for office workers who wanted to escape Excel. It&#39;s a book for complete beginners with no coding experience, or for folks who want to skip to Part 2 and learn about several useful packages in the Python ecosystem for web scraping, graph generation, image manipulation, text-to-speech, OCR, regex, sending mobile notifications, and more. <em>Automate</em> is now in it&#39;s third edition.</p></li> <li><p><em>Cracking Codes with Python</em> - This was the third book I wrote (and self-published), and then No Starch published a new edition under a new title. (It was previously called Hacking Secret Ciphers with Python.) I had found several &quot;ciphers and code breaking&quot; books that discussed ciphers (<a href="https://en.wikipedia.org/wiki/The_Code_Book">The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography</a> by Simon Singh is great) but I didn&#39;t find any books on writing code to do the code breaking. I wanted Python programs you could literally run on ciphertext that would actually work. Writing this book was a lot of fun. It&#39;s also aimed at completely new programmers, using encryption and code breaking programs as the example programming projects.</p></li> <li><p><em>The Big Book of Small Python Projects</em> - As a kid I loved books like <a href="https://www.atariarchives.org/basicgames/">BASIC Computer Games</a> that just listed the source code for actual programs you could run. I learned way more from having these small examples, so I wanted an updated version of this. (Admittedly, a <em>lot</em> of those BASIC games were buggy or just not fun.) There are 81 programs that use text-based user interfaces (TUI), not out of old-school nostalgia but because it&#39;s really helpful to learners to have the program source code and program output be the same medium: text. Like, you can look at the text output and find the <code>print()</code> call that caused it. It makes coding less abstract.</p></li> </ul> <p>(Note that my books are released under a Creative Commons license and can be found online, but these ebooks have much nicer formatting than the HTML pages on my website.)</p> <p>No Starch Press is my publisher, but I genuinely do love their books. The ones in this bundle that are on my to-read list that I&#39;m especially excited about:</p> <ul> <li><p><em>Practical Deep Learning: 2nd Edition</em> - I&#39;ve been wanting to read this since the first edition, especially now that I&#39;m diving into LLMs more. This book doesn&#39;t shy away from technical details but it&#39;s not a textbook: there&#39;s actual practical information here.</p></li> <li><p><em>Make Python Talk</em> - I&#39;ve already read this and used some of it as the basis for a PyCon talk on text-to-speech and speech recognition. This is stuff that was really unreliable twenty years ago, but these days it&#39;s so easy to add it to your Python scripts with just a few lines of code.</p></li> <li><p><em>Computer Science from Scratch</em> - One of my biggest gripes with CS education is that they often talk about concepts in some abstract way on a whiteboard or in Powerpoint slides, and they don&#39;t just give you code you can play with. I&#39;m really interested in diving into this one.</p></li> <li><p><em>Python for Excel Users</em> - My <em>Automate</em> book touches on using Python and spreadsheets, but I&#39;m glad there&#39;s an entire book on the topic now.</p></li> </ul> <p>But of course, <em>Python Crash Course</em> by Eric Matthes is a great book for beginners who want to learn to code. (It consistently beats <em>Automate the Boring Stuff</em> on Amazon.) This is a great collection of ebooks.</p> <p><strong>Remember to max out the amount of your payment goes to the Python Software Foundation. Scroll down to and click Adjust Donation, then click Custom Amount to edit what percentage of your contribution is split between Developers/Publishers, Humble Bundle, and Charity.</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/AlSweigart"> /u/AlSweigart </a> <br/> <span><a href="https://www.reddit.com/r/Python/comments/1tu10qu/new_humble_bundle_of_python_ebooks_benefiting_the/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/Python/comments/1tu10qu/new_humble_bundle_of_python_ebooks_benefiting_the/">[comments]</a></span>
+
+[Science] I built a 2D physics engine in vanilla JavaScript with no libraries, no bundler
+
+<!-- SC_OFF --><div class="md"><p>I spent a few weeks building a 2D physics engine from scratch in vanilla JavaScript. No libraries, no build tools, just Canvas 2D and the browser.</p> <p>It does SAT collision detection, a sequential-impulse solver with friction, sweep-and-prune broadphase, fixed-timestep simulation, and five interactive demo scenes including a stack stability test and Newton&#39;s cradle. (With a lot of bugs)</p> <p><a href="https://github.com/CAPRIOARA-MAGIKA/physis">https://github.com/CAPRIOARA-MAGIKA/physis</a></p> <p>The hardest part was getting box stacks to settle without jitter or sinking. Turned out to be a combination of Baumgarte stabilization tuning and warm-starting the solver. The stack-stability gating test caught more bugs than I can count.</p> <p>It&#39;s not perfect. It has a lot of bugs but I cannot figure out how to fix them (if you know a way please open a PR or comment below). This project was done for learning and with minimal AI involvement (only for debugging and polishing the readme file).</p> <p>If you have any more suggestions of projects that I could do in the near future to improve my reasoning and my coding skills, comment down below. <strong>Thanks for reading!</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Therattatman"> /u/Therattatman </a> <br/> <span><a href="https://github.com/CAPRIOARA-MAGIKA/physis">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/javascript/comments/1u34oo7/i_built_a_2d_physics_engine_in_vanilla_javascript/">[comments]</a></span>
+
+[Science] Im new here!
+
+Hello dev,
+
+I just started going down the rabbit hole.
+
+After more than a year of jumping from one course to another, I decided to commit to a more structured path. Along the way, I've learned a lot, but I still feel that I'm missing some fundamental concepts.
+
+After doing a lot of research and exploring different learning paths, I came to the conclusion that The Odin Project provides a solid foundation for becoming a software developer. So I decided to start the journey toward becoming a Full-Stack Developer.
+
+I'm excited to see where this path takes me and to keep building, learning, and improving every day.
+
+[Science] Loopcraft: Stop Prompting, Start Designing Loops
+
+On June 7, 2026, Peter Steinberger — the creator of OpenClaw — posted twelve words that ricocheted across every AI engineering corner of the internet: "You shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents."
+
+
+📖 Read the full version with charts and embedded sources on AgentConn →
+
+
+The same week, Boris Cherny — creator and head of Claude Code at Anthropic — said the same thing on stage: "I don't prompt Claude anymore. I have loops running. They're the ones prompting Claude and figuring out what to do. My job is to write loops."
+
+Two builders. Same conclusion. Arrived at independently. And when Latent Space published "Loopcraft: The Art of Stacking Loops" the same week — weaving together Steinberger, Cherny, and Andrej Karpathy — it crystallized something that practitioners had been circling for months: the highest-leverage skill in AI engineering is no longer writing a good prompt. It's designing the system that writes the prompts for you.
+
+They're calling it loopcraft. And it's eating the harness layer.
+
+
+  
+  
+  What a Loop Actually Is
+
+
+Addy Osmani's June 2026 essay — "Loop Engineering" — gave the concept its clearest definition. Loop engineering, he wrote, sits "one floor above" agent harness engineering. Instead of crafting one perfect instruction, you design the cycle that keeps an AI coding agent working, testing, learning, and stopping.
+
+Osmani identified six primitives that compose a loop:
+
+
+
+Automations — scheduled triggers that start loops without human intervention
+
+Worktrees — isolated file-system branches so parallel loops don't collide
+
+Skills — written-down project knowledge the agent can read and follow
+
+Connectors — tools the agent can call (APIs, databases, file systems)
+
+Sub-agents — maker/checker splits where one agent proposes and another verifies
+
+External state — memory and context that persists across loop iterations
+
+
+This isn't new territory conceptually. Simon Willison framed it in September 2025: "Designing agentic loops is a critical new skill to develop." He defined agents as "things that run tools in a loop to achieve a goal" and argued that the art of using them well involves carefully designing the tools and the loop, not just the prompt.
+
+What changed between Willison's September 2025 framing and Steinberger's June 2026 declaration is infrastructure. Back then, loops were theoretical. Now they're shipping — and the tooling has caught up.
+
+
+  
+  
+  The Exemplar: autoresearch
+
+
+If you want to understand what a well-designed loop looks like in practice, look at Karpathy's autoresearch.
+
+Released in March 2026, autoresearch is 630 lines of Python that ran 50 ML experiments overnight on a single GPU. The project picked up 21,000+ stars and 8.6 million views on Karpathy's announcement within days.
+
+Here's why it matters: autoresearch doesn't just automate a task. It automates the research loop itself — the cycle where a researcher forms a hypothesis, edits code, runs a training session, checks the result, and decides whether to keep the change. The agent reads a program.md file for research direction, modifies train.py with a proposed change, commits it, runs training for exactly 5 minutes, evaluates the result using val_bpb, and either keeps or reverts the change. Then it loops.
+
+The most technically interesting thing about autoresearch is that the loop is defined in English. program.md is a document that specifies a complete research methodology: what to modify, what to leave alone, how to evaluate, how to handle failure cases, and a blanket prohibition on asking for help. A coding agent reads this document and executes it indefinitely.
+
+This is the template for loopcraft: don't give the agent a task. Give it a methodology. Let the methodology be the loop.
+
+The ecosystem followed immediately. autoresearch-skill turned Karpathy's pattern into a portable skill for Claude Code, Codex CLI, and Gemini CLI.
+
+
+ℹ️ A loop is not a script. A script runs the same steps every time. A loop runs the same structure every time but lets the agent decide what fills each step. The agent isn't following instructions — it's following a methodology.
+
+
+
+  
+  
+  Loop Patterns That Ship
+
+
+Three patterns have emerged as the workhorses of the loopcraft era.
+
+Find → Verify → Synthesize. The most common pattern. One agent (or fleet of agents) searches for something — bugs, information, files matching a pattern. A second fleet independently verifies each finding. A third synthesizes the verified results into a deliverable. Ken Huang's deep dive on Claude Code orchestration documents this as the default pattern for code review workflows.
+
+Loop-until-dry. For unknown-size discovery — audits, backlogs, edge cases — you keep spawning agents until K consecutive rounds return nothing new. Simple counters (while count &lt; N) miss the tail. Loop-until-dry catches it because it doesn't assume a fixed target.
+
+Adversarial verify. Spawn N independent skeptics per finding, each prompted to refute. Kill the finding if a majority refute it. The Neuron's interview with Cherny and Cat Wu describes this as central to how the Claude Code team itself works — verification isn't a step at the end, it's a loop that runs in parallel with generation.
+
+
+💡 The counter-argument: "This is just scripting with extra steps." The difference is that a script defines the steps. A loop defines the structure and lets an agent fill the steps. When the agent encounters something unexpected, a script fails. A loop adapts.
+
+
+
+  
+  
+  The Infrastructure Caught Up
+
+
+On May 28, 2026, Anthropic shipped ultracode — a Claude Code setting that activates automatic multi-agent workflow orchestration. Set effort to ultracode and Claude evaluates each request, deciding on its own whether the task warrants a full workflow. When it does, it writes a JavaScript script on the fly, plans an understand-change-verify loop, and dispat
+
+[Science] On CPU Physics and CPU Cycles
+
+On CPU Physics and CPU Cycles
+
+[Science] [D] Self-Promotion Thread
+
+<!-- SC_OFF --><div class="md"><p>Please post your personal projects, startups, product placements, collaboration needs, blogs etc.</p> <p>Please mention the payment and pricing requirements for products and services.</p> <p>Please do not post link shorteners, link aggregator websites , or auto-subscribe links.</p> <p>--</p> <p>Any abuse of trust will lead to bans.</p> <p>Encourage others who create new posts for questions to post here instead!</p> <p>Thread will stay alive until next one so keep posting after the date in the title.</p> <p>--</p> <p>Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/AutoModerator"> /u/AutoModerator </a> <br/> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1tudeio/d_selfpromotion_thread/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1tudeio/d_selfpromotion_thread/">[comments]</a></span>
+
+[Science] Pyrecall open source tool for detecting catastrophic forgetting during LLM fine-tuning[P]
+
+<!-- SC_OFF --><div class="md"><p>Surprised there&#39;s no real tooling for this given how much research exists on continual learning. </p> <p>Built pyrecall to fill the gap. Snapshots skill scores before/after fine-tuning, flags regressions, rolls back LoRA adapters by name. </p> <p>Fully local, no external APIs. v0.1.0, MIT, pip install pyrecall </p> <p>Curious if anyone has thoughts on the benchmark design that&#39;s the part I&#39;m least confident about. </p> <p><a href="https://github.com/Arths17/Pyrecall">https://github.com/Arths17/Pyrecall</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/Level_Frosting_7950"> /u/Level_Frosting_7950 </a> <br/> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/">[comments]</a></span>
+
+[Science] The notebooks Marie Curie filled with her research are still dangerous to touch
+
+The notebooks Marie Curie filled with her research are still dangerous to touch
+
+[Science] Show HN: StartupWiki – A Free Alternative to Crunchbase
+
+I&#x27;ve been building StartupWiki, a free startup database designed to make it easier to discover and research companies.<p>The original motivation was frustration with how difficult it can be to find information on early-stage startups. Most databases need accounts, or subscriptions, ro just feel too cluttered. I wanted a website that felt like Wikipedia, no accounts, no subscriptions, no weird metrics, just go in, the info is on the page.<p>The project is still very early, but currently includes:<p>Startup profiles
+Search and filtering
+Company categorization
+Public API (in progress)<p>I&#x27;m especially interested in feedback on:<p>What information you look for when researching startups
+Features missing from existing startup databases
+API use cases<p>I&#x27;d love to hear feedback.
+
+[Science] Dockerfile Builder: a small tool that solves a specific problem
+
+Dockerfiles that pass a casual build check can still fail silently in production when they lack proper layer caching, run as root, or omit health checks. For teams without a dedicated container specialist, arriving at an optimized, secure configuration often means multiple rounds of scanning, tweaking, and rebuilding — time that could go into shipping features.
+
+
+  
+  
+  What it is
+
+
+Dockerfile Builder is an interactive configuration tool that generates production-grade Dockerfiles following current best practices. Rather than editing text directly, developers select a runtime environment — Node.js, Python, Go, Rust, Nginx, Ruby, Java, Deno, or Bun — and the tool constructs a multi-stage build, layer caching strategy, health check, and non‑root user setup tailored to that stack.
+
+The output is a complete Dockerfile with inline comments that explain the rationale behind each instruction, from choosing slim base images to ordering COPY commands for cache efficiency. The builder automatically splits dependency installation and application code across stages, reducing final image size without manual tweaking. It appends a HEALTHCHECK instruction that common orchestrators can query, and it generates the USER directive and associated permission changes so the container never runs as root. Every generated file follows patterns aligned with the OWASP container security guidelines and Docker official image best practices.
+
+The tool runs entirely in the browser — no uploads, no signup, no tracking — part of the DevTools collection of 200+ free browser tools for engineers. All configuration stays local, so proprietary project details never leave the machine.
+
+
+  
+  
+  How to use it
+
+
+Start by selecting your application’s runtime. The interface immediately picks an appropriate slim base image (for example, node:18-alpine for a Node.js service) and suggests common patterns for that ecosystem.
+
+Next, define the build stage. Specify the builder base image version, working directory, and the files to copy first for layer caching. For a Node.js project, you might select package.json and package-lock.json and set the build command to npm ci --only=production. The tool uses this to place dependency installation before source code, maximizing cache reuse:
+
+
+
+# Builder stage — generated example
+FROM node:18-alpine AS builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+
+
+
+
+
+
+Move to the final stage. Choose the production base image (often the same slim variant), a working directory, and which artifacts to copy from the builder stage. Add environment variables, set the exposed port, and specify the start command. The generator structures the copy step to avoid dragging development-only dependencies into the final image.
+
+Toggle the health check option and provide the endpoint your application exposes (e.g., /health on port 3000). The builder inserts the appropriate HEALTHCHECK instruction with retry and interval defaults that you can tune. The security toggle creates a dedicated system user and sets file ownership, so the container’s runtime user is never root. The final generated Dockerfile can be copied, downloaded, or edited directly in the browser.
+
+
+  
+  
+  When to reach for it
+
+
+Reach for Dockerfile Builder when containerizing a greenfield service and you want a secure, optimized baseline without spending an afternoon on Dockerfile research. It’s equally useful for teams that deploy containerized workloads only occasionally — the generated comments help maintainers understand the configuration months later.
+
+The tool addresses a specific gap in existing Docker tooling: interactive, visual configuration with immediate feedback. Unlike IDE snippets or static templates, it enforces best practices (multi-stage builds, non‑root user, health checks) by default rather than leaving them as optional checkboxes. That makes it a quick standardization layer when an organization wants every new service to ship with uniform security and observability patterns, regardless of the original author’s Docker experience.
+
+Use it as a learning aid when ramping up on containerization. Because every line includes an explanatory comment — why COPY comes before RUN npm install, why Alpine images are selected, how the --from=builder syntax works — the output doubles as reference material. When a project’s needs outgrow the generator, the resulting Dockerfile remains a readable foundation that can be extended by hand.
+
+
+  
+  
+  Try it yourself
+
+
+The tool is available at dockerfile-builder. It runs entirely in the browser, so you can generate a best‑practice Dockerfile in about 30 seconds without creating an account or installing anything. Select a runtime, walk through the stages, and get a deployable configuration you can inspect or copy directly.
+
+
+  
+  
+  Related tools
+
+
+For managing secrets and configuration values in container environments, the Environment Variable Encoder/Decoder helps encode and decode base64 strings without leaving the browser. The Gitignore Generator builds tailored .gitignore files that include Docker‑specific entries like .dockerignore and generated build artifacts, keeping repositories clean. Teams building test data for containerized services often combine the Dockerfile Builder with the Mock Data Generator, which produces realistic datasets for development and staging environments.
+
+A well-structured Dockerfile doesn’t just build — it communicates intent to every engineer who touches it down the line.
+
+
+
+
+Try it: Dockerfile Builder on DevTools
+
+[Science] Show HN: Neural Particle Automata
+
+Neural CAs model self-organizing pattern formation on grids. Now the grid is gone. Each cell is an agentic particle that can move freely in space and change its state.<p>While each particle follows a simple shared rule, many together can grow complex morphologies or form intricate patterns. The resulting particle system as a whole can regenerate from damage and exhibits surprising emergent behavior.<p>Try cutting the lizard and watch it heal itself!
+
+[Science] I Wasted 2 Years Learning AI. This Minimalist Roadmap Would Have Gotten Me Hired in 6 Months.
+
+Most AI roadmaps are packed with unnecessary topics, endless courses, and research-level concepts. Here&#x2019;s the practical path I wish I had&#x2026;Continue reading on Stackademic »
+
+[Science] [D] Self-Promotion Thread
+
+<!-- SC_OFF --><div class="md"><p>Please post your personal projects, startups, product placements, collaboration needs, blogs etc.</p> <p>Please mention the payment and pricing requirements for products and services.</p> <p>Please do not post link shorteners, link aggregator websites , or auto-subscribe links.</p> <p>--</p> <p>Any abuse of trust will lead to bans.</p> <p>Encourage others who create new posts for questions to post here instead!</p> <p>Thread will stay alive until next one so keep posting after the date in the title.</p> <p>--</p> <p>Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/AutoModerator"> /u/AutoModerator </a> <br/> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1ul5bgf/d_selfpromotion_thread/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1ul5bgf/d_selfpromotion_thread/">[comments]</a></span>
+
+[Science] The Internet's First Message Was 'LO'
+
+The first message ever sent across the network that became the internet was not a grand declaration. It was two letters: "LO". Not a word anyone chose, not a slogan, just the first half of a login command that never finished because the system crashed. More than fifty years later, that accidental fragment is one of the best origin stories in computing, and it still has something to teach anyone building connected devices today.
+
+
+  
+  
+  The night of 29 October 1969
+
+
+At around 10:30 in the evening on 29 October 1969, a student programmer named Charley Kline sat at a computer in Leonard Kleinrock's lab at UCLA. His job was to log in to a second machine roughly 350 miles away at the Stanford Research Institute (SRI) in Menlo Park, California. The two computers were among the first nodes of ARPANET, the U.S. Defense Department research network that would eventually grow into the internet.
+
+Kline started typing the command LOGIN. To make sure the letters were arriving, he had a colleague at SRI on the phone confirming each keystroke. He typed L, and Stanford confirmed the L. He typed O, and Stanford confirmed the O. Then he typed G, and the SRI machine crashed.
+
+So the very first message transmitted over ARPANET was the truncated, unintentional "LO". Kleinrock has enjoyed pointing out for decades that they could not have scripted anything better: the first word on the internet was "lo," as in "lo and behold." A little over an hour later, after the bug was fixed, Kline completed a full login, but the accidental version is the one history remembers.
+
+
+  
+  
+  Why a crash matters more than a clean success
+
+
+It is tempting to treat "LO" as a cute footnote, but the crash is the useful part. ARPANET was not built to be reliable on day one. It was built to discover how to be reliable. Everything we now take for granted about networking, error handling, retransmission, acknowledgements, graceful recovery, exists because early links failed constantly and engineers had to design around failure rather than assume it away.
+
+That lesson has not aged. If you build connected hardware today, the network is still the part most likely to disappoint you. A sensor node on a factory floor loses Wi-Fi. A cellular module drops a packet mid-transmission. A cloud endpoint times out at exactly the wrong moment. The teams that ship dependable products are the ones who assume the "G" will crash the system eventually, and design for it.
+
+
+  
+  
+  The line from ARPANET to modern IoT
+
+
+ARPANET introduced packet switching, the idea of breaking a message into small chunks that each find their own way across the network and reassemble at the other end. That principle underpins TCP/IP, which underpins the web, which underpins the protocols that IoT devices lean on every day: MQTT, CoAP, HTTP, and WebSocket all ride on the same packet-switched foundation first tested that night in 1969.
+
+For an embedded engineer, this is more than trivia. When your ESP32 publishes a temperature reading to an MQTT broker, it is participating in a direct descendant of the ARPANET experiment. The retry logic in your firmware, the quality-of-service level you pick, the reconnect handler you write after a dropped connection, all of it is the modern expression of the problem Charley Kline hit head-on when the SRI machine went down.
+
+
+  
+  
+  Building for the real network, not the ideal one
+
+
+The practical takeaway for anyone prototyping IoT or web-connected hardware is simple: treat the network as hostile by default. Buffer readings locally so a dropped connection does not lose data. Use protocols like MQTT that were designed for unreliable, low-bandwidth links. Test your device on a bad connection on purpose, not just on the fast office Wi-Fi. The "happy path" where every packet arrives is the exception, not the rule.
+
+This is the kind of thinking that separates a demo that works once from a product that works in the field. In the Philippines especially, where a connected device might sit on spotty mobile data or a congested shared network, designing for the "LO" moment, the point where the link fails, is what makes hardware trustworthy.
+
+At Fluidwire we prototype IoT and embedded systems from silicon to cloud, and reliable networking is at the center of almost every build. If you have a thesis project or a product idea that needs to talk to the internet and keep talking to it when conditions get rough, get in touch and we can help you build it properly.
+
+The internet started with a crash and two stray letters. Every robust connected device since has been an answer to that first failure.
+
+[Science] The Internet's First Message Was 'LO'
+
+The first message ever sent across the network that became the internet was not a grand declaration. It was two letters: "LO". Not a word anyone chose, not a slogan, just the first half of a login command that never finished because the system crashed. More than fifty years later, that accidental fragment is one of the best origin stories in computing, and it still has something to teach anyone building connected devices today.
+
+
+  
+  
+  The night of 29 October 1969
+
+
+At around 10:30 in the evening on 29 October 1969, a student programmer named Charley Kline sat at a computer in Leonard Kleinrock's lab at UCLA. His job was to log in to a second machine roughly 350 miles away at the Stanford Research Institute (SRI) in Menlo Park, California. The two computers were among the first nodes of ARPANET, the U.S. Defense Department research network that would eventually grow into the internet.
+
+Kline started typing the command LOGIN. To make sure the letters were arriving, he had a colleague at SRI on the phone confirming each keystroke. He typed L, and Stanford confirmed the L. He typed O, and Stanford confirmed the O. Then he typed G, and the SRI machine crashed.
+
+So the very first message transmitted over ARPANET was the truncated, unintentional "LO". Kleinrock has enjoyed pointing out for decades that they could not have scripted anything better: the first word on the internet was "lo," as in "lo and behold." A little over an hour later, after the bug was fixed, Kline completed a full login, but the accidental version is the one history remembers.
+
+
+  
+  
+  Why a crash matters more than a clean success
+
+
+It is tempting to treat "LO" as a cute footnote, but the crash is the useful part. ARPANET was not built to be reliable on day one. It was built to discover how to be reliable. Everything we now take for granted about networking, error handling, retransmission, acknowledgements, graceful recovery, exists because early links failed constantly and engineers had to design around failure rather than assume it away.
+
+That lesson has not aged. If you build connected hardware today, the network is still the part most likely to disappoint you. A sensor node on a factory floor loses Wi-Fi. A cellular module drops a packet mid-transmission. A cloud endpoint times out at exactly the wrong moment. The teams that ship dependable products are the ones who assume the "G" will crash the system eventually, and design for it.
+
+
+  
+  
+  The line from ARPANET to modern IoT
+
+
+ARPANET introduced packet switching, the idea of breaking a message into small chunks that each find their own way across the network and reassemble at the other end. That principle underpins TCP/IP, which underpins the web, which underpins the protocols that IoT devices lean on every day: MQTT, CoAP, HTTP, and WebSocket all ride on the same packet-switched foundation first tested that night in 1969.
+
+For an embedded engineer, this is more than trivia. When your ESP32 publishes a temperature reading to an MQTT broker, it is participating in a direct descendant of the ARPANET experiment. The retry logic in your firmware, the quality-of-service level you pick, the reconnect handler you write after a dropped connection, all of it is the modern expression of the problem Charley Kline hit head-on when the SRI machine went down.
+
+
+  
+  
+  Building for the real network, not the ideal one
+
+
+The practical takeaway for anyone prototyping IoT or web-connected hardware is simple: treat the network as hostile by default. Buffer readings locally so a dropped connection does not lose data. Use protocols like MQTT that were designed for unreliable, low-bandwidth links. Test your device on a bad connection on purpose, not just on the fast office Wi-Fi. The "happy path" where every packet arrives is the exception, not the rule.
+
+This is the kind of thinking that separates a demo that works once from a product that works in the field. In the Philippines especially, where a connected device might sit on spotty mobile data or a congested shared network, designing for the "LO" moment, the point where the link fails, is what makes hardware trustworthy.
+
+At Fluidwire we prototype IoT and embedded systems from silicon to cloud, and reliable networking is at the center of almost every build. If you have a thesis project or a product idea that needs to talk to the internet and keep talking to it when conditions get rough, get in touch and we can help you build it properly.
+
+The internet started with a crash and two stray letters. Every robust connected device since has been an answer to that first failure.
+
+[Science] A Hiring Manager’s Perspective on Tinkering & AI
+
+I'm a hiring manager on the product team at Coder, a growth-stage tech company founded in 2017. Everyone on the product team uses LLMs daily.
+
+It's been fun to watch: docs folks fixing SEO issues on the website, engineers writing documentation, PMs building live prototypes, marketers shipping website changes directly. Nobody mandated any of this.
+
+There are plenty of negatives too: layoffs, junior roles drying up, students worried about their careers, and a flood of low-quality generated content everywhere you look. I'm not going to solve those in this post. Instead, I'll share how AI actually affects hiring at one company that uses these tools heavily. If you're a candidate, I hope this helps you see how at least one company is thinking about it. I can assure you that we aren't alone.
+
+
+  
+  
+  Context on how we work
+
+
+Every company values different things, so here's the environment my perspective comes from. If your values (or your company's) are different, your conclusions probably should be too.
+
+We hire tinkerers. When I joined Coder, the first thing I did was stand up the product and poke at it. When I wrote my first blog post, I ended up also fixing the website's build process because it annoyed me. This attitude is company-wide. Nearly every department has built internal tools nobody asked for. We've also hired over 4 people directly from our user community, people who were already tinkering with the product before we ever paid them to. As we scale, we've had to get clearer about ownership, but I still want people who look outside their job description.
+
+There's always more work than people. On the tactical side: improving our product's UX, writing a new feature or integration, improving documentation clarity, fixing a tiny bug. On the strategic side: better communication between departments, faster decisions.
+
+We've seen a lot of hiring and firing. We're still a young company, but we've already been through plenty: we scaled too early once and paid for it with layoffs, and we've done hiring freezes while finding product/market fit. Right now we're hiring fast: 21 people in the last month, at a company of ~180. None of those layoffs or freezes had anything to do with AI. They came down to larger business reasons, the same boring ones that ended jobs long before LLMs existed.
+
+
+  
+  
+  What's actually changed
+
+
+The number of open roles hasn't gone down. Expectations per role have gone up, but not in the way people assume. Myself and many of my peers are not concerned about squeezing more output out of everyone. It's about diversifying output in favor of impact: a docs person can contribute fixes directly, a PM can prototype their own ideas. This isn't about filling skill gaps. It's that going the extra mile got a lot cheaper, so we expect people to do it. We're less excited about "builders" in the raw sense, since building is cheaper than it's ever been. We're more excited about candidates who can demonstrate taste, understanding, and impact.
+
+A good litmus test for me is whether someone is only using AI to generate new programs from scratch (likely to get scrapped/unmaintained), or to build on somebody else's ideas and understand a perspective or part of the company they haven't before. And then whether they actually get these shipped, improved, and retained. Getting 90% of the way there really doesn't matter 
+
+In practice:
+
+
+
+We filter for taste. I want to understand if the candidate has a perspective, an experience, or even a distaste for something, and whether they feel comfortable expressing and applying it.
+
+
+We still hire juniors (more than ever, actually). We just spun up a summer internship program, and we're hiring more junior roles than we ever have.
+
+
+Communication skills are more important than ever. If someone sends you sloppy AI-generated work, or you disagree with an idea, you need to be willing to say so. And when you don't understand something, loop in a colleague to collaborate, without dumping work on them to review or shipping while hiding your gaps.
+
+
+
+  
+  
+  My environment is not for everyone
+
+
+Coder values tinkerers, fast-paced ownership, and people going the extra mile. We expect a lot out of people, and those expectations aren't always documented in some playbook. Not everyone wants to work in an environment like that, and that's OK.
+
+I'm also only in one specific department  of Coder (product management and developer relations), and other teams and roles will be different. AI will certainly automate tasks that are central to some jobs. I'm not saying everyone will be fine, that all employees will become curious, or that those who prefer to get a task, execute, and repeat will (or should) succeed in a knowledge worker economy. I'm also not saying we have all the answers or that Coder is AGI-proof; I just don't think those conversations are useful when it comes to hiring or getting a job. What I am observing is a significant positive impact on how we work together and how we build better products, and I'm optimistic about the companies we can build with it.
+
+If you're looking to get into another industry or work environment, I'd push you to research what that company values and how they write about AI (I'm sure they are). If you're a hiring manager, it can be helpful to write about your experiences like I did today. If nothing else, it'll help candidates figure out where they're a good fit and what types of work environments excite them as AI changes how we work.
+
+
+  
+  
+  If you're a candidate
+
+
+More than any specific advice, I'd encourage you to think about how hiring managers are thinking (this blog post reflects how I think), rather than treating posts like this as a checklist.
+
+That said, a few things transfer anywhere. Joining the community of a product you want to work on (ours or anyone's) is a great way to learn it and see what people are actually working on.
+
+Form real opinions about th
+
+[Science] Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT)
+
+I started leaning in on AI heavily this year, as I wanted to get more done autonomously, but then my token usage climbed dramatically to the point where my weekly quota would run out before the end of the week, sometimes a couple of days into the week.<p>I realised I had to do something about it else I&#x27;d have to double my spend. So I decided to start tracking my cost per task type. This revealed that a lot of my spend went to searches&#x2F;scans or simple things like scouting tasks.<p>I then decided to turn this into a simple CLI tool that can be used to read your OpenAI-style logs locally, and analyze the cost and compare this spend to other models, then show you how much you could potentially save by switching those calls to a cheaper model.<p>When you run analyze you get an offline estimate priced against LiteLLM and gated by LMArena tiers. The general savings bands come from the research published by RouteLLM; but you can confirm this yourself using 2 commands --measure (shows the prompt-response output side by side) and --judge (a model chosen to do the comparisons). These send a sample of the prompts from the logs to the candidate models - either the default choice or set by you. This call goes directly to the model provider (never through me) as any normal LLM call would, and the response is shown and judged to either be better or worse or a tie.<p>It&#x27;s deliberately small, because I tend to over complicate&#x2F;think things sometimes: analyze + capture + a few commands, doing three jobs. Cost, quality visibility, routing recommendation.<p>Nothing is hosted. capture is an optional local proxy on your own machine, and there&#x27;s no endpoint in the path of your data. You can confirm this by checking the source.<p>I included a demo so you can check out the output. It has a synthetic 56k call log (a month&#x27;s worth) showing how costs can drop from $549.46 to $343.91 a month. A 37.4% saving.<p>Try it:<p><pre><code>  uvx frugon analyze --demo
+</code></pre>
+or<p><pre><code>  uv tool install frugon
+</code></pre>
+Then point it at your own logs.<p>All feedback is welcome, especially any on the routing&#x2F;quality logic, or anything else, good or bad.
+
+[Science] Educational Stigma Conflating with Research
+
+Give Researchers their Projects back!Continue reading on Medium »
+
+[Science] I flagged two research papers for fake authors and both were accepted as orals
+
+I flagged two research papers for fake authors and both were accepted as orals
+
+[Science] Scaling NumPy on Free-Threaded Python
+
+<!-- SC_OFF --><div class="md"><blockquote> <p>NumPy is the foundational array library in the scientific Python ecosystem. Every numerical, machine learning, and data analysis library in Python either depends on NumPy directly or interoperates with it. As the free-threaded build of CPython matures, NumPy is one of the first libraries that users reach for when trying to scale CPU-bound numerical workloads across multiple cores using threads.</p> <p>In this blog post, I will walk through the work I did over the last few months in both NumPy and CPython to eliminate the multi-threaded scaling bottlenecks that were preventing NumPy from scaling on free-threaded Python.</p> </blockquote> <p><a href="https://labs.quansight.org/blog/scaling-numpy-on-free-threaded-python">https://labs.quansight.org/blog/scaling-numpy-on-free-threaded-python</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/nathan12343"> /u/nathan12343 </a> <br/> <span><a href="https://www.reddit.com/r/Python/comments/1vb2ruy/scaling_numpy_on_freethreaded_python/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/Python/comments/1vb2ruy/scaling_numpy_on_freethreaded_python/">[comments]</a></span>
+
+[Science] Andrew Wiles on proving Fermat’s Last Theorem (1995) [video]
+
+Full documentary: <a href="https:&#x2F;&#x2F;www.bbc.co.uk&#x2F;programmes&#x2F;b0074rxx" rel="nofollow">https:&#x2F;&#x2F;www.bbc.co.uk&#x2F;programmes&#x2F;b0074rxx</a>
+
+[Science] Picophysics: Single file physics for games on platforms like N64, PSX, DC
+
+Picophysics: Single file physics for games on platforms like N64, PSX, DC
+
+[Science] Learning project. A leptos based cron like process management system
+
+<!-- SC_OFF --><div class="md"><p>Hi,</p> <p>Just wanted to share a project that I built. It&#39;s a cron like process management system built with leptos that gives you a web ui. It supports capturing logs (works best with json logs), starting a one off instance of a task outside of it&#39;s schedule and killing an ongoing task.</p> <p>Here is the repo. If any frontend people can help with the logo, icons and css, I would be very much grateful!</p> <p><a href="https://github.com/20-buck-spin/lepto-task">https://github.com/20-buck-spin/lepto-task</a></p> <p>Looking forward to feed back and suggestions!<br/> I wrote the code myself but had help from LLMs writing the CSS (I suck at it), looking for bugs, and general research. I am not the smartest tool in the shed, and wouldn&#39;t have been able to figure out the logic for the process management system without guidance (but I personally wrote it after the research phase).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/4121madey"> /u/4121madey </a> <br/> <span><a href="https://www.reddit.com/r/rust/comments/1vjnun8/learning_project_a_leptos_based_cron_like_process/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/rust/comments/1vjnun8/learning_project_a_leptos_based_cron_like_process/">[comments]</a></span>
+
+[Science] Bringing Post-Quantum Cryptography to Java LTS Releases
+
+&#32; submitted by &#32; <a href="https://www.reddit.com/user/donutloop"> /u/donutloop </a> <br/> <span><a href="https://blogs.oracle.com/java/post-quantum-cryptography-in-long-term-support-jdk-releases">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/programming/comments/1vh24uw/bringing_postquantum_cryptography_to_java_lts/">[comments]</a></span>
+
+[Science] I started Tyndall AI
+
+I'm building Tyndall AI on my own.
+
+The name comes from the Tyndall effect. My chemistry teacher explained it once, and it stuck with me, so I used it.
+
+I haven't decided yet whether to focus on image or video. Both are interesting, so for now I'm shipping both.
+
+There's one thing I really want to build: a tool where you can line up different models and compare them in one click. I couldn't find a good one. A lot of comparisons are just numbers. You barely see the actual images or videos. So you still don't know how your own prompt will look.
+
+That's what I'm experimenting with first. If you have thoughts, tell me.
+
+https://tyndallai.com
+
+PS. I'm not great at writing, but I'll try to explain things clearly!
+
+[Science] [D] Self-Promotion Thread
+
+<!-- SC_OFF --><div class="md"><p>Please post your personal projects, startups, product placements, collaboration needs, blogs etc.</p> <p>Please mention the payment and pricing requirements for products and services.</p> <p>Please do not post link shorteners, link aggregator websites , or auto-subscribe links.</p> <p>--</p> <p>Any abuse of trust will lead to bans.</p> <p>Encourage others who create new posts for questions to post here instead!</p> <p>Thread will stay alive until next one so keep posting after the date in the title.</p> <p>--</p> <p>Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/AutoModerator"> /u/AutoModerator </a> <br/> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1vd5kqk/d_selfpromotion_thread/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1vd5kqk/d_selfpromotion_thread/">[comments]</a></span>
+
+[Science] ​Built a tool to generate slides from research papers using local LLMs (because I hate formatting decks and privacy matters) [P]
+
+<!-- SC_OFF --><div class="md"><p>​​Hi guys,</p> <p>​Every time I had to prepare a presentation based on a paper or research doc, I found the process super tedious. Plus, I really dislike uploading unpublished stuff or sensitive data to online AI services just to get a draft.</p> <p>​So I put together a tool called academi\_slide to automate this locally.</p> <p>​Basically, it extracts sections, tables, charts, metrics, and citations from docs, and uses prompt optimization / deck planning to get a solid first draft out of a local model (ollama, llama.cpp, or cloud if you want).</p> <p>​It also handles multilingual input/output if you need to present in another language, and builds both the slide deck and a brief in a few minutes so you don&#39;t start from scratch.</p> <p>​It&#39;s open source, still early, and I&#39;m sharing it in case anyone else finds it useful or has a similar workflow.</p> <p>​Repo is here if you want to test it out: <a href="https://github.com/nicolaslpf/academi_slide">https://github.com/nicolaslpf/academi_slide</a></p> <p>​Would love to get some feedback or hear what you think!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/nickemlop"> /u/nickemlop </a> <br/> <span><a href="https://www.reddit.com/r/MachineLearning/comments/1vi0c4k/built_a_tool_to_generate_slides_from_research/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/MachineLearning/comments/1vi0c4k/built_a_tool_to_generate_slides_from_research/">[comments]</a></span>
+
+[Science] Platform/DevOps/SRE practitioners: looking for independent technical review of a research implementation
+
+<!-- SC_OFF --><div class="md"><p>I’m developing <strong>HybridOps Core, an MIT-0 open-source research implementation for governed infrastructure operations</strong>, and I’m looking for practitioners willing to give a short, candid technical assessment of specific parts of the work.</p> <p>The work examines whether infrastructure intent, environment policy, dependency ordering, preflight, execution, verification and run records can be expressed through a stable runtime contract across heterogeneous environments.</p> <p>I’ve published several technical papers alongside the implementation and opened focused GitHub review threads for independent critique. The aim is not a code audit or unpaid QA. Reviewers are being asked to assess the architecture, operating assumptions, failure boundaries and practical relevance of the work.</p> <p>Current review areas include contract-driven runtime design, image lifecycle and verification, reproducible network environments, infrastructure authority and source-of-truth boundaries, and recovery operations.</p> <p>If one of those areas overlaps with your experience, comment with the area and I’ll send the relevant paper and review thread. Critical findings and counterexamples are welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/InnerBank2400"> /u/InnerBank2400 </a> <br/> <span><a href="https://www.reddit.com/r/devops/comments/1vituwp/platformdevopssre_practitioners_looking_for/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/devops/comments/1vituwp/platformdevopssre_practitioners_looking_for/">[comments]</a></span>
+
+[Science] Looking for existing work on autonomous/agentic API testing from OpenAPI
+
+<!-- SC_OFF --><div class="md"><p>I&#39;m working on a project around autonomous API testing and I&#39;m trying to figure out what already exists before I build too much myself.</p> <p>The idea is roughly:</p> <pre><code>OpenAPI spec ↓ LLM agent (LangGraph) ↓ Tools: - inspect OpenAPI / schemas - generate baseline contract-derived test cases - send HTTP requests - inspect/validate responses - execute generated tests - inspect previous observations/results ↓ Agent reasons about what it observed ↓ forms hypotheses / chooses next experiments ↓ finds potential bugs ↓ generates reproducible regression tests </code></pre> <p>The important part for me is that I <strong>don&#39;t just want an LLM to generate pytest files from an OpenAPI spec</strong>.</p> <p>I want the agent to actually interact with the running API, observe responses, maintain context/state, and decide what to test next based on what it learns.</p> <p>For example:</p> <ol> <li>OpenAPI says <code>age &gt;= 18</code>.</li> <li>Agent runs a valid request.</li> <li>It tests <code>age = 17</code>.</li> <li>API unexpectedly returns <code>201</code>.</li> <li>Agent recognizes that this may indicate an unenforced constraint.</li> <li>It runs additional experiments (<code>0</code>, <code>-1</code>, etc.).</li> <li>If confirmed, it generates a reproducible regression test.</li> </ol> <p>I&#39;ve looked at projects such as <strong>Schemathesis, RESTler, EvoMaster</strong>, and some newer LLM-based API testing research such as <strong>MASTEST/APITestGenie</strong>. They cover different pieces of this problem, but I haven&#39;t found an open-source project that combines them into a tool-using LLM agent with this kind of iterative exploration loop.</p> <p>I&#39;m particularly interested in:</p> <ul> <li>Existing open-source projects doing something similar</li> <li>Research papers I may have missed</li> <li>Tools that can generate the <strong>baseline/obvious test cases from OpenAPI and expose those cases</strong>, rather than only executing them</li> <li>Agentic API testing systems that actually use execution feedback to guide subsequent tests</li> <li>Whether this is essentially reinventing RESTler/EvoMaster with an LLM, or whether there is a meaningful gap here</li> </ul> <p>If you&#39;ve worked on something similar, I&#39;d be very interested in hearing about the architecture and what worked/didn&#39;t work.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/BangMaster19"> /u/BangMaster19 </a> <br/> <span><a href="https://www.reddit.com/r/learnprogramming/comments/1vkfotw/looking_for_existing_work_on_autonomousagentic/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/learnprogramming/comments/1vkfotw/looking_for_existing_work_on_autonomousagentic/">[comments]</a></span>
+
+[Science] The Meeting You Skipped Was the One That Actually Mattered
+
+The Meeting Problem Is Real. The Fix Is Incomplete.
+Let’s be honest about what we were running away from. Post-2020, people found themselves trapped in a endless loop of video calls, with Microsoft recording over a 2.5x jump in total weekly meeting hours. The default response to every minor query became a 30-minute calendar block. That isn't collaboration; it's operational paralysis.
+
+When Atlassian surveyed 5,000 global workers, meetings comfortably crowned the list as the primary barrier to getting actual work done — beating out unclear priorities and low morale. Over three-quarters of people admitted to feeling completely wiped out on heavy meeting days, often pushing their actual tasks into overtime just to catch up.
+
+Moving toward asynchronous communication wasn't a fad; it was self-defense. Research published in MIT Sloan Management Review showed that cutting out just one day of meetings a week led to noticeable boosts in autonomy, clearer communication, and higher job satisfaction, all while lowering daily stress. When companies pushed that further to a 40% reduction — essentially two meeting-free days — productivity surged by over 70%.
+
+The async movement isn't wrong about the disease. They’re just applying a partial cure and calling it a full recovery.
+
+
+  
+  
+  What the Summary Leaves Out
+
+
+A crisp, well-structured summary is great at recording what got decided. What it completely misses is how the decision actually happened.
+
+It won't tell you how close the consensus really was. It misses the slight hesitation in a principal engineer’s voice when she muttered, "I guess I can live with it." It hides the fact that the product manager stayed silent for forty minutes — which, if you know how they operate, is usually a red flag.
+
+Human interaction relies heavily on non-verbal cues — micro-expressions, posture, uncomfortable pauses. They add essential texture to our words and reveal how people actually feel about a plan. Strip all that away, and you're left with a static document. Documents are useful references, but they don't carry the authority or emotional weight of a shared room.
+
+Trust in remote setups doesn't usually form in formal channels; it built gradually through informal banter and subtle visual signals. Async workflows strip those away. When you read a three-sentence recap of a long, nuanced debate, you aren't getting the full picture — you're reading an edited narrative shaped by whoever wrote the notes.
+
+Atlassian’s findings highlight how meeting culture often fails because a few loud voices dominate while everyone else checks out. That’s a valid critique. But shifting to async doesn't magically fix power dynamics; it often just ensures that the loudest voice becomes the only one written into the record.
+
+
+  
+  
+  The Buy-In Problem Nobody Talks About
+
+
+Some meetings aren't about sharing information. They’re about forming a social contract.
+
+When a company executes a major shift — a reorg, a new tech stack, a change in strategy — the live discussion is where team members decide whether they are truly onboard. Not in a dramatic "I resign" way, but in the quiet choice between actively championing the direction or subtly ignoring it while sticking to their old habits.
+
+When people feel safe expressing themselves, they take risks: they challenge assumptions, point out flaws, and voice doubts. That tension is what creates true ownership. But ownership can't be attached as a PDF or summarized in a bullet point. It has to be forged in real-time through the friction of live conversation.
+
+Studies on high-performing tech teams confirm that psychological safety — built on active dialogue, open exchange, and genuine give-and-take — directly drives innovation. Notice the emphasis: it’s the process of communicating live, not just receiving the final takeaway, that builds alignment.
+
+This is where pure efficiency math collapses. Teams easily measure the hours saved by wiping meetings off the calendar. What they fail to track is the invisible friction that builds up when employees execute plans they privately doubt, simply because they never got a chance to air their concerns to someone who could respond on the spot.
+
+The Counterargument Deserves a Fair Hearing
+To be fair, async advocates raise a point that frequently gets ignored: live meetings are not automatically inclusive.
+
+Synchronous setups inherently favor fast talkers, extroverts, and whoever happens to be online in the right timezone. People who prefer time to process ideas before speaking are routinely sidelined. For a team split between São Paulo and Singapore, a live "alignment" call often aligns only the people awake enough to participate without drinking their fourth coffee.
+
+Even Atlassian — a company whose tools heavily promote async work — acknowledges that working purely asynchronously makes it harder to build real relationships. They openly note that gathering synchronously to build personal rapport and trust pays dividends that static updates never will.
+
+The sensible view isn't that async and sync are mortal enemies; they’re just tools engineered for different jobs. Async is ideal for status updates, simple check-ins, and passing along clear info. Live interaction is required when you need people to wrestle with complex problems, debate risks, and align on tough trade-offs. The issue today is that organizations have stopped making this choice intentionally. They default to async out of calendar fatigue, replacing difficult conversations with written notes regardless of whether the decision actually calls for it.
+
+
+  
+  
+  The Coordination Tax Nobody's Accounting For
+
+
+Projects frequently launch with excitement and end near a deadline, but very little real alignment happens in the middle. Molly Sands, who leads Atlassian’s Teamwork Labs, put it bluntly: teams assume everyone is aligned, but in reality, few people know what their peers are act
+
+[Science] Ghostjacking: Turning Logs and Alerts into Commands to Take Over AI Agents
+
+Ghostjacking: Turning Logs and Alerts into Commands to Take Over AI Agents
+
+
+
+  
+  
+  1. Basic Information
+
+
+
+
+Article Title: GhostJacking Attacks: Half of the Fortune 500 Run These Tools
+
+Publisher: Tenet Security Threat Labs
+
+Publication Date: August 9, 2026
+
+Original Source: Tenet Security
+
+
+Related Sources: SecurityWeek
+
+
+Related Products and Services: Claude Code, Claude Desktop, Cloudflare, Datadog, Sentry / Seer
+
+Attack Techniques: Indirect prompt injection, log/alert poisoning, agent-to-agent injection, agent memory/tool persistence, sandbox escape
+
+CVE: None published. Claude Desktop network sandbox bypass has been reported and fixed.
+
+Severity: High
+
+
+The published content is a PoC using the researcher's own test account and public APIs, not a report of actual damage. The number of exposed organizations and the "zero detection with standard defenses" are claims based on research conditions.
+
+
+  
+  
+  2. Summary in One Sentence
+
+
+This is an attack where attackers embed natural language commands into WAF logs, monitoring alerts, and bug reports. When an AI agent with both investigation and modification permissions reads them, it executes regular tool calls to change DNS settings, run commands, steal cloud credentials, pass commands to other AIs, and create backdoors for persistence in the agent itself.
+
+
+  
+  
+  3. Attack Flow
+
+
+
+  
+  
+  Chain A: DNS Hijacking from Cloudflare WAF Logs
+
+
+
+An attacker sends a malicious HTTP request containing command text.
+Cloudflare managed rules block the request.
+The body of the blocked request is recorded in the logs.
+An analyst asks the AI assistant to investigate the block event.
+The agent interprets the attacker's text in the log as an instruction instead of investigation data.
+The agent uses its pre-granted Cloudflare modification permissions to rewrite DNS records.
+Web and mail traffic are redirected to the attacker, and the agent reports "issue resolved."
+
+
+
+  
+  
+  Chain B: Command Execution and Credential Theft from Datadog Alerts
+
+
+
+An attacker obtains a public frontend key.
+The attacker embeds commands into a fake "emergency diagnosis" alert.
+An engineer asks Claude Code or a similar tool to investigate the error.
+The agent reads the alert and runs the attacker's commands.
+Environment secrets and cloud credentials are stolen and sent outside.
+
+
+
+  
+  
+  Chain C: Propagation from Sentry / Seer to Other AIs
+
+
+
+An attacker submits a crafted issue or report to Sentry.
+Sentry Seer adopts the injected "fix proposal" as its own conclusion.
+A coding agent accepts Seer's conclusion as trusted output.
+The agent executes the attacker's code without checking the original untrusted report.
+
+
+
+  
+  
+  Chain D: Exfiltration and Persistence
+
+
+
+A fixed sandbox bypass in Claude Desktop allows sending data to arbitrary servers.
+Backdoor instructions are left in the agent config, memory, and tool definitions.
+The attacker's intent is executed even in later sessions.
+
+
+
+  
+  
+  4. Attacker Position and Execution Location
+
+
+
+Attackers inject "observed data" such as WAF requests, Datadog events, and Sentry issues from the outside.
+Prompt interpretation and tool selection take place on the developer's device or the corporate AI agent runtime.
+DNS changes, cloud APIs, and monitoring queries are executed using legitimate integrations and agent identities.
+Terminal commands are run using coding agent permissions, and external transmissions use agent/sandbox network paths.
+
+
+
+  
+  
+  5. What Victims and Administrators See
+
+
+To the analyst, it looks like "investigating a blocked request," "diagnosing an alert," or "a fix proposed by AI." In IAM, it is a permitted agent identity, and in APIs, it is a legitimate tool call. It likely does not involve malware files or credential failures. Anomalies appear when modification APIs are called right after investigation reads, log strings match tool arguments, network access goes to unusual destinations, or agent memory/config is changed.
+
+
+  
+  
+  6. Success and Failure Conditions
+
+
+
+  
+  
+  Success Conditions
+
+
+
+The attacker can inject data into logs, alerts, or issues read by the agent.
+The agent processes data and instructions in the same context without separating them.
+The same agent has write permissions for DNS, commands, cloud, etc., in addition to read permissions.
+There is no human approval for tool calls, no destination allowlist, and no argument validation.
+The agent runtime can reach the external network.
+Agent memory, config, and tool definitions allow persistent writes.
+
+
+
+  
+  
+  Failure Conditions
+
+
+
+Untrusted fields are structured as non-command data and not directly concatenated into prompts.
+Read-only investigation agents and modification agents are separated.
+Human approval is required for DNS, credentials, commands, and external POSTs.
+Agent egress is deny-by-default, with destination/method allowlists.
+Memory and config changes require signatures, approvals, and diff audits.
+Tool calls are logged and correlated down to the actor, source, object, argument, and result.
+
+
+
+  
+  
+  7. What Happens on Success
+
+
+Within the limits of legitimate agent permissions, domain/mail routing changes, terminal code execution, environment secret/cloud credential theft, command propagation to other agents, and persistent backdoors can occur. This is not an event where "the LLM creates its own autonomous goals," but rather a privilege delegation execution where the attacker's instructions enter the agent planner via trusted data.
+
+
+  
+  
+  8. Observable Logs
+
+
+
+  
+  
+  Email
+
+
+
+Mail routing anomalies after DNS/MX changes, changed delivery destinations, TLS certificate/SPF/DKIM differences.
+Messages or links from Sentry/Datadog notifications up to agent startup.
+
+
+
+  
+  
+  Proxy / SWG / DNS
+
+
+
+Traffic from coding agents or Claude Desktop to unauthorized destinations.
+DNS record changes via Cloudflare API and immediate changes in name r
+
+[Science] Optimizing an NVFP4 Blockscaled GEMM on RTX PRO 6000 Blackwell GPU (SM120)
+
+&#32; submitted by &#32; <a href="https://www.reddit.com/user/mttd"> /u/mttd </a> <br/> <span><a href="https://research.colfax-intl.com/optimizing-an-nvfp4-blockscaled-gemm-on-rtx-pro-6000-blackwell-gpu-sm120/">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/programming/comments/1vkua29/optimizing_an_nvfp4_blockscaled_gemm_on_rtx_pro/">[comments]</a></span>
+
+[Science] I Stopped Trusting My Coding Agent to Read the Docs
+
+Research on real coding agents suggests that important repository knowledge must be deliberately routed into the workflow.Continue reading on Medium »
+
+[Science] microstructure-sim: Lock-free LOB + Avellaneda-Stoikov market making + statistical arbitrage in Rust
+
+<!-- SC_OFF --><div class="md"><p>Built a full market microstructure research platform in Rust — not just a matching engine.</p> <p>Architecture (6 crates):</p> <ul> <li>orderbook-core: Lock-free LOB, SkipMap price levels, 64-byte cache-line alignment, &lt;500ns insert</li> <li>market-maker: Avellaneda-Stoikov optimal quoting with inventory risk, MLE kappa calibrator</li> <li>simulator: Latency-aware discrete-event, parametric queue model p(x)=x^(1+k), deterministic replay</li> <li>exchange-feed: Live L2/L3 reconstruction from Binance/Coinbase WebSockets</li> <li>stat-arb: ADF/Engle-Granger cointegration, Kalman filter hedge ratios, pairs signals</li> <li>metrics-engine: Sharpe/Sortino, adverse selection markouts, PnL attribution, terminal dashboard</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href="https://www.reddit.com/user/assassin9163"> /u/assassin9163 </a> <br/> <span><a href="https://github.com/mwaleedta/microstructure-sim">[link]</a></span> &#32; <span><a href="https://www.reddit.com/r/rust/comments/1vwvema/microstructuresim_lockfree_lob_avellanedastoikov/">[comments]</a></span>
+
+[Science] Light Bulbs and Computers
+
+Your phone descends from a dirty lamp, a failed experiment, and a calculator built overnight on a kitchen table.Continue reading on AI Advances »
+

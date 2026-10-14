@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:krahets/hello-algo:codes/ruby/test_all.rb",
+  "title": "krahets/hello-algo/codes/ruby/test_all.rb",
+  "text": "require 'open3'\n\nstart_time = Time.now\nruby_code_dir = File.dirname(__FILE__)\nfiles = Dir.glob(\"#{ruby_code_dir}/chapter_*/*.rb\")\n\nerrors = []\n\nfiles.each do |file|\n  stdout, stderr, status = Open3.capture3(\"ruby #{file}\")\n  errors << stderr unless status.success?\nend\n\nputs \"\\x1b[34mTested #{files.count} files\\x1b[m\"\n\nunless errors.empty?\n  puts \"\\x1b[33mFound exception in #{errors.length} files\\x1b[m\"\n  raise errors.join(\"\\n\\n\")\nelse\n  puts \"\\x1b[32mPASS\\x1b[m\"\nend\n\nputs \"Testing finishes after #{((Time.now - start_time) * 1000).round} ms\"\n",
+  "url": "https://raw.githubusercontent.com/krahets/hello-algo/main/codes/ruby/test_all.rb",
+  "language": "ruby",
+  "kind": "code"
+}

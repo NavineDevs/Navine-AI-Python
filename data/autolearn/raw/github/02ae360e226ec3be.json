@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:actioncable/test/worker_test.rb",
+  "title": "rails/rails/actioncable/test/worker_test.rb",
+  "text": "# frozen_string_literal: true\n\nrequire \"test_helper\"\n\nclass WorkerTest < ActionCable::TestCase\n  class Receiver\n    attr_accessor :last_action\n\n    def run\n      @last_action = :run\n    end\n\n    def process(message)\n      @last_action = [ :process, message ]\n    end\n\n    def connection\n      self\n    end\n\n    def logger\n      # Impersonating a connection requires a TaggedLoggerProxy'ied logger.\n      inner_logger = Logger.new(StringIO.new).tap { |l| l.level = Logger::UNKNOWN }\n      ActionCable::Server::TaggedLoggerProxy.new(inner_logger, tags: [])\n    end\n  end\n\n  setup do\n    @worker = ActionCable::Server::Worker.new\n    @receiver = Receiver.new\n  end\n\n  teardown do\n    @receiver.last_action = nil\n  end\n\n  test \"invoke\" do\n    @worker.invoke @receiver, :run, connection: @receiver.connection\n    assert_equal :run, @receiver.last_action\n  end\n\n  test \"invoke with arguments\" do\n    @worker.invoke @receiver, :process, \"Hello\", connection: @receiver.connection\n    assert_equal [ :process, \"Hello\" ], @receiver.last_action\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/actioncable/test/worker_test.rb",
+  "language": "ruby",
+  "kind": "code"
+}

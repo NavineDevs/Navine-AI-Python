@@ -1,0 +1,6 @@
+{
+  "parameters": 1031615107,
+  "name": "deepfake",
+  "size_tier": "gpt3_1b",
+  "unique_trainable": true
+}

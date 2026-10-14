@@ -1,0 +1,18 @@
+{
+  "id": "e1be5198d646bbca",
+  "url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\human\\human_0160_1786606558773623600.png",
+  "caption": "human_0160 | [image, human] | tags: local",
+  "filename": "e1be5198d646bbca.png",
+  "timestamp": "2026-08-21T17:46:23.335982+00:00",
+  "content_type": "image/png",
+  "media_category": "human",
+  "subject_type": "human",
+  "style_type": "photography",
+  "tags": [
+    "human",
+    "local"
+  ],
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\local\\human\\human_0160.png",
+  "kind": "image"
+}

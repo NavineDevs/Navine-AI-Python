@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u1onau",
+  "title": "I’m building GoWDK, a Svelte-inspired web framework for Go.",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Honestly, I’m starting to wonder if I’m wasting my time.</p> <p>I like Go, but web development in Go still feels too verbose when you have framework like svelte. Most options either feel too backend-only, too manual, or they push you back into react and similar stack.</p> <p>So I started building with this :</p> <p>Go components<br/> server-side rendering<br/> simple syntax<br/> minimal JS<br/> Go-native tooling<br/> Freaking compiler</p> <p>The frustrating part is that building a framework is a lot of work, and I’m not sure if Go developers actually want this kind of thing.</p> <p>Would a Svelte-like framework for Go be useful to you, or am I solving a problem most Go devs don’t care about?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OkSeesaw7030\"> /u/OkSeesaw7030 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1u1onau/im_building_gowdk_a_svelteinspired_web_framework/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u1onau/im_building_gowdk_a_svelteinspired_web_framework/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1u1onau/im_building_gowdk_a_svelteinspired_web_framework/"
+}

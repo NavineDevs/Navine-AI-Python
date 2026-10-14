@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\images\\infini-atomic\\infini_marin-kitagawa_8070.jpg",
+  "title": "infini_marin-kitagawa_8070",
+  "text": "infini_marin-kitagawa_8070",
+  "url": "data\\nsfw\\images\\local\\general\\infini_marin-kitagawa_8070_1782072524136939700.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\infini_marin-kitagawa_8070_1782072524136939700.jpg",
+  "caption": "infini_marin-kitagawa_8070 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": null,
+  "tags": [
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

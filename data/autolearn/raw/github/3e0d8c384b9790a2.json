@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:client/postcss.config.js",
+  "title": "freeCodeCamp/freeCodeCamp/client/postcss.config.js",
+  "text": "module.exports = {\n  plugins: {\n    autoprefixer: {\n      overrideBrowserslist: ['last 2 versions']\n    }\n  }\n};\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/client/postcss.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

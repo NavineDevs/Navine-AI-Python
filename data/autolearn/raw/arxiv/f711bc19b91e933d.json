@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2607.07650v1",
+  "title": "Modeling Failure Dynamics in Time-Constrained Authentication Systems: Evidence of a Success Cliff in USSD Workflows",
+  "text": "Modeling Failure Dynamics in Time-Constrained Authentication Systems: Evidence of a Success Cliff in USSD Workflows\n\nTime-constrained interactive systems such as USSD (Unstructured Supplementary Service Data)-based financial services operate under strict session limits and sequential user interaction. While stronger authentication mechanisms improve security, they also increase interaction complexity and time burden, potentially reducing transaction completion. In this work, we model the failure dynamics of such systems and investigate how authentication complexity interacts with user response time and network round-trip time to influence session success rate. We propose and implement a simulation-based framework to investigate these failure dynamics and formally define a non-linear failure phenomenon, termed the \\textit{Success Cliff}, where session success rates sharply decline beyond a critical complexity threshold. Through controlled experiments, we quantify the trade-off between security and usability and identify conditions under which secure authentication workflows become operationally unreliable.",
+  "url": "https://arxiv.org/abs/2607.07650v1",
+  "category": "technical"
+}

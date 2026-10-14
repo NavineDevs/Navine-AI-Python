@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vj7wu2",
+  "title": "AArch64 - llvm-args - Fix some erratas for Cortex-A53",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hello!</p> <p>I&#39;m a newbie with Rust and have some issues with running a bare-metal project on real hardware. It works fine when I run this project in QEMU.</p> <p>The hardware uses a Cortex-A53 processor. But there are some erratas, especially when the <code>ADRP</code> instruction is used. Which seems to be the issue, when investigating the disassembled Rust code with <code>objdump</code>.</p> <p>On GCC and the GNU binutils there exists some compiler and linker switches to fix the issue. Is there a way to pass equivalent options to the Rust compiler?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Krotti83\"> /u/Krotti83 </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1vj7wu2/aarch64_llvmargs_fix_some_erratas_for_cortexa53/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vj7wu2/aarch64_llvmargs_fix_some_erratas_for_cortexa53/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vj7wu2/aarch64_llvmargs_fix_some_erratas_for_cortexa53/"
+}

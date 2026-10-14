@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vtt1hu",
+  "title": "new portable SIMD package is very promising",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Just a thought I had... Nothing special.</p> <p>Go 1.27 now comes with the new experimental portable simd package.</p> <p>Previously you could only do SIMD things using assembly (not portable) or with a external package (which stdlib wouldn&#39;t use).</p> <p>The fact that future Go versions will (hopefully) ship with this portable simd package means future stdlib functions will be able to use it, making it even easier to write efficient cryptography algorithms, hash functions, and so on.</p> <p>Go is evolving in a pretty nice direction!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AkaIgor\"> /u/AkaIgor </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vtt1hu/new_portable_simd_package_is_very_promising/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vtt1hu/new_portable_simd_package_is_very_promising/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vtt1hu/new_portable_simd_package_is_very_promising/"
+}

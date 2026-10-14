@@ -1,0 +1,18 @@
+{
+  "prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+  "caption": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+  "filename": "video_20260814_141005.mp4",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-08-14T14:10:22.149193+00:00",
+  "enhanced_prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+  "num_frames": 16,
+  "fps": 12,
+  "seed": 665032198,
+  "fallback": true,
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "category": null,
+  "generation_mode": "external_diffusion_hybrid",
+  "image_model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\external\\video\\video_20260814_141005.mp4"
+}

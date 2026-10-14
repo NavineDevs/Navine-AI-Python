@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sorin-ionescu/prezto:modules/fasd/init.zsh",
+  "title": "sorin-ionescu/prezto/modules/fasd/init.zsh",
+  "text": "#\n# Maintains a frequently used file and directory list for fast access.\n#\n# Authors:\n#   Wei Dai <x@wei23.net>\n#   Sorin Ionescu <sorin.ionescu@gmail.com>\n#\n\n# Load dependencies.\npmodload 'editor'\n\n# If the command doesn't exist externally, we need to fall back to the bundled\n# submodule.\nif (( ! $+commands[fasd] )); then\n  source \"${0:h}/external/fasd\" || return 1\nfi\n\n#\n# Initialization\n#\n\ncache_file=\"${XDG_CACHE_HOME:-$HOME/.cache}/prezto/fasd-cache.zsh\"\nif [[ \"${commands[fasd]}\" -nt \"$cache_file\" \\\n      || \"${ZDOTDIR:-$HOME}/.zpreztorc\" -nt \"$cache_file\" \\\n      || ! -s \"$cache_file\"  ]]; then\n  # Set the base init arguments.\n  init_args=(zsh-hook)\n\n  # Set fasd completion init arguments, if applicable.\n  if zstyle -t ':prezto:module:completion' loaded; then\n    init_args+=(zsh-ccomp zsh-ccomp-install zsh-wcomp zsh-wcomp-install)\n  fi\n\n  mkdir -p \"$cache_file:h\"\n  # Cache init code.\n  fasd --init \"$init_args[@]\" >! \"$cache_file\" 2> /dev/null\nfi\n\nsource \"$cache_file\"\n\nunset cache_file init_args\n\nfunction fasd_cd {\n  local fasd_ret=\"$(fasd -d \"$@\")\"\n  if [[ -d \"$fasd_ret\" ]]; then\n    cd \"$fasd_ret\"\n  else\n    print \"$fasd_ret\"\n  fi\n}\n\n#\n# Aliases\n#\n\nif ! zstyle -t ':prezto:module:fasd:alias' skip; then\n  # Changes the current working directory interactively.\n  alias j='fasd_cd -i'\nfi\n",
+  "url": "https://raw.githubusercontent.com/sorin-ionescu/prezto/master/modules/fasd/init.zsh",
+  "language": "shell",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:yt-dlp/yt-dlp:devscripts/zsh-completion.py",
+  "title": "yt-dlp/yt-dlp/devscripts/zsh-completion.py",
+  "text": "#!/usr/bin/env python3\n\n# Allow direct execution\nimport os\nimport sys\n\nsys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\n\n\nimport yt_dlp\n\nZSH_COMPLETION_FILE = 'completions/zsh/_yt-dlp'\nZSH_COMPLETION_TEMPLATE = 'devscripts/zsh-completion.in'\n\n\ndef build_completion(opt_parser):\n    opts = [opt for group in opt_parser.option_groups\n            for opt in group.option_list]\n    opts_file = [opt for opt in opts if opt.metavar == 'FILE']\n    opts_dir = [opt for opt in opts if opt.metavar == 'DIR']\n    opts_path = [opt for opt in opts if opt.metavar == 'PATH']\n\n    fileopts = []\n    for opt in opts_file:\n        if opt._short_opts:\n            fileopts.extend(opt._short_opts)\n        if opt._long_opts:\n            fileopts.extend(opt._long_opts)\n\n    for opt in opts_path:\n        if opt._short_opts:\n            fileopts.extend(opt._short_opts)\n        if opt._long_opts:\n            fileopts.extend(opt._long_opts)\n\n    diropts = []\n    for opt in opts_dir:\n        if opt._short_opts:\n            diropts.extend(opt._short_opts)\n        if opt._long_opts:\n            diropts.extend(opt._long_opts)\n\n    flags = [opt.get_opt_string() for opt in opts]\n\n    with open(ZSH_COMPLETION_TEMPLATE) as f:\n        template = f.read()\n\n    template = template.replace('{{fileopts}}', '|'.join(fileopts))\n    template = template.replace('{{diropts}}', '|'.join(diropts))\n    template = template.replace('{{flags}}', ' '.join(flags))\n\n    with open(ZSH_COMPLETION_FILE, 'w') as f:\n        f.write(template)\n\n\nparser = yt_dlp.parseOpts(ignore_config_files=True)[0]\nbuild_completion(parser)\n",
+  "url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/devscripts/zsh-completion.py",
+  "language": "python",
+  "kind": "code"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:40480",
+  "title": "Is Java &quot;pass-by-reference&quot; or &quot;pass-by-value&quot;?",
+  "text": "Is Java &quot;pass-by-reference&quot; or &quot;pass-by-value&quot;?\n\n<p>I always thought Java uses <strong>pass-by-reference</strong>. However, I read <a href=\"http://javadude.com/articles/passbyvalue.htm\" rel=\"noreferrer\">a blog post</a> which claims that Java uses <strong>pass-by-value</strong>. I don't think I understand the distinction the author is making.</p>\n<p>What is the explanation?</p>",
+  "url": "https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value",
+  "kind": "qa"
+}

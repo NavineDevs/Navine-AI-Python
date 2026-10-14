@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:api/prisma.config.ts",
+  "title": "freeCodeCamp/freeCodeCamp/api/prisma.config.ts",
+  "text": "import type { PrismaConfig } from 'prisma';\n\nexport default {\n  schema: 'prisma'\n} satisfies PrismaConfig;\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/api/prisma.config.ts",
+  "language": "typescript",
+  "kind": "code"
+}

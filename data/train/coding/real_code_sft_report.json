@@ -1,0 +1,6 @@
+{
+  "examples": 20,
+  "blocks": 1200,
+  "txt": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\train\\coding\\real_code_sft.txt",
+  "jsonl": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\train\\coding\\real_code_sft.jsonl"
+}

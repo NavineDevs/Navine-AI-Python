@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:squizlabs/PHP_CodeSniffer:src/Exceptions/DeepExitException.php",
+  "title": "squizlabs/PHP_CodeSniffer/src/Exceptions/DeepExitException.php",
+  "text": "<?php\n/**\n * An exception thrown by PHP_CodeSniffer when it wants to exit from somewhere not in the main runner.\n *\n * Allows the runner to return an exit code instead of putting exit codes elsewhere\n * in the source code.\n *\n * @author    Greg Sherwood <gsherwood@squiz.net>\n * @copyright 2006-2015 Squiz Pty Ltd (ABN 77 084 670 600)\n * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence\n */\n\nnamespace PHP_CodeSniffer\\Exceptions;\n\nclass DeepExitException extends \\Exception\n{\n\n}//end class\n",
+  "url": "https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/src/Exceptions/DeepExitException.php",
+  "language": "php",
+  "kind": "code"
+}

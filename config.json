@@ -1,0 +1,48 @@
+{
+  "format": "navine-llm-v1",
+  "runnable": true,
+  "name": "Navine AI - Python",
+  "internal_id": "text_code",
+  "engine": "Navine Engine",
+  "modality": "multimodal",
+  "modalities": ["text", "image", "video", "voice"],
+  "role": "Navine Engine - Coding specialist",
+  "config_name": "text_enterprise",
+  "weights": {
+    "text": "latest.pt",
+    "image": "checkpoints/image_enterprise/latest.pt",
+    "video": "checkpoints/video_enterprise/latest.pt"
+  },
+  "weights_path": {
+    "text": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\text_code\\latest.pt",
+    "image": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\image_enterprise\\latest.pt",
+    "video": "C:\\Users\\hitbo\\Downloads\\Navine AI\\checkpoints\\video_enterprise\\latest.pt"
+  },
+  "voice": {
+    "pipeline": "tts",
+    "engine": "navine_tts"
+  },
+  "tokenizer": "tokenizer.json",
+  "tokenizer_path": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\tokenizer.json",
+  "parameters": {
+    "text": 57936000,
+    "image": 27398723,
+    "video": 25808723,
+    "total": 111143446
+  },
+  "architecture": {
+    "vocab_size": 12000,
+    "d_model": 640,
+    "n_heads": 10,
+    "n_layers": 10,
+    "d_ff": 2560,
+    "max_seq_len": 1024,
+    "dropout": 0.08,
+    "use_rope": true,
+    "use_kv_cache": true,
+    "use_swiglu": true,
+    "use_rms_norm": true,
+    "tie_embeddings": true
+  },
+  "updated_at": "2026-08-19T12:49:00.000000+00:00"
+}

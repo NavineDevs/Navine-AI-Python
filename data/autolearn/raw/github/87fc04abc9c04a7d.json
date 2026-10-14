@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeok/so-novel:bundle/run-macos.sh",
+  "title": "freeok/so-novel/bundle/run-macos.sh",
+  "text": "#!/bin/bash\n\n# 切换到脚本所在目录\ncd \"$(dirname \"$0\")\" || { echo \"无法进入脚本目录\"; exit 1; }\n\n# 设置权限\nchmod 777 ./runtime/Contents/Home/bin/java || { echo \"设置权限失败\"; exit 1; }\n\n# 检查文件是否存在\n[ -f ./runtime/Contents/Home/bin/java ] || { echo \"未找到 Java 可执行文件\"; exit 1; }\n[ -f app.jar ] || { echo \"未找到 app.jar\"; exit 1; }\n[ -f config.ini ] || { echo \"未找到 config.ini\"; exit 1; }\n\n# 运行 Java 应用\n./runtime/Contents/Home/bin/java \\\n  -XX:+UseZGC \\\n  -XX:+ZGenerational \\\n  -Dconfig.file=config.ini \\\n  -Dmode=tui \\\n  -jar app.jar || { echo \"运行 Java 应用失败\"; exit 1; }",
+  "url": "https://raw.githubusercontent.com/freeok/so-novel/main/bundle/run-macos.sh",
+  "language": "shell",
+  "kind": "code"
+}

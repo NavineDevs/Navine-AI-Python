@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.23615v1",
+  "title": "Hedgementation = Hedgerow Segmentation: A Remote Sensing Benchmark",
+  "text": "Hedgementation = Hedgerow Segmentation: A Remote Sensing Benchmark\n\nWe propose Hedgementation: a new benchmark to evaluate machine learning models for hedgerow mapping from remote sensing data at country scale and 10m$^2$ spatial resolution. We combine and harmonize multiple remote sensing data products and ground truth labels sourced from a hedgerow inventory in France. We measure the ability of three baseline models to generalize across spatial distance, and across climatic zones, a more explicitly challenging task. Our benchmark tests both supervised and self-supervised learning approaches for remote sensing, applied to tracking fine-scale features of high agricultural importance. The code to reproduce the benchmark and baselines results is available at https://github.com/hedgementation/hedgementation.",
+  "url": "https://arxiv.org/abs/2606.23615v1",
+  "category": "technical"
+}

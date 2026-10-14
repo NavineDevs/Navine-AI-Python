@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:webdev:t3_1vjm2jk",
+  "title": "EU AI Act: Ai Image Lables - How do i do this correctly?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>EIDT: I create componets for CMS Systems, so i do not deside what content is used. But i have to support this law requirements.</p> <p>Hi, with the new Ai act, Ai generated images need to be labled.</p> <p>So far so good, naivly and simple add a lable ovlerayd on the image.</p> <p>But with repsonsive content, background images wired shapes, contnet overlays... how to do this correctly?</p> <p>Do you have any ideas or suggestions?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mulokisch\"> /u/mulokisch </a> <br/> <span><a href=\"https://www.reddit.com/r/webdev/comments/1vjm2jk/eu_ai_act_ai_image_lables_how_do_i_do_this/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1vjm2jk/eu_ai_act_ai_image_lables_how_do_i_do_this/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/webdev/comments/1vjm2jk/eu_ai_act_ai_image_lables_how_do_i_do_this/"
+}

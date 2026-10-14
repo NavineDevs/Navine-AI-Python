@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1viwcpn",
+  "title": "slint vs gpui (or something else?)",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey, im looking towards migrating my app from python (pyqt) to rust, and the issue is that i don&#39;t really know which framework to use, gpui seems like a natural choice buuut its still pre 1.0 and heavily tied with ZED, slint on the other hand is a bit older (a bit because its still not as old as electron and others lol) but simply said its not gpui who everyone seems to love and ramble about</p> <p>what should i do?<br/> my main goals<br/> - lower cpu and ram usage (tier 1 priority)<br/> - harder reverse engineering (t1)<br/> - visible performance (as in &quot;holy shit thats fluid as hell&quot;) (t1/t2)<br/> - easy figma use (t2)<br/> - MultiOS (windows mainly but also macos/linux) (tier 2 priority)<br/> - lower disk footprint (tier 2/3 priority)<br/> - codex browser maybe? i know its not js but still would be cool to use annotate tool for better frontend (t3+)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KeyGlove47\"> /u/KeyGlove47 </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1viwcpn/slint_vs_gpui_or_something_else/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1viwcpn/slint_vs_gpui_or_something_else/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1viwcpn/slint_vs_gpui_or_something_else/"
+}

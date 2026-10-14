@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:83206566",
+  "title": "Global state (computer science)",
+  "text": "A global state of a distributed system is the tuple of all process local states and the contents of all communication channels at a particular instant. Because distributed systems lack shared memory and a global clock, no single process can observe all local states and in-transit messages simultaneously.\nA naive assembly of local states collected sequentially, without coordination, produces a global state that may not correspond to any state the system actually passed through. A message sent before one process's state is recorded but received after another's can appear to have vanished or been duplicated, yielding a logically impossible snapshot.\nA global state is consistent if it corresponds to a state through which a possible execution of the system could have passed: formally, no message is recorded as received unless it is also recorded as sent. This notion, introduced by K. Mani Chandy and Leslie Lamport in 1985, is also expressed as a consistent cut of the system's execution history. Chandy and Lamport proved that any consistent global state is reachable from the system's initial state, and the actual current state is reachable from any recorded consistent global state.\nConsistent global states underpin deadlock detection, termination detection, distributed garbage collection, checkpointing for fault tolerance, and distributed debugging. They are sufficient for evaluating stable predicates, properties that once true remain true, without requiring the system to pause.",
+  "url": "https://en.wikipedia.org/wiki/Global_state_%28computer_science%29",
+  "category": "general"
+}

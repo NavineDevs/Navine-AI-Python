@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.21286v1",
+  "title": "Difficulty-Calibrated Interpolation Paths for Conditional Flow Matching",
+  "text": "Difficulty-Calibrated Interpolation Paths for Conditional Flow Matching\n\nConditional Flow Matching trains generative models by regressing a network onto the velocity of a prescribed noise-to-data interpolation path. The interpolation schedule that shapes this path is known to affect convergence and sample quality, yet it is invariably fixed in advance, independent of both the data and the model. We show that the regression difficulty of Conditional Flow Matching varies systematically along the path, and we propose Difficulty-Calibrated Flow Matching, which derives the schedule from the model itself: a short pilot run with the linear path records the per-time loss, and the schedule is set to the quantile function of this difficulty profile, so the trajectory lingers where the velocity is hardest to learn. The method has a single hyperparameter, leaves the training objective and its gradient equivalence intact, composes with classifier-free guidance, and adds about two percent training overhead. In controlled experiments on CIFAR-10, MNIST, and Fashion-MNIST with an identical compact U-Net, the calibrated path attains the best FID on CIFAR-10 at full sampling budget and clearly outperforms all fixed schedules in the large-batch, few-update regime, precisely the setting where compute is scarcest.",
+  "url": "https://arxiv.org/abs/2608.21286v1",
+  "category": "technical"
+}

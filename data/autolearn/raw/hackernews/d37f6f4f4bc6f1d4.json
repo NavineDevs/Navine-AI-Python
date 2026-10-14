@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48590505",
+  "title": "Show HN: Pagecast – Publish Markdown/HTML Reports to Cloudflare Pages",
+  "text": "I built this because I kept generating HTML&#x2F;Markdown reports from Claude Code&#x2F;Codex and needed a permanent share link instead of a localhost tunnel. Pagecast is a local CLI that publishes those files to your own Cloudflare Pages account.<p>It supports Markdown and HTML, stable URLs, renaming, republishing to the same URL, and watch mode for continuous updates to same file. It is MIT licensed.<p>The main design choice is that there is no hosted Pagecast account. It uses your Cloudflare account and deploys there directly and has claude code and codex integrations as skill&#x2F;hooks.<p>Basically it can be used as a replacement for codex sites or claude artifacts",
+  "url": "https://github.com/Amal-David/pagecast"
+}

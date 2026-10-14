@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48800596",
+  "title": "Cargo-nextest: 3x faster than cargo test, per-test isolation, first-class CI",
+  "text": "Cargo-nextest: 3x faster than cargo test, per-test isolation, first-class CI",
+  "url": "https://nexte.st/"
+}

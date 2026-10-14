@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.13614v1",
+  "title": "Majority-of-Three is Optimal",
+  "text": "Majority-of-Three is Optimal\n\nWe give a short proof that the majority vote of three independent consistent classifiers is an optimal learner in the realizable PAC setting. This proves optimality for the simplest voting scheme, while simplifying both the algorithmic structure and the probabilistic analysis of previous voting learners, including the algorithm of S. Hanneke and the analysis of bagging by K. Green Larsen.",
+  "url": "https://arxiv.org/abs/2606.13614v1",
+  "category": "technical"
+}

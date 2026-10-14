@@ -1,0 +1,18 @@
+{
+  "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+  "caption": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+  "filename": "video_20260814_210721.mp4",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-08-14T21:07:44.509059+00:00",
+  "enhanced_prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+  "num_frames": 16,
+  "fps": 12,
+  "seed": 249627809,
+  "fallback": true,
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "category": null,
+  "generation_mode": "external_diffusion_hybrid",
+  "image_model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\external\\video\\video_20260814_210721.mp4"
+}

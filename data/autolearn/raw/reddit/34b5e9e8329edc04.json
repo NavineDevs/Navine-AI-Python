@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u3rusx",
+  "title": "Directory-based migrations?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>So I have been thinking of a way to contain and group my migrations directory.</p> <p>Currently, I&#39;m using Goose&#39;s embed migration features. It&#39;s all good and working just fine. But, I&#39;m thinking what if I have, for example, a directory for base migration, auth migrations, etc migrations.</p> <p>It would be something like this:</p> <ul> <li>0001_base/ <ul> <li>0001_some_trigger.sql</li> <li>0002_something.sq,l </li> </ul></li> <li>0002_auth/ <ul> <li>0001_user.sql</li> <li>0002_session.sql</li> </ul></li> <li>0003_etc/ </li> </ul> <p>ihave been searching and asking LLMS about it, but I do not think it&#39;s a common thing to do! So I wonder why? Am I missing something?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nidal_bakir\"> /u/nidal_bakir </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1u3rusx/directorybased_migrations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u3rusx/directorybased_migrations/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1u3rusx/directorybased_migrations/"
+}

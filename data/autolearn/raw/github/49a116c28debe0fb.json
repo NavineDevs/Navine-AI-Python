@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:2dust/v2rayN:v2rayN/AmazTool/Utils.cs",
+  "title": "2dust/v2rayN/v2rayN/AmazTool/Utils.cs",
+  "text": "using System.Diagnostics;\n\nnamespace AmazTool;\n\ninternal class Utils\n{\n    public static string GetExePath()\n    {\n        return Environment.ProcessPath ?? Process.GetCurrentProcess().MainModule?.FileName ?? string.Empty;\n    }\n\n    public static string StartupPath()\n    {\n        return AppDomain.CurrentDomain.BaseDirectory;\n    }\n\n    public static string GetPath(string fileName)\n    {\n        var startupPath = StartupPath();\n        if (string.IsNullOrEmpty(fileName))\n        {\n            return startupPath;\n        }\n        return Path.Combine(startupPath, fileName);\n    }\n\n    public static string V2rayN => \"v2rayN\";\n\n    public static void StartV2RayN()\n    {\n        Process process = new()\n        {\n            StartInfo = new()\n            {\n                UseShellExecute = true,\n                FileName = V2rayN,\n                WorkingDirectory = StartupPath()\n            }\n        };\n        process.Start();\n    }\n\n    public static void Waiting(int second)\n    {\n        for (var i = second; i > 0; i--)\n        {\n            Console.WriteLine(i);\n            Thread.Sleep(1000);\n        }\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/2dust/v2rayN/master/v2rayN/AmazTool/Utils.cs",
+  "language": "csharp",
+  "kind": "code"
+}

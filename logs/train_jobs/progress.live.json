@@ -1,0 +1,13 @@
+{
+  "running": false,
+  "stage": "Navine online adapt (chat)",
+  "label": "Navine online adapt (chat) (stale)",
+  "steps": 5,
+  "steps_total": 20,
+  "percent": 25.0,
+  "last_line": "PROGRESS steps=5/20",
+  "recent_lines": [
+    "PROGRESS steps=5/20"
+  ],
+  "updated_at": "2026-09-24T10:24:03.356957+00:00"
+}

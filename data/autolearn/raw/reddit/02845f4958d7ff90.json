@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:webdev:t3_1u3hyht",
+  "title": "Playcaptcha",
+  "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/webdev/comments/1u3hyht/playcaptcha/\"> <img src=\"https://preview.redd.it/qll1u1etbr6h1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=0648eb30965b19d1418ad7cdf42ac3c4d6bab099\" alt=\"Playcaptcha\" title=\"Playcaptcha\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>a captcha that&#39;s a claw machine. it asks for a toy, you steer the claw, grab it, drop it in the hatch. wrong toy goes back on the pile.</p> <p>Just for fun, ik its a BAD UX</p> <p>*edit*<br/> if anyone want to check it live</p> <p>demo: <a href=\"https://feralui.vercel.app/#/captcha\">https://feralui.vercel.app/#/captcha</a><br/> code: <a href=\"https://github.com/mortspace/playcaptcha\">https://github.com/mortspace/playcaptcha</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/physiopeng\"> /u/physiopeng </a> <br/> <span><a href=\"https://i.redd.it/qll1u1etbr6h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1u3hyht/playcaptcha/\">[comments]</a></span> </td></tr></table>",
+  "url": "https://www.reddit.com/r/webdev/comments/1u3hyht/playcaptcha/"
+}

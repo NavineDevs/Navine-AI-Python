@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:e2e/editor-tabs.spec.ts",
+  "title": "freeCodeCamp/freeCodeCamp/e2e/editor-tabs.spec.ts",
+  "text": "import { expect, test } from '@playwright/test';\nimport translations from '../client/i18n/locales/english/translations.json';\n\ntest.beforeEach(async ({ page }) => {\n  await page.goto(\n    '/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form'\n  );\n});\n\ntest('should toggle editor visibility correctly', async ({\n  page,\n  isMobile\n}) => {\n  const htmlTabToggle = page.getByRole('button', { name: 'index.html Editor' });\n  const cssTabToggle = page.getByRole('button', { name: 'styles.css Editor' });\n  const htmlTab = page.getByTestId('editor-container-indexhtml');\n  const cssTab = page.getByTestId('editor-container-stylescss');\n\n  if (isMobile) {\n    const codeButton = page.getByRole('tab', {\n      name: translations.learn['editor-tabs'].code\n    });\n    await codeButton.click();\n  }\n  await expect(htmlTabToggle).toBeVisible();\n  // HTML tab is opened by default\n  await expect(htmlTabToggle).toHaveAttribute('aria-expanded', 'true');\n  await expect(htmlTab).toBeVisible();\n  await htmlTabToggle.click();\n  await expect(htmlTabToggle).toHaveAttribute('aria-expanded', 'false');\n  await expect(htmlTab).not.toBeVisible();\n\n  await expect(cssTabToggle).toBeVisible();\n  // CSS tab is not opened by default\n  await expect(cssTabToggle).toHaveAttribute('aria-expanded', 'false');\n  await expect(cssTab).not.toBeVisible();\n  await cssTabToggle.click();\n  await expect(cssTabToggle).toHaveAttribute('aria-expanded', 'true');\n  await expect(cssTab).toBeVisible();\n});\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/e2e/editor-tabs.spec.ts",
+  "language": "typescript",
+  "kind": "code"
+}

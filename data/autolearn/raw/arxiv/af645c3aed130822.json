@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.20228v1",
+  "title": "Probabilities beyond Belnap-Dunn logic: dealing with gaps, gluts and reliability",
+  "text": "Probabilities beyond Belnap-Dunn logic: dealing with gaps, gluts and reliability\n\nIn this paper, we introduce the study of probability functions based on the 6-valued paradefinite (i.e., paraconsistent and paracomplete) logic LETK+. This logic is a powerful and versatile Logic of Evidence and Truth (LET) which is a conservative expansion of both classical logic and FDE. The framework introduced here allowed us to consider gaps, gluts, and reliability (or classicality) of the events, extending the detailed proposal for FDE-based probabilities presented by Klein, Majer, and Rafiee Rad. A distinctive feature of our proposal is the use of twist structure semantics, which gives rise to a natural interpretation of logical probabilities over LETK+ in terms of the three or six regions associated with each formula by a valuation in such models. The LETK+-probability functions are defined axiomatically and semantically, obtaining soundness and completeness results, as one would expect. Finally, conditional probabilities based on LETK+ are also studied. Specifically, both a semantic and a syntactic characterization of Jeffrey's update over LETK+-based probabilities is proposed, showing their equivalence.",
+  "url": "https://arxiv.org/abs/2608.20228v1",
+  "category": "technical"
+}

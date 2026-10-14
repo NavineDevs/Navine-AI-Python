@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\vst\\vst_1745611149624489.jpg",
+  "title": "vst_1745611149624489",
+  "text": "vst_1745611149624489",
+  "url": "data\\nsfw\\images\\local\\general\\vst_1745611149624489_1783549866004725400.jpg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\vst_1745611149624489_1783549866004725400.jpg",
+  "caption": "vst_1745611149624489 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "vst",
+  "tags": [
+    "vst",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:avelino/awesome-go:pkg/markdown/convert.go",
+  "title": "avelino/awesome-go/pkg/markdown/convert.go",
+  "text": "package markdown\n\nimport (\n\t\"bytes\"\n\n\t\"github.com/avelino/awesome-go/pkg/slug\"\n\t\"github.com/yuin/goldmark\"\n\t\"github.com/yuin/goldmark/ast\"\n\t\"github.com/yuin/goldmark/extension\"\n\t\"github.com/yuin/goldmark/parser\"\n\t\"github.com/yuin/goldmark/renderer/html\"\n\t\"github.com/yuin/goldmark/util\"\n)\n\n// ToHTML converts markdown byte slice to a HTML byte slice\nfunc ToHTML(markdown []byte) ([]byte, error) {\n\tmd := goldmark.New(\n\t\tgoldmark.WithExtensions(extension.GFM),\n\t\tgoldmark.WithParserOptions(\n\t\t\tparser.WithAutoHeadingID(), // generate heading IDs for content navigation\n\t\t),\n\t\tgoldmark.WithRendererOptions(\n\t\t\thtml.WithXHTML(),\n\t\t\thtml.WithUnsafe(), // allow inline HTML\n\t\t),\n\t)\n\n\tctx := parser.NewContext(\n\t\tparser.WithIDs(&IDGenerator{}), // register custom ID generator\n\t)\n\n\tvar buf bytes.Buffer\n\tif err := md.Convert(markdown, &buf, parser.WithContext(ctx)); err != nil {\n\t\treturn nil, err\n\t}\n\n\treturn buf.Bytes(), nil\n}\n\n// IDGenerator for goldmark to provide IDs more similar to GitHub's IDs on markdown parsing\ntype IDGenerator struct {\n\tused map[string]bool\n}\n\n// Generate an ID\nfunc (g *IDGenerator) Generate(value []byte, _ ast.NodeKind) []byte {\n\treturn []byte(slug.Generate(string(value)))\n}\n\n// Put an ID to the list of already used IDs\nfunc (g *IDGenerator) Put(value []byte) {\n\tg.used[util.BytesToReadOnlyString(value)] = true\n}\n",
+  "url": "https://raw.githubusercontent.com/avelino/awesome-go/main/pkg/markdown/convert.go",
+  "language": "go",
+  "kind": "code"
+}

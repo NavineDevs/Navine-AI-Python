@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:shadowsocks/shadowsocks-windows:packaging/upload.sh",
+  "title": "shadowsocks/shadowsocks-windows/packaging/upload.sh",
+  "text": "#!/bin/bash\n\nversion=$1\n\nrsync --progress -e ssh shadowsocks-csharp/bin/x86/Release/Shadowsocks-win-dotnet4.0-$1.zip frs.sourceforge.net:/home/frs/project/shadowsocksgui/dist/\nrsync --progress -e ssh shadowsocks-csharp/bin/x86/Release/Shadowsocks-win-$1.zip frs.sourceforge.net:/home/frs/project/shadowsocksgui/dist/\n",
+  "url": "https://raw.githubusercontent.com/shadowsocks/shadowsocks-windows/v4/packaging/upload.sh",
+  "language": "shell",
+  "kind": "code"
+}

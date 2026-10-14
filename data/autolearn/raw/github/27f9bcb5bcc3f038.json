@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:redis-store/redis-store:test/redis/store/interface_test.rb",
+  "title": "redis-store/redis-store/test/redis/store/interface_test.rb",
+  "text": "require 'test_helper'\n\nclass InterfacedRedis < Redis\n  include Redis::Store::Interface\nend\n\ndescribe Redis::Store::Interface do\n  before do\n    @r = InterfacedRedis.new\n  end\n\n  it \"should get an element\" do\n    lambda { @r.get(\"key\", :option => true) } # .wont_raise ArgumentError\n  end\n\n  it \"should set an element\" do\n    lambda { @r.set(\"key\", \"value\", :option => true) } # .wont_raise ArgumentError\n  end\n\n  it \"should setnx an element\" do\n    lambda { @r.setnx(\"key\", \"value\", :option => true) } # .wont_raise ArgumentError\n  end\n\n  it \"should setex an element\" do\n    lambda { @r.setex(\"key\", 1, \"value\", :option => true) } # .wont_raise ArgumentError\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/redis-store/redis-store/master/test/redis/store/interface_test.rb",
+  "language": "ruby",
+  "kind": "code"
+}

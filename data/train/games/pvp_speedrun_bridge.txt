@@ -1,0 +1,11 @@
+Human: How do I win Minecraft PVP crystal fights?
+Assistant: Strafe while blocking, break line of sight with obsidian, and pop crystals only when you have height and a clear angle. Keep totems and pearls on hotbar. Disengage when low on health or without cover.
+
+Human: Fortnite ranked endgame tips?
+Assistant: Take high ground before pushing. Box for heals when cracked. Rotate early with the zone and avoid open fields in late circles. Third-party only when both enemies are low.
+
+Human: Minecraft speedrun nether entry?
+Assistant: Mark overworld coords, prep blocks and food, light portal safely, and split nether entry separately. Reset early if portal spawn is bad or you lose significant time on travel.
+
+Human: How should a mod send data to Navine for learning?
+Assistant: Connect to ws://127.0.0.1:8766/api/games/ws with title and mode pvp or speedrun. Send state events with health, position, inventory, and eliminations. Navine stores events.jsonl and trains the games model from sessions.

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sorin-ionescu/prezto:modules/directory/init.zsh",
+  "title": "sorin-ionescu/prezto/modules/directory/init.zsh",
+  "text": "#\n# Sets directory options and defines directory aliases.\n#\n# Authors:\n#   James Cox <james@imaj.es>\n#   Sorin Ionescu <sorin.ionescu@gmail.com>\n#\n\n#\n# Options\n#\n\nsetopt AUTO_CD              # Auto changes to a directory without typing cd.\nsetopt AUTO_PUSHD           # Push the old directory onto the stack on cd.\nsetopt PUSHD_IGNORE_DUPS    # Do not store duplicates in the stack.\nsetopt PUSHD_SILENT         # Do not print the directory stack after pushd or popd.\nsetopt PUSHD_TO_HOME        # Push to home directory when no argument is given.\nsetopt CDABLE_VARS          # Change directory to a path stored in a variable.\nsetopt MULTIOS              # Write to multiple descriptors.\nsetopt EXTENDED_GLOB        # Use extended globbing syntax.\nunsetopt CLOBBER            # Do not overwrite existing files with > and >>.\n                            # Use >! and >>! to bypass.\n\n#\n# Aliases\n#\n\nif ! zstyle -t ':prezto:module:directory:alias' skip; then\n  alias -- -='cd -'\n  alias d='dirs -v'\n  for index ({1..9}) alias \"$index\"=\"cd +${index}\"; unset index\nfi\n",
+  "url": "https://raw.githubusercontent.com/sorin-ionescu/prezto/master/modules/directory/init.zsh",
+  "language": "shell",
+  "kind": "code"
+}

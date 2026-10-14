@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:niieani/bash-oo-framework:example/trycatch.sh",
+  "title": "niieani/bash-oo-framework/example/trycatch.sh",
+  "text": "#!/usr/bin/env bash\n\nsource \"$( cd \"${BASH_SOURCE[0]%/*}\" && pwd )/../lib/oo-bootstrap.sh\"\n\nimport util/exception util/tryCatch util/log util/test\n\ndescribe 'Try Catch'\n  it 'should throw a \"test exception\"'\n  try\n    try {\n      e=\"test exception\" throw\n    } catch {\n      [[ \"${__EXCEPTION__[1]}\" == \"test exception\" ]]\n    }\n  expectPass\n\n  it 'should throw a general exception inside of a catch'\n  try {\n    try {\n      false\n    } catch {\n      e=\"we throw again inside of a catch\" throw\n      echo this should not be displayed\n    }\n    echo this should not be displayed\n  }\n  expectFail\n\nsummary\n",
+  "url": "https://raw.githubusercontent.com/niieani/bash-oo-framework/master/example/trycatch.sh",
+  "language": "shell",
+  "kind": "code"
+}

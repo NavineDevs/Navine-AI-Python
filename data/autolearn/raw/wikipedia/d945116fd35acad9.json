@@ -1,0 +1,8 @@
+{
+  "source": "wikipedia",
+  "source_id": "wiki:212335",
+  "title": "Boolean",
+  "text": "Any kind of logic, function, expression, or theory based on the work of George Boole is considered Boolean.  \nRelated to this, \"Boolean\" may refer to:\n\nBoolean data type, a form of data with only two possible values (usually \"true\" and \"false\")\nBoolean algebra, a logical calculus of truth values or set membership\nBoolean algebra (structure), a set with operations resembling logical ones\nBoolean domain, a set consisting of exactly two elements whose interpretations include false and true\nBoolean circuit, a mathematical model for digital logical circuits.\nBoolean expression, an expression in a programming language that produces a Boolean value when evaluated\nBoolean function, a function that determines Boolean values or operators\nBoolean model (probability theory), a model in stochastic geometry\nBoolean network, a certain network consisting of a set of Boolean variables whose state is determined by other variables in the network\nBoolean processor, a 1-bit variable computing unit\nBoolean ring, a mathematical ring for which x2 = x for every element x\nBoolean satisfiability problem,  the problem of determining if there exists an interpretation that satisfies a given Boolean formula\nBoolean prime ideal theorem, a theorem which states that ideals in a Boolean algebra can be extended to prime ideals",
+  "url": "https://en.wikipedia.org/wiki/Boolean",
+  "category": "general"
+}

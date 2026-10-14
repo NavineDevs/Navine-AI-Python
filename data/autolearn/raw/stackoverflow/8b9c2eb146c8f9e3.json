@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:336859",
+  "title": "var functionName = function() {} vs function functionName() {}",
+  "text": "var functionName = function() {} vs function functionName() {}\n\n<p>I've recently started maintaining someone else's JavaScript code. I'm fixing bugs, adding features and also trying to tidy up the code and make it more consistent.</p>\n<p>The previous developer used two ways of declaring functions and I can't work out if there is a reason behind it or not.</p>\n<p>The two ways are:</p>\n<pre><code>var functionOne = function() {\n    // Some code\n};\n</code></pre>\n<p>And,</p>\n<pre><code>function functionTwo() {\n    // Some code\n}\n</code></pre>\n<p>What are the reasons for using these two different methods and what are the pros and cons of each? Is there anything that can be done with one method that can't be done with the other?</p>",
+  "url": "https://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname",
+  "kind": "qa"
+}

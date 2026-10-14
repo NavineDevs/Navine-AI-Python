@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:compiler/scripts/profile-rust-port.sh",
+  "title": "react/react/compiler/scripts/profile-rust-port.sh",
+  "text": "#!/bin/bash\n# Copyright (c) Meta Platforms, Inc. and affiliates.\n#\n# This source code is licensed under the MIT license found in the\n# LICENSE file in the root directory of this source tree.\n\n# Thin wrapper for the profiling script.\n#\n# Usage: bash compiler/scripts/profile-rust-port.sh [flags]\n# Flags: --release, --json, --limit N\n\nset -eo pipefail\n\nREPO_ROOT=\"$(cd \"$(dirname \"$0\")/../..\" && pwd)\"\n\nexec npx tsx \"$REPO_ROOT/compiler/scripts/profile-rust-port.ts\" \"$@\"\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/compiler/scripts/profile-rust-port.sh",
+  "language": "shell",
+  "kind": "code"
+}

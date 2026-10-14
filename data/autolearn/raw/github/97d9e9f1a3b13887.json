@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:compiler/scripts/test-babel-ast.sh",
+  "title": "react/react/compiler/scripts/test-babel-ast.sh",
+  "text": "#!/bin/bash\nset -e\n\nREPO_ROOT=\"$(cd \"$(dirname \"$0\")/../..\" && pwd)\"\n\nFIXTURE_SRC_DIR=\"$1\"\nif [ -z \"$FIXTURE_SRC_DIR\" ]; then\n  # Default: the compiler's own test fixtures\n  FIXTURE_SRC_DIR=\"$REPO_ROOT/compiler/packages/babel-plugin-react-compiler/src/__tests__/fixtures\"\nfi\n\n# Parse source files into JSON in a temp directory\nTMPDIR=\"$(mktemp -d)\"\ntrap 'rm -rf \"$TMPDIR\"' EXIT\n\necho \"Parsing fixtures from $FIXTURE_SRC_DIR...\"\nnode \"$REPO_ROOT/compiler/scripts/babel-ast-to-json.mjs\" \"$FIXTURE_SRC_DIR\" \"$TMPDIR\"\n\n# Bump the default 8 MiB Rust thread stack to 32 MiB. The round_trip test\n# walks deeply-nested Babel AST fixtures via recursive serde Visitor; some\n# fixtures exceed the default stack on Linux CI runners. RUST_MIN_STACK only\n# affects threads spawned via std::thread (which is how the libtest harness\n# runs each test), so this is enough without changing the test sources.\nexport RUST_MIN_STACK=33554432\n\necho \"Running round-trip test...\"\ncd \"$REPO_ROOT/compiler/crates\"\nFIXTURE_JSON_DIR=\"$TMPDIR\" ~/.cargo/bin/cargo test -p react_compiler_ast --test round_trip -- --nocapture\n\necho \"Running scope resolution test...\"\nFIXTURE_JSON_DIR=\"$TMPDIR\" ~/.cargo/bin/cargo test -p react_compiler_ast --test scope_resolution -- --nocapture\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/compiler/scripts/test-babel-ast.sh",
+  "language": "shell",
+  "kind": "code"
+}

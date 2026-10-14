@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:framework7io/framework7:babel-react.config.js",
+  "title": "framework7io/framework7/babel-react.config.js",
+  "text": "let modules = process.env.MODULES || false;\nif (modules === 'esm' || modules === 'false') modules = false;\n\nmodule.exports = {\n  presets: ['@babel/preset-react', ['@babel/preset-env', { modules, loose: true }]],\n};\n",
+  "url": "https://raw.githubusercontent.com/framework7io/framework7/master/babel-react.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

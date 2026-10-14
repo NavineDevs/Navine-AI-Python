@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:niieani/bash-oo-framework:example/v1/capture-pipe.sh",
+  "title": "niieani/bash-oo-framework/example/v1/capture-pipe.sh",
+  "text": "#!/usr/bin/env bash\n\nshopt -s lastpipe\n\nPipe::Capture() {\n  read -r -d '' $1\n}\n\n# shopt -s expand_aliases\n# alias Pipe::Capture=\"read -r -d ''\"\n\nPipe::CaptureFaithful() {\n  IFS= read -r -d '' $1\n}\n\n# declare -g awesome\n# declare awesome=\nprintf \"test1234\\n\\ntest999\\n\\n\" | Pipe::Capture awesome\n# echo \"test999\" | Pipe::Capture awesome\necho $awesome\ndeclare -p awesome",
+  "url": "https://raw.githubusercontent.com/niieani/bash-oo-framework/master/example/v1/capture-pipe.sh",
+  "language": "shell",
+  "kind": "code"
+}

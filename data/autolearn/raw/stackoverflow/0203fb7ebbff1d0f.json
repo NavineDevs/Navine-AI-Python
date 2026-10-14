@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:1260748",
+  "title": "How do I remove a submodule?",
+  "text": "How do I remove a submodule?\n\n<p>How do I remove a Git submodule?\nWhy can't I do\n<code>git submodule rm module_name</code>?</p>",
+  "url": "https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule",
+  "kind": "qa"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:MachineLearning:t3_1u2hjye",
+  "title": "Pyrecall open source tool for detecting catastrophic forgetting during LLM fine-tuning[P]",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Surprised there&#39;s no real tooling for this given how much research exists on continual learning. </p> <p>Built pyrecall to fill the gap. Snapshots skill scores before/after fine-tuning, flags regressions, rolls back LoRA adapters by name. </p> <p>Fully local, no external APIs. v0.1.0, MIT, pip install pyrecall </p> <p>Curious if anyone has thoughts on the benchmark design that&#39;s the part I&#39;m least confident about. </p> <p><a href=\"https://github.com/Arths17/Pyrecall\">https://github.com/Arths17/Pyrecall</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Level_Frosting_7950\"> /u/Level_Frosting_7950 </a> <br/> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/"
+}

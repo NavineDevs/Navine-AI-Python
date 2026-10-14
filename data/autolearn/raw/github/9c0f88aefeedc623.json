@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rtk-ai/rtk:tests/pipeline_stdin_test.rs",
+  "title": "rtk-ai/rtk/tests/pipeline_stdin_test.rs",
+  "text": "#![cfg(unix)]\n\nuse std::io::Write;\nuse std::process::{Command, Output, Stdio};\n\nfn run_with_stdin(command: &mut Command, input: &[u8]) -> Output {\n    let mut child = command\n        .stdin(Stdio::piped())\n        .stdout(Stdio::piped())\n        .stderr(Stdio::piped())\n        .spawn()\n        .expect(\"spawn command\");\n    child\n        .stdin\n        .take()\n        .expect(\"piped stdin\")\n        .write_all(input)\n        .expect(\"write stdin\");\n    child.wait_with_output().expect(\"wait for command\")\n}\n\n#[test]\nfn wc_reads_piped_stdin() {\n    let output = run_with_stdin(\n        Command::new(env!(\"CARGO_BIN_EXE_rtk\")).args([\"wc\", \"-l\"]),\n        b\"alpha\\nbeta\\n\",\n    );\n\n    assert!(output.status.success());\n    assert_eq!(String::from_utf8_lossy(&output.stdout).trim(), \"2\");\n}\n\n#[test]\nfn wc_preserves_native_failure_exit_code() {\n    let invalid_option = \"--definitely-invalid-rtk-test-option\";\n    let rtk = run_with_stdin(\n        Command::new(env!(\"CARGO_BIN_EXE_rtk\")).args([\"wc\", invalid_option]),\n        b\"input\\n\",\n    );\n    let native = run_with_stdin(Command::new(\"wc\").arg(invalid_option), b\"input\\n\");\n\n    assert!(!rtk.status.success());\n    assert_eq!(rtk.status.code(), native.status.code());\n}\n",
+  "url": "https://raw.githubusercontent.com/rtk-ai/rtk/develop/tests/pipeline_stdin_test.rs",
+  "language": "rust",
+  "kind": "code"
+}

@@ -1,0 +1,1 @@
+>>12745758 Doom doesn't have propper pathfinding. It weirdly uses convex shapes instead, as far as I know.

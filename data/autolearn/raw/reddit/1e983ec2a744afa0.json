@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1ubohav",
+  "title": "How would one extract the integers from a string?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I have a string that will look something like this &quot;<a href=\"https://example.com/1234/5678\">https://example.com/1234/5678</a>&quot;</p> <p>I will only want to extract the two integers, ideally in two different variables, how do I do it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Stickhtot\"> /u/Stickhtot </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1ubohav/how_would_one_extract_the_integers_from_a_string/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1ubohav/how_would_one_extract_the_integers_from_a_string/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1ubohav/how_would_one_extract_the_integers_from_a_string/"
+}

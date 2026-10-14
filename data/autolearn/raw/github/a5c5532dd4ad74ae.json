@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:hahwul/XSpear:lib/XSpear/log.rb",
+  "title": "hahwul/XSpear/lib/XSpear/log.rb",
+  "text": "def log(t, message)\n  # type, message\n  # + type: safe, info, matched, vuln\n  # + info: match percent\n\n  # = format\n  # detail\n  # [09:16:53][PARAM] Message / Matched 70%\n  # [09:16:54][XSS/INFO] Message / Matched 70%\n\n  # system message\n  # [+] start parameter analysis..\n  # verbose 0 : only result\n  # verbose 1(default) : show progress\n  # verbose 2 : show normal log(info, payload)\n  # verbose 3 : show details log(info, payload, packets, etc..)\n\n  if @verbose.to_i == 1\n    if t == 's' # system message\n      puts '[*]'.green + \" #{message}\"\n    end\n  elsif @verbose.to_i > 1\n    time = Time.now\n    if t == 'd'\n      puts '[-]'.white + \" [#{time.strftime('%H:%M:%S')}] #{message}\"\n    elsif t == 's' # system message\n      puts '[*]'.green + \" #{message}\"\n    elsif t == 'i'\n      puts '[I]'.blue + \" [#{time.strftime('%H:%M:%S')}] #{message}\"\n    elsif t == 'v'\n      puts '[V]'.red + \" [#{time.strftime('%H:%M:%S')}] #{message}\"\n    elsif t == 'l'\n      puts '[L]'.blue + \" [#{time.strftime('%H:%M:%S')}] #{message}\"\n    elsif t == 'm'\n      puts '[M]'.yellow + \" [#{time.strftime('%H:%M:%S')}] #{message}\"\n    elsif t == 'h'\n      puts '[H]'.red + \" [#{time.strftime('%H:%M:%S')}] #{message}\"\n    end\n  end\nend",
+  "url": "https://raw.githubusercontent.com/hahwul/XSpear/master/lib/XSpear/log.rb",
+  "language": "ruby",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:tach-org/tach:src/colors.rs",
+  "title": "tach-org/tach/src/colors.rs",
+  "text": "pub struct BColors;\n\nimpl BColors {\n    pub const HEADER: &'static str = \"\\x1b[95m\";\n    pub const OKBLUE: &'static str = \"\\x1b[94m\";\n    pub const OKCYAN: &'static str = \"\\x1b[96m\";\n    pub const OKGREEN: &'static str = \"\\x1b[92m\";\n    pub const WARNING: &'static str = \"\\x1b[93m\";\n    pub const FAIL: &'static str = \"\\x1b[91m\";\n    pub const ENDC: &'static str = \"\\x1b[0m\";\n    pub const BOLD: &'static str = \"\\x1b[1m\";\n    pub const UNDERLINE: &'static str = \"\\x1b[4m\";\n}\n",
+  "url": "https://raw.githubusercontent.com/tach-org/tach/main/src/colors.rs",
+  "language": "rust",
+  "kind": "code"
+}

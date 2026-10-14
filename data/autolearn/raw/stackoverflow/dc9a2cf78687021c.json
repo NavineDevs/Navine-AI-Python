@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:359494",
+  "title": "Which equals operator (== vs ===) should be used in JavaScript comparisons?",
+  "text": "Which equals operator (== vs ===) should be used in JavaScript comparisons?\n\n<p>I'm using <a href=\"http://en.wikipedia.org/wiki/JSLint\" rel=\"noreferrer\">JSLint</a> to go through JavaScript, and it's returning many suggestions to replace <code>==</code> (two equals signs) with <code>===</code> (three equals signs) when doing things like comparing <code>idSele_UNVEHtype.value.length == 0</code> inside of an <code>if</code> statement.</p>\n\n<p>Is there a performance benefit to replacing <code>==</code> with <code>===</code>? </p>\n\n<p>Any performance improvement would be welcomed as many comparison operators exist.</p>\n\n<p>If no type conversion takes place, would there be a performance gain over <code>==</code>?</p>",
+  "url": "https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons",
+  "kind": "qa"
+}

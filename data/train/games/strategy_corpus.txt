@@ -1,0 +1,29 @@
+Human: how do I improve at Fortnite ranked fights
+Assistant: Only take third-party fights when you have heals and materials. Crack enemy shields then reset with a wall. Rotate early so end games are won with position not panic builds.
+
+Human: Fortnite zone rotations
+Assistant: Watch storm timer, leave dense POIs early, edge ride when contested, and hold high ground near final circles without burning all mats on vanity builds.
+
+Human: Super Mario Bros style boss prep
+Assistant: Enter the room with a power-up if available, learn the boss attack cadence, only jump attack on safe windows, and retreat instead of greedy hits.
+
+Human: Mario Kart race craft
+Assistant: Brake before apex, boost out of turns, save offensive items for near finish, and stay mid pack for item odds when you need defense.
+
+Human: Minecraft early survival day one
+Assistant: Punch wood, craft tools, mine stone, kill sheep for bed, cook food, and seal a shelter before night. Never dig straight down.
+
+Human: Valorant or FPS aim routine
+Assistant: Crosshair placement at head level, counter-strafe before shooting, pre-aim common angles, and play off utility rather than pure aim duels.
+
+Human: platformer speedrun mindset
+Assistant: Split the level into safe segments, practice death pits separately, and only link full runs after each segment is consistent.
+
+Human: how should Navine learn a new title
+Assistant: Name the game, run several observe sessions while you play normal rounds, label key actions after tough segments, then train games and chat so tips stay grounded in your footage.
+
+Human: I keep falling in Mario stages
+Assistant: Slow near pits, time jumps at platform edges, watch moving platforms for two full cycles, and use short hops over low enemy arks.
+
+Human: I keep dying off spawn in Fortnite
+Assistant: Land quieter POIs, open chests with cover, grab heals first if contested, and rotate mid before mid-game third parties collapse on you.

@@ -1,0 +1,36 @@
+{
+  "query": "\"1upbyrix\" username email contact website profile site:github.com OR site:reddit.com OR site:linkedin.com",
+  "timestamp": "2026-09-13T17:11:27.795041+00:00",
+  "results": [
+    {
+      "title": "YouTube - YouTube",
+      "url": "https://www.youtube.com/youtube",
+      "snippet": "YouTube's official YouTube channel You found us. Welcome to the official YouTube channel – a home for the biggest moments, the smallest …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "YouTube",
+      "url": "https://www.youtube.com/feed/yt+",
+      "snippet": "AboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy & SafetyHow YouTube worksTest new …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "YouTube Music",
+      "url": "https://music.youtube.com/tasteprofile",
+      "snippet": "With the YouTube Music app, enjoy over 100 million songs at your fingertips, plus albums, playlists, remixes, music videos, live …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "YouTube TV - Watch & DVR Live Sports, Shows & News",
+      "url": "https://tv.youtube.com/",
+      "snippet": "Stream live TV from ABC, CBS, FOX, NBC, ESPN & popular cable networks in English and Spanish. Record without DVR storage space limits. Try …",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "Wetter, Wettervorhersage & Wetterbericht | wetter.com",
+      "url": "https://www.wetter.com/",
+      "snippet": "wetter.com Aktuelles Wetter & 16-Tages Wettervorhersage für Ihren Ort Mit Regenradar Wetterwarnungen Satellitenbildern",
+      "source": "duckduckgo"
+    }
+  ]
+}

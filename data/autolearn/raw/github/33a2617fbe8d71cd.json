@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/types/vue-router.d.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/types/vue-router.d.ts",
+  "text": "export {};\n\ndeclare module 'vue-router' {\n  interface RouteMeta extends Record<string | number | symbol, unknown> {\n    orderNo?: number;\n    // title\n    title: string;\n    // dynamic router level.\n    dynamicLevel?: number;\n    // dynamic router real route path (For performance).\n    realPath?: string;\n    // Whether to ignore permissions\n    ignoreAuth?: boolean;\n    // role info\n    roles?: RoleEnum[];\n    // Whether not to cache\n    ignoreKeepAlive?: boolean;\n    // Is it fixed on tab\n    affix?: boolean;\n    // icon on tab\n    icon?: string;\n    frameSrc?: string;\n    // current page transition\n    transitionName?: string;\n    // Whether the route has been dynamically added\n    hideBreadcrumb?: boolean;\n    // Hide submenu\n    hideChildrenInMenu?: boolean;\n    // Carrying parameters\n    carryParam?: boolean;\n    // Used internally to mark single-level menus\n    single?: boolean;\n    // Currently active menu\n    currentActiveMenu?: string;\n    // Never show in tab\n    hideTab?: boolean;\n    // Never show in menu\n    hideMenu?: boolean;\n    isLink?: boolean;\n    // only build for Menu\n    ignoreRoute?: boolean;\n    // Hide path for children\n    hidePathForChildren?: boolean;\n  }\n}\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/types/vue-router.d.ts",
+  "language": "typescript",
+  "kind": "code"
+}

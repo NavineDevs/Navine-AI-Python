@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:java:t3_1u10ble",
+  "title": "Created a simple, minimal Canvas Application in JavaFX",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>After like a year finally getting back to JavaFX, decided to make an excalidraw inspired app for fun. It&#39;s a very minimal canvas app with basic features.</p> <p>Source code : <a href=\"https://github.com/gufranthakur/ExplainFX\">ExplainFX</a></p> <h1>Features</h1> <ol> <li>Drawing</li> <li>Create Squares and Circles</li> <li>Text</li> <li>Vary stroke size/font size</li> <li>Copy, paste, duplicate, lock, delete objects</li> <li>Move the objects once they are drawn</li> <li>Move camera via mouse</li> </ol> <p>Please let me know if you have any questions! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gufranthakur\"> /u/gufranthakur </a> <br/> <span><a href=\"https://i.redd.it/lmpenhg7886h1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/java/comments/1u10ble/created_a_simple_minimal_canvas_application_in/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/java/comments/1u10ble/created_a_simple_minimal_canvas_application_in/"
+}

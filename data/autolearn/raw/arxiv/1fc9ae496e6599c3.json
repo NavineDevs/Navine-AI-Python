@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.09854v1",
+  "title": "On the Spanning Ratio of the Greedy Triangulation for Convex Point Sets",
+  "text": "On the Spanning Ratio of the Greedy Triangulation for Convex Point Sets\n\nThe greedy triangulation of a finite planar point set is obtained by considering all segments in nondecreasing order of length and inserting each segment that does not cross an earlier one. Its spanning ratio is known to be bounded by a universal constant, but the standard bound obtained from the diamond and good-polygon properties is about $11739.1$. We prove a substantially smaller bound for points in convex position. In particular, for every finite point set $P\\subset\\mathbb{R}^2$ in convex position and every pair $u,v\\in P$, the greedy triangulation contains a $u$--$v$ path of length at most $κ|uv|$, where $κ<17.814$. Thus, the greedy triangulation of a convex point set is an $18$-spanner.",
+  "url": "https://arxiv.org/abs/2608.09854v1",
+  "category": "technical"
+}

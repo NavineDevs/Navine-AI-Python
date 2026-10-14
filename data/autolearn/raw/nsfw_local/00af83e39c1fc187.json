@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\images\\infini-atomic\\infini_oral_6103.jpeg",
+  "title": "infini_oral_6103",
+  "text": "infini_oral_6103",
+  "url": "data\\nsfw\\images\\local\\general\\infini_oral_6103_1783550274496183000.jpeg",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\infini_oral_6103_1783550274496183000.jpeg",
+  "caption": "infini_oral_6103 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": null,
+  "tags": [
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

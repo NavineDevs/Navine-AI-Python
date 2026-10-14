@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\mu\\mu_1745613154461604.png",
+  "title": "mu_1745613154461604",
+  "text": "mu_1745613154461604",
+  "url": "data\\nsfw\\images\\local\\general\\mu_1745613154461604_1782318646869308100.png",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\mu_1745613154461604_1782318646869308100.png",
+  "caption": "mu_1745613154461604 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "mu",
+  "tags": [
+    "mu",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

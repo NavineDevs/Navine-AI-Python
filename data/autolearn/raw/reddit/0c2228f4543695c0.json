@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vjzq1s",
+  "title": "Limen: a plugin-first auth library for Go, now with multi-tenant organizations and API keys",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Since the initial Limen release, I’ve shipped a larger update focused on multi-tenant auth and machine access.</p> <p>New in this update:</p> <ul> <li>Organization plugin for orgs, members, invitations, active organization, and roles</li> <li>API key plugin with creation, verification, rotation, permissions, and rate limiting</li> <li>Public IDs</li> <li>Shared access-control primitives</li> <li>TypeScript client support for organizations and API keys</li> <li>Reactive client stores, including active organization state</li> <li>Framework adapters for React, Vue, Svelte, and Solid</li> </ul> <p>Repo: <a href=\"https://github.com/thecodearcher/limen\">https://github.com/thecodearcher/limen</a><br/> Docs: <a href=\"https://limenauth.dev/\">https://limenauth.dev</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thecodearcher\"> /u/thecodearcher </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vjzq1s/limen_a_pluginfirst_auth_library_for_go_now_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vjzq1s/limen_a_pluginfirst_auth_library_for_go_now_with/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vjzq1s/limen_a_pluginfirst_auth_library_for_go_now_with/"
+}

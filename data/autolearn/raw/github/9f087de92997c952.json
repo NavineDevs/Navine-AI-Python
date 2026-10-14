@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:abpframework/abp:npm/verdaccio-containers/prepare.js",
+  "title": "abpframework/abp/npm/verdaccio-containers/prepare.js",
+  "text": "const fse = require('fs-extra');\nconst path = require('path')\n\n\n// packages\nfse.removeSync(path.join(__dirname, 'publish-packages/abp'))\n\nfse.removeSync(path.join(__dirname, '../ng-packs/node_modules'))\nfse.removeSync(path.join(__dirname, '../ng-packs/scripts/node_modules'))\nfse.copySync(path.join(__dirname, '../ng-packs'), path.join(__dirname, 'publish-packages/abp/npm/ng-packs'), {overwrite: true, errorOnExist: false, })\n\n// app angular template\nfse.removeSync(path.join(__dirname, 'serve-app/app'))\n\nfse.removeSync(path.join(__dirname, '../../templates/app/angular/node_modules'));\nfse.copySync(path.join(__dirname, '../../templates/app/angular'), path.join(__dirname, 'serve-app/app'), {overwrite: true, errorOnExist: false, })\n",
+  "url": "https://raw.githubusercontent.com/abpframework/abp/dev/npm/verdaccio-containers/prepare.js",
+  "language": "javascript",
+  "kind": "code"
+}

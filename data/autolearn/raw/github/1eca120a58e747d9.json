@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:2dust/v2rayN:v2rayN/ServiceLib.Tests/GlobalUsings.cs",
+  "title": "2dust/v2rayN/v2rayN/ServiceLib.Tests/GlobalUsings.cs",
+  "text": "global using System.Collections.Concurrent;\nglobal using System.Diagnostics;\nglobal using System.Net;\nglobal using System.Net.NetworkInformation;\nglobal using System.Net.Sockets;\nglobal using System.Reflection;\nglobal using System.Runtime.InteropServices;\nglobal using System.Security.Cryptography;\nglobal using System.Text;\nglobal using System.Text.Encodings.Web;\nglobal using System.Text.Json;\nglobal using System.Text.Json.Nodes;\nglobal using System.Text.Json.Serialization;\nglobal using System.Text.RegularExpressions;\nglobal using ReactiveUI;\nglobal using ServiceLib.Base;\nglobal using ServiceLib.Common;\nglobal using ServiceLib.Enums;\nglobal using ServiceLib.Events;\nglobal using ServiceLib.Handler;\nglobal using ServiceLib.Handler.Builder;\nglobal using ServiceLib.Handler.Fmt;\nglobal using ServiceLib.Handler.SysProxy;\nglobal using ServiceLib.Helper;\nglobal using ServiceLib.Manager;\nglobal using ServiceLib.Models.CoreConfigs;\nglobal using ServiceLib.Models.Configs;\nglobal using ServiceLib.Models.Dto;\nglobal using ServiceLib.Models.Entities;\nglobal using ServiceLib.Resx;\nglobal using ServiceLib.Services;\nglobal using ServiceLib.Services.CoreConfig;\nglobal using ServiceLib.Services.Statistics;\nglobal using SQLite;\n",
+  "url": "https://raw.githubusercontent.com/2dust/v2rayN/master/v2rayN/ServiceLib.Tests/GlobalUsings.cs",
+  "language": "csharp",
+  "kind": "code"
+}

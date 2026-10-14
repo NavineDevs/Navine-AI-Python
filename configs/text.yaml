@@ -1,0 +1,48 @@
+model:
+  vocab_size: 8192
+  d_model: 384
+  n_heads: 6
+  n_layers: 6
+  d_ff: 1536
+  max_seq_len: 512
+  dropout: 0.1
+  use_rope: true
+  use_kv_cache: true
+  use_swiglu: true
+  use_rms_norm: true
+  tie_embeddings: true
+
+tokenizer:
+  use_bpe: true
+
+training:
+  batch_size: 6
+  learning_rate: 0.00025
+  weight_decay: 0.05
+  max_steps: 2500
+  eval_interval: 100
+  save_interval: 250
+  warmup_steps: 80
+  grad_clip: 1.0
+  grad_accum_steps: 2
+  mixed_precision: true
+  sft_mask: true
+  tensorboard: false
+
+data:
+  train_file: data/text/instruction_chat.txt
+  code_file: data/text/sample_code.jsonl
+  learned_file: data/text/learned_corpus.txt
+  val_split: 0.1
+  use_data_pipeline: true
+  pipeline_folders:
+    - data/text
+    - data/train/chat
+    - data/train/general
+
+inference:
+  max_new_tokens: 256
+  temperature: 0.8
+  top_k: 40
+  top_p: 0.9
+  repetition_penalty: 1.08

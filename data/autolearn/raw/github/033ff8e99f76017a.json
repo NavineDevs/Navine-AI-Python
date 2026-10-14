@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:niieani/bash-oo-framework:test/escaping.sh",
+  "title": "niieani/bash-oo-framework/test/escaping.sh",
+  "text": "#!/usr/bin/env bash\n\nsource \"$( cd \"${BASH_SOURCE[0]%/*}\" && pwd )/../lib/oo-bootstrap.sh\"\n\nimport util/exception util/class\n# import util\n\nechoedEscapes() {\n  string escapes='hey \\\" dude \\\" \\\"   cool \\\\ \\\\ awesome \\\\'\n  array someArray=( \"$escapes\" )\n\n  [[ \"$(var: someArray forEach 'printf %s \"$escapes\"')\" == \"$escapes\" ]]\n\n  # printf %s \"${escapes}\"\n  # someArray forEach 'printf \"$item\"'\n  # someArray forEach '>&2 printf \"$item\"'\n}\n\nstrings() {\n  string temp='this is a \"string\"  to be \\jsonized\\.'\n  $var:temp getCharCode\n  echo\n  $var:temp forEachChar 'printf \"$char\"'\n  echo\n  $var:temp toJSON\n  echo\n}\n\nstrings\n\n# echoedEscapes\n",
+  "url": "https://raw.githubusercontent.com/niieani/bash-oo-framework/master/test/escaping.sh",
+  "language": "shell",
+  "kind": "code"
+}

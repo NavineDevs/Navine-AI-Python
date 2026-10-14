@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:datascience:t3_1vgiubi",
+  "title": "Become a slop detector - research backed \"tells\" for spotting LLM content in the wild",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Do you delight on spotting obvious LLM generated content?</p> <p>This article highlights real tells, not just the em-dash, but somewhat latent rhetorical tells that can be used as signatures for LLM generated content.</p> <p><a href=\"https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/\">Is This Slop? Detecting AI-Generated Content Without a Model | Towards Data Science</a></p> <p>Also included: the mathematical intuition as to why LLMs develop signature patterns in the first place - post training alignment.</p> <p>Do you have any specific indicators that you use to spot LLM slop?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nice-Dragonfly-4823\"> /u/Nice-Dragonfly-4823 </a> <br/> <span><a href=\"https://www.reddit.com/r/datascience/comments/1vgiubi/become_a_slop_detector_research_backed_tells_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/datascience/comments/1vgiubi/become_a_slop_detector_research_backed_tells_for/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/datascience/comments/1vgiubi/become_a_slop_detector_research_backed_tells_for/"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rwf2/Rocket:benchmarks/src/bench.rs",
+  "title": "rwf2/Rocket/benchmarks/src/bench.rs",
+  "text": "mod routing;\n\ncriterion::criterion_main!(routing::routing);\n",
+  "url": "https://raw.githubusercontent.com/rwf2/Rocket/master/benchmarks/src/bench.rs",
+  "language": "rust",
+  "kind": "code"
+}

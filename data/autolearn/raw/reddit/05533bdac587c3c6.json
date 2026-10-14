@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:datascience:t3_1vaxlos",
+  "title": "Why is it that stakeholders expect ML models to have 0% error rate?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Definitely the most frustrating thing as working as a Data Scientist. You run an experiment, find that building a model greatly increase metric X at almost no cost, has safe model metrics, present it to stakeholders, everybody agrees with proceeding to deploying and utilizing the model in production, and yet every time the model takes a wrong decision, we get questioned about it. Why did the model say this?</p> <p>Man when did I ever say the model obtained a 100% accuracy in the validation phase? Why is it so hard for stakeholders to understand that the best models humankind ever created are expected to make wrong calls once in a while? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CadeOCarimbo\"> /u/CadeOCarimbo </a> <br/> <span><a href=\"https://www.reddit.com/r/datascience/comments/1vaxlos/why_is_it_that_stakeholders_expect_ml_models_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/datascience/comments/1vaxlos/why_is_it_that_stakeholders_expect_ml_models_to/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/datascience/comments/1vaxlos/why_is_it_that_stakeholders_expect_ml_models_to/"
+}

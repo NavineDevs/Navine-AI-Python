@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:krahets/hello-algo:overrides/javascripts/mathjax.js",
+  "title": "krahets/hello-algo/overrides/javascripts/mathjax.js",
+  "text": "window.MathJax = {\n  tex: {\n    inlineMath: [[\"\\\\(\", \"\\\\)\"]],\n    displayMath: [[\"\\\\[\", \"\\\\]\"]],\n    processEscapes: true,\n    processEnvironments: true,\n  },\n  options: {\n    ignoreHtmlClass: \".*|\",\n    processHtmlClass: \"arithmatex\",\n    enableMenu: false,\n  },\n};\n\ndocument$.subscribe(() => {\n  MathJax.typesetPromise();\n});\n",
+  "url": "https://raw.githubusercontent.com/krahets/hello-algo/main/overrides/javascripts/mathjax.js",
+  "language": "javascript",
+  "kind": "code"
+}

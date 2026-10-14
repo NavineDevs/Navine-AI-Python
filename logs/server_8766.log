@@ -1,0 +1,4 @@
+Navine AI - Python server v0.2.2 starting on http://127.0.0.1:8766
+INFO:     127.0.0.1:50607 - "GET /music HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62646 - "GET /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62647 - "GET /info HTTP/1.1" 200 OK

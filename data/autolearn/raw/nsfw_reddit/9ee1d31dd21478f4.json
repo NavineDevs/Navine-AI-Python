@@ -1,0 +1,20 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:gonewild:t3_1u5okpw:text",
+  "title": "(F) could use a hand here 😘",
+  "text": "(F) could use a hand here 😘",
+  "url": "https://www.reddit.com/r/gonewild/comments/1u5okpw/f_could_use_a_hand_here/",
+  "category": "nsfw",
+  "subreddit": "gonewild",
+  "media_category": "real",
+  "tags": [
+    "human",
+    "real",
+    "gonewild",
+    "photography"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

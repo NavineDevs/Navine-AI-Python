@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:2dust/v2rayN:v2rayN/v2rayN/GlobalUsings.cs",
+  "title": "2dust/v2rayN/v2rayN/v2rayN/GlobalUsings.cs",
+  "text": "global using System;\nglobal using System.Collections;\nglobal using System.Collections.Generic;\nglobal using System.ComponentModel;\nglobal using System.Diagnostics;\nglobal using System.Globalization;\nglobal using System.IO;\nglobal using System.Linq;\nglobal using System.Runtime.InteropServices;\nglobal using System.Text;\nglobal using System.Threading;\nglobal using System.Threading.Tasks;\nglobal using System.Windows;\nglobal using System.Windows.Data;\nglobal using System.Windows.Input;\nglobal using System.Windows.Interop;\nglobal using System.Windows.Threading;\nglobal using ReactiveUI;\nglobal using ReactiveUI.Builder;\nglobal using ReactiveUI.Primitives;\nglobal using ReactiveUI.Primitives.Disposables;\nglobal using ReactiveUI.SourceGenerators;\nglobal using ServiceLib;\nglobal using ServiceLib.Base;\nglobal using ServiceLib.Common;\nglobal using ServiceLib.Enums;\nglobal using ServiceLib.Events;\nglobal using ServiceLib.Handler;\nglobal using ServiceLib.Manager;\nglobal using ServiceLib.Models.CoreConfigs;\nglobal using ServiceLib.Models.Configs;\nglobal using ServiceLib.Models.Dto;\nglobal using ServiceLib.Models.Entities;\nglobal using ServiceLib.Resx;\nglobal using ServiceLib.ViewModels;\nglobal using v2rayN.Common;\n",
+  "url": "https://raw.githubusercontent.com/2dust/v2rayN/master/v2rayN/v2rayN/GlobalUsings.cs",
+  "language": "csharp",
+  "kind": "code"
+}

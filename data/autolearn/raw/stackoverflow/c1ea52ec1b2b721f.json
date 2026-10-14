@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:1628088",
+  "title": "Reset local repository branch to be just like remote repository HEAD",
+  "text": "Reset local repository branch to be just like remote repository HEAD\n\n<p>How do I reset my local branch to be just like the branch on the remote repository?</p>\n<p>I tried:</p>\n<pre><code>git reset --hard HEAD\n</code></pre>\n<p>But <code>git status</code> claims I have modified files:</p>\n<pre><code>On branch master\nChanges to be committed:\n  (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)\n      modified:   java/com/mycompany/TestContacts.java\n      modified:   java/com/mycompany/TestParser.java\n</code></pre>",
+  "url": "https://stackoverflow.com/questions/1628088/reset-local-repository-branch-to-be-just-like-remote-repository-head",
+  "kind": "qa"
+}

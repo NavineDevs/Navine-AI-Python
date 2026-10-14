@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vwvema",
+  "title": "microstructure-sim: Lock-free LOB + Avellaneda-Stoikov market making + statistical arbitrage in Rust",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Built a full market microstructure research platform in Rust — not just a matching engine.</p> <p>Architecture (6 crates):</p> <ul> <li>orderbook-core: Lock-free LOB, SkipMap price levels, 64-byte cache-line alignment, &lt;500ns insert</li> <li>market-maker: Avellaneda-Stoikov optimal quoting with inventory risk, MLE kappa calibrator</li> <li>simulator: Latency-aware discrete-event, parametric queue model p(x)=x^(1+k), deterministic replay</li> <li>exchange-feed: Live L2/L3 reconstruction from Binance/Coinbase WebSockets</li> <li>stat-arb: ADF/Engle-Granger cointegration, Kalman filter hedge ratios, pairs signals</li> <li>metrics-engine: Sharpe/Sortino, adverse selection markouts, PnL attribution, terminal dashboard</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/assassin9163\"> /u/assassin9163 </a> <br/> <span><a href=\"https://github.com/mwaleedta/microstructure-sim\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vwvema/microstructuresim_lockfree_lob_avellanedastoikov/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vwvema/microstructuresim_lockfree_lob_avellanedastoikov/"
+}

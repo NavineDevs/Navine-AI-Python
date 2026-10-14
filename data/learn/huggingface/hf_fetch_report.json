@@ -1,0 +1,98 @@
+{
+  "search": {
+    "catalog_path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\huggingface\\hf_search_catalog.json",
+    "queries": [
+      "code instruction python",
+      "conversation chat instruction",
+      "alpaca instruct",
+      "math reasoning"
+    ]
+  },
+  "code": {
+    "datasets": {
+      "code_alpaca": {
+        "id": "sahil280114/codealpaca",
+        "added": 0,
+        "fetched": 579,
+        "error": null,
+        "note": "Classic code instruction pairs (JSON mirror preferred)"
+      },
+      "hf_codealpaca_20k": {
+        "id": "HuggingFaceH4/CodeAlpaca_20K",
+        "added": 0,
+        "fetched": 579,
+        "error": null,
+        "note": "HF hub CodeAlpaca 20k"
+      },
+      "python_code_18k": {
+        "id": "iamtarun/python_code_instructions_18k_alpaca",
+        "added": 0,
+        "fetched": 600,
+        "error": null,
+        "note": "Python code instruction alpaca-style"
+      },
+      "python_codes_25k": {
+        "id": "flytech/python-codes-25k",
+        "added": 0,
+        "fetched": 599,
+        "error": null,
+        "note": "Python code tasks"
+      },
+      "magicoder_oss": {
+        "id": "ise-uiuc/Magicoder-OSS-Instruct-75K",
+        "added": 0,
+        "fetched": 600,
+        "error": null,
+        "note": "OSS-Instruct style coding pairs"
+      },
+      "evol_instruct_code": {
+        "id": "nickrosh/Evol-Instruct-Code-80k-v1",
+        "added": 0,
+        "fetched": 600,
+        "error": null,
+        "note": "Evol-Instruct code instructions"
+      },
+      "stack_smol_xs": {
+        "id": "bigcode/the-stack-smol-xs",
+        "added": 0,
+        "fetched": 0,
+        "error": "Dataset scripts are no longer supported, but found the-stack-smol-xs.py",
+        "note": "Real repo snippets"
+      }
+    },
+    "total_added": 0,
+    "files": [
+      "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\huggingface\\code_alpaca.jsonl",
+      "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\huggingface\\hf_codealpaca_20k.jsonl",
+      "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\huggingface\\python_code_18k.jsonl",
+      "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\huggingface\\python_codes_25k.jsonl",
+      "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\huggingface\\magicoder_oss.jsonl",
+      "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\huggingface\\evol_instruct_code.jsonl"
+    ],
+    "catalog": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\huggingface\\HF_CODE_CATALOG.md"
+  },
+  "chat": {
+    "datasets": {
+      "dolly_15k": {
+        "id": "databricks/databricks-dolly-15k",
+        "pairs": 1200,
+        "error": null
+      },
+      "no_robots": {
+        "id": "HuggingFaceH4/no_robots",
+        "pairs": 1200,
+        "error": null
+      },
+      "open_orca": {
+        "id": "Open-Orca/OpenOrca",
+        "pairs": 1200,
+        "error": null
+      }
+    },
+    "total_pairs": 3600,
+    "chat_file": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\train\\chat\\hf_fetched.txt",
+    "jsonl_file": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\huggingface\\hf_chat_fetched.jsonl"
+  },
+  "code_added": 0,
+  "chat_pairs": 3600
+}

@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48626930",
+  "title": "Codex logging bug may write TBs to local SSDs",
+  "text": "Codex logging bug may write TBs to local SSDs",
+  "url": "https://github.com/openai/codex/issues/28224"
+}

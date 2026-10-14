@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1u25e4a",
+  "title": "Deep dive into the JS/TS toolchain: How source maps fall short where it matters most",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone, I&#39;m the author. </p> <p>I tried turning a minified production stack trace back into its original function names entirely by hand, and hit something that surprised me: the source map gives you perfect locations but gets every name wrong, and it turns out that&#39;s structural, not a bug. The format is a list of points with no concept of where a function starts and ends, so you can&#39;t recover names from the map alone, you have to parse the bundle too. Writeup has every step reproducible. </p> <p>I thought this was interesting, and digging into it taught me a lot about how source maps actually work. I’m working on an open source symbolicator, so if you have any thoughts on the article, or if I&#39;ve gotten something wrong, I&#39;d really like to hear it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/narrow-adventure\"> /u/narrow-adventure </a> <br/> <span><a href=\"https://tracewayapp.com/blog/deep-dive-into-the-sourcemaps\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1u25e4a/deep_dive_into_the_jsts_toolchain_how_source_maps/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1u25e4a/deep_dive_into_the_jsts_toolchain_how_source_maps/"
+}

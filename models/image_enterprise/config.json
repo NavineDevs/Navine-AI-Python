@@ -1,0 +1,56 @@
+{
+  "format": "navine-llm-v1",
+  "runnable": true,
+  "name": "image_enterprise",
+  "modality": "multimodal",
+  "role": "Custom image diffusion",
+  "config_name": "image_enterprise_v2",
+  "weights": "latest.pt",
+  "weights_path": "C:\\Users\\hitbo\\Downloads\\Navine AI - Python\\checkpoints\\image_enterprise_v2\\latest.pt",
+  "tokenizer": null,
+  "architecture": {
+    "image_size": 192,
+    "in_channels": 3,
+    "base_channels": 80,
+    "channel_mults": [
+      1,
+      2,
+      4
+    ],
+    "num_res_blocks": 1,
+    "time_emb_dim": 320,
+    "text_emb_dim": 160,
+    "attn_resolutions": [
+      48,
+      24
+    ],
+    "text_max_len": 64,
+    "text_layers": 3,
+    "text_heads": 4,
+    "min_snr_gamma": 5.0,
+    "arch_version": 3,
+    "timesteps": 200,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "beta_schedule": "cosine"
+  },
+  "parameters": 127314883,
+  "inference": {
+    "num_steps": 200,
+    "guidance_scale": 1.5,
+    "seed": 0,
+    "output_size": 512,
+    "modes": [
+      "default",
+      "code",
+      "think",
+      "detective",
+      "analyze"
+    ]
+  },
+  "updated_at": "2026-08-24T05:53:23.223902+00:00",
+  "run": [
+    "python models/image_enterprise.py \"your prompt\"",
+    "python -m navine.llm run image_enterprise \"your prompt\""
+  ]
+}

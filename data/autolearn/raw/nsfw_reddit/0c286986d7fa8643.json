@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "reddit:redgifs:t3_neihsm",
+  "title": "RedGIFs fixed for Discord. RedGIFs links now display in playable frames within the app (User needs to click play)",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey guys, please to report we have fixed RedGIFs embeds for Discord.</p> <p>We have done this with no input whatsoever from Discord so unfortunately the GIFs do not play exactly as Gfycat&#39;s did previously (automatically with no sound) as we are not technically whitelisted.</p> <p>But, our fix means there is sound once the user hits play. The GIFs embed and display in a frame with a play button. Click play button and enjoy!</p> <p>&#x200B;</p> <p>Issues can arise depending on user/server settings but we can confirm that the following settings ensured we could see all embedded content:</p> <p>Server Settings &gt; Moderation &gt; Either ‘Don’t Scan any media content’ or ‘Scan media content from members without a role’</p> <p>User Settings &gt; Privacy &amp; Safety &gt; Either ‘Do not Scan’ or ‘My friends are nice’</p> <p>&#x200B;</p> <p>Thank you for the patience, we&#39;re still hoping (whilst not holding our breath) that Discord might respond and we can ensure complete integration but with this unlikely we believe this solution to be more than good enough to enjoy RedGIFs within Discord!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RedGIFsOfficial\"> /u/RedGIFsOfficial </a> <br/> <span><a href=\"https://www.reddit.com/r/redgifs/comments/neihsm/redgifs_fixed_for_discord_redgifs_links_now/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/redgifs/comments/neihsm/redgifs_fixed_for_discord_redgifs_links_now/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/redgifs/comments/neihsm/redgifs_fixed_for_discord_redgifs_links_now/",
+  "category": "nsfw",
+  "subreddit": "redgifs",
+  "media_category": "real",
+  "tags": [
+    "real",
+    "human",
+    "video",
+    "redgifs",
+    "real_video"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real_video"
+}

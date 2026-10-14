@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vif9hs",
+  "title": "When to expect 1.26.6 release?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>The minor releases have a monthly cadence, and I see all but one item in the roadmap is merged (an item deferred multiple time), so does anyone know when the next release might be? Does the upcoming 1.27 release delay things?</p> <p><a href=\"https://github.com/golang/go/issues?q=milestone%3AGo1.26.6%20label%3ACherryPickApproved\">https://github.com/golang/go/issues?q=milestone%3AGo1.26.6%20label%3ACherryPickApproved</a></p> <p><a href=\"https://go.dev/doc/go1.27\">https://go.dev/doc/go1.27</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Pitiful-Rip-5854\"> /u/Pitiful-Rip-5854 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vif9hs/when_to_expect_1266_release/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vif9hs/when_to_expect_1266_release/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vif9hs/when_to_expect_1266_release/"
+}

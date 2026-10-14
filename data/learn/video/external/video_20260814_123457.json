@@ -1,0 +1,18 @@
+{
+  "prompt": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+  "caption": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+  "filename": "video_20260814_123457.mp4",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-08-14T12:35:21.971741+00:00",
+  "enhanced_prompt": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+  "num_frames": 16,
+  "fps": 12,
+  "seed": 394221815,
+  "fallback": true,
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "category": null,
+  "generation_mode": "external_diffusion_hybrid",
+  "image_model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\external\\video\\video_20260814_123457.mp4"
+}

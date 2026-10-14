@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfw:t3_1uajvpc:rss:img:1",
+  "title": "Friends being friendly",
+  "text": "Friends being friendly",
+  "url": "https://old.reddit.com/r/nsfw/comments/1uajvpc/friends_being_friendly/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://external-preview.redd.it/rDsx5wD-ZViUdlfNy8kd0yNLqN_kFFhRpExNl3mP3vw.jpeg?width=320&crop=smart&auto=webp&s=57cb0a841f3916845d3fdceb4560b4bdd329a87a",
+  "caption": "Friends being friendly | [mixed, image] | tags: nsfw, unknown | [image] | [image] | [image]",
+  "subreddit": "nsfw",
+  "media_category": "mixed",
+  "tags": [
+    "mixed",
+    "nsfw"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "source_group": "mixed"
+}

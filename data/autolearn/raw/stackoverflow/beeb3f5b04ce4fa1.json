@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:826782",
+  "title": "How to disable text selection highlighting",
+  "text": "How to disable text selection highlighting\n\n<p>For anchors that act like buttons (for example, the buttons on the sidebar of this Stack Overflow page titled <em>Questions</em>, <em>Tags</em>, and <em>Users</em>) or tabs, is there a CSS standard way to disable the highlighting effect if the user accidentally selects the text?</p>\n<p>I realize that this could be done with JavaScript and a little googling yielded the Mozilla-only <code>-moz-user-select</code> option.</p>\n<p>Is there a standard-compliant way to accomplish this with CSS, and if not, what is the &quot;best practice&quot; approach?</p>",
+  "url": "https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting",
+  "kind": "qa"
+}

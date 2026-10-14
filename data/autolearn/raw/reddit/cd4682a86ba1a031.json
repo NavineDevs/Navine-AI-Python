@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vightq",
+  "title": "canora - a native and compact spotify client",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>After getting too annoyed by Spotify&#39;s offficial electron client for hogging memory/vram while still not supporting fractional scaling on wayland (by default), I decided to build a fast, native client myself: <a href=\"https://github.com/zortax/canora\">canora</a></p> <p>It it build using my highly experimental UI framework. </p> <p>AI disclosure: not slop, not low effort, but did use some LLM coding assistance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Zortax_\"> /u/Zortax_ </a> <br/> <span><a href=\"https://i.redd.it/95c9f844g1ih1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vightq/canora_a_native_and_compact_spotify_client/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vightq/canora_a_native_and_compact_spotify_client/"
+}

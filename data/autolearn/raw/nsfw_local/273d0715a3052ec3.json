@@ -1,0 +1,14 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:data\\learn\\4chan\\text\\sci\\sci_16646487_16646488.txt",
+  "title": "sci_16646487_16646488",
+  "text": "Useful math resources: Encyclopedia of Mathematics https://encyclopediaofmath.org/wiki /Main_Page Uchicago mathematics bibliography https://github.com/ystael/chicago-u g-math-bib Wolfram mathworld https://mathworld.wolfram.com/ ProofWiki https://proofwiki.org/wiki/Main_Pag e",
+  "url": "data\\learn\\4chan\\text\\sci\\sci_16646487_16646488.txt",
+  "category": "nsfw",
+  "topic": "sci",
+  "tags": [
+    "sci",
+    "nsfw",
+    "local"
+  ]
+}

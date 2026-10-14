@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:tasks/release.rb",
+  "title": "rails/rails/tasks/release.rb",
+  "text": "# frozen_string_literal: true\n\nrequire \"releaser\"\n\nroot    = File.expand_path(\"..\", __dir__)\nversion = File.read(\"#{root}/RAILS_VERSION\").strip\nreleaser = Releaser.new(root, version)\n\nmodule Announcement\n  class Version\n    def initialize(version)\n      @version, @gem_version = version, Gem::Version.new(version)\n    end\n\n    def to_s\n      @version\n    end\n\n    def previous\n      @gem_version.segments[0, 3].tap { |v| v[2] -= 1 }.join(\".\")\n    end\n\n    def major_or_security?\n      @gem_version.segments[2].zero? || @gem_version.segments[3].is_a?(Integer)\n    end\n\n    def rc?\n      @version.include?(\"rc\")\n    end\n  end\nend\n\ntask :announce do\n  Dir.chdir(\"pkg/\") do\n    versions = ENV[\"VERSIONS\"] ? ENV[\"VERSIONS\"].split(\",\") : [ releaser.version ]\n    versions = versions.sort.map { |v| Announcement::Version.new(v) }\n\n    raise \"Only valid for patch releases\" if versions.any?(&:major_or_security?)\n\n    if versions.any?(&:rc?)\n      require \"date\"\n      future_date = Date.today + 5\n      future_date += 1 while future_date.saturday? || future_date.sunday?\n\n      github_user = `git config github.user`.chomp\n    end\n\n    require \"erb\"\n    template = File.read(\"../tasks/release_announcement_draft.erb\")\n\n    puts ERB.new(template, trim_mode: \"<>\").result(binding)\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/tasks/release.rb",
+  "language": "ruby",
+  "kind": "code"
+}

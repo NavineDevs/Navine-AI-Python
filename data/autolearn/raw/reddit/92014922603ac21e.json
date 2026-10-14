@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vk7ts7",
+  "title": "I adore go outside of go's idiomatic naming conventions. Is this something strictly upheld at most places?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I absolutely love go, but coming from other languages I just find this so irritating to read after months:</p> <pre><code>func (l *LinkedList) Push(...) {...} func (n *Node) Value(...) {...} func (s *Server) Start(...) {...} </code></pre> <p>Instead of</p> <pre><code>func (list *LinkedList) Push(...) {...} func (node *Node) Value(...) {...} func (server *Server) Start(...) {...} </code></pre> <p>I just find myself getting lost in bigger functions. I tried following standard go naming conventions for a project I&#39;ve been building since January, but I feel like I&#39;m going to get Claude Opus to run through every module I&#39;ve built and change the naming to be readable. Even my PRs are getting tiresome to read and it just adds some form of cognitive exhaustion I don&#39;t want with a language I really like. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tired__Dev\"> /u/Tired__Dev </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vk7ts7/i_adore_go_outside_of_gos_idiomatic_naming/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vk7ts7/i_adore_go_outside_of_gos_idiomatic_naming/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vk7ts7/i_adore_go_outside_of_gos_idiomatic_naming/"
+}

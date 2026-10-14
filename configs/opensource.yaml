@@ -1,0 +1,26 @@
+enabled: false
+prefer: none
+
+cloud:
+  enabled: false
+  provider: auto
+  base_url: ""
+  model: ""
+  timeout: 120
+
+ollama:
+  host: http://localhost:11434
+  model: ""
+  timeout: 120
+
+llama_cpp:
+  model_path: ""
+  n_ctx: 4096
+
+transformers:
+  model_id: ""
+  device: cpu
+
+generation:
+  temperature: 0.7
+  max_tokens: 512

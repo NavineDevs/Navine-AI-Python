@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:api/eslint.config.js",
+  "title": "freeCodeCamp/freeCodeCamp/api/eslint.config.js",
+  "text": "import { configTypeChecked, tsFiles } from '@freecodecamp/eslint-config/base';\n\nimport jsdoc from 'eslint-plugin-jsdoc';\n\n/**\n * A shared ESLint configuration for the repository.\n *\n * @type {import(\"eslint\").Linter.Config[]}\n * */\nexport default [\n  ...configTypeChecked,\n  {\n    ...jsdoc.configs['flat/recommended-typescript-error'],\n    rules: {\n      'jsdoc/require-jsdoc': [\n        'error',\n        {\n          require: {\n            ArrowFunctionExpression: true,\n            ClassDeclaration: true,\n            ClassExpression: true,\n            FunctionDeclaration: true,\n            FunctionExpression: true,\n            MethodDefinition: true\n          },\n\n          publicOnly: true\n        }\n      ],\n\n      'jsdoc/require-description-complete-sentence': 'error',\n      'jsdoc/tag-lines': 'off'\n    },\n    files: tsFiles\n  }\n];\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/api/eslint.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

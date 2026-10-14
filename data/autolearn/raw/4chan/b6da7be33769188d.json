@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:bant:24503628:24503637:image",
+  "title": "this is you",
+  "text": "this is you",
+  "url": "https://boards.4chan.org/bant/thread/24503628#p24503637",
+  "category": "general",
+  "kind": "image",
+  "caption": "this is you | [general, image] | tags: 4chan, bant, unknown",
+  "board": "bant",
+  "thread_id": 24503628,
+  "post_id": 24503637,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "bant",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/bant/1781416580184163.jpg",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\bant\\bant_1781416580184163.jpg"
+}

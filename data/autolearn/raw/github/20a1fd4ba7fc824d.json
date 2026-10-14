@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:laravel/framework:config/concurrency.php",
+  "title": "laravel/framework/config/concurrency.php",
+  "text": "<?php\n\nreturn [\n\n    /*\n    |--------------------------------------------------------------------------\n    | Default Concurrency Driver\n    |--------------------------------------------------------------------------\n    |\n    | This option determines the default concurrency driver that will be used\n    | by Laravel's concurrency functions. By default, concurrent work will\n    | be sent to isolated PHP processes which will return their results.\n    |\n    | Supported: \"process\", \"fork\", \"sync\"\n    |\n    */\n\n    'default' => env('CONCURRENCY_DRIVER', 'process'),\n\n];\n",
+  "url": "https://raw.githubusercontent.com/laravel/framework/13.x/config/concurrency.php",
+  "language": "php",
+  "kind": "code"
+}

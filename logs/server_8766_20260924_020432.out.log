@@ -1,0 +1,16 @@
+Navine AI - Python server v0.2.2 starting on http://127.0.0.1:8766
+INFO:     127.0.0.1:56146 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56172 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     59.27.141.135:0 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56189 - "GET /api/info HTTP/1.1" 200 OK
+INFO:     59.27.141.135:0 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64539 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64545 - "GET /api/info HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64547 - "GET /api/models/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54135 - "POST /api/music HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54136 - "POST /api/image HTTP/1.1" 200 OK
+Navine AI - Python warning: the saved video checkpoint does not match the current architecture.
+Navine AI - Python: C:\Users\hitbo\Downloads\Navine AI - Python\checkpoints\video_enterprise\latest.pt
+Navine AI - Python: starting from a fresh video model so generation and training can continue.
+INFO:     127.0.0.1:54240 - "POST /api/video HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:60978 - "POST /api/deepfake HTTP/1.1" 404 Not Found

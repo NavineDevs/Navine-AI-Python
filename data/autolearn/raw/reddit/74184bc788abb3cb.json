@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vhu9fj",
+  "title": "How to write a CLI tool with Viper and Cobra",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hello there,</p> <p>I recently got into Go and programming in general, as I already had some programming classes in school and in uni when I studied business informatics.</p> <p>In preparation for the job interview I wrote my first Rest API. I just used a .env file to read the environment variables in my code but my friend advised me to add cobra and viper to make the setup more accessible and get into those library&#39;s as they also used by the new company. </p> <p>I know that they should be pretty accessible libraries but for some reason in don&#39;t seem to get the right access to their core principles and how they should be set up.</p> <p>Does somebody know some good resources that really explain how these things work and how you&#39;re supposed to use them as I don&#39;t seem to get it.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/theBRZY\"> /u/theBRZY </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vhu9fj/how_to_write_a_cli_tool_with_viper_and_cobra/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vhu9fj/how_to_write_a_cli_tool_with_viper_and_cobra/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vhu9fj/how_to_write_a_cli_tool_with_viper_and_cobra/"
+}

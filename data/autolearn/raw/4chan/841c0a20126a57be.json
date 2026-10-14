@@ -1,0 +1,19 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:h:8892227:8892972:text",
+  "title": "/h/ post 8892972",
+  "text": ">>8892303 >retarded for thinking anyone has a backup of Kemono there's a lot of datahoarders, it wouldn't surprise me if one of them got a mirror of the entire site. I've personally scraped several whole sites with shippy APIs through custom Python scripts. I'm very space constrained so I only have a 4x20TB pool, but if i could i would scrape whole Kemono outright. And it's piss easy to mirror a site like that, all you need is a bunch of drives in a chassis, good enough Internet link, and a scraping script. But people typically keep those backups to themselves and don't boast or share them publicly. And to turn that private backup into a public website, now you're dealing with colocation, DNS, hosting public website, database, APIs, exporters etc. That's a lot more work.",
+  "url": "https://boards.4chan.org/h/thread/8892227#p8892972",
+  "category": "nsfw",
+  "board": "h",
+  "thread_id": 8892227,
+  "post_id": 8892972,
+  "media_category": "hentai",
+  "tags": [
+    "4chan",
+    "h",
+    "hentai",
+    "nsfw"
+  ],
+  "local_path": "data\\learn\\4chan\\text\\h\\h_8892227_8892972.txt"
+}

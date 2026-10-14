@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ohmyzsh/ohmyzsh:lib/bzr.zsh",
+  "title": "ohmyzsh/ohmyzsh/lib/bzr.zsh",
+  "text": "## Bazaar integration\n## Just works with the GIT integration. Add $(bzr_prompt_info) to the PROMPT\nfunction bzr_prompt_info() {\n    local bzr_branch\n    bzr_branch=$(bzr nick 2>/dev/null) || return\n\n    if [[ -n \"$bzr_branch\" ]]; then\n        local bzr_dirty=\"\"\n        if [[ -n $(bzr status 2>/dev/null) ]]; then\n            bzr_dirty=\" %{$fg[red]%}*%{$reset_color%}\"\n        fi\n        printf \"%s%s%s%s\" \"$ZSH_THEME_SCM_PROMPT_PREFIX\" \"bzr::${bzr_branch##*:}\" \"$bzr_dirty\" \"$ZSH_THEME_GIT_PROMPT_SUFFIX\"\n    fi\n}\n",
+  "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/bzr.zsh",
+  "language": "shell",
+  "kind": "code"
+}

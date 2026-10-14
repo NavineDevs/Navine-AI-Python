@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.20454v1",
+  "title": "Minimality of Random Moore Automata under Prefix-Dependent Congruences",
+  "text": "Minimality of Random Moore Automata under Prefix-Dependent Congruences\n\nWe study prefix-dependent congruences for random deterministic transition systems with state outputs. In this setting, the admissible continuations used to compare two states may depend on the observed prefix, and two states are identified only if no common admissible continuation distinguishes their future outputs. The framework includes probabilistic deterministic finite automata as a motivating special case. We analyze the random transition model in which all transition values are independent and uniform. Each state is also assigned an independent label that specifies both its output and its set of admissible symbols. If two independent labels agree with probability strictly less than one, and every label has at least three admissible symbols, then the induced congruence is trivial with high probability. The proof combines a pruning process on pairs, a collision-free exploration controlling its early evolution, and a first-moment argument showing that the remaining pairs cannot organize into nontrivial equivalence classes.",
+  "url": "https://arxiv.org/abs/2606.20454v1",
+  "category": "technical"
+}

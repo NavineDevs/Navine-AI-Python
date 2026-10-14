@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.20418v1",
+  "title": "MixProLAP: Mixture-Induced Uncertainty Modeling for Probabilistic Language-Audio Pretraining",
+  "text": "MixProLAP: Mixture-Induced Uncertainty Modeling for Probabilistic Language-Audio Pretraining\n\nAcoustic environments often contain multiple overlapping sound events, and the same acoustic scene can be described using diverse textual expressions, making audio-text alignment inherently ambiguous. This paper proposes a probabilistic audio-language pretraining framework to model many-to-many correspondence ambiguity in audio-text alignment. Unlike conventional contrastive methods that learn deterministic point embeddings, our approach represents each modality as a distribution and learns uncertainty-aware cross-modal alignment. Rather than relying on masking-based uncertainty simulation, we mix audio-text pairs to create overlapping sounds that better reflect real acoustic mixtures and capture semantic inclusion relations among sound events. We further introduce a multi-level inclusion loss to enforce representations consistent with these relations. Experiments on audio-text retrieval benchmarks show that the proposed method outperforms deterministic baselines.",
+  "url": "https://arxiv.org/abs/2606.20418v1",
+  "category": "technical"
+}

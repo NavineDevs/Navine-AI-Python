@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:compiler/fixtures/align-method-call-scope-range-sync.js",
+  "title": "react/react/compiler/fixtures/align-method-call-scope-range-sync.js",
+  "text": "// Repro for method-call scope alignment range sync: when\n// AlignMethodCallScopes merges scopes for a method call and its\n// computed property, the updated scope range must be propagated\n// to identifier mutable_ranges so later passes see correct ranges.\n\nfunction Component({items}) {\n  const filtered = items.filter(x => x.active);\n  const mapped = filtered.map(x => x.name);\n  const sorted = mapped.sort();\n  return <List items={sorted} />;\n}\n\nexport const FIXTURE_ENTRYPOINT = {\n  fn: Component,\n  params: [\n    {\n      items: [\n        {active: true, name: 'a'},\n        {active: false, name: 'b'},\n      ],\n    },\n  ],\n};\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/compiler/fixtures/align-method-call-scope-range-sync.js",
+  "language": "javascript",
+  "kind": "code"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vsnfph",
+  "title": "7.5x faster encryption in Go with the new \"simd\" and \"simd/archsimd\" packages",
+  "text": "<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1vsnfph/75x_faster_encryption_in_go_with_the_new_simd_and/\"> <img src=\"https://external-preview.redd.it/ZrcoQ0Zr1_4V9CNJ4u4MF0eno5vUE-kldHAuHBhuLwM.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=17380a986d5734025f35be67eec90cb1166d18a2\" alt=\"7.5x faster encryption in Go with the new &quot;simd&quot; and &quot;simd/archsimd&quot; packages\" title=\"7.5x faster encryption in Go with the new &quot;simd&quot; and &quot;simd/archsimd&quot; packages\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/awesomePop7291\"> /u/awesomePop7291 </a> <br/> <span><a href=\"https://kerkour.com/golang-chacha20-encryption-simd-archsimd\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vsnfph/75x_faster_encryption_in_go_with_the_new_simd_and/\">[comments]</a></span> </td></tr></table>",
+  "url": "https://www.reddit.com/r/golang/comments/1vsnfph/75x_faster_encryption_in_go_with_the_new_simd_and/"
+}

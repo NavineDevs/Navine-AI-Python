@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.07403v1",
+  "title": "Topology Inference for Immune System Networks by Using Cell Amount Data",
+  "text": "Topology Inference for Immune System Networks by Using Cell Amount Data\n\nRecent years have witnessed the advanced development of topology inference research, which helps elucidate the interaction relationships of components in many biological networks. This paper focuses on inferring the topology of a group of immune cells, based on the collected data from cell-depletion based experiments. The problem is very challenging due to i) the lack of standard analytical models for the cell interactions, and ii) the restrictive data availability determined by the huge experiment and time costs. To address these issues, we first leverage certain common knowledge and observations on the experiments to characterize three properties on the cell amounts during the interaction process: state non-negativity, ratio-based convergence, and triple signs of topology weights. Then, we construct a new model with simple structure and analytical convenience, and obtain sufficient conditions for the model to accommodate all three properties. Finally, based on the constructed model, we propose a constrained quadratic programming method to infer the topology from limited number of data pairs. Validation on experiment data demonstrate the effectiveness of the proposed method.",
+  "url": "https://arxiv.org/abs/2608.07403v1",
+  "category": "technical"
+}

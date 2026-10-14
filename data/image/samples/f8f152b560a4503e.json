@@ -1,0 +1,18 @@
+{
+  "id": "f8f152b560a4503e",
+  "url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\human\\teacher_128_1786710748714743700.png",
+  "caption": "teacher_128 | [human, image] | tags: local",
+  "filename": "f8f152b560a4503e.png",
+  "timestamp": "2026-08-21T17:46:27.440488+00:00",
+  "content_type": "image/png",
+  "media_category": "human",
+  "subject_type": "human",
+  "style_type": "photography",
+  "tags": [
+    "human",
+    "local"
+  ],
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\nsfw\\local\\human\\teacher_128.png",
+  "kind": "image"
+}

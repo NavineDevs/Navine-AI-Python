@@ -1,0 +1,15 @@
+{
+  "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+  "caption": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+  "filename": "teacher_038.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-06-24T21:07:28.584136+00:00",
+  "enhanced_prompt": "a photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+  "seed": 802106801,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "negative_prompt": "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, censored, mosaic, bar censor, pixelated, low resolution, extra limbs, malformed hands, duplicate, cropped",
+  "model_id": "stabilityai/sd-turbo",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_038.png"
+}

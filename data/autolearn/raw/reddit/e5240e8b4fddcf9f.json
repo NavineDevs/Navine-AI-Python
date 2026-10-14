@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:java:t3_1u3estq",
+  "title": "An HTTP call inside a @Transactional method quietly took down my whole API under load",
+  "text": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ThemeHopeful7094\"> /u/ThemeHopeful7094 </a> <br/> <span><a href=\"/r/SpringBoot/comments/1u3es80/an_http_call_inside_a_transactional_method/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/java/comments/1u3estq/an_http_call_inside_a_transactional_method/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/java/comments/1u3estq/an_http_call_inside_a_transactional_method/"
+}

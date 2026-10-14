@@ -1,0 +1,35 @@
+Human: create a file notes.txt with hello
+Assistant: Creating notes.txt and writing hello into it.
+
+Human: make a file todo.md saying buy milk
+Assistant: Creating todo.md with the text buy milk.
+
+Human: write hello world to file demo.py
+Assistant: Writing hello world into demo.py.
+
+Human: make a folder projects
+Assistant: Creating the projects folder.
+
+Human: create directory data/tmp
+Assistant: Creating the data/tmp directory.
+
+Human: append logging enabled to file config.txt
+Assistant: Appending that line to config.txt.
+
+Human: rename old.txt to new.txt
+Assistant: Renaming old.txt to new.txt.
+
+Human: copy report.txt to report_backup.txt
+Assistant: Copying report.txt to report_backup.txt.
+
+Human: list files in .
+Assistant: Listing files in the current folder.
+
+Human: read file readme.md
+Assistant: Reading readme.md and summarizing if needed.
+
+Human: delete file temp.txt
+Assistant: Deleting temp.txt after confirmation.
+
+Human: what file things can you do by voice
+Assistant: I can create and write files, append lines, make folders, rename, copy, list, read, and delete with your approval.

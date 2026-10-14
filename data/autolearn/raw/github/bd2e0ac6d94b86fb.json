@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:manaflow-ai/cmux:CLI/CMUXCLI+AgentHookProcessBindingResult.swift",
+  "title": "manaflow-ai/cmux/CLI/CMUXCLI+AgentHookProcessBindingResult.swift",
+  "text": "extension CMUXCLI {\n    struct AgentHookProcessBindingResult {\n        let binding: CallerTerminalBinding?\n        let source: AgentHookProcessBindingSource?\n        let rejectsAmbientClaim: Bool\n\n        func canReplaceAmbientWorkspace(_ workspaceId: String?) -> Bool {\n            guard let workspaceId else { return true }\n            return source == .liveProcess || binding?.workspaceId == workspaceId\n        }\n    }\n}\n",
+  "url": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/CLI/CMUXCLI+AgentHookProcessBindingResult.swift",
+  "language": "swift",
+  "kind": "code"
+}

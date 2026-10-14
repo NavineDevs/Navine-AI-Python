@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ohmyzsh/ohmyzsh:lib/prompt_info_functions.zsh",
+  "title": "ohmyzsh/ohmyzsh/lib/prompt_info_functions.zsh",
+  "text": "# *_prompt_info functions for usage in your prompt\n#\n# Plugin creators, please add your *_prompt_info function to the list\n# of dummy implementations to help theme creators not receiving errors\n# without the need of implementing conditional clauses.\n#\n# See also lib/bzr.zsh, lib/git.zsh and lib/nvm.zsh for\n# git_prompt_info, bzr_prompt_info and nvm_prompt_info\n\n# Dummy implementations that return false to prevent command_not_found\n# errors with themes, that implement these functions\n# Real implementations will be used when the respective plugins are loaded\nfunction chruby_prompt_info \\\n  rbenv_prompt_info \\\n  hg_prompt_info \\\n  pyenv_prompt_info \\\n  svn_prompt_info \\\n  vi_mode_prompt_info \\\n  virtualenv_prompt_info \\\n  jenv_prompt_info \\\n  azure_prompt_info \\\n  tf_prompt_info \\\n  conda_prompt_info \\\n{\n  return 1\n}\n\n# oh-my-zsh supports an rvm prompt by default\n# get the name of the rvm ruby version\nfunction rvm_prompt_info() {\n  [ -f $HOME/.rvm/bin/rvm-prompt ] || return 1\n  local rvm_prompt\n  rvm_prompt=$($HOME/.rvm/bin/rvm-prompt ${=ZSH_THEME_RVM_PROMPT_OPTIONS} 2>/dev/null)\n  [[ -z \"${rvm_prompt}\" ]] && return 1\n  echo \"${ZSH_THEME_RUBY_PROMPT_PREFIX}${rvm_prompt:gs/%/%%}${ZSH_THEME_RUBY_PROMPT_SUFFIX}\"\n}\n\nZSH_THEME_RVM_PROMPT_OPTIONS=\"i v g\"\n\n\n# use this to enable users to see their ruby version, no matter which\n# version management system they use\nfunction ruby_prompt_info() {\n  echo \"$(rvm_prompt_info || rbenv_prompt_info || chruby_prompt_info)\"\n}\n",
+  "url": "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/lib/prompt_info_functions.zsh",
+  "language": "shell",
+  "kind": "code"
+}

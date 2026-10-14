@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1vv9ut4",
+  "title": "Any free STT/TTS APIs for a voice AI app?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m building a small voice-based AI interview app and I&#39;m planning to deploy the backend(fastapi) on <strong>Render&#39;s free tier</strong>.</p> <p>I&#39;m considering using open-source/self-hosted options like <strong>Whisper/PocketSphinx for STT</strong> and <strong>Piper for TTS</strong>, instead of paid APIs.</p> <p>My concern is whether running STT/TTS on the same free Render instance would use too much CPU/RAM and make the whole application slow, especially during a real-time interview.</p> <p>Has anyone tried running STT/TTS models on Render&#39;s free tier?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SoilEducational420\"> /u/SoilEducational420 </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1vv9ut4/any_free_stttts_apis_for_a_voice_ai_app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vv9ut4/any_free_stttts_apis_for_a_voice_ai_app/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1vv9ut4/any_free_stttts_apis_for_a_voice_ai_app/"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.09780v1",
+  "title": "Algorithmic Asymmetry in Zero-Sum Games: Unilateral Recovery of Fast Convergence Against a Slow Opponent",
+  "text": "Algorithmic Asymmetry in Zero-Sum Games: Unilateral Recovery of Fast Convergence Against a Slow Opponent\n\nLearning dynamics in zero-sum games are typically analyzed under algorithmic symmetry: both agents use the same update rule, or methods from a common algorithmic family. This is at odds with the nature of zero-sum games; competing agents need not coordinate on algorithm selection. This paper studies algorithmic asymmetry in learning dynamics in zero-sum games. In particular, we ask whether fast convergence can be recovered when one agent is fixed to vanilla gradient descent, whose standard regret-based analysis certifies, at best, $O(1/\\sqrt{T})$ ergodic convergence. We show that the slow rate is not intrinsic. When one agent uses gradient descent, the opposing agent can use a modified optimistic update, which we call Alternating Optimistic Gradient Descent (AOGD), to make the joint dynamics simulate Alternating Gradient Descent on the even iterates. As a result, the time-average of the asymmetric GD vs.\\ AOGD dynamics converges to Nash equilibria at rate $O(1/T)$. Our results show that fast convergence need not require coordinated algorithm selection: one agent can compensate for a slower opponent. More broadly, the paper highlights algorithmic asymmetry as a useful lens for understanding cross-class interactions in multiagent optimization.",
+  "url": "https://arxiv.org/abs/2608.09780v1",
+  "category": "technical"
+}

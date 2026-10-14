@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1u46vg4",
+  "title": "Smelling the slop in a given GitHub project",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m sick of all the slop-projects in this subreddit. </p> <p>Instead of just complaining, I&#39;ve tried to identify common smells that could indicate the project is slop.</p> <ul> <li>Using Rust edition 2021</li> <li>Using workspace resolver version 2</li> <li>Using outdated dependencies</li> </ul> <p>In the last two hours I whipped up a CLI tool that checks for these three smells on a given GitHub project.</p> <p>It it understandably rough around the edges and I know there are way more smells, like using the words &quot;Phase 0&quot;, &quot;Phase 1&quot;, having HUGE markdown files, using em-dashes, etc, etc.</p> <p>I would be very happy to get contributions from fellow flesh-and-blood developers!</p> <p>Sorry for the negative post, but I&#39;m happy I could at least do something creative with my frustration!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sermuns\"> /u/Sermuns </a> <br/> <span><a href=\"https://github.com/sermuns/is-it-slop\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1u46vg4/smelling_the_slop_in_a_given_github_project/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1u46vg4/smelling_the_slop_in_a_given_github_project/"
+}

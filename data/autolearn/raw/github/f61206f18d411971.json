@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:laravel/framework:config/cors.php",
+  "title": "laravel/framework/config/cors.php",
+  "text": "<?php\n\nreturn [\n\n    /*\n    |--------------------------------------------------------------------------\n    | Cross-Origin Resource Sharing (CORS) Configuration\n    |--------------------------------------------------------------------------\n    |\n    | Here you may configure your settings for cross-origin resource sharing\n    | or \"CORS\". This determines what cross-origin operations may execute\n    | in web browsers. You are free to adjust these settings as needed.\n    |\n    | To learn more: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS\n    |\n    */\n\n    'paths' => ['api/*', 'sanctum/csrf-cookie'],\n\n    'allowed_methods' => ['*'],\n\n    'allowed_origins' => ['*'],\n\n    'allowed_origins_patterns' => [],\n\n    'allowed_headers' => ['*'],\n\n    'exposed_headers' => [],\n\n    'max_age' => 0,\n\n    'supports_credentials' => false,\n\n];\n",
+  "url": "https://raw.githubusercontent.com/laravel/framework/13.x/config/cors.php",
+  "language": "php",
+  "kind": "code"
+}

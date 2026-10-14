@@ -1,0 +1,7 @@
+Enterprise stack notes for local Navine training.
+
+Text pretrain uses the data pipeline over data/text, data/train/chat, general, coding, learn, and conversations.
+Image enterprise finetunes NavineDiffusionModel on local folders under data/nsfw and learn paths.
+Video enterprise finetunes NavineVideoModel with frame packs from video and image extras.
+Always archive previous text_enterprise weights before a fresh architecture rebuild.
+Hybrid device mode runs compute on CUDA when available and keeps dataloader workers on CPU with pin_memory.

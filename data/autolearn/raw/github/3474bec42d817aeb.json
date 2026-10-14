@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/tests/test.spec.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/tests/test.spec.ts",
+  "text": "// import { mount } from '@vue/test-utils';\n// import { Button } from '/@/components/Button';\n\ntest('if jest is normal.', async () => {\n  expect('jest').toEqual('jest');\n});\n\n// TODO Vue component testing is not supported temporarily\n// test('is a Vue instance.', async () => {\n//   const wrapper = mount(Button, {\n//     slots: {\n//       default: 'Button text',\n//     },\n//   });\n//   expect(wrapper.html()).toContain('Button text');\n// });\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/tests/test.spec.ts",
+  "language": "typescript",
+  "kind": "code"
+}

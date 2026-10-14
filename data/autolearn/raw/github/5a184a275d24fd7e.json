@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:e2e/code-storage.spec.ts",
+  "title": "freeCodeCamp/freeCodeCamp/e2e/code-storage.spec.ts",
+  "text": "import { test, expect } from '@playwright/test';\n\nimport { getEditors } from './utils/editor';\n\ntest.describe('Challenge with editor', function () {\n  test.skip(({ isMobile }) => isMobile);\n  test('the shortcut \"Ctrl + S\" saves the code', async ({ page }) => {\n    await page.goto(\n      '/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-2'\n    );\n\n    const editor = getEditors(page);\n\n    await editor.fill('Something funny');\n    await page.keyboard.down('Control');\n    await page.keyboard.press('S');\n\n    await expect(\n      page.getByText(\n        \"Saved! Your code was saved to your browser's local storage.\"\n      )\n    ).toBeVisible();\n\n    await page.reload();\n\n    // check editor content\n    await expect(editor).toHaveValue(/Something funny/);\n  });\n});\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/e2e/code-storage.spec.ts",
+  "language": "typescript",
+  "kind": "code"
+}

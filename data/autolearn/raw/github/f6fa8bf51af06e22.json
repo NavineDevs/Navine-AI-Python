@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:ultraworkers/claw-code:scripts/fmt.sh",
+  "title": "ultraworkers/claw-code/scripts/fmt.sh",
+  "text": "#!/usr/bin/env bash\nset -euo pipefail\n\nSCRIPT_DIR=\"$(cd \"$(dirname \"${BASH_SOURCE[0]}\")\" && pwd)\"\nREPO_ROOT=\"$(cd \"$SCRIPT_DIR/..\" && pwd)\"\ncd \"$REPO_ROOT/rust\"\nexec cargo fmt \"$@\"\n",
+  "url": "https://raw.githubusercontent.com/ultraworkers/claw-code/main/scripts/fmt.sh",
+  "language": "shell",
+  "kind": "code"
+}

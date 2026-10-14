@@ -1,0 +1,106 @@
+[History] Supercharging Kubernetes: How eBPF is Revolutionizing SRE and Platform Engineering
+
+The ecosystem surrounding Kubernetes has always been a rapidly moving target. Just when Site Reliability Engineers and Platform Engineers feel they have mastered the current best practices, a fundamental paradigm shift occurs that rewrites the rules of cloud native infrastructure. Today, we are living through one of the most significant architectural shifts in the history of Linux and Kubernetes. That shift is being driven by a technology known as eBPF.
+
+For years, managing network traffic, enforcing security policies, and gathering deep observability metrics within a Kubernetes cluster required deploying layers of complex abstractions. We relied heavily on legacy Linux networking tools and resource heavy proxy sidecars. While these tools worked, they introduced massive performance bottlenecks and operational overhead. 
+
+In this comprehensive guide, we will explore exactly what eBPF is, why the traditional Kubernetes networking model is failing modern enterprise workloads, and how eBPF native tools like Cilium are empowering Platform Engineering teams to build faster, more secure, and highly observable internal developer platforms.
+
+
+  
+  
+  Understanding the Magic of eBPF
+
+
+To grasp why this technology is so revolutionary, we first need to understand how operating systems handle network traffic and security. In a traditional Linux environment, the operating system is strictly divided into two distinct areas: user space and kernel space.
+
+User space is where your applications run. Your Node.js APIs, your Python scripts, and your Kubernetes components all live here. Kernel space is the highly privileged core of the operating system. The kernel interacts directly with the physical hardware, managing memory allocation, process scheduling, and network packet routing. 
+
+Historically, if you wanted to change how the Linux kernel processed network packets, you had to write a custom kernel module. This was an incredibly dangerous and time consuming process. A single bug in a kernel module could cause a kernel panic and crash the entire server.
+
+eBPF, which originally stood for extended Berkeley Packet Filter, completely changes this dynamic. Often described as "JavaScript for the Linux kernel," eBPF allows developers to write custom programs that run directly inside the kernel space in a secure, sandboxed environment. Before an eBPF program is allowed to execute, a strict verifier checks the code to ensure it cannot crash the system or create infinite loops. 
+
+This means Platform Engineers can now dynamically program the kernel to intercept system calls, trace network packets, and enforce security policies without ever having to modify kernel source code or reboot the server. The performance implications of this capability are absolutely staggering.
+
+
+  
+  
+  The Problem with Legacy Kubernetes Networking
+
+
+To appreciate the impact of eBPF on Kubernetes, we must examine the limitations of the default networking model. By default, Kubernetes handles internal cluster networking and load balancing using a component called kube-proxy. 
+
+For the vast majority of standard deployments, kube-proxy relies on a Linux utility called iptables. Iptables is a robust firewall tool that has been part of Linux for decades. However, it was designed in an era of static servers. It was never intended to handle the incredibly dynamic, ephemeral nature of modern microservices environments where thousands of pods are created and destroyed every single hour.
+
+When a developer creates a Kubernetes Service, kube-proxy intercepts that request and writes a series of iptables rules on every single worker node in the cluster. These rules dictate how traffic should be routed to the underlying pods. As your cluster grows, the number of iptables rules grows exponentially. 
+
+Because iptables evaluates rules sequentially, a packet entering a large cluster might have to be checked against tens of thousands of rules before the operating system knows where to send it. This sequential processing creates a massive performance bottleneck. During cluster scaling events, updating these massive lists of rules can take several seconds, leading to dropped packets, increased latency, and a degraded user experience.
+
+
+  
+  
+  Enter Cilium: eBPF Native Networking
+
+
+Platform teams required a networking solution built specifically for the cloud native era. This requirement led to the creation of Cilium, an open source project that uses eBPF to completely bypass the limitations of iptables.
+
+When you install Cilium as your Kubernetes Container Network Interface, you have the option to completely disable kube-proxy. Instead of writing cumbersome firewall rules, Cilium attaches highly efficient eBPF programs directly to the network sockets of your worker nodes. 
+
+When a packet leaves a pod, the eBPF program instantly knows exactly which destination pod it needs to reach, regardless of which node that pod resides on. It bypasses the complex legacy TCP/IP stack overhead and routes the packet directly. This socket level routing results in dramatically lower network latency, higher throughput, and significantly reduced CPU consumption on your worker nodes. 
+
+For Site Reliability Engineers managing clusters at an enterprise scale, this transition means ending the constant battle against network latency spikes and unlocking the true performance potential of their bare metal or cloud instances.
+
+
+  
+  
+  The Sidecar Tax and the Future of the Service Mesh
+
+
+Networking performance is only the first half of the eBPF revolution. The second half fundamentally alters how we approach the Service Mesh. 
+
+Over the last few years, adopting a service mesh like Istio or Linkerd became a standard practice for achieving mutual TLS encryption, advanced traffic splitting, and deep observability. However, the architecture of a traditional service mesh requires injecting a proxy co
+
+[History] MCP Is Losing the Coding Agent War — And the Numbers Prove It
+
+Independent benchmarks show MCP burning 4&#x2013;35x more tokens than plain CLI tools &#x2014; and failing more often on hard tasks. Here&#x2019;s what&#x2019;s&#x2026;Continue reading on Think in AI Agents »
+
+[History] MCP Is Losing the Coding Agent War — And the Numbers Prove It
+
+Independent benchmarks show MCP burning 4&#x2013;35x more tokens than plain CLI tools &#x2014; and failing more often on hard tasks. Here&#x2019;s what&#x2019;s&#x2026;Continue reading on Think in AI Agents »
+
+[History] Welcome to /his/ - History &amp; Humanities
+
+Welcome to /his/ - History &amp; Humanities This board is dedicated to the discussion of history and the other humanities such as philosophy, religion, law, classical artwork, archeology, anthropology, ancient languages, etc. Please use /lit/ for discussions of literature. Threads should be about specific topics, and the creation of "general" threads is discouraged. For the purpose of determining what is history, please do not start threads about events taking place less than 25 years ago. Historical discussions should be focused on past events, and not their contemporary consequences. Discussion of modern politics, current events, popular culture, or other non-historical topics should be posted elsewhere. General discussions about international culture should go on /int/ . /his/ is not /pol/ , and Global Rule #3 is in effect. Do not try to treat this board as /pol/ with dates . Blatant racism and trolling will not be tolerated, and a high level of discourse is expected. History can be examined from many different conflicting viewpoints; please treat other posters with respect and address the content of their post instead of attacking their character. When discussing history, please reference credible source material , and provide as much supporting information as possible in your posts.
+
+[History] Welcome to /his/ - History &amp; Humanities
+
+Welcome to /his/ - History &amp; Humanities This board is dedicated to the discussion of history and the other humanities such as philosophy, religion, law, classical artwork, archeology, anthropology, ancient languages, etc. Please use /lit/ for discussions of literature. Threads should be about specific topics, and the creation of "general" threads is discouraged. For the purpose of determining what is history, please do not start threads about events taking place less than 25 years ago. Historical discussions should be focused on past events, and not their contemporary consequences. Discussion of modern politics, current events, popular culture, or other non-historical topics should be posted elsewhere. General discussions about international culture should go on /int/ . /his/ is not /pol/ , and Global Rule #3 is in effect. Do not try to treat this board as /pol/ with dates . Blatant racism and trolling will not be tolerated, and a high level of discourse is expected. History can be examined from many different conflicting viewpoints; please treat other posters with respect and address the content of their post instead of attacking their character. When discussing history, please reference credible source material , and provide as much supporting information as possible in your posts.
+
+[History] /his/ post 18528356
+
+>It's NOT idol worship because uhh... umm... uhhhh... LOOK HOW FUCKING SHINY IT IS!!!!
+
+[History] >It's NOT idol worship because uhh... umm... uhhhh... LOOK HOW FUCKING SHINY IT IS!!!!
+
+>It's NOT idol worship because uhh... umm... uhhhh... LOOK HOW FUCKING SHINY IT IS!!!!
+
+[History] /his/ post 18528364
+
+It's not, relic veneration is in the bible itself.
+
+[History] /his/ post 18528371
+
+>>18528364 >the "relic veneration" in question:
+
+[History] >>18528364 >the "relic veneration" in question:
+
+>>18528364 >the "relic veneration" in question:
+
+[History] Rare medieval bookmark exceeds expectations at auction
+
+Rare medieval bookmark exceeds expectations at auction
+
+[History] The UK's War on Anonymity Has Come to America
+
+The UK's War on Anonymity Has Come to America
+

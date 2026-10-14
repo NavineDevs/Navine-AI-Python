@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sorin-ionescu/prezto:modules/dpkg/init.zsh",
+  "title": "sorin-ionescu/prezto/modules/dpkg/init.zsh",
+  "text": "#\n# Defines dpkg aliases.\n#\n# Authors:\n#   Daniel Bolton <dbb@9y.com>\n#   Benjamin Boudreau <boudreau.benjamin@gmail.com>\n#   Sorin Ionescu <sorin.ionescu@gmail.com>\n#\n\n# Return if requirements are not found.\nif (( ! $+commands[dpkg] && ! $+commands[apt-get] )); then\n  return 1\nfi\n\n#\n# Aliases\n#\n\n# Cleans the cache.\nalias debc='sudo apt-get clean && sudo apt-get autoclean'\n\n# Displays a file's package.\nalias debf='apt-file search --regexp'\n\n# Installs packages from repositories.\nalias debi='sudo apt-get install'\n\n# Installs packages from files.\nalias debI='sudo dpkg -i'\n\n# Displays package information.\nalias debq='apt-cache show'\n\n# Updates the package lists.\nalias debu='sudo apt-get update'\n\n# Upgrades outdated packages.\nalias debU='sudo apt-get update && sudo apt-get dist-upgrade'\n\n# Removes packages.\nalias debx='sudo apt-get remove'\n\n# Removes packages, their configuration, and unneeded dependencies.\nalias debX='sudo apt-get remove --purge && sudo apt-get autoremove --purge'\n\n# Searches for packages.\nif (( $+commands[aptitude] )); then\n  alias debs='aptitude -F \"* %p -> %d \\n(%v/%V)\" --no-gui --disable-columns search'\nelse\n  alias debs='apt-cache search'\nfi\n\n# Creates a basic deb package.\nalias deb-build='time dpkg-buildpackage -rfakeroot -us -uc'\n\n# Removes all kernel images and headers, except for the ones in use.\nalias deb-kclean='sudo aptitude remove -P \"?and(~i~nlinux-(ima|hea) ?not(~n$(uname -r)))\"'\n",
+  "url": "https://raw.githubusercontent.com/sorin-ionescu/prezto/master/modules/dpkg/init.zsh",
+  "language": "shell",
+  "kind": "code"
+}

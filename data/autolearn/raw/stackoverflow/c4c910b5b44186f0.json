@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:927358",
+  "title": "How do I undo the most recent local commits in Git?",
+  "text": "How do I undo the most recent local commits in Git?\n\n<p>I accidentally committed the wrong files to <a href=\"https://en.wikipedia.org/wiki/Git\" rel=\"noreferrer\">Git</a> but haven't pushed the commit to the server yet.</p>\n<p>How do I undo those commits from the <em>local</em> repository?</p>",
+  "url": "https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git",
+  "kind": "qa"
+}

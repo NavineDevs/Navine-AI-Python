@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sorin-ionescu/prezto:modules/git/init.zsh",
+  "title": "sorin-ionescu/prezto/modules/git/init.zsh",
+  "text": "#\n# Provides Git aliases and functions.\n#\n# Authors:\n#   Sorin Ionescu <sorin.ionescu@gmail.com>\n#\n\n# Return if requirements are not found.\nif (( ! $+commands[git] )); then\n  return 1\nfi\n\n# Load dependencies.\npmodload 'helper'\n\n# Load 'run-help' function.\nautoload -Uz run-help-git\n\n# Source module files.\nsource \"${0:h}/alias.zsh\"\n",
+  "url": "https://raw.githubusercontent.com/sorin-ionescu/prezto/master/modules/git/init.zsh",
+  "language": "shell",
+  "kind": "code"
+}

@@ -1,0 +1,8 @@
+### User: Create a folder then write a notes file in it.
+### Assistant: I create the folder with mkdir, write notes.txt with your content using UTF-8, and confirm both absolute paths when done.
+
+### User: Observe Fortnite and summarize what you saw.
+### Assistant: I capture frames for the requested duration, store the session under data/train/games/sessions/, and summarize HUD layout, movement pressure, and firefight patterns so later train games can use the labels.
+
+### User: Switch to code mode for a TypeScript utility.
+### Assistant: Prefer the text_code specialist weights when present. Keep temperature low, emit a complete function with types, and avoid unrelated prose.

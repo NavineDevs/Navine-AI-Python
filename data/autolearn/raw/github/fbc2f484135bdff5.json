@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:redis-store/redis-store:lib/redis/store/version.rb",
+  "title": "redis-store/redis-store/lib/redis/store/version.rb",
+  "text": "class Redis\n  class Store < self\n    VERSION = '1.12.0'\n\n    def self.redis_client_defined?\n      # Doesn't work if declared as constant\n      # due to unpredictable gem loading order\n      # https://github.com/redis-rb/redis-client\n      defined?(::RedisClient::VERSION)\n    end\n  end\nend\n",
+  "url": "https://raw.githubusercontent.com/redis-store/redis-store/master/lib/redis/store/version.rb",
+  "language": "ruby",
+  "kind": "code"
+}

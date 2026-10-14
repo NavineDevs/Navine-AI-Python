@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.09875v1",
+  "title": "Comprehending Python Repetition Structures: An Eye-Tracking Study with Novice Developers",
+  "text": "Comprehending Python Repetition Structures: An Eye-Tracking Study with Novice Developers\n\nCode comprehension is central to software maintenance and evolution, yet different Python repetition structures may impose distinct cognitive demands. We conducted a controlled eye-tracking experiment with 32 undergraduate students with prior Python experience to compare comprehension of for loops, while loops, recursion, and list comprehensions (LCs). Participants solved six comprehension tasks in a Latin Square design while we measured completion behavior and eye-tracking metrics over full snippets and construct-specific Areas of Interest (AOIs). for loops showed the lowest visual effort. Relative to for, while loops increased AOI fixation duration by up to 97% and regression count by 114%, with regressions concentrated around counter management. Recursion showed a descriptive 50% increase in regressions, mainly between the base case and recursive call. LCs increased AOI time by 62.5% and fixation duration by 80.9%, with horizontal regressions suggesting dense token-by-token parsing. LC comparisons yielded the clearest statistically significant pairwise differences, while the combined comparison of all non-for structures was significant across all eye-tracking metrics. These findings provide process-level evidence that Python repetition structures induce distinct visual-effort patterns, with implications for readability, code review, refactoring, onboarding, and maintainability.",
+  "url": "https://arxiv.org/abs/2608.09875v1",
+  "category": "technical"
+}

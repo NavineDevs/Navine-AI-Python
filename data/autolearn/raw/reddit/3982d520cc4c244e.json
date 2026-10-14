@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:javascript:t3_1vhc3q0",
+  "title": "Node.JS in the Browser - An Open-source Alternative to WebContainers",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>This is a Node.js compatible runtime in the browser. It supports CLI apps, Vite, and some agents (like Pi Agent) as well.</p> <p>Some notes:</p> <p>- This runs all code in a web worker using the host javascript runtime with rewrites for module loading and AsyncLocalStorage support using Oxc compiled to WASM.</p> <p>- Most of the libraries are bundled straight from Node.js upstream with light overrides where needed, ensuring compatibility. Libraries were only reimplemented where really needed</p> <p>- Despite having great integrations with the Puter desktop and APIs, this can be used completely seperately with OPFS support for filesystem and Wisp protocol support for networking. The demo also supports FS Access API to run local files</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Salazareo\"> /u/Salazareo </a> <br/> <span><a href=\"https://developer.puter.com/labs/node/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/javascript/comments/1vhc3q0/nodejs_in_the_browser_an_opensource_alternative/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/javascript/comments/1vhc3q0/nodejs_in_the_browser_an_opensource_alternative/"
+}

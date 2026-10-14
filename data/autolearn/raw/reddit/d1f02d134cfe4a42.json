@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1u4k55x",
+  "title": "Why are async runtimes so big and complex?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve been trying to learn how async and futures work. Made a small useless async runtime using dummy Wakers. I tried to look at Tokie, FuturesExt etc. When those are too big I tried to look at Smol. The smol async framework is not small.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/lelelesdx\"> /u/lelelesdx </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1u4k55x/why_are_async_runtimes_so_big_and_complex/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1u4k55x/why_are_async_runtimes_so_big_and_complex/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1u4k55x/why_are_async_runtimes_so_big_and_complex/"
+}

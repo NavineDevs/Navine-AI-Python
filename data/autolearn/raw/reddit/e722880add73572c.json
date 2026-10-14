@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1vt74p4",
+  "title": "Go build taking too long?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m using go 1.26.6 on Linux, and building takes around 12 seconds and if I run it two times (which I assume at this point it&#39;s just caching) it takes only a second, I don&#39;t know what time is mostly spent on it, only that it takes 12 seconds according to `time` </p> <p>Is there a faster way to build or is my environment misconfigured? For reference gcc usually takes only 3 seconds and my pc is on the potato side even with external libraries</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Stickhtot\"> /u/Stickhtot </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1vt74p4/go_build_taking_too_long/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1vt74p4/go_build_taking_too_long/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1vt74p4/go_build_taking_too_long/"
+}

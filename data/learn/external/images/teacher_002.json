@@ -1,0 +1,13 @@
+{
+  "prompt": "anime hentai style illustration, detailed character art, soft shading",
+  "caption": "anime hentai style illustration, detailed character art, soft shading",
+  "filename": "teacher_002.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-06-24T04:28:02.690875+00:00",
+  "enhanced_prompt": "an anime hentai style illustration, detailed character art, soft shading, anime illustration, hentai style, detailed linework, vibrant colors, explicit adult",
+  "seed": 1965430096,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_002.png"
+}

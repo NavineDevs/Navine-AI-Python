@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:InsertKoinIO/koin:examples/jvm-perfs/benchmark.sh",
+  "title": "InsertKoinIO/koin/examples/jvm-perfs/benchmark.sh",
+  "text": "#!/bin/sh\n\n../gradlew runBenchmark\n",
+  "url": "https://raw.githubusercontent.com/InsertKoinIO/koin/main/examples/jvm-perfs/benchmark.sh",
+  "language": "shell",
+  "kind": "code"
+}

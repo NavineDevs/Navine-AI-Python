@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:jeecgboot/JeecgBoot:jeecgboot-vue3/electron/env.ts",
+  "title": "jeecgboot/JeecgBoot/jeecgboot-vue3/electron/env.ts",
+  "text": "// 不能直接使用 process.env，会报错\nexport const $ps = process;\n\nexport const isDev = !!$ps.env.VITE_DEV_SERVER_URL;\n\nexport const $env = getEnv();\n\nfunction getEnv() {\n  if (isDev) {\n    return $ps.env;\n  }\n  // 非开发环境，从 JSON 文件中获取环境变量\n  const env = require('./env.json');\n  return {\n    ...$ps.env,\n    ...env,\n  };\n}\n",
+  "url": "https://raw.githubusercontent.com/jeecgboot/JeecgBoot/main/jeecgboot-vue3/electron/env.ts",
+  "language": "typescript",
+  "kind": "code"
+}

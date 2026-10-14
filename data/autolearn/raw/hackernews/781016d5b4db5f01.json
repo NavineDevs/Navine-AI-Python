@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48640278",
+  "title": "Show HN: A pure ARM64 Assembly web server, now on Linux with CGI for no reason",
+  "text": "This is ymawky, a now-dynamic web server written entirely in ARM64 Assembly. I&#x27;ve previously posted about ymawky here: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48080587\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48080587</a><p>In the past month and a half, I&#x27;ve made some pretty major improvements: I&#x27;ve added CGI scripting support, so the server now supports query strings and dynamic content; and I&#x27;ve fully ported ymawky to run on Linux, rather than macOS-only.<p>In addition to GET&#x2F;PUT&#x2F;HEAD&#x2F;DELETE&#x2F;OPTIONS requests, because of CGI support ymawky also accepts POST requests (only to CGI resources for now).<p>I&#x27;ve also updated the more detailed writeup to reflect CGI support and the Linux port: <a href=\"https:&#x2F;&#x2F;imtomt.github.io&#x2F;ymawky&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;imtomt.github.io&#x2F;ymawky&#x2F;</a>",
+  "url": "https://github.com/imtomt/ymawky/tree/linux"
+}

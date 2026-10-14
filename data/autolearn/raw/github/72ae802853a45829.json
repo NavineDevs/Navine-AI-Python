@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:bobthecow/psysh:src/ContextAware.php",
+  "title": "bobthecow/psysh/src/ContextAware.php",
+  "text": "<?php\n\n/*\n * This file is part of Psy Shell.\n *\n * (c) 2012-2026 Justin Hileman\n *\n * For the full copyright and license information, please view the LICENSE\n * file that was distributed with this source code.\n */\n\nnamespace Psy;\n\n/**\n * ContextAware interface.\n *\n * This interface is used to pass the Shell's context into commands and such\n * which require access to the current scope variables.\n */\ninterface ContextAware\n{\n    /**\n     * Set the Context reference.\n     */\n    public function setContext(Context $context);\n}\n",
+  "url": "https://raw.githubusercontent.com/bobthecow/psysh/main/src/ContextAware.php",
+  "language": "php",
+  "kind": "code"
+}

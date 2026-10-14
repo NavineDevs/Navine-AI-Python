@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\s4s\\s4s_1782088600657114.png",
+  "title": "s4s_1782088600657114",
+  "text": "s4s_1782088600657114",
+  "url": "data\\nsfw\\images\\local\\general\\s4s_1782088600657114_1782092452350862100.png",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\s4s_1782088600657114_1782092452350862100.png",
+  "caption": "s4s_1782088600657114 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "s4s",
+  "tags": [
+    "s4s",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

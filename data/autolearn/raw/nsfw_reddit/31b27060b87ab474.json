@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "reddit:redgifs:t3_13lvtzs",
+  "title": "New Feature: Bulk Upload Images",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, we&#39;re happy to announce the rollout of a new feature that allows users to upload up to 50 images at once.</p> <p>On the Upload page, users will now see a &#39;Bulk Upload Images&#39; button. Images uploaded this way do not appear in RedGIFs feeds and are automatically set to private. If users want these images to appear in RedGIFs feeds, then a minimum of 3 tags must be added and the content set to public.</p> <p>Upon completion of the uploads, the share link is visible on each piece of content. All content is also added to the Manage section of a user&#39;s profile.</p> <p>We&#39;ll continue to work on the areas with the most impact as per the feedback we are very grateful to have received.</p> <p>More updates and improvements are coming soon!</p> <p>Thanks RedGIFs Team</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RedGIFsOfficial\"> /u/RedGIFsOfficial </a> <br/> <span><a href=\"https://www.reddit.com/r/redgifs/comments/13lvtzs/new_feature_bulk_upload_images/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/redgifs/comments/13lvtzs/new_feature_bulk_upload_images/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/redgifs/comments/13lvtzs/new_feature_bulk_upload_images/",
+  "category": "nsfw",
+  "subreddit": "redgifs",
+  "media_category": "real",
+  "tags": [
+    "real",
+    "human",
+    "video",
+    "redgifs",
+    "real_video"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real_video"
+}

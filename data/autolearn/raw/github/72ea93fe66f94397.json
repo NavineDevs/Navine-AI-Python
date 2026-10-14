@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:hahwul/XSpear:lib/XSpear/banner.rb",
+  "title": "hahwul/XSpear/lib/XSpear/banner.rb",
+  "text": "def banner;\n  puts \"    )  (\n ( /(  )\\\\ )\n )\\\\())(()/(          (     )  (\n((_)\\\\  /(_))`  )    ))\\\\ ( /(  )(\n__((_)(_))  /(/(   /((_))(_))(()\\\\\".red+\"\n\\\\ \\\\/ // __|\"+\"((_)_\\\\ (_)) ((_)_  ((_)\".red+\"\n >  < \\\\__ \\\\| '_ \\\\)/ -_)/ _` || '_|\n/_/\\\\_\\\\|___/| .__/ \\\\___|\\\\__,_||_|    \"+\"/>\".red+\"\n           |_|                   \"+\"\\\\ /<\".red+\"\n\"+\"{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\".red+\"BYHAHWUL\"+\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\(0):::<======================-\".red+\"\n                                 \"+\"/ \\\\<\".red+\"\n                                    \"+\"\\\\>\".red+\"       [ v#{XSpear::VERSION} ]\"\nend",
+  "url": "https://raw.githubusercontent.com/hahwul/XSpear/master/lib/XSpear/banner.rb",
+  "language": "ruby",
+  "kind": "code"
+}

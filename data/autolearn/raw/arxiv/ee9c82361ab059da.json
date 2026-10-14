@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2608.20230v1",
+  "title": "Differentially Private Continual Release with Relative Error",
+  "text": "Differentially Private Continual Release with Relative Error\n\nThis work investigates several fundamental tasks, including $\\mathsf{MaxSum}$, $\\mathsf{MinSum}$, $\\mathsf{MaxSelect}$, and $\\mathsf{MinSelect}$, in the continual release model under differential privacy. Previous research has demonstrated that any algorithm for these tasks must admit a large purely additive error. We show that the error can be substantially reduced if a relative error term is allowed, provided that the input stream is generated non-adaptively. However, when input data records can be selected adaptively, we prove that a large error is inevitable for the task of selecting an attribute with a small cumulative sum, whereas small error bounds remain achievable for other tasks. This reveals a significant separation between non-adaptive and adaptive streams. We also complement our algorithms with nearly matching lower bounds.",
+  "url": "https://arxiv.org/abs/2608.20230v1",
+  "category": "technical"
+}

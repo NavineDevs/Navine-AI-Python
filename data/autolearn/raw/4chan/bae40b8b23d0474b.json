@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:gif:30775134:30775134:video",
+  "title": "Tummy thread",
+  "text": "Tummy thread",
+  "url": "https://boards.4chan.org/gif/thread/30775134#p30775134",
+  "category": "nsfw",
+  "kind": "video",
+  "caption": "Tummy thread | [animated, video] | tags: 4chan, gif, unknown",
+  "board": "gif",
+  "thread_id": 30775134,
+  "post_id": 30775134,
+  "media_category": "animated",
+  "tags": [
+    "4chan",
+    "gif",
+    "animated",
+    "video"
+  ],
+  "video_url": "https://i.4cdn.org/gif/1781222453384349.webm",
+  "subject_type": "unknown",
+  "style_type": "mixed",
+  "training_scope": "nsfw",
+  "local_path": "data\\nsfw\\local\\animated\\gif_1781222453384349.webm"
+}

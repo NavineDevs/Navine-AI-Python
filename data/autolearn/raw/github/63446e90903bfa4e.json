@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeCodeCamp/freeCodeCamp:e2e/backend.spec.ts",
+  "title": "freeCodeCamp/freeCodeCamp/e2e/backend.spec.ts",
+  "text": "import { test, expect } from '@playwright/test';\n\nconst locations = {\n  index:\n    'learn/back-end-development-and-apis/managing-packages-with-npm/' +\n    'how-to-use-package-json-the-core-of-any-node-js-project-or-npm-package'\n};\n\nconst unhandledErrorMessage = 'Something is not quite right';\nconst runningOutput = '// running tests';\nconst finishedOutput = '// tests completed';\n\ntest.describe('Backend challenge', () => {\n  test('renders', async ({ page }) => {\n    await page.goto(locations.index);\n    await expect(page).toHaveTitle(\n      'Managing Packages with NPM - How to Use package.json, the Core of Any Node.js Project or npm Package | Learn | freeCodeCamp.org'\n    );\n  });\n\n  test('does not generate unhandled errors on submission', async ({ page }) => {\n    await page.goto(locations.index);\n    await page.fill('input[name=\"solution\"]', 'https://example.com');\n    await page.keyboard.press('Enter');\n\n    await expect(page.getByText(runningOutput)).toContainText(finishedOutput);\n\n    await expect(page.getByText(unhandledErrorMessage)).not.toBeVisible();\n  });\n});\n",
+  "url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/main/e2e/backend.spec.ts",
+  "language": "typescript",
+  "kind": "code"
+}

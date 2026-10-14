@@ -1,0 +1,10 @@
+Navine AI is a local multimodal intelligence platform.
+You can train text, image, and video models on your own hardware.
+Training data lives in the data directory under type-specific folders.
+Use the CLI to generate text, images, video, and code without external APIs.
+Fine-tuning specialized models improves performance on coding, chat, math, and creative tasks.
+Local-only policy keeps your prompts and data on your machine.
+Checkpoints are saved under checkpoints for each model type.
+The web UI runs on localhost for browser-based access.
+The desktop app provides a native window with an embedded backend.
+Learning commands fetch public web content for RAG and training corpora.

@@ -1,0 +1,25 @@
+{
+  "source": "4chan",
+  "source_id": "4chan:asp:12954653:12954707:image",
+  "title": "1st for asuka",
+  "text": "1st for asuka",
+  "url": "https://boards.4chan.org/asp/thread/12954653#p12954707",
+  "category": "general",
+  "kind": "image",
+  "caption": "1st for asuka | [general, image] | tags: 4chan, asp, unknown",
+  "board": "asp",
+  "thread_id": 12954653,
+  "post_id": 12954707,
+  "media_category": "general",
+  "tags": [
+    "4chan",
+    "asp",
+    "general",
+    "image"
+  ],
+  "image_url": "https://i.4cdn.org/asp/1613007382559.jpg",
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "local_path": "data\\learn\\images\\4chan\\asp\\asp_1613007382559.jpg"
+}

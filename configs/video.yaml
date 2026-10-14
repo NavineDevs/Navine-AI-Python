@@ -1,0 +1,112 @@
+model:
+
+  frame_size: 128
+
+  num_frames: 16
+
+  in_channels: 3
+
+  hidden_dim: 256
+
+  num_layers: 4
+
+
+
+training:
+
+  batch_size: 2
+
+  learning_rate: 0.0001
+
+  max_steps: 500
+
+  save_interval: 100
+
+  grad_clip: 1.0
+  perceptual_loss_weight: 0.0
+  finetune_steps: 200
+
+  finetune_lr: 0.00004
+
+
+
+data:
+
+  train_dir: data/nsfw/videos
+
+  extra_dirs:
+
+    - data/learn/video
+
+    - data/nsfw/local/real
+
+    - data/nsfw/local/human
+
+    - data/nsfw/local/hentai
+
+    - data/nsfw/local/porn
+
+    - data/nsfw/images/local/real
+
+    - data/nsfw/images/local/hentai
+
+
+
+inference:
+
+  num_frames: 24
+
+  fps: 15
+
+  output_format: mp4
+
+  frame_output_size: 256
+
+  use_references: true
+
+  custom_trained_only: true
+
+  use_learned_model: false
+
+  prefer_trained_model: true
+
+  reject_bland_frames: true
+
+  seed: 42
+
+  hybrid: true
+
+  min_frame_variance: 0.0005
+  diffusers_video:
+    enabled: false
+    model_id: ''
+    width: 256
+    height: 256
+
+
+
+fallback:
+
+  enabled: true
+
+  max_frames: 24
+
+  image_steps: 12
+
+  motion: 0.03
+
+  keyframe_variation: 0.02
+
+  reference_motion: kenburns
+
+  motion_profiles:
+
+    dance: 1.8
+
+    walk: 1.2
+
+    sway: 1.0
+
+    bounce: 1.4
+
+

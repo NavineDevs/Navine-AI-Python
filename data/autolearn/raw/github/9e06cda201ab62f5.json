@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:InsertKoinIO/koin:projects/benchmark.sh",
+  "title": "InsertKoinIO/koin/projects/benchmark.sh",
+  "text": "#!/bin/sh\n\n./gradlew clean :core:benchmark:jvmBenchmark :core:benchmark:macosArm64Benchmark",
+  "url": "https://raw.githubusercontent.com/InsertKoinIO/koin/main/projects/benchmark.sh",
+  "language": "shell",
+  "kind": "code"
+}

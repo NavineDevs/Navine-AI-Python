@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1vgzqd3",
+  "title": "The LuaJIT NYI That Silently Poisoned an Unrelated Hot Loop",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I was optimizing the Lua transpiler for my modding language grug and ran into a really weird LuaJIT performance bug. The same benchmark could randomly run <strong>20× slower</strong>, and it turned out a LuaJIT NYI (Not Yet Implemented) could silently blacklist an unrelated hot loop.</p> <p>I wrote up the investigation here.</p> <p>It goes from the benchmark mystery through LuaJIT&#39;s trace recorder internals, and ends with a PR to get unpack off LuaJIT&#39;s NYI list. Feedback is very welcome! :)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MyNameIsTrez\"> /u/MyNameIsTrez </a> <br/> <span><a href=\"https://streamhpc.com/blog/2026-08-05/the-luajit-nyi-that-silently-poisoned-an-unrelated-hot-loop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vgzqd3/the_luajit_nyi_that_silently_poisoned_an/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1vgzqd3/the_luajit_nyi_that_silently_poisoned_an/"
+}

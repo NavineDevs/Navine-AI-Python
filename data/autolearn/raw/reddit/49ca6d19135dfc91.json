@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:learnprogramming:t3_1vkr8q4",
+  "title": "Weird Python Glitch",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hey, I&#39;m pretty new to Python so sorry if this is something really obvious.</p> <p>I&#39;m trying to learn a bit of Python before I start university, and I&#39;ve been having a really weird issue with my program. Sometimes when I use print(), instead of printing the word, it outputs numbers.</p> <p>I took a screenshot of it <a href=\"https://imgur.com/a/8kX84t3\">here</a>.</p> <p>The weirdest part is that it doesn&#39;t happen every time. Sometimes everything works normally, and other times I get the weird output.</p> <p>I&#39;ve already tried reinstalling Python and restarting my computer. I&#39;m also using VS Code, if that matters.</p> <p>Has anyone seen this before or know what could cause it?</p> <p>I&#39;m honestly pretty confused by it, so any help would be appreciated.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Good_Airline9995\"> /u/Good_Airline9995 </a> <br/> <span><a href=\"https://www.reddit.com/r/learnprogramming/comments/1vkr8q4/weird_python_glitch/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/learnprogramming/comments/1vkr8q4/weird_python_glitch/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/learnprogramming/comments/1vkr8q4/weird_python_glitch/"
+}

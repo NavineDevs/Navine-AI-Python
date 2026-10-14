@@ -1,0 +1,7 @@
+{
+  "source": "hackernews",
+  "source_id": "hn:48631726",
+  "title": "Show HN: Oak – Git alternative designed for agents",
+  "text": "Oak is a version control system I&#x27;ve been working on designed for agents (<a href=\"https:&#x2F;&#x2F;oak.space\" rel=\"nofollow\">https:&#x2F;&#x2F;oak.space</a>). It improves the speed and context your agents need when working on serious projects. With virtual mounts, agents locally and in the cloud no longer need a full copy of a repo to get working. You can work on many tasks in parallel without needing to download everything or fight worktrees. Version control shouldn&#x27;t waste you or your agents time. It should be fast, creative and fun to make things with agents.<p>Oak is still early in development. There&#x27;s no Windows build and missing plenty of features (no CI, no issues, no comments). We still use GitHub Actions for building Oak now, but we&#x27;ve been fully bootstrapped on Oak with no Git backup for several months: <a href=\"https:&#x2F;&#x2F;oak.space&#x2F;oak&#x2F;oak\" rel=\"nofollow\">https:&#x2F;&#x2F;oak.space&#x2F;oak&#x2F;oak</a>.<p>Blog post: <a href=\"https:&#x2F;&#x2F;oak.space&#x2F;blog#git-is-forever\" rel=\"nofollow\">https:&#x2F;&#x2F;oak.space&#x2F;blog#git-is-forever</a><p>Docs: <a href=\"https:&#x2F;&#x2F;oak.space&#x2F;docs\" rel=\"nofollow\">https:&#x2F;&#x2F;oak.space&#x2F;docs</a>",
+  "url": "https://oak.space/oak/oak"
+}

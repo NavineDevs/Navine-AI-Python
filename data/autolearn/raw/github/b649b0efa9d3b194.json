@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:actioncable/karma.conf.js",
+  "title": "rails/rails/actioncable/karma.conf.js",
+  "text": "const config = {\n  browsers: [\"ChromeHeadless\"],\n  frameworks: [\"qunit\"],\n  files: [\n    \"test/javascript/compiled/test.js\",\n  ],\n\n  client: {\n    clearContext: false,\n    qunit: {\n      showUI: true\n    }\n  },\n\n  singleRun: true,\n  autoWatch: false,\n\n  captureTimeout: 180000,\n  browserDisconnectTimeout: 180000,\n  browserDisconnectTolerance: 3,\n  browserNoActivityTimeout: 300000,\n}\n\nif (process.env.CI) {\n  config.customLaunchers = {\n    sl_chrome: sauce(\"chrome\", 70),\n    sl_ff: sauce(\"firefox\", 63),\n    sl_safari: sauce(\"safari\", \"16\", \"macOS 13\"),\n    sl_edge: sauce(\"microsoftedge\", \"latest\", \"Windows 11\"),\n  }\n\n  config.browsers = Object.keys(config.customLaunchers)\n  config.reporters = [\"dots\", \"saucelabs\"]\n\n  config.sauceLabs = {\n    testName: \"ActionCable JS Client\",\n    retryLimit: 3,\n    build: buildId(),\n  }\n\n  function sauce(browserName, version, platform) {\n    const options = {\n      base: \"SauceLabs\",\n      browserName: browserName.toString(),\n      version: version.toString(),\n    }\n    if (platform) {\n      options.platform = platform.toString()\n    }\n    return options\n  }\n\n  function buildId() {\n    const { BUILDKITE_JOB_ID } = process.env\n    return BUILDKITE_JOB_ID\n      ? `Buildkite ${BUILDKITE_JOB_ID}`\n      : \"\"\n  }\n}\n\nmodule.exports = function(karmaConfig) {\n  karmaConfig.set(config)\n}\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/actioncable/karma.conf.js",
+  "language": "javascript",
+  "kind": "code"
+}

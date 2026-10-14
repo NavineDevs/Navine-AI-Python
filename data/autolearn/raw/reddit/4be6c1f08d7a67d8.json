@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:webdev:t3_1vjrfw8",
+  "title": "Openprovider alternatives? Looking for a reliable registrar API (.ch)",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Hello</p> <p>I’m building a SaaS that automatically registers domains for Swiss SMEs after checkout no manual steps.</p> <p>I’m currently testing Openprovider, but I’m running into issues with their sandbox/API and domain registrations, so I’m looking for alternatives.</p> <p>Main requirements:</p> <ul> <li>REST API for domain availability + registration</li> <li>A working sandbox for testing</li> <li>Registrar only DNS is handled by Cloudflare, hosting by Vercel</li> <li>Ability to set nameservers during registration</li> <li>No large upfront deposit or monthly minimum</li> <li>Webhooks for domain status would be a nice bonus</li> </ul> <p>Who are you using in production for automated domain registrations? </p> <p>How reliable has the API been?</p> <p>Thanks alot!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Syosse-CH\"> /u/Syosse-CH </a> <br/> <span><a href=\"https://www.reddit.com/r/webdev/comments/1vjrfw8/openprovider_alternatives_looking_for_a_reliable/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1vjrfw8/openprovider_alternatives_looking_for_a_reliable/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/webdev/comments/1vjrfw8/openprovider_alternatives_looking_for_a_reliable/"
+}

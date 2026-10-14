@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vw71xm",
+  "title": "If I'm worried about compile times, should I prefer macro_rules! over a custom derive?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I want to add some common elements to a bunch of different structs in my library, but I&#39;ve had bad experiences in the past with macros expanding compile times (e.g. with the <code>bon</code> crate). If something can fairly easily be expressed as a simple <code>macro_rules!</code> call, should I prefer to do that instead of a procedural macro? Should I try and avoid using <code>syn</code> and <code>quote</code> for things that can be done without them?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thurn2\"> /u/thurn2 </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1vw71xm/if_im_worried_about_compile_times_should_i_prefer/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vw71xm/if_im_worried_about_compile_times_should_i_prefer/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vw71xm/if_im_worried_about_compile_times_should_i_prefer/"
+}

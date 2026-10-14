@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0", "torch>=2.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "navine-ai"
+version = "0.1.0"
+description = "Navine AI - Local multimodal AI with text, image, and video models"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "numpy>=1.24.0",
+    "Pillow>=10.0.0",
+    "PyYAML>=6.0",
+    "tqdm>=4.65.0",
+    "einops>=0.7.0",
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.27.0",
+    "pydantic>=2.0.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "opencv-python-headless>=4.8.0",
+    "imageio>=2.31.0",
+    "imageio-ffmpeg>=0.4.9",
+]
+
+[project.scripts]
+navine = "navine.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["navine*"]

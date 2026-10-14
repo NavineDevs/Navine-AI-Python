@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:freeok/so-novel:src/test/resources/js/quanben5.com-search.js",
+  "title": "freeok/so-novel/src/test/resources/js/quanben5.com-search.js",
+  "text": "function base64(_str) {\n  var staticchars = \"PXhw7UT1B0a9kQDKZsjIASmOezxYG4CHo5Jyfg2b8FLpEvRr3WtVnlqMidu6cN\";\n  var encodechars = \"\";\n  for (var i = 0; i < _str.length; i++) {\n    var num0 = staticchars.indexOf(_str[i]);\n    if (num0 == -1) {\n      var code = _str[i]\n    } else {\n      var code = staticchars[(num0 + 3) % 62]\n    }\n    var num1 = parseInt(Math.random() * 62, 10);\n    var num2 = parseInt(Math.random() * 62, 10);\n    encodechars += staticchars[num1] + code + staticchars[num2]\n  }\n  return encodechars\n}\n\n// 计算加密参数 b 的值\nfunction getParamB(keywords) {\n  return encodeURI(base64(encodeURI(keywords)))\n}\n\nconsole.log(getParamB('斗罗大陆'))",
+  "url": "https://raw.githubusercontent.com/freeok/so-novel/main/src/test/resources/js/quanben5.com-search.js",
+  "language": "javascript",
+  "kind": "code"
+}

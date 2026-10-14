@@ -1,0 +1,15 @@
+{
+  "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+  "caption": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+  "filename": "teacher_070.png",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-07-02T11:27:08.312018+00:00",
+  "enhanced_prompt": "a photorealistic full body amateur photo, natural window light, realistic anatomy, high quality, detailed skin texture, sharp focus",
+  "seed": 1829776917,
+  "generation_mode": "diffusers",
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "negative_prompt": "blurry, low quality, deformed, ugly, bad anatomy, watermark, text, censored, mosaic, bar censor, pixelated, low resolution, extra limbs, malformed hands, duplicate, cropped",
+  "model_id": "stabilityai/sd-turbo",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_070.png"
+}

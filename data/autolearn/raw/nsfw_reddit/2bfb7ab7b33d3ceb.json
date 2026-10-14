@@ -1,0 +1,23 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:nsfw:t3_1ucdrlw:rss:img:1",
+  "title": "Azzurra Moretti",
+  "text": "Azzurra Moretti",
+  "url": "https://old.reddit.com/r/nsfw/comments/1ucdrlw/azzurra_moretti/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://external-preview.redd.it/1IiZ-wWa-R18jsfiVUeQfcXNN7ALdMQo7RmQeDvdueU.jpeg?width=320&crop=smart&auto=webp&s=559c9ddf621cdbc566ee30364c1ad91b08427835",
+  "caption": "Azzurra Moretti | [mixed, image] | tags: nsfw, unknown | [real, image] | tags: photography | [image] | [image]",
+  "subreddit": "nsfw",
+  "media_category": "real",
+  "tags": [
+    "mixed",
+    "nsfw",
+    "real",
+    "photography"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

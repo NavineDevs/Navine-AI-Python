@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "reddit:redgifs:t3_13kwe8l",
+  "title": "Currently experiencing Embedding issues on Reddit",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p><strong>UPDATE: Fix has been issued and testing confirms we are back up and running and embeds work as expected. Thank you to</strong> <a href=\"/u/snoogazer\">u/snoogazer</a> <strong>for jumping on this so quickly and resolving.</strong> </p> <p>Hi guys,</p> <p>We are aware of embedding issues currently effecting Reddit. These embed issues effect video uploads (<a href=\"https://redgifs.com/watch\">redgifs.com/watch</a> links) but not i.reddit (image) links.</p> <p>We have investigated on our side and have contacted Reddit via the following posts (as well as via email internally) to resolve.</p> <ul> <li><a href=\"https://www.reddit.com/r/help/comments/13kvyxs/issues_with_redgifs_video_embeds_redgifs_team/\">https://www.reddit.com/r/help/comments/13kvyxs/issues_with_redgifs_video_embeds_redgifs_team/</a></li> <li><a href=\"https://www.reddit.com/r/fixthevideoplayer/comments/13kw0t4/issues_with_redgifs_video_embeds_redgifs_team/\">https://www.reddit.com/r/fixthevideoplayer/comments/13kw0t4/issues_with_redgifs_video_embeds_redgifs_team/</a></li> </ul> <p>Updates will be provided via this thread.</p> <p>We apologise for the inconvenience and will do everything in our power to get back up and running as expected ASAP.</p> <p>Thanks</p> <p>RedGIFs Team</p> <p>Update (16:05 CET, 10:05 ET, 07:05 PT): Communication is ongoing with Reddit and the issue has been identified and confirmed as related to Gfycat going offline (<a href=\"https://www.reddit.com/r/gfycat/comments/13kj3u7/has_gfycat_suddenly_gone_down_for_anyone_else/\">https://www.reddit.com/r/gfycat/comments/13kj3u7/has_gfycat_suddenly_gone_down_for_anyone_else/</a>).</p> <p>The solution is being worked on on Reddit side and we will support that when called upon.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RedGIFsOfficial\"> /u/RedGIFsOfficial </a> <br/> <span><a href=\"https://www.reddit.com/r/redgifs/comments/13kwe8l/currently_experiencing_embedding_issues_on_reddit/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/redgifs/comments/13kwe8l/currently_experiencing_embedding_issues_on_reddit/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/redgifs/comments/13kwe8l/currently_experiencing_embedding_issues_on_reddit/",
+  "category": "nsfw",
+  "subreddit": "redgifs",
+  "media_category": "real",
+  "tags": [
+    "real",
+    "human",
+    "video",
+    "redgifs",
+    "real_video"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real_video"
+}

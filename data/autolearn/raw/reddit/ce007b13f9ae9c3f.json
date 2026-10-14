@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vwc1u3",
+  "title": "Freya 0.4 (GUI Library)",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>A month ago I released the 0.4 version of my Rust GUI library, Freya. It has massively changed since the last 0.3 release, it has a year of work. The blog post contains a summary of Freya&#39;s main features and changes on this new release. </p> <p><a href=\"https://github.com/marc2332/freya/\">Repo</a><br/> <a href=\"https://docs.rs/freya/latest/freya/\">Docs</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mkenzo_8\"> /u/mkenzo_8 </a> <br/> <span><a href=\"https://freyaui.dev/posts/0.4\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vwc1u3/freya_04_gui_library/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vwc1u3/freya_04_gui_library/"
+}

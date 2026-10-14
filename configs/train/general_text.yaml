@@ -1,0 +1,8 @@
+extends: text
+data:
+  train_file: data/text/instruction_chat.txt
+  learned_file: data/text/learned_corpus.txt
+training:
+  max_steps: 800
+  grad_accum_steps: 2
+  warmup_steps: 80

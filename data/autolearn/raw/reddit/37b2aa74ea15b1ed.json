@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:golang:t3_1u2py9o",
+  "title": "How does context actually work?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I know what it does on a high level and for what purpose it is used for, but I don&#39;t know what happens under the hood. Can someone explain?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sleepingfrenzy_\"> /u/sleepingfrenzy_ </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1u2py9o/how_does_context_actually_work/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1u2py9o/how_does_context_actually_work/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/golang/comments/1u2py9o/how_does_context_actually_work/"
+}

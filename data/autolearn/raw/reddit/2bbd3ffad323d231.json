@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:Python:t3_1ur2mlf",
+  "title": "Best Python libraries for fast/real-time voice cloning TTS in 2026?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Building a voice assistant that needs to clone a specific voice and generate speech with low latency — closer to real-time than batch rendering.</p> <p>Currently on Coqui XTTS v2, which works, but curious what people are running now for a better speed/quality tradeoff. Also need solid non-English support — Ukrainian specifically — a lot of TTS libraries handle English great and everything else poorly.</p> <p>Anyone compared XTTS v2 against F5-TTS, StyleTTS2, or other newer options for this kind of use case?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Karotvip-official\"> /u/Karotvip-official </a> <br/> <span><a href=\"https://www.reddit.com/r/Python/comments/1ur2mlf/best_python_libraries_for_fastrealtime_voice/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ur2mlf/best_python_libraries_for_fastrealtime_voice/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/Python/comments/1ur2mlf/best_python_libraries_for_fastrealtime_voice/"
+}

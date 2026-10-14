@@ -1,0 +1,21 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:img:data\\learn\\images\\4chan\\vrpg\\vrpg_1779916161490641.png",
+  "title": "vrpg_1779916161490641",
+  "text": "vrpg_1779916161490641",
+  "url": "data\\nsfw\\images\\local\\general\\vrpg_1779916161490641_1782124581810112000.png",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\nsfw\\images\\local\\general\\vrpg_1779916161490641_1782124581810112000.png",
+  "caption": "vrpg_1779916161490641 | [general, image] | tags: local, unknown",
+  "media_category": "general",
+  "topic": "vrpg",
+  "tags": [
+    "vrpg",
+    "general",
+    "local"
+  ],
+  "subject_type": "unknown",
+  "style_type": "unknown",
+  "training_scope": "nsfw"
+}

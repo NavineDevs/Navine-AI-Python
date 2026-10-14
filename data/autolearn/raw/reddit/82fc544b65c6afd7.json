@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:devops:t3_1vk641k",
+  "title": "Karpenter Implementation",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I want to deploy Karpenter. However, I would like to learn the best practices for using Karpenter on EKS. Currently, we are using app-of-apps in ArgoCD, all within a Managed Node Group.</p> <p>With Karpenter, our plan is to have it configured like this:<br/> - Scale down the MNG and run the Karpenter Controller inside the static MNG, alongside cluster system resources (DaemonSets, add-ons, including ArgoCD)<br/> - Karpenter is managed as an app in ArgoCD (using bootstrap with ArgoCD)</p> <p>Is this design already suitable, or should we consider changing it? We need advice. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Little-Squad-X\"> /u/Little-Squad-X </a> <br/> <span><a href=\"https://www.reddit.com/r/devops/comments/1vk641k/karpenter_implementation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/devops/comments/1vk641k/karpenter_implementation/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/devops/comments/1vk641k/karpenter_implementation/"
+}

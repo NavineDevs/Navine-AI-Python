@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:public-apis/public-apis:scripts/github_pull_request.sh",
+  "title": "public-apis/public-apis/scripts/github_pull_request.sh",
+  "text": "#!/usr/bin/env bash\n\nset -e\n\n# Argument validation\nif [ $# -ne 3 ]; then\n    echo \"Usage: $0 <github-repo> <pull-number> <filename>\"\n    exit 1\nfi\n\n# Assign variables\nGITHUB_REPOSITORY=\"$1\"\nGITHUB_PULL_REQUEST=\"$2\"\nFILENAME=\"$3\"\n\n# Move to root of project\ncd \"$GITHUB_WORKSPACE\"\n\n# Determine files\nFILENAME=\"$( realpath \"${FILENAME}\" )\"\n\n# Skip if build number could not be determined\nif [ -z \"$GITHUB_REPOSITORY\" -o -z \"$GITHUB_PULL_REQUEST\" ]; then\n    echo \"No pull request and/or repository is provided\"\n    exit 1\nfi\n\n# Pull changes on PR\necho \"running on Pull Request #$GITHUB_PULL_REQUEST\"\n\n# Trick the URL validator python script into not seeing this as a URL\nDUMMY_SCHEME=\"https\"\nDIFF_URL=\"$DUMMY_SCHEME://patch-diff.githubusercontent.com/raw/$GITHUB_REPOSITORY/pull/$GITHUB_PULL_REQUEST.diff\"\ncurl -L \"$DIFF_URL\" -o diff.txt\n\n# Construct diff\necho \"------- BEGIN DIFF -------\"\ncat diff.txt\necho \"-------- END DIFF --------\"\ncat diff.txt | egrep \"\\+\" > additions.txt\n\necho \"------ BEGIN ADDITIONS -----\"\ncat additions.txt\necho \"------- END ADDITIONS ------\"\nLINK_FILE=additions.txt\n\n# Validate links\necho \"Running link validation on additions...\"\npython scripts/validate/links.py \"$LINK_FILE\"\n\n# Vebosity\nif [[ $? != 0 ]]; then\n    echo \"link validation failed on additions!\"\n    exit 1\nelse\n    echo \"link validation passed on additions!\"\nfi\n",
+  "url": "https://raw.githubusercontent.com/public-apis/public-apis/master/scripts/github_pull_request.sh",
+  "language": "shell",
+  "kind": "code"
+}

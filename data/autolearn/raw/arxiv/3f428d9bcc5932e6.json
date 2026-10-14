@@ -1,0 +1,8 @@
+{
+  "source": "arxiv",
+  "source_id": "arxiv:2606.13623v1",
+  "title": "Finding Conservation Laws of Large Dynamical Systems with Tasks and Futures: A Case Study in Utilizing Dynamic Data Dependencies",
+  "text": "Finding Conservation Laws of Large Dynamical Systems with Tasks and Futures: A Case Study in Utilizing Dynamic Data Dependencies\n\nAs parallel workloads grow in complexity, managing fine-grained data dependencies becomes a critical challenge. Futures offer a promising model for handling these dependencies, particularly in irregular algorithms, but they also come with the restriction of value-immutability. This immutability limits the ability to perform in-place memory updates, a necessity for high-performance linear algebra where memory recycling is paramount.\n  In this paper, we address these limitations by introducing a new construct, await_delete, which extends traditional future semantics to allow safe value reuse once consumers are finished. Building on this extension, we present a novel future-based algorithm for the block-wise inversion of dense, symmetric matrices, motivated by a recent algorithm for finding conservation laws of dynamical systems.\n  We implement our approach in an extended version of Taskflow and evaluate it through strong-scaling experiments. Our results demonstrate that while futures incur significant overhead on smaller problem sizes, they achieve nearly linear scaling on large matrices. We analyze the amortization threshold and show that futures are a viable high-performance tool for large-scale linear algebra.",
+  "url": "https://arxiv.org/abs/2606.13623v1",
+  "category": "technical"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:rails/rails:actioncable/rollup.config.test.js",
+  "title": "rails/rails/actioncable/rollup.config.test.js",
+  "text": "import commonjs from \"@rollup/plugin-commonjs\"\nimport resolve from \"@rollup/plugin-node-resolve\"\n\nexport default {\n  input: \"test/javascript/src/test.js\",\n\n  output: {\n    file: \"test/javascript/compiled/test.js\",\n    format: \"iife\"\n  },\n\n  plugins: [\n    resolve(),\n    commonjs()\n  ]\n}\n",
+  "url": "https://raw.githubusercontent.com/rails/rails/main/actioncable/rollup.config.test.js",
+  "language": "javascript",
+  "kind": "code"
+}

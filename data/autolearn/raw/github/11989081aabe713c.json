@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:trekhleb/javascript-algorithms:src/playground/playground.js",
+  "title": "trekhleb/javascript-algorithms/src/playground/playground.js",
+  "text": "// Import any algorithmic dependencies you need for your playground code here.\nimport factorial from '../algorithms/math/factorial/factorial';\n\n// Write your playground code inside the playground() function.\n// Test your code from __tests__/playground.test.js\n// Launch playground tests by running: npm test -- 'playground'\nfunction playground() {\n  // Replace the next line with your playground code.\n  return factorial(5);\n}\n\nexport default playground;\n",
+  "url": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/playground/playground.js",
+  "language": "javascript",
+  "kind": "code"
+}

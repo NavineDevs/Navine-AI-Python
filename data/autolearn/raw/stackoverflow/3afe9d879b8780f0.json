@@ -1,0 +1,8 @@
+{
+  "source": "stackoverflow",
+  "source_id": "so:1628563",
+  "title": "Move the most recent commit(s) to a new branch with Git",
+  "text": "Move the most recent commit(s) to a new branch with Git\n\n<p>How do I move my recent commits on <code>master</code> to a new branch, and reset master to before those commits were made? e.g. From this:</p>\n<pre><code>master A - B - C - D - E\n</code></pre>\n<p>To this:</p>\n<pre><code>newbranch     C - D - E\n             /\nmaster A - B \n</code></pre>",
+  "url": "https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git",
+  "kind": "qa"
+}

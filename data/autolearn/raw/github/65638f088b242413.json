@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:vuejs/vue:compiler-sfc/index.js",
+  "title": "vuejs/vue/compiler-sfc/index.js",
+  "text": "module.exports = require('@vue/compiler-sfc')\n",
+  "url": "https://raw.githubusercontent.com/vuejs/vue/main/compiler-sfc/index.js",
+  "language": "javascript",
+  "kind": "code"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "nsfw_local",
+  "source_id": "nsfw_local:data\\learn\\4chan\\text\\gif\\gif_30815711_30815712.txt",
+  "title": "gif_30815711_30815712",
+  "text": ">>30815711 2/3",
+  "url": "data\\learn\\4chan\\text\\gif\\gif_30815711_30815712.txt",
+  "category": "nsfw",
+  "topic": "gif",
+  "tags": [
+    "gif",
+    "nsfw",
+    "local"
+  ],
+  "media_category": "animated",
+  "subject_type": "unknown",
+  "style_type": "mixed",
+  "training_scope": "nsfw"
+}

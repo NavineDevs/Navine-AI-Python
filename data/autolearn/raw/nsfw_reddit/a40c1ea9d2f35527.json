@@ -1,0 +1,23 @@
+{
+  "source": "nsfw_reddit",
+  "source_id": "nsfw_reddit:gonewild:t3_1u5o9im:rss:img:1",
+  "title": "Sunday fun (f)",
+  "text": "Sunday fun (f)",
+  "url": "https://www.reddit.com/r/gonewild/comments/1u5o9im/sunday_fun_f/",
+  "category": "nsfw",
+  "kind": "image",
+  "image_url": "https://preview.redd.it/ctq8v6u6p97h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=7fe95580e3a1e8b7a35d683d3f00a93c656d1b09",
+  "caption": "Sunday fun (f) | [human, image] | tags: real, gonewild | [image, human] | tags: photography | [image, human] | [image, human]",
+  "subreddit": "gonewild",
+  "media_category": "real",
+  "tags": [
+    "human",
+    "real",
+    "gonewild",
+    "photography"
+  ],
+  "subject_type": "human",
+  "style_type": "photography",
+  "training_scope": "nsfw",
+  "source_group": "real"
+}

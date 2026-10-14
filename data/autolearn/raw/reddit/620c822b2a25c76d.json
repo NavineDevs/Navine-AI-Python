@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:programming:t3_1u1512l",
+  "title": "someone actually leaked the Miasma supply chain attack toolkit source code on github",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>we saw that multiple github repos name as Miasma-Open-Source-Release started appearing yesterday which was pushed by a compromised developer accounts. then we pulled the source to dig deeper. And calling it a worm would be very small its kind of a complete supply chain framework you can see which is having <code>ARCHITECTURE</code>.md integration test etc. so it was kind of a product.<br/> ARCHITECTURE.md was saying that it requires no C2 infrastructure and not have to deal with takedowns or maintaining infrastructure. it just stolen github PATs is only what is necessary.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BattleRemote3157\"> /u/BattleRemote3157 </a> <br/> <span><a href=\"https://safedep.io/inside-the-miasma-supply-chain-attack-toolkit/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u1512l/someone_actually_leaked_the_miasma_supply_chain/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/programming/comments/1u1512l/someone_actually_leaked_the_miasma_supply_chain/"
+}

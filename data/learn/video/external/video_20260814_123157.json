@@ -1,0 +1,18 @@
+{
+  "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+  "caption": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+  "filename": "video_20260814_123157.mp4",
+  "teacher_source": "huggingface_diffusers",
+  "timestamp": "2026-08-14T12:32:20.605420+00:00",
+  "enhanced_prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+  "num_frames": 16,
+  "fps": 12,
+  "seed": 862409436,
+  "fallback": true,
+  "secondary_path": true,
+  "nsfw_enhance": false,
+  "category": null,
+  "generation_mode": "external_diffusion_hybrid",
+  "image_model_id": "runwayml/stable-diffusion-v1-5",
+  "output": "C:\\Users\\hitbo\\Downloads\\Navine AI\\outputs\\external\\video\\video_20260814_123157.mp4"
+}

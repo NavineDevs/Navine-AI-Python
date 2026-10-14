@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:java:t3_1u22m9l",
+  "title": "Testcontainer alternatives to managing Docker containers through Java for a UI app?",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>I am trying to build an LLM lab that can orchestrate and interact with various LLMs, Tools and a Vector DB locally.</p> <p>For the SDK and API calls I am using Langchain4j which is straightforward.</p> <p>However for the dependencies I am currently just managing it manually with docker-compose before starting the application. </p> <p>I am now wondering if I can use Testcontainers for starting and stopping Docker containers but it feels wrong as its a test library. </p> <p>--Edit--</p> <p>There is a Docker Java library but not well advertised on Google</p> <p><a href=\"https://github.com/docker-java/docker-java\">https://github.com/docker-java/docker-java</a></p> <p>It might be no issue really to run long lived containers, but interested if there are any alternative libraries or ways to solve this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tomayt0\"> /u/tomayt0 </a> <br/> <span><a href=\"https://www.reddit.com/r/java/comments/1u22m9l/testcontainer_alternatives_to_managing_docker/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/java/comments/1u22m9l/testcontainer_alternatives_to_managing_docker/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/java/comments/1u22m9l/testcontainer_alternatives_to_managing_docker/"
+}

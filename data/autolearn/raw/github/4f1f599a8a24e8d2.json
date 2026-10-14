@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:affaan-m/ECC:eslint.config.js",
+  "title": "affaan-m/ECC/eslint.config.js",
+  "text": "const js = require('@eslint/js');\nconst globals = require('globals');\n\nmodule.exports = [\n    {\n        ignores: ['.opencode/dist/**', '.cursor/**', 'node_modules/**', '.venv/**', 'venv/**', 'coverage/**', 'workflows/**/*.workflow.*', '.claude/workflows/**']\n    },\n    js.configs.recommended,\n    {\n        languageOptions: {\n            ecmaVersion: 2022,\n            sourceType: 'commonjs',\n            globals: {\n                ...globals.node,\n                ...globals.es2022\n            }\n        },\n        rules: {\n            'no-unused-vars': ['error', {\n                argsIgnorePattern: '^_',\n                varsIgnorePattern: '^_',\n                caughtErrorsIgnorePattern: '^_'\n            }],\n            'no-undef': 'error',\n            'eqeqeq': 'warn'\n        }\n    },\n    {\n        files: ['**/*.mjs'],\n        languageOptions: {\n            sourceType: 'module'\n        }\n    }\n];\n",
+  "url": "https://raw.githubusercontent.com/affaan-m/ECC/main/eslint.config.js",
+  "language": "javascript",
+  "kind": "code"
+}

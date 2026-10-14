@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:Y0URD34TH/Project-GLD:Scripts/MSFS-2020-FIX [mod].lua",
+  "title": "Y0URD34TH/Project-GLD/Scripts/MSFS-2020-FIX [mod].lua",
+  "text": "--to view examples and lua params go in this github page: https://github.com/Y0URD34TH/Project-GLD/blob/main/LuaParams.md\r\nif client.GetVersionDouble() < 4.80 then\r\nNotifications.push_error(\"MSFS 2020 Fix\", \"This Script needs Project GLD V4.80+\")\r\nelse\r\nlocal packagepath = \"\"\r\nmenu.add_input_text(\"HLM_Packages\\nPath\")\r\nmenu.set_text(\"HLM_Packages Path\", packagepath)\r\nsettings.load()\r\nNotifications.push_warning(\"MSFS 2020 Fix\", \"Make sure to enable lua file read/write on settings!\")\r\nlocal function TriggerUpdate(info)\r\npackagepath = menu.get_text(\"HLM_Packages\\nPath\")\r\n\r\nif (info.name == \"Microsoft Flight Simulator\" \r\n    or info.name == \"Microsoft Flight Simulator 2020\" \r\n    or info.name == \"MSFS\" \r\n    or info.name == \"MSFS 2020\") \r\n   and packagepath ~= \"\" then\r\n\r\nif file.exists(packagepath) then\r\nlocal pathtodelete = packagepath .. \"\\\\Official\\\\OneStore\\\\fs-base-history\"\r\n\r\nif file.exists(pathtodelete)then\r\nfile.delete(pathtodelete)\r\nNotifications.push_success(\"MSFS 2020 Fix\", \"Update Successfully triggered\")\r\nend\r\n\r\nend\r\nend\r\n\r\nsettings.save()\r\nend\r\n\r\nclient.add_callback(\"on_gamelaunch\", TriggerUpdate)\r\nend\r\n\r\n",
+  "url": "https://raw.githubusercontent.com/Y0URD34TH/Project-GLD/main/Scripts/MSFS-2020-FIX%20%5Bmod%5D.lua",
+  "language": "lua",
+  "kind": "code"
+}

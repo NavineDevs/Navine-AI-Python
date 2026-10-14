@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:react/react:babel.config-ts.js",
+  "title": "react/react/babel.config-ts.js",
+  "text": "/**\n * This file is purely being used for local jest runs, and doesn't participate in the build process.\n */\n'use strict';\n\nmodule.exports = {\n  plugins: [\n    '@babel/plugin-syntax-jsx',\n    '@babel/plugin-transform-flow-strip-types',\n    ['@babel/plugin-transform-class-properties', {loose: true}],\n    ['@babel/plugin-transform-private-methods', {loose: true}],\n    '@babel/plugin-transform-classes',\n  ],\n  presets: [\n    ['@babel/preset-env', {targets: {node: 'current'}}],\n    '@babel/preset-typescript',\n  ],\n};\n",
+  "url": "https://raw.githubusercontent.com/react/react/main/babel.config-ts.js",
+  "language": "javascript",
+  "kind": "code"
+}

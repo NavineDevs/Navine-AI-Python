@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:danielmiessler/SecLists:Discovery/Infrastructure/IPGenerator.sh",
+  "title": "danielmiessler/SecLists/Discovery/Infrastructure/IPGenerator.sh",
+  "text": "#!/usr/bin/env bash\n## IP Generator list. Use many iterations as you need.\n#\n#for a in {1..254};do\n#    echo \"$a.1.1.1\"\n#    for b in {1..254};do\n#        echo \"$a.$b.1.1\"\n#       for c in {1..254};do\n#           echo \"$a.$b.$c.1\"\n#           for d in {1..254};do\n#               echo \"$a.$b.$c.$d\"\n#           done\n#       done\n#    done\n#done\n\nfor a in {1..254};do\n    echo \"10.10.$a.1\" >> IPList.txt # Saving to file\n    for b in {1..254};do\n        echo \"10.10.$a.$b\" >> IPList.txt\n    done\ndone",
+  "url": "https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Infrastructure/IPGenerator.sh",
+  "language": "shell",
+  "kind": "code"
+}

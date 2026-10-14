@@ -1,0 +1,16 @@
+C:\Users\hitbo\Downloads\Navine AI - Python\navine\server.py:125: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [4232]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8766 (Press CTRL+C to quit)
+C:\Users\hitbo\Downloads\Navine AI - Python\navine\image\model.py:272: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.encoder = nn.TransformerEncoder(layer, num_layers=num_layers)
+image checkpoint latest_good.pt produced noise/bland; trying next
+image checkpoint latest_post_mix.pt produced noise/bland; trying next
+Navine online adapt (chat):   0%|          | 0/20 [00:00<?, ?it/s]Navine online adapt (chat):   5%|5         | 1/20 [00:07<02:13,  7.03s/it]Navine online adapt (chat):   5%|5         | 1/20 [00:07<02:13,  7.03s/it, loss=6.1936, lr=1.00e-07]Navine online adapt (chat):  10%|#         | 2/20 [00:13<02:05,  6.99s/it, loss=6.1936, lr=1.00e-07]Navine online adapt (chat):  10%|#         | 2/20 [00:14<02:05,  6.99s/it, loss=6.2118, lr=2.00e-07]Navine online adapt (chat):  15%|#5        | 3/20 [00:19<01:50,  6.47s/it, loss=6.2118, lr=2.00e-07]Navine online adapt (chat):  15%|#5        | 3/20 [00:23<01:50,  6.47s/it, loss=6.1131, lr=3.00e-07]Navine online adapt (chat):  20%|##        | 4/20 [00:34<02:36,  9.75s/it, loss=6.1131, lr=3.00e-07]Navine online adapt (chat):  20%|##        | 4/20 [00:35<02:36,  9.75s/it, loss=7.0136, lr=4.00e-07]Navine online adapt (chat):  25%|##5       | 5/20 [00:55<03:25, 13.73s/it, loss=7.0136, lr=4.00e-07]Navine online adapt (chat):  25%|##5       | 5/20 [00:56<03:25, 13.73s/it, loss=5.9443, lr=5.00e-07]Navine online adapt (chat):  30%|###       | 6/20 [01:51<06:34, 28.19s/it, loss=5.9443, lr=5.00e-07]Navine online adapt (chat):  30%|###       | 6/20 [02:01<06:34, 28.19s/it, loss=7.6274, lr=6.00e-07]Navine online adapt (chat):  35%|###5      | 7/20 [02:57<08:44, 40.36s/it, loss=7.6274, lr=6.00e-07]Navine online adapt (chat):  35%|###5      | 7/20 [03:01<08:44, 40.36s/it, loss=5.9856, lr=7.00e-07]

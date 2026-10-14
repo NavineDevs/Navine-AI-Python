@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:avelino/awesome-go:pkg/markdown/convert_test.go",
+  "title": "avelino/awesome-go/pkg/markdown/convert_test.go",
+  "text": "package markdown\n\nimport (\n\t\"strings\"\n\t\"testing\"\n)\n\nfunc TestToHTML(t *testing.T) {\n\tinput := []byte(\n\t\t`## some headline\nfollowed by some paragraph with [a link](https://example.local)\nand some list:\n- first\n- second\n  - nested on second level\n\t- nested on third level\n\t- ~~strikethrough~~\n  - yet another second level item, **but** with a [a link](https://example.local)\n- end\n\n### h3 headline/header\n\n<a href=\"https://example.local\">embedded HTML is allowed</a>\n  `,\n\t)\n\texpected := []byte(\n\t\t`<h2 id=\"some-headline\">some headline</h2>\n<p>followed by some paragraph with <a href=\"https://example.local\">a link</a>\nand some list:</p>\n<ul>\n<li>first</li>\n<li>second\n<ul>\n<li>nested on second level\n<ul>\n<li>nested on third level</li>\n<li><del>strikethrough</del></li>\n</ul>\n</li>\n<li>yet another second level item, <strong>but</strong> with a <a href=\"https://example.local\">a link</a></li>\n</ul>\n</li>\n<li>end</li>\n</ul>\n<h3 id=\"h3-headlineheader\">h3 headline/header</h3>\n<p><a href=\"https://example.local\">embedded HTML is allowed</a></p>`,\n\t)\n\n\tgot, err := ToHTML(input)\n\tif err != nil {\n\t\tt.Errorf(\"ToHTML() error = %v\", err)\n\t\treturn\n\t}\n\tif strings.TrimSpace(string(got)) != strings.TrimSpace(string(expected)) {\n\t\tt.Errorf(\"ToHTML() got = %v, want %v\", string(got), string(expected))\n\t}\n}\n",
+  "url": "https://raw.githubusercontent.com/avelino/awesome-go/main/pkg/markdown/convert_test.go",
+  "language": "go",
+  "kind": "code"
+}

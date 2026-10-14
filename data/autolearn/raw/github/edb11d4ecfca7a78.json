@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:sorin-ionescu/prezto:modules/emacs/init.zsh",
+  "title": "sorin-ionescu/prezto/modules/emacs/init.zsh",
+  "text": "#\n# Configures Emacs dependency management.\n#\n# Authors: Sebastian Wiesner <lunaryorn@gmail.com>\n#\n\n# Return if requirements are not found.\nif [[ ! -d \"$HOME/.cask\" ]]; then\n  return 1\nfi\n\n# Prepend Cask bin directory.\npath=($HOME/.cask/bin $path)\n\n# Load Carton completion\nsource \"$HOME/.cask/etc/cask_completion.zsh\" 2> /dev/null\n\n#\n# Aliases\n#\n\nif ! zstyle -t ':prezto:module:emacs:alias' skip; then\n  alias cai='cask install'\n  alias cau='cask update'\n  alias caI='cask init'\n  alias cae='cask exec'\nfi\n",
+  "url": "https://raw.githubusercontent.com/sorin-ionescu/prezto/master/modules/emacs/init.zsh",
+  "language": "shell",
+  "kind": "code"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:niieani/bash-oo-framework:example/v1/assign-reference.sh",
+  "title": "niieani/bash-oo-framework/example/v1/assign-reference.sh",
+  "text": "#!/usr/bin/env bash\n\nsource \"$( cd \"${BASH_SOURCE[0]%/*}\" && pwd )/../lib/oo-bootstrap.sh\"\n\n#Log.Debug.SetLevel 3\n\nimport lib/types/base\nimport lib/types/ui\nimport lib/types/util/test\n\nreftest() {\n    [reference] table\n    [reference] retval\n\n    echo ${table[test]}\n    table[ok]=added\n\n    retval=\"boom\"\n}\n\ndeclare -A assoc\nassoc[test]=\"hi\"\n\ndeclare outerKlops\nreftest assoc outerKlops\n\necho ${assoc[ok]}\n\n## dynamic references\n\npassingTest() {\n\t[string] hello\n\t[string] makownik\n\t[string] third\n\t\n\techo Inside Test Func\n\techo $hello + $makownik + $third\n\n\tdeclare -n\n}\n\nsecond=\"works!\"\nsomeArray=(a b c)\n\npassingTest first $ref:second $ref:someArray[1]\n\n\n\n#declare -n refToLocal=\"klops\"\n#echo ${refToLocal[tat]}\n",
+  "url": "https://raw.githubusercontent.com/niieani/bash-oo-framework/master/example/v1/assign-reference.sh",
+  "language": "shell",
+  "kind": "code"
+}

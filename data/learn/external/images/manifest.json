@@ -1,0 +1,1951 @@
+[
+  {
+    "id": "fdf5c6ed4c63584c",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\generated.png",
+    "kind": "image",
+    "timestamp": "2026-06-24T03:38:10.969359+00:00"
+  },
+  {
+    "id": "fdf5c6ed4c63584c",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_001.png",
+    "kind": "image",
+    "timestamp": "2026-06-24T04:23:33.123382+00:00"
+  },
+  {
+    "id": "901959e36501c343",
+    "prompt": "anime hentai style illustration, detailed character art, soft shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_002.png",
+    "kind": "image",
+    "timestamp": "2026-06-24T04:28:02.922026+00:00"
+  },
+  {
+    "id": "0e6c0b34963493bb",
+    "prompt": "anime girl with blue hair, detailed illustration, vibrant colors",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_003.png",
+    "kind": "image",
+    "timestamp": "2026-06-24T04:32:33.169112+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_004.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T11:31:13.486189+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_005.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T11:31:51.398750+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_006.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T11:32:18.938932+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_007.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T11:32:57.550335+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_008.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T11:33:32.898228+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_009.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T12:21:57.698544+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_010.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T12:22:21.760867+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_011.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T12:22:46.718824+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_012.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T12:23:09.379782+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_013.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T12:23:32.374986+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_014.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T14:22:19.268477+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_015.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T14:23:07.137403+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_016.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T14:23:54.977909+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_017.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T14:24:46.473493+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_018.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T14:25:27.934055+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_019.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T15:52:46.704666+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_020.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T15:53:40.740378+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_021.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T15:54:25.309617+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_022.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T15:55:21.445423+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_023.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T15:57:02.613108+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_024.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T18:05:16.057693+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_025.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T18:05:52.524984+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_026.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T18:06:27.026672+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_027.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T18:06:57.360135+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_028.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T18:07:27.658500+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_029.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T19:38:16.726302+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_030.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T19:39:16.080522+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_031.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T19:39:59.825525+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_032.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T19:40:40.069927+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_033.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T19:41:19.282553+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_034.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T21:04:04.791114+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_035.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T21:04:57.557786+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_036.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T21:05:50.180294+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_037.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T21:06:44.336359+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_038.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T21:07:29.061063+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_039.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T22:06:05.278438+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_040.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T22:06:30.856444+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_041.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T22:06:48.307191+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_042.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T22:07:06.203662+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_043.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-06-24T22:07:23.074334+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_044.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T06:08:05.892306+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_045.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T06:10:28.877715+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_046.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T06:11:44.090141+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_047.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T06:13:46.379393+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_048.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T06:15:28.697935+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_049.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T07:07:22.737979+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_050.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T07:08:24.200172+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_051.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T07:09:04.474462+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_052.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T07:09:50.880053+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_053.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T07:10:36.075150+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_054.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T08:09:14.810711+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_055.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T08:10:09.603912+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_056.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T08:10:56.351754+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_057.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T08:11:55.381189+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_058.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T08:16:13.928702+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_059.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T10:24:03.966384+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_060.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T10:24:42.151403+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_061.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T10:25:27.966700+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_062.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T10:26:16.049220+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_063.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T10:27:17.422222+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_064.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:01:38.882359+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_065.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:01:55.645470+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_066.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:02:11.359905+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_067.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:02:25.878599+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_068.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:02:41.737994+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_069.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:26:54.051770+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_070.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:27:08.461491+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_071.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:27:24.647271+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_072.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:27:39.715811+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_073.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:27:54.709182+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_074.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:52:20.865415+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_075.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:52:38.037385+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_076.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:52:53.613819+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_077.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:53:10.964805+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_078.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T11:53:26.321663+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_079.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T12:51:45.962882+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_080.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T12:52:01.299808+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_081.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T12:52:16.937091+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_082.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T12:52:34.962177+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_083.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T12:52:50.716920+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_084.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T13:18:30.890048+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_085.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T13:18:56.878651+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_086.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T13:19:23.903036+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_087.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T13:19:47.580629+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_088.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T13:20:12.557032+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_089.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T13:50:24.407214+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_090.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T13:50:57.171083+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_091.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T13:51:27.750009+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_092.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T13:51:52.208694+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_093.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T13:52:16.835822+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_094.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T14:20:27.117290+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_095.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T14:20:46.161394+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_096.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T14:21:01.322140+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_097.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T14:21:16.283777+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_098.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T14:21:31.279139+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_099.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T15:20:31.152771+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_100.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T15:21:06.398704+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_101.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T15:21:39.031720+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_102.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T15:22:03.393234+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_103.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T15:22:26.461142+00:00"
+  },
+  {
+    "id": "74ebcfa8484255ac",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_104.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T16:05:54.115852+00:00"
+  },
+  {
+    "id": "5a80e675d386bd3f",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_105.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T16:06:32.945390+00:00"
+  },
+  {
+    "id": "3af33a52dae02b98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_106.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T16:07:12.536682+00:00"
+  },
+  {
+    "id": "8c4c432ed0231fb8",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_107.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T16:07:52.811785+00:00"
+  },
+  {
+    "id": "a5c22b0378bc7988",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_108.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-02T16:08:28.098633+00:00"
+  },
+  {
+    "id": "13acef21c07e9c7d",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_109.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-07-08T23:51:26.456997+00:00"
+  },
+  {
+    "id": "2b11348c5f22a6e6",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_110.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-08T23:51:39.555659+00:00"
+  },
+  {
+    "id": "16553e610464adf7",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_111.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-07-08T23:51:53.970904+00:00"
+  },
+  {
+    "id": "59e6ba1bc0621237",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_112.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-08T23:52:03.791792+00:00"
+  },
+  {
+    "id": "abde55aaeafb8bea",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_113.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-07-08T23:52:16.963910+00:00"
+  },
+  {
+    "id": "157b972ed32e2e7e",
+    "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_114.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-08T23:52:26.696345+00:00"
+  },
+  {
+    "id": "935a0775796a20fc",
+    "prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_115.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-07-08T23:52:39.969635+00:00"
+  },
+  {
+    "id": "98ac1e30d8b341fb",
+    "prompt": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_116.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-08T23:52:49.922391+00:00"
+  },
+  {
+    "id": "dc74fef50c248987",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_117.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-08T23:59:02.244706+00:00"
+  },
+  {
+    "id": "8c95fabfaf162210",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_118.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-07-08T23:59:18.695050+00:00"
+  },
+  {
+    "id": "79cc4a63346ad49f",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_119.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-08T23:59:32.393388+00:00"
+  },
+  {
+    "id": "975af1511c6691c3",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_120.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-07-08T23:59:48.141505+00:00"
+  },
+  {
+    "id": "979fda287e84ca91",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_121.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-08T23:59:58.857419+00:00"
+  },
+  {
+    "id": "56135cf826ea48c1",
+    "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_122.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-07-09T00:00:12.387705+00:00"
+  },
+  {
+    "id": "56712e056fecb4fb",
+    "prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_123.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-07-09T00:00:23.030937+00:00"
+  },
+  {
+    "id": "e44b598fe7a13cf0",
+    "prompt": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_124.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-07-09T00:00:36.540682+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_125.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T12:30:49.133664+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_123049.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T12:31:12.090081+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_126.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T12:31:21.508781+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_123121.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T12:31:43.602609+00:00"
+  },
+  {
+    "id": "c5ec5f640d467c46",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_127.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T12:31:56.995022+00:00"
+  },
+  {
+    "id": "b4973ab8145c5e08",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_123157.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T12:32:20.626812+00:00"
+  },
+  {
+    "id": "f8f152b560a4503e",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_128.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T12:32:28.758341+00:00"
+  },
+  {
+    "id": "8f7d628d839cc1b6",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_123228.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T12:32:52.263248+00:00"
+  },
+  {
+    "id": "730e40549429840f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_129.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T12:33:03.476411+00:00"
+  },
+  {
+    "id": "02f14a10615ed53f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_123303.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T12:33:26.451559+00:00"
+  },
+  {
+    "id": "b9b5e6edd7ae4dcc",
+    "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_130.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T12:33:49.478151+00:00"
+  },
+  {
+    "id": "0d82916ba84f0976",
+    "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_123349.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T12:34:14.068505+00:00"
+  },
+  {
+    "id": "c8847e29c2566745",
+    "prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_131.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T12:34:24.945295+00:00"
+  },
+  {
+    "id": "d92608186a5f2f81",
+    "prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_123424.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T12:34:47.765849+00:00"
+  },
+  {
+    "id": "ce8bc7c6e4b3d6ce",
+    "prompt": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_132.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T12:34:57.790029+00:00"
+  },
+  {
+    "id": "b67d9ec037403537",
+    "prompt": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_123457.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T12:35:22.001227+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_133.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T14:07:17.806983+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_140717.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T14:07:37.532323+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_134.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T14:07:46.073449+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_140746.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T14:08:04.086555+00:00"
+  },
+  {
+    "id": "f41b8374c062009b",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_135.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T14:08:13.314871+00:00"
+  },
+  {
+    "id": "736fbc2d3f99f909",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_140813.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T14:08:29.990332+00:00"
+  },
+  {
+    "id": "f8f152b560a4503e",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_136.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T14:08:37.293702+00:00"
+  },
+  {
+    "id": "8f7d628d839cc1b6",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_140837.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T14:08:55.964895+00:00"
+  },
+  {
+    "id": "730e40549429840f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_137.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T14:09:03.355643+00:00"
+  },
+  {
+    "id": "02f14a10615ed53f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_140903.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T14:09:18.407546+00:00"
+  },
+  {
+    "id": "98aab8eb0ea43831",
+    "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_138.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T14:09:38.807541+00:00"
+  },
+  {
+    "id": "07160109024b323c",
+    "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_140938.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T14:09:58.086202+00:00"
+  },
+  {
+    "id": "4124512068663730",
+    "prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_139.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T14:10:05.729592+00:00"
+  },
+  {
+    "id": "aca3d1cdb6441074",
+    "prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_141005.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T14:10:22.178017+00:00"
+  },
+  {
+    "id": "9faf2f394ee0511a",
+    "prompt": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_140.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T14:10:30.915414+00:00"
+  },
+  {
+    "id": "378b95975b013617",
+    "prompt": "anime portrait illustration, blue hair, detailed eyes, soft shading, vibrant palette",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_141030.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T14:10:49.450984+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_141.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T15:37:42.489571+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_153742.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T15:38:05.562999+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_142.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T15:38:14.593548+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_153814.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T15:38:35.714808+00:00"
+  },
+  {
+    "id": "2f1c136dcab2d4bb",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_143.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T15:38:46.792433+00:00"
+  },
+  {
+    "id": "7e01d8cd7021dbea",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_153846.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T15:39:08.414069+00:00"
+  },
+  {
+    "id": "f8f152b560a4503e",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_144.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T15:39:16.420161+00:00"
+  },
+  {
+    "id": "8f7d628d839cc1b6",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_153916.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T15:39:36.827107+00:00"
+  },
+  {
+    "id": "730e40549429840f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_145.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T15:39:45.788090+00:00"
+  },
+  {
+    "id": "02f14a10615ed53f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_153945.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T15:40:03.659476+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_147.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T16:50:26.370271+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_165026.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T16:50:50.672032+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_148.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T16:51:00.077633+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_165100.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T16:51:22.974226+00:00"
+  },
+  {
+    "id": "68903296dce42e98",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_149.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T16:51:36.120960+00:00"
+  },
+  {
+    "id": "69d985e860d34ff2",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_165136.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T16:51:57.634436+00:00"
+  },
+  {
+    "id": "f8f152b560a4503e",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_150.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T16:52:06.203383+00:00"
+  },
+  {
+    "id": "8f7d628d839cc1b6",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_165206.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T16:52:27.145765+00:00"
+  },
+  {
+    "id": "730e40549429840f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_151.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T16:52:35.992782+00:00"
+  },
+  {
+    "id": "02f14a10615ed53f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_165235.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T16:52:54.595688+00:00"
+  },
+  {
+    "id": "37690a0192db37c9",
+    "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_152.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T16:53:18.146850+00:00"
+  },
+  {
+    "id": "a553dbe1ec251381",
+    "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_165318.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T16:53:42.869297+00:00"
+  },
+  {
+    "id": "9eba03323cd2e999",
+    "prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_153.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T16:53:53.383211+00:00"
+  },
+  {
+    "id": "404e711859546a4f",
+    "prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_165353.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T16:54:15.077924+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_155.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T17:50:08.278967+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_175008.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T17:50:31.749265+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_156.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T17:50:40.485732+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_175040.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T17:51:02.450806+00:00"
+  },
+  {
+    "id": "f90f3a8743b26e61",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_157.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T17:51:13.691833+00:00"
+  },
+  {
+    "id": "e2d6dd058954ce7e",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_175113.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T17:51:36.450062+00:00"
+  },
+  {
+    "id": "f8f152b560a4503e",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_158.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T17:51:44.317843+00:00"
+  },
+  {
+    "id": "8f7d628d839cc1b6",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_175144.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T17:52:07.980435+00:00"
+  },
+  {
+    "id": "730e40549429840f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_159.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T17:52:18.975002+00:00"
+  },
+  {
+    "id": "02f14a10615ed53f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_175218.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T17:52:38.145456+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_161.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T18:53:18.428839+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_185318.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T18:53:43.048002+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_162.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T18:53:52.459629+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_185352.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T18:54:13.781116+00:00"
+  },
+  {
+    "id": "f59a94703140a808",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_163.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T18:54:24.922996+00:00"
+  },
+  {
+    "id": "db397ee759cd76b9",
+    "prompt": "photorealistic candid portrait, soft daylight, shallow depth of field, natural skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_185424.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T18:54:45.725998+00:00"
+  },
+  {
+    "id": "f8f152b560a4503e",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_164.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T18:54:54.171741+00:00"
+  },
+  {
+    "id": "8f7d628d839cc1b6",
+    "prompt": "professional headshot photograph, neutral background, high detail pores and skin",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_185454.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T18:55:15.778205+00:00"
+  },
+  {
+    "id": "730e40549429840f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_165.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T18:55:26.161425+00:00"
+  },
+  {
+    "id": "02f14a10615ed53f",
+    "prompt": "photorealistic beach portrait, golden hour sunlight, natural skin tones, sharp focus",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_185526.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T18:55:44.776189+00:00"
+  },
+  {
+    "id": "9bf1d716941daafb",
+    "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_166.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T18:56:08.119012+00:00"
+  },
+  {
+    "id": "6f903831ff35facd",
+    "prompt": "anime hentai style explicit illustration, detailed character art, soft cel shading",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_185608.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T18:56:33.613241+00:00"
+  },
+  {
+    "id": "bba98074dae97a6a",
+    "prompt": "hentai ecchi anime girl, vibrant colors, sharp linework, detailed anatomy, illustration",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_167.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T18:56:44.863644+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_168.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T20:04:07.218096+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_200407.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T20:04:30.013924+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_169.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T20:04:39.011310+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_200439.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T20:05:02.427106+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_171.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T21:07:21.345820+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_210721.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T21:07:44.543007+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_172.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T21:07:53.459693+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_210753.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T21:08:16.772323+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_174.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T22:06:12.994304+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_220613.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T22:06:36.702961+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_175.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T22:06:45.813375+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_220645.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T22:07:09.151041+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_177.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-14T23:18:49.544911+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_231849.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T23:19:12.955777+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_178.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-14T23:19:22.215342+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260814_231922.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-14T23:19:44.787378+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_180.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-15T00:18:34.374042+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_001834.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T00:18:56.975398+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_181.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-15T00:19:06.042501+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_001906.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T00:19:29.167736+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_183.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-15T01:22:06.297599+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_012206.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T01:22:29.013586+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_184.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-15T01:22:38.145762+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_012238.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T01:23:01.685086+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_186.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-15T02:32:06.002751+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_023206.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T02:32:32.534722+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_187.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-15T02:32:43.058721+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_023243.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T02:33:06.461197+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_189.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-15T03:37:13.796150+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_033713.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T03:37:37.925549+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_190.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-15T03:37:47.345872+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_033747.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T03:38:11.177522+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_192.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-15T04:37:03.651968+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_043703.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T04:37:29.498300+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_193.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-15T04:37:38.729812+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_043738.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T04:38:02.455740+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_195.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-15T05:51:10.044307+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_055110.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T05:51:36.496299+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_196.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-15T05:51:45.296878+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_055145.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T05:52:08.910990+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_198.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-15T06:50:57.058639+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_065057.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T06:51:17.581268+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_199.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-15T06:51:26.172375+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_065126.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T06:51:46.162029+00:00"
+  },
+  {
+    "id": "16634852d3671a20",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_201.png",
+    "kind": "image",
+    "model": "runwayml/stable-diffusion-v1-5",
+    "timestamp": "2026-08-15T07:54:44.080977+00:00"
+  },
+  {
+    "id": "d6664e53b94fb443",
+    "prompt": "photorealistic portrait of a woman, studio lighting, sharp focus, detailed skin texture",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_075444.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T07:55:04.021872+00:00"
+  },
+  {
+    "id": "9b7c982f9e42fdc3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\images\\teacher_202.png",
+    "kind": "image",
+    "model": "stabilityai/sd-turbo",
+    "timestamp": "2026-08-15T07:55:12.775552+00:00"
+  },
+  {
+    "id": "859e09f4c4d48ee3",
+    "prompt": "photorealistic full body amateur photo, natural window light, realistic anatomy",
+    "path": "C:\\Users\\hitbo\\Downloads\\Navine AI\\data\\learn\\external\\video\\video_20260815_075512.mp4",
+    "kind": "video",
+    "timestamp": "2026-08-15T07:55:31.101365+00:00"
+  }
+]

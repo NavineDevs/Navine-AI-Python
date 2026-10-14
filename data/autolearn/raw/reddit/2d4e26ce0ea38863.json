@@ -1,0 +1,7 @@
+{
+  "source": "reddit",
+  "source_id": "reddit:rust:t3_1vkkhl9",
+  "title": "[OC] Wallr just reached 100 GitHub stars -- thanks, r/rust! 💝🎉",
+  "text": "<!-- SC_OFF --><div class=\"md\"><p>Wallr just hit 100 stars on GitHub 🎉</p> <p>It’s a wallpaper engine for Wayland that handles animated wallpaper transitions using GPU shaders, with transitions defined in YAML rather than being limited to a fixed set.</p> <p>It can also run Matugen, Wallust, or Pywal afterward to regenerate your theme and reload things like Waybar, Kitty, and GTK.</p> <pre><code>wallr img ~/Pictures/forest.jpg </code></pre> <p>The idea is basically:</p> <p><strong>animate → set wallpaper → update theme → reload</strong></p> <p>It works with Hyprland, Sway, niri, and KDE Plasma Wayland through <code>wlr-layer-shell</code>.</p> <p>Thanks to everyone who has tried it, reported issues, or starred the repo. I honestly didn&#39;t expect to reach 100 this quickly.</p> <p>Repo: <a href=\"https://github.com/programmersd21/wallr\">https://github.com/programmersd21/wallr</a></p> <p>Feedback is always welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Klutzy_Bird_7802\"> /u/Klutzy_Bird_7802 </a> <br/> <span><a href=\"https://i.redd.it/h17pnbmmrjih1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1vkkhl9/oc_wallr_just_reached_100_github_stars_thanks/\">[comments]</a></span>",
+  "url": "https://www.reddit.com/r/rust/comments/1vkkhl9/oc_wallr_just_reached_100_github_stars_thanks/"
+}

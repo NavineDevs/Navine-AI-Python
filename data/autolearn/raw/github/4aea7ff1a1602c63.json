@@ -1,0 +1,9 @@
+{
+  "source": "github",
+  "source_id": "github:InsertKoinIO/koin:projects/release.sh",
+  "title": "InsertKoinIO/koin/projects/release.sh",
+  "text": "#!/bin/sh\n\n./gradlew publishAggregationToCentralPortal --no-configuration-cache\n",
+  "url": "https://raw.githubusercontent.com/InsertKoinIO/koin/main/projects/release.sh",
+  "language": "shell",
+  "kind": "code"
+}
